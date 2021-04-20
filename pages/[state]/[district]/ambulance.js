@@ -27,3 +27,22 @@ export default function Ambulance() {
     </div>
   );
 }
+
+
+
+export async function getStaticProps({ params }) {
+  return {
+    props: {
+      state: params.state,
+      district: params.district,
+      plasmaListing: plasmaByDistrict(params.state, params.district),
+    },
+  };
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: statePaths(),
+    fallback: false,
+  };
+}
