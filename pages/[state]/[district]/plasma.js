@@ -1,19 +1,9 @@
 import React from "react";
 import { useRouter } from "next/router";
-import MainLayout from "../../../layouts/MainLayout";
 import { plasmaByDistrict } from "../../../lib/api";
 import { statePaths } from "../../../lib/utils";
 
 export default function Plasma({ state, district, plasmaListing }) {
-  const router = useRouter();
-  // if (!router.isFallback) {
-  //   return <ErrorPage statusCode={404} />;
-  // }
-
-  // phone1: '9426871496',
-  // source_link: 'https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222',
-
-  console.log(plasmaListing);
   return (
     <div>
       <div className="text-3xl mt-4 font-bold">
@@ -32,7 +22,7 @@ export default function Plasma({ state, district, plasmaListing }) {
                 <div>{p.description}</div>
                 <div>{p.createdTime}</div>
               </div>
-              <div>
+              <div className="flex flex-col">
                 <a href="tel:${p.phone1}">{p.phone1}</a>
                 <a href={p.source_link}>source</a>
               </div>
