@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { useState } from 'react';
+import { useRouter } from 'next/router';
+import { stateJsonData } from '../data/states';
 
 const tabsArr = [
   'Oxygen',
@@ -14,6 +16,7 @@ const tabsArr = [
 export default function Home() {
   const [geoState, setGeoState] = useState('');
   const [geoDistrict, setGeoDistrict] = useState('');
+  const router = useRouter();
   return (
     <div>
       <Head>
@@ -27,6 +30,7 @@ export default function Home() {
           </Link>
         ))}
       </div>
+      <section></section>
       <section>
         <select
           name='state'
@@ -34,28 +38,31 @@ export default function Home() {
           value={geoState}
           onChange={(e) => setGeoState(e.target.value)}
         >
-          <option value='KR'>Kerela</option>
-          <option value='MH'>Maharashtra</option>
-          <option value='KR'>Kerela</option>
-          <option value='MH'>Maharashtra</option>
-          <option value='KR'>Kerela</option>
-          <option value='MH'>Maharashtra</option>
+          <option value='' disabled>
+            Select State
+          </option>
+          {Object.keys(stateJsonData).map((st) => (
+            <option key={st} value={st}>
+              {st}
+            </option>
+          ))}
         </select>
-      </section>
-      <section>
         <select
           name='district'
           id='district'
           value={geoDistrict}
           onChange={(e) => setGeoDistrict(e.target.value)}
         >
-          <option value='Raigad'>Raigad</option>
-          <option value='Pune'>Pune</option>
-          <option value='Raigad'>Raigad</option>
-          <option value='Pune'>Pune</option>
+          {Object.values(stateJsonData).map((disArr) =>
+            disArr.map((dis) => (
+              <option key={dis} value={dis}>
+                {dis}
+              </option>
+            ))
+          )}
         </select>
         <button
-          onClick={() => console.log(`Searching: ${geoState} ${geoDistrict}`)}
+          onClick={() => router.push(`/medicine/${geoState}/${geoDistrict}`)}
         >
           Search
         </button>
