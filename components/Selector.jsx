@@ -2,6 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import reqData from "../data/states.json";
 import { districtWithState } from "../lib/api";
+import { parametreize } from "../lib/utils";
 
 const state = Object.keys(reqData);
 const district = districtWithState();
@@ -38,15 +39,15 @@ const Selector = ({ data }) => {
             {filterTests(state).map((i) => {
               return (
                 <h1>
-                  <Link href={i}>{i}</Link>
+                  <Link href={parametreize(i)}>{i}</Link>
                 </h1>
               );
             })}
           </div>
           <div className="w-1/2">
-            <h1>Dis</h1>
+            <h1>District</h1>
             {filterTests(district, "district").map((i) => {
-              const url = `/${i.state}/${i.district}`;
+              const url =`/${parametreize(i.state)}/${parametreize(i.district)}`;
               return (
                 <h1>
                   <Link href={url}>{i.district}</Link>

@@ -2,22 +2,70 @@ import React from "react";
 import { useRouter } from "next/router";
 import { getDistricts } from "../lib/api";
 import { statesStaticPaths } from "../lib/utils";
+import { statesAndDistrict } from "../lib/api";
+import { parametreize } from "../lib/utils";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLungsVirus,
+  faSyringe,
+  faHospital,
+  faPhoneAlt,
+  faAmbulance,
+  faCapsules,
+} from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
+
+const tabsInfo = [
+  { name: "Oxygen", icon: faLungsVirus, link: "/", color: "bg-red-600" },
+  {
+    name: "Medicine",
+    icon: faCapsules,
+    link: "/medicines",
+    color: "bg-green-600",
+  },
+  {
+    name: "Hospital",
+    icon: faHospital,
+    link: "/hospitals",
+    color: "bg-indigo-600",
+  },
+  {
+    name: "Ambulance",
+    icon: faAmbulance,
+    link: "/ambulance",
+    color: "bg-blue-600",
+  },
+  { name: "Plasma", icon: faSyringe, link: "/plasma", color: "bg-yellow-600" },
+];
 
 export default function State({ state }) {
   let districts = getDistricts(state);
   return (
     <div className="mx-auto max-w-5xl">
       <div className="w-full">
-        {districts.map((d) => {
-          return (
-            <div
-              key={d.district}
-              className="p-4 shadow-md rounded-md m-4 w-full"
-            >
-              <span>{d.district}</span>
+        {districts &&
+          districts.map(({ district }) => (
+            <div className="p-4 flex itemms-center shadow-md rounded-md m-4 w-full">
+              <span>{district}</span>
+              <div className="ml-auto">
+                {tabsInfo.map((tab) => (
+                  <span
+                    className={`text-sm ml-3 py-1 px-2 text-white rounded shadow-md ${tab.color}`}
+                  >
+                    <Link
+                      href={`/${parametreize(state)}/${parametreize(district)}${
+                        tab.link
+                      }`}
+                    >
+                      <>
+                        <FontAwesomeIcon icon={tab.icon} /> {tab.name}
+                      </>
+                    </Link>
+                  </span>
+                ))}
+              </div>
             </div>
-          );
-        })}
+          ))}
       </div>
     </div>
   );
