@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Medicine = ({ name, phone1, phone2, area, source }) => {
+const AmbulanceCard = ({ name, phone1, phone2, area, source }) => {
   return (
     <li className="list-none col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200">
         <div className="w-full flex items-center justify-between p-6 space-x-6">
@@ -38,4 +38,4 @@ const Medicine = ({ name, phone1, phone2, area, source }) => {
   );
 };
 
-export default Medicine;
+export default AmbulanceCard;

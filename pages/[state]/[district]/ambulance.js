@@ -7,7 +7,7 @@ import AmbulanceCard from "../../../components/AmbulanceCard";
 
 export default function Ambulance() {
   const route = useRouter();
-  const { state, district } = route.query;
+  let { state, district } = route.query;
   const [ambulances, setAmbulances] = useState(ambulanceData)
 
   console.log(state, district, ambulances)
@@ -15,7 +15,7 @@ export default function Ambulance() {
   useEffect(() => {
     if(state == undefined) state = "";
     if(district == undefined) district = "";
-    let filteredAmbulances = ambulances.filter((ambulance) => (ambulance.state.includes(state) && ambulance.district.includes(district)));
+    let filteredAmbulances = ambulances.filter((ambulance) => (ambulance.state.toLowerCase().includes(state.toLowerCase()) && ambulance.district.toLowerCase().includes(district.toLowerCase())));
     setAmbulances(filteredAmbulances);
   }, [state, district])
 
