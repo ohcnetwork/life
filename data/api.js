@@ -1,6 +1,6 @@
 import plasmaObjects from "../data/plasma.json";
+import ambulancesObjects from "../data/ambulance.json";
 import stateObjects from "../data/states.json";
-import ambulanceObjects from "../data/ambulance.json";
 import { parametreize } from "./utils";
 
 export function plasmaByDistrict(state, district) {
@@ -34,9 +34,9 @@ export function getDistricts(state) {
 }
 
 export function getAmbulances(state, district) {
-  let obs = ambulanceObjects["data"].filter(
-    (p) =>
-      parametreize(p.state) == state && parametreize(p.district) == district
+  ambulancesObjects.filter(
+    (ambulance) =>
+      parametreize(ambulance.state) == state &&
+      parametreize(ambulance.district) == district
   );
-  return obs;
 }
