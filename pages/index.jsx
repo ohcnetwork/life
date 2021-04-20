@@ -1,16 +1,25 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { stateJsonData } from '../data/states';
+import Tabs from '../components/Tabs';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import {
+  faLungsVirus,
+  faSyringe,
+  faHospital,
+  faPhoneAlt,
+  faAmbulance,
+  faCapsules
+} from "@fortawesome/free-solid-svg-icons";
 
-const tabsArr = [
-  'Oxygen',
-  'Medicine',
-  'Ambulance',
-  'Plasma',
-  'Helpline',
-  'Hospital',
+const tabsInfo = [
+  { name: "Oxygen", icon: faLungsVirus, link: "/" },
+  { name: "Medicine", icon: faCapsules, link: "/medicines" },
+  { name: "Hospital", icon: faHospital, link: "/hospitals" },
+  { name: "Ambulance", icon: faAmbulance, link: "/ambulance" },
+  { name: "Helpline", icon: faPhoneAlt, link: "/helpline" },
+  { name: "Plasma", icon: faSyringe, link: "/plasma" }
 ];
 
 export default function Home() {
@@ -23,13 +32,7 @@ export default function Home() {
         <title>Life | Coronasafe network</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <div className='py-4 flex items-center justify-around'>
-        {tabsArr.map((tb) => (
-          <Link href={`/${tb}`}>
-            <p>{tb}</p>
-          </Link>
-        ))}
-      </div>
+      <Tabs tabsInfo={tabsInfo} />
       <section></section>
       <section>
         <select
