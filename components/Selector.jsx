@@ -1,12 +1,10 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import reqData from "../data/states.json";
+import { districtWithState } from "../lib/api";
 
 const state = Object.keys(reqData);
-const district = state.reduce((acc, cur) => {
-  const temp = reqData[cur].map((i) => ({ state: cur, district: i }));
-  return [...acc, ...temp];
-}, []);
+const district = districtWithState();
 
 const Selector = ({ data }) => {
   const [searchStr, setSearchStr] = useState("");
