@@ -77,7 +77,7 @@ def get_oxygen_data():
                 "phone2": record["fields"].get("Phone 2"),
                 "sourceLink": record["fields"].get("Source link"),
                 "createdTime": record["createdTime"],
-                "sourceBame": record["fields"].get("Source Name"),
+                "sourceName": record["fields"].get("Source Name"),
                 "companyName": record["fields"].get("Company name"),
                 "verifiedStatus": record["fields"].get("Verified status").strip()
                 if "Verified status" in record["fields"]

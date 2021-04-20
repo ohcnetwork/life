@@ -1,34 +1,46 @@
-import React from 'react';
-import { useRouter } from 'next/router';
+import React from "react";
+import { useRouter } from "next/router";
+import { getOxygen } from "../../../lib/api";
+import { statePaths } from "../../../lib/utils";
+import OxygenCard from "../../../components/OxygenCard";
 
-const Oxygen = ({ data }) => {
-  const route = useRouter();
-  const { state, district } = route.query;
-  console.log(data);
-  return <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 p-4">
-    <OxygenCard name="Ashwin" company="Ashwin Oxygen" phone1={999998888} phone2={999999888} description="some long lomg lomg lomg lomg lomg string" source="google" slink="https://google.com" fstate="Tamil Nadu" fdistrict="Madurai" />
-    <OxygenCard name="Ashwin" company="Ashwin Oxygen" phone1={999998888} phone2={999999888} description="some long lomg lomg lomg lomg lomg string" source="google" slink="https://google.com" fstate="Tamil Nadu" fdistrict="Madurai" />
-    <OxygenCard name="Ashwin" company="Ashwin Oxygen" phone1={999998888} phone2={999999888} description="some long lomg lomg lomg lomg lomg string" source="google" slink="https://google.com" fstate="Tamil Nadu" fdistrict="Madurai" />
-    </div>;
-};
-
-export default Oxygen;
-
-export async function getStaticPaths() {
-    return {
-        paths: [],
-        fallback: false
-    }
+export default function Oxygen({ state, district, oxygenListing }) {
+  return (
+    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 p-4">
+      {oxygenListing.map((o) => {
+        console.log(o);
+        return (
+          <OxygenCard
+            key={o.id}
+            name={o.name}
+            company={o.companyName}
+            phone1={o.phone1}
+            phone2={o.phone2}
+            description={o.description}
+            source={o.sourceName}
+            slink={o.sourceLink}
+            fstate={state}
+            fdistrict={district}
+          />
+        );
+      })}
+    </div>
+  );
 }
 
-
-export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/api/oxygen');
-  const data = await res.json();
+export async function getStaticProps({ params }) {
   return {
     props: {
-      data,
+      state: params.state,
+      district: params.district,
+      oxygenListing: getOxygen(params.state, params.district),
     },
-    revalidate: 1,
+  };
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: statePaths(),
+    fallback: false,
   };
 }
