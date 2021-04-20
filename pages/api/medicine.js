@@ -1,0 +1,66 @@
+const medicineData = [
+  {
+    state: 'Andhra Pradesh',
+    city: 'Vishaka',
+    categories: 'Remdesivir',
+    distributorName: 'Deepankar Drugs',
+    phoneNo1: 90909090909,
+    address: 'Hello World',
+    description: 'Remdesivir Distribution',
+    emailId: 'deep@gmail.com',
+  },
+  {
+    state: 'Andhra Pradesh',
+    city: 'Vishaka',
+    categories: 'Remdesivir',
+    distributorName: 'Deepankar Drugs',
+    phoneNo1: 90909090909,
+    address: 'Hello World',
+    description: 'Remdesivir Distribution',
+    emailId: 'deep@gmail.com',
+  },
+  {
+    state: 'Andhra Pradesh',
+    city: 'Vishaka',
+    categories: 'Remdesivir',
+    distributorName: 'Deepankar Drugs',
+    phoneNo1: 90909090909,
+    address: 'Hello World',
+    description: 'Remdesivir Distribution',
+    emailId: 'deep@gmail.com',
+  },
+  {
+    state: 'Andhra Pradesh',
+    city: 'Vishaka',
+    categories: 'Remdesivir',
+    distributorName: 'Deepankar Drugs',
+    phoneNo1: 90909090909,
+    address: 'Hello World',
+    description: 'Remdesivir Distribution',
+    emailId: 'deep@gmail.com',
+  },
+  {
+    state: 'Andhra Pradesh',
+    city: 'Vishaka',
+    categories: 'Remdesivir',
+    distributorName: 'Deepankar Drugs',
+    phoneNo1: 90909090909,
+    address: 'Hello World',
+    description: 'Remdesivir Distribution',
+    emailId: 'deep@gmail.com',
+  },
+  {
+    state: 'Andhra Pradesh',
+    city: 'Vishaka',
+    categories: 'Remdesivir',
+    distributorName: 'Deepankar Drugs',
+    phoneNo1: 90909090909,
+    address: 'Hello World',
+    description: 'Remdesivir Distribution',
+    emailId: 'deep@gmail.com',
+  },
+];
+
+export default function handler(req, res) {
+  res.status(200).json(medicineData);
+}
