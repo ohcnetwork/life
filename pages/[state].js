@@ -1,7 +1,9 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { statesAndDistrict } from "../../lib/api";
-import { parametreize } from "../../lib/utils";
+import { getDistricts } from "../lib/api";
+import { statesStaticPaths } from "../lib/utils";
+import { statesAndDistrict } from "../lib/api";
+import { parametreize } from "../lib/utils";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLungsVirus,
@@ -36,25 +38,24 @@ const tabsInfo = [
   { name: "Plasma", icon: faSyringe, link: "/plasma", color: "bg-yellow-600" },
 ];
 
-function State() {
-  const router = useRouter();
-  const districts = statesAndDistrict()[router.query.state];
+export default function State({ state }) {
+  let districts = getDistricts(state);
   return (
     <div className="mx-auto max-w-5xl">
       <div className="w-full">
         {districts &&
-          districts.map((dist) => (
+          districts.map(({ district }) => (
             <div className="p-4 flex itemms-center shadow-md rounded-md m-4 w-full">
-              <span>{dist}</span>
+              <span>{district}</span>
               <div className="ml-auto">
                 {tabsInfo.map((tab) => (
                   <span
                     className={`text-sm ml-3 py-1 px-2 text-white rounded shadow-md ${tab.color}`}
                   >
                     <Link
-                      href={`/${parametreize(
-                        router.query.state
-                      )}/${parametreize(dist)}${tab.link}`}
+                      href={`/${parametreize(state)}/${parametreize(district)}${
+                        tab.link
+                      }`}
                     >
                       <>
                         <FontAwesomeIcon icon={tab.icon} /> {tab.name}
@@ -69,8 +70,6 @@ function State() {
     </div>
   );
 }
-
-export default State;
 
 export async function getStaticProps({ params }) {
   return {
