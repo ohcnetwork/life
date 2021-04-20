@@ -38,7 +38,7 @@ const Selector = ({ data }) => {
             {filterTests(state).map((i) => {
               return (
                 <h1>
-                  <Link href={i.toLowerCase()}>{i}</Link>
+                  <Link href={i}>{i}</Link>
                 </h1>
               );
             })}
@@ -46,7 +46,7 @@ const Selector = ({ data }) => {
           <div className="w-1/2">
             <h1>Dis</h1>
             {filterTests(district, "district").map((i) => {
-              const url = `/${i.state}/${i.district}`.toLowerCase();
+              const url = `/${i.state}/${i.district}`;
               return (
                 <h1>
                   <Link href={url}>{i.district}</Link>
