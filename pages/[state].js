@@ -16,26 +16,36 @@ import {
 import Link from "next/link";
 
 const tabsInfo = [
-  { name: "Oxygen", icon: faLungsVirus, link: "/", color: "bg-red-600" },
+  {
+    name: "Oxygen",
+    icon: faLungsVirus,
+    link: "/oxygen",
+    color: "text-red-500",
+  },
   {
     name: "Medicine",
     icon: faCapsules,
     link: "/medicines",
-    color: "bg-green-600",
+    color: "text-green-500",
   },
   {
     name: "Hospital",
     icon: faHospital,
     link: "/hospitals",
-    color: "bg-indigo-600",
+    color: "text-indigo-500",
   },
   {
     name: "Ambulance",
     icon: faAmbulance,
     link: "/ambulance",
-    color: "bg-blue-600",
+    color: "text-blue-500",
   },
-  { name: "Plasma", icon: faSyringe, link: "/plasma", color: "bg-yellow-600" },
+  {
+    name: "Plasma",
+    icon: faSyringe,
+    link: "/plasma",
+    color: "text-yellow-500",
+  },
 ];
 
 export default function State({ state }) {
@@ -50,16 +60,17 @@ export default function State({ state }) {
               <div className="ml-auto">
                 {tabsInfo.map((tab) => (
                   <span
-                    className={`text-sm ml-3 py-1 px-2 text-white rounded shadow-md ${tab.color}`}
+                    className={`cursor-pointer text-sm ml-3 py-1 px-2 text-white rounded shadow-md ${tab.color}`}
                   >
                     <Link
-                      href={`/${parametreize(state)}/${parametreize(district)}${
+                      href={`[state]/[district]${tab.link}`}
+                      as={`/${parametreize(state)}/${parametreize(district)}${
                         tab.link
                       }`}
                     >
-                      <>
+                      <span>
                         <FontAwesomeIcon icon={tab.icon} /> {tab.name}
-                      </>
+                      </span>
                     </Link>
                   </span>
                 ))}
