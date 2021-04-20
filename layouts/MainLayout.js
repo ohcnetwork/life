@@ -5,16 +5,10 @@ const MainLayout = ({ children }) => {
   return (
     <div>
       <Navbar />
-      {children}
-      <footer>
-        <a
-          href='http://coronasafe.network/'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Powered by Coronasafe
-        </a>
-      </footer>
+      <div className='min-h-screen bg-gray-100 '>
+        <div className='max-w-5xl mx-auto container'>{children}</div>
+      </div>
+      <footer></footer>
     </div>
   );
 };
