@@ -34,10 +34,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Tabs tabsInfo={tabsInfo} />
-      <section></section>
       <section>
         <Selector />
       </section>
+      <section>
+
+      </section>
+
     </div>
   );
 }

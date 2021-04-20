@@ -1,7 +1,17 @@
-import React from 'react';
-import { useRouter } from 'next/router';
+import React from "react";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 const Medicine = ({ data }) => {
+  const [posts, setPosts] = useState([]);
+  useEffect(() => {
+    const getPosts = async () => {
+      const res = await fetch("http://localhost:3000/api/medicine");
+      const posts = await res.json();
+      setPosts(posts);
+    };
+    getPosts();
+  }, []);
   const route = useRouter();
   const { state, district } = route.query;
   console.log(data);
@@ -9,14 +19,3 @@ const Medicine = ({ data }) => {
 };
 
 export default Medicine;
-
-export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/api/medicine');
-  const data = await res.json();
-  return {
-    props: {
-      data,
-    },
-    revalidate: 1, // In seconds
-  };
-}

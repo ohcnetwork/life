@@ -29,7 +29,7 @@ const Selector = ({ data }) => {
       <input
         type="text"
         className="p-4 w-full focus:border-gray-50"
-        placeholder="Search"
+        placeholder="Search for State or District"
         value={searchStr}
         onChange={(e) => setSearchStr(e.target.value)}
       />
