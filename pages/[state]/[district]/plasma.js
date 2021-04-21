@@ -5,8 +5,9 @@ import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 
 export default function Plasma({ state, district, plasmaListing }) {
+  console.log(plasmaListing);
   return (
-    <div>
+    <section className='flex flex-col items-center md:pt-10'>
       <Head>
         <title>
           Plasma in {humanize(district)} , {humanize(state)}
@@ -19,31 +20,32 @@ export default function Plasma({ state, district, plasmaListing }) {
           { href: null, name: 'Plasma' },
         ]}
       />
-      <div className='text-3xl mt-4 font-bold'>
-        {state} / {district}
-      </div>
-
-      <div className='space-y-4 mt-4'>
+      <h1 className='mt-4 font-black text-6xl text-gray-900 md:text-left text-center'>
+        {humanize(district)}
+      </h1>
+      <div className='space-y-4 mt-4 max-w-3xl w-full'>
         {plasmaListing.map((p) => {
           return (
             <div
               key={p.id}
-              className='bg-white p-4 flex shadow rounded-lg justify-between'
+              className='w-full bg-white p-4 flex shadow rounded-lg justify-between'
             >
               <div>
                 <div className='font-bold'>{p.name}</div>
+                <div className='font-bold'>{p.email}</div>
                 <div>{p.description}</div>
+                <div>{p.address}</div>
                 <div>{parseDateString(p.createdTime)}</div>
               </div>
               <div className='flex flex-col'>
-                <a href='tel:${p.phone1}'>{p.phone1}</a>
-                <a href={p.source_link}>source</a>
+                <a href={`tel:${p.phone1}`}>{p.phone1}</a>
+                {p.sourceLink && <a href={p.sourceLink}>source</a>}
               </div>
             </div>
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }
 
