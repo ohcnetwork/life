@@ -1,20 +1,69 @@
-html,
+html {
+  width: 100%;
+  height: 100%;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  color: #453c52;
+  @apply w-full h-full antialiased;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@screen md {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: theme(colors.gray.500) theme(colors.gray.100);
+  }
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: theme(colors.gray.100);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: theme(colors.gray.500);
+    border-radius: 6px;
+    border: 3px solid theme(colors.gray.100);
+  }
 }
 
-* {
-  box-sizing: border-box;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+button:focus {
+  outline: none;
+}

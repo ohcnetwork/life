@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { getDistricts } from "../lib/api";
 import { statesStaticPaths } from "../lib/utils";
 import { statesAndDistrict } from "../lib/api";
-import { parametreize } from "../lib/utils";
+import { parametreize, humanize } from "../lib/utils";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLungsVirus,
@@ -51,32 +51,39 @@ const tabsInfo = [
 export default function State({ state }) {
   let districts = getDistricts(state);
   return (
-    <div className="mx-auto max-w-5xl">
-      <div className="w-full">
-        {districts &&
-          districts.map(({ district }) => (
-            <div className="p-4 flex itemms-center shadow-md rounded-md m-4 w-full">
-              <span>{district}</span>
-              <div className="ml-auto">
-                {tabsInfo.map((tab) => (
-                  <span
-                    className={`cursor-pointer text-sm ml-3 py-1 px-2 text-white rounded shadow-md ${tab.color}`}
-                  >
-                    <Link
-                      href={`[state]/[district]${tab.link}`}
-                      as={`/${parametreize(state)}/${parametreize(district)}${
-                        tab.link
-                      }`}
-                    >
-                      <span>
-                        <FontAwesomeIcon icon={tab.icon} /> {tab.name}
-                      </span>
-                    </Link>
-                  </span>
-                ))}
-              </div>
+    <div className="mx-auto max-w-3xl">
+      <div className="w-full mt-4 px-2">
+        {districts.map(({ district }) => (
+          <div
+            key={district}
+            className="bg-white p-3 md:p-5 items-center justify-between shadow-md rounded-md mt-4 w-full"
+          >
+            <div className="w-full md:w-1/2 pl-4">
+              <span className="font-semibold text-2xl md:text-4xl">
+                {humanize(district)}
+              </span>
             </div>
-          ))}
+            <div className="flex flex-wrap mt-2 items-center">
+              {tabsInfo.map((tab) => (
+                <div className="p-2 w-1/2 md:w-1/3" key={tab.link}>
+                  <Link
+                    href={`[state]/[district]${tab.link}`}
+                    as={`${parametreize(state)}/${parametreize(district)}${
+                      tab.link
+                    }`}
+                  >
+                    <span
+                      className={`text-center items-center justify-center flex md:flex-row flex-col cursor-pointer text-sm p-4 text-white rounded shadow-md hover:bg-gray-100 ${tab.color}`}
+                    >
+                      <FontAwesomeIcon icon={tab.icon} />{" "}
+                      <div className="pl-2">{tab.name}</div>
+                    </span>
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
