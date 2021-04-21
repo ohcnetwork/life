@@ -3,6 +3,7 @@ import { getAmbulances } from '../../../lib/api';
 import { humanize, statePaths } from '../../../lib/utils';
 import AmbulanceCard from '../../../components/AmbulanceCard';
 import Head from 'next/head';
+import Breadcumb from '../../../components/Breadcumb';
 
 export default function Ambulance({ state, district, ambulancesListing }) {
   console.log('running');
@@ -13,6 +14,13 @@ export default function Ambulance({ state, district, ambulancesListing }) {
           Ambulance in {humanize(district)} , {humanize(state)}
         </title>
       </Head>
+      <Breadcumb
+        list={[
+          { href: `/${state}`, name: humanize(state) },
+          { href: `/${state}/${district}`, name: humanize(district) },
+          { href: null, name: 'Ambulance' },
+        ]}
+      />
       {ambulancesListing.map(({ name, phone1, phone2, area, source, id }) => (
         <AmbulanceCard
           key={id}

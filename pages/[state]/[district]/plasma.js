@@ -2,6 +2,7 @@ import React from 'react';
 import { plasmaByDistrict } from '../../../lib/api';
 import { humanize, parseDateString, statePaths } from '../../../lib/utils';
 import Head from 'next/head';
+import Breadcumb from '../../../components/Breadcumb';
 
 export default function Plasma({ state, district, plasmaListing }) {
   return (
@@ -11,6 +12,13 @@ export default function Plasma({ state, district, plasmaListing }) {
           Plasma in {humanize(district)} , {humanize(state)}
         </title>
       </Head>
+      <Breadcumb
+        list={[
+          { href: `/${state}`, name: humanize(state) },
+          { href: `/${state}/${district}`, name: humanize(district) },
+          { href: null, name: 'Plasma' },
+        ]}
+      />
       <div className='text-3xl mt-4 font-bold'>
         {state} / {district}
       </div>

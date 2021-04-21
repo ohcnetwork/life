@@ -2,6 +2,7 @@ import React from 'react';
 import { medicineByDistrict } from '../../../lib/api';
 import { statePaths, humanize, parseDateString } from '../../../lib/utils';
 import Head from 'next/head';
+import Breadcumb from '../../../components/Breadcumb';
 
 export default function Medicine({ state, district, medicineByDistrict }) {
   return (
@@ -11,6 +12,13 @@ export default function Medicine({ state, district, medicineByDistrict }) {
           Medicines in {humanize(district)} , {humanize(state)}
         </title>
       </Head>
+      <Breadcumb
+        list={[
+          { href: `/${state}`, name: humanize(state) },
+          { href: `/${state}/${district}`, name: humanize(district) },
+          { href: null, name: 'Medicines' },
+        ]}
+      />
       <h1 className='mt-4 font-black text-6xl text-gray-900 md:text-left text-center'>
         {humanize(district)}
       </h1>

@@ -2,11 +2,19 @@ import React from 'react';
 import { getOxygen } from '../../../lib/api';
 import { statePaths, humanize } from '../../../lib/utils';
 import OxygenCard from '../../../components/OxygenCard';
+import Breadcumb from '../../../components/Breadcumb';
 import Head from 'next/head';
 
 export default function Oxygen({ state, district, oxygenListing }) {
   return (
     <section className='flex flex-col items-center md:pt-10'>
+      <Breadcumb
+        list={[
+          { href: `/${state}`, name: humanize(state) },
+          { href: `/${state}/${district}`, name: humanize(district) },
+          { href: null, name: 'Oxygen' },
+        ]}
+      />
       <Head>
         <title>
           Oxygen in {humanize(district)} , {humanize(state)}
