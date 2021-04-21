@@ -1,9 +1,8 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { getDistricts } from "../lib/api";
-import { statesStaticPaths } from "../lib/utils";
-import { statesAndDistrict } from "../lib/api";
-import { parametreize, humanize } from "../lib/utils";
+import { getDistricts } from "../../lib/api";
+import { statePaths, parametreize, humanize } from "../../lib/utils";
+import { statesAndDistrict } from "../../lib/api";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLungsVirus,
@@ -48,12 +47,11 @@ const tabsInfo = [
   },
 ];
 
-export default function State({ state }) {
-  let districts = getDistricts(state);
+export default function State({ state, district }) {
+
   return (
     <div className="mx-auto max-w-3xl p-4">
       <div className="w-full mt-4 px-2">
-        {districts.map(({ district }) => (
           <div
             key={district}
             className="bg-white p-3 md:p-5 items-center justify-between shadow-md rounded-md mt-4 w-full"
@@ -67,8 +65,8 @@ export default function State({ state }) {
               {tabsInfo.map((tab) => (
                 <div className="p-2 w-1/2 md:w-1/3" key={tab.link}>
                   <Link
-                    href={`[state]/[district]${tab.link}`}
-                    as={`${parametreize(state)}/${parametreize(district)}${
+                    href={`/[state]/[district]${tab.link}`}
+                    as={`/${parametreize(state)}/${parametreize(district)}${
                       tab.link
                     }`}
                   >
@@ -83,7 +81,6 @@ export default function State({ state }) {
               ))}
             </div>
           </div>
-        ))}
       </div>
     </div>
   );
@@ -93,13 +90,14 @@ export async function getStaticProps({ params }) {
   return {
     props: {
       state: params.state,
+      district: params.district,
     },
   };
 }
 
 export async function getStaticPaths() {
   return {
-    paths: statesStaticPaths(),
+    paths: statePaths(),
     fallback: false,
   };
 }
