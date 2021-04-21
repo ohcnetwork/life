@@ -47,7 +47,7 @@ const Selector = ({ data }) => {
           {filterTests(district, "district").length !== 0 &&<div className="w-1/2 p-4">
             <h1 className="font-semibold text-lg">District</h1>
             {filterTests(district, "district").map((i) => {
-              const url =`/${parametreize(i.state)}/${parametreize(i.district)}`;
+              const url =`/${parametreize(i.state)}/${parametreize(i.district)}/oxygen`;
               return (
                 <div className="md">
                   <Link href={url}>{humanize(i.district)}</Link>
