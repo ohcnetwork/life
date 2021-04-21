@@ -1,20 +1,20 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { medicineByDistrict } from "../../../lib/api";
+import { hospitalByDistrict } from "../../../lib/api";
 import { statePaths, humanize } from "../../../lib/utils";
 
-export default function Medicine({ state, district, medicineByDistrict }) {
+export default function Medicine({ state, district, hospitalByDistrict }) {
   return (
     <section className="flex flex-col items-center md:pt-10">
       <h1 className="mt-4 font-black text-6xl text-gray-900 md:text-left text-center">
         {humanize(district)}
       </h1>
-      <div className="space-y-4 mt-4">
-        {medicineByDistrict.map((p) => {
+      <div className="space-y-4 mt-4 max-w-3xl w-full">
+        {hospitalByDistrict.map((p) => {
           return (
             <div
               key={p.id}
-              className="bg-white p-4 flex shadow rounded-lg justify-between"
+              className="w-full bg-white p-4 flex shadow rounded-lg justify-between"
             >
               <div>
                 <div className="font-bold">{p.name}</div>
@@ -40,7 +40,7 @@ export async function getStaticProps({ params }) {
     props: {
       state: params.state,
       district: params.district,
-      medicineByDistrict: medicineByDistrict(params.state, params.district),
+      hospitalByDistrict: hospitalByDistrict(params.state, params.district),
     },
   };
 }

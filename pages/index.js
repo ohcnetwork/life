@@ -18,7 +18,7 @@ import Selector from "../components/Selector";
 
 const tabsInfo = [
   { name: "Oxygen", icon: faLungsVirus, link: "/" },
-  { name: "Medicine", icon: faCapsules, link: "/medicines" },
+  { name: "Medicine", icon: faCapsules, link: "/medicine" },
   { name: "Hospital", icon: faHospital, link: "/hospitals" },
   { name: "Ambulance", icon: faAmbulance, link: "/ambulance" },
   { name: "Helpline", icon: faPhoneAlt, link: "/helpline" },
