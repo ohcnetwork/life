@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import { districtWithState, getStates } from "../lib/api";
 import { parametreize, humanize, activeStates } from "../lib/utils";
@@ -21,6 +21,15 @@ const Selector = ({ data, page }) => {
       .splice(0, 5);
   };
 
+  useEffect(() => {
+    let curriedFn = () => {
+      setEditing(false);
+    };
+    window.addEventListener("click", curriedFn, true);
+    return () => {
+      window.removeEventListener("click", curriedFn, true);
+    };
+  }, []);
   return (
     <>
       <input
@@ -32,8 +41,10 @@ const Selector = ({ data, page }) => {
           setEditing(false);
           setSearchStr(e.target.value);
         }}
-        onFocus={(_) => setEditing(true)}
-        onBlur={(_) => setEditing(false)}
+        onClick={(e) => {
+          setEditing(true);
+          e.stopPropagation();
+        }}
       />
       {(searchStr || editing) && (
         <div className="p-4 border border-gray-400 bg-white mt-1 rounded-lg shadow-lg flex">
