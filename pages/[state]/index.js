@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { getDistricts } from "../lib/api";
-import { statesStaticPaths } from "../lib/utils";
-import { humanize } from "../lib/utils";
-import TabLinks from "../components/TabLinks";
+import { getDistricts } from "../../lib/api";
+import { statesStaticPaths } from "../../lib/utils";
+import { humanize } from "../../lib/utils";
+import TabLinks from "../../components/TabLinks";
 import {
   faLungsVirus,
   faSyringe,

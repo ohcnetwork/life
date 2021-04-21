@@ -1,18 +1,18 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 const MainLayout = ({ children }) => {
   return (
-    <div className="min-h-screen flex-grow bg-gray-100">
+    <div
+      className="flex-grow bg-gray-100 relative"
+      style={{ minHeight: "85vh" }}
+    >
       {/* <Navbar /> */}
 
       <div className="max-w-5xl mx-auto container px-2">{children}</div>
 
-      <footer className="max-w-5xl mx-auto container my-10 flex space-x-4 items-center justify-center py-10">
-        <div className="font-semibold">Github </div>
-        <div className="font-semibold">Database </div>
-        <div className="font-semibold">About </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
