@@ -2,7 +2,6 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
 import { getStates } from "../lib/api";
 import { humanize } from "../lib/utils";
 import Tabs from "../components/Tabs";
@@ -48,7 +47,7 @@ export default function Home() {
         <div className="flex flex-wrap items-center justify-evenly mt-6 ">
           {getStates().map((s) => {
             return (
-              <Link href={`[state]`} as={`${s}`}>
+              <Link key={s} href={`[state]`} as={`${s}`}>
                 <span className="p-2 text-sm md:text-md font-normal hover:font-bold cursor-pointer hover:text-gray-900 text-gray-500">
                   {humanize(s)}
                 </span>
