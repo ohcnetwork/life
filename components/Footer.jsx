@@ -3,8 +3,8 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-gray-200 absolute top-full left-0 w-full mt-10">
-      <div className="max-w-7xl mx-auto py-6 px-4 overflow-hidden sm:px-6 lg:px-8 flex items-center justify-between ">
-        <p className="text-center text-base text-gray-500">
+      <div className="max-w-7xl mx-auto py-6 px-4 overflow-hidden sm:px-6 lg:px-8 sm:flex items-center justify-between">
+        <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
           Project By{" "}
           <Link href="https://github.com/coronasafe">
             <span className="underline cursor-pointer text-indigo-600">
