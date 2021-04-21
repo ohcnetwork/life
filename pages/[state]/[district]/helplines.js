@@ -1,6 +1,6 @@
 import React from 'react';
 import { helplineByDistrict } from '../../../lib/api';
-import { statePaths, humanize } from '../../../lib/utils';
+import { statePaths, humanize, parseDateString } from '../../../lib/utils';
 import Head from 'next/head';
 
 export default function Helpline({ state, district, helplines }) {
@@ -25,7 +25,7 @@ export default function Helpline({ state, district, helplines }) {
                 <div className='font-bold'>{p.name}</div>
                 <div className='font-bold'>{p.email}</div>
                 <div>{p.description}</div>
-                <div>{p.createdTime}</div>
+                <div>{parseDateString(p.createdTime)}</div>
               </div>
               <div className='flex flex-col'>
                 <a href={`tel:${p.phone1}`}>{p.phone1}</a>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { plasmaByDistrict } from '../../../lib/api';
-import { humanize, statePaths } from '../../../lib/utils';
+import { humanize, parseDateString, statePaths } from '../../../lib/utils';
 import Head from 'next/head';
 
 export default function Plasma({ state, district, plasmaListing }) {
@@ -25,7 +25,7 @@ export default function Plasma({ state, district, plasmaListing }) {
               <div>
                 <div className='font-bold'>{p.name}</div>
                 <div>{p.description}</div>
-                <div>{p.createdTime}</div>
+                <div>{parseDateString(p.createdTime)}</div>
               </div>
               <div className='flex flex-col'>
                 <a href='tel:${p.phone1}'>{p.phone1}</a>

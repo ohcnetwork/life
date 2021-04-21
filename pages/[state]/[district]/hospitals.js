@@ -1,6 +1,6 @@
 import React from 'react';
 import { hospitalByDistrict } from '../../../lib/api';
-import { statePaths, humanize } from '../../../lib/utils';
+import { statePaths, humanize, parseDateString } from '../../../lib/utils';
 import Head from 'next/head';
 
 export default function Medicine({ state, district, hospitalByDistrict }) {
@@ -26,7 +26,7 @@ export default function Medicine({ state, district, hospitalByDistrict }) {
                 <div className='font-bold'>{p.email}</div>
                 <div>{p.description}</div>
                 <div>{p.address}</div>
-                <div>{p.createdTime}</div>
+                <div>{parseDateString(p.createdTime)}</div>
               </div>
               <div className='flex flex-col'>
                 <a href={`tel:${p.phone1}`}>{p.phone1}</a>
