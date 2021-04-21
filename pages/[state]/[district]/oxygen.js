@@ -12,7 +12,6 @@ export default function Oxygen({ state, district, oxygenListing }) {
       </h1>
       <div className="mt-4 w-full p-4">
         {oxygenListing.map((o) => {
-          console.log(o);
           return (
             <OxygenCard
               key={o.id}

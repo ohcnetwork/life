@@ -6,6 +6,7 @@ import { parametreize, humanize, activeStates } from "../lib/utils";
 
 const Selector = ({ data, page }) => {
   const [searchStr, setSearchStr] = useState("");
+  const [editing, setEditing] = useState(false);
 
   const filterTests = (_data, field = null) => {
     return _data
@@ -25,11 +26,16 @@ const Selector = ({ data, page }) => {
       <input
         type="text"
         className="mt-6 w-full h-12 rounded mb-2 focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg"
-        placeholder="Search for State or District"
+        placeholder={`Search for ${page} availability in a State or District`}
         value={searchStr}
-        onChange={(e) => setSearchStr(e.target.value)}
+        onChange={(e) => {
+          setEditing(false);
+          setSearchStr(e.target.value);
+        }}
+        onFocus={(_) => setEditing(true)}
+        onBlur={(_) => setEditing(false)}
       />
-      {searchStr && (
+      {(searchStr || editing) && (
         <div className="p-4 border border-gray-400 bg-white mt-1 rounded-lg shadow-lg flex">
           {filterTests(activeStates(districtWithState(page))).length !== 0 && (
             <div className="w-1/2 p-4">

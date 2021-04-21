@@ -67,13 +67,15 @@ export default function State({ state }) {
         {humanize(state)}
       </h1>
       <div className="w-full mt-2 px-2">
-        <input
-          type="text"
-          className="mt-6 w-full h-12 px-3 rounded mb-2 focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg"
-          placeholder={`Search Districts of ${humanize(state)}`}
-          value={searchStr}
-          onChange={(e) => setSearchStr(e.target.value)}
-        />
+        <div className="max-w-xl mx-auto">
+          <input
+            type="text"
+            className="mt-6 w-full h-12 rounded mb-2 focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg"
+            placeholder={`Search Districts of ${humanize(state)}`}
+            value={searchStr}
+            onChange={(e) => setSearchStr(e.target.value)}
+          />
+        </div>
         {filterDistricts.map((f) => (
           <div
             key={f.district}

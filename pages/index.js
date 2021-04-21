@@ -19,8 +19,18 @@ import Selector from "../components/Selector";
 const tabsInfo = [
   { name: "Oxygen", icon: faLungsVirus, link: "/oxygen", value: "oxygen" },
   { name: "Medicine", icon: faCapsules, link: "/medicine", value: "medicine" },
-  { name: "Hospital", icon: faHospital, link: "/hospitals", value: "hospitals" },
-  { name: "Ambulance", icon: faAmbulance, link: "/ambulance", value: "ambulance" },
+  {
+    name: "Hospital",
+    icon: faHospital,
+    link: "/hospitals",
+    value: "hospitals",
+  },
+  {
+    name: "Ambulance",
+    icon: faAmbulance,
+    link: "/ambulance",
+    value: "ambulance",
+  },
   { name: "Helpline", icon: faPhoneAlt, link: "/helpline", value: "helpline" },
   { name: "Plasma", icon: faSyringe, link: "/plasma", value: "plasma" },
 ];
@@ -30,7 +40,7 @@ let updateFilter = (setSelectedFilter, selection) =>
 
 export default function Home() {
   const [selectedFilter, setSelectedFilter] = useState("oxygen");
-  console.log(selectedFilter);
+
   return (
     <div>
       <Head>
@@ -47,11 +57,11 @@ export default function Home() {
           <Tabs
             tabsInfo={tabsInfo}
             selectedFilter={selectedFilter}
-            updateFilterCB={e =>updateFilter(setSelectedFilter, e)}
+            updateFilterCB={(e) => updateFilter(setSelectedFilter, e)}
           />
         </div>
         <div className="w-full md:w-3/4 px-2">
-          <Selector page={selectedFilter}/>
+          <Selector page={selectedFilter} />
         </div>
         <div className="flex flex-wrap items-center justify-evenly mt-6 ">
           {getStates(selectedFilter).map((s) => {
