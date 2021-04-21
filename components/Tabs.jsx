@@ -11,7 +11,7 @@ const Tabs = ({ tabsInfo }) => {
 
   return (
     <div className='border-b border-gray-200'>
-      <nav className='flex flex-wrap justify-between px-2' ariaLabel='Tabs'>
+      <nav className='flex flex-wrap justify-between px-2' aria-label='Tabs'>
         {tabsInfo.map((tab) => (
           <div
             key={tab.link}

@@ -1,10 +1,10 @@
 import Link from "next/link";
 import React, { useState } from "react";
-import reqData from "../data/states.json";
-import { districtWithState } from "../lib/api";
+
+import { districtWithState, getStates } from "../lib/api";
 import { parametreize, humanize } from "../lib/utils";
 
-const state = Object.keys(reqData);
+const state = getStates();
 const district = districtWithState();
 
 const Selector = ({ data }) => {
@@ -38,7 +38,7 @@ const Selector = ({ data }) => {
             <h1 className="font-semibold text-lg">State</h1>
             {filterTests(state).map((i) => {
               return (
-                <div className="md">
+                <div key={i} className="md">
                   <Link href={parametreize(i)}>{i}</Link>
                 </div>
               );

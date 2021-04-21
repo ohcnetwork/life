@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import React, { useState } from "react";
 import { getStates } from "../lib/api";
 import { humanize } from "../lib/utils";
 import Tabs from "../components/Tabs";
