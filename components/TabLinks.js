@@ -16,8 +16,8 @@ export default function TabLinks({ state, district, tabsInfo }) {
       <nav className="flex flex-wrap justify-evenly px-2" ariaLabel="Tabs">
         {tabsInfo.map((tab) => (
           <Link
-            href={`[state]/[district]${tab.link}`}
-            as={`${parametreize(state)}/${parametreize(district)}${tab.link}`}
+            href={`/[state]/[district]${tab.link}`}
+            as={`/${parametreize(state)}/${parametreize(district)}${tab.link}`}
           >
             <div
               key={tab.link}
