@@ -1,12 +1,18 @@
-import React from "react";
-import { useRouter } from "next/router";
-import { getAmbulances } from "../../../lib/api";
-import { statePaths } from "../../../lib/utils";
-import AmbulanceCard from "../../../components/AmbulanceCard";
+import React from 'react';
+import { getAmbulances } from '../../../lib/api';
+import { humanize, statePaths } from '../../../lib/utils';
+import AmbulanceCard from '../../../components/AmbulanceCard';
+import Head from 'next/head';
 
 export default function Ambulance({ state, district, ambulancesListing }) {
+  console.log('running');
   return (
-    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 p-4">
+    <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 p-4'>
+      <Head>
+        <title>
+          Ambulance in {humanize(district)} , {humanize(state)}
+        </title>
+      </Head>
       {ambulancesListing.map(({ name, phone1, phone2, area, source, id }) => (
         <AmbulanceCard
           key={id}
@@ -33,7 +39,7 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   return {
-    paths: statePaths("ambulance"),
+    paths: statePaths('ambulance'),
     fallback: false,
   };
 }

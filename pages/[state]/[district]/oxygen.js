@@ -1,16 +1,21 @@
-import React from "react";
-import { useRouter } from "next/router";
-import { getOxygen } from "../../../lib/api";
-import { statePaths, humanize } from "../../../lib/utils";
-import OxygenCard from "../../../components/OxygenCard";
+import React from 'react';
+import { getOxygen } from '../../../lib/api';
+import { statePaths, humanize } from '../../../lib/utils';
+import OxygenCard from '../../../components/OxygenCard';
+import Head from 'next/head';
 
 export default function Oxygen({ state, district, oxygenListing }) {
   return (
-    <section className="flex flex-col items-center md:pt-10">
-      <h1 className="mt-4 font-black text-6xl text-gray-900 md:text-left text-center">
+    <section className='flex flex-col items-center md:pt-10'>
+      <Head>
+        <title>
+          Oxygen in {humanize(district)} , {humanize(state)}
+        </title>
+      </Head>
+      <h1 className='mt-4 font-black text-6xl text-gray-900 md:text-left text-center'>
         {humanize(district)}
       </h1>
-      <div className="mt-4 w-full p-4">
+      <div className='mt-4 w-full p-4'>
         {oxygenListing.map((o) => {
           return (
             <OxygenCard
@@ -44,7 +49,7 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   return {
-    paths: statePaths("oxygen"),
+    paths: statePaths('oxygen'),
     fallback: false,
   };
 }
