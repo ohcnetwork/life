@@ -1,8 +1,8 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useRouter } from "next/router";
-import Link from "next/link";
-import { parametreize, humanize } from "../lib/utils";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useRouter } from 'next/router';
+import Link from 'next/link';
+import { parametreize, humanize } from '../lib/utils';
 
 export default function TabLinks({ state, district, tabsInfo }) {
   const router = useRouter();
@@ -12,23 +12,23 @@ export default function TabLinks({ state, district, tabsInfo }) {
   // const activeStyle = defaultStyle + "border-indigo-500 text-indigo-600";
 
   return (
-    <div className="border-b border-gray-200">
-      <nav className="flex flex-wrap justify-evenly px-2" ariaLabel="Tabs">
+    <div className='border-b border-gray-200'>
+      <nav className='flex flex-wrap justify-evenly px-2' aria-label='Tabs'>
         {tabsInfo.map((tab) => (
           <Link
             href={`/[state]/[district]${tab.link}`}
             as={`/${parametreize(state)}/${parametreize(district)}${tab.link}`}
+            key={tab.link}
           >
             <div
-              key={tab.link}
               href={tab.link}
               className={
-                "cursor-pointer w-min border-transparent flex items-center justify-center px-4 py-2 text-center text-gray-700 group border-b-2 font-medium hover:" +
+                'cursor-pointer w-min border-transparent flex items-center justify-center px-4 py-2 text-center text-gray-700 group border-b-2 font-medium hover:' +
                 tab.color
               }
             >
               <FontAwesomeIcon icon={tab.icon} />
-              <span className="ml-2">{tab.name}</span>
+              <span className='ml-2'>{tab.name}</span>
             </div>
           </Link>
         ))}
