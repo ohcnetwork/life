@@ -47,7 +47,7 @@ export default function Home() {
         <div className="flex flex-wrap items-center justify-evenly mt-6 ">
           {getStates().map((s) => {
             return (
-              <Link href={`[state]`} as={`${s}`}>
+              <Link key={s} href={`[state]`} as={`${s}`}>
                 <span className="p-2 text-sm md:text-md font-normal hover:font-bold cursor-pointer hover:text-gray-900 text-gray-500">
                   {humanize(s)}
                 </span>
