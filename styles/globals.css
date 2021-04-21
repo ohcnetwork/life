@@ -67,3 +67,44 @@ h6 {
 button:focus {
   outline: none;
 }
+
+/* Pages CSS */
+
+/* ---- 404 Page CSS Start ---- */
+.error_404_letter .txt404 {
+  font-family: "poppins", sans-serif;
+  font-size: 300px;
+  color: black;
+  font-weight: 700;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.virusImg {
+  color: rgb(247, 131, 131);
+  margin: -60px 0 0 -60px;
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    transform-origin: center;
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    transform-origin: center;
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform-origin: center;
+    transform: rotate(360deg);
+  }
+}
+/* ---- 404 Page CSS End ---- */
