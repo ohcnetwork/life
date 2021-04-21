@@ -35,7 +35,7 @@ export default function Home() {
 
       <section className="flex flex-col items-center md:pt-20">
         <h1 className="mt-4 font-black text-6xl text-gray-900">LIFE</h1>
-        <h2 className="mt-4 font-semibold text-xl text-gray-900">
+        <h2 className="mt-4 font-semibold text-xl text-gray-900 text-center">
           Verified Crowd Sourced Emergency Services Directory
         </h2>
         <div className="mt-4 ">
