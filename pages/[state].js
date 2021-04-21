@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
-import { useRouter } from 'next/router';
 import { getDistricts } from '../lib/api';
 import { statesStaticPaths } from '../lib/utils';
-import { statesAndDistrict } from '../lib/api';
-import { parametreize, humanize } from '../lib/utils';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { humanize } from '../lib/utils';
 import TabLinks from '../components/TabLinks';
 import {
   faLungsVirus,
@@ -14,7 +11,7 @@ import {
   faAmbulance,
   faCapsules,
 } from '@fortawesome/free-solid-svg-icons';
-import Link from 'next/link';
+import Head from 'next/head';
 
 const tabsInfo = [
   {
@@ -64,6 +61,9 @@ export default function State({ state }) {
   );
   return (
     <section className='flex flex-col items-center md:pt-10'>
+      <Head>
+        <title>{humanize(state)} | Coronasafe network</title>
+      </Head>
       <h1 className='mt-4 font-black text-6xl text-gray-900 md:text-left text-center'>
         {humanize(state)}
       </h1>
@@ -71,9 +71,7 @@ export default function State({ state }) {
         <input
           type='text'
           className='mt-6 w-full h-12 px-3 rounded mb-2 focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg'
-          placeholder={`Search Districts of ${
-            state.charAt(0).toUpperCase() + state.slice(1)
-          }`}
+          placeholder={`Search Districts of ${humanize(state)}`}
           value={searchStr}
           onChange={(e) => setSearchStr(e.target.value)}
         />
