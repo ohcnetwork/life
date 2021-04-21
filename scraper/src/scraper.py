@@ -25,6 +25,28 @@ def get_records(url: str) -> list:
     return records
 
 
+def get_active_district_data():
+    records = get_records("https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Districts")
+    active_districts = {"data": []}
+    for district in records:
+        if("Oxygen 2" in district["fields"] or "Hospitals, Bed, ICU" in district["fields"] or "Medicine, Injection" in district["fields"] or "Ambulance" in district["fields"] or "Helpline" in district["fields"] or "Plasma" in district["fields"] or "Doctor, Telemedicine" in district["fields"] or "Government contact" in district["fields"]):
+            active_districts["data"].append(
+                {
+                    "id": district["id"],
+                    "state": district["fields"]["Name (from State)"][0],
+                    "district": district["fields"]["Name"],
+                    "oxygen": "Oxygen 2" in district["fields"],
+                    "hospital": "Hospitals, Bed, ICU" in district["fields"],
+                    "medicine": "Medicine, Injection" in district["fields"],
+                    "ambulance": "Ambulance" in district["fields"],
+                    "helpline": "Helpline" in district["fields"],
+                    "plasma": "Plasma" in district["fields"],
+                    "doctor": "Doctor, Telemedicine" in district["fields"],
+                    "contact": "Government contact" in district["fields"],
+                }
+            )
+    return active_districts
+
 def get_district_data():
     records = get_records("https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Districts")
     districts = {}
@@ -230,6 +252,8 @@ def get_ambulance_data():
     return ambulance_data
 
 
+active_district_data = get_active_district_data()
+dump_data("active_district_data.json", active_district_data)
 hospital_data = get_hospital_bed_icu()
 dump_data("hospital_bed_icu.json", hospital_data)
 oxygen_data = get_oxygen_data()
