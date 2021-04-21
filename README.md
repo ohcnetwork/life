@@ -17,3 +17,18 @@ A database and API for life-fe
 ## Source
 
 - [Covidfyi data store](https://airtable.com/shrIlOoS6PyhIIVEv)
+
+# Development Docs
+
+## Getting Started
+
+First, run the development server:
+
+```
+npm run dev
+# or
+yarn dev
+Open http://localhost:3000 with your browser to see the result.
+```
+
+You can start editing the page by modifying pages/index.js. The page auto-updates as you edit the file.
