@@ -47,6 +47,12 @@ const tabsInfo = [
     link: "/plasma",
     color: "text-yellow-500",
   },
+  {
+    name: "Helpline",
+    icon: faPhoneAlt,
+    link: "/helplines",
+    color: "text-yellow-500",
+  },
 ];
 
 export default function State({ state }) {

@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const OxygenCard = ({ name, company, phone1, phone2, description, source, slink, fstate, fdistrict }) => {
   return (
-    <li className="list-none col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200">
-        <div className="w-full flex items-center justify-between p-6 space-x-6">
+    <div className="flex mt-4  col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200">
+        <div className="w-1/2 flex items-center justify-between p-6 space-x-6">
           <div className="flex-1 truncate">
             <div className="flex items-center space-x-3">
               <h3 className="text-gray-900 text-sm font-medium truncate">{name}</h3>
@@ -19,7 +19,7 @@ const OxygenCard = ({ name, company, phone1, phone2, description, source, slink,
         </div>
 
         <div>
-          <div class="-mt-px flex divide-x divide-gray-200">
+          <div class="">
             {phone1 ? <div class="-ml-px w-0 flex-1 flex">
               <a href={`tel:${phone1}`} class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
                 <svg className="w-5 h-5 text-gray-400" x-description="Heroicon name: solid/phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -39,7 +39,7 @@ const OxygenCard = ({ name, company, phone1, phone2, description, source, slink,
             </div> : < div/>}
           </div>
         </div>
-      </li>
+      </div>
   );
 };
 
