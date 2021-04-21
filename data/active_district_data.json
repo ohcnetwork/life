@@ -16,6 +16,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Kolhapur",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec0aBa4gXPxKtWf9",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Maharashtra"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Allahabad",
             "doctor": false,
             "helpline": false,
@@ -55,6 +68,32 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Alipurduar",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec1iff6AMycUaOJF",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Gadag",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec1m0fys5pD46Kkm",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Pauri Garhwal",
             "doctor": false,
             "helpline": false,
@@ -64,6 +103,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Uttarakhand"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Malappuram",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec2W08nlMV9Q2fNp",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Kerala"
         },
         {
             "ambulance": false,
@@ -90,6 +142,32 @@
             "oxygen": false,
             "plasma": false,
             "state": "Dadra and Nagar Haveli and Daman & Diu (UT)"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Udupi",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec37U9MeAFy8PJXK",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Pathanamthitta",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec3hFGo1FrTprFJz",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Kerala"
         },
         {
             "ambulance": false,
@@ -136,7 +214,7 @@
             "district": "Pune",
             "doctor": false,
             "helpline": false,
-            "hospital": false,
+            "hospital": true,
             "id": "rec4ERg8sP7dB6IF6",
             "medicine": false,
             "oxygen": true,
@@ -155,6 +233,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Andhra Pradesh"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Raichur",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec4Wk4Sr46iPJ3IQ",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
         },
         {
             "ambulance": false,
@@ -198,6 +289,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Birbhum",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec59ewVAEuTTXHtr",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Nayagarh",
             "doctor": false,
             "helpline": false,
@@ -224,6 +328,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Chikkamagaluru (Chikmagalur)",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec6FBOPHylVNq3Vj",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Tonk",
             "doctor": false,
             "helpline": false,
@@ -246,6 +363,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Uttar Pradesh"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Bankura",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec6YpOUmi6cqZesV",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
         },
         {
             "ambulance": false,
@@ -328,6 +458,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Dimapur",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec7ovjxe9TvbRJY6",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Nagaland"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Muzaffarpur",
             "doctor": false,
             "helpline": false,
@@ -337,6 +480,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Bihar"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Kapurthala",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec85LKG2i4G4JjT5",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -367,6 +523,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Idukki",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec8M32ZbxJqcBFiP",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Kerala"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Sikar",
             "doctor": false,
             "helpline": false,
@@ -389,6 +558,45 @@
             "oxygen": false,
             "plasma": false,
             "state": "Rajasthan"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Kavaratti",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec9W2u0bEEFQzlOr",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Lakshadweep (UT)"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Paschim Medinipur (West Medinipur)",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec9Yh1noWqhQcqpm",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Kolkata",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec9aUEhkol9sPq7p",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
         },
         {
             "ambulance": false,
@@ -432,6 +640,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Dakshin Dinajpur (South Dinajpur)",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rec9t8cBjwTCkYsii",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Kheda (Nadiad)",
             "doctor": false,
             "helpline": false,
@@ -454,6 +675,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Haryana"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Kodagu",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recBZspoiDKVIMw3o",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
         },
         {
             "ambulance": false,
@@ -510,6 +744,45 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Kannur",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recCbMEWyinOpg9sL",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Kerala"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Purulia",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recCoioLssdldy8u9",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Malda",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recCuDugOytJWakbz",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Jhajjar",
             "doctor": false,
             "helpline": false,
@@ -562,6 +835,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "East Garo Hills",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recE8PXXe9m3kwPBb",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Meghalaya"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Mau",
             "doctor": false,
             "helpline": false,
@@ -601,6 +887,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Palakkad",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recGSKq24Af1ZoqGj",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Kerala"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Bilaspur",
             "doctor": false,
             "helpline": false,
@@ -627,6 +926,32 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Patiala",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recGz3Zz4pvzcU9s2",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Vijayapura (Bijapur)",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recHDxst0p82dTsfF",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Agra",
             "doctor": false,
             "helpline": false,
@@ -636,6 +961,32 @@
             "oxygen": false,
             "plasma": false,
             "state": "Uttar Pradesh"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Bagalkot",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recHkZYdOkTkLZpsd",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Sangrur",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recIKbBOGmWuaA98S",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -671,6 +1022,19 @@
             "helpline": false,
             "hospital": true,
             "id": "recImWh5gTkIhByNK",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Telangana"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Adilabad",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recJ1DeZXTaqEfc2t",
             "medicine": false,
             "oxygen": false,
             "plasma": false,
@@ -757,6 +1121,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Alappuzha",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recKiwH7QYxIj7j6M",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Kerala"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Rohtak",
             "doctor": false,
             "helpline": false,
@@ -770,6 +1147,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "West Khasi Hills",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recL08pOLYSr2HhPR",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Meghalaya"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Sirohi",
             "doctor": false,
             "helpline": false,
@@ -779,6 +1169,45 @@
             "oxygen": false,
             "plasma": false,
             "state": "Rajasthan"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Shivamogga (Shimoga)",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recLfudcqXH9m619M",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Ernakulam",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recLoFX91ejtcakOW",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Kerala"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Kottayam",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recLwvcXInHMi1aVx",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Kerala"
         },
         {
             "ambulance": false,
@@ -818,6 +1247,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Andhra Pradesh"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Mansa",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recMzrA1edOuk4U99",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -939,6 +1381,32 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Pathankot",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recOJn3acU43f2Ag3",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Darjeeling",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recOTa8o3bkkoDdeu",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Bhopal",
             "doctor": false,
             "helpline": false,
@@ -948,6 +1416,45 @@
             "oxygen": true,
             "plasma": false,
             "state": "Madhya Pradesh"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Fazilka",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recOVxXSk97pIB5RU",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Mahabubnagar",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recObA6ybPIRvUoK5",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Telangana"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Nadia",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recOdCTXQMJxmaM0y",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
         },
         {
             "ambulance": false,
@@ -987,6 +1494,45 @@
             "oxygen": false,
             "plasma": false,
             "state": "Gujarat"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Cooch Behar",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recPczrxnCvf5g30N",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Mandya",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recQ1fJqu122dWcTd",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Dharwad",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recQNUnjyh7ZrOCDV",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
         },
         {
             "ambulance": false,
@@ -1056,6 +1602,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Kolar",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recS6yPz0Z1L4RSgq",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Sitapur",
             "doctor": false,
             "helpline": false,
@@ -1078,6 +1637,32 @@
             "oxygen": false,
             "plasma": false,
             "state": "Gujarat"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Bathinda",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recSf663Y3PSzhMwb",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Mysuru (Mysore)",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recSjlLScpoll3ox9",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
         },
         {
             "ambulance": false,
@@ -1134,6 +1719,32 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Nawanshahr (Shahid Bhagat Singh Nagar)",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recTSBF5ZzNwN4CfQ",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Daman",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recTXd911UbHQMRYa",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Dadra and Nagar Haveli and Daman & Diu (UT)"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Krishna",
             "doctor": false,
             "helpline": false,
@@ -1173,6 +1784,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Ri Bhoi",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recU5xoHOn6l1RsBf",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Meghalaya"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Ujjain",
             "doctor": false,
             "helpline": false,
@@ -1182,6 +1806,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Madhya Pradesh"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Diu",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recUCrAkDzFtPYKgX",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Dadra and Nagar Haveli and Daman & Diu (UT)"
         },
         {
             "ambulance": false,
@@ -1199,6 +1836,32 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Kasaragod",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recUHXbBIh0UUSHRf",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Kerala"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "West Jaintia Hills",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recUJcZqvfbTgxR39",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Meghalaya"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Anantapur",
             "doctor": false,
             "helpline": false,
@@ -1208,6 +1871,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Andhra Pradesh"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Raigad",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recUrflXwqNZrbN43",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Maharashtra"
         },
         {
             "ambulance": false,
@@ -1264,6 +1940,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Moga",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recWMcgAAPr4Q6uk4",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Jajpur",
             "doctor": false,
             "helpline": false,
@@ -1273,6 +1962,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Odisha"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Uttara Kannada (Karwar)",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recWcJSn798K6cpc4",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
         },
         {
             "ambulance": false,
@@ -1325,6 +2027,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Goa"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "West Garo Hills",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recYSfKUHcBg3uGHW",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Meghalaya"
         },
         {
             "ambulance": false,
@@ -1433,6 +2148,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "North 24 Parganas",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recaDVN8l0q1f7OsB",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Mahendragarh",
             "doctor": false,
             "helpline": false,
@@ -1442,6 +2170,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Haryana"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Chennai",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recagrxQqhK5kjq0J",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Tamil Nadu"
         },
         {
             "ambulance": false,
@@ -1472,6 +2213,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Davangere",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recbNlI6dTEeSu0MS",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Jabalpur",
             "doctor": false,
             "helpline": false,
@@ -1494,6 +2248,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Andhra Pradesh"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Kollam",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recbl3C6YPciCbxmP",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Kerala"
         },
         {
             "ambulance": false,
@@ -1576,6 +2343,58 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "South West Garo Hills ",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "reccwQ2e3ukCdNZmG",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Meghalaya"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Hoshiarpur",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recd67tdpsgr9tB7U",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Longleng",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recdE4VFxeEnFQJgK",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Nagaland"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Koppal",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recdFd6v4FQQYIInG",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Jaipur",
             "doctor": false,
             "helpline": false,
@@ -1654,6 +2473,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Sahibzada Ajit Singh Nagar (Mohali)",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recfBa9BejA895O3P",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Rajkot",
             "doctor": false,
             "helpline": false,
@@ -1719,6 +2551,32 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Madurai",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recfxWju5cQRC17gH",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Tamil Nadu"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Thiruvananthapuram",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recgFh9KvYVaIlp3O",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Kerala"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Patan",
             "doctor": false,
             "helpline": false,
@@ -1745,6 +2603,32 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Ballari (Bellary)",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recggAhYtl3MSuVNe",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Jalpaiguri",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recggnAMIs4bMNYkl",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Bhadrak",
             "doctor": false,
             "helpline": false,
@@ -1767,6 +2651,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Haryana"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Latur",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recglmVHpbgcLQZ85",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Maharashtra"
         },
         {
             "ambulance": false,
@@ -1836,6 +2733,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Amritsar",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "reciO9TrxCOj3eTeU",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Mumbai City",
             "doctor": false,
             "helpline": false,
@@ -1862,6 +2772,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Chamarajanagar",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recjkk8VrdsR7Dw3c",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Pithoragarh",
             "doctor": false,
             "helpline": false,
@@ -1871,6 +2794,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Uttarakhand"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Ramanagara",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recjqwlpF0DOqhTSo",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
         },
         {
             "ambulance": false,
@@ -1910,6 +2846,32 @@
             "oxygen": false,
             "plasma": false,
             "state": "Uttar Pradesh"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Kohima",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "reckONyMVD05OP7nr",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Nagaland"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Jalandhar",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "reckTBsJyLlOS4BN9",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -1992,6 +2954,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "North Garo Hills",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recls1Y5Nzk7ekaCK",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Meghalaya"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Mahe",
             "doctor": false,
             "helpline": false,
@@ -2014,6 +2989,58 @@
             "oxygen": false,
             "plasma": false,
             "state": "Chhattisgarh"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Mokokchung",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "reclvyGwOhGg757aC",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Nagaland"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Dakshina Kannada",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recmkn3iDUEYtNZUb",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Chitradurga",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recmrRggzWzHesO9Q",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Yadadri Bhuvanagiri",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recnb16S7OkoCbSYd",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Telangana"
         },
         {
             "ambulance": false,
@@ -2057,6 +3084,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Hassan",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recoJSl9mRRt95CsY",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Rajnandgaon",
             "doctor": false,
             "helpline": false,
@@ -2079,6 +3119,32 @@
             "oxygen": false,
             "plasma": false,
             "state": "Haryana"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Hooghly",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recpBjaOUiMZ87yVG",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Howrah",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recpMf8FvhM27Jdj8",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
         },
         {
             "ambulance": false,
@@ -2157,6 +3223,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Gujarat"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Kalaburagi (Gulbarga)",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recqJ7EKqm6h0XA2t",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
         },
         {
             "ambulance": false,
@@ -2252,6 +3331,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Haveri",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recrueSu86riuSMTh",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Firozabad",
             "doctor": false,
             "helpline": false,
@@ -2330,6 +3422,58 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Sonipat",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rectijVV9ApXBF1rq",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Haryana"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Bengaluru (Bangalore) Urban",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rectw4LhqVzZ7VIZ9",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Bidar",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "rectza3k3F0N4Dgc5",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Bhandara",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recu275xekoI9B5T3",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Maharashtra"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Nalgonda",
             "doctor": false,
             "helpline": false,
@@ -2339,6 +3483,45 @@
             "oxygen": false,
             "plasma": false,
             "state": "Telangana"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Yamunanagar",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recu6CwOK2p6cBq89",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Haryana"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Belagavi (Belgaum)",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recu94LnJoNSI2oeq",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "South Garo Hills",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recuAJJTUGVPjy8dW",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Meghalaya"
         },
         {
             "ambulance": false,
@@ -2408,6 +3591,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Tarn Taran",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recwS3C9MTO1o3EQz",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Shahjahanpur",
             "doctor": false,
             "helpline": false,
@@ -2473,6 +3669,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Ludhiana",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recxY4fjhtTkGrp44",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Bhadohi",
             "doctor": false,
             "helpline": false,
@@ -2499,6 +3708,58 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Kozhikode",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recy0cr9DMShFyEmz",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Kerala"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Fatehgarh Sahib",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recy9w6ugfwSgedfp",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Murshidabad",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recycTQHivBYr2Pws",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "West Bengal"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Sirsa",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recyf2d7sRKTqE7JY",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Haryana"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Gwalior",
             "doctor": false,
             "helpline": false,
@@ -2512,6 +3773,19 @@
         {
             "ambulance": false,
             "contact": false,
+            "district": "Tumakuru (Tumkur)",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "recyu28mfSpcGfI3u",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Karnataka"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
             "district": "Yanam",
             "doctor": false,
             "helpline": false,
@@ -2521,6 +3795,19 @@
             "oxygen": false,
             "plasma": false,
             "state": "Puducherry (UT)"
+        },
+        {
+            "ambulance": false,
+            "contact": false,
+            "district": "Faridkot",
+            "doctor": false,
+            "helpline": false,
+            "hospital": true,
+            "id": "reczEYB3UTNzXi47n",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Punjab"
         },
         {
             "ambulance": false,

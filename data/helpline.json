@@ -1,20 +1,20 @@
 {
-  "data": [
-    {
-      "category": "Helplines",
-      "createdTime": "2021-04-19T07:48:08.000Z",
-      "description": "Nampally  - List of Meal Centers",
-      "district": "Hyderabad",
-      "id": "recICXCtGIWspekjr",
-      "name": "Test Help",
-      "phone1": 9391271003,
-      "phone2": null,
-      "source": "Govt of Telangana",
-      "sourceUrl": "https://covid19.telangana.gov.in/2020/03/28/list-of-meal-centers/",
-      "state": "Telangana",
-      "subCategory": "Groccery Supplies & Essential Commodities",
-      "verifiedBy": "FAIZE",
-      "zonalVerificationStatus": "Verified"
-    }
-  ]
+    "data": [
+        {
+            "category": "Helplines",
+            "createdTime": "2021-04-19T07:48:08.000Z",
+            "description": "Nampally  - List of Meal Centers",
+            "district": "Hyderabad",
+            "id": "recICXCtGIWspekjr",
+            "name": null,
+            "phone1": 9391271003,
+            "phone2": null,
+            "source": "Govt of Telangana",
+            "sourceUrl": "https://covid19.telangana.gov.in/2020/03/28/list-of-meal-centers/",
+            "state": "Telangana",
+            "subCategory": "Groccery Supplies & Essential Commodities",
+            "verifiedBy": "FAIZE",
+            "zonalVerificationStatus": "Verified"
+        }
+    ]
 }
