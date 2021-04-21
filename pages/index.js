@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import { getStates } from "../lib/api";
-import { humanize } from "../lib/utils";
+import { humanize, parametreize } from "../lib/utils";
 import Tabs from "../components/Tabs";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import {
@@ -17,15 +17,20 @@ import {
 import Selector from "../components/Selector";
 
 const tabsInfo = [
-  { name: "Oxygen", icon: faLungsVirus, link: "/" },
-  { name: "Medicine", icon: faCapsules, link: "/medicine" },
-  { name: "Hospital", icon: faHospital, link: "/hospitals" },
-  { name: "Ambulance", icon: faAmbulance, link: "/ambulance" },
-  { name: "Helpline", icon: faPhoneAlt, link: "/helpline" },
-  { name: "Plasma", icon: faSyringe, link: "/plasma" },
+  { name: "Oxygen", icon: faLungsVirus, link: "/oxygen", value: "oxygen" },
+  { name: "Medicine", icon: faCapsules, link: "/medicine", value: "medicine" },
+  { name: "Hospital", icon: faHospital, link: "/hospitals", value: "hospitals" },
+  { name: "Ambulance", icon: faAmbulance, link: "/ambulance", value: "ambulance" },
+  { name: "Helpline", icon: faPhoneAlt, link: "/helpline", value: "helpline" },
+  { name: "Plasma", icon: faSyringe, link: "/plasma", value: "plasma" },
 ];
 
+let updateFilter = (setSelectedFilter, selection) =>
+  setSelectedFilter(selection);
+
 export default function Home() {
+  const [selectedFilter, setSelectedFilter] = useState("oxygen");
+  console.log(selectedFilter);
   return (
     <div>
       <Head>
@@ -39,15 +44,19 @@ export default function Home() {
           Verified Crowd Sourced Emergency Services Directory
         </h2>
         <div className="mt-4 ">
-          <Tabs tabsInfo={tabsInfo} />
+          <Tabs
+            tabsInfo={tabsInfo}
+            selectedFilter={selectedFilter}
+            updateFilterCB={e =>updateFilter(setSelectedFilter, e)}
+          />
         </div>
         <div className="w-full md:w-3/4 px-2">
-          <Selector />
+          <Selector page={selectedFilter}/>
         </div>
         <div className="flex flex-wrap items-center justify-evenly mt-6 ">
-          {getStates().map((s) => {
+          {getStates(selectedFilter).map((s) => {
             return (
-              <Link key={s} href={`[state]`} as={`${s}`}>
+              <Link key={s} href={`[state]`} as={`${parametreize(s)}`}>
                 <span className="p-2 text-sm md:text-md font-normal hover:font-bold cursor-pointer hover:text-gray-900 text-gray-500">
                   {humanize(s)}
                 </span>

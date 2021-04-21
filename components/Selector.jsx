@@ -2,12 +2,9 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 import { districtWithState, getStates } from "../lib/api";
-import { parametreize, humanize } from "../lib/utils";
+import { parametreize, humanize, activeStates } from "../lib/utils";
 
-const state = getStates();
-const district = districtWithState();
-
-const Selector = ({ data }) => {
+const Selector = ({ data, page }) => {
   const [searchStr, setSearchStr] = useState("");
 
   const filterTests = (_data, field = null) => {
@@ -27,34 +24,40 @@ const Selector = ({ data }) => {
     <>
       <input
         type="text"
-        className="mt-6 w-full h-12 px-3 rounded mb-2 focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg"
+        className="mt-6 w-full h-12 rounded mb-2 focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg"
         placeholder="Search for State or District"
         value={searchStr}
         onChange={(e) => setSearchStr(e.target.value)}
       />
       {searchStr && (
         <div className="p-4 border border-gray-400 bg-white mt-1 rounded-lg shadow-lg flex">
-          {filterTests(state).length !== 0 &&<div className="w-1/2 p-4">
-            <h1 className="font-semibold text-lg">State</h1>
-            {filterTests(state).map((i) => {
-              return (
-                <div key={i} className="md">
-                  <Link href={parametreize(i)}>{i}</Link>
-                </div>
-              );
-            })}
-          </div>}
-          {filterTests(district, "district").length !== 0 &&<div className="w-1/2 p-4">
-            <h1 className="font-semibold text-lg">District</h1>
-            {filterTests(district, "district").map((i) => {
-              const url =`/${parametreize(i.state)}/${parametreize(i.district)}/oxygen`;
-              return (
-                <div className="md">
-                  <Link href={url}>{humanize(i.district)}</Link>
-                </div>
-              );
-            })}
-          </div>}
+          {filterTests(activeStates(districtWithState(page))).length !== 0 && (
+            <div className="w-1/2 p-4">
+              <h1 className="font-semibold text-lg">State</h1>
+              {filterTests(activeStates(districtWithState(page))).map((i) => {
+                return (
+                  <div key={i} className="md">
+                    <Link href={parametreize(i)}>{i}</Link>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+          {filterTests(districtWithState(page), "district").length !== 0 && (
+            <div className="w-1/2 p-4">
+              <h1 className="font-semibold text-lg">District</h1>
+              {filterTests(districtWithState(page), "district").map((i) => {
+                const url = `/${parametreize(i.state)}/${parametreize(
+                  i.district
+                )}/oxygen`;
+                return (
+                  <div className="md">
+                    <Link href={url}>{humanize(i.district)}</Link>
+                  </div>
+                );
+              })}
+            </div>
+          )}
         </div>
       )}
     </>
