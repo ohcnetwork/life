@@ -14,11 +14,11 @@ export default function TabLinks({ state, district, tabsInfo }) {
   return (
     <div className='border-b border-gray-200'>
       <nav className='flex flex-wrap' aria-label='Tabs'>
-        <div className='flex flex-wrap overflow-hidden space-x-1'>
+        <div className='flex flex-wrap overflow-hidden justify-around'>
           {tabsInfo.map((tab) => {
             const render = (
               <div
-                className={`w-5/12 overflow-hidden ${
+                className={`w-5/12 overflow-hidden mr-auto my-1 ${
                   district[tab.value]
                     ? 'bg-' + tab.color.split('-')[1] + '-200 cursor-pointer'
                     : ' cursor-not-allowed'
