@@ -7,8 +7,7 @@ from state_data import state_data
 STATES = [state["state"] for state in state_data["states"]]
 
 District = namedtuple("District", ["name", "state"])
-# API_KEY = os.environ["AIRTABLE_API_KEY"]
-API_KEY = "keyEZAYVPFZgE5gpE"
+API_KEY = os.environ["AIRTABLE_API_KEY"]
 
 headers = {"Authorization": f"Bearer {API_KEY}"}
 
