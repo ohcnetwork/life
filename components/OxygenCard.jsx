@@ -50,6 +50,9 @@ const OxygenCard = ({
               <span className="mr-2">{fdistrict}</span>|
               <span className="ml-2">{fstate}</span>
             </div>
+            <div className="w-11/12 max-w-3xl mt-2">
+              <div className="text-sm">{source}</div>
+            </div>
           </div>
         </div>
         <div className="flex space-x-7 items-start">

@@ -80,7 +80,15 @@ const MedicinesCard = ({
               />
             </a>
           )}
-          {slink && <a href={slink}>source</a>}
+          {source && (
+            <a href={source}>
+              <FontAwesomeIcon
+                title={`${source}`}
+                className="text-xl w-6"
+                icon={faLink}
+              />
+            </a>
+          )}
         </div>
       </div>
       <hr />
