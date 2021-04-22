@@ -47,7 +47,13 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                             title="Verified"
                             icon={faCheckCircle}
                           />
-                        ) : null}
+                        ) : (
+                          <FontAwesomeIcon
+                            className="text-yellow-400 w-4 ml-4"
+                            title="Not verified"
+                            icon={faExclamationTriangle}
+                          />
+                        )}
                       </span>
                     </h1>
                     <div className="text-sm text-gray-700 font-semibold">
