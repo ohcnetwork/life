@@ -3437,6 +3437,21 @@
         },
         {
             "createdTime": "2021-04-19T07:48:08.000Z",
+            "district": "New Delhi",
+            "id": "recLQ9f3FhfXzYAuc",
+            "name": "Institute Of liver & Biliary Sciences",
+            "phone1": 9999080452,
+            "phone2": null,
+            "pointOfContact": "Rakesh Kumar",
+            "source": "Govt. Of Delhi",
+            "sourceUrl": "https://twitter.com/inayat_s_kakar/status/1269742755523239942?s=77",
+            "state": "Delhi (NCT)",
+            "verificationStatus": "Number Incorrect\n",
+            "verifiedBy": "Param\n",
+            "verifiedBy2": null
+        },
+        {
+            "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hyderabad",
             "id": "recLk17Fz8rgibmbp",
             "name": "Care Hospitals, Banjara Hills",

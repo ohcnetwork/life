@@ -462,7 +462,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Patna",
@@ -542,11 +542,11 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Delhi",
-            "comments": null,
+            "comments": "wrong number",
             "companyName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Ballabhgarh",
@@ -558,7 +558,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Indore",
@@ -622,7 +622,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Ahmedabad",
@@ -734,7 +734,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Lucknow",
@@ -878,7 +878,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Lucknow",
@@ -898,7 +898,7 @@
         },
         {
             "city": "Delhi",
-            "comments": null,
+            "comments": "provide with oxygen cylinders 24/7. patients must DM them on their social media handles for bookings.",
             "companyName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "https://twitter.com/Hemkunt_Fdn",
@@ -910,7 +910,7 @@
             "sourceLink": "https://twitter.com/Hemkunt_Fdn",
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Delhi",
@@ -926,7 +926,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Lucknow",
@@ -1198,7 +1198,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Kanpur",
@@ -1262,7 +1262,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Delhi",
@@ -2134,7 +2134,7 @@
             "companyName": "COMPANY",
             "createdTime": "2021-04-20T19:30:50.000Z",
             "description": "DESC",
-            "district": "Latehar",
+            "district": null,
             "id": "recfDugibkIXCjZZs",
             "name": "TEST DATA",
             "phone1": 8888888888,
@@ -2430,7 +2430,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Ahmedabad",
@@ -2494,7 +2494,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Delhi",
@@ -2510,7 +2510,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Varanasi",
@@ -2606,7 +2606,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Prayagraj",
@@ -2670,7 +2670,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Lucknow",
@@ -2782,7 +2782,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Patna",
@@ -2830,7 +2830,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Ahmedabad",
@@ -2958,7 +2958,7 @@
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Delhi (NCT)",
-            "verifiedStatus": null
+            "verifiedStatus": "Verified"
         },
         {
             "city": "Lucknow",
