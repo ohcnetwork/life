@@ -32,7 +32,7 @@ export default function Medicine({ state, district, medicineByDistrict }) {
               <div key={p.id} className="p-4 flex justify-between">
                 <div>
                   <div className="font-bold text-2xl">
-                    {"Remdesivir"}
+                    {p.name}
                     <div className="text-sm text-gray-700 font-semibold">
                       <span className="mr-2">{p.distributorName}</span>|
                       <span className="ml-2">{p.city}</span>
