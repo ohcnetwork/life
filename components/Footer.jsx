@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-gray-200 absolute top-full left-0 w-full py-10">
       <div className="max-w-7xl mx-auto py-6 px-4 overflow-hidden sm:px-6 lg:px-8 sm:flex items-center justify-between">
       <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
-              Data curated by{" "}
+              Curated by{" "}
           <Link href="http://covidfyi.in/">
             <span className="underline cursor-pointer text-indigo-600">
               Covid FYI
@@ -13,8 +13,16 @@ const Footer = () => {
           </Link>
         </p>
         <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
+              Supported by{" "}
+          <Link href="Swasth.app">
+            <span className="underline cursor-pointer text-indigo-600">
+              Swasth Alliance
+            </span>
+          </Link>
+        </p>
+        <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
           Powered By{" "}
-          <Link href="https://github.com/coronasafe">
+          <Link href="http://coronasafe.network/">
             <span className="underline cursor-pointer text-indigo-600">
               CoronaSafe Network
             </span>
