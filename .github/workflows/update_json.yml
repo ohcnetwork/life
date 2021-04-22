@@ -1,15 +1,13 @@
 name: Update json  
 on:
-  workflow_dispatch
+  schedule:
+    - cron:  '0 * * * *'
 
 jobs:
   update:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-          fetch-depth: 0
       - name: Create local changes
         run: |
           pip3 install -r scraper/requirements.txt 
