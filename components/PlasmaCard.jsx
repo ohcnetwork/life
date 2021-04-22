@@ -53,7 +53,7 @@ const PlasmaCard = ({
         <div className="flex space-x-7 items-start">
           {phone1 && (
             <a
-              className="font-mono text-gray-800 hover:text-gray-900 text-sm font-bold"
+              className="font-mono text-gray-800 hover:text-gray-900 text-xl font-bold"
               href={`tel:${phone1}`}
             >
               <FontAwesomeIcon
@@ -65,7 +65,7 @@ const PlasmaCard = ({
           )}
           {sourceLink && (
             <a
-              className="font-bold text-sm text-gray-700 mt-0 hover:text-gray-900"
+              className="font-bold text-xl text-gray-700 mt-0 hover:text-gray-900"
               target="_blank"
               href={sourceLink}
             >

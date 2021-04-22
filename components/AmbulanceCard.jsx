@@ -66,10 +66,10 @@ const AmbulanceCard = ({
                 <a
                   className="font-bold text-sm text-gray-700 mt-0 hover:text-gray-900"
                   target="_blank"
-                  href=""
+                  href={`tel:${phone2}`}
                 >
                   <FontAwesomeIcon
-                    title={phon2}
+                    title={phone2}
                     className="text-xl w-6"
                     icon={faPhoneAlt}
                   />
