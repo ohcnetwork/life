@@ -18,35 +18,35 @@ const tabsInfo = [
     name: "Oxygen",
     icon: faLungsVirus,
     link: "/oxygen",
-    color: "text-red-500",
+    color: "bg-red-500",
     value: "oxygen",
   },
   {
     name: "Medicine",
     icon: faCapsules,
     link: "/medicines",
-    color: "text-green-500",
+    color: "bg-green-500",
     value: "medicine",
   },
   {
     name: "Hospital",
     icon: faHospital,
     link: "/hospitals",
-    color: "text-indigo-500",
+    color: "bg-indigo-500",
     value: "hospital",
   },
   {
     name: "Ambulance",
     icon: faAmbulance,
     link: "/ambulance",
-    color: "text-blue-500",
+    color: "bg-blue-500",
     value: "ambulance",
   },
   {
     name: "Plasma",
     icon: faSyringe,
     link: "/plasma",
-    color: "text-yellow-500",
+    color: "bg-yellow-500",
     value: "plasma",
   },
 ];
@@ -79,14 +79,14 @@ export default function State({ state }) {
         {filterDistricts.map((f) => (
           <div
             key={f.district}
-            className="pt-3 md:p-5 items-center justify-between mt-4 w-full"
+            className="pt-3 md:p-5 items-center mt-4 w-10/12 mx-auto grid grid-cols-2"
           >
-            <div className="w-full mx-auto">
-              <div className="font-semibold text-2xl md:text-4xl text-center">
+            <div>
+              <div className="font-semibold text-2xl md:text-4xl">
                 {humanize(f.district)}
               </div>
             </div>
-            <div className="max-w-3xl mx-auto mt-4">
+            <div className="max-w-3xl mt-4 flex justify-end">
               <TabLinks tabsInfo={tabsInfo} state={state} district={f} />
             </div>
           </div>

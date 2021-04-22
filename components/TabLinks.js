@@ -13,7 +13,7 @@ export default function TabLinks({ state, district, tabsInfo }) {
 
   return (
     <div className="border-b border-gray-200">
-      <nav className="flex flex-wrap justify-evenly px-2" aria-label="Tabs">
+      <nav className="flex flex-wrap px-2" aria-label="Tabs">
         {tabsInfo.map((tab) => {
           if (!district[tab.value]) {
             return;
@@ -29,13 +29,15 @@ export default function TabLinks({ state, district, tabsInfo }) {
             >
               <div
                 href={tab.link}
-                className={
-                  "cursor-pointer w-min border-transparent flex items-center justify-center px-4 py-2 text-center text-gray-700 group border-b-2 font-medium hover:" +
-                  tab.color
-                }
+                // className={
+                //   "cursor-pointer w-min border-transparent flex items-center justify-center px-4 py-2 text-center text-gray-700 group border-b-2 font-medium rounded-md bg-gray-300 mr-3 hover:" +
+                //   tab.color
+                // }
+                className={`cursor-pointer w-min border-transparent flex items-center justify-center px-4 py-2 text-center text-white group border-b-2 font-medium rounded-md mr-3
+                  ${tab.color}`}
               >
                 <FontAwesomeIcon icon={tab.icon} />
-                <span className="ml-2">{tab.name}</span>
+                <span className="hidden lg:block ml-2">{tab.name}</span>
               </div>
             </Link>
           );
