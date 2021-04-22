@@ -55,7 +55,7 @@ const OxygenCard = ({
             </div>
           </div>
         </div>
-        <div className="flex space-x-7 items-start">
+        <div className="flex space-x-7 items-start"><span className="mr-2">{phone1}</span>
           {phone1 && (
             <a
               className="font-mono text-gray-800 hover:text-gray-900 text-xl font-bold"
