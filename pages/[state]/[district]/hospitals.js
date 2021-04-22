@@ -34,6 +34,7 @@ export default function Medicine({ state, district, hospitalByDistrict }) {
               phone1={p.phone1}
               district={p.district}
               state={p.state}
+              verificationStatus={p.verificationStatus}
             />
           );
         })}

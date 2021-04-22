@@ -3,7 +3,7 @@ import { plasmaByDistrict } from '../../../lib/api';
 import { humanize, parseDateString, statePaths } from '../../../lib/utils';
 import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
-
+import PlasmaCard from '../../../components/PlasmaCard';
 export default function Plasma({ state, district, plasmaListing }) {
   console.log(plasmaListing);
   return (
@@ -26,22 +26,16 @@ export default function Plasma({ state, district, plasmaListing }) {
       <div className='space-y-4 mt-4 max-w-3xl w-full'>
         {plasmaListing.map((p) => {
           return (
-            <div
-              key={p.id}
-              className='w-full bg-white p-4 flex shadow rounded-lg justify-between'
-            >
-              <div>
-                <div className='font-bold'>{p.name}</div>
-                <div className='font-bold'>{p.email}</div>
-                <div>{p.description}</div>
-                <div>{p.address}</div>
-                <div>{parseDateString(p.createdTime)}</div>
-              </div>
-              <div className='flex flex-col'>
-                <a href={`tel:${p.phone1}`}>{p.phone1}</a>
-                {p.sourceLink && <a href={p.sourceLink}>source</a>}
-              </div>
-            </div>
+            <PlasmaCard
+              city={p.city}
+              createdTime={p.createdTime}
+              description={p.description}
+              district={p.district}
+              name={p.name}
+              phone1={p.phone1}
+              sourceLink={p.sourceLink}
+              state={p.state}
+            />
           );
         })}
       </div>
