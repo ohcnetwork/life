@@ -34,7 +34,7 @@ def get_active_district_data():
                 {
                     "id": district["id"],
                     "state": district["fields"]["Name (from State)"][0],
-                    "district": district["fields"]["Name"],
+                    "district": district["fields"].get("Name"),
                     "oxygen": "Oxygen 2" in district["fields"],
                     "hospital": "Hospitals, Bed, ICU" in district["fields"],
                     "medicine": "Medicine, Injection" in district["fields"],
@@ -51,7 +51,7 @@ def get_district_data():
     records = get_records("https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Districts")
     districts = {}
     for district in records:
-        districts[district["id"]] = District(district["fields"]["Name"], district["fields"]["Name (from State)"][0])
+        districts[district["id"]] = District(district["fields"].get("Name"), district["fields"]["Name (from State)"][0])
     return districts
 
 
