@@ -55,7 +55,7 @@ const tabsInfo = [
     name: "Helpline",
     icon: faPhoneAlt,
     link: "/helpline",
-    color: "text-orange-500",
+    color: "text-pink-500",
     value: "helpline",
   },
 ];
