@@ -20,17 +20,30 @@ export default function Ambulance({ state, district, ambulancesListing }) {
           { href: null, name: "Ambulance" },
         ]}
       />
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 p-4">
-        {ambulancesListing.map(({ name, phone1, phone2, area, source, id }) => (
-          <AmbulanceCard
-            key={id}
-            name={name}
-            phone1={phone1}
-            phone2={phone2}
-            area={area}
-            source={source}
-          />
-        ))}
+      <div className="space-y-4 mt-4 mb-4">
+        {ambulancesListing.map(
+          ({
+            name,
+            phone1,
+            phone2,
+            area,
+            source,
+            id,
+            createdTime,
+            verificationStatus,
+          }) => (
+            <AmbulanceCard
+              key={id}
+              name={name}
+              phone1={phone1}
+              phone2={phone2}
+              area={area}
+              source={source}
+              createdTime={createdTime}
+              verificationStatus={verificationStatus}
+            />
+          )
+        )}
       </div>
     </div>
   );
