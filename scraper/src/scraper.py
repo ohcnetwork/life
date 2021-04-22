@@ -36,7 +36,7 @@ def get_active_district_data():
                     "state": district["fields"]["Name (from State)"][0],
                     "district": district["fields"].get("Name"),
                     "oxygen": "Oxygen 2" in district["fields"],
-                    "hospital": "Hospitals, Bed, ICU" in district["fields"],
+                    "hospitals": "Hospitals, Bed, ICU" in district["fields"],
                     "medicine": "Medicine, Injection" in district["fields"],
                     "ambulance": "Ambulance" in district["fields"],
                     "helpline": "Helpline" in district["fields"],
