@@ -1,15 +1,10 @@
 import React from "react";
 // import Link from "next/link";
 import { medicineByDistrict } from "../../../lib/api";
-import { statePaths, humanize, parseDateString } from "../../../lib/utils";
+import { statePaths, humanize } from "../../../lib/utils";
 import Head from "next/head";
 import Breadcumb from "../../../components/Breadcumb";
-import {
-  faPhoneAlt,
-  faEnvelope,
-  faCheckCircle,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import MedicinesCard from "../../../components/MedicinesCard";
 
 export default function Medicine({ state, district, medicineByDistrict }) {
   return (
@@ -32,76 +27,19 @@ export default function Medicine({ state, district, medicineByDistrict }) {
       <div className="space-y-4 mt-4 mb-4">
         {medicineByDistrict.map((p) => {
           return (
-            <div key={p.id} className="bg-white rounded-lg shadow">
-              <div className="p-4 flex justify-between">
-                <div>
-                  <div className="font-bold text-2xl">
-                    <h1 className="flex items-center justify-start">
-                      {p.name}
-                      <span>
-                        {(p.verificationStatus &&
-                          p.verificationStatus.toLocaleLowerCase()) ==
-                        "verified" ? (
-                          <FontAwesomeIcon
-                            className="text-green-600 w-5 ml-4"
-                            title="Verified"
-                            icon={faCheckCircle}
-                          />
-                        ) : (
-                          <FontAwesomeIcon
-                            className="text-yellow-400 w-4 ml-4"
-                            title="Not verified"
-                            icon={faExclamationTriangle}
-                          />
-                        )}
-                      </span>
-                    </h1>
-                    <div className="text-sm text-gray-700 font-semibold">
-                      <span className="mr-2">{p.distributorName}</span>|
-                      <span className="ml-2">{p.city}</span>
-                    </div>
-                  </div>
-                  <div className="w-11/12 max-w-3xl mt-2">
-                    <div className="text-sm">{p.address}</div>
-                  </div>
-                </div>
-                <div className="flex space-x-2 items-start">
-                  {p.phone1 && (
-                    <a
-                      className="font-mono text-gray-800 hover:text-gray-900 text-sm font-bold"
-                      href={`tel:${p.phone1}`}
-                    >
-                      <FontAwesomeIcon
-                        title={p.phone1}
-                        className="text-xl w-6"
-                        icon={faPhoneAlt}
-                      />
-                    </a>
-                  )}
-                  {p.emailId && (
-                    <a
-                      className="font-bold text-sm text-gray-700 mt-0 hover:text-gray-900"
-                      target="_blank"
-                      href="mailto:callmatkarna@gmail.com"
-                    >
-                      <FontAwesomeIcon
-                        title={p.email}
-                        className="text-xl w-6"
-                        icon={faEnvelope}
-                      />
-                    </a>
-                  )}
-                  {p.source_link && <a href={p.source_link}>source</a>}
-                </div>
-              </div>
-              <hr />
-              <div className="flex justify-between items-center mx-2 mt-2 pb-3">
-                <div className="font-semibold">{p.description}</div>
-                <div className="font-mono text-gray-700 text-sm">
-                  {parseDateString(p.createdTime)}
-                </div>
-              </div>
-            </div>
+            <MedicinesCard
+              key={p.id}
+              verificationStatus={p.verificationStatus}
+              name={p.name}
+              distributorName={p.distributorName}
+              city={p.city}
+              phone1={p.phone1}
+              address={p.address}
+              description={p.description}
+              createdTime={p.createdTime}
+              slink={p.source_link}
+              email={p.emailId}
+            />
           );
         })}
       </div>
