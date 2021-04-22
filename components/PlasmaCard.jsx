@@ -53,7 +53,7 @@ const PlasmaCard = ({
         <div className="flex space-x-7 items-start">
           {phone1 && (
             <a
-              className="font-mono text-gray-800 hover:text-gray-900 text-l font-bold"
+              className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold"
               href={`tel:${phone1}`}
             >
               <FontAwesomeIcon
