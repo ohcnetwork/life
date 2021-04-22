@@ -36,7 +36,7 @@ const tabsInfo = [
     icon: faHospital,
     link: "/hospitals",
     color: "text-indigo-500",
-    value: "hospital",
+    value: "hospitals",
   },
   {
     name: "Ambulance",
