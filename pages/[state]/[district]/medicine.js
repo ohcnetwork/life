@@ -4,7 +4,7 @@ import { medicineByDistrict } from "../../../lib/api";
 import { statePaths, humanize, parseDateString } from "../../../lib/utils";
 import Head from "next/head";
 import Breadcumb from "../../../components/Breadcumb";
-import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Medicine({ state, district, medicineByDistrict }) {
@@ -51,7 +51,7 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                       <FontAwesomeIcon
                         title={p.phone1}
                         className="text-xl w-6"
-                        icon={faPhone}
+                        icon={faPhoneAlt}
                       />
                     </a>
                   )}

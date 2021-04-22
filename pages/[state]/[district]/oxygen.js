@@ -37,6 +37,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
               slink={o.sourceLink}
               fstate={state}
               fdistrict={district}
+              createdTime={o.createdTime}
             />
           );
         })}
