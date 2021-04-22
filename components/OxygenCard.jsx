@@ -50,7 +50,6 @@ const OxygenCard = ({
               <FontAwesomeIcon
                 title={`${slink}`}
                 className="text-xl w-6"
-                size="1x"
                 icon={faLink}
               />
             </a>
