@@ -27,7 +27,7 @@ const tabsInfo = [
   {
     name: "Medicine",
     icon: faCapsules,
-    link: "/medicines",
+    link: "/medicine",
     color: "text-green-500",
     value: "medicine",
   },
@@ -36,7 +36,7 @@ const tabsInfo = [
     icon: faHospital,
     link: "/hospitals",
     color: "text-indigo-500",
-    value: "hospital",
+    value: "hospitals",
   },
   {
     name: "Ambulance",

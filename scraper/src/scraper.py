@@ -36,7 +36,7 @@ def get_active_district_data():
                     "state": district["fields"]["Name (from State)"][0],
                     "district": district["fields"].get("Name"),
                     "oxygen": "Oxygen 2" in district["fields"],
-                    "hospital": "Hospitals, Bed, ICU" in district["fields"],
+                    "hospitals": "Hospitals, Bed, ICU" in district["fields"],
                     "medicine": "Medicine, Injection" in district["fields"],
                     "ambulance": "Ambulance" in district["fields"],
                     "helpline": "Helpline" in district["fields"],
@@ -136,7 +136,7 @@ def get_plasma_data():
 
 
 def get_hospital_bed_icu():
-    url = "https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Hospitals%2C%20Bed%2C%20ICU"
+    url = "https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Hospital%2C%20Clinics%2C%20Centre"
     hospital_bed_icu = {"data": []}
     raw_data = get_records(url)
     for record in raw_data:
