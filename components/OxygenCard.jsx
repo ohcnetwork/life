@@ -1,6 +1,6 @@
 import React from "react";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import { faLink, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { faLink, faPhoneAlt, faCheckCircle, faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { parseDateString } from "../lib/utils";
 
@@ -15,13 +15,30 @@ const OxygenCard = ({
   fstate,
   fdistrict,
   createdTime,
+  verifiedStatus
 }) => {
   return (
     <div className="bg-white rounded-lg shadow">
       <div className="p-4 flex justify-between">
         <div>
           <div className="font-bold text-2xl">
+            <h1>
             {name}
+            <span>
+              {(verifiedStatus && verifiedStatus.toLocaleLowerCase() ==
+                "verified") ? (
+                <FontAwesomeIcon
+                  className="text-green-600 w-5 ml-4"
+                  title="Verified"
+                  icon={faCheckCircle}
+                />
+              ) : <FontAwesomeIcon
+                    className="text-yellow-400 w-4 ml-4"
+                    title="Not verified"
+                    icon={faExclamationTriangle}
+                  />
+            }
+            </span></h1>
             <div className="text-sm  uppercase mt-3 text-gray-700 font-semibold">
               <span className="mr-2">{fdistrict}</span>|
               <span className="ml-2">{fstate}</span>

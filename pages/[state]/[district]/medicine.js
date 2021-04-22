@@ -4,7 +4,11 @@ import { medicineByDistrict } from "../../../lib/api";
 import { statePaths, humanize, parseDateString } from "../../../lib/utils";
 import Head from "next/head";
 import Breadcumb from "../../../components/Breadcumb";
-import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPhoneAlt,
+  faEnvelope,
+  faCheckCircle,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Medicine({ state, district, medicineByDistrict }) {
@@ -28,11 +32,24 @@ export default function Medicine({ state, district, medicineByDistrict }) {
       <div className="space-y-4 mt-4 mb-4">
         {medicineByDistrict.map((p) => {
           return (
-            <div className="bg-white rounded-lg shadow">
-              <div key={p.id} className="p-4 flex justify-between">
+            <div key={p.id} className="bg-white rounded-lg shadow">
+              <div className="p-4 flex justify-between">
                 <div>
                   <div className="font-bold text-2xl">
-                    {p.name}
+                    <h1 className="flex items-center justify-start">
+                      {p.name}
+                      <span>
+                        {(p.verificationStatus &&
+                          p.verificationStatus.toLocaleLowerCase()) ==
+                        "verified" ? (
+                          <FontAwesomeIcon
+                            className="text-green-600 w-5 ml-4"
+                            title="Verified"
+                            icon={faCheckCircle}
+                          />
+                        ) : null}
+                      </span>
+                    </h1>
                     <div className="text-sm text-gray-700 font-semibold">
                       <span className="mr-2">{p.distributorName}</span>|
                       <span className="ml-2">{p.city}</span>
