@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto py-6 px-4 overflow-hidden sm:px-6 lg:px-8 sm:flex items-center justify-between">
       <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
               Curated by{" "}
-          <Link href="http://covidfyi.in/">
+          <Link href="https://covidfyi.in/">
             <span className="underline cursor-pointer text-indigo-600">
               Covid FYI
             </span>
@@ -14,7 +14,7 @@ const Footer = () => {
         </p>
         <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
               Supported by{" "}
-          <Link href="Swasth.app">
+          <Link href="https://www.swasth.app">
             <span className="underline cursor-pointer text-indigo-600">
               Swasth Alliance
             </span>
@@ -22,7 +22,7 @@ const Footer = () => {
         </p>
         <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
           Powered By{" "}
-          <Link href="http://coronasafe.network/">
+          <Link href="https://coronasafe.network/">
             <span className="underline cursor-pointer text-indigo-600">
               CoronaSafe Network
             </span>
