@@ -89,9 +89,9 @@ export default function State({ state }) {
             onChange={(e) => setSearchStr(e.target.value)}
           />
         </div>
-        <div class="flex flex-wrap overflow-hidden mt-8">
+        <div className="flex flex-wrap overflow-hidden mt-8">
           {filterDistricts.map((f) => (
-            <div class="w-full rounded overflow-hidden md:w-1/2 mb-6 hover:bg-gray-200">
+            <div className="w-full rounded overflow-hidden md:w-1/2 mb-6 hover:bg-gray-200">
               <div className="p-4">
                 <Link
                   href={`/${parametreize(state)}/${parametreize(f.district)}`}
