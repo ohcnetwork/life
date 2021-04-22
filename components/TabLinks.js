@@ -14,11 +14,11 @@ export default function TabLinks({ state, district, tabsInfo }) {
   return (
     <div className="border-b border-gray-200">
       <nav className="flex flex-wrap" aria-label="Tabs">
-        <div className="flex flex-wrap overflow-hidden">
+        <div className="flex flex-wrap overflow-hidden space-x-1">
           {tabsInfo.map((tab) => {
             const render = (
               <div
-                className={`w-1/2 overflow-hidden ${
+                className={`w-5/12 overflow-hidden ${
                   district[tab.value]
                     ? "bg-" + tab.color.split("-")[1] + "-200 cursor-pointer"
                     : " cursor-not-allowed"
@@ -31,7 +31,7 @@ export default function TabLinks({ state, district, tabsInfo }) {
                       : "text-gray-500"
                   } group border-b-2 font-medium`}
                 >
-                  <FontAwesomeIcon icon={tab.icon} />
+                  <FontAwesomeIcon icon={tab.icon} className="w-5" />
                   <span className="ml-2">{tab.name}</span>
                 </div>
               </div>
