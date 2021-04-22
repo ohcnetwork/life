@@ -11,6 +11,7 @@ import {
   faHospital,
   faAmbulance,
   faCapsules,
+  faPhoneAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import TabLinks from "../../../components/TabLinks";
 import Head from "next/head";
@@ -51,6 +52,13 @@ const tabsInfo = [
     link: "/plasma",
     color: "text-yellow-500",
     value: "plasma",
+  },
+  {
+    name: "Helpline",
+    icon: faPhoneAlt,
+    link: "/helpline",
+    color: "text-pink-500",
+    value: "helpline",
   },
 ];
 

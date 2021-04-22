@@ -1,13 +1,12 @@
-import React from 'react';
-import { plasmaByDistrict } from '../../../lib/api';
-import { humanize, parseDateString, statePaths } from '../../../lib/utils';
-import Head from 'next/head';
-import Breadcumb from '../../../components/Breadcumb';
-
+import React from "react";
+import { plasmaByDistrict } from "../../../lib/api";
+import { humanize, statePaths } from "../../../lib/utils";
+import Head from "next/head";
+import Breadcumb from "../../../components/Breadcumb";
+import PlasmaCard from "../../../components/PlasmaCard";
 export default function Plasma({ state, district, plasmaListing }) {
-  console.log(plasmaListing);
   return (
-    <section className='flex flex-col items-center md:pt-10'>
+    <section className="flex flex-col items-center md:pt-10">
       <Head>
         <title>
           Plasma in {humanize(district)} , {humanize(state)}
@@ -17,31 +16,25 @@ export default function Plasma({ state, district, plasmaListing }) {
         list={[
           { href: `/${state}`, name: humanize(state) },
           { href: `/${state}/${district}`, name: humanize(district) },
-          { href: null, name: 'Plasma' },
+          { href: null, name: "Plasma" },
         ]}
       />
-      <h1 className='mt-4 font-black text-6xl text-gray-900 md:text-left text-center'>
+      <h1 className="mt-4 font-black text-6xl text-gray-900 md:text-left text-center">
         {humanize(district)}
       </h1>
-      <div className='space-y-4 mt-4 max-w-3xl w-full'>
+      <div className="space-y-4 mt-4 max-w-3xl w-full">
         {plasmaListing.map((p) => {
           return (
-            <div
-              key={p.id}
-              className='w-full bg-white p-4 flex shadow rounded-lg justify-between'
-            >
-              <div>
-                <div className='font-bold'>{p.name}</div>
-                <div className='font-bold'>{p.email}</div>
-                <div>{p.description}</div>
-                <div>{p.address}</div>
-                <div>{parseDateString(p.createdTime)}</div>
-              </div>
-              <div className='flex flex-col'>
-                <a href={`tel:${p.phone1}`}>{p.phone1}</a>
-                {p.sourceLink && <a href={p.sourceLink}>source</a>}
-              </div>
-            </div>
+            <PlasmaCard
+              city={p.city}
+              createdTime={p.createdTime}
+              description={p.description}
+              district={p.district}
+              name={p.name}
+              phone1={p.phone1}
+              sourceLink={p.sourceLink}
+              state={p.state}
+            />
           );
         })}
       </div>
@@ -61,7 +54,7 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   return {
-    paths: statePaths('plasma'),
+    paths: statePaths("plasma"),
     fallback: false,
   };
 }

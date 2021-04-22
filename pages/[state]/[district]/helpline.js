@@ -1,43 +1,42 @@
 import React from "react";
-import { medicineByDistrict } from "../../../lib/api";
-import { statePaths, humanize } from "../../../lib/utils";
+import { helplineByDistrict } from "../../../lib/api";
+import { statePaths, humanize, parseDateString } from "../../../lib/utils";
 import Head from "next/head";
 import Breadcumb from "../../../components/Breadcumb";
-import MedicinesCard from "../../../components/MedicinesCard";
+import HelplineCard from "../../../components/HelplineCard";
 
-export default function Medicine({ state, district, medicineByDistrict }) {
+export default function Helpline({ state, district, helplines }) {
   return (
     <section className="flex flex-col items-center md:pt-10">
       <Head>
         <title>
-          Medicines in {humanize(district)} , {humanize(state)}
+          Helpline in {humanize(district)} , {humanize(state)}
         </title>
       </Head>
       <Breadcumb
         list={[
           { href: `/${state}`, name: humanize(state) },
           { href: `/${state}/${district}`, name: humanize(district) },
-          { href: null, name: "Medicines" },
+          { href: null, name: "Helplines" },
         ]}
       />
       <h1 className="mt-4 font-black text-6xl text-gray-900 md:text-left text-center">
         {humanize(district)}
       </h1>
-      <div className="space-y-4 mt-4 mb-4">
-        {medicineByDistrict.map((p) => {
+      <div className="space-y-4 mt-4 max-w-3xl w-full">
+        {helplines.map((p) => {
           return (
-            <MedicinesCard
+            <HelplineCard
               key={p.id}
-              verificationStatus={p.verificationStatus}
-              name={p.name}
-              distributorName={p.distributorName}
-              city={p.city}
-              phone1={p.phone1}
-              address={p.address}
-              description={p.description}
+              category={p.category}
               createdTime={p.createdTime}
-              slink={p.source_link}
-              email={p.emailId}
+              description={p.description}
+              district={p.district}
+              phone1={p.phone1}
+              source={p.source}
+              slink={p.sourceUrl}
+              state={p.state}
+              subCategory={p.subCategory}
             />
           );
         })}
@@ -51,14 +50,14 @@ export async function getStaticProps({ params }) {
     props: {
       state: params.state,
       district: params.district,
-      medicineByDistrict: medicineByDistrict(params.state, params.district),
+      helplines: helplineByDistrict(params.state, params.district),
     },
   };
 }
 
 export async function getStaticPaths() {
   return {
-    paths: statePaths("medicine"),
+    paths: statePaths("helpline"),
     fallback: false,
   };
 }

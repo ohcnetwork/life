@@ -9,17 +9,15 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { parseDateString } from "../lib/utils";
 
-const OxygenCard = ({
-  name,
-  company,
-  phone1,
-  phone2,
-  description,
-  source,
-  slink,
-  fstate,
-  fdistrict,
+const PlasmaCard = ({
+  city,
   createdTime,
+  description,
+  district,
+  name,
+  phone1,
+  sourceLink,
+  state,
   verifiedStatus,
 }) => {
   return (
@@ -47,11 +45,8 @@ const OxygenCard = ({
               </span>
             </h1>
             <div className="text-sm  uppercase mt-3 text-gray-700 font-semibold">
-              <span className="mr-2">{fdistrict}</span>|
-              <span className="ml-2">{fstate}</span>
-            </div>
-            <div className="w-11/12 max-w-3xl mt-2">
-              <div className="text-sm">{source}</div>
+              <span className="mr-2">{district}</span>|
+              <span className="ml-2">{state}</span>
             </div>
           </div>
         </div>
@@ -68,14 +63,14 @@ const OxygenCard = ({
               />
             </a>
           )}
-          {slink && (
+          {sourceLink && (
             <a
-              className="font-mono text-gray-700 font-bold text-xl hover:text-gray-900"
+              className="font-bold text-xl text-gray-700 mt-0 hover:text-gray-900"
               target="_blank"
-              href={slink}
+              href={sourceLink}
             >
               <FontAwesomeIcon
-                title={`${slink}`}
+                title={`${sourceLink}`}
                 className="text-xl w-6"
                 icon={faLink}
               />
@@ -94,4 +89,4 @@ const OxygenCard = ({
   );
 };
 
-export default OxygenCard;
+export default PlasmaCard;
