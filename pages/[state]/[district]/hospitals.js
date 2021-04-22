@@ -3,6 +3,7 @@ import { hospitalByDistrict } from "../../../lib/api";
 import { statePaths, humanize, parseDateString } from "../../../lib/utils";
 import Head from "next/head";
 import Breadcumb from "../../../components/Breadcumb";
+import HospitalCard from "../../../components/HospitalCard";
 
 export default function Medicine({ state, district, hospitalByDistrict }) {
   return (
@@ -25,22 +26,16 @@ export default function Medicine({ state, district, hospitalByDistrict }) {
       <div className="space-y-4 mt-4 max-w-3xl w-full">
         {hospitalByDistrict.map((p) => {
           return (
-            <div
+            <HospitalCard
               key={p.id}
-              className="w-full bg-white p-4 flex shadow rounded-lg justify-between"
-            >
-              <div>
-                <div className="font-bold">{p.name}</div>
-                <div className="font-bold">{p.email}</div>
-                <div>{p.description}</div>
-                <div>{p.address}</div>
-                <div>{parseDateString(p.createdTime)}</div>
-              </div>
-              <div className="flex flex-col">
-                <a href={`tel:${p.phone1}`}>{p.phone1}</a>
-                {p.source_link && <a href={p.source_link}>source</a>}
-              </div>
-            </div>
+              name={p.name}
+              pointOfContact={p.pointOfContact}
+              createdTime={p.createdTime}
+              phone1={p.phone1}
+              district={p.district}
+              state={p.state}
+              verificationStatus={p.verificationStatus}
+            />
           );
         })}
       </div>
