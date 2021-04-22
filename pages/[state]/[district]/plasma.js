@@ -1,13 +1,12 @@
-import React from 'react';
-import { plasmaByDistrict } from '../../../lib/api';
-import { humanize, parseDateString, statePaths } from '../../../lib/utils';
-import Head from 'next/head';
-import Breadcumb from '../../../components/Breadcumb';
-import PlasmaCard from '../../../components/PlasmaCard';
+import React from "react";
+import { plasmaByDistrict } from "../../../lib/api";
+import { humanize, statePaths } from "../../../lib/utils";
+import Head from "next/head";
+import Breadcumb from "../../../components/Breadcumb";
+import PlasmaCard from "../../../components/PlasmaCard";
 export default function Plasma({ state, district, plasmaListing }) {
-  console.log(plasmaListing);
   return (
-    <section className='flex flex-col items-center md:pt-10'>
+    <section className="flex flex-col items-center md:pt-10">
       <Head>
         <title>
           Plasma in {humanize(district)} , {humanize(state)}
@@ -17,13 +16,13 @@ export default function Plasma({ state, district, plasmaListing }) {
         list={[
           { href: `/${state}`, name: humanize(state) },
           { href: `/${state}/${district}`, name: humanize(district) },
-          { href: null, name: 'Plasma' },
+          { href: null, name: "Plasma" },
         ]}
       />
-      <h1 className='mt-4 font-black text-6xl text-gray-900 md:text-left text-center'>
+      <h1 className="mt-4 font-black text-6xl text-gray-900 md:text-left text-center">
         {humanize(district)}
       </h1>
-      <div className='space-y-4 mt-4 max-w-3xl w-full'>
+      <div className="space-y-4 mt-4 max-w-3xl w-full">
         {plasmaListing.map((p) => {
           return (
             <PlasmaCard
@@ -55,7 +54,7 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   return {
-    paths: statePaths('plasma'),
+    paths: statePaths("plasma"),
     fallback: false,
   };
 }

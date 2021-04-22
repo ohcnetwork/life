@@ -1,5 +1,4 @@
 import React from "react";
-// import Link from "next/link";
 import { medicineByDistrict } from "../../../lib/api";
 import { statePaths, humanize } from "../../../lib/utils";
 import Head from "next/head";
