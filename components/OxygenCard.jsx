@@ -31,19 +31,19 @@ const OxygenCard = ({
         <div className="flex space-x-7 items-start">
           {phone1 && (
             <a
-              className="font-mono text-gray-800 hover:text-gray-900 text-sm font-bold"
-              href={`tel:${phone1}`}
-            >
-              <FontAwesomeIcon
-                title={`${phone1}`}
-                className="text-xl w-6"
-                icon={faPhoneAlt}
-              />
-            </a>
+            className="font-mono text-gray-800 hover:text-gray-900 text-xl font-bold"
+            href={`tel:${phone1}`}
+          >
+            <FontAwesomeIcon
+              title={`${phone1}`}
+              className="text-xl w-6"
+              icon={faPhoneAlt}
+            />
+          </a>
           )}
           {slink && (
             <a
-              className="font-bold text-sm text-gray-700 mt-0 hover:text-gray-900"
+              className="font-mono text-gray-700 font-bold text-xl hover:text-gray-900"
               target="_blank"
               href={slink}
             >
