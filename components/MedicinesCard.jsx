@@ -33,13 +33,13 @@ const MedicinesCard = ({
                                 {(verificationStatus && verificationStatus.toLocaleLowerCase()) ==
                                 'verified' ? (
                                     <FontAwesomeIcon
-                                        className="text-green-600 w-5 ml-4"
+                                        className="text-green-600 w-5 "
                                         title="Verified"
                                         icon={faCheckCircle}
                                     />
                                 ) : (
                                     <FontAwesomeIcon
-                                        className="text-yellow-400 w-4 ml-4"
+                                        className="text-yellow-400 w-4 "
                                         title="Not verified"
                                         icon={faExclamationTriangle}
                                     />
@@ -93,8 +93,8 @@ const MedicinesCard = ({
                     )}
                 </div>
             </div>
-            <hr />
-            <div className="flex justify-between items-center mx-2 mt-2 pb-3">
+            <hr className="dark:text-gray-500" />
+            <div className="flex justify-between items-center mx-4 mt-2 pb-3">
                 <div className="font-semibold dark:text-gray-400">{description}</div>
                 <div className="font-mono text-gray-700 dark:text-gray-400 text-sm">
                     {lastVerifiedOn && `Verified @ ${parseDateString(lastVerifiedOn)}`}
