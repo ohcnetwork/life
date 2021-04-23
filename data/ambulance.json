@@ -55,23 +55,6 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Krishna",
-            "id": "rec08GotGt6Fatv5Z",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": "0866-3202242",
-            "phone2": null,
-            "source": null,
-            "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "area": null,
-            "comment": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Indore",
             "id": "rec0BRq27gbtjdlZ2",
             "lastVerifiedOn": null,
@@ -304,20 +287,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Switched off.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Guntur",
             "id": "rec2d5saXDOMDaYyq",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T15:04:40.000Z",
             "name": null,
             "phone1": "9989011088",
             "phone2": null,
             "source": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -403,21 +384,6 @@
             "verifiedBy": [
                 {}
             ]
-        },
-        {
-            "area": null,
-            "comment": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "New Delhi",
-            "id": "rec3ffZpH0QcXauIn",
-            "lastVerifiedOn": "2021-04-22T07:53:55.000Z",
-            "name": null,
-            "phone1": "011-26520130-32",
-            "phone2": null,
-            "source": null,
-            "state": "Delhi (NCT)",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -727,21 +693,6 @@
         },
         {
             "area": null,
-            "comment": "Both numbers not in service",
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "New Delhi",
-            "id": "rec73Rke5X1NvK0bD",
-            "lastVerifiedOn": "2021-04-22T08:11:34.000Z",
-            "name": null,
-            "phone1": "9812235550 9810235550",
-            "phone2": null,
-            "source": null,
-            "state": "Delhi (NCT)",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Hamzah Jamal"
-        },
-        {
-            "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nandurbar",
@@ -878,36 +829,6 @@
         },
         {
             "area": null,
-            "comment": "Got SMS on calling - \"Remdesivir is supplied to drug office, cannot be supplied directly to patients. Contact your hospital pharmacy\"",
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ranchi",
-            "id": "rec7zwcPngjMFfS8T",
-            "lastVerifiedOn": "2021-04-22T08:39:48.000Z",
-            "name": null,
-            "phone1": "8969450001",
-            "phone2": null,
-            "source": null,
-            "state": "Jharkhand",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Apoorv K"
-        },
-        {
-            "area": null,
-            "comment": "Not getting connected.",
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ambala",
-            "id": "rec84kdJkV42Ur593",
-            "lastVerifiedOn": "2021-04-22T08:21:45.000Z",
-            "name": null,
-            "phone1": "1714009005",
-            "phone2": null,
-            "source": null,
-            "state": "Haryana",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Dr. Pallabi Roy"
-        },
-        {
-            "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmedabad",
@@ -1027,7 +948,7 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Unreachable. No contact number.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Dhamtari",
             "id": "rec8kRLcvBkqznD2C",
@@ -1146,21 +1067,6 @@
         },
         {
             "area": null,
-            "comment": "Call didn't get connected.",
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ambala",
-            "id": "rec9nmxtR8Whmj2rx",
-            "lastVerifiedOn": "2021-04-22T08:23:35.000Z",
-            "name": null,
-            "phone1": "1714009005",
-            "phone2": null,
-            "source": null,
-            "state": "Haryana",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Dr. Pallabi Roy"
-        },
-        {
-            "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmedabad",
@@ -1195,20 +1101,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Line is busy.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Visakhapatnam",
             "id": "recA3X4pA4XcPCZjD",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T15:02:16.000Z",
             "name": null,
             "phone1": "9849185987",
             "phone2": null,
             "source": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -1295,20 +1199,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Switched off.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Visakhapatnam",
             "id": "recAduaEa91XSUUkP",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T15:02:45.000Z",
             "name": null,
             "phone1": "9849112421",
             "phone2": null,
             "source": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -1633,20 +1535,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No answer.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Patna",
             "id": "recDU8W45L1eugoG1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T16:07:22.000Z",
             "name": null,
             "phone1": "2301463",
             "phone2": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -1816,20 +1716,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No answer.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kamrup Metropolitan",
             "id": "recFCazPXrEqqXzDI",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T15:33:07.000Z",
             "name": null,
             "phone1": "0361-2546361/2544519",
             "phone2": null,
             "source": null,
             "state": "Assam",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -2154,37 +2052,33 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Line was busy.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Madurai",
             "id": "recI1POjcSC64B82G",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:29:53.000Z",
             "name": null,
             "phone1": "9500927333",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Drugs are unavailable. They are supplying directly to COVID-19 centres. Not sure about when stock will be replenished. Couldn't share the contact number of nearby centers.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Latur",
             "id": "recI2rWZBYm87OhQi",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:32:50.000Z",
             "name": null,
             "phone1": "02382 -258455",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -2358,20 +2252,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Switched off.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Visakhapatnam",
             "id": "recJYZhuzpXYio5sR",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:58:55.000Z",
             "name": null,
             "phone1": "9849595908",
             "phone2": null,
             "source": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -2626,21 +2518,6 @@
         },
         {
             "area": null,
-            "comment": "Call didn't get connected.",
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ambala",
-            "id": "recL1rZSerC4egytz",
-            "lastVerifiedOn": "2021-04-22T08:23:54.000Z",
-            "name": null,
-            "phone1": "1714009005",
-            "phone2": null,
-            "source": null,
-            "state": "Haryana",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Dr. Pallabi Roy"
-        },
-        {
-            "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chandigarh",
@@ -2892,20 +2769,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Number doesn't exist.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chandigarh",
             "id": "recMznAgs4mvVBTIc",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T16:09:24.000Z",
             "name": null,
             "phone1": "0172-2602085 5007085",
             "phone2": null,
             "source": null,
             "state": "Chandigarh (UT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -2926,20 +2801,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No answer.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Patna",
             "id": "recNHTSmHlTZkv9te",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T15:37:16.000Z",
             "name": null,
-            "phone1": "2254045",
+            "phone1": "0612-2254045",
             "phone2": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -2977,20 +2850,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No response.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Prakasam",
             "id": "recNoE4pRIEkCrxyc",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:59:53.000Z",
             "name": null,
             "phone1": "9246472006",
             "phone2": null,
             "source": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -3093,21 +2964,6 @@
             "verifiedBy": [
                 {}
             ]
-        },
-        {
-            "area": null,
-            "comment": "Dialled number does not exist",
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ranchi",
-            "id": "recOaNkG0PjYiVxe7",
-            "lastVerifiedOn": "2021-04-22T08:34:20.000Z",
-            "name": null,
-            "phone1": "919204229041",
-            "phone2": null,
-            "source": null,
-            "state": "Jharkhand",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Apoorv K"
         },
         {
             "area": null,
@@ -3264,21 +3120,6 @@
         },
         {
             "area": null,
-            "comment": "This is distributor - he said all Remdesivir in MH goes to collector office, the contact does not provide it directly legally - Apoorv",
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Kolhapur",
-            "id": "recQdhy3jiFctHK2f",
-            "lastVerifiedOn": "2021-04-22T08:42:04.000Z",
-            "name": null,
-            "phone1": "9822355995/9049911199",
-            "phone2": null,
-            "source": null,
-            "state": "Maharashtra",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Apoorv K"
-        },
-        {
-            "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Mehsana",
@@ -3313,7 +3154,7 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Unreachable - Verify later.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kamrup Metropolitan",
             "id": "recR1YROTQY9rfoP4",
@@ -3378,21 +3219,6 @@
             "verifiedBy": [
                 {}
             ]
-        },
-        {
-            "area": null,
-            "comment": "Services to this number are currently unavailable.",
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Kolkata",
-            "id": "recRVdZJO4meoH9HY",
-            "lastVerifiedOn": "2021-04-22T08:11:08.000Z",
-            "name": null,
-            "phone1": "033-66120102",
-            "phone2": null,
-            "source": null,
-            "state": "West Bengal",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -3464,35 +3290,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "All lines of this route are currently busy, please try later.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Krishna",
             "id": "recT9H8ZVEUtasDTR",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T15:03:15.000Z",
             "name": null,
             "phone1": "0866-3202242",
             "phone2": null,
             "source": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "area": null,
-            "comment": "Subscriber is not accepting incoming calls",
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ranchi",
-            "id": "recTDDI7wPPimpz4I",
-            "lastVerifiedOn": "2021-04-22T08:36:27.000Z",
-            "name": null,
-            "phone1": "0651-2229929",
-            "phone2": null,
-            "source": null,
-            "state": "Jharkhand",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Apoorv K"
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -3598,37 +3407,33 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No answer.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Patna",
             "id": "recTukAyPHMV93Jj1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T16:06:04.000Z",
             "name": null,
             "phone1": "0612 - 2301980",
             "phone2": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "First number - No answer.\nSecond number - Switched off.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Raipur",
             "id": "recTzlays1HBgIsRC",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T16:18:54.000Z",
             "name": null,
-            "phone1": "0771-22345059755755555",
+            "phone1": "0771-2234505       9755755555",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -4276,20 +4081,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Switched off.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Patna",
             "id": "recYd0QPAca7nWRee",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T16:08:35.000Z",
             "name": null,
             "phone1": "9709300131",
             "phone2": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -5020,20 +4823,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No answer.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Raipur",
             "id": "receCjw3KehZ3qBTE",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T16:17:49.000Z",
             "name": null,
-            "phone1": "0771-40444329329106333",
+            "phone1": "9329106333",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -5307,20 +5108,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No answer.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Guntur",
             "id": "recfqvsROPtovow20",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T15:06:31.000Z",
             "name": null,
             "phone1": "9849828896",
             "phone2": null,
             "source": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -5645,20 +5444,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Switched off.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chittoor",
             "id": "reci0E1ID6bPs3e6E",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T15:00:26.000Z",
             "name": null,
             "phone1": "9920124208",
             "phone2": null,
             "source": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -6313,20 +6110,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No answer.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Raigarh",
             "id": "recnzX20QHH9oDycT",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T16:28:44.000Z",
             "name": null,
-            "phone1": "07762-2327409425250340",
+            "phone1": "07762-232740     9425250340",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -6481,20 +6276,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No answer.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chandigarh",
             "id": "recpFQjw1hPXXOHrU",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T16:13:19.000Z",
             "name": null,
             "phone1": "9855732277",
             "phone2": null,
             "source": null,
             "state": "Chandigarh (UT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -6546,21 +6339,6 @@
             "verifiedBy": [
                 {}
             ]
-        },
-        {
-            "area": null,
-            "comment": "Number not provided in data",
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "New Delhi",
-            "id": "recpiozosayuTT0Zq",
-            "lastVerifiedOn": "2021-04-22T08:09:06.000Z",
-            "name": null,
-            "phone1": null,
-            "phone2": null,
-            "source": null,
-            "state": "Delhi (NCT)",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Hamzah Jamal"
         },
         {
             "area": null,
@@ -6731,21 +6509,6 @@
             "verifiedBy": [
                 {}
             ]
-        },
-        {
-            "area": null,
-            "comment": "Call didn't get connected.",
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ambala",
-            "id": "recr3XxOSq5jJNj2c",
-            "lastVerifiedOn": "2021-04-22T08:24:12.000Z",
-            "name": null,
-            "phone1": "1714009005",
-            "phone2": null,
-            "source": null,
-            "state": "Haryana",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -7044,21 +6807,6 @@
             "verifiedBy": [
                 {}
             ]
-        },
-        {
-            "area": null,
-            "comment": "Contact No doesnt exist",
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Mumbai Suburban",
-            "id": "rectWDxfpzklN59GQ",
-            "lastVerifiedOn": "2021-04-22T09:49:50.000Z",
-            "name": null,
-            "phone1": "022-28662979 / 8",
-            "phone2": null,
-            "source": null,
-            "state": "Maharashtra",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -7375,20 +7123,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Switched off.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Patna",
             "id": "recvojc7794RtdXGr",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T16:08:06.000Z",
             "name": null,
             "phone1": "9431063952",
             "phone2": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -7832,20 +7578,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Doesn't have any COVID-19 drugs. Said that he's not expecting a stock any time soon.\n(Aa hi nahi rahe hain ji)",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chandigarh",
             "id": "reczUWdTwx7IXiR3T",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T16:10:37.000Z",
             "name": null,
             "phone1": "5055455",
             "phone2": null,
             "source": null,
             "state": "Chandigarh (UT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,

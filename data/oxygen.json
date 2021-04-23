@@ -20,79 +20,21 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "switched off\n",
             "companyName": null,
             "createdTime": "2021-04-19T09:54:47.000Z",
             "description": null,
             "district": "Kanpur Nagar",
             "id": "rec1FpwS8O4kCsnd1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:29:54.000Z",
             "name": null,
             "phone1": 7985121201,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": "no longer available",
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Available for refill upto 10 litres",
-            "district": "Lucknow",
-            "id": "rec1u5sYB5DMHgLcw",
-            "lastVerifiedOn": "2021-04-22T09:22:49.000Z",
-            "name": null,
-            "phone1": 8881803073,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": null,
-            "createdTime": "2021-04-19T09:58:01.000Z",
-            "description": null,
-            "district": "Indore",
-            "id": "rec21Aki3iVMjsn1z",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 8109259955,
-            "phone2": null,
-            "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
-            "sourceName": null,
-            "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": "Phaphamau, Allahabad District",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Verification Pending",
-            "district": "Lucknow",
-            "id": "rec22NhFX3agbIQvC",
-            "lastVerifiedOn": "2021-04-22T09:16:29.000Z",
-            "name": null,
-            "phone1": 7947152610,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "city": null,
@@ -168,41 +110,21 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "No response",
             "companyName": null,
             "createdTime": "2021-04-19T09:55:21.000Z",
             "description": null,
             "district": "Allahabad",
             "id": "rec3SOhz4YsDwPFKU",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:00:02.000Z",
             "name": null,
             "phone1": 9915382021,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": "Civil Lines, Allahabad",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Verification Pending",
-            "district": "Lucknow",
-            "id": "rec4D5fL8hgYPuiVb",
-            "lastVerifiedOn": "2021-04-22T08:47:15.000Z",
-            "name": null,
-            "phone1": 7947439572,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Archisha Singh"
         },
         {
             "city": null,
@@ -242,43 +164,21 @@
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": null,
-            "createdTime": "2021-04-19T09:55:16.000Z",
-            "description": null,
-            "district": "Allahabad",
-            "id": "rec4suo7jIg5Ychh4",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 7947439572,
-            "phone2": null,
-            "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
+            "comment": "Both numbers switched off. Try later.",
             "companyName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": null,
             "district": "Pune",
             "id": "rec6GrgrXeHuXYTAM",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:13:43.000Z",
             "name": null,
             "phone1": 9518593779,
             "phone2": 9011087560,
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Zenitha Das"
         },
         {
             "city": null,
@@ -300,7 +200,7 @@
         },
         {
             "city": null,
-            "comment": "did not pick up",
+            "comment": "Busy. Try again.",
             "companyName": null,
             "createdTime": "2021-04-19T09:56:48.000Z",
             "description": null,
@@ -314,27 +214,7 @@
             "sourceName": null,
             "state": "Madhya Pradesh",
             "verificationStatus": "Unresponsive",
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": null,
-            "district": "Lucknow",
-            "id": "rec7GDv0mnpC4cY5Z",
-            "lastVerifiedOn": "2021-04-22T08:41:44.000Z",
-            "name": null,
-            "phone1": 9304084300,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
+            "verifiedBy": "Archisha Singh"
         },
         {
             "city": null,
@@ -353,26 +233,6 @@
             "state": "Delhi (NCT)",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "sucharu asri"
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": null,
-            "createdTime": "2021-04-19T09:55:21.000Z",
-            "description": null,
-            "district": "Allahabad",
-            "id": "rec7Ws7qJWgOnLBFa",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 9695343388,
-            "phone2": null,
-            "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
         },
         {
             "city": null,
@@ -400,95 +260,51 @@
             "description": "Oxygen",
             "district": "Varanasi",
             "id": "rec7pJJ5uDssHP2TA",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T13:51:49.000Z",
             "name": null,
             "phone1": 7355775344,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=0\n",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "description": null,
-            "district": "Lucknow",
-            "id": "rec84N9csxkrsbiRX",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 7947274221,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": "Twitter - Non government",
-            "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
+            "comment": "Number switched off 22/4 3pm\n",
             "companyName": null,
             "createdTime": "2021-04-19T09:58:01.000Z",
             "description": null,
             "district": "Indore",
             "id": "rec8a0K1KklPUGbeg",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:03:56.000Z",
             "name": null,
             "phone1": 9009525222,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Available",
-            "district": "Lucknow",
-            "id": "rec9FEAEX9FRndMp9",
-            "lastVerifiedOn": "2021-04-22T08:40:49.000Z",
-            "name": null,
-            "phone1": 7844038913,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
-        },
-        {
-            "city": null,
-            "comment": null,
+            "comment": "busy",
             "companyName": null,
             "createdTime": "2021-04-19T09:37:29.000Z",
             "description": "Oxygen",
             "district": "Varanasi",
             "id": "rec9WHcRJftvZoMmV",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T13:57:09.000Z",
             "name": null,
             "phone1": 8858791558,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=0\n",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
@@ -564,59 +380,21 @@
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": null,
-            "createdTime": "2021-04-19T09:59:12.000Z",
-            "description": null,
-            "district": "New Delhi",
-            "id": "recDiC9pPa0A0iIGZ",
-            "lastVerifiedOn": "2021-04-22T07:41:19.000Z",
-            "name": null,
-            "phone1": 9712265674,
-            "phone2": null,
-            "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
-            "sourceName": null,
-            "state": "Delhi (NCT)",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "sucharu asri"
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": null,
+            "comment": "Busy, call later.",
+            "companyName": "Maruti Hospital & Trauma Centre (TrueCaller)",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": null,
             "district": "Lucknow",
             "id": "recDqJGKc3IpYaYTu",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:20:11.000Z",
             "name": null,
             "phone1": 9919192260,
             "phone2": null,
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "NA",
-            "district": "Lucknow",
-            "id": "recE5wlFzHGDfnEU6",
-            "lastVerifiedOn": "2021-04-22T09:31:30.000Z",
-            "name": null,
-            "phone1": 8090531401,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Zenitha Das"
         },
         {
             "city": null,
@@ -653,46 +431,6 @@
             "state": "Delhi (NCT)",
             "verificationStatus": "Verified",
             "verifiedBy": "sucharu asri"
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": null,
-            "createdTime": "2021-04-19T09:58:01.000Z",
-            "description": null,
-            "district": "Indore",
-            "id": "recF6lF47EKPkWWiL",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 7312796611,
-            "phone2": null,
-            "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
-            "sourceName": null,
-            "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "description": null,
-            "district": "Lucknow",
-            "id": "recF82XytAagSy4qO",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 8090406090,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": "Twitter - Non government",
-            "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
         },
         {
             "city": null,
@@ -768,23 +506,21 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "Didn't pick ",
             "companyName": null,
             "createdTime": "2021-04-19T09:58:01.000Z",
             "description": null,
             "district": "Indore",
             "id": "recGM7ZlhH9EFSobc",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:24:14.000Z",
             "name": null,
             "phone1": 9893954001,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
@@ -806,33 +542,31 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "switched off",
             "companyName": null,
             "createdTime": "2021-04-19T09:37:29.000Z",
             "description": "Oxygen",
             "district": "Varanasi",
             "id": "recGkvGKfXWNEFvKY",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T13:57:43.000Z",
             "name": null,
             "phone1": 9140430041,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=0\n",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "Oxygen cylinders and cans available.",
             "companyName": null,
             "createdTime": "2021-04-20T09:33:24.000Z",
             "description": null,
             "district": "Mumbai City",
             "id": "recGrIaRiwiFA90r5",
-            "lastVerifiedOn": "2021-04-22T08:09:39.000Z",
+            "lastVerifiedOn": "2021-04-22T15:05:38.000Z",
             "name": null,
             "phone1": 8828164848,
             "phone2": null,
@@ -840,9 +574,7 @@
             "sourceName": null,
             "state": "Maharashtra",
             "verificationStatus": "Verified",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Archisha Singh"
         },
         {
             "city": null,
@@ -882,24 +614,6 @@
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": "Deva Road, Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Available",
-            "district": "Lucknow",
-            "id": "recH2MnNzPkJeFQnJ",
-            "lastVerifiedOn": "2021-04-22T09:24:36.000Z",
-            "name": null,
-            "phone1": 7860023113,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
-        },
-        {
-            "city": null,
             "comment": "Restriced to Morbi city limits only\n",
             "companyName": null,
             "createdTime": "2021-04-19T09:53:14.000Z",
@@ -918,47 +632,43 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "switched off\n",
             "companyName": "Star Gas",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": null,
             "district": "Lucknow",
             "id": "recHfA2zta7MSAKBA",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:37:01.000Z",
             "name": null,
             "phone1": 9621942015,
             "phone2": 9935580628,
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "not answering",
             "companyName": null,
             "createdTime": "2021-04-19T09:37:29.000Z",
             "description": "Oxygen",
             "district": "Varanasi",
             "id": "recHksFRu00iLNtY8",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:00:52.000Z",
             "name": null,
             "phone1": 9919893022,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=0\n",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "Oxygen cans available.",
             "companyName": null,
             "createdTime": "2021-04-20T09:01:01.000Z",
             "description": "Have O2 Cans\n",
@@ -972,29 +682,25 @@
             "sourceName": null,
             "state": "Maharashtra",
             "verificationStatus": "Verified",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Archisha Singh"
         },
         {
             "city": null,
-            "comment": "Sending leads",
+            "comment": "Does not provide directly.",
             "companyName": null,
             "createdTime": "2021-04-19T09:57:15.000Z",
             "description": null,
             "district": "Bhopal",
             "id": "recHqUwgCzrENd8J2",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T15:16:50.000Z",
             "name": null,
             "phone1": 9111371114,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Archisha Singh"
         },
         {
             "city": null,
@@ -1034,23 +740,21 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "busy",
             "companyName": "Deva Road, Lucknow",
             "createdTime": "2021-04-20T09:17:25.000Z",
             "description": "Available",
             "district": "Lucknow",
             "id": "recI7LZpVX0u3mvx3",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:40:04.000Z",
             "name": null,
             "phone1": 7860023111,
             "phone2": null,
             "sourceLink": null,
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Urja Khandhediya"
         },
         {
             "city": null,
@@ -1062,7 +766,7 @@
             "id": "recIMG3XpnKTDuTyv",
             "lastVerifiedOn": "2021-04-22T08:09:39.000Z",
             "name": null,
-            "phone1": null,
+            "phone1": 8700013641,
             "phone2": null,
             "sourceLink": "https://twitter.com/Hemkunt_Fdn",
             "sourceName": "Twitter - Non government",
@@ -1090,43 +794,21 @@
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "NA",
-            "district": "Lucknow",
-            "id": "recIzJtPl5Z6twvqB",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 8090406090,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
+            "comment": "Busy, call back later",
             "companyName": null,
             "createdTime": "2021-04-19T09:55:21.000Z",
             "description": null,
             "district": "Allahabad",
             "id": "recJ7tCb3oxBA7TAc",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T13:55:33.000Z",
             "name": null,
             "phone1": 7007983072,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Zenitha Das"
         },
         {
             "city": null,
@@ -1166,63 +848,21 @@
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Refilling updated 20/4/21 10:55 am",
-            "district": "Lucknow",
-            "id": "recJozRrAR9sYtJO3",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 7408290732,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "description": null,
-            "district": "Lucknow",
-            "id": "recJrHr4LMVoyDcyX",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 7947353362,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": "Twitter - Non government",
-            "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
+            "comment": "busy on another call",
             "companyName": null,
             "createdTime": "2021-04-19T09:58:01.000Z",
             "description": null,
             "district": "Indore",
             "id": "recKnfLu6YGx9Dsfy",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:23:38.000Z",
             "name": null,
             "phone1": 9826600085,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
@@ -1250,37 +890,15 @@
             "description": null,
             "district": "Patna",
             "id": "recLGLRIdK94MxUcD",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:14:36.000Z",
             "name": null,
             "phone1": 9835287776,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/1D2IfmIGdshz-mVHInnGM_1ZCzlcnQujK6YbzHM-07Ag/edit#gid=1601073640",
             "sourceName": null,
             "state": "Bihar",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Refilling rn as per verification at 11:31 AM 20th April.",
-            "district": "Lucknow",
-            "id": "recLS2OGbtzwdqwfo",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 8318617874,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "city": null,
@@ -1310,57 +928,51 @@
             "description": "Available",
             "district": "Lucknow",
             "id": "recLtXsvEkv45KEKD",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:35:52.000Z",
             "name": null,
             "phone1": 9651777776,
             "phone2": null,
             "sourceLink": null,
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "switched off\n",
             "companyName": null,
             "createdTime": "2021-04-19T09:54:47.000Z",
             "description": null,
             "district": "Kanpur Nagar",
             "id": "recLxiDP5UzzgiLvO",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:31:36.000Z",
             "name": null,
             "phone1": 7275478391,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": null,
+            "comment": "Same as the next record. Busy, call later.",
+            "companyName": "Maruti Hospital & Trauma Centre (TrueCaller)",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": null,
             "district": "Lucknow",
             "id": "recLzJNqeObhcHsQP",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:26:18.000Z",
             "name": null,
             "phone1": 9919192260,
             "phone2": 9621942015,
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Zenitha Das"
         },
         {
             "city": null,
@@ -1382,26 +994,6 @@
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": "IT College, Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "NA",
-            "district": "Lucknow",
-            "id": "recMD2HqYOTBCSEY0",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 9161914332,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
             "comment": "busy",
             "companyName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -1417,26 +1009,6 @@
             "state": "Delhi (NCT)",
             "verificationStatus": "Verified",
             "verifiedBy": "sucharu asri"
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": null,
-            "createdTime": "2021-04-19T09:54:47.000Z",
-            "description": null,
-            "district": "Kanpur Nagar",
-            "id": "recMz33W2TWx6obfC",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 8048014329,
-            "phone2": null,
-            "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
         },
         {
             "city": null,
@@ -1512,24 +1084,6 @@
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Available",
-            "district": "Lucknow",
-            "id": "recPQDZZ7MvOB0EBv",
-            "lastVerifiedOn": "2021-04-22T09:47:13.000Z",
-            "name": null,
-            "phone1": 8707744635,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
-        },
-        {
-            "city": null,
             "comment": "not picking up",
             "companyName": "Lucknow",
             "createdTime": "2021-04-20T09:17:25.000Z",
@@ -1568,41 +1122,19 @@
             "city": null,
             "comment": null,
             "companyName": null,
-            "createdTime": "2021-04-19T09:58:01.000Z",
-            "description": null,
-            "district": "Indore",
-            "id": "recQ9EBml78oKBZHy",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 8109259955,
-            "phone2": null,
-            "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
-            "sourceName": null,
-            "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": null,
             "createdTime": "2021-04-19T09:37:29.000Z",
             "description": "Oxygen",
             "district": "Varanasi",
             "id": "recQfxlfvKAdDuQUi",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T13:54:43.000Z",
             "name": null,
             "phone1": 7992239149,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=0\n",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
@@ -1696,23 +1228,21 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "22/4 , line was busy\n",
             "companyName": null,
             "createdTime": "2021-04-19T09:58:01.000Z",
             "description": null,
             "district": "Indore",
             "id": "recScK0NvSxtKJZvJ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:15:48.000Z",
             "name": null,
             "phone1": 9300080066,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
@@ -1842,61 +1372,57 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "Busy, call later",
             "companyName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": null,
             "district": "Lucknow",
             "id": "recVzWkyiheM4PESH",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:33:43.000Z",
             "name": null,
             "phone1": 7379854888,
             "phone2": null,
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Not Available",
-            "district": "Lucknow",
-            "id": "recWzEDFJVYzpzowz",
-            "lastVerifiedOn": "2021-04-22T09:23:41.000Z",
-            "name": null,
-            "phone1": 9919239393,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Zenitha Das"
         },
         {
             "city": null,
             "comment": null,
             "companyName": null,
+            "createdTime": "2021-04-22T10:13:19.000Z",
+            "description": null,
+            "district": "Karnal",
+            "id": "recW5yWZTgaBxrQWh",
+            "lastVerifiedOn": "2021-04-22T14:03:38.000Z",
+            "name": null,
+            "phone1": 9215600329,
+            "phone2": 9215600328,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Haryana",
+            "verificationStatus": "Verified",
+            "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "city": null,
+            "comment": "Switched Off",
+            "companyName": null,
             "createdTime": "2021-04-19T09:55:21.000Z",
             "description": null,
             "district": "Allahabad",
             "id": "recX4S79YkM3GJ9Jj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T13:58:53.000Z",
             "name": null,
             "phone1": 9918105608,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Archisha Singh"
         },
         {
             "city": null,
@@ -1918,13 +1444,13 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "Oxygen cans available.",
             "companyName": null,
             "createdTime": "2021-04-20T08:52:21.000Z",
             "description": null,
             "district": "Mumbai City",
             "id": "recXVhD4VGmuGRBim",
-            "lastVerifiedOn": "2021-04-22T08:09:39.000Z",
+            "lastVerifiedOn": "2021-04-22T15:03:26.000Z",
             "name": null,
             "phone1": 9892005199,
             "phone2": null,
@@ -1932,9 +1458,7 @@
             "sourceName": null,
             "state": "Maharashtra",
             "verificationStatus": "Verified",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Archisha Singh"
         },
         {
             "city": null,
@@ -1956,27 +1480,25 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "busy",
             "companyName": null,
             "createdTime": "2021-04-19T09:29:38.000Z",
             "description": "Oxygen",
             "district": "Varanasi",
             "id": "recXjM4aIq66ykfhz",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T13:59:19.000Z",
             "name": null,
             "phone1": 9838770372,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=0\n",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
-            "comment": "unresponsive",
+            "comment": "No response",
             "companyName": null,
             "createdTime": "2021-04-19T09:57:15.000Z",
             "description": null,
@@ -1990,9 +1512,7 @@
             "sourceName": null,
             "state": "Madhya Pradesh",
             "verificationStatus": "Unresponsive",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Archisha Singh"
         },
         {
             "city": null,
@@ -2014,43 +1534,39 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "switched off\n",
             "companyName": null,
             "createdTime": "2021-04-19T09:54:43.000Z",
             "description": null,
             "district": "Kanpur Nagar",
             "id": "recZAJQ8AzVIsb4vy",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:28:22.000Z",
             "name": null,
             "phone1": 9621895401,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "switched off\n",
             "companyName": null,
             "createdTime": "2021-04-19T09:54:47.000Z",
             "description": null,
             "district": "Kanpur Nagar",
             "id": "recZdl9alqQxod6h0",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:28:52.000Z",
             "name": null,
             "phone1": 9140301978,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "city": null,
@@ -2072,79 +1588,21 @@
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": "Sadar Cantt., Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Available for refill and new cylinder (10 litre). Contact for further details.(1 Cylinder left)",
-            "district": "Lucknow",
-            "id": "recaLJSkPRGWL2pvK",
-            "lastVerifiedOn": "2021-04-22T08:40:26.000Z",
-            "name": null,
-            "phone1": 7755888134,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
-        },
-        {
-            "city": null,
-            "comment": "Invalid",
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Out of Stock",
-            "district": "Lucknow",
-            "id": "recaReAloO7b395H2",
-            "lastVerifiedOn": "2021-04-22T08:07:16.000Z",
-            "name": null,
-            "phone1": 7267091810,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
-        },
-        {
-            "city": null,
-            "comment": null,
+            "comment": "switched off\n",
             "companyName": null,
             "createdTime": "2021-04-19T09:54:47.000Z",
             "description": null,
             "district": "Kanpur Nagar",
             "id": "recaSI6LySQ1r36Un",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:30:54.000Z",
             "name": null,
             "phone1": 7860100001,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": null,
-            "createdTime": "2021-04-19T09:54:47.000Z",
-            "description": null,
-            "district": "Kanpur Nagar",
-            "id": "recaUdw0RhqZeBLfD",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 9889629140,
-            "phone2": null,
-            "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "city": null,
@@ -2184,43 +1642,21 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "busy",
             "companyName": null,
             "createdTime": "2021-04-19T09:37:29.000Z",
             "description": "Oxygen",
             "district": "Varanasi",
             "id": "recbDoPAi103dYoAC",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T13:53:52.000Z",
             "name": null,
             "phone1": 7985746474,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=0\n",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Available on 20th April",
-            "district": "Lucknow",
-            "id": "recbHAtYlBCGbiMfi",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 7905926330,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
@@ -2278,23 +1714,21 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "not answering",
             "companyName": null,
             "createdTime": "2021-04-19T09:58:01.000Z",
             "description": null,
             "district": "Indore",
             "id": "recc7QibkShtgRATh",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:19:34.000Z",
             "name": null,
             "phone1": 9755502300,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
@@ -2316,43 +1750,39 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "22/4 3pm , he picked up, said he did not have current supply but would get tomorrow",
             "companyName": null,
             "createdTime": "2021-04-19T09:58:01.000Z",
             "description": null,
             "district": "Indore",
             "id": "reccFj0JEP4RoO7wI",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T15:10:08.000Z",
             "name": null,
             "phone1": 9174004526,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "not answering",
             "companyName": null,
             "createdTime": "2021-04-19T09:37:07.000Z",
             "description": "Oxygen ",
             "district": "Varanasi",
             "id": "recchzNNEDnMqwVGU",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T13:56:30.000Z",
             "name": null,
             "phone1": 7992249149,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=0\n",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
@@ -2374,23 +1804,21 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "switched off\n",
             "companyName": null,
             "createdTime": "2021-04-19T09:54:47.000Z",
             "description": null,
             "district": "Kanpur Nagar",
             "id": "recd2UoCvrr5Bioz4",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:30:26.000Z",
             "name": null,
             "phone1": 7905081817,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "city": null,
@@ -2400,17 +1828,15 @@
             "description": "Not Available",
             "district": "Lucknow",
             "id": "recdJvLxCsI3PmPtl",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:53:35.000Z",
             "name": null,
             "phone1": 8318764993,
             "phone2": null,
             "sourceLink": null,
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Urja Khandhediya"
         },
         {
             "city": null,
@@ -2438,17 +1864,15 @@
             "description": null,
             "district": "Lucknow",
             "id": "recdZQxxqF9cZ39uB",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:51:07.000Z",
             "name": null,
             "phone1": 9554544144,
             "phone2": null,
             "sourceLink": null,
             "sourceName": "Twitter - Non government",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "city": null,
@@ -2488,43 +1912,39 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "22/4 , 3pm, number was busy",
             "companyName": null,
             "createdTime": "2021-04-19T09:58:01.000Z",
             "description": null,
             "district": "Indore",
             "id": "recexdqwz7jarFrGp",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:22:56.000Z",
             "name": null,
             "phone1": 9826328181,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "Didn't answer call. Check again later.",
             "companyName": null,
             "createdTime": "2021-04-19T09:55:21.000Z",
             "description": null,
             "district": "Allahabad",
             "id": "recf7UprZF1zevjyM",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T13:50:22.000Z",
             "name": null,
             "phone1": 6393889983,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Zenitha Das"
         },
         {
             "city": null,
@@ -2584,79 +2004,21 @@
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "description": "Noida",
-            "district": "New Delhi",
-            "id": "recgK2lTKdmgolV9e",
-            "lastVerifiedOn": "2021-04-22T07:32:15.000Z",
-            "name": null,
-            "phone1": 9818681260,
-            "phone2": 9911092813,
-            "sourceLink": null,
-            "sourceName": "Twitter - Non government",
-            "state": "Delhi (NCT)",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "sucharu asri"
-        },
-        {
-            "city": null,
-            "comment": null,
+            "comment": "22/4 , 4pm no one picked the call on the other side\n",
             "companyName": null,
             "createdTime": "2021-04-19T09:58:01.000Z",
             "description": null,
             "district": "Indore",
             "id": "recgVhCwNCEhyNq9W",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:16:21.000Z",
             "name": null,
             "phone1": 9425148289,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "description": null,
-            "district": "New Delhi",
-            "id": "recgjBkn9JsTAlhEU",
-            "lastVerifiedOn": "2021-04-22T07:32:52.000Z",
-            "name": null,
-            "phone1": 9911006015,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": "Twitter - Non government",
-            "state": "Delhi (NCT)",
-            "verificationStatus": "Invalid",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "sucharu asri"
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:10:33.000Z",
-            "description": "Stock will be available from Thursday",
-            "district": "Lucknow",
-            "id": "rech4FLwwcz5Tc368",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": 8960155550,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
         },
         {
             "city": null,
@@ -2678,23 +2040,21 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "22/4, 4pm no one picked the call\n",
             "companyName": null,
             "createdTime": "2021-04-19T09:58:01.000Z",
             "description": null,
             "district": "Indore",
             "id": "rechbQmMXQ55jhVUq",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:18:07.000Z",
             "name": null,
             "phone1": 9753342164,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
@@ -2716,63 +2076,57 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "switched off\n",
             "companyName": null,
             "createdTime": "2021-04-19T09:58:01.000Z",
             "description": null,
             "district": "Indore",
             "id": "rechh3idxBruP4Ard",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:32:05.000Z",
             "name": null,
             "phone1": 9926398845,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "22/4 4pm number was busy\n",
             "companyName": null,
             "createdTime": "2021-04-19T09:58:01.000Z",
             "description": null,
             "district": "Indore",
             "id": "rechr0iNq2R4KQGJj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:02:54.000Z",
             "name": null,
             "phone1": 8815108954,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "Switched Off",
             "companyName": null,
             "createdTime": "2021-04-19T09:55:21.000Z",
             "description": null,
             "district": "Allahabad",
             "id": "recj2elg40iO9wOJL",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:02:40.000Z",
             "name": null,
             "phone1": 9696941234,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Archisha Singh"
         },
         {
             "city": null,
@@ -2800,55 +2154,33 @@
             "description": "Oxygen",
             "district": "Varanasi",
             "id": "reclCoNtKF1ViLcVm",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T13:58:50.000Z",
             "name": null,
             "phone1": 9235783717,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=0\n",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "switched off",
             "companyName": null,
             "createdTime": "2021-04-19T09:37:29.000Z",
             "description": "Oxygen",
             "district": "Varanasi",
             "id": "reclM14jSOhuwGAAj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:01:26.000Z",
             "name": null,
             "phone1": 9935530688,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=0\n",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Verification Pending",
-            "district": "Lucknow",
-            "id": "recm78fecfSFVQUFt",
-            "lastVerifiedOn": "2021-04-22T09:45:42.000Z",
-            "name": null,
-            "phone1": 7905852197,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
@@ -2906,23 +2238,21 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "Not answering call, try again later",
             "companyName": null,
             "createdTime": "2021-04-19T09:55:21.000Z",
             "description": null,
             "district": "Allahabad",
             "id": "recmceNWttrCV7wVN",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T13:57:46.000Z",
             "name": null,
             "phone1": 7233881234,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Zenitha Das"
         },
         {
             "city": null,
@@ -2980,23 +2310,21 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "busy",
             "companyName": null,
             "createdTime": "2021-04-19T09:37:29.000Z",
             "description": "Oxygen",
             "district": "Varanasi",
             "id": "recoAjbaZ7UfUl8RB",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T13:53:00.000Z",
             "name": null,
             "phone1": 7600027303,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=0\n",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
@@ -3054,24 +2382,6 @@
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": "Kanpur",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Not availabe",
-            "district": "Lucknow",
-            "id": "recqPXg6I3ajFvFw0",
-            "lastVerifiedOn": "2021-04-22T09:43:53.000Z",
-            "name": null,
-            "phone1": 79850964337860100000,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
-        },
-        {
-            "city": null,
             "comment": "not answering phone 1 phone 2 busy",
             "companyName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -3090,41 +2400,21 @@
         },
         {
             "city": null,
-            "comment": null,
+            "comment": "No answer",
             "companyName": null,
             "createdTime": "2021-04-19T09:55:21.000Z",
             "description": null,
             "district": "Allahabad",
             "id": "recrn3uRqkZegSOEp",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:01:27.000Z",
             "name": null,
             "phone1": 9794758380,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Stock will be available from 11 AM onwards, April 20th",
-            "district": "Lucknow",
-            "id": "recrtMCYVOxxHOyIG",
-            "lastVerifiedOn": "2021-04-22T09:42:54.000Z",
-            "name": null,
-            "phone1": 9807860146,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Archisha Singh"
         },
         {
             "city": null,
@@ -3164,41 +2454,21 @@
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Available on 20th April around 11 am, call to pre-book",
-            "district": "Lucknow",
-            "id": "recsisTzk2p3NE3RR",
-            "lastVerifiedOn": "2021-04-22T09:34:44.000Z",
-            "name": null,
-            "phone1": 9984786786,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
-        },
-        {
-            "city": null,
-            "comment": null,
+            "comment": "Switched off. Try later.",
             "companyName": null,
             "createdTime": "2021-04-19T09:55:21.000Z",
             "description": null,
             "district": "Allahabad",
             "id": "recsp2q5f0GBzThLb",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T14:05:03.000Z",
             "name": null,
             "phone1": 8299707961,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Zenitha Das"
         },
         {
             "city": null,
@@ -3346,24 +2616,6 @@
         },
         {
             "city": null,
-            "comment": "out of service",
-            "companyName": null,
-            "createdTime": "2021-04-19T09:53:14.000Z",
-            "description": "Oxygen",
-            "district": "Ahmedabad",
-            "id": "recuM4lufOrLnaQY7",
-            "lastVerifiedOn": "2021-04-22T07:13:49.000Z",
-            "name": null,
-            "phone1": 7406928123,
-            "phone2": null,
-            "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
-            "sourceName": null,
-            "state": "Gujarat",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Disha Jariwala"
-        },
-        {
-            "city": null,
             "comment": "no answer",
             "companyName": null,
             "createdTime": "2021-04-19T09:59:46.000Z",
@@ -3456,24 +2708,6 @@
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Not Available",
-            "district": "Lucknow",
-            "id": "recwh2OJkh3wCrgPC",
-            "lastVerifiedOn": "2021-04-22T09:35:02.000Z",
-            "name": null,
-            "phone1": 9335928204,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
-        },
-        {
-            "city": null,
             "comment": "switched off",
             "companyName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -3489,42 +2723,6 @@
             "state": "Delhi (NCT)",
             "verificationStatus": "Verified",
             "verifiedBy": "sucharu asri"
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": "Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Both numbers unavailable ",
-            "district": "Lucknow",
-            "id": "recxGdf0RdIEKlM1a",
-            "lastVerifiedOn": "2021-04-22T09:35:05.000Z",
-            "name": null,
-            "phone1": 98189369349971260000,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
-        },
-        {
-            "city": null,
-            "comment": null,
-            "companyName": "Shakti Nagar, Indira Nagar, Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "NA",
-            "district": "Lucknow",
-            "id": "recxNTbi3HmQZZoGn",
-            "lastVerifiedOn": "2021-04-22T09:35:10.000Z",
-            "name": null,
-            "phone1": 7897392344,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
         },
         {
             "city": null,
@@ -3552,73 +2750,33 @@
             "description": "Oxygen",
             "district": "Varanasi",
             "id": "recxS1zz2VDy6m7kR",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T13:51:17.000Z",
             "name": null,
             "phone1": 7007901341,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=0\n",
             "sourceName": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": "Ahiyaganj, Lucknow",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Number Switched off now",
-            "district": "Lucknow",
-            "id": "recxf3ru5nH3tmoGm",
-            "lastVerifiedOn": "2021-04-22T09:35:13.000Z",
-            "name": null,
-            "phone1": 9956223737,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
-        },
-        {
-            "city": null,
-            "comment": "wrong number",
-            "companyName": null,
-            "createdTime": "2021-04-19T09:53:14.000Z",
-            "description": "Oxygen",
-            "district": "Ahmedabad",
-            "id": "recyXRPEZXbhhaytU",
-            "lastVerifiedOn": "2021-04-22T07:13:51.000Z",
-            "name": null,
-            "phone1": 6356682380,
-            "phone2": null,
-            "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
-            "sourceName": null,
-            "state": "Gujarat",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Disha Jariwala"
-        },
-        {
-            "city": null,
-            "comment": null,
+            "comment": "22/4 , 3pm. Phone was switched off but responded to Whatsapp message. He sells oxygen concentrators ",
             "companyName": null,
             "createdTime": "2021-04-19T09:58:01.000Z",
-            "description": null,
+            "description": "Sells Oxygen Concentrators",
             "district": "Indore",
             "id": "recyiuTBuJfjpGuef",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-22T15:33:48.000Z",
             "name": null,
             "phone1": 9826038939,
             "phone2": null,
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=1882793386",
             "sourceName": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "sucharu asri"
         },
         {
             "city": null,
@@ -3640,25 +2798,7 @@
         },
         {
             "city": null,
-            "comment": null,
-            "companyName": "Delhi",
-            "createdTime": "2021-04-20T09:17:25.000Z",
-            "description": "Verification Pending",
-            "district": "Lucknow",
-            "id": "reczC1MtnCwVNhc4G",
-            "lastVerifiedOn": "2021-04-22T09:33:11.000Z",
-            "name": null,
-            "phone1": 9350714001,
-            "phone2": null,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "verificationStatus": "Invalid",
-            "verifiedBy": "Urja Khandhediya"
-        },
-        {
-            "city": null,
-            "comment": null,
+            "comment": "Unreachable.",
             "companyName": "Plot no. 246, Kamlabad Barauli, Bakshi Ka talab, lko",
             "createdTime": "2021-04-20T09:17:25.000Z",
             "description": "Available for refilling.",
