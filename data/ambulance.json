@@ -3575,6 +3575,23 @@
         },
         {
             "area": null,
+            "comment": "Today",
+            "createdTime": "2021-04-23T17:55:52.000Z",
+            "district": "New Delhi",
+            "id": "recWKWXEa8LDBtylD",
+            "lastVerifiedOn": "2021-04-23T17:55:52.000Z",
+            "name": null,
+            "phone1": "9319411616",
+            "phone2": null,
+            "source": null,
+            "state": "Delhi (NCT)",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "area": null,
             "comment": "no answer",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Malkangiri",
@@ -5172,6 +5189,23 @@
             "state": "Uttar Pradesh",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "area": null,
+            "comment": "Fabiflu 200/400/800 mg available with valid prescription",
+            "createdTime": "2021-04-23T17:36:18.000Z",
+            "district": "Cuttack",
+            "id": "rechXhSgexjrBLDkH",
+            "lastVerifiedOn": "2021-04-23T17:36:18.000Z",
+            "name": null,
+            "phone1": "9040087999",
+            "phone2": null,
+            "source": "Wakein in the store",
+            "state": "Odisha",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "area": null,

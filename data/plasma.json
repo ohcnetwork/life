@@ -155,6 +155,17 @@
             "state": "Gujarat"
         },
         {
+            "city": null,
+            "createdTime": "2021-04-23T17:41:20.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "id": "recjMo4Aa1hfsXn49",
+            "name": "https://indiaplasmadonor.com/",
+            "phone1": null,
+            "sourceLink": "https://indiaplasmadonor.com/",
+            "state": "West Bengal"
+        },
+        {
             "city": "Ahmedabad",
             "createdTime": "2021-04-19T09:42:08.000Z",
             "description": "Plasma Banks",

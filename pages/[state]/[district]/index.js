@@ -12,51 +12,7 @@ import TabLinks from '../../../components/TabLinks';
 import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 import SocialSharing from '../../../components/SocialSharing';
-
-const tabsInfo = [
-    {
-        name: 'Oxygen',
-        icon: faLungsVirus,
-        link: '/oxygen',
-        color: 'text-red-500',
-        value: 'oxygen'
-    },
-    {
-        name: 'Medicine',
-        icon: faCapsules,
-        link: '/medicine',
-        color: 'text-green-500',
-        value: 'medicine'
-    },
-    {
-        name: 'Hospital',
-        icon: faHospital,
-        link: '/hospitals',
-        color: 'text-indigo-500',
-        value: 'hospitals'
-    },
-    {
-        name: 'Ambulance',
-        icon: faAmbulance,
-        link: '/ambulance',
-        color: 'text-blue-500',
-        value: 'ambulance'
-    },
-    {
-        name: 'Plasma',
-        icon: faSyringe,
-        link: '/plasma',
-        color: 'text-yellow-500',
-        value: 'plasma'
-    },
-    {
-        name: 'Helpline',
-        icon: faPhoneAlt,
-        link: '/helpline',
-        color: 'text-pink-500',
-        value: 'helpline'
-    }
-];
+import {tabsInfo} from '../../../lib/tabs'
 
 export default function State({ state, district }) {
     return (
