@@ -2077,18 +2077,20 @@
             ]
         },
         {
-            "comment": "Didn't pick up the call",
+            "comment": "18-04-2020, 1:36pm available, however ICU facility available only for kids as this is pediatric hospital",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Surat",
             "id": "recEKALDmOhcjSLvJ",
-            "lastVerifiedOn": "2021-04-23T11:23:22.000Z",
+            "lastVerifiedOn": "2021-04-23T20:45:24.000Z",
             "name": "Saachi Hospital",
             "phone1": 7573039107,
             "phone2": 2612236800,
             "pointOfContact": "Kishor Desai",
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
-            "verifiedBy": "Varun Kumar"
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": "FULL",
@@ -3003,6 +3005,22 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
+            "comment": "18/04/2021 12:30",
+            "createdTime": "2021-04-23T20:48:04.000Z",
+            "district": "Gautam Buddha Nagar",
+            "id": "recJrlXlYJaTN3xQ4",
+            "lastVerifiedOn": null,
+            "name": "Sharma Medicare ",
+            "phone1": 9870134990,
+            "phone2": 202326666,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "comment": "No source of contact",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Moga",
@@ -3015,6 +3033,22 @@
             "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Jasseerat Kaur"
+        },
+        {
+            "comment": null,
+            "createdTime": "2021-04-23T20:53:18.000Z",
+            "district": "Thane",
+            "id": "recK3YWSsiWfE0Lwn",
+            "lastVerifiedOn": null,
+            "name": "Reliance Hospital - Navi Mumbai (KDA, Navi Mumbai)",
+            "phone1": null,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Maharashtra",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": "No source of contact",
@@ -3211,6 +3245,22 @@
             "state": "Andhra Pradesh",
             "verificationStatus": "Invalid",
             "verifiedBy": "Jasseerat Kaur"
+        },
+        {
+            "comment": "No direct admission, only through 1916",
+            "createdTime": "2021-04-23T20:49:59.000Z",
+            "district": "Mumbai City",
+            "id": "recLVnn9jvbPZ7OnI",
+            "lastVerifiedOn": null,
+            "name": "S L Raheja Hospital (Fortis, Raheja)",
+            "phone1": 2266529999,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Maharashtra",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": "No source of contact",
@@ -4285,18 +4335,20 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": "Currently not available",
+            "comment": "19/04/2021 21:00\t\t10 Oxygen beds, No ICU",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Amethi (Chatrapati Sahuji Mahraj Nagar)",
             "id": "recSQEbJwr2iR6oLB",
             "lastVerifiedOn": "2021-04-22T08:50:34.000Z",
             "name": "Sanjay Gandhi Hospital",
-            "phone1": 7619040332,
+            "phone1": 9434286688,
             "phone2": 7619040332,
-            "pointOfContact": "Dr Fauzia Ashraf",
+            "pointOfContact": "R Menaka",
             "state": "Uttar Pradesh",
             "verificationStatus": "Unresponsive",
-            "verifiedBy": "Varun Kumar"
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": null,
@@ -6105,6 +6157,22 @@
             "state": "Gujarat",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "comment": "2021-04-21 14:36 25 beds available Only for pregnant women and children. Asked to confirm the most updated number on the following number: 8285880852",
+            "createdTime": "2021-04-23T20:34:21.000Z",
+            "district": "Gautam Buddha Nagar",
+            "id": "reccySiSE6kY8t4Gy",
+            "lastVerifiedOn": null,
+            "name": "Jaypee Hospital, Greater NOIDA",
+            "phone1": 8285880852,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": "no beds available",
@@ -7957,6 +8025,22 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "comment": "21 April 14:14 Busy Lines",
+            "createdTime": "2021-04-23T20:35:51.000Z",
+            "district": "North West Delhi",
+            "id": "recnqfvQMBIE5tnVl",
+            "lastVerifiedOn": null,
+            "name": "Pvt Rajiv Gandhi Cancer Institute & RC, Rohini",
+            "phone1": 9717888473,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Delhi (NCT)",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "comment": "The subscriber is busy at the moment.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Pauri Garhwal",
@@ -8715,6 +8799,22 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
+            "comment": "No direct admission, call 1916",
+            "createdTime": "2021-04-23T20:55:30.000Z",
+            "district": "Mumbai Suburban",
+            "id": "recsk7c3TekiaKyVv",
+            "lastVerifiedOn": null,
+            "name": "Hinduja Hospital Khar",
+            "phone1": 8879001670,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Maharashtra",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Cooch Behar",
@@ -8797,6 +8897,22 @@
             "state": "West Bengal",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "comment": "No direct admission, only through 1916",
+            "createdTime": "2021-04-23T20:51:25.000Z",
+            "district": "Mumbai Suburban",
+            "id": "rectfHEv1jY1MQEO2",
+            "lastVerifiedOn": null,
+            "name": "Kokilaben Dhirubhai Ambani Hospital (KDA, Andheri)",
+            "phone1": null,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Maharashtra",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": null,

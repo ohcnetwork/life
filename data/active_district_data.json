@@ -2609,7 +2609,7 @@
             "hospitals": false,
             "id": "recKa0ZmtzwZIWU43",
             "medicine": false,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Delhi (NCT)"
         },
@@ -3750,7 +3750,7 @@
             "district": "Thane",
             "doctor": true,
             "helpline": true,
-            "hospitals": false,
+            "hospitals": true,
             "id": "recTBlT8eS6ylvAGQ",
             "medicine": true,
             "oxygen": false,
@@ -5292,12 +5292,12 @@
             "state": "Telangana"
         },
         {
-            "ambulance": false,
+            "ambulance": true,
             "contact": true,
             "district": "North West Delhi",
             "doctor": false,
             "helpline": true,
-            "hospitals": false,
+            "hospitals": true,
             "id": "receVk8AtUyEptQcF",
             "medicine": false,
             "oxygen": false,
@@ -5721,7 +5721,7 @@
             "state": "Maharashtra"
         },
         {
-            "ambulance": false,
+            "ambulance": true,
             "contact": false,
             "district": "Gandhinagar",
             "doctor": false,
@@ -5882,7 +5882,7 @@
             "district": "Mumbai Suburban",
             "doctor": false,
             "helpline": true,
-            "hospitals": false,
+            "hospitals": true,
             "id": "reci9xKnkR5ag8W9s",
             "medicine": true,
             "oxygen": false,
@@ -5986,7 +5986,7 @@
             "district": "Mumbai City",
             "doctor": false,
             "helpline": true,
-            "hospitals": false,
+            "hospitals": true,
             "id": "recip3Va1ugDr6rXP",
             "medicine": true,
             "oxygen": true,
@@ -7177,7 +7177,7 @@
             "state": "Madhya Pradesh"
         },
         {
-            "ambulance": false,
+            "ambulance": true,
             "contact": false,
             "district": "Ahmedabad",
             "doctor": false,
@@ -7229,7 +7229,7 @@
             "state": "Uttar Pradesh"
         },
         {
-            "ambulance": false,
+            "ambulance": true,
             "contact": true,
             "district": "South West Delhi",
             "doctor": false,
