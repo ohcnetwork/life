@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <footer className="bg-gray-200 dark:bg-gray-1000 absolute top-full left-0 w-full py-10">
+    <footer className="bg-gray-200 dark:bg-gray-1000 w-full py-10">
       <section className="flex justify-center">
         <Link href="/data">
           <button type="button" className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">

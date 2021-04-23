@@ -20,7 +20,7 @@ const MainLayout = ({ children }) => {
       style={{ minHeight: '85vh' }}
     >
       <ThemeButton />
-      <div className='max-w-5xl mx-auto container px-2'>{children}</div>
+      <div className='max-w-5xl mx-auto container px-2 pb-6'>{children}</div>
 
       <Footer />
     </div>

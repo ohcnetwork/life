@@ -47,7 +47,7 @@ const Component404 = () => {
 
 export default function Custom404() {
   return (
-    <div className="mt-10 md:mt-40 w-11/12 md:w-3/4 mx-auto">
+    <div className="pt-10 md:pt-40 w-11/12 md:w-3/4 mx-auto">
       <div className="pt-2">
         <div className="sm:hidden">
           <div className="items-center">
