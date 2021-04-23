@@ -5,7 +5,7 @@ import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 import HospitalCard from '../../../components/HospitalCard';
 
-export default function Medicine({ state, district, hospitalByDistrict }) {
+export default function Hospitals({ state, district, hospitalByDistrict }) {
     return (
         <div>
             <section className="flex flex-col ml-2 md:pt-10 ">

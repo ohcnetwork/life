@@ -531,6 +531,22 @@
             "verifiedBy": "Diya Dashiwal"
         },
         {
+            "comment": "Good hospital for covid patients with minimum price ",
+            "createdTime": "2021-04-23T19:07:25.000Z",
+            "district": "Jaipur",
+            "id": "rec3rxQyvksWvp7K5",
+            "lastVerifiedOn": null,
+            "name": "Mahatma Gandhi hospital ",
+            "phone1": 1412770798,
+            "phone2": 1412771777,
+            "pointOfContact": "Dr Vikas Swarnkar ",
+            "state": "Rajasthan",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Rajkot",
@@ -767,6 +783,22 @@
             "state": "Kerala",
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "comment": null,
+            "createdTime": "2021-04-23T17:37:26.000Z",
+            "district": "Meerut",
+            "id": "rec5gGKMAR8XOI3Sn",
+            "lastVerifiedOn": "2021-04-23T17:37:26.000Z",
+            "name": "Anand Hospital",
+            "phone1": 1212792000,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": null,
@@ -1715,6 +1747,22 @@
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "comment": null,
+            "createdTime": "2021-04-23T17:37:41.000Z",
+            "district": "Tumakuru (Tumkur)",
+            "id": "recC8I699Jeu4BoZ5",
+            "lastVerifiedOn": null,
+            "name": "Siddaganga hospital and research center ",
+            "phone1": null,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Karnataka",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -4073,6 +4121,22 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
+            "comment": null,
+            "createdTime": "2021-04-23T18:43:43.000Z",
+            "district": "Nadia",
+            "id": "recRqDpNNG0MgxAHp",
+            "lastVerifiedOn": null,
+            "name": "Glocal Hospital",
+            "phone1": null,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "West Bengal",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "comment": "Non-COVID hospital",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Azamgarh",
@@ -5300,6 +5364,22 @@
         },
         {
             "comment": null,
+            "createdTime": "2021-04-23T17:13:24.000Z",
+            "district": "New Delhi",
+            "id": "recYOfl9TMFd90Uew",
+            "lastVerifiedOn": "2021-04-23T17:13:24.000Z",
+            "name": "MAX hospital delhi",
+            "phone1": 9810025403,
+            "phone2": 919810425403,
+            "pointOfContact": "Kuntal jain",
+            "state": "Delhi (NCT)",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bhopal",
             "id": "recYT9jHV1I3q0dUa",
@@ -6163,6 +6243,22 @@
             "state": "Karnataka",
             "verificationStatus": "Invalid",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "comment": null,
+            "createdTime": "2021-04-23T16:44:12.000Z",
+            "district": "Burdwan (Bardhaman)",
+            "id": "recddE1rsLA04n7wB",
+            "lastVerifiedOn": null,
+            "name": "Burdwan Medical College",
+            "phone1": null,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "West Bengal",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": null,
@@ -7930,6 +8026,22 @@
         },
         {
             "comment": null,
+            "createdTime": "2021-04-23T16:40:24.000Z",
+            "district": "East Godavari",
+            "id": "recoLIKLhBtVhtYI4",
+            "lastVerifiedOn": null,
+            "name": "Sunrise hospital",
+            "phone1": null,
+            "phone2": null,
+            "pointOfContact": "Ravi",
+            "state": "Andhra Pradesh",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "YSR Kadapa",
             "id": "recoMvQVPw58joK5Z",
@@ -9467,6 +9579,22 @@
             "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Jasseerat Kaur"
+        },
+        {
+            "comment": "Can visit for checkup, prescription, and medical lab facility",
+            "createdTime": "2021-04-23T17:59:19.000Z",
+            "district": "Rohtak",
+            "id": "recxjKOE35HrlD8oj",
+            "lastVerifiedOn": "2021-04-23T17:59:19.000Z",
+            "name": "HOLY HEART",
+            "phone1": 9306717284,
+            "phone2": 9306722176,
+            "pointOfContact": "KARAN BHUTANI",
+            "state": "Haryana",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": null,
