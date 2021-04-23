@@ -48,13 +48,13 @@ export default function Medicine({ state, district, hospitalByDistrict }) {
 }
 
 export async function getStaticProps({ params }) {
-    return {
-        props: {
-            state: params.state,
-            district: params.district,
-            hospitalByDistrict: hospitalByDistrict(params.state, params.district)
-        }
-    };
+  return {
+    props: {
+      state: params.state,
+      district: params.district,
+      hospitalByDistrict: hospitalByDistrict(params.state, params.district, true),
+    },
+  };
 }
 
 export async function getStaticPaths() {

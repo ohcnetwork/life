@@ -50,13 +50,13 @@ export default function Ambulance({ state, district, ambulancesListing }) {
 }
 
 export async function getStaticProps({ params }) {
-    return {
-        props: {
-            state: params.state,
-            district: params.district,
-            ambulancesListing: getAmbulances(params.state, params.district)
-        }
-    };
+  return {
+    props: {
+      state: params.state,
+      district: params.district,
+      ambulancesListing: getAmbulances(params.state, params.district, true),
+    },
+  };
 }
 
 export async function getStaticPaths() {
