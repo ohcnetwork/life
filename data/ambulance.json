@@ -270,20 +270,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Durg",
             "id": "rec2HQ4CBpCNOKvqZ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T07:09:56.000Z",
             "name": null,
             "phone1": "9425552481",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -1067,20 +1065,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not picking up",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmedabad",
             "id": "rec9p3hPu7vqg2q3X",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T07:24:01.000Z",
             "name": null,
             "phone1": "9998921554",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -1416,20 +1412,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Remedisivir, fabiflu not available, they are available in hospitals only",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Betul",
             "id": "recCKMsdvK3bYOBhh",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T06:19:09.000Z",
             "name": null,
-            "phone1": "07141-2307229425002620",
+            "phone1": "07141-230722, 9425002620",
             "phone2": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -1699,20 +1693,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bhavnagar",
             "id": "recF4ie7G3uybwco9",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T06:54:49.000Z",
             "name": null,
-            "phone1": "0278-2515775 3290345",
+            "phone1": "0278-2515775 ",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -1782,20 +1774,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Number invalid.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bilaspur",
             "id": "recFl8QWHc7guKvRi",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T07:08:33.000Z",
             "name": null,
             "phone1": "4023253917",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -2150,20 +2140,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Medicines not available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bharuch",
             "id": "recJCiFOd7Emu5ItF",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T06:16:40.000Z",
             "name": null,
-            "phone1": "02642-2225419879454187",
+            "phone1": "02642-222541, 9879454187",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -2318,20 +2306,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Number not connecting",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "New Delhi",
             "id": "recJyJRLfiEJdNOjP",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T07:05:37.000Z",
             "name": null,
             "phone1": "011-25504849 011",
             "phone2": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -2816,20 +2802,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Invalid number.\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Surguja",
             "id": "recNkpqLmimFNAvTu",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T07:11:29.000Z",
             "name": null,
             "phone1": "7714025294",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -3035,20 +3019,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Switched off",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Raipur",
             "id": "recPaEEiWliWV27D5",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T06:03:55.000Z",
             "name": null,
             "phone1": "8839670706",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -3137,20 +3119,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "First number not connecting, the other busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "New Delhi",
             "id": "recQoae42yDe2E5OF",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T05:57:19.000Z",
             "name": null,
             "phone1": "011-25982030 9868124105",
             "phone2": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -3454,20 +3434,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not responding",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "New Delhi",
             "id": "recU2yYN1XEUZO6Vc",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T05:53:02.000Z",
             "name": null,
             "phone1": "47046623 9810699965",
             "phone2": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -3607,20 +3585,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Raipur",
             "id": "recVj3AO5wJINY4AY",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T06:04:41.000Z",
             "name": null,
             "phone1": "9827110901",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -3696,16 +3672,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "New Delhi",
             "id": "recWHZLZ5FWlI81CP",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T07:17:42.000Z",
             "name": null,
             "phone1": "4324993 FAX 4311865",
             "phone2": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -3832,16 +3806,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Botad",
             "id": "recX676bKhHPalYIq",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T06:59:23.000Z",
             "name": null,
             "phone1": "02849-253878",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -4000,16 +3972,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "North Goa",
             "id": "recXrfXvRbRCXR5Vy",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T07:22:17.000Z",
             "name": null,
             "phone1": "832273411",
             "phone2": null,
             "source": null,
             "state": "Goa",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -4300,20 +4270,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not picking up",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "New Delhi",
             "id": "recb7MKQ7nD49tQld",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T07:02:44.000Z",
             "name": null,
             "phone1": "011-49837500",
             "phone2": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -4402,20 +4370,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Remedisivir, fabiflu not available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bhopal",
             "id": "recbfvOg2R0fJMsCs",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T06:20:46.000Z",
             "name": null,
             "phone1": "07554225757/9425193497",
             "phone2": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -5008,20 +4974,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "New Delhi",
             "id": "recfFxFIllrgI2WDl",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T07:19:18.000Z",
             "name": null,
             "phone1": "8860074107",
             "phone2": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -5557,20 +5521,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Operator connects to someone who doesn't pick up. Happened twice.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "New Delhi",
             "id": "recihPCwFYypIaTDf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T07:16:04.000Z",
             "name": null,
             "phone1": "49057606",
             "phone2": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -5776,20 +5738,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Raipur",
             "id": "reckaC1sx60Z8v8i5",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T06:06:10.000Z",
             "name": null,
             "phone1": "9826685444",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -5893,20 +5853,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Banaskantha (Palanpur)",
             "id": "recm3NtFceaodFHpe",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T06:07:28.000Z",
             "name": null,
             "phone1": "MO9427536091",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -5993,37 +5951,33 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No stock, no replenishment ",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bhavnagar",
             "id": "recmvKcbW2Gslb2Y6",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T06:57:07.000Z",
             "name": null,
             "phone1": "0278 - 2436017",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No answer.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bilaspur",
             "id": "recmzWV0A4jBSSjgN",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T07:07:41.000Z",
             "name": null,
             "phone1": "9827165765",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -6157,20 +6111,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Dadra & Nagar Haveli",
             "id": "recoZvcgM65IhTpmv",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T07:21:13.000Z",
             "name": null,
             "phone1": "9825085033",
             "phone2": null,
             "source": null,
             "state": "Dadra and Nagar Haveli and Daman & Diu (UT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -6225,37 +6177,33 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "New Delhi",
             "id": "reconhuWN4MmoHSm3",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T07:03:48.000Z",
             "name": null,
             "phone1": "9310014268",
             "phone2": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Raipur",
             "id": "recpBgyCXbzPCob9z",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T06:02:40.000Z",
             "name": null,
             "phone1": "9826901000",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -7427,20 +7375,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bharuch",
             "id": "recyTAR1oamHf6WbX",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T06:10:12.000Z",
             "name": null,
             "phone1": "9426387029",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
