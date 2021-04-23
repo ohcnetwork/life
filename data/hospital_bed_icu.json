@@ -531,6 +531,22 @@
             "verifiedBy": "Diya Dashiwal"
         },
         {
+            "comment": "Good hospital for covid patients with minimum price ",
+            "createdTime": "2021-04-23T19:07:25.000Z",
+            "district": "Jaipur",
+            "id": "rec3rxQyvksWvp7K5",
+            "lastVerifiedOn": null,
+            "name": "Mahatma Gandhi hospital ",
+            "phone1": 1412770798,
+            "phone2": 1412771777,
+            "pointOfContact": "Dr Vikas Swarnkar ",
+            "state": "Rajasthan",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Rajkot",
@@ -4103,6 +4119,22 @@
             "state": "Uttar Pradesh",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Jasseerat Kaur"
+        },
+        {
+            "comment": null,
+            "createdTime": "2021-04-23T18:43:43.000Z",
+            "district": "Nadia",
+            "id": "recRqDpNNG0MgxAHp",
+            "lastVerifiedOn": null,
+            "name": "Glocal Hospital",
+            "phone1": null,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "West Bengal",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": "Non-COVID hospital",

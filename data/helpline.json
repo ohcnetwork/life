@@ -10390,6 +10390,20 @@
         },
         {
             "category": null,
+            "createdTime": "2021-04-23T18:17:21.000Z",
+            "description": null,
+            "district": "Gaya",
+            "id": "recl7ul0ekud2Y4Nt",
+            "name": null,
+            "phone1": 7903022514,
+            "phone2": 8936857297,
+            "source": null,
+            "sourceUrl": null,
+            "state": "Bihar",
+            "subCategory": null
+        },
+        {
+            "category": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "24x7 Helpline Number for COVID",
             "district": "Visakhapatnam",
