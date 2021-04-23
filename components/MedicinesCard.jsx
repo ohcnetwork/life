@@ -22,11 +22,11 @@ const MedicinesCard = ({
   email,
 }) => {
   return (
-    <div className="bg-white rounded-lg shadow">
+    <div className="bg-white rounded-lg shadow dark:bg-gray-1000 dark:text-gray-300">
       <div className="p-4 flex justify-between">
         <div>
           <div className="font-bold text-2xl">
-            <h1 className="flex items-center justify-start">
+            <h1 className="flex dark:text-white items-center justify-start">
               {name}
               <span>
                 {(verificationStatus &&
@@ -45,7 +45,7 @@ const MedicinesCard = ({
                 )}
               </span>
             </h1>
-            <div className="text-sm text-gray-700 font-semibold">
+            <div className="text-sm text-gray-700 dark:text-gray-200 font-semibold">
               <span className="mr-2">{distributorName}</span>|
               <span className="ml-2">{city}</span>
             </div>
@@ -57,7 +57,7 @@ const MedicinesCard = ({
         <div className="flex flex-col items-start">
           {phone1 && (
             <a
-              className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold"
+              className="font-mono text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
               href={`tel:${phone1}`}
             >
               <FontAwesomeIcon
@@ -70,7 +70,7 @@ const MedicinesCard = ({
           )}
           {email && (
             <a
-              className="font-bold text-lg text-gray-700 mt-0 hover:text-gray-900"
+              className="font-bold text-lg text-gray-700 dark:text-white mt-0 hover:text-gray-900"
               target="_blank"
               href="mailto:callmatkarna@gmail.com"
             >
@@ -83,7 +83,7 @@ const MedicinesCard = ({
             </a>
           )}
           {slink && (
-            <a href={slink}>
+            <a href={slink} className="dark:text-white">
               <FontAwesomeIcon
                 title={`${slink}`}
                 className="text-xl w-6"
@@ -96,8 +96,8 @@ const MedicinesCard = ({
       </div>
       <hr />
       <div className="flex justify-between items-center mx-2 mt-2 pb-3">
-        <div className="font-semibold">{description}</div>
-        <div className="font-mono text-gray-700 text-sm">
+        <div className="font-semibold dark:text-gray-400">{description}</div>
+        <div className="font-mono text-gray-700 dark:text-gray-400 text-sm">
           {parseDateString(createdTime)}
         </div>
       </div>

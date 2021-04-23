@@ -78,9 +78,9 @@ export default function State({ state, district }) {
       />
       <div className="w-full mt-2 px-2">
         <div className="w-full">
-          <div className="mt-4 font-black text-5xl text-gray-900 py-4">
+          <div className="mt-4 font-black text-5xl text-gray-900 dark:text-gray-200 py-4">
             {humanize(district.district)}
-            <span className="text-3xl font-semibold text-gray-700">
+            <span className="text-3xl font-semibold text-gray-700 dark:text-gray-200">
               {" "}
               , {humanize(state)}
             </span>

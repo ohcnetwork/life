@@ -21,9 +21,9 @@ export default function Helpline({ state, district, helplines }) {
             { href: null, name: "Helplines" },
           ]}
         />
-        </section>
-        <section className="flex flex-col items-center">
-        <h1 className="mt-4 font-black text-4xl sm:text-5xl text-gray-900 md:text-left text-center">
+      </section>
+      <section className="flex flex-col items-center">
+        <h1 className="mt-4 font-black text-4xl sm:text-5xl text-gray-900 dark:text-gray-200 md:text-left text-center">
           {humanize(district)}
         </h1>
         <div className="space-y-4 mt-4 max-w-3xl w-full">
@@ -44,9 +44,8 @@ export default function Helpline({ state, district, helplines }) {
             );
           })}
         </div>
-        </section>
-      </div>
-
+      </section>
+    </div>
   );
 }
 
