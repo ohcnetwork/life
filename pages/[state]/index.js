@@ -4,50 +4,9 @@ import { parametreize, statesStaticPaths } from "../../lib/utils";
 import { humanize } from "../../lib/utils";
 import TabLinks from "../../components/TabLinks";
 import Head from "next/head";
-<<<<<<< HEAD
-
-const tabsInfo = [
-  {
-    name: "Oxygen",
-    icon: faLungsVirus,
-    link: "/oxygen",
-    color: "bg-red-500",
-    value: "oxygen",
-  },
-  {
-    name: "Medicine",
-    icon: faCapsules,
-    link: "/medicines",
-    color: "bg-green-500",
-    value: "medicine",
-  },
-  {
-    name: "Hospital",
-    icon: faHospital,
-    link: "/hospitals",
-    color: "bg-indigo-500",
-    value: "hospital",
-  },
-  {
-    name: "Ambulance",
-    icon: faAmbulance,
-    link: "/ambulance",
-    color: "bg-blue-500",
-    value: "ambulance",
-  },
-  {
-    name: "Plasma",
-    icon: faSyringe,
-    link: "/plasma",
-    color: "bg-yellow-500",
-    value: "plasma",
-  },
-];
-=======
 import Breadcumb from "../../components/Breadcumb";
 import Link from "next/link";
 import { tabsInfo } from "../../lib/tabs";
->>>>>>> 377d0ca1a182cf154beed0feecd28a77b48fd16d
 
 export default function State({ state }) {
   // data.filter((el) => el.district.toLowerCase().includes(search));
@@ -78,23 +37,6 @@ export default function State({ state }) {
             onChange={(e) => setSearchStr(e.target.value)}
           />
         </div>
-<<<<<<< HEAD
-        {filterDistricts.map((f) => (
-          <div
-            key={f.district}
-            className="pt-3 md:p-5 items-center mt-4 w-10/12 mx-auto grid grid-cols-2"
-          >
-            <div>
-              <div className="font-semibold text-2xl md:text-4xl">
-                {humanize(f.district)}
-              </div>
-            </div>
-            <div className="max-w-3xl mt-4 flex justify-end">
-              <TabLinks tabsInfo={tabsInfo} state={state} district={f} />
-            </div>
-          </div>
-        ))}
-=======
         <div className="flex flex-wrap overflow-hidden mt-8">
           {filterDistricts.map((f) => (
             <div
@@ -116,7 +58,6 @@ export default function State({ state }) {
             </div>
           ))}
         </div>
->>>>>>> 377d0ca1a182cf154beed0feecd28a77b48fd16d
       </div>
     </section>
   );
