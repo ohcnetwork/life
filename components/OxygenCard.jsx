@@ -23,10 +23,10 @@ const OxygenCard = ({
   verifiedStatus,
 }) => {
   return (
-    <div className="bg-white rounded-lg shadow">
+    <div className="bg-white rounded-lg shadow dark:bg-gray-1000 dark:text-gray-300">
       <div className="p-4 flex justify-between">
         <div>
-          <div className="font-bold text-2xl">
+          <div className="font-bold text-2xl dark:text-white">
             <h1>
               {name}
               <span>
@@ -46,7 +46,7 @@ const OxygenCard = ({
                 )}
               </span>
             </h1>
-            <div className="text-sm  uppercase mt-3 text-gray-700 font-semibold">
+            <div className="text-sm  uppercase mt-3 text-gray-700 dark:text-gray-400 font-semibold">
               <span className="mr-2">{fdistrict}</span>|
               <span className="ml-2">{fstate}</span>
             </div>
@@ -55,10 +55,10 @@ const OxygenCard = ({
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col items-start ">
           {phone1 && (
             <a
-              className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold"
+              className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white"
               href={`tel:${phone1}`}
             >
               <FontAwesomeIcon
@@ -71,7 +71,7 @@ const OxygenCard = ({
           )}
           {slink && (
             <a
-              className="font-mono text-gray-700 font-bold text-xl hover:text-gray-900"
+              className="font-mono text-gray-700 font-bold text-xl hover:text-gray-900 dark:text-white"
               target="_blank"
               href={slink}
             >
@@ -87,8 +87,8 @@ const OxygenCard = ({
       </div>
       <hr />
       <div className="flex justify-between items-center mx-2 mt-2 pb-3">
-        <div className="font-semibold">{description}</div>
-        <div className="font-mono text-gray-700 text-sm">
+        <div className="font-semibold dark:text-gray-400">{description}</div>
+        <div className="font-mono text-gray-700 text-sm dark:text-gray-400">
           {parseDateString(createdTime)}
         </div>
       </div>
