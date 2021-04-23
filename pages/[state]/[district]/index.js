@@ -12,7 +12,7 @@ import TabLinks from '../../../components/TabLinks';
 import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 import SocialSharing from '../../../components/SocialSharing';
-import {tabsInfo} from '../../../lib/tabs'
+import { tabsInfo } from '../../../lib/tabs';
 
 export default function State({ state, district }) {
     return (
@@ -44,12 +44,16 @@ export default function State({ state, district }) {
                     </div>
                 </section>
                 <SocialSharing
+                    url={`https://life.coronasafe.network/${state}/${district.district.replace(
+                        ' ',
+                        '_'
+                    )}`}
                     twitterText={`Covid-19 Resources for ${humanize(district.district)}, ${humanize(
                         state
-                    )} https://life.coronasafe.network/${state}/${district.district}`}
-                    fbURL={`https://life.coronasafe.network/${state}/${district.district}`}
-                    linkedinURL={`https://life.coronasafe.network/${state}/${district.district}`}
-                    url={`https://life.coronasafe.network/${state}/${district.district}`}
+                    )} https://life.coronasafe.network/${state}/${district.district.replace(
+                        ' ',
+                        '_'
+                    )}`}
                 />
             </div>
         </section>
