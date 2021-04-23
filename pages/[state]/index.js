@@ -3,68 +3,10 @@ import { getDistricts } from '../../lib/api';
 import { parametreize, statesStaticPaths } from '../../lib/utils';
 import { humanize } from '../../lib/utils';
 import TabLinks from '../../components/TabLinks';
-import {
-  faLungsVirus,
-  faSyringe,
-  faHospital,
-  faAmbulance,
-  faCapsules,
-  faPhoneAlt,
-} from '@fortawesome/free-solid-svg-icons';
 import Head from 'next/head';
 import Breadcumb from '../../components/Breadcumb';
 import Link from 'next/link';
-
-const tabsInfo = [
-  {
-    name: 'Oxygen',
-    icon: faLungsVirus,
-    link: '/oxygen',
-    color: 'text-red-900',
-    bgColor: 'bg-red-200',
-    value: 'oxygen',
-  },
-  {
-    name: 'Medicine',
-    icon: faCapsules,
-    link: '/medicine',
-    color: 'text-green-900',
-    bgColor: 'bg-green-200',
-    value: 'medicine',
-  },
-  {
-    name: 'Hospital',
-    icon: faHospital,
-    link: '/hospitals',
-    color: 'text-indigo-900',
-    bgColor: 'bg-indigo-200',
-    value: 'hospitals',
-  },
-  {
-    name: 'Ambulance',
-    icon: faAmbulance,
-    link: '/ambulance',
-    color: 'text-blue-900',
-    bgColor: 'bg-blue-200',
-    value: 'ambulance',
-  },
-  {
-    name: 'Plasma',
-    icon: faSyringe,
-    link: '/plasma',
-    color: 'text-yellow-900',
-    bgColor: 'bg-yellow-200',
-    value: 'plasma',
-  },
-  {
-    name: 'Helpline',
-    icon: faPhoneAlt,
-    link: '/helpline',
-    color: 'text-pink-900',
-    bgColor: 'bg-pink-200',
-    value: 'helpline',
-  },
-];
+import {tabsInfo} from '../../lib/tabs'
 
 export default function State({ state }) {
   // data.filter((el) => el.district.toLowerCase().includes(search));
