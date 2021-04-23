@@ -11,6 +11,7 @@ import {
 import TabLinks from '../../../components/TabLinks';
 import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
+import SocialSharing from '../../../components/SocialSharing';
 
 const tabsInfo = [
     {
@@ -86,6 +87,11 @@ export default function State({ state, district }) {
                         <TabLinks tabsInfo={tabsInfo} state={state} district={district} />
                     </div>
                 </section>
+                <SocialSharing
+                    twitterText={`Covid-19 Resources for ${humanize(district.district)}, ${humanize(
+                        state
+                    )} https://life.coronasafe.network/${state}/${district.district}`}
+                />
             </div>
         </section>
     );
