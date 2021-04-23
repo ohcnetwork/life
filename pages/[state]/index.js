@@ -41,7 +41,7 @@ export default function State({ state }) {
           {filterDistricts.map((f) => (
             <div
               key={f.district}
-              className="w-full rounded overflow-hidden md:w-1/2 mb-6 hover:bg-gray-200"
+              className="w-full rounded overflow-hidden md:w-1/2 mb-6 hover:bg-gray-200 dark:hover:bg-gray-1200"
             >
               <div className="p-4">
                 <Link

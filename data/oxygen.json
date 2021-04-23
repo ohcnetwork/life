@@ -2634,6 +2634,26 @@
         },
         {
             "city": null,
+            "comment": null,
+            "companyName": "Medishopi ",
+            "createdTime": "2021-04-23T14:07:17.000Z",
+            "description": null,
+            "district": "North 24 Parganas",
+            "id": "recuAFsSKXfOvaVjI",
+            "lastVerifiedOn": "2021-04-23T14:07:17.000Z",
+            "name": null,
+            "phone1": 7384073807,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Contacted the person",
+            "state": "West Bengal",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "city": null,
             "comment": "switched off",
             "companyName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",

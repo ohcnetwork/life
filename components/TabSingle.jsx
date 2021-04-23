@@ -16,7 +16,16 @@ const TabSingle = ({ tab, state, district }) => {
 
   const divClass2 = `w-min border-transparent flex items-center justify-center px-4 py-2 text-center group border-b-2 font-medium ${colorVal}`;
 
-  return (
+  const renderLink = (
+    <div className={divClass1}>
+      <div className={divClass2}>
+        <FontAwesomeIcon icon={tab.icon} className="w-5" />
+        <span className="ml-2">{tab.name}</span>
+      </div>
+    </div>
+  );
+
+  return district[tab.value] ? (
     <Link
       href={`/[state]/[district]${tab.link}`}
       as={`/${parametreize(state)}/${parametreize(district.district)}${
@@ -24,13 +33,10 @@ const TabSingle = ({ tab, state, district }) => {
       }`}
       key={tab.link}
     >
-      <div className={divClass1}>
-        <div className={divClass2}>
-          <FontAwesomeIcon icon={tab.icon} className="w-5" />
-          <span className="ml-2">{tab.name}</span>
-        </div>
-      </div>
+      {renderLink}
     </Link>
+  ) : (
+    renderLink
   );
 };
 

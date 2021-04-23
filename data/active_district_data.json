@@ -4702,7 +4702,7 @@
             "hospitals": true,
             "id": "recaDVN8l0q1f7OsB",
             "medicine": false,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "West Bengal"
         },
