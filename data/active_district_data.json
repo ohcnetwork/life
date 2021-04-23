@@ -3763,7 +3763,7 @@
             "district": "Burdwan (Bardhaman)",
             "doctor": false,
             "helpline": false,
-            "hospitals": false,
+            "hospitals": true,
             "id": "recTIi1YNzkj9ZrIt",
             "medicine": false,
             "oxygen": false,
@@ -6834,7 +6834,7 @@
             "hospitals": true,
             "id": "recofnotIen3kO8Uk",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Haryana"
         },

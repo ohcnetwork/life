@@ -5300,6 +5300,22 @@
         },
         {
             "comment": null,
+            "createdTime": "2021-04-23T17:13:24.000Z",
+            "district": "New Delhi",
+            "id": "recYOfl9TMFd90Uew",
+            "lastVerifiedOn": "2021-04-23T17:13:24.000Z",
+            "name": "MAX hospital delhi",
+            "phone1": 9810025403,
+            "phone2": 919810425403,
+            "pointOfContact": "Kuntal jain",
+            "state": "Delhi (NCT)",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bhopal",
             "id": "recYT9jHV1I3q0dUa",
@@ -6163,6 +6179,22 @@
             "state": "Karnataka",
             "verificationStatus": "Invalid",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "comment": null,
+            "createdTime": "2021-04-23T16:44:12.000Z",
+            "district": "Burdwan (Bardhaman)",
+            "id": "recddE1rsLA04n7wB",
+            "lastVerifiedOn": null,
+            "name": "Burdwan Medical College",
+            "phone1": null,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "West Bengal",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": null,
@@ -7927,6 +7959,22 @@
             "state": "Karnataka",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "comment": null,
+            "createdTime": "2021-04-23T16:40:24.000Z",
+            "district": "East Godavari",
+            "id": "recoLIKLhBtVhtYI4",
+            "lastVerifiedOn": null,
+            "name": "Sunrise hospital",
+            "phone1": null,
+            "phone2": null,
+            "pointOfContact": "Ravi",
+            "state": "Andhra Pradesh",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": null,

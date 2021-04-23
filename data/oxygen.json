@@ -1336,6 +1336,26 @@
         },
         {
             "city": null,
+            "comment": null,
+            "companyName": "BS INDUSTRIAL GASES",
+            "createdTime": "2021-04-23T17:10:40.000Z",
+            "description": null,
+            "district": "Faridabad",
+            "id": "recUvvEGzGekAiVIS",
+            "lastVerifiedOn": "2021-04-23T17:10:40.000Z",
+            "name": null,
+            "phone1": 9891442284,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Haryana",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "city": null,
             "comment": "no answer",
             "companyName": null,
             "createdTime": "2021-04-19T09:53:08.000Z",
