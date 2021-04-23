@@ -79,7 +79,7 @@ const MedicinesCard = ({
                 className="text-xl w-6"
                 icon={faEnvelope}
               />
-              <span class="ml-2 text-lg mt-1">Email</span>
+              <span className="ml-2 text-lg mt-1">Email</span>
             </a>
           )}
           {slink && (
@@ -89,7 +89,7 @@ const MedicinesCard = ({
                 className="text-xl w-6"
                 icon={faLink}
               />
-              <span class="ml-2 text-lg mt-1">Source Link</span>
+              <span className="ml-2 text-lg mt-1">Source Link</span>
             </a>
           )}
         </div>
