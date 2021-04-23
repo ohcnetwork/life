@@ -1,9 +1,9 @@
-import React from "react";
-import { getOxygen } from "../../../lib/api";
-import { statePaths, humanize } from "../../../lib/utils";
-import OxygenCard from "../../../components/OxygenCard";
-import Breadcumb from "../../../components/Breadcumb";
-import Head from "next/head";
+import React from 'react';
+import { getOxygen } from '../../../lib/api';
+import { statePaths, humanize } from '../../../lib/utils';
+import OxygenCard from '../../../components/OxygenCard';
+import Breadcumb from '../../../components/Breadcumb';
+import Head from 'next/head';
 
 export default function Oxygen({ state, district, oxygenListing }) {
   return (
@@ -19,7 +19,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
           list={[
             { href: `/${state}`, name: humanize(state) },
             { href: `/${state}/${district}`, name: humanize(district) },
-            { href: null, name: "Oxygen" },
+            { href: null, name: 'Oxygen' }
           ]}
         />
       </section>
@@ -64,7 +64,7 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   return {
-    paths: statePaths("oxygen"),
-    fallback: false,
+    paths: statePaths('oxygen'),
+    fallback: false
   };
 }
