@@ -99,8 +99,8 @@ const MedicinesCard = ({
       <div className="flex justify-between items-center mx-2 mt-2 pb-3">
         <div className="font-semibold dark:text-gray-400">{description}</div>
         <div className="font-mono text-gray-700 dark:text-gray-400 text-sm">
-          {lastVerifiedOn ?
-                          `Verified @ ${parseDateString(lastVerifiedOn)}` : null}
+          {lastVerifiedOn &&
+                                        `Verified @ ${parseDateString(lastVerifiedOn)}`}
         </div>
       </div>
     </div>

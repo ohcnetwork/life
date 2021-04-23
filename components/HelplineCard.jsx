@@ -70,8 +70,8 @@ const HelplineCard = ({
       <div className="flex justify-between items-center mx-2 mt-2 pb-3">
         <div className="font-semibold">{description}</div>
         <div className="font-mono text-gray-700 text-sm dark:text-white">
-          {lastVerifiedOn ?
-                          `Verified @ ${parseDateString(lastVerifiedOn)}` : null}
+          {lastVerifiedOn &&
+                                        `Verified @ ${parseDateString(lastVerifiedOn)}`}
         </div>
       </div>
     </div>
