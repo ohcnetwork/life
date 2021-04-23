@@ -4,7 +4,8 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: monospace;
   color: #453c52;
   @apply w-full h-full antialiased;
 }

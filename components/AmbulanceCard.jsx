@@ -24,7 +24,7 @@ const AmbulanceCard = ({
           <div className="p-4 flex justify-between">
             <div>
               <div className="font-bold text-2xl">
-                <h1 className="flex items-center justify-start">
+                <h1 className="flex items-center justify-start dark:text-gray-200">
                   {name ? name : "Ambulance"}
                   <span>
                     {verificationStatus &&
@@ -59,7 +59,8 @@ const AmbulanceCard = ({
                     title={phone1}
                     className="text-xl w-6"
                     icon={faPhoneAlt}
-                  /><span className="ml-4">{phone1}</span>
+                  />
+                  <span className="ml-4">{phone1}</span>
                 </a>
               )}
               {phone2 && (
