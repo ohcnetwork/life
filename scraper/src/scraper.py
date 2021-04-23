@@ -16,7 +16,8 @@ def get_records(url: str) -> list:
     records = []
     offset = ""
     while True:
-        response = requests.get(url, headers=headers, params=[("offset", offset)])
+        response = requests.get(url, headers=headers,
+                                params=[("offset", offset)])
         records.extend(response.json()["records"])
         if "offset" in response.json():
             offset = response.json()["offset"]
@@ -26,7 +27,8 @@ def get_records(url: str) -> list:
 
 
 def get_active_district_data():
-    records = get_records("https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Districts")
+    records = get_records(
+        "https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Districts")
     active_districts = {"data": []}
     for district in records:
         if("Oxygen 2" in district["fields"] or "Hospitals, Bed, ICU" in district["fields"] or "Medicine, Injection" in district["fields"] or "Ambulance" in district["fields"] or "Helpline" in district["fields"] or "Plasma" in district["fields"] or "Doctor, Telemedicine" in district["fields"] or "Government contact" in district["fields"]):
@@ -34,9 +36,9 @@ def get_active_district_data():
                 {
                     "id": district["id"],
                     "state": district["fields"]["Name (from State)"][0],
-                    "district": district["fields"]["Name"],
+                    "district": district["fields"].get("Name"),
                     "oxygen": "Oxygen 2" in district["fields"],
-                    "hospital": "Hospitals, Bed, ICU" in district["fields"],
+                    "hospitals": "Hospitals, Bed, ICU" in district["fields"],
                     "medicine": "Medicine, Injection" in district["fields"],
                     "ambulance": "Ambulance" in district["fields"],
                     "helpline": "Helpline" in district["fields"],
@@ -47,19 +49,24 @@ def get_active_district_data():
             )
     return active_districts
 
+
 def get_district_data():
-    records = get_records("https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Districts")
+    records = get_records(
+        "https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Districts")
     districts = {}
     for district in records:
-        districts[district["id"]] = District(district["fields"]["Name"], district["fields"]["Name (from State)"][0])
+        districts[district["id"]] = District(district["fields"].get(
+            "Name"), district["fields"]["Name (from State)"][0])
     return districts
 
 
 def get_states_data():
-    records = get_records("https://api.airtable.com/v0/appIVYBhHiWvtSV1h/State")
+    records = get_records(
+        "https://api.airtable.com/v0/appIVYBhHiWvtSV1h/State")
     states = {}
     for state in records:
-        states[state["fields"]["Name"]] = [districts[district].name for district in state["fields"]["Districts"]]
+        states[state["fields"]["Name"]] = [
+            districts[district].name for district in state["fields"]["Districts"]]
     return states
 
 
@@ -87,6 +94,7 @@ def get_oxygen_data():
             district = districts[record["fields"]["Districts"][0]]
         except Exception:
             continue
+
         oxygen_data["data"].append(
             {
                 "id": record["id"],
@@ -101,10 +109,12 @@ def get_oxygen_data():
                 "createdTime": record["createdTime"],
                 "sourceName": record["fields"].get("Source Name"),
                 "companyName": record["fields"].get("Company name"),
-                "verifiedStatus": record["fields"].get("Verified status").strip()
-                if "Verified status" in record["fields"]
-                else None,
-                "comments": record["fields"].get("Comments"),
+                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
+                "comment": record["fields"].get("Verifier_Comment"),
+                "lastVerifiedOn": record["fields"].get("Verified_On"),
+                "verifiedBy": record["fields"]["Verified_By"][0].get("name")
+                if "Verified_By" in record["fields"]
+                else [{}],
             }
         )
     return oxygen_data
@@ -135,8 +145,8 @@ def get_plasma_data():
     return plasma_data
 
 
-def get_hospital_bed_icu():
-    url = "https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Hospitals%2C%20Bed%2C%20ICU"
+def get_hospital_clinic_centre():
+    url = "https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Hospital%2C%20Clinics%2C%20Centre"
     hospital_bed_icu = {"data": []}
     raw_data = get_records(url)
     for record in raw_data:
@@ -153,11 +163,12 @@ def get_hospital_bed_icu():
                 "pointOfContact": record["fields"].get("pointOfContact"),
                 "phone1": record["fields"].get("phone1"),
                 "phone2": record["fields"].get("phone2"),
-                "sourceUrl": record["fields"].get("sourceUrl"),
-                "source": record["fields"].get("source"),
-                "verificationStatus": record["fields"].get("Verification Status"),
-                "verifiedBy": record["fields"].get("Verified by"),
-                "verifiedBy2": record["fields"].get("Verified By 2"),
+                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
+                "lastVerifiedOn": record["fields"].get("Verified_On"),
+                "verifiedBy": record["fields"]["Verified_By"][0].get("name")
+                if "Verified_By" in record["fields"]
+                else [{}],
+                "comment": record["fields"].get("Verifier_Comment"),
                 "createdTime": record["createdTime"],
             }
         )
@@ -186,8 +197,6 @@ def get_helpline_data():
                 "sourceUrl": record["fields"].get("sourceUrl"),
                 "source": record["fields"].get("source"),
                 "description": record["fields"].get("description"),
-                "zonalVerificationStatus": record["fields"].get("Zonal Verification Status"),
-                "verifiedBy": record["fields"].get("Verified by"),
                 "createdTime": record["createdTime"],
             }
         )
@@ -206,7 +215,6 @@ def get_medicine_data():
         medicine_data["data"].append(
             {
                 "id": record["id"],
-                "name": record["fields"].get("Name"),
                 "city": record["fields"].get("City"),
                 "description": record["fields"].get("Description"),
                 "distributorName": record["fields"].get("Distributor Name"),
@@ -215,12 +223,14 @@ def get_medicine_data():
                 "state": district.state,
                 "district": district.name,
                 "phone1": record["fields"].get("Phone 1"),
-                "Verified": record["fields"].get("Verified"),
-                "commentsLatestupdate": record["fields"].get("Comments/Latest update"),
                 "source": record["fields"].get("Source"),
                 "contactName": record["fields"].get("Contact name"),
-                "updateDateAndTime": record["fields"].get("Update date & time"),
-                "verifiedBy": record["fields"].get("Verified by"),
+                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
+                "lastVerifiedOn": record["fields"].get("Verified_On"),
+                "verifiedBy": record["fields"]["Verified_By"][0].get("name")
+                if "Verified_By" in record["fields"]
+                else [{}],
+                "comment": record["fields"].get("Verifier_Comment"),
                 "createdTime": record["createdTime"],
             }
         )
@@ -246,6 +256,12 @@ def get_ambulance_data():
                 "phone1": record["fields"].get("Phone 1"),
                 "phone2": record["fields"].get("Phone 2"),
                 "source": record["fields"].get("Source"),
+                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
+                "lastVerifiedOn": record["fields"].get("Verified_On"),
+                "verifiedBy": record["fields"]["Verified_By"][0].get("name")
+                if "Verified_By" in record["fields"]
+                else [{}],
+                "comment": record["fields"].get("Verifier_Comment"),
                 "createdTime": record["createdTime"],
             }
         )
@@ -254,7 +270,7 @@ def get_ambulance_data():
 
 active_district_data = get_active_district_data()
 dump_data("active_district_data.json", active_district_data)
-hospital_data = get_hospital_bed_icu()
+hospital_data = get_hospital_clinic_centre()
 dump_data("hospital_bed_icu.json", hospital_data)
 oxygen_data = get_oxygen_data()
 dump_data("oxygen.json", oxygen_data)

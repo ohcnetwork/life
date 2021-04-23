@@ -1,45 +1,98 @@
-import React from 'react';
+import React from "react";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faLink,
+  faPhoneAlt,
+  faCheckCircle,
+  faExclamationTriangle,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { parseDateString } from "../lib/utils";
 
-const OxygenCard = ({ name, company, phone1, phone2, description, source, slink, fstate, fdistrict }) => {
+const OxygenCard = ({
+  name,
+  company,
+  phone1,
+  phone2,
+  description,
+  source,
+  slink,
+  fstate,
+  fdistrict,
+  createdTime,
+  verifiedStatus,
+}) => {
   return (
-    <div className="flex mt-4  col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200">
-        <div className="w-1/2 flex items-center justify-between p-6 space-x-6">
-          <div className="flex-1 truncate">
-            <div className="flex items-center space-x-3">
-              <h3 className="text-gray-900 text-sm font-medium truncate">{name}</h3>
-              {company &&<span className="flex-shrink-0 inline-block px-2 py-0.5 text-green-800 text-xs font-medium bg-green-100 rounded-full">{company}</span>}
-              <a href={slink} > <FontAwesomeIcon alt={source || 'Source'} icon={faInfoCircle} /> </a>
+    <div className="bg-white rounded-lg shadow">
+      <div className="p-4 flex justify-between">
+        <div>
+          <div className="font-bold text-2xl">
+            <h1>
+              {name}
+              <span>
+                {verifiedStatus &&
+                verifiedStatus.toLocaleLowerCase() == "verified" ? (
+                  <FontAwesomeIcon
+                    className="text-green-600 w-5 ml-4"
+                    title="Verified"
+                    icon={faCheckCircle}
+                  />
+                ) : (
+                  <FontAwesomeIcon
+                    className="text-yellow-400 w-4 ml-4"
+                    title="Not verified"
+                    icon={faExclamationTriangle}
+                  />
+                )}
+              </span>
+            </h1>
+            <div className="text-sm  uppercase mt-3 text-gray-700 font-semibold">
+              <span className="mr-2">{fdistrict}</span>|
+              <span className="ml-2">{fstate}</span>
             </div>
-            {fstate || fdistrict ? <p className="mt-1 text-gray-500 text-sm truncate">{`from ${fstate ? fstate + "," : ""} ${fdistrict}`}</p> : <div/>}
-            <p className="mt-1 text-gray-500 text-sm truncate">{description}</p>
+            <div className="w-11/12 max-w-3xl mt-2">
+              <div className="text-sm">{source}</div>
+            </div>
           </div>
         </div>
-
-        <div>
-          <div className="">
-            {phone1 ? <div className="-ml-px w-0 flex-1 flex">
-              <a href={`tel:${phone1}`} className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-                <svg className="w-5 h-5 text-gray-400" x-description="Heroicon name: solid/phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
-                </svg>
-                <span className="ml-3">{phone1}</span>
-              </a>
-            </div> : < div/>}
-
-            {phone2 ? <div className="-ml-px w-0 flex-1 flex">
-              <a href={`tel:${phone2}`} className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-                <svg className="w-5 h-5 text-gray-400" x-description="Heroicon name: solid/phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
-                </svg>
-                <span className="ml-3">{phone2}</span>
-              </a>
-            </div> : < div/>}
-          </div>
+        <div className="flex flex-col items-start">
+          {phone1 && (
+            <a
+              className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold"
+              href={`tel:${phone1}`}
+            >
+              <FontAwesomeIcon
+                title={`${phone1}`}
+                className="text-xl w-6"
+                icon={faPhoneAlt}
+              />
+              <span className="ml-2">{phone1}</span>
+            </a>
+          )}
+          {slink && (
+            <a
+              className="font-mono text-gray-700 font-bold text-xl hover:text-gray-900"
+              target="_blank"
+              href={slink}
+            >
+              <FontAwesomeIcon
+                title={`${slink}`}
+                className="text-xl w-6"
+                icon={faLink}
+              />
+              <span className="ml-2 text-lg mt-1">Source Link</span>
+            </a>
+          )}
         </div>
       </div>
+      <hr />
+      <div className="flex justify-between items-center mx-2 mt-2 pb-3">
+        <div className="font-semibold">{description}</div>
+        <div className="font-mono text-gray-700 text-sm">
+          {parseDateString(createdTime)}
+        </div>
+      </div>
+    </div>
   );
 };
 

@@ -1,28 +1,50 @@
-import React from 'react';
-import { getAmbulances } from '../../../lib/api';
-import { humanize, statePaths } from '../../../lib/utils';
-import AmbulanceCard from '../../../components/AmbulanceCard';
-import Head from 'next/head';
+import React from "react";
+import { getAmbulances } from "../../../lib/api";
+import { humanize, statePaths } from "../../../lib/utils";
+import AmbulanceCard from "../../../components/AmbulanceCard";
+import Head from "next/head";
+import Breadcumb from "../../../components/Breadcumb";
 
 export default function Ambulance({ state, district, ambulancesListing }) {
-  console.log('running');
   return (
-    <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 p-4'>
+    <div className="mt-4">
       <Head>
         <title>
           Ambulance in {humanize(district)} , {humanize(state)}
         </title>
       </Head>
-      {ambulancesListing.map(({ name, phone1, phone2, area, source, id }) => (
-        <AmbulanceCard
-          key={id}
-          name={name}
-          phone1={phone1}
-          phone2={phone2}
-          area={area}
-          source={source}
-        />
-      ))}
+      <Breadcumb
+        list={[
+          { href: `/${state}`, name: humanize(state) },
+          { href: `/${state}/${district}`, name: humanize(district) },
+          { href: null, name: "Ambulance" },
+        ]}
+      />
+      <div className="space-y-4 mt-4 mb-4">
+        {ambulancesListing.map(
+          ({
+            name,
+            phone1,
+            phone2,
+            area,
+            source,
+            id,
+            createdTime,
+            verificationStatus,
+          }) => (
+            <AmbulanceCard
+              key={id}
+              name={name}
+              phone1={phone1}
+              phone2={phone2}
+              area={area}
+              source={source}
+              createdTime={createdTime}
+              verificationStatus={verificationStatus}
+            />
+          )
+        )}
+      </div>
     </div>
   );
 }
@@ -39,7 +61,7 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   return {
-    paths: statePaths('ambulance'),
+    paths: statePaths("ambulance"),
     fallback: false,
   };
 }

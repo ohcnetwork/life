@@ -1,16 +1,26 @@
-import React from "react";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import React, { useEffect } from 'react';
+import Footer from '../components/Footer';
+import ThemeButton from '../components/ThemeButton';
 
 const MainLayout = ({ children }) => {
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    }
+  }, [])
+
   return (
     <div
-      className="flex-grow bg-gray-100 relative"
-      style={{ minHeight: "85vh" }}
+      className='flex-grow bg-gray-100 dark:bg-gray-1100 relative'
+      style={{ minHeight: '85vh' }}
     >
-      {/* <Navbar /> */}
-
-      <div className="max-w-5xl mx-auto container px-2">{children}</div>
+      <ThemeButton />
+      <div className='max-w-5xl mx-auto container px-2'>{children}</div>
 
       <Footer />
     </div>
