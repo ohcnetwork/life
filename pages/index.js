@@ -16,30 +16,40 @@ import {
 import Selector from '../components/Selector';
 import useLocale from '../hooks/use-locale';
 
-const tabsInfo = [
-  { name: 'Oxygen', icon: faLungsVirus, link: '/oxygen', value: 'oxygen' },
-  { name: 'Medicine', icon: faCapsules, link: '/medicine', value: 'medicine' },
-  {
-    name: 'Hospital',
-    icon: faHospital,
-    link: '/hospitals',
-    value: 'hospitals',
-  },
-  {
-    name: 'Ambulance',
-    icon: faAmbulance,
-    link: '/ambulance',
-    value: 'ambulance',
-  },
-  { name: 'Helpline', icon: faPhoneAlt, link: '/helpline', value: 'helpline' },
-  { name: 'Plasma', icon: faSyringe, link: '/plasma', value: 'plasma' },
-];
-
 let updateFilter = (setSelectedFilter, selection) =>
   setSelectedFilter(selection);
 
 export default function Home() {
   const t = useLocale();
+
+  const tabsInfo = [
+    { name: t.oxygen, icon: faLungsVirus, link: '/oxygen', value: 'oxygen' },
+    {
+      name: t.medicine,
+      icon: faCapsules,
+      link: '/medicine',
+      value: 'medicine',
+    },
+    {
+      name: t.hospital,
+      icon: faHospital,
+      link: '/hospitals',
+      value: 'hospitals',
+    },
+    {
+      name: t.ambulance,
+      icon: faAmbulance,
+      link: '/ambulance',
+      value: 'ambulance',
+    },
+    {
+      name: t.helpline,
+      icon: faPhoneAlt,
+      link: '/helpline',
+      value: 'helpline',
+    },
+    { name: t.plasma, icon: faSyringe, link: '/plasma', value: 'plasma' },
+  ];
   const [selectedFilter, setSelectedFilter] = useState('oxygen');
 
   return (
@@ -48,7 +58,7 @@ export default function Home() {
         <Logo width={100} />
         <h1 className='mt-1 font-black text-6xl text-gray-900'>{t.name}</h1>
         <h2 className='mt-4 font-semibold text-xl text-gray-900 text-center'>
-          Verified Crowd Sourced Emergency Services Directory
+          {t.description}
         </h2>
         <div className='mt-4 '>
           <Tabs
@@ -58,7 +68,7 @@ export default function Home() {
           />
         </div>
         <div className='w-full md:w-3/4 px-2'>
-          <Selector page={selectedFilter} />
+          <Selector t={t} page={selectedFilter} />
         </div>
         <div className='flex flex-wrap items-center justify-evenly mt-6 '>
           {getStates(selectedFilter).map((s) => {

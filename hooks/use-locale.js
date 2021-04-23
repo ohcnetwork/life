@@ -6,7 +6,6 @@ const useLocale = () => {
   const router = useRouter();
   const { locale } = router;
   let t;
-  console.log(locale);
   switch (locale) {
     case 'en':
       t = en;

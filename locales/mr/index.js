@@ -1,3 +1,17 @@
 export default {
-  name: 'जीवन',
+  name: 'लाइफ़',
+  description: 'सत्यापित क्रोड सोर्सिड इमर्जन्सी सर्व्हिसेस निर्देशिका',
+  oxygen: 'ऑक्सिजन',
+  medicine: 'औषध',
+  hospital: 'रुग्णालय',
+  ambulance: 'रुग्णवाहिका',
+  helpline: 'हेल्पलाइन',
+  plasma: 'प्लाझ्मा',
+  searchPlaceholder: 'राज्य किंवा जिल्ह्यात उपलब्धतेचा शोध घ्या',
+  curatedBy: 'क्युरेटेड बाय',
+  supportedBy: 'समर्थित',
+  poweredBy: 'द्वारा समर्थित',
+  github: 'गीथब',
+  database: 'डेटाबेस',
+  about: 'बद्दल',
 };

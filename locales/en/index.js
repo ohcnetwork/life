@@ -1,3 +1,17 @@
 export default {
   name: 'Life',
+  description: 'Verified Crowd Sourced Emergency Services Directory',
+  oxygen: 'Oxygen',
+  medicine: 'Medicine',
+  hospital: 'Hospital',
+  ambulance: 'Ambulance',
+  helpline: 'Helpline',
+  plasma: 'Plasma',
+  searchPlaceholder: 'Search for availability in a State or District',
+  curatedBy: 'Curated By',
+  supportedBy: 'Supported By',
+  poweredBy: 'Powered By',
+  github: 'Github',
+  database: 'Database',
+  about: 'About',
 };
