@@ -10,7 +10,7 @@ body {
 }
 
 * {
-  transition: color 0.3s ease, background 0.3s ease;
+  transition: color 0.2s ease, background 0.3s ease;
 }
 
 @screen md {
