@@ -16,14 +16,14 @@ export default function State({ state }) {
         el.district.toLowerCase().includes(searchStr.toLowerCase())
     );
     return (
-        <section className="md:pt-10">
+        <section className="md:pt-10 text-gray-800 ">
             <Head>
                 <title>{humanize(state)} | Coronasafe network</title>
             </Head>
             <Breadcumb list={[{ href: null, name: humanize(state) }]} />
-            <h1 className="mt-4 text-xl sm:text-2xl md:text-3xl text-gray-900 md:text-left">
+            <h1 className="mt-4 text-xl sm:text-2xl md:text-3xl md:text-left">
                 Search Result For{' '}
-                <span className="mt-4 font-bold text-3xl sm:text-4xl md:text-5xl text-gray-900 dark:text-gray-200 md:text-left">
+                <span className="mt-4 font-bold text-3xl sm:text-4xl md:text-5xl dark:text-gray-200 md:text-left">
                     "{humanize(state)}"
                 </span>
             </h1>
