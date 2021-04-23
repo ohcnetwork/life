@@ -4,7 +4,7 @@ const Breadcumb = ({ list }) => {
   const NavLinks = ({ href, name }) => {
     return (
       <li>
-        <div className='flex items-center'>
+        <div className='flex'>
           <svg
             className='flex-shrink-0 h-5 w-5 text-gray-600'
             x-description='Heroicon name: solid/chevron-right'
@@ -35,8 +35,8 @@ const Breadcumb = ({ list }) => {
     );
   };
   return (
-    <nav className='flex py-4' aria-label='Breadcrumb'>
-      <ol className='flex items-center space-x-4'>
+    <nav className='py-4 ' aria-label='Breadcrumb'>
+      <ol className='flex float-left space-x-4'>
         <li>
           <div>
             <Link href='/'>

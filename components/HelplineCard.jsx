@@ -17,12 +17,12 @@ const HelplineCard = ({
 }) => {
   return (
     <div className="bg-white rounded-lg shadow">
-      <div className="p-4 flex justify-between">
+      <div className="p-4 flex justify-between flex-col md:flex-row">
         <div>
           <div className="font-bold text-2xl">
             <div>
               <h1>{category}</h1>
-              <div className="text-sm mt-1 mb-5 text-gray-700 font-semibold">
+              <div className="text-sm mt-1 mb-3 text-gray-700 font-semibold">
                 <span>({subCategory})</span>
               </div>
             </div>
@@ -31,11 +31,11 @@ const HelplineCard = ({
               <span className="ml-2">{state}</span>
             </div>
             <div className="w-11/12 max-w-3xl mt-2">
-              <div className="text-sm">{source}</div>
+              <div className="text-sm mb-3">{source}</div>
             </div>
           </div>
         </div>
-        <div className="flex space-x-7 items-start">
+        <div className="flex items-start flex-col md:flex-row md:space-x-7">
           {phone1 && (
             <a
               className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold"

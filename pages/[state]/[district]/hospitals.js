@@ -7,7 +7,8 @@ import HospitalCard from "../../../components/HospitalCard";
 
 export default function Medicine({ state, district, hospitalByDistrict }) {
   return (
-    <section className="flex flex-col items-center md:pt-10">
+    <div>
+    <section className="flex flex-col ml-2 md:pt-10 ">
       <Head>
         <title>
           Hospitals in {humanize(district)} , {humanize(state)}
@@ -20,6 +21,8 @@ export default function Medicine({ state, district, hospitalByDistrict }) {
           { href: null, name: "Hospitals" },
         ]}
       />
+      </section>
+      <section className="flex flex-col items-center">
       <h1 className="mt-4 font-black text-6xl text-gray-900 md:text-left text-center">
         {humanize(district)}
       </h1>
@@ -40,6 +43,7 @@ export default function Medicine({ state, district, hospitalByDistrict }) {
         })}
       </div>
     </section>
+    </div>
   );
 }
 
