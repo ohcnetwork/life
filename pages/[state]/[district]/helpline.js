@@ -8,7 +8,7 @@ import HelplineCard from "../../../components/HelplineCard";
 export default function Helpline({ state, district, helplines }) {
   return (
     <div>
-      <section className="flex flex-col md:pt-10">
+      <section className="flex flex-col ml-2 md:pt-10">
         <Head>
           <title>
             Helpline in {humanize(district)} , {humanize(state)}

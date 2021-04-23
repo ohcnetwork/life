@@ -61,7 +61,7 @@ const HospitalCard = ({
         </div>
       </div>
       <hr />
-      <div className="flex justify-between items-center mx-2 mt-2 pb-3">
+      <div className="flex justify-between items-center px-2  mx-2 mt-2 pb-3">
         <div className="font-semibold">{pointOfContact}</div>
         <div className="font-mono text-gray-700 text-sm">
           {parseDateString(createdTime)}
