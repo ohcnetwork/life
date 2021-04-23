@@ -7,7 +7,14 @@ import Head from "next/head";
 
 export default function Oxygen({ state, district, oxygenListing }) {
   return (
-    <section className="flex flex-col items-center md:pt-10">
+    <div>
+    <section className="flex flex-col ml-2 md:pt-10">
+    <Head>
+        <title>
+          Oxygen in {humanize(district)} , {humanize(state)}
+        </title>
+      </Head>
+
       <Breadcumb
         list={[
           { href: `/${state}`, name: humanize(state) },
@@ -15,11 +22,8 @@ export default function Oxygen({ state, district, oxygenListing }) {
           { href: null, name: "Oxygen" },
         ]}
       />
-      <Head>
-        <title>
-          Oxygen in {humanize(district)} , {humanize(state)}
-        </title>
-      </Head>
+      </section>
+      <section className="flex flex-col items-center">
       <h1 className="mt-4 font-black text-6xl text-gray-900 md:text-left text-center">
         {humanize(district)}
       </h1>
@@ -43,6 +47,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
         })}
       </div>
     </section>
+    </div>
   );
 }
 
