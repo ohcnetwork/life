@@ -66,7 +66,7 @@ export default function State({ state }) {
 export async function getStaticProps({ params }) {
   return {
     props: {
-      state: params.state,
+      state: parametreize(params.state),
     },
   };
 }

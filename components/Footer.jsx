@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <footer className="bg-gray-200 absolute top-full left-0 w-full py-10">
+    <footer className="bg-gray-200 dark:bg-gray-1000 absolute top-full left-0 w-full py-10">
       <section className="flex justify-center">
         <Link href="/data">
           <button type="button" className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
@@ -14,7 +14,7 @@ const Footer = () => {
         <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
           Curated by{" "}
           <Link href="https://covidfyi.in/">
-            <span className="underline cursor-pointer text-indigo-600">
+            <span className="underline cursor-pointer text-indigo-600 dark:text-primary-500">
               Covid FYI
             </span>
           </Link>
@@ -22,7 +22,7 @@ const Footer = () => {
         <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
           Supported by{" "}
           <Link href="https://www.swasth.app">
-            <span className="underline cursor-pointer text-indigo-600">
+            <span className="underline cursor-pointer text-indigo-600 dark:text-primary-500">
               Swasth Alliance
             </span>
           </Link>
@@ -30,7 +30,7 @@ const Footer = () => {
         <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
           Powered By{" "}
           <Link href="https://coronasafe.network/">
-            <span className="underline cursor-pointer text-indigo-600">
+            <span className="underline cursor-pointer text-indigo-600 dark:text-primary-500">
               CoronaSafe Network
             </span>
           </Link>
@@ -41,21 +41,21 @@ const Footer = () => {
         >
           <div className="px-5 py-2">
             <Link href="https://github.com/coronasafe/life">
-              <span className="text-base text-gray-700 hover:text-indigo-600 cursor-pointer">
+              <span className="text-base text-gray-700 hover:text-indigo-600 cursor-pointer dark:text-primary-200">
                 GitHub
               </span>
             </Link>
           </div>
           <div className="px-5 py-2">
             <Link href="https://github.com/coronasafe/life">
-              <span className="text-base text-gray-700 hover:text-indigo-600 cursor-pointer">
+              <span className="text-base text-gray-700 hover:text-indigo-600 cursor-pointer dark:text-primary-200">
                 Database
               </span>
             </Link>
           </div>
           <div className="px-5 py-2">
             <Link href="https://github.com/coronasafe/life">
-              <span className="text-base text-gray-700 hover:text-indigo-600 cursor-pointer">
+              <span className="text-base text-gray-700 hover:text-indigo-600 cursor-pointer dark:text-primary-200">
                 About
               </span>
             </Link>

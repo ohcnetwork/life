@@ -2099,17 +2099,17 @@
             ]
         },
         {
-            "comment": "Didn't pickup the call",
+            "comment": "responded on WhatsApp\nDidn't pickup the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Barabanki",
             "id": "recDhS9JLMuFcmjUD",
-            "lastVerifiedOn": "2021-04-22T09:23:42.000Z",
+            "lastVerifiedOn": "2021-04-23T08:11:52.000Z",
             "name": "Mayo Institute Of Medical Science",
             "phone1": 8935002601,
             "phone2": 8935002601,
             "pointOfContact": "Dr K N Singh",
             "state": "Uttar Pradesh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3061,32 +3061,28 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "New Delhi",
             "id": "recIwrNIQkCpiHuu5",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T10:06:18.000Z",
             "name": "Deen Chand Bandhu Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bengaluru (Bangalore) Urban",
             "id": "recIxTaT6RQRThFbf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T10:06:27.000Z",
             "name": "Baptist Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
@@ -3661,20 +3657,18 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Not responding",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Mathura",
             "id": "recO4gUc1J5WLut5z",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T10:04:11.000Z",
             "name": "Nayati Multi Super Speciality Hospital",
             "phone1": 7055704533,
             "phone2": 9811848887,
             "pointOfContact": "Mr S K Narula",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
@@ -4249,17 +4243,17 @@
             ]
         },
         {
-            "comment": "Didn't pick up the call",
+            "comment": "Responded on WhatsApp\nDidn't pick up the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bhavnagar",
             "id": "recR53K39betSdhqw",
-            "lastVerifiedOn": "2021-04-22T10:13:00.000Z",
+            "lastVerifiedOn": "2021-04-23T08:09:31.000Z",
             "name": "Nirmal Children Hospital",
             "phone1": 9825788033,
             "phone2": 2782424111,
             "pointOfContact": "Dr. Riddhesh\nLania",
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -5691,17 +5685,17 @@
             ]
         },
         {
-            "comment": null,
+            "comment": "responds on WhatsApp",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Navsari",
             "id": "recY0MpkOOzma93Cn",
-            "lastVerifiedOn": "2021-04-22T11:06:53.000Z",
+            "lastVerifiedOn": "2021-04-23T08:43:27.000Z",
             "name": "Yashfeen Hospital",
             "phone1": 9327660110,
             "phone2": 2637235726,
             "pointOfContact": "Dr. Faisal Bhura",
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Jasseerat Kaur"
         },
         {
@@ -6453,17 +6447,17 @@
             ]
         },
         {
-            "comment": "Didn't pick up the call",
+            "comment": "responding on WhatsApp\nDidn't pick up the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kanpur Nagar",
             "id": "recbx22q6TOmMFcK2",
-            "lastVerifiedOn": "2021-04-22T12:14:07.000Z",
+            "lastVerifiedOn": "2021-04-23T08:35:47.000Z",
             "name": "Mangla Multispeciality Hospital Pvt Ltd",
             "phone1": 9889948389,
             "phone2": 9839885568,
             "pointOfContact": "Dr Rajendra Munish",
             "state": "Uttar Pradesh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -6611,20 +6605,18 @@
             ]
         },
         {
-            "comment": null,
+            "comment": "beds are not available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
             "id": "recd8VbvNPmsKbG22",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:59:03.000Z",
             "name": "Divine  Nursing Home",
             "phone1": 3340156789,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -7133,20 +7125,18 @@
             ]
         },
         {
-            "comment": null,
+            "comment": "number does not exist",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Tehri Garhwal",
             "id": "recg0i3LDAwNtoWPF",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:55:43.000Z",
             "name": "District Hospital",
             "phone1": 1376232280,
             "phone2": null,
             "pointOfContact": null,
             "state": "Uttarakhand",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -7241,20 +7231,18 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "not answering",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Siddipet",
             "id": "recgfZUmVU1noeie4",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:54:00.000Z",
             "name": "Government General Hospital",
             "phone1": 8457222036,
             "phone2": null,
             "pointOfContact": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -7303,20 +7291,18 @@
             ]
         },
         {
-            "comment": null,
+            "comment": " nursing home is closed",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hooghly",
             "id": "recgnyK0kBXsoFIif",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:52:23.000Z",
             "name": "Blue View Nursing Home",
             "phone1": 9830157255,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -7397,7 +7383,7 @@
             ]
         },
         {
-            "comment": null,
+            "comment": "switched off",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Raigad",
             "id": "rechCiLDMGOLqAlf6",
@@ -7408,9 +7394,7 @@
             "pointOfContact": "Dr. Pramod Gawai",
             "state": "Maharashtra",
             "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -7477,36 +7461,32 @@
             ]
         },
         {
-            "comment": null,
+            "comment": "beds not available currently\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Muzaffarpur",
             "id": "rechaFMLmtvWQxVl3",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T08:37:53.000Z",
             "name": "Muzaffarnagar Medical College",
             "phone1": 8923256659,
             "phone2": 9988682822,
             "pointOfContact": "Rana Surendra Singh",
             "state": "Bihar",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
-            "comment": null,
+            "comment": "switched off\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chennai",
             "id": "rechbQzolM9gb4w5h",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T08:36:08.000Z",
             "name": "Child Trust Hospitals",
             "phone1": 7358033302,
             "phone2": null,
             "pointOfContact": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -7525,36 +7505,32 @@
             ]
         },
         {
-            "comment": null,
+            "comment": "busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jamnagar",
             "id": "rechlzOD7IKvei3Tc",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T08:35:24.000Z",
             "name": "Gokul New Tech Hospital",
             "phone1": 9099966915,
             "phone2": 2882912300,
             "pointOfContact": "Dipeshbhai",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
-            "comment": null,
+            "comment": "toll free number. not getting through.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Howrah",
             "id": "rechrYmo8GJJEE80b",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T08:32:00.000Z",
             "name": "Ils Hospital , Golabarihowrah",
             "phone1": 3340880000,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": "Line Busy",
@@ -7571,20 +7547,18 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "BEDS AVAILABLE. POC VERIFIED.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "East Garo Hills",
             "id": "rechwLje3L98B2w1P",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:19:57.000Z",
             "name": "Civil Hospital Shillong",
             "phone1": 9436103945,
             "phone2": 9436103036,
             "pointOfContact": "Dr. Andreas Dkhar",
             "state": "Meghalaya",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": "didn't pickup the call\n",

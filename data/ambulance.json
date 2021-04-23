@@ -831,16 +831,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmedabad",
             "id": "rec8NG1Qo2zuEuDat",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T08:18:35.000Z",
             "name": null,
             "phone1": "9879034431",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -895,20 +893,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Covid medicines not available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmedabad",
             "id": "rec8YvzFr6s4Tj2DF",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T08:17:06.000Z",
             "name": null,
             "phone1": "9601268124\n079-26880281",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -2227,16 +2223,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmedabad",
             "id": "recJVxZFPaONSdyl1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:35:12.000Z",
             "name": null,
             "phone1": "9924453922",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -3617,20 +3611,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not available Fabi Flu and Remdesivir as well",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nashik",
             "id": "recVxABrCttJPmdWk",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:37:45.000Z",
             "name": null,
             "phone1": "09822610865/0255",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -4185,20 +4177,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Contact No. doesn't exist",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nashik",
             "id": "reca7KNfa3bKMjUU1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:39:42.000Z",
             "name": null,
             "phone1": "0253-2574287/231",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -4619,20 +4609,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmedabad",
             "id": "recdJAKMtv8vLpiUY",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:24:50.000Z",
             "name": null,
             "phone1": "93288 22228 (BHAVINBHAI)",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
@@ -4738,20 +4726,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No. is switched off",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nashik",
             "id": "recdxXxPgtmigoTAW",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:43:39.000Z",
             "name": null,
             "phone1": "9822024000",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -4889,20 +4875,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Stock not available. Said government is handling the stock.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nashik",
             "id": "recem1sbtGhc4ZFLj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:45:40.000Z",
             "name": null,
             "phone1": "9970950482",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -4989,20 +4973,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "The number is busy. ",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nashik",
             "id": "recfJYwFpxUe26QSK",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:41:01.000Z",
             "name": null,
             "phone1": "9689884548",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -5087,20 +5069,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "First number busy, second switched off",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Raipur",
             "id": "recfsDzd9mDrSaP2j",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:32:13.000Z",
             "name": null,
-            "phone1": "94252507777000042458",
+            "phone1": "9425250777, 7000042458",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -6626,16 +6606,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmedabad",
             "id": "recswewJwwV1IMfOJ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:39:55.000Z",
             "name": null,
             "phone1": "7405673733",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -6745,16 +6723,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nashik",
             "id": "rectUTlnAXM8U2cIB",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:42:38.000Z",
             "name": null,
             "phone1": "2532316711982",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -7041,16 +7017,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmedabad",
             "id": "recvimiNh3YeCPFaj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T09:38:39.000Z",
             "name": null,
-            "phone1": "0271-533853-9825037319",
+            "phone1": "0271-533853, 9825037319",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
@@ -7160,7 +7134,7 @@
             "id": "recw9irzrW4t1aMo3",
             "lastVerifiedOn": null,
             "name": null,
-            "phone1": "27499282749929",
+            "phone1": "2749928, 2749929",
             "phone2": null,
             "source": null,
             "state": "Goa",
@@ -7426,16 +7400,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmedabad",
             "id": "recylkkSRu2tUfABf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T08:16:02.000Z",
             "name": null,
             "phone1": "9825931530",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
