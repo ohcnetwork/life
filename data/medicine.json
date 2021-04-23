@@ -4243,6 +4243,26 @@
             "verifiedBy": "Urja Khandhediya"
         },
         {
+            "address": "G-39/6 commercial centre Vikaspuri New Delhi 110018",
+            "city": null,
+            "comment": "Today",
+            "contactName": "Balvinder Singh",
+            "createdTime": "2021-04-23T17:55:52.000Z",
+            "description": null,
+            "distributorName": "Medcuris Pharmacy",
+            "district": "New Delhi",
+            "emailId": "Medcurispharmacy@gmail.com",
+            "id": "recWKWXEa8LDBtylD",
+            "lastVerifiedOn": "2021-04-23T17:55:52.000Z",
+            "phone1": "9319411616",
+            "source": null,
+            "state": "Delhi (NCT)",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "address": "RAMACHANDRA HEALTH SERVICES PVT LTD)HYDER NAGARNIZAMPET ROAD1-\n2-49-13 B GROUNG FLOOR-2KUKATPALLI,MALKAJGIRI,500072",
             "city": null,
             "comment": "no answer",
@@ -6141,6 +6161,26 @@
             "state": "Uttar Pradesh",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "address": "Metro Plaza, Phase II, BuxiBazar, Cuttack",
+            "city": null,
+            "comment": "Fabiflu 200/400/800 mg available with valid prescription",
+            "contactName": "Asutosh Bhartia",
+            "createdTime": "2021-04-23T17:36:18.000Z",
+            "description": "Febiflu, Sanitizer, Mask, and all other Medicine are available with 5-20% discount.\nHome delivery and COD AVAILABLE\nNEED TO GIVE 2-3 DAYS FOR FREE HOME DELIVERY.",
+            "distributorName": "HealthBuddy Bhartia Medical",
+            "district": "Cuttack",
+            "emailId": "bhartiamedical@gmail.com",
+            "id": "rechXhSgexjrBLDkH",
+            "lastVerifiedOn": "2021-04-23T17:36:18.000Z",
+            "phone1": "9040087999",
+            "source": "Wakein in the store",
+            "state": "Odisha",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "address": "SCF 31, 1ST FLOORBIBIWALA CHOWKBHARAT NAGAR SHOPPING\nCOMPLEX,BATHINDA,151005",

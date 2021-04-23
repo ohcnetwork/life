@@ -1323,7 +1323,7 @@
             "id": "rec9aUEhkol9sPq7p",
             "medicine": true,
             "oxygen": false,
-            "plasma": false,
+            "plasma": true,
             "state": "West Bengal"
         },
         {
