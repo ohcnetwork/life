@@ -54,7 +54,7 @@ const MedicinesCard = ({
             <div className="text-sm">{address}</div>
           </div>
         </div>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col items-end">
           {phone1 && (
             <a
               className="font-mono text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"

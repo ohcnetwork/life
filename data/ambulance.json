@@ -176,16 +176,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hisar",
             "id": "rec1KObssAJKP8e6x",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:19:51.000Z",
             "name": null,
             "phone1": "9522-42460100",
             "phone2": null,
             "source": null,
             "state": "Haryana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -298,20 +296,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Invalid Contact Number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nashik",
             "id": "rec2oIhHqVmXRzPUG",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:22:45.000Z",
             "name": null,
             "phone1": "2577687/98220502",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -332,20 +328,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Fabiflu stock available. Remdesivir not available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nashik",
             "id": "rec3AnQTxQQsNUr13",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:50:12.000Z",
             "name": null,
             "phone1": "9371544000",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -777,7 +771,7 @@
         },
         {
             "area": null,
-            "comment": "A",
+            "comment": "All 4 numbers did not answer",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hyderabad",
             "id": "rec7ikdPAWxDO0aTR",
@@ -1088,16 +1082,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Satara",
             "id": "recA8KWW9OObkl5BI",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:20:16.000Z",
             "name": null,
             "phone1": "98223-4587702167",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -1214,20 +1206,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Invalid Contact Number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Mumbai Suburban",
             "id": "recAvwHxbCOhoqauF",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:24:24.000Z",
             "name": null,
             "phone1": "8721452/8722204",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -1766,37 +1756,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not responding to the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Vellore",
             "id": "recFvE878VvdHGbRX",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:01:42.000Z",
             "name": null,
             "phone1": "041-62282135",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "area": null,
-            "comment": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Mumbai Suburban",
-            "id": "recFzzabdXezMOrNy",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": "022-40776433",
-            "phone2": null,
-            "source": null,
-            "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -1896,20 +1867,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Invalid number, not connecting",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Madurai",
             "id": "recGnlfLRZ2OaqD3S",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:05:43.000Z",
             "name": null,
             "phone1": "4522586550",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -2260,23 +2229,6 @@
             "state": "Delhi (NCT)",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Aamod Kulkarni"
-        },
-        {
-            "area": null,
-            "comment": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Mumbai Suburban",
-            "id": "recK1ku007cIwIBjF",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": "022-40776433",
-            "phone2": null,
-            "source": null,
-            "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
         },
         {
             "area": null,
@@ -2819,20 +2771,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "1st number is incorrect. 2nd was busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hyderabad",
             "id": "recNvntpHEULbfa8J",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:08:28.000Z",
             "name": null,
             "phone1": "040-65916729/9963107800",
             "phone2": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "area": null,
@@ -3113,20 +3063,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Number does not exist",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hyderabad",
             "id": "recROO4rZwACjCFJ2",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:09:49.000Z",
             "name": null,
             "phone1": "040-23704595",
             "phone2": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "area": null,
@@ -3228,20 +3176,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "All 4 numbers did not answer",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hyderabad",
             "id": "recTa3iStmDCMDZIz",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:07:30.000Z",
             "name": null,
             "phone1": "04023715515/16/17/18",
             "phone2": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "area": null,
@@ -3631,20 +3577,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Busy on other call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Beed",
             "id": "recWTO7GhXqXwznjn",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:41:58.000Z",
             "name": null,
             "phone1": "9226935230",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -3778,20 +3722,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Stock not available. Both Medicine & Injection.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Amravati",
             "id": "recXOuNLrc0JoIYO4",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:45:26.000Z",
             "name": null,
             "phone1": "9326865689",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -3889,20 +3831,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Currently stock not available, will be available after 28/04/21",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Tiruvarur",
             "id": "recY945a0agVUrdcI",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:03:42.000Z",
             "name": null,
             "phone1": "7373089090",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -4055,20 +3995,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not picking up the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nagpur",
             "id": "recZrHZF5998i0zOm",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:42:54.000Z",
             "name": null,
             "phone1": "9325530422",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -4140,16 +4078,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolhapur",
             "id": "recaKPvxk36m0HWT3",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:40:10.000Z",
             "name": null,
             "phone1": "9158882858",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -5163,20 +5099,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Contact Number is busy.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nagpur",
             "id": "rech4TaFV2sCDhnzz",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:47:41.000Z",
             "name": null,
             "phone1": "9370151555",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -5312,23 +5246,6 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Mumbai Suburban",
-            "id": "reciOLIxfOMK1okgj",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": "022-40776433",
-            "phone2": null,
-            "source": null,
-            "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "area": null,
-            "comment": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Latur",
             "id": "reciVR0tMXW058SZT",
             "lastVerifiedOn": null,
@@ -5344,20 +5261,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No one receiving call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Mumbai Suburban",
             "id": "reciXeqLSrH9s1900",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:25:14.000Z",
             "name": null,
             "phone1": "26823111",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -5489,23 +5404,6 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Mumbai Suburban",
-            "id": "recjmcdnpUaGIMB2p",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": "022-40776433",
-            "phone2": null,
-            "source": null,
-            "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "area": null,
-            "comment": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Thane",
             "id": "recjzatf5DxwJwuO1",
             "lastVerifiedOn": "2021-04-22T07:54:58.000Z",
@@ -5536,20 +5434,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hyderabad",
             "id": "reckQTPH86Lw7oOIf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:09:08.000Z",
             "name": null,
             "phone1": "040-44186568",
             "phone2": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "area": null,
@@ -5572,16 +5468,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Mumbai Suburban",
             "id": "reckVmZdLcftgBPU1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:30:29.000Z",
             "name": null,
             "phone1": "26823111",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -6973,16 +6867,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Buldhana",
             "id": "recw8tHi6R5Z3NSbE",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:21:49.000Z",
             "name": null,
             "phone1": "07262 - 246664",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "area": null,
@@ -7059,23 +6951,6 @@
             "lastVerifiedOn": null,
             "name": null,
             "phone1": "9823116736",
-            "phone2": null,
-            "source": null,
-            "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
-        },
-        {
-            "area": null,
-            "comment": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Mumbai Suburban",
-            "id": "recxHKYFGuNBBVidj",
-            "lastVerifiedOn": null,
-            "name": null,
-            "phone1": "022-40776433",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
