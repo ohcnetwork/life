@@ -38,6 +38,7 @@ export default function Medicine({ state, district, hospitalByDistrict }) {
                 district={p.district}
                 state={p.state}
                 verificationStatus={p.verificationStatus}
+                lastVerifiedOn={p.lastVerifiedOn}
               />
             );
           })}

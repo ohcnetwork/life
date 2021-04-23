@@ -16,6 +16,7 @@ const AmbulanceCard = ({
   source,
   createdTime,
   verificationStatus,
+  lastVerifiedOn,
 }) => {
   return (
     <>
@@ -90,7 +91,7 @@ const AmbulanceCard = ({
           <hr />
           <div className="flex justify-between items-center mx-2 mt-2 pb-3">
             <div className="font-mono text-gray-700 text-sm">
-              {parseDateString(createdTime)}
+              Verified @ {parseDateString(lastVerifiedOn)}
             </div>
           </div>
         </div>

@@ -37,6 +37,7 @@ export default function Plasma({ state, district, plasmaListing }) {
                 phone1={p.phone1}
                 sourceLink={p.sourceLink}
                 state={p.state}
+                lastVerifiedOn={p.lastVerifiedOn}
               />
             );
           })}
