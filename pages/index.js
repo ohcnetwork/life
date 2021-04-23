@@ -6,44 +6,43 @@ import Tabs from '../components/Tabs';
 import Logo from '../components/Logo';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import Selector from '../components/Selector';
-import { tabsInfo } from '../lib/tabs'
+import { tabsInfo } from '../lib/tabs';
 
-let updateFilter = (setSelectedFilter, selection) =>
-  setSelectedFilter(selection);
+let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 
 export default function Home() {
-  const [selectedFilter, setSelectedFilter] = useState('oxygen');
+    const [selectedFilter, setSelectedFilter] = useState('oxygen');
 
-  return (
-    <div>
-      <section className='flex flex-col items-center md:pt-20'>
-        <Logo width={100} />
-        <h1 className='mt-1 font-black text-6xl text-gray-900 dark:text-gray-100'>LIFE</h1>
-        <h2 className='mt-4 font-semibold text-xl text-gray-900 dark:text-gray-100 text-center'>
-          Verified Crowd Sourced Emergency Services Directory
-        </h2>
-        <div className='mt-4 '>
-          <Tabs
-            tabsInfo={tabsInfo}
-            selectedFilter={selectedFilter}
-            updateFilterCB={(e) => updateFilter(setSelectedFilter, e)}
-          />
+    return (
+        <div>
+            <section className="flex flex-col items-center md:pt-20">
+                <Logo width={100} />
+                <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">LIFE</h1>
+                <h2 className="mt-4 font-semibold text-xl text-gray-900 dark:text-gray-100 text-center">
+                    Verified Crowd Sourced Emergency Services Directory
+                </h2>
+                <div className="mt-4 ">
+                    <Tabs
+                        tabsInfo={tabsInfo}
+                        selectedFilter={selectedFilter}
+                        updateFilterCB={(e) => updateFilter(setSelectedFilter, e)}
+                    />
+                </div>
+                <div className="w-full md:w-3/4 px-2">
+                    <Selector page={selectedFilter} />
+                </div>
+                <div className="flex flex-wrap items-center justify-evenly mt-6 ">
+                    {getStates(selectedFilter).map((s) => {
+                        return (
+                            <Link key={s} href={`[state]`} as={`${parametreize(s)}`}>
+                                <span className="p-2 text-sm md:text-md font-normal hover:font-bold cursor-pointer hover:text-gray-900 text-gray-500 dark:hover:text-gray-50">
+                                    {humanize(s)}
+                                </span>
+                            </Link>
+                        );
+                    })}
+                </div>
+            </section>
         </div>
-        <div className='w-full md:w-3/4 px-2'>
-          <Selector page={selectedFilter} />
-        </div>
-        <div className='flex flex-wrap items-center justify-evenly mt-6 '>
-          {getStates(selectedFilter).map((s) => {
-            return (
-              <Link key={s} href={`[state]`} as={`${parametreize(s)}`}>
-                <span className='p-2 text-sm md:text-md font-normal hover:font-bold cursor-pointer hover:text-gray-900 text-gray-500 dark:hover:text-gray-50'>
-                  {humanize(s)}
-                </span>
-              </Link>
-            );
-          })}
-        </div>
-      </section>
-    </div>
-  );
+    );
 }

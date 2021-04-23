@@ -3628,6 +3628,20 @@
         },
         {
             "category": null,
+            "createdTime": "2021-04-23T15:20:52.000Z",
+            "description": "Verified",
+            "district": "Dhanbad",
+            "id": "recH5nGMMD1IirGBY",
+            "name": null,
+            "phone1": 3267967121,
+            "phone2": 3267967315,
+            "source": "Dhanbad DC Twitter Handle",
+            "sourceUrl": "Twitter",
+            "state": "Jharkhand",
+            "subCategory": null
+        },
+        {
+            "category": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Grocery Shop - Satish Mahadev Kavrekar",
             "district": "South Goa",
@@ -4030,6 +4044,20 @@
             "source": "Govt Of Delhi",
             "sourceUrl": "https://drive.google.com/open?id=1sh_VgWHHuKPeUn0nrvfIrQGXYhHNt5qV",
             "state": "Delhi (NCT)",
+            "subCategory": null
+        },
+        {
+            "category": null,
+            "createdTime": "2021-04-23T15:44:37.000Z",
+            "description": null,
+            "district": "Rampur",
+            "id": "recIzZNF58Duv4UF2",
+            "name": null,
+            "phone1": 9045299525,
+            "phone2": 595,
+            "source": null,
+            "sourceUrl": "https://rampur.nic.in/about-covid-19/",
+            "state": "Uttar Pradesh",
             "subCategory": null
         },
         {

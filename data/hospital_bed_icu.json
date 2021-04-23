@@ -21,64 +21,56 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "West Jaintia Hills",
             "id": "rec01KBqRg9Lp7eBB",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:16:30.000Z",
             "name": "Sahsniang Phc",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Meghalaya",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Guntur",
             "id": "rec0A2Oeoiacc5hwU",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:16:33.000Z",
             "name": "Katuri Medical College",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Guntur",
             "id": "rec0F8z4hjVWgoruE",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:17:18.000Z",
             "name": "Nri Medical College",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "East Godavari",
             "id": "rec0Iw9UlMBxR4wid",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:17:22.000Z",
             "name": "Konaseema Lnstiute Of Medical Sciences, Amalapuram",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
@@ -113,100 +105,88 @@
             ]
         },
         {
-            "comment": null,
+            "comment": "Not sure abt the availabilty as they work for the state(govt)",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Moradabad",
             "id": "rec0TeDleZHavpx1p",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:04:20.000Z",
             "name": "TMHRC Moradabad",
             "phone1": 9837763888,
             "phone2": 9837040040,
-            "pointOfContact": "Suresh Chand Jain",
+            "pointOfContact": "Vipin Jain",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hyderabad",
             "id": "rec0WyXgnOyUbNJ1Z",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:16:27.000Z",
             "name": "Mallareddy Narayana Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Anantapur",
             "id": "rec0cRdEcip4XI8Av",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:17:25.000Z",
             "name": "Rdt Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Murshidabad",
             "id": "rec0csmQzayqCUK7o",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:02:29.000Z",
             "name": "Monmohon Private Healthcare",
             "phone1": 9732795000,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nizamabad",
             "id": "rec0duSBbTdMzqGI9",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:17:30.000Z",
             "name": "Government General Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Srikakulam",
             "id": "rec0fl5vD9VvFVbh7",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:17:34.000Z",
             "name": "District Hospital, Tekkali",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": "Call drop\n",
@@ -221,6 +201,22 @@
             "state": "Uttarakhand",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "comment": null,
+            "createdTime": "2021-04-23T15:26:52.000Z",
+            "district": "Nainital",
+            "id": "rec1BDNP6lOvZ9rND",
+            "lastVerifiedOn": "2021-04-23T15:26:52.000Z",
+            "name": "Sushila tiwari hospital haldwani",
+            "phone1": null,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttarakhand",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": null,
@@ -259,48 +255,42 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Sonipat",
             "id": "rec1dQZYCvcdAejUB",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:18:42.000Z",
             "name": "BPS Medical College, Khanpur",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Haryana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bengaluru (Bangalore) Urban",
             "id": "rec1gDxyMDiB8gG4x",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:18:45.000Z",
             "name": "Apollo Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kannur",
             "id": "rec1tUTZAHsvWJ4Ru",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:51:26.000Z",
             "name": "General Hospital Thalassery",
             "phone1": null,
             "phone2": null,
             "pointOfContact": "Dr. Aneesh",
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": "User busy on someother call",
@@ -321,48 +311,42 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
             "id": "rec1vSzz86ARc75Y3",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:31:37.000Z",
             "name": "Amri Hospital",
             "phone1": 3366063800,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "East Godavari",
             "id": "rec28L3vtfQQ2oPQk",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:38:12.000Z",
             "name": "District Hospital, Rajahmundry",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Sahibzada Ajit Singh Nagar (Mohali)",
             "id": "rec2Gcii6l8iq99I8",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:18:49.000Z",
             "name": "District Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
@@ -431,16 +415,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "West Jaintia Hills",
             "id": "rec2tnpK7qGHPTTjH",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:38:15.000Z",
             "name": "Namdong Phc",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Meghalaya",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
@@ -463,32 +445,28 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hisar",
             "id": "rec3FWtAB82cDtqE1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:39:05.000Z",
             "name": "MAMC Agroha",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Haryana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chittoor",
             "id": "rec3HC3AeoOloXl0m",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:39:08.000Z",
             "name": "Svrrgh, Tirupati",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
@@ -573,16 +551,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Gurgaon",
             "id": "rec3zVZGRm4eCU89P",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:38:48.000Z",
             "name": "Medeor Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Haryana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": "FULL\n",
@@ -633,16 +609,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Gwalior",
             "id": "rec4LxZF1OcA1qQnc",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:39:55.000Z",
             "name": "Link Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
@@ -681,16 +655,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "West Jaintia Hills",
             "id": "rec4rL8iQ22UFCJ28",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:16.000Z",
             "name": "Pdengshakap Phc",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Meghalaya",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
@@ -757,16 +729,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "West Jaintia Hills",
             "id": "rec5Mk1yOuloHHkBl",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:42:08.000Z",
             "name": "Khliehtyrshi Phc",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Meghalaya",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -819,16 +789,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Krishna",
             "id": "rec5z7pjD1gsd0ZnQ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:42:04.000Z",
             "name": "Pinnamaneni Siddhartha Institute Of Medical Sciences, Gannavaram",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -851,16 +819,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jhajjar",
             "id": "rec63SDfWBPHWgDFe",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:38:01.000Z",
             "name": "Brahm Shakti Sanjivani Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Haryana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -927,32 +893,28 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kurnool",
             "id": "rec6B7v08FQHWL8gY",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:38:22.000Z",
             "name": "Ameelio Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Mansa",
             "id": "rec6CioehWxOzeTW2",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:38:22.000Z",
             "name": "District Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -1017,32 +979,28 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Tumakuru (Tumkur)",
             "id": "rec6YSjOmlGXLcOVt",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:39:11.000Z",
             "name": "District Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "West Godavari",
             "id": "rec6q6Z3dhyNBVkDs",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:38:59.000Z",
             "name": "Area Hospital, Tadepalli Gudem",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -1135,52 +1093,46 @@
             "verifiedBy": "Diya Dashiwal"
         },
         {
-            "comment": null,
+            "comment": "Fully Occupied",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Surat",
             "id": "rec7h0Pjc7syqfhq1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:01:29.000Z",
             "name": "Sardar Hosp",
             "phone1": 9825030000,
             "phone2": 2612513555,
             "pointOfContact": "Chetanbhai",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Srikakulam",
             "id": "rec7hrgXTjABw1ImM",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:39:20.000Z",
             "name": "Kims",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Busy on some other call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Surat",
             "id": "rec7pfnaj3KTSFQ4A",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:59:54.000Z",
             "name": "Pathik Children Hosp",
             "phone1": 9824155991,
             "phone2": 2612277538,
             "pointOfContact": "Dr. Sanjay Naik",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "FULL",
@@ -1197,148 +1149,130 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "NON-COVID HOSPITAL",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Pathanamthitta",
             "id": "rec825g4oKm0UOtFh",
-            "lastVerifiedOn": null,
-            "name": "General Hospital Kozhenchery",
+            "lastVerifiedOn": "2021-04-23T14:45:44.000Z",
+            "name": "General Hospital, Adoo",
             "phone1": null,
             "phone2": 9496651625,
             "pointOfContact": "Dr. Ashish Mohan",
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Didn't pick up\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Rajkot",
             "id": "rec843VeW9fqRE7YI",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:43:56.000Z",
             "name": "Synergy Hospital",
             "phone1": 9512140048,
             "phone2": 2816195000,
             "pointOfContact": "Dr. Jayesh Dobariya/ Dr.\nVishal Bhatt",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "total no. of beds-340\nisolation-200\nicu-40\nhdu-100\n\nBeds are available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Sitapur",
             "id": "rec84VfSkNbOZiQRs",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:16:49.000Z",
             "name": "Hind Institute Of Medical Science",
             "phone1": 9936306999,
             "phone2": null,
             "pointOfContact": "Dr Richa Mishra",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Anantapur",
             "id": "rec8OuwWyVevm2syX",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:42:20.000Z",
             "name": "Ggh",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Valsad",
             "id": "rec8RFWYUnpasW6DU",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:37:58.000Z",
             "name": "Kasturba Hospital",
             "phone1": 2632244168,
             "phone2": null,
             "pointOfContact": "Paritosh Shah",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Gurgaon",
             "id": "rec8XG5xiZfw5thuq",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:39:51.000Z",
             "name": "Park Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Haryana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Amritsar",
             "id": "rec8nueHRM61AIYbZ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:20:53.000Z",
             "name": "Guru Nanak Dev Medical College",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Fully Occupied",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Navsari",
             "id": "rec8oNnoTbF1PSF2g",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:37:17.000Z",
             "name": "Parsi Hospital",
             "phone1": 9099455081,
             "phone2": 2637258021,
             "pointOfContact": "Pervez Daruwala",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "West Jaintia Hills",
             "id": "rec8xEtJoSVuIwWCj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:42:15.000Z",
             "name": "Mynso Phc",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Meghalaya",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "FULL",
@@ -1355,52 +1289,46 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Didn't pick up the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Udham Singh Nagar",
             "id": "rec96zFGtAwHXWiUC",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:18:37.000Z",
             "name": "District Hospital",
             "phone1": 5944250462,
             "phone2": null,
             "pointOfContact": null,
             "state": "Uttarakhand",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "West Jaintia Hills",
             "id": "rec9K2mbyXKCxHANo",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:20:58.000Z",
             "name": "Barato Phc",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Meghalaya",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ambala",
             "id": "rec9KmjgaTX9J86JQ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:21:02.000Z",
             "name": "Rotery Hospital Ambala cantt Pvt",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Haryana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "5 ICU beds, 2 isolation beds available for COVID patients",
@@ -1421,16 +1349,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jalpaiguri",
             "id": "rec9P6369IIYTUNpk",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:21:12.000Z",
             "name": "Biswa Bangla Krirangan",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -1444,41 +1370,35 @@
             "pointOfContact": "Dr Ramesh",
             "state": "Uttar Pradesh",
             "verificationStatus": "Unresponsive",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Davangere",
             "id": "rec9TCQTGSrqGAmTR",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:41:38.000Z",
             "name": "Chigateri District Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "FULL",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Vadodara",
             "id": "rec9UjN5d0N189fCb",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:25:02.000Z",
             "name": "Tricolor Hospital",
             "phone1": 9648770600,
             "phone2": 2652477777,
             "pointOfContact": "Dr Inderjeet",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -1497,20 +1417,18 @@
             ]
         },
         {
-            "comment": null,
+            "comment": "Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kanpur Nagar",
             "id": "rec9fNZSAkpdXnJjX",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:17:41.000Z",
             "name": "Rama Hospital And Research Centre",
             "phone1": 9919068100,
             "phone2": 9818110469,
             "pointOfContact": "Dr Suraj Ushwah",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -1541,20 +1459,18 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Didn't pick up the call.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Morbi",
             "id": "rec9xPACYlz7teJnc",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:34:30.000Z",
             "name": "Gokul Hospital",
             "phone1": 9879547425,
             "phone2": 2822225800,
             "pointOfContact": "Dr. Vipul Malasana",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -1643,20 +1559,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "not answering",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
             "id": "recAUj3ADyDSWu4Rc",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:25:27.000Z",
             "name": "Medica Superspecialty Hospital",
             "phone1": 3366520000,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -5431,52 +5345,46 @@
             ]
         },
         {
-            "comment": null,
+            "comment": "no contact details",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chamarajanagar",
             "id": "recYojhK88HcXsNjL",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:15:04.000Z",
             "name": "Cims",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
-            "comment": null,
+            "comment": "no contact details\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "West Godavari",
             "id": "recYsmBUnwzqWrnDy",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:14:04.000Z",
             "name": "Area Hospital, Tanuku",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
-            "comment": null,
+            "comment": "no contact details",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Visakhapatnam",
             "id": "recZ4d2aNqOYQ7zkN",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:13:35.000Z",
             "name": "Nri Anil Neerukonda Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": "Switched OFF",
@@ -5523,7 +5431,7 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "no contact details",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Prakasam",
             "id": "recZHQM3HA7sVpNi2",
@@ -5553,20 +5461,18 @@
             ]
         },
         {
-            "comment": null,
+            "comment": "no contact details",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Karimnagar",
             "id": "recZLUtBE8tHFML74",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:15:31.000Z",
             "name": "District Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -5605,16 +5511,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bengaluru (Bangalore) Urban",
             "id": "recZMwvo1ZypmztTr",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:16:23.000Z",
             "name": "Victoria Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": "NO such information abt the beds.",
@@ -5705,16 +5609,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "West Jaintia Hills",
             "id": "recaNL43o7zALOq2y",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:43.000Z",
             "name": "Iooksi Phc",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Meghalaya",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "wrong number",
@@ -5819,48 +5721,42 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bengaluru (Bangalore) Urban",
             "id": "recapJSKRbv6jmIF1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:43.000Z",
             "name": "Sir.C.V.Raman General Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bengaluru (Bangalore) Urban",
             "id": "recatppyEengELIK9",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:43.000Z",
             "name": "Ed Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bageshwar",
             "id": "recaudoXsPfKkok96",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:43.000Z",
             "name": "District Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Uttarakhand",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "\"Beds are available but since the hospital is registered under Delhi Govt. The govt. will decide whom will be allocated\" -POC\n",
@@ -5891,52 +5787,46 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Call Drop",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hooghly",
             "id": "recaxUwFiacxMakmP",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:19:12.000Z",
             "name": "Esi Hospital, Gourhati",
             "phone1": 3326335551,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "YSR Kadapa",
             "id": "recaxgTj3L43NS7yI",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:34.000Z",
             "name": "Area Hospital, Pulivendula",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Vizianagaram",
             "id": "recaykLERWscxADrp",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:43.000Z",
             "name": "Mims",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "no contact details",
@@ -5971,16 +5861,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "West Khasi Hills",
             "id": "recbFCVhuQCWeUpXv",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:43.000Z",
             "name": "St Peters Nongstoin",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Meghalaya",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "6 beds available",
@@ -6015,16 +5903,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Daman",
             "id": "recbvjd8LTY4iNh3o",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:43.000Z",
             "name": "Hotel Silver and Beach resort",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Dadra and Nagar Haveli and Daman & Diu (UT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "responding on WhatsApp\nDidn't pick up the call",
@@ -6101,16 +5987,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Khammam",
             "id": "reccoxBqlph4qeVne",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:43.000Z",
             "name": "District Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "not answering\n",
@@ -6145,32 +6029,28 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "YSR Kadapa",
             "id": "recd5t7jVXwEQWe6L",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:43.000Z",
             "name": "Rims",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Didn't pick up the call\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bengaluru (Bangalore) Urban",
             "id": "recd7pC7UYF97tcjK",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:22:40.000Z",
             "name": "Esi Indira Nagar",
             "phone1": null,
             "phone2": 8025266994,
             "pointOfContact": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "beds are not available",
@@ -6205,48 +6085,42 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nellore",
             "id": "recdJ3wEyfRNTLaWE",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:43.000Z",
             "name": "Narayana Medical College, Nellore",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Yamunanagar",
             "id": "recdMn8X9m2qMHRQQ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:43.000Z",
             "name": "ESI Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Haryana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bengaluru (Bangalore) Urban",
             "id": "recdNKMmpZcrmMgy3",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:43.000Z",
             "name": "Ehaa Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "Call not connecting",
@@ -6281,32 +6155,28 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bengaluru (Bangalore) Urban",
             "id": "recdanEimxPsNCPu8",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:40:46.000Z",
             "name": "Bangalore Baptist Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chennai",
             "id": "recddnCO6JLPUWKKr",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:41:32.000Z",
             "name": "Star Health Insurance Telemedicine Division",
             "phone1": 18004252255,
             "phone2": null,
             "pointOfContact": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "no contact details\n",
@@ -7765,20 +7635,18 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Switched OFF",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bulandshahr",
             "id": "recmNBUKatKBmR9iD",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:14:07.000Z",
             "name": "Rana Hospital",
             "phone1": 7534004040,
             "phone2": 7534008888,
             "pointOfContact": "Surendra Kumar Rana",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -7809,36 +7677,32 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "NON-COVID HOSPITAL",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Etah",
             "id": "recmaY4hZF8rExrZv",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:16:51.000Z",
             "name": "Sri Roop Kishore Gautam Manav Seva Sansthan",
             "phone1": 9837602917,
             "phone2": 9837602917,
             "pointOfContact": "Dr Vijay Kumar Gautam",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "User Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Rajkot",
             "id": "recmahuwYcB7OYXnq",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:18:58.000Z",
             "name": "Wockhart Hospital",
             "phone1": 9909989462,
             "phone2": 2816694235,
             "pointOfContact": "Dr. Jagdish\nKhoyani",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -7883,36 +7747,32 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "FULL Covid Hospital with ICU",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chhota Udepur",
             "id": "recn6454i88z7DrCJ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:25:59.000Z",
             "name": "Sangam Hospital",
             "phone1": 9998882401,
             "phone2": null,
             "pointOfContact": "Dr Tapan Bhatt",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "User busy on some other call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "South West Garo Hills ",
             "id": "recnFpnPFZl0b7fj8",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:25:30.000Z",
             "name": "Civil Hospital Mawkyrwat",
             "phone1": 7005168115,
             "phone2": null,
             "pointOfContact": "Dr. W. Narry",
             "state": "Meghalaya",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -7929,20 +7789,18 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "user busy on some other call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ghaziabad",
             "id": "recnXzzK7JXV7FaI5",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:19:43.000Z",
             "name": "Atlanta Mediworld Multispeciality Hospital",
             "phone1": 9958172110,
             "phone2": 9910992707,
             "pointOfContact": "Dr Amit Tyagi",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -7959,52 +7817,46 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Number Doesn't Exist",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Malda",
             "id": "recncKspLFZYictd9",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:27:26.000Z",
             "name": "Glocal Edifice Health Care Pvt. Ltd.",
             "phone1": 3366081000,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jaipur",
             "id": "recnoxHhmeW0UDtMq",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:28:35.000Z",
             "name": "Ruhs Hospital",
             "phone1": 1412795624,
             "phone2": null,
             "pointOfContact": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "The subscriber is busy at the moment.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Pauri Garhwal",
             "id": "recnwDa0zP4edoTOz",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:24:44.000Z",
             "name": "Base Hospital Kotdwar, Srinagar Medical College",
             "phone1": 1346244701,
             "phone2": null,
             "pointOfContact": null,
             "state": "Uttarakhand",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -8105,52 +7957,46 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Switched OFF",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Indore",
             "id": "recoRMi7OzWQakXEf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:28:57.000Z",
             "name": "Vishesh Hospital & Diagnostic Solutions",
             "phone1": 7089334218,
             "phone2": null,
             "pointOfContact": "Dr. C.S Pandit",
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Didn't pick up the call.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
             "id": "recobMUUlCtkqK6OY",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:30:50.000Z",
             "name": "Desun  Hospital",
             "phone1": 9051715171,
-            "phone2": null,
+            "phone2": 3371222000,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Number Doesn't Exist",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Mahe",
             "id": "recobZbZ5EP2A6TwO",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:29:29.000Z",
             "name": "Community Health Centre Palloor",
             "phone1": 4902332710,
             "phone2": null,
             "pointOfContact": null,
             "state": "Puducherry (UT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -8237,20 +8083,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "12 beds available without ICU",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hanumangarh",
             "id": "recpBVDhax4EDTD93",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:48:59.000Z",
             "name": "Hissaria Multispecialty Hospital",
             "phone1": 9166168400,
             "phone2": null,
             "pointOfContact": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -8267,20 +8111,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "Service Unavailable on this number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Sri Ganganagar",
             "id": "recpETG8HIig2rTvv",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:49:18.000Z",
             "name": "Jan Sewa Hospital, Tantia University",
             "phone1": 9414090854,
             "phone2": null,
             "pointOfContact": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -8339,52 +8181,46 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "They only admit patient having NEURO + COVID. Availability of beds i",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
             "id": "recpaNmCTnwerzasW",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:54:28.000Z",
             "name": "Institute Of Neurosciences",
             "phone1": 3340309999,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Didn't pick up the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Shivamogga (Shimoga)",
             "id": "recpiIjTTkVl0Wdje",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:56:25.000Z",
             "name": "Mc Gann Teaching District Hospital",
             "phone1": 8182269523,
             "phone2": null,
             "pointOfContact": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "They have beds for covid patients. Also, they are transforming their general wards to COVID wards.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kannur",
             "id": "recpm6ZjrqyBWPfQB",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:58:35.000Z",
             "name": "Medical College Hospital Kannur",
             "phone1": 9446420557,
             "phone2": null,
             "pointOfContact": "Dr. Jaysree",
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "Call Drop",
@@ -8429,20 +8265,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "Invalid number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jodhpur",
             "id": "recq6AnPUleNAnfmj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:06:24.000Z",
             "name": "Mathuradas Mathur Hospital",
             "phone1": 2912438655,
             "phone2": null,
             "pointOfContact": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
@@ -8459,20 +8293,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "Not responding",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Surat",
             "id": "recqEknaAVpfxFw7s",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:03:34.000Z",
             "name": "Surat Gen Hosp",
             "phone1": 9510731319,
             "phone2": null,
             "pointOfContact": "Dr. Radhika",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
@@ -8517,20 +8349,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "Not responding",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Surat",
             "id": "recqhIdxGwzcHMWGY",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:07:34.000Z",
             "name": "Malaviya Hosp",
             "phone1": 9925909424,
             "phone2": 2612767669,
             "pointOfContact": "Dr. Taresh Patel",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Jasseerat Kaur"
         },
         {
             "comment": null,
@@ -8575,36 +8405,32 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "FULLY OCCUPIED.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Surat",
             "id": "recr6fqjIvcgQRSQ4",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:28:28.000Z",
             "name": "G.B.Vaghani Multi Spe Hosp",
             "phone1": 9510695854,
             "phone2": 2612571011,
             "pointOfContact": "Dr. Hitesh Kakadia",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "beds not available currently",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Mau",
             "id": "recrKGDYtJ3A7VqZ6",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:14:10.000Z",
             "name": "Sharda Narayan",
             "phone1": 9839510050,
             "phone2": 9415884590,
             "pointOfContact": "Dr Sanjay Singh",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -8621,20 +8447,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "non-covid hospital",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jaipur",
             "id": "recrNI1QgIbtLWXUv",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:15:49.000Z",
             "name": "Sms Hospital",
             "phone1": 1412560291,
             "phone2": null,
             "pointOfContact": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -8651,52 +8475,46 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "not responding",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chikkamagaluru (Chikmagalur)",
             "id": "recrPK755MW4ZLVpf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:25:03.000Z",
             "name": "Aralaguppe Mallegowda District Hospital",
             "phone1": 8262235213,
             "phone2": null,
             "pointOfContact": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
-            "comment": null,
+            "comment": "not answering",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Howrah",
             "id": "recrVXig0qnVrRn2X",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:10:37.000Z",
             "name": "Esi Hospital, Uluberia",
             "phone1": 3326611014,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
-            "comment": null,
+            "comment": "not answering",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
             "id": "recrXPUMSpw87yJFe",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:11:27.000Z",
             "name": "Belle  Vue Clinic",
             "phone1": 3322872321,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -8713,20 +8531,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "User busy on some other call\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Gautam Buddha Nagar",
             "id": "recrrgyYE2S6EzIGj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:29:33.000Z",
             "name": "Sharda Hospital",
             "phone1": 8368623463,
             "phone2": 8800998800,
             "pointOfContact": "Mr Pradeep Kumar Gupra",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -8775,16 +8591,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Cooch Behar",
             "id": "recspXeCy8KsG03dQ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:30:13.000Z",
             "name": "Coochbehar Mission Hospital Pvt. Ltd.",
             "phone1": 18001205464,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "FULL",
@@ -8815,52 +8629,46 @@
             "verifiedBy": "Diya Dashiwal"
         },
         {
-            "comment": null,
+            "comment": "Fully Occupied\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Navsari",
             "id": "rectHhkXVGuMZqiEV",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:32:19.000Z",
             "name": "Mulla Hospital",
             "phone1": 9913644268,
             "phone2": 2637239980,
             "pointOfContact": "Dr. N.G Shah",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "\n100-covid: 70 beds available\n20 oxy\n3 ICU\n5 ventilator\n2 another type of ventilator",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Mahe",
             "id": "rectPYbZMRSmg11qL",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:48:43.000Z",
             "name": "Government General Hospital",
             "phone1": 7012224560,
             "phone2": null,
             "pointOfContact": "Dr. Premkumar",
             "state": "Puducherry (UT)",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "Didn't pickup the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
             "id": "rectQ6Fm9vnnPooZs",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:49:47.000Z",
             "name": "Rn Tagore  International Institute Of Cardiac  Science",
             "phone1": 9903335544,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -8877,20 +8685,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "User busy on someother call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Indore",
             "id": "rectiIeHX8D21j1sU",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:50:13.000Z",
             "name": "My Hospital",
             "phone1": 8818940404,
             "phone2": null,
             "pointOfContact": "Dr. Salil Bhargava",
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -8907,20 +8713,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "not for covid",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Darjeeling",
             "id": "recto6M21u55v1Byr",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:56:35.000Z",
             "name": "Medica Cancer Hospital",
             "phone1": 9933356081,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": "Dated: 22/04/21 NO OXYGEN BUT BEDS AVAILABLE \nNot today but from tomorrow. People can have beds with oxygen",
@@ -9035,20 +8839,18 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "beds not available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Navsari",
             "id": "recuWqgrjZyGQgBcp",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:57:38.000Z",
             "name": "Kejal Lifein Hospital",
             "phone1": 9825683362,
             "phone2": 2637236101,
             "pointOfContact": "Dr. Chirag Desai",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -9121,36 +8923,32 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "beds not available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kozhikode",
             "id": "recvAbiiXJPN6uO12",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:00:34.000Z",
             "name": "Gen H Beach Kozhikode",
             "phone1": null,
             "phone2": 9847476700,
             "pointOfContact": "Dr. Michel",
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
-            "comment": null,
+            "comment": "the number is wrong",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Pali",
             "id": "recvFXA0WUdfkSpZA",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:02:15.000Z",
             "name": "Govt. Bangur Hospital, Pali",
             "phone1": 7357399107,
             "phone2": null,
             "pointOfContact": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -9209,36 +9007,32 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "wrong number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Gorakhpur",
             "id": "recvefgkzQ32CYPzX",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:04:06.000Z",
             "name": "Aanandlok Remedila Research Centre Pvt Ltd",
             "phone1": 9416313813,
             "phone2": 9416313813,
             "pointOfContact": "Dr Anand Kumar Agrawal",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
-            "comment": null,
+            "comment": "number is invalid",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Gandhinagar",
             "id": "recvguuTUmDHi2Kg1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:04:57.000Z",
             "name": "Smvs Hospital",
             "phone1": 7923200108,
             "phone2": null,
             "pointOfContact": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -9269,20 +9063,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "number is busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hooghly",
             "id": "recvrti4hEu8TPnRQ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:05:52.000Z",
             "name": "Kamala Roy Hospital",
             "phone1": 3326945775,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -9313,52 +9105,46 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "number is unavailable",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Firozabad",
             "id": "recw5jggrqhexxMd6",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:19:44.000Z",
             "name": "Unity Hospital",
             "phone1": 7895264002,
             "phone2": 9412163686,
             "pointOfContact": "Vinay Kumar",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
-            "comment": null,
+            "comment": "Non-covid hospital with ICU",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Pratapgarh",
             "id": "recw8QaWhspSplhZK",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:26:34.000Z",
             "name": "Ruma Hospital",
             "phone1": 9450185865,
             "phone2": 9838232323,
             "pointOfContact": "Dr Manish Singh",
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "not responding",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kasaragod",
             "id": "recwCQGkzhiv14IV8",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:15:48.000Z",
             "name": "District Hospital Kanhangad",
             "phone1": null,
             "phone2": 9400315857,
             "pointOfContact": "Dr. Aarathee Renjith",
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -9389,36 +9175,32 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "no beds",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Surat",
             "id": "recwOAmGIt7IJmoT9",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:18:19.000Z",
             "name": "Girish Group Of Hospital",
-            "phone1": 9924725448,
+            "phone1": null,
             "phone2": 2612473500,
             "pointOfContact": "Dr. Vipul",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
-            "comment": null,
+            "comment": "busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Malappuram",
             "id": "recwP5C7aPgiTUIsA",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:19:09.000Z",
             "name": "District Hospital Tirur",
             "phone1": null,
             "phone2": 9947424562,
             "pointOfContact": "Dr. Krinshna Das",
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": "NON-COVID Hospital",
@@ -9505,20 +9287,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "doctor is available for consult. beds not there.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ernakulam",
             "id": "recwzI8M0Z9P3DHeB",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:09:43.000Z",
             "name": "District Hospital Aluva",
             "phone1": null,
             "phone2": 9744841155,
             "pointOfContact": "Dr. Prasanna",
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -9535,20 +9315,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "not for covid",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chennai",
             "id": "recx2CiEezl0AoPmE",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:20:59.000Z",
             "name": "Sankaranethrayala",
             "phone1": null,
             "phone2": 4442271500,
             "pointOfContact": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -9579,20 +9357,18 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "BUSY",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Maharajganj",
             "id": "recxD3Yt7xz3lM7ro",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:27:10.000Z",
             "name": "KMC Digital Hospital",
-            "phone1": 7518500653,
+            "phone1": null,
             "phone2": 9415211152,
             "pointOfContact": "Vinay Kumar Srivastava",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -9609,20 +9385,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "Didn't pick up the call\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Gandhinagar",
             "id": "recxHo8TOpaGwqlA8",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:29:30.000Z",
             "name": "Apollo Hospital",
             "phone1": 7966701800,
             "phone2": null,
             "pointOfContact": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": "not answering",
@@ -9709,52 +9483,46 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "invalid number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Champawat",
             "id": "recxqQh2Yk6dGJlej",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:36:32.000Z",
             "name": "District Hospital",
             "phone1": 5965231012,
             "phone2": null,
             "pointOfContact": null,
             "state": "Uttarakhand",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
-            "comment": null,
+            "comment": "Didn't pickup the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Lucknow",
             "id": "recy1ZUb7gnjDYeXP",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:24:38.000Z",
             "name": "Eras Luchnow Medical College And Hospital Sarfarzganj Hardoi Road Lucknow",
             "phone1": 7379887866,
             "phone2": 9335906748,
             "pointOfContact": "Dr M M A Faidi",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
-            "comment": null,
+            "comment": "not reachable",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Rajsamand",
             "id": "recyFFmyMFQSVk4l1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:37:16.000Z",
             "name": "RK District Hospital",
             "phone1": 2952220033,
             "phone2": null,
             "pointOfContact": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,
@@ -9771,36 +9539,32 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "beds not available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Udaipur",
             "id": "recyNQb569fNbXOLS",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:39:50.000Z",
             "name": "Super Specialty Building, Mbgh",
             "phone1": 2942528811,
             "phone2": null,
             "pointOfContact": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
-            "comment": null,
+            "comment": "Didn't pick up the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
             "id": "recyQ7AjxQIfulGsZ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:21:26.000Z",
             "name": "Eedf  Medicare Centre  (Sri Aurobindo Seva Kendra)",
             "phone1": 3340171717,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -9845,20 +9609,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "Didn't pick up the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Thiruvananthapuram",
             "id": "recybvMn7kwbcjlit",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:38:39.000Z",
             "name": "Medical College Hospital",
             "phone1": 9447834808,
             "phone2": null,
             "pointOfContact": "Dr. Aravind R",
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -9875,20 +9637,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "Fully Occupied",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Valsad",
             "id": "recyidN8d6GqguztL",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:40:38.000Z",
             "name": "Lotus Hospital",
             "phone1": 8141655355,
             "phone2": 2632244017,
-            "pointOfContact": "Dr. hirag Parmar",
+            "pointOfContact": "Dr. Chirag Parmar",
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -9993,36 +9753,32 @@
             ]
         },
         {
-            "comment": null,
+            "comment": "busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
             "id": "reczF85X5lZ2YWi4y",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:22:52.000Z",
             "name": "Ils Hospital",
             "phone1": 3340206500,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
-            "comment": null,
+            "comment": "NON-COVID HOSPITAL",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hardoi",
             "id": "reczLVeK9GrdcOYf1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:42:46.000Z",
             "name": "Rani Sahib Katiyari Hospital",
             "phone1": 9450389073,
             "phone2": 9415149360,
             "pointOfContact": "Satyendra Kumar Singh",
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "comment": null,
@@ -10053,20 +9809,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "comment": null,
+            "comment": "not answering",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
             "id": "reczQWrd101cuZqGl",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:23:57.000Z",
             "name": "Amri  Hospital",
             "phone1": 3366063800,
             "phone2": null,
             "pointOfContact": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "comment": null,

@@ -55,7 +55,7 @@ const MedicinesCard = ({
             <div className="text-sm">{address}</div>
           </div>
         </div>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col items-end">
           {phone1 && (
             <a
               className="font-mono text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
@@ -99,7 +99,8 @@ const MedicinesCard = ({
       <div className="flex justify-between items-center mx-2 mt-2 pb-3">
         <div className="font-semibold dark:text-gray-400">{description}</div>
         <div className="font-mono text-gray-700 dark:text-gray-400 text-sm">
-          Verified @ {parseDateString(lastVerifiedOn)}
+          {lastVerifiedOn ?
+                          `Verified @ ${parseDateString(lastVerifiedOn)}` : null}
         </div>
       </div>
     </div>

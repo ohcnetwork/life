@@ -4702,7 +4702,7 @@
             "hospitals": true,
             "id": "recaDVN8l0q1f7OsB",
             "medicine": false,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "West Bengal"
         },
@@ -7262,7 +7262,7 @@
             "helpline": true,
             "hospitals": false,
             "id": "recraJpu4fgW3H4mm",
-            "medicine": false,
+            "medicine": true,
             "oxygen": false,
             "plasma": false,
             "state": "Tamil Nadu"
@@ -7984,6 +7984,19 @@
         },
         {
             "ambulance": false,
+            "contact": false,
+            "district": "Nainital",
+            "doctor": false,
+            "helpline": false,
+            "hospitals": true,
+            "id": "recwpJpo1gNZsJoDf",
+            "medicine": false,
+            "oxygen": false,
+            "plasma": false,
+            "state": "Uttarakhand"
+        },
+        {
+            "ambulance": false,
             "contact": true,
             "district": "Kangpokpi",
             "doctor": false,
@@ -8107,7 +8120,7 @@
             "helpline": true,
             "hospitals": true,
             "id": "recy0cr9DMShFyEmz",
-            "medicine": false,
+            "medicine": true,
             "oxygen": false,
             "plasma": false,
             "state": "Kerala"

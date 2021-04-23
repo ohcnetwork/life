@@ -1,9 +1,9 @@
-import React from "react";
-import { getOxygen } from "../../../lib/api";
-import { statePaths, humanize } from "../../../lib/utils";
-import OxygenCard from "../../../components/OxygenCard";
-import Breadcumb from "../../../components/Breadcumb";
-import Head from "next/head";
+import React from 'react';
+import { getOxygen } from '../../../lib/api';
+import { statePaths, humanize } from '../../../lib/utils';
+import OxygenCard from '../../../components/OxygenCard';
+import Breadcumb from '../../../components/Breadcumb';
+import Head from 'next/head';
 
 export default function Oxygen({ state, district, oxygenListing }) {
   return (
@@ -19,7 +19,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
           list={[
             { href: `/${state}`, name: humanize(state) },
             { href: `/${state}/${district}`, name: humanize(district) },
-            { href: null, name: "Oxygen" },
+            { href: null, name: 'Oxygen' }
           ]}
         />
       </section>
@@ -42,6 +42,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
                 fstate={state}
                 fdistrict={district}
                 createdTime={o.createdTime}
+                verifiedStatus={o.verificationStatus}
                 lastVerifiedOn={o.lastVerifiedOn}
               />
             );
@@ -57,14 +58,14 @@ export async function getStaticProps({ params }) {
     props: {
       state: params.state,
       district: params.district,
-      oxygenListing: getOxygen(params.state, params.district),
+      oxygenListing: getOxygen(params.state, params.district, true),
     },
   };
 }
 
 export async function getStaticPaths() {
   return {
-    paths: statePaths("oxygen"),
-    fallback: false,
+    paths: statePaths('oxygen'),
+    fallback: false
   };
 }
