@@ -6,16 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const SocialSharing = ({ twitterText, url }) => {
     return (
         <div className="text-black dark:text-white  w-full flex text-xl ">
-            <div className="invisible">
-                <div className="w-0 mr-3 text-black">
-                    <input
-                        id="shareLink"
-                        type="text"
-                        className="lg:w-full p-1 rounded mr-5"
-                        value={url}
-                    />
-                </div>
-            </div>
             Share
             <a href={`https://twitter.com/intent/tweet?text=${twitterText}`} target="_blank">
                 <FontAwesomeIcon

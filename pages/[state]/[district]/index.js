@@ -1,13 +1,5 @@
 import React from 'react';
 import { statePaths, parametreize, humanize, activeDistricts } from '../../../lib/utils';
-import {
-    faLungsVirus,
-    faSyringe,
-    faHospital,
-    faAmbulance,
-    faCapsules,
-    faPhoneAlt
-} from '@fortawesome/free-solid-svg-icons';
 import TabLinks from '../../../components/TabLinks';
 import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
@@ -39,7 +31,7 @@ export default function State({ state, district }) {
                     </div>
                 </div>
                 <section className="flex justify-center">
-                    <div className="my-8 bg-gray-200 dark:bg-gray-900 rounded-md inline-block">
+                    <div className="my-8 bg-gray-200 dark:bg-gray-1200 rounded-md inline-block">
                         <TabLinks tabsInfo={tabsInfo} state={state} district={district} />
                     </div>
                 </section>
