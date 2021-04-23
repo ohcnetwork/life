@@ -35,7 +35,7 @@ const HelplineCard = ({
             </div>
           </div>
         </div>
-        <div className="flex items-start flex-col md:flex-row md:space-x-7">
+        <div className="flex items-start flex-col">
           {phone1 && (
             <a
               className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold"
@@ -45,7 +45,8 @@ const HelplineCard = ({
                 title={`${phone1}`}
                 className="text-xl w-6"
                 icon={faPhoneAlt}
-              /><span className="ml-2">{phone1}</span>
+              />
+              <span className="ml-2">{phone1}</span>
             </a>
           )}
           {slink && (
@@ -59,6 +60,7 @@ const HelplineCard = ({
                 className="text-xl w-6"
                 icon={faLink}
               />
+              <span className="ml-2 text-lg mt-1">Source Link</span>
             </a>
           )}
         </div>

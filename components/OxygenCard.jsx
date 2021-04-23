@@ -55,7 +55,7 @@ const OxygenCard = ({
             </div>
           </div>
         </div>
-        <div className="flex space-x-7 items-start">
+        <div className="flex flex-col items-start">
           {phone1 && (
             <a
               className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold"
@@ -65,7 +65,8 @@ const OxygenCard = ({
                 title={`${phone1}`}
                 className="text-xl w-6"
                 icon={faPhoneAlt}
-              /><span className="ml-2">{phone1}</span>
+              />
+              <span className="ml-2">{phone1}</span>
             </a>
           )}
           {slink && (
@@ -79,6 +80,7 @@ const OxygenCard = ({
                 className="text-xl w-6"
                 icon={faLink}
               />
+              <span className="ml-2 text-lg mt-1">Source Link</span>
             </a>
           )}
         </div>
