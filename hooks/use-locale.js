@@ -16,7 +16,7 @@ const useLocale = () => {
     default:
       t = en;
   }
-  return t;
+  return [t, locale];
 };
 
 export default useLocale;

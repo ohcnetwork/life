@@ -4,6 +4,7 @@ import { getStates } from '../lib/api';
 import { humanize, parametreize } from '../lib/utils';
 import Tabs from '../components/Tabs';
 import Logo from '../components/Logo';
+import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import {
   faLungsVirus,
@@ -15,12 +16,13 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import Selector from '../components/Selector';
 import useLocale from '../hooks/use-locale';
+import { useRouter } from 'next/router';
 
 let updateFilter = (setSelectedFilter, selection) =>
   setSelectedFilter(selection);
 
 export default function Home() {
-  const t = useLocale();
+  const [t, locale] = useLocale();
 
   const tabsInfo = [
     { name: t.oxygen, icon: faLungsVirus, link: '/oxygen', value: 'oxygen' },
@@ -51,6 +53,8 @@ export default function Home() {
     { name: t.plasma, icon: faSyringe, link: '/plasma', value: 'plasma' },
   ];
   const [selectedFilter, setSelectedFilter] = useState('oxygen');
+  const [loc, setLoc] = React.useState('en');
+  const router = useRouter();
 
   return (
     <div>
@@ -60,6 +64,17 @@ export default function Home() {
         <h2 className='mt-4 font-semibold text-xl text-gray-900 text-center'>
           {t.description}
         </h2>
+        <select
+          value={loc}
+          onChange={(e) => {
+            setLoc(e.target.value);
+            const locale = e.target.value;
+            router.push('/', '/', { locale });
+          }}
+        >
+          <option value='en'>English</option>
+          <option value='mr'>Marathi</option>
+        </select>
         <div className='mt-4 '>
           <Tabs
             tabsInfo={tabsInfo}
@@ -73,7 +88,12 @@ export default function Home() {
         <div className='flex flex-wrap items-center justify-evenly mt-6 '>
           {getStates(selectedFilter).map((s) => {
             return (
-              <Link key={s} href={`[state]`} as={`${parametreize(s)}`}>
+              <Link
+                locale={loc}
+                key={s}
+                href={`[state]`}
+                as={`${parametreize(s)}`}
+              >
                 <span className='p-2 text-sm md:text-md font-normal hover:font-bold cursor-pointer hover:text-gray-900 text-gray-500'>
                   {humanize(s)}
                 </span>
