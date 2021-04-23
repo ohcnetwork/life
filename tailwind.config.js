@@ -5,7 +5,7 @@ module.exports = {
     './components/**/*.{js,jsx,ts,tsx}',
     './public/index.html',
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -47,6 +47,8 @@ module.exports = {
           700: '#7D728F',
           800: '#6A5F7A',
           900: '#453C52',
+          1000: "#1F2937",
+          1100: "#111827"
         },
       },
     },

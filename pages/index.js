@@ -44,8 +44,8 @@ export default function Home() {
     <div>
       <section className='flex flex-col items-center md:pt-20'>
         <Logo width={100} />
-        <h1 className='mt-1 font-black text-6xl text-gray-900'>LIFE</h1>
-        <h2 className='mt-4 font-semibold text-xl text-gray-900 text-center'>
+        <h1 className='mt-1 font-black text-6xl text-gray-900 dark:text-gray-100'>LIFE</h1>
+        <h2 className='mt-4 font-semibold text-xl text-gray-900 dark:text-gray-100 text-center'>
           Verified Crowd Sourced Emergency Services Directory
         </h2>
         <div className='mt-4 '>
@@ -62,7 +62,7 @@ export default function Home() {
           {getStates(selectedFilter).map((s) => {
             return (
               <Link key={s} href={`[state]`} as={`${parametreize(s)}`}>
-                <span className='p-2 text-sm md:text-md font-normal hover:font-bold cursor-pointer hover:text-gray-900 text-gray-500'>
+                <span className='p-2 text-sm md:text-md font-normal hover:font-bold cursor-pointer hover:text-gray-900 text-gray-500 dark:hover:text-gray-50'>
                   {humanize(s)}
                 </span>
               </Link>
