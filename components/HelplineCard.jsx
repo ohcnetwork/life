@@ -16,17 +16,17 @@ const HelplineCard = ({
   subCategory,
 }) => {
   return (
-    <div className="bg-white rounded-lg shadow">
+    <div className="bg-white rounded-lg shadow dark:bg-gray-1000 dark:text-gray-300">
       <div className="p-4 flex justify-between flex-col md:flex-row">
         <div>
           <div className="font-bold text-2xl">
             <div>
               <h1>{category}</h1>
-              <div className="text-sm mt-1 mb-3 text-gray-700 font-semibold">
+              <div className="text-sm mt-1 mb-3 text-gray-700 font-semibold dark:text-white">
                 <span>({subCategory})</span>
               </div>
             </div>
-            <div className="text-sm  uppercase mt-3 text-gray-700 font-semibold">
+            <div className="text-sm  uppercase mt-3 text-gray-700 font-semibold dark:text-white">
               <span className="mr-2">{district}</span>|
               <span className="ml-2">{state}</span>
             </div>
@@ -38,7 +38,7 @@ const HelplineCard = ({
         <div className="flex items-start flex-col">
           {phone1 && (
             <a
-              className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold"
+              className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white"
               href={`tel:${phone1}`}
             >
               <FontAwesomeIcon
@@ -51,7 +51,7 @@ const HelplineCard = ({
           )}
           {slink && (
             <a
-              className="font-mono text-gray-700 font-bold text-xl hover:text-gray-900"
+              className="font-mono text-gray-700 font-bold text-xl hover:text-gray-900 dark:text-white"
               target="_blank"
               href={slink}
             >
@@ -68,7 +68,7 @@ const HelplineCard = ({
       <hr />
       <div className="flex justify-between items-center mx-2 mt-2 pb-3">
         <div className="font-semibold">{description}</div>
-        <div className="font-mono text-gray-700 text-sm">
+        <div className="font-mono text-gray-700 text-sm dark:text-white">
           {parseDateString(createdTime)}
         </div>
       </div>
