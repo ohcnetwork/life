@@ -52,14 +52,14 @@ const AmbulanceCard = ({
             <div className="flex space-x-2 items-start">
               {phone1 && (
                 <a
-                  className="font-mono text-gray-800 hover:text-gray-900 text-sm font-bold"
+                  className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold"
                   href={`tel:${phone1}`}
                 >
                   <FontAwesomeIcon
                     title={phone1}
                     className="text-xl w-6"
                     icon={faPhoneAlt}
-                  />
+                  /><span className="ml-4">{phone1}</span>
                 </a>
               )}
               {phone2 && (
