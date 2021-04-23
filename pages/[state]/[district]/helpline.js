@@ -40,6 +40,7 @@ export default function Helpline({ state, district, helplines }) {
                                 slink={p.sourceUrl}
                                 state={p.state}
                                 subCategory={p.subCategory}
+                                lastVerifiedOn={p.lastVerifiedOn}
                             />
                         );
                     })}
