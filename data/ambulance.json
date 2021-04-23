@@ -311,6 +311,21 @@
         },
         {
             "area": null,
+            "comment": "Currently not in stock. May be available next week\n",
+            "createdTime": "2021-04-19T07:48:08.000Z",
+            "district": "Thanjavur",
+            "id": "rec2tTkuLaEA37MWX",
+            "lastVerifiedOn": "2021-04-23T15:16:43.000Z",
+            "name": null,
+            "phone1": "9443412456",
+            "phone2": null,
+            "source": null,
+            "state": "Tamil Nadu",
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
+        },
+        {
+            "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Indore",
@@ -375,20 +390,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call on both the numbers",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Dindigul",
             "id": "rec3n6YnGGxhZx62h",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:11:07.000Z",
             "name": null,
             "phone1": "04512423876 99944 44380",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -443,20 +456,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call  on landline, mobile number- call is getting disconnected",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chennai",
             "id": "rec4VVxFmxeHHnxIP",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:26:24.000Z",
             "name": null,
             "phone1": "044-42918206 / 9841139733",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -737,20 +748,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Number does not exist",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chennai",
             "id": "rec7c8FpqL9rDVMBn",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:33:04.000Z",
             "name": null,
             "phone1": "9941355543",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -884,20 +893,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Unavailable in stock, Not sure when again available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ernakulam",
             "id": "rec8dzIK7k58kiJTj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:49:20.000Z",
             "name": null,
             "phone1": null,
             "phone2": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -933,20 +940,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Coimbatore",
             "id": "rec8yqfpXVYBBTzta",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:14:24.000Z",
             "name": null,
             "phone1": "4224358686",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -1125,20 +1130,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not a valid number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Coimbatore",
             "id": "recAPgRHKZQe6Kpwp",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:37:42.000Z",
             "name": null,
             "phone1": "8,30,04,81,59,199",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -1302,37 +1305,33 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chennai",
             "id": "recBzxIXEuediIlaY",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:24:39.000Z",
             "name": null,
             "phone1": "24992495",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Unavailable in stock, Not sure when again available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ernakulam",
             "id": "recC4iEhsczOA8ABJ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:49:18.000Z",
             "name": null,
             "phone1": null,
             "phone2": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -1594,37 +1593,33 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ernakulam",
             "id": "recERXYEOU6LN8SXO",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:47:27.000Z",
             "name": null,
             "phone1": "7034028837",
             "phone2": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kottayam",
             "id": "recERakGG8PsRUbCH",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:55:01.000Z",
             "name": null,
             "phone1": "9846119560",
             "phone2": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -2104,20 +2099,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Both the numbers are invalid",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chennai",
             "id": "recJIG2rHxGNQpRg4",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:29:55.000Z",
             "name": null,
             "phone1": "8554120/8548796",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -2199,6 +2192,21 @@
             "verifiedBy": [
                 {}
             ]
+        },
+        {
+            "area": null,
+            "comment": "Stock not available",
+            "createdTime": "2021-04-19T07:48:08.000Z",
+            "district": "Kozhikode",
+            "id": "recJpWLhs72LLcknT",
+            "lastVerifiedOn": "2021-04-23T16:02:48.000Z",
+            "name": null,
+            "phone1": "9847142642",
+            "phone2": null,
+            "source": null,
+            "state": "Kerala",
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -2430,20 +2438,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Unavailable in stock, Not sure when again available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ernakulam",
             "id": "recLS8dk9xTheRJuo",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:49:05.000Z",
             "name": null,
             "phone1": "9747550880",
             "phone2": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -2481,20 +2487,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Currently not in stock, expecting to be available after 15 days",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chennai",
             "id": "recLf5jrphlgPWFax",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:34:43.000Z",
             "name": null,
             "phone1": "42654569",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -2579,6 +2583,21 @@
         },
         {
             "area": null,
+            "comment": "Stock not available",
+            "createdTime": "2021-04-19T07:48:08.000Z",
+            "district": "Kozhikode",
+            "id": "recML7xReFdyOYmSU",
+            "lastVerifiedOn": "2021-04-23T16:02:50.000Z",
+            "name": null,
+            "phone1": "0495-2701899",
+            "phone2": null,
+            "source": null,
+            "state": "Kerala",
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
+        },
+        {
+            "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmedabad",
@@ -2611,20 +2630,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Madurai",
             "id": "recMo3LKudg09iv01",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:07:14.000Z",
             "name": null,
             "phone1": "9841975530",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -2850,37 +2867,33 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not a valid number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Thiruvananthapuram",
             "id": "recPL6XIxb6tLWn3O",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:57:28.000Z",
             "name": null,
             "phone1": "4,70,26,22,723",
             "phone2": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Madurai",
             "id": "recPX0fNXEKHi7w29",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:08:37.000Z",
             "name": null,
             "phone1": "9367526015",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -3927,54 +3940,48 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Madurai",
             "id": "recZ1z1ANUmNolBa7",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:09:05.000Z",
             "name": null,
             "phone1": "9367526015",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chennai",
             "id": "recZCCDbM0gnS70Gu",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:24:35.000Z",
             "name": null,
-            "phone1": "044-249924929394",
+            "phone1": "044-24992492,93,94",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chennai",
             "id": "recZDTm1oC1KuVnsf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:29:40.000Z",
             "name": null,
             "phone1": "4428606221",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -4089,20 +4096,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Coimbatore",
             "id": "recah6133yaxQ06YC",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:15:45.000Z",
             "name": null,
             "phone1": "9894988915",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -4394,20 +4399,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Switched off",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chennai",
             "id": "recd0FNIzCe0OyvL4",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:36:11.000Z",
             "name": null,
             "phone1": "9940118877",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -4460,20 +4463,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Invalid number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chennai",
             "id": "recdKCc1A5vrekHHI",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:32:07.000Z",
             "name": null,
             "phone1": "044-30513555",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -4494,20 +4495,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No phone number to make a call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Coimbatore",
             "id": "recdSPJF2pBEQvHgO",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:37:11.000Z",
             "name": null,
             "phone1": null,
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -5016,6 +5015,21 @@
         },
         {
             "area": null,
+            "comment": "Stock not available",
+            "createdTime": "2021-04-19T07:48:08.000Z",
+            "district": "Kozhikode",
+            "id": "recglJ80Wh15bkjuJ",
+            "lastVerifiedOn": "2021-04-23T16:02:45.000Z",
+            "name": null,
+            "phone1": "0495-2701899",
+            "phone2": null,
+            "source": null,
+            "state": "Kerala",
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
+        },
+        {
+            "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jalgaon",
@@ -5178,20 +5192,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call on both the numbers",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ernakulam",
             "id": "rechfjOFkb49i6CpI",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:53:13.000Z",
             "name": null,
             "phone1": "0484-2706727/ 2705552",
             "phone2": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -5417,20 +5429,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Incorrect number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Pathanamthitta",
             "id": "reck7E5gjZf2yOnxf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:56:09.000Z",
             "name": null,
             "phone1": "9387892944",
             "phone2": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -5959,20 +5969,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Invalid number, not connecting",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chennai",
             "id": "recpEJkWqjbOtFjg8",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:22:19.000Z",
             "name": null,
             "phone1": "9840050518",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -6008,20 +6016,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chennai",
             "id": "recpZI49NV1xqwiZE",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:18:42.000Z",
             "name": null,
             "phone1": "044-23624594 8220259911",
             "phone2": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -6494,20 +6500,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Unavailable in stock, Not sure when again available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ernakulam",
             "id": "rectczzKYf4bnAknq",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:49:02.000Z",
             "name": null,
             "phone1": "9895276724",
             "phone2": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -6543,20 +6547,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Thrissur",
             "id": "recu2I9gVK47IA02Q",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:59:29.000Z",
             "name": null,
             "phone1": "9920342669",
             "phone2": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -6654,20 +6656,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Thiruvananthapuram",
             "id": "recugykDTqDCrdhHR",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:58:35.000Z",
             "name": null,
             "phone1": "0471-4012223",
             "phone2": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -6910,20 +6910,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Unavailable in stock, Not sure when again available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ernakulam",
             "id": "recwYNryPpanWdDqk",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T15:48:59.000Z",
             "name": null,
             "phone1": "9747550880",
             "phone2": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
