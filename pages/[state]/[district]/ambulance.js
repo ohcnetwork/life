@@ -30,7 +30,8 @@ export default function Ambulance({ state, district, ambulancesListing }) {
                         source,
                         id,
                         createdTime,
-                        verificationStatus
+                        verificationStatus,
+                        lastVerifiedOn
                     }) => (
                         <AmbulanceCard
                             key={id}
@@ -41,6 +42,7 @@ export default function Ambulance({ state, district, ambulancesListing }) {
                             source={source}
                             createdTime={createdTime}
                             verificationStatus={verificationStatus}
+                            lastVerifiedOn={lastVerifiedOn}
                         />
                     )
                 )}

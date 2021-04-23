@@ -19,6 +19,7 @@ const PlasmaCard = ({
   sourceLink,
   state,
   verifiedStatus,
+  lastVerifiedOn,
 }) => {
   return (
     <div className="bg-white rounded-lg shadow dark:bg-gray-1000 dark:text-gray-300">
@@ -84,7 +85,8 @@ const PlasmaCard = ({
       <div className="flex justify-between items-center mx-2 mt-2 pb-3">
         <div className="font-semibold">{description}</div>
         <div className="font-mono text-gray-700 text-sm dark:text-white">
-          {parseDateString(createdTime)}
+          {lastVerifiedOn &&
+                                        `Verified @ ${parseDateString(lastVerifiedOn)}`}
         </div>
       </div>
     </div>

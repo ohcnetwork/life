@@ -16,6 +16,7 @@ const HospitalCard = ({
   district,
   state,
   verificationStatus,
+  lastVerifiedOn,
 }) => {
   return (
     <div className="bg-white rounded-lg shadow dark:bg-gray-1000 dark:text-gray-300">
@@ -65,7 +66,8 @@ const HospitalCard = ({
       <div className="flex justify-between items-center px-2  mx-2 mt-2 pb-3">
         <div className="font-semibold dark:text-gray-400">{pointOfContact}</div>
         <div className="font-mono text-gray-700 dark:text-gray-400 text-sm">
-          {parseDateString(createdTime)}
+          {lastVerifiedOn &&
+                                        `Verified @ ${parseDateString(lastVerifiedOn)}`}
         </div>
       </div>
     </div>

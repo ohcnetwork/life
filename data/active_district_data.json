@@ -179,7 +179,7 @@
             "id": "rec1M7U9YrPXOeiP1",
             "medicine": false,
             "oxygen": false,
-            "plasma": false,
+            "plasma": true,
             "state": "Madhya Pradesh"
         },
         {
@@ -3416,7 +3416,7 @@
             "id": "recR8vhGW4rN346NC",
             "medicine": true,
             "oxygen": false,
-            "plasma": false,
+            "plasma": true,
             "state": "Uttar Pradesh"
         },
         {

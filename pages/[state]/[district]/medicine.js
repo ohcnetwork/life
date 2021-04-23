@@ -41,6 +41,7 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                                 createdTime={p.createdTime}
                                 slink={p.source_link}
                                 email={p.emailId}
+                                lastVerifiedOn={p.lastVerifiedOn}
                             />
                         );
                     })}
