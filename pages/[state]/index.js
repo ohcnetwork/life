@@ -97,7 +97,10 @@ export default function State({ state }) {
         </div>
         <div className='flex flex-wrap overflow-hidden mt-8'>
           {filterDistricts.map((f) => (
-            <div className='w-full rounded overflow-hidden md:w-1/2 mb-6 hover:bg-gray-200'>
+            <div
+              key={f.district}
+              className='w-full rounded overflow-hidden md:w-1/2 mb-6 hover:bg-gray-200'
+            >
               <div className='p-4'>
                 <Link
                   href={`/${parametreize(state)}/${parametreize(f.district)}`}
