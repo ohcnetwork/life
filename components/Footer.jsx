@@ -3,9 +3,16 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-gray-200 absolute top-full left-0 w-full py-10">
+      <section className="flex justify-center">
+        <Link href="/data">
+          <button type="button" className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            Contribute Verified Data
+          </button>
+        </Link>
+      </section>
       <div className="max-w-7xl mx-auto py-6 px-4 overflow-hidden sm:px-6 lg:px-8 sm:flex items-center justify-between">
-      <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
-              Curated by{" "}
+        <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
+          Curated by{" "}
           <Link href="https://covidfyi.in/">
             <span className="underline cursor-pointer text-indigo-600">
               Covid FYI
@@ -13,7 +20,7 @@ const Footer = () => {
           </Link>
         </p>
         <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
-              Supported by{" "}
+          Supported by{" "}
           <Link href="https://www.swasth.app">
             <span className="underline cursor-pointer text-indigo-600">
               Swasth Alliance
