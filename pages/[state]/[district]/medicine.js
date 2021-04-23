@@ -55,7 +55,7 @@ export async function getStaticProps({ params }) {
     props: {
       state: params.state,
       district: params.district,
-      medicineByDistrict: medicineByDistrict(params.state, params.district),
+      medicineByDistrict: medicineByDistrict(params.state, params.district, true),
     },
   };
 }

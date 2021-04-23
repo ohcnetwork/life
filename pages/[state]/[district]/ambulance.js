@@ -54,7 +54,7 @@ export async function getStaticProps({ params }) {
     props: {
       state: params.state,
       district: params.district,
-      ambulancesListing: getAmbulances(params.state, params.district),
+      ambulancesListing: getAmbulances(params.state, params.district, true),
     },
   };
 }

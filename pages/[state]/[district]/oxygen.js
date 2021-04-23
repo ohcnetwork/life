@@ -42,6 +42,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
                 fstate={state}
                 fdistrict={district}
                 createdTime={o.createdTime}
+                verifiedStatus={o.verificationStatus}
               />
             );
           })}
@@ -56,7 +57,7 @@ export async function getStaticProps({ params }) {
     props: {
       state: params.state,
       district: params.district,
-      oxygenListing: getOxygen(params.state, params.district),
+      oxygenListing: getOxygen(params.state, params.district, true),
     },
   };
 }
