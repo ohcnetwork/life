@@ -5,34 +5,8 @@ import { humanize, parametreize } from '../lib/utils';
 import Tabs from '../components/Tabs';
 import Logo from '../components/Logo';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import {
-  faLungsVirus,
-  faSyringe,
-  faHospital,
-  faPhoneAlt,
-  faAmbulance,
-  faCapsules,
-} from '@fortawesome/free-solid-svg-icons';
 import Selector from '../components/Selector';
-
-const tabsInfo = [
-  { name: 'Oxygen', icon: faLungsVirus, link: '/oxygen', value: 'oxygen' },
-  { name: 'Medicine', icon: faCapsules, link: '/medicine', value: 'medicine' },
-  {
-    name: 'Hospital',
-    icon: faHospital,
-    link: '/hospitals',
-    value: 'hospitals',
-  },
-  {
-    name: 'Ambulance',
-    icon: faAmbulance,
-    link: '/ambulance',
-    value: 'ambulance',
-  },
-  { name: 'Helpline', icon: faPhoneAlt, link: '/helpline', value: 'helpline' },
-  { name: 'Plasma', icon: faSyringe, link: '/plasma', value: 'plasma' },
-];
+import { tabsInfo } from '../lib/tabs'
 
 let updateFilter = (setSelectedFilter, selection) =>
   setSelectedFilter(selection);
