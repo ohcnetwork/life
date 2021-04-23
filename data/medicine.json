@@ -629,7 +629,7 @@
         {
             "address": "59/32, BIRHANA ROADKANPURKANPUR,KANPUR,208001",
             "city": "Kanpur",
-            "comment": null,
+            "comment": "Stocked out, contact COVID hospitals for availability",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -637,19 +637,17 @@
             "district": "Kanpur Dehat",
             "emailId": "talatibrothers@reddifmail.com",
             "id": "rec5BFU5yMLccxPSg",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:39:33.000Z",
             "phone1": "9415042016",
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "41, 41A,GROUND & FIRST FLRRAMANUJ DAYAL NAI BASTIOPP MMG\nHOSPITALGHAZIABAD,GHAZIABAD,201001",
             "city": "Ghaziabad",
-            "comment": null,
+            "comment": "No answer",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -657,19 +655,17 @@
             "district": "Ghaziabad",
             "emailId": "nitin_mediways@yahoo.com",
             "id": "rec5Ov70z8LeZ3Hfl",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:36:17.000Z",
             "phone1": "9891260300",
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "(CENTRAL PHARMACY STORE)NANAL NAGARMAHDIPATNAMD NO : 12-2-\n718/3,4,5 05TH FLOORHYDERABAD,HYDERABAD,500024",
             "city": null,
-            "comment": null,
+            "comment": "switched off",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -677,14 +673,12 @@
             "district": "Hyderabad",
             "emailId": "santoshm@olivehospitals.com",
             "id": "rec5h227ydMakAtfW",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:50:53.000Z",
             "phone1": "9133946000",
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "KHATIPURA ROAD,JAIPUR,302021",
@@ -787,7 +781,7 @@
         {
             "address": "PUSHPAK', UPALI BAZARBARDOLI,BARDOLI,394601",
             "city": null,
-            "comment": null,
+            "comment": "No answer",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -795,14 +789,12 @@
             "district": "Surat",
             "emailId": "vardhman_vaibhav@yahoo.com",
             "id": "rec6s2kb6YeCK3NIj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:14:22.000Z",
             "phone1": "2,62,22,21,094",
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "D.J ARKED , 1st FLOOR ,NEAR AMRUT CINEMA,,NANDURBAR,425412",
@@ -927,7 +919,7 @@
         {
             "address": "BHAT\u2019S SQUARE,7-1-397.102 7 ANEAR COMMUNITY HALLSANJEEV REDDY\nNAGAR,,Hyderabad,500038",
             "city": null,
-            "comment": null,
+            "comment": "A",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -935,14 +927,12 @@
             "district": "Hyderabad",
             "emailId": "medint96@gmail.com",
             "id": "rec7ikdPAWxDO0aTR",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:06:36.000Z",
             "phone1": "04023715515/16/17/18",
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "SHOP NO 1 JANKI PLAZAGOLE COLONYNASIKNASIK,NASHIK,422002",
@@ -1379,14 +1369,12 @@
             "district": "Ahmedabad",
             "emailId": null,
             "id": "recAaJc1oauxCSGA0",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:39:24.000Z",
             "phone1": "9428480631",
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "address": "30-8-7, BHANU\nSTREETDABAGARDENSVISAKHAPATNAM,VISAKHAPATNAM,530020",
@@ -1469,7 +1457,7 @@
         {
             "address": "PLOT NO.SPL-9,1ST FLOORM.T SAGAR , INDUSTRAIL AREAGOKUL\nROAD,HUBLI,580030",
             "city": null,
-            "comment": null,
+            "comment": "First number is invalid, no one is picking up the second(x2)",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -1477,14 +1465,12 @@
             "district": "Dharwad",
             "emailId": "vamanpharmahub@gmail.com",
             "id": "recBMUQ952I77tGSk",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:45:34.000Z",
             "phone1": "0836-2337861/62",
             "source": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "address": "301 TO 305 3RD FLOORSURAT DAWA BAZAARB/H KIRAN HOSPITAL, VASAT\nDEVDI RDKATARGAMSURAT,SURAT,395004",
@@ -1549,7 +1535,7 @@
         {
             "address": "SECTOR MLDA COLONYASHIYANAKANUR ROADLUCKNOW,LUCKNOW,226012",
             "city": "Lucknow",
-            "comment": null,
+            "comment": "no answer",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -1557,14 +1543,12 @@
             "district": "Lucknow",
             "emailId": "arnovahealthcare@gmail.com",
             "id": "recByyyqeY73HOwEm",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:34:59.000Z",
             "phone1": "9920590070",
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "NO 40/32,KARPAGAMBAL NAGAR,NEAR NAGESWARA RAO\nPARKMYLAPORECHENNAI,CHENNAI,600004",
@@ -2019,14 +2003,12 @@
             "district": "Nagpur",
             "emailId": "punitmedi.nag@gmail.com",
             "id": "recFSg7BcgwDAy3du",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:16:35.000Z",
             "phone1": "0712-27675622765",
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "address": "KTC HOUSE,SHAYONA SILVER ESTATE PART -2S G ROAD, GOTANEAR\nLAMBADA BESIDE AUDA WATER TANKBH SILVER OAK",
@@ -2189,7 +2171,7 @@
         {
             "address": "Nava Nikol",
             "city": "Ahmedabad",
-            "comment": null,
+            "comment": "Not receiving",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Free Home Delivery",
@@ -2197,14 +2179,12 @@
             "district": "Ahmedabad",
             "emailId": null,
             "id": "recGFPKNjJxEc3quE",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:41:57.000Z",
             "phone1": "9998151514",
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "address": "Prahladnagar",
@@ -2343,7 +2323,7 @@
         {
             "address": "SHOP NO 4 , MADHU PALACENEAR SGPGIMS,LUCKNOW,226014",
             "city": "Lucknow",
-            "comment": null,
+            "comment": "busy",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -2351,19 +2331,17 @@
             "district": "Lucknow",
             "emailId": "naval.medical@gmail.com",
             "id": "recHZCev4HeYOAnjN",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:38:51.000Z",
             "phone1": "9415953301",
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "SHOP NO. 58, 158, 258, 259SANDESH DAWA BAZAR,\nGANJIPETHNAGPUR,NAGPUR,440002",
             "city": null,
-            "comment": null,
+            "comment": "Invalid number",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -2371,14 +2349,12 @@
             "district": "Nagpur",
             "emailId": "shreeji.nagpur@gmail.com",
             "id": "recHwGXIBFGrWJIdS",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:20:28.000Z",
             "phone1": "0712-27680283299",
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Mohita Kotkar"
         },
         {
             "address": "PLOT NO 1AV K P NAGAR 3RD CROSS STREETMADAKULAM MAIN\nRdPALANGANATHAMMADURAI,MADURAI,625003",
@@ -2439,7 +2415,7 @@
         {
             "address": "B 82 GROUND FLOOR,NAGAR NIGAM H NO 0561SIDHARIPUR SURAJ KUND\nCOLONYGORAKHPURPS KOTWALI,GORAKHPUR,273015",
             "city": "Gorakhpur",
-            "comment": null,
+            "comment": "Switched off ",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -2447,14 +2423,12 @@
             "district": "Gorakhpur",
             "emailId": "sstraders.gorakhpur@gmail.com",
             "id": "recIL3eDlC5xLKpoo",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:43:27.000Z",
             "phone1": "7607716688",
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "G-23 A,Mumbai NakaSuyojit City Centre,Nashik,422001",
@@ -2479,7 +2453,7 @@
         {
             "address": "MAYUR MARGBEGUMPETMARREDPALLY,HYDERABAD,500016",
             "city": null,
-            "comment": null,
+            "comment": "Out of network coverage area",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -2487,14 +2461,12 @@
             "district": "Hyderabad",
             "emailId": "regsonhealthcare@gmail.com",
             "id": "recJ7N5dEH6ZVQNC2",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:02:19.000Z",
             "phone1": "8879640426",
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "FALSHRUTINAGAR,NEAR PLAMLAND HOTEL,STATION\nROAD,BHARUCH,BHARUCH,392001",
@@ -3051,14 +3023,12 @@
             "district": "Bijapur",
             "emailId": "suprabhatpharma@yahoo.co.in",
             "id": "recLngWlXApdsnFjb",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:43:57.000Z",
             "phone1": "SUDHIR 934224",
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "address": "H-7, JANPATHSHYAM NAGAR,JAIPUR,302019",
@@ -3427,7 +3397,7 @@
         {
             "address": "PHARMACEUTICALS DISTRIBUTORSCTS NO 4094 1A 21 TO 6 SECOND Flr.BILGI\nPLAZA COLLEGE Rd.BELGAUM,BELGAUM,590002",
             "city": null,
-            "comment": null,
+            "comment": "No stock, no sight of replenishment either",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -3435,14 +3405,12 @@
             "district": "Belagavi (Belgaum)",
             "emailId": "harshainchal@gmail.com",
             "id": "recOYNIIEeqtzCXIV",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:39:42.000Z",
             "phone1": "0831-2423133",
             "source": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "address": "SURVEY NO 220/4, PLOT NO 9NEAR JAIN STHANAK, SATANA\nROADMALEGAON423203,MALEGAON,423203",
@@ -3779,7 +3747,7 @@
         {
             "address": "12/1781, 1782/A, Basementvakil street, shahporeopp. Motiwala masjidHana\npark,SURAT,395003",
             "city": "Surat",
-            "comment": null,
+            "comment": "Wrong number",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -3787,14 +3755,12 @@
             "district": "Surat",
             "emailId": "krunal_ghayel@yahoo.co.in",
             "id": "recSCkcaX8iVLzHPK",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:15:00.000Z",
             "phone1": "26,22,24,34,290",
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "3rd Floor, Omkar - 1Opp. Police Parade GroundGPO LaneRaopura,Vadodara,390001",
@@ -4317,7 +4283,7 @@
         {
             "address": "RAMACHANDRA HEALTH SERVICES PVT LTD)HYDER NAGARNIZAMPET ROAD1-\n2-49-13 B GROUNG FLOOR-2KUKATPALLI,MALKAJGIRI,500072",
             "city": null,
-            "comment": null,
+            "comment": "no answer",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -4325,14 +4291,12 @@
             "district": "Malkangiri",
             "emailId": "purchase2014srisriholistic@gmail.com",
             "id": "recWMibM3PaFzBxGH",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:53:41.000Z",
             "phone1": "8886610110",
             "source": null,
             "state": "Odisha",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "HOUSE NO 2-10-274, GROUND FLOORSHOP NO-1, SAHYOG NAGAR,NEAR\nGANAPATI MANDIR,TALUKA BEED,BEED,431122",
@@ -4551,7 +4515,7 @@
         {
             "address": "2ND FLOORPLOT XI 16BLOCK EP & GPSECTOR V , SALT\nLAKESECHBHAWAN,KOLKATA,700091",
             "city": "Kolkata",
-            "comment": null,
+            "comment": "They do not stock any COVID-19 drugs",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -4559,14 +4523,12 @@
             "district": "Kolkata",
             "emailId": "kolkata@fsmpl.co.in",
             "id": "recXUpjLOLMM1DoP4",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:23:01.000Z",
             "phone1": "8443902900",
             "source": null,
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "SHOP NO.01, HOUSE NO.3-10-53 CST NOGANDHI CHOWK, AURNGABAD.TAL\nAURNGABAD DIST. AURANGABADPIN : 431 001,AURNGABAD,431001",
@@ -4685,7 +4647,7 @@
         {
             "address": "VRINDAVAN YOJNARAI BAREILLY ROADAMBEDKAR\nUNIVERSITYLUCKNOW,LUCKNOW,226025",
             "city": "Lucknow",
-            "comment": null,
+            "comment": "Out of network area",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -4693,14 +4655,12 @@
             "district": "Lucknow",
             "emailId": "shreeharienterprises81@gmail.com",
             "id": "recYFgSbPlqsfeiyF",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:38:16.000Z",
             "phone1": "9619514067",
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "R/02/121, SHIYAPURA, RAOPURA,VADODARA,390001",
@@ -5247,7 +5207,7 @@
         {
             "address": "PLOT NO.SPL-9,1ST FLOORM.T SAGAR , INDUSTRAIL AREAGOKUL\nRd..,HUBLI,580030",
             "city": null,
-            "comment": null,
+            "comment": "First number is invalid, second one is not picking up",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -5255,14 +5215,12 @@
             "district": "Dharwad",
             "emailId": "vamanpharmahub@gmail.com",
             "id": "recckU4LJSOTadZ62",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:47:21.000Z",
             "phone1": "0836-2337861/62",
             "source": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "address": "6, DRUG STREET,CITY THANA ROADHISAR,HISAR,125001",
@@ -5305,7 +5263,7 @@
         {
             "address": "18 P.D TANDON MARGLAXMAN CHOWKDEHRADUN,DEHRADUN,248001",
             "city": null,
-            "comment": null,
+            "comment": "Stocked out. No comment on when the stock will be replinished. Will not be sold to patients directly ",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -5313,14 +5271,12 @@
             "district": "Dehradun",
             "emailId": "neeraj@ruchimedical.com",
             "id": "reccvQojBraTApUsY",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:29:39.000Z",
             "phone1": "9634094090",
             "source": null,
             "state": "Uttarakhand",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "Plot No: 29, 1st IInd & 3rf Floor, Amman Koil StreetVenuvampet,Chennai,600091",
@@ -5483,7 +5439,7 @@
         {
             "address": "3-B, CELLER,NEPTUNE TOWER,OPP, NEHRU BRIDGE,,AHMEDABAD,380009",
             "city": "Ahmedabad",
-            "comment": null,
+            "comment": "Not receiving",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -5491,14 +5447,12 @@
             "district": "Ahmedabad",
             "emailId": "pharmadistributor2016@gmail.com",
             "id": "recdqhahTIH4XbSWZ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:35:55.000Z",
             "phone1": "9979737500",
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "address": "A-06 ,FF-04ADARSH NAGARGOVIND MARG,NEAR BIG BOSS\nSTUDIO,,JAIPUR,302004",
@@ -6143,7 +6097,7 @@
         {
             "address": "SUGNAMAL MARKET,1ST FLOORSHOP NO.839, AMINABAD ,\nLUCKNOWLUCKNOW,LUCKNOW,226018",
             "city": "Lucknow",
-            "comment": null,
+            "comment": "Out of network area",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -6151,14 +6105,12 @@
             "district": "Lucknow",
             "emailId": "dnassociates.lko@gmail.com",
             "id": "rech3weHj4Raju0qa",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:36:57.000Z",
             "phone1": "9839063042",
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "SHOP NO. 13,14,25,26,113,114,213SANDESH DAWA BAZAR, NEAR HAJ\nHOUSEGANJIPETH, NAGPUR,NAGPUR,440002",
@@ -6221,7 +6173,7 @@
         {
             "address": "SIHANI SADDIK NAGARINDRAPRASTH COLONYOPP UTTAM\nTOYATA,GHAZIABAD,201003",
             "city": "Ghaziabad",
-            "comment": null,
+            "comment": "Switched off",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -6229,14 +6181,12 @@
             "district": "Ghaziabad",
             "emailId": "navaanyahealthcare@gmail.com",
             "id": "rechEgIVMhljDj3Ce",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:41:08.000Z",
             "phone1": "8810526032",
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "SCF 31, 1ST FLOORBIBIWALA CHOWKBHARAT NAGAR SHOPPING\nCOMPLEX,BATHINDA,151005",
@@ -6453,7 +6403,7 @@
         {
             "address": "Shalimar TowerTC 57, 2nd FlrV.Vibhuti KhandGomti Nagar,LUCKNOW,226010",
             "city": "Lucknow",
-            "comment": null,
+            "comment": "No answer",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -6461,14 +6411,12 @@
             "district": "Lucknow",
             "emailId": "lucknow@albino91.com",
             "id": "recihmx2I0bQR2uDE",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:42:11.000Z",
             "phone1": "8800019190",
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "S NO 19 , H NO 963HADAPSARGONDHALE NAGARWHOLE GROUND\nFLOOR,PUNE,411028",
@@ -6667,7 +6615,7 @@
         {
             "address": "29-30, GOLE MARKET,MAHANAGAR,LUCKNOWLUCKNOW,LUCKNOW,226020",
             "city": "Lucknow",
-            "comment": null,
+            "comment": "Wrong number",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -6675,14 +6623,12 @@
             "district": "Lucknow",
             "emailId": "wholesale@shakunsales.com",
             "id": "reckZMfDthK8A1Hoq",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:45:42.000Z",
             "phone1": "2382494",
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "Shop No 58 910073-SUYASH AGENCIESAushadhi\nVatikaDumartaraiRaipur,RAIPUR,492001",
@@ -7053,7 +6999,7 @@
         {
             "address": "plot no 317 sy no 11/14,11,/15,11,16Patrika Nagarsri swamy ayyappa co-operative\nhousingsociety,khanamet village, serillngammandal rande,Hyderabad,500081",
             "city": null,
-            "comment": null,
+            "comment": "Number does not exist",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -7061,14 +7007,12 @@
             "district": "Hyderabad",
             "emailId": "purchase@svsfmp.com",
             "id": "recnfL5Hsjiud1T5M",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:52:08.000Z",
             "phone1": "9100102458",
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "G.F, 1st & 2nd Floor, Ward No. 12,Sheet No 42, Plot No. 104 2,Bid para , Masta\ngali,ANATHALAYA PARISHAR RAIGARH,496001",
@@ -7399,7 +7343,7 @@
         {
             "address": "H.No:- 6-1-190/25,Near NTR Statue,Padmarao\nNagar,Secunderabad,Hyderabad,500025",
             "city": null,
-            "comment": null,
+            "comment": "no answer",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -7407,19 +7351,17 @@
             "district": "Hyderabad",
             "emailId": "hyd@novacare.in",
             "id": "recqBTojUGVfHOxNg",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T14:03:39.000Z",
             "phone1": "4066770909",
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "SY NO.403JUBILEE HILLSAMEERPETAPOLLO HOSPITALS\nCOMPLEXHYDERABAD,HYDERABAD,500033",
             "city": null,
-            "comment": null,
+            "comment": "Busy",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -7427,14 +7369,12 @@
             "district": "Hyderabad",
             "emailId": "yuvaraj_ar@apollopharmacy.org",
             "id": "recqGYnPCiEs8xdJl",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:48:07.000Z",
             "phone1": "9980377553",
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "SHOP NO 14, JOSHI SANKOOLGOLE COLONYNASIKX,NASHIK,422002",
@@ -7613,7 +7553,7 @@
         {
             "address": "LTD (CENTRAL MEDICAL STORE)SRI VENKATESWARA CO P HOUSINGBUILDING\nSOCIETY ROAD NO-2D NO:8-2-293/82/L/276/ABANJARAHILLS,",
             "city": null,
-            "comment": null,
+            "comment": "Switched off ",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -7621,19 +7561,17 @@
             "district": "Hyderabad",
             "emailId": "pharmacy@omegahospitals.com",
             "id": "recrsLSaN683CfUVq",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:51:22.000Z",
             "phone1": "9100339990",
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "HOSPITAL CENTRAL STORE (A UNIT OFD NO:1-1-216,SURARAM X ROADOF\nCHANDRAMMA EDUCATIONAL SOCIETY)JEEDIMETLA,HYDERABAD,500055",
             "city": null,
-            "comment": null,
+            "comment": "busy",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -7641,14 +7579,12 @@
             "district": "Hyderabad",
             "emailId": "purchase@mrghospitals.org",
             "id": "recrtHSQPrcemFNu8",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:54:51.000Z",
             "phone1": "8886289944",
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "Shop no C 85 & 88,Katira Medical MarketKatira ComplexRTO Relocation SiteMadhapar\nRd,Bhuj,370001",
@@ -7847,7 +7783,7 @@
         {
             "address": "No. 56, SS Arcade3rd Floor6th Cross, 8th Main RoadWilson Garden,Bangalore,560027",
             "city": null,
-            "comment": null,
+            "comment": "Ringing, no one is picking up",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -7855,14 +7791,12 @@
             "district": "Bengaluru (Bangalore) Urban",
             "emailId": "mythri.pharmaceuticals@gmail.com",
             "id": "rectS06MeYRityphg",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:42:56.000Z",
             "phone1": "080-22211833",
             "source": null,
             "state": "Karnataka",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Aamod Kulkarni"
         },
         {
             "address": "Shop No :- 1, Ground Floor, 1st & 2nd FloorHem-Varsha Building,Survey No-\n622/6B,665/10 Ghar No-704/0480Near LIC Office, Goley Colony,NASHIK,422002",
@@ -7925,7 +7859,7 @@
         {
             "address": "B 30/48 KAC.B PLAZAMADHAV MARKETLANKA,VARANASI,VARANASI,221005",
             "city": "Varanasi",
-            "comment": null,
+            "comment": "No answer",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -7933,14 +7867,12 @@
             "district": "Varanasi",
             "emailId": "shantihcag@gmail.com",
             "id": "recu0Ms69PLfnrz0p",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:47:02.000Z",
             "phone1": "2368597",
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "1/115-2KEDARAMKOTTEKAD RdVIYYUR POTHRISSUR,THRISSUR,680010",
@@ -8619,7 +8551,7 @@
         {
             "address": "D.NO:3-6-516/1 , 2nd FloorVasu Pharma House Street No 6Himayath Nagar\n(V)Khairatabad(M),Hyderabad,500029",
             "city": null,
-            "comment": null,
+            "comment": "1st number switched off, 2nd number re-directed. No anwer",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -8627,14 +8559,12 @@
             "district": "Hyderabad",
             "emailId": "vasugroup_hnr@yahoo.co.in",
             "id": "recyb68TsHXf9dnYZ",
-            "lastVerifiedOn": null,
-            "phone1": "9248060717/9248060730",
+            "lastVerifiedOn": "2021-04-23T13:50:10.000Z",
+            "phone1": "9248060717/9248060765",
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "18, BASEMENT SANT NAGAREast of KailashGreater Kailash (50),New Delhi,110065",
@@ -8703,14 +8633,12 @@
             "district": "Ahmedabad",
             "emailId": null,
             "id": "recyrbixLC1EOpVi9",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:37:04.000Z",
             "phone1": "9825615442",
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "address": "2/781,, DHOKI ROADKALAMBDISTRICT OSMANABAD(RS),KALAMB,413507",
@@ -8811,7 +8739,7 @@
         {
             "address": null,
             "city": "Kolkata",
-            "comment": null,
+            "comment": "Busy",
             "contactName": null,
             "createdTime": "2021-04-19T09:34:41.000Z",
             "description": null,
@@ -8819,14 +8747,12 @@
             "district": "Kolkata",
             "emailId": null,
             "id": "reczcGP4CCfIeEt24",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-23T13:16:08.000Z",
             "phone1": "9831041904",
             "source": "https://docs.google.com/spreadsheets/d/14FnHC_DwFAl5eS-kLj7iTKRCCaL9PEvo6irJMF2g1lg/edit#gid=0",
             "state": "West Bengal",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "PART A, 221, CRAFTS DE FLUORCSENTGOREGAON MULUND LINK RdOPP. L B S\nMARG,BHANDUP WESTMUMBAI - CENTRAL,MUMBAI,400078",
