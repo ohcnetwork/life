@@ -91,6 +91,9 @@ export default function State({ state, district }) {
                     twitterText={`Covid-19 Resources for ${humanize(district.district)}, ${humanize(
                         state
                     )} https://life.coronasafe.network/${state}/${district.district}`}
+                    fbURL={`https://life.coronasafe.network/${state}/${district.district}`}
+                    linkedinURL={`https://life.coronasafe.network/${state}/${district.district}`}
+                    url={`https://life.coronasafe.network/${state}/${district.district}`}
                 />
             </div>
         </section>
