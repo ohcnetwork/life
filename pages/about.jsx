@@ -5,7 +5,7 @@ const About = () => {
     const h1Class = `text-4xl`;
     const h2Class = `text-xl mt-5`;
     const pClass = `text-blue-500 mt-2 text-md`;
-    const aClass = `underline text-blue-600 hover:text-blue-800 visited:text-purple-600`;
+    const aClass = `underline text-primary-600 hover:text-primary-800 visited:text-purple-600`;
     return (
         <>
             <div className="pt-10">
@@ -103,8 +103,8 @@ const About = () => {
                 <h2 className={h2Class}>Have bulk verified data?</h2>
                 <p className={pClass}>
                     In case you want to add data in bulk, in excel format, and you are not
-                    comfortable with airtable, send it to us in google sheet or excel format on
-                    <u> simran@covidfyi.in</u> or reach out to us anywhere. Join our team to add
+                    comfortable with airtable, send it to us in google sheet or excel format on 
+                    <a className={aClass} href="mailto:simran@covidfyi.in"> simran@covidfyi.in</a> or reach out to us anywhere. Join our team to add
                     information.
                 </p>
                 <h2 className={h2Class} id="partner">
