@@ -350,6 +350,33 @@
             "verifiedBy": "sucharu asri"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": "KVN Foundation",
+            "createdTime": "2021-04-24T08:18:58.000Z",
+            "description": "Free Oxygen Concentrator on a rental basis for underprivileged. (Those who need and can afford are encouraged to donate to the foundation)\nPlease Whatsapp message the number (with Bangalore Area code (080).\nAlternatively give a missed call to the 2nd number with Bengaluru area code (080)",
+            "district": "Bengaluru (Bangalore) Urban",
+            "emailId": "Check Website for Mail",
+            "homeDeliveryAvailable": "Yes",
+            "id": "rec7ZBEolh9aVjT1R",
+            "instructions": "OC will be delivered to the home of the patient for the time reqiured (rental).",
+            "lastVerifiedOn": "2021-04-24T08:18:58.000Z",
+            "name": null,
+            "phone1": 47107750,
+            "phone2": 68065385,
+            "sourceLink": "https://kvnfoundation.com/",
+            "sourceName": "from my friend whose parents are organizing this",
+            "state": "Karnataka",
+            "type": [
+                "Concentrator"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "busy",
@@ -445,6 +472,57 @@
             "verifiedBy": [
                 {}
             ]
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "Unavailable at the moment,Refill available take 5 days",
+            "companyName": "Unitech",
+            "createdTime": "2021-04-24T08:36:11.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": "www.unitech01.com",
+            "homeDeliveryAvailable": "No",
+            "id": "rec9DRojXhmvx8TKw",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T08:36:11.000Z",
+            "name": null,
+            "phone1": 7947408440,
+            "phone2": null,
+            "sourceLink": "https://www.justdial.com/Kolkata/Unitech-Near-Entally-Police-Station-Entally/033PXX33-XX33-130629231501-C9G2_BZDET?xid=S29sa2F0YSBPeHlnZW4gQ3lsaW5kZXIgRGVhbGVycw==",
+            "sourceName": null,
+            "state": "West Bengal",
+            "type": [
+                "Refil",
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": "Barnali Banerjee"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "Did not respond",
+            "companyName": null,
+            "createdTime": "2021-04-24T08:07:52.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "rec9Kn02yzjhyXwgt",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T08:07:52.000Z",
+            "name": null,
+            "phone1": 7890066630,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Instagram",
+            "state": "West Bengal",
+            "type": [
+                "Cans"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Archisha Singh"
         },
         {
             "availability": null,
