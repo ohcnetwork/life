@@ -56,6 +56,7 @@ const Campaigns = () => {
                                 text={checkUrl(camp.text)}
                                 logoUrl={camp.logoUrl}
                                 donate={camp.donateAt}
+                                open={campaign.length === 1 ? true : false}
                             />
                         );
                     })}

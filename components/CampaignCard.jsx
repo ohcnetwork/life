@@ -2,9 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { faDonate } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const CampaignCard = ({ name, text, logoUrl, donate }) => {
-    const [state, setState] = useState(false);
-    const [details, setDetails] = useState('');
+const CampaignCard = ({ name, text, logoUrl, donate, open }) => {
+    const [state, setState] = useState(open);
 
     const textLen = () => {
         if (state) {
@@ -28,7 +27,7 @@ const CampaignCard = ({ name, text, logoUrl, donate }) => {
 
             <a
                 href={donate}
-                className="w-full rounded flex cursor-pointer my-4 mx-auto justify-center text-white py-2 bg-indigo-600 hover:bg-indigo-700"
+                className="w-full mt-2 rounded flex cursor-pointer my-4 mx-auto justify-center text-white py-2 bg-indigo-600 hover:bg-indigo-700"
                 target="_blank">
                 <text className="ml-3">Donate Now</text>
             </a>
