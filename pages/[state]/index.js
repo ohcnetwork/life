@@ -3,10 +3,10 @@ import { getDistricts } from '../../lib/api';
 import { parametreize, statesStaticPaths } from '../../lib/utils';
 import { humanize } from '../../lib/utils';
 import TabLinks from '../../components/TabLinks';
-import Head from 'next/head';
 import Breadcumb from '../../components/Breadcumb';
 import Link from 'next/link';
 import { tabsInfo } from '../../lib/tabs';
+import { NextSeo } from 'next-seo';
 
 export default function State({ state }) {
     // data.filter((el) => el.district.toLowerCase().includes(search));
@@ -15,11 +15,17 @@ export default function State({ state }) {
     const filterDistricts = districts.filter((el) =>
         el.district.toLowerCase().includes(searchStr.toLowerCase())
     );
+    const SEO = {
+        title: `${humanize(state)} | Coronasafe network`,
+        description: `Covid19 Resources for ${humanize(state)} `,
+        openGraph: {
+            title: `${humanize(state)} | Coronasafe network`,
+            description: `Covid19 Resources for ${humanize(state)} `
+        }
+    };
     return (
         <section className="md:pt-10">
-            <Head>
-                <title>{humanize(state)} | Coronasafe network</title>
-            </Head>
+            <NextSeo {...SEO} />
             <Breadcumb list={[{ href: null, name: humanize(state) }]} />
             <h1 className="mt-4 text-xl sm:text-2xl md:text-3xl text-gray-900 dark:text-gray-500 md:text-left">
                 Search Result For{' '}
@@ -54,8 +60,7 @@ export default function State({ state }) {
                                     <TabLinks tabsInfo={tabsInfo} state={state} district={f} />
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
                 </div>
             </div>
         </section>
