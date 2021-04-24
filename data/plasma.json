@@ -17,6 +17,22 @@
             ]
         },
         {
+            "city": null,
+            "comment": null,
+            "description": "24x7 running,  Sonali Jyanti Nagar, Tarajan, Jorhat",
+            "district": "Jorhat",
+            "id": "rec0xFsITrEw3RiHc",
+            "lastVerifiedOn": null,
+            "name": "Greater Jorhat Lions Blood Bank",
+            "phone1": "7002181160",
+            "sourceLink": null,
+            "state": "Assam",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "city": "Ahmedabad",
             "comment": null,
             "description": "Plasma Banks",
@@ -171,6 +187,22 @@
             "phone1": "8448884344",
             "sourceLink": "Facebook, cant share link",
             "state": "Delhi (NCT)",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "city": null,
+            "comment": null,
+            "description": "LOCATION : \nhttps://www.google.com/maps/dir/29.9462342,77.5504773/blood+donation+bank+in+saharanpur/@29.9520485,77.549843,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390eebd178ff5695:0x8cf2ab46f877031!2m2!1d77.5572937!2d29.9578467",
+            "district": "Saharanpur",
+            "id": "recWf9vI5aU6FeUKZ",
+            "lastVerifiedOn": null,
+            "name": "City Lions Blood Bank",
+            "phone1": "096392 55365",
+            "sourceLink": null,
+            "state": "Uttar Pradesh",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
