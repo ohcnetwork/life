@@ -79,7 +79,7 @@ const Footer = () => {
                         </Link>
                     </div>
                     <div className="px-5 py-2">
-                        <Link href="https://life.coronasafe.network/about">
+                        <Link href="/about">
                             <span className="text-base text-gray-700 hover:text-indigo-600 cursor-pointer dark:text-primary-200">
                                 About
                             </span>
