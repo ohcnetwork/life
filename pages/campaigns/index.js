@@ -23,12 +23,6 @@ const campaign = [
 ];
 
 const Campaigns = () => {
-    const checkUrl = (text) => {
-        var urlRegex = /(https?:\/\/[^\s]+)/g;
-        return text.replace(urlRegex, function (url) {
-            return `<a href=${url} target="_blank"><u>${url}</u></a>`;
-        });
-    };
     return (
         <section className="md:pt-10">
             <Breadcumb list={[{ href: null, name: 'Campaigns' }]} />
@@ -53,10 +47,10 @@ const Campaigns = () => {
                             <CampaignCard
                                 key={camp.id}
                                 name={camp.name}
-                                text={checkUrl(camp.text)}
+                                text={camp.text}
                                 logoUrl={camp.logoUrl}
                                 donate={camp.donateAt}
-                                open={campaign.length === 1 ? true : false}
+                                open={campaign.length === 1}
                             />
                         );
                     })}
