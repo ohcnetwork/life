@@ -50,7 +50,7 @@ const AmbulanceCard = ({
                                 <div className="text-sm">{area}</div>
                             </div>
                         </div>
-                        <div className="flex space-x-2 items-start">
+                        <div className="flex flex-col items-start">
                             {phone1 && (
                                 <a
                                     className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white"
