@@ -8238,7 +8238,7 @@
             "hospitals": true,
             "id": "recygRsl52I8qbgI0",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Madhya Pradesh"
         },
