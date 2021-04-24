@@ -5677,7 +5677,7 @@
             "hospitals": false,
             "id": "recj1QkBfppvx1bPN",
             "medicine": false,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Bihar"
         },

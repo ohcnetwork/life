@@ -1878,6 +1878,34 @@
             "verifiedBy": "sucharu asri"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": "Bravo foundation",
+            "createdTime": "2021-04-24T18:45:59.000Z",
+            "description": "Home delivery available\nPatients hv to show their oximeter reading and medical prescription for getting free oxygen",
+            "district": "East Champaran (Motihari)",
+            "emailId": null,
+            "homeDeliveryAvailable": "Yes",
+            "id": "recP5FzAAHVUbK5Yo",
+            "instructions": "Oxymetre readings for viewing spo2 level and medical prescription",
+            "lastVerifiedOn": "2021-04-24T18:45:59.000Z",
+            "name": "Bravo foundation",
+            "phone1": 7004493764,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "I called them and provided oxygen to the needy in my town",
+            "state": "Bihar",
+            "type": [
+                "Refil",
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "city": null,
             "comment": null,
