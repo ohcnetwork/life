@@ -8,7 +8,7 @@ const TabSingle = ({ tab, state, district }) => {
         ? ' cursor-pointer hover:bg-gray-300 dark:hover:bg-gray-1100'
         : ' cursor-not-allowed';
 
-    const colorVal = district[tab.value] ? `${tab.color}` : 'text-gray-800 dark:text-gray-800';
+    const colorVal = district[tab.value] ? `${tab.color}` : 'text-gray-400 dark:text-gray-900';
 
     const divClass1 = `rounded shadow w-5/12 overflow-hidden flex justify-center hover:rounded-md mx-auto my-1 ${bgColorVal}`;
 
