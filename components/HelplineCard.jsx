@@ -14,7 +14,7 @@ const HelplineCard = ({
     slink,
     state,
     subCategory,
-    lastVerifiedOn
+    lastVerifiedOn = Date()
 }) => {
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
@@ -72,11 +72,19 @@ const HelplineCard = ({
                 </div>
             </div>
             <hr />
-            <div className="flex justify-between items-center mx-2 mt-2 pb-3">
+            <div className="flex justify-between items-center flex-wrap mx-2 mt-2 pb-3">
                 <div className="font-semibold text-sm">{description}</div>
-                <div className="font-mono text-gray-700 text-sm dark:text-white">
-                    {lastVerifiedOn && `Verified @ ${parseDateString(lastVerifiedOn)}`}
-                </div>
+                {
+                    lastVerifiedOn &&
+                    <div className="text-gray-700 text-xs dark:text-white">
+                        <div>
+                            <span>Checked on: </span>
+                            <span className="font-bold">
+                                {`${parseDateString(lastVerifiedOn)}`}
+                            </span>
+                        </div>
+                    </div>
+                }
             </div>
         </div>
     );
