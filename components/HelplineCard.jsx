@@ -1,12 +1,6 @@
 import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import {
-    faLink,
-    faPhoneAlt,
-    faCheckCircle,
-    faExclamationTriangle,
-    faMapMarkerAlt
-} from '@fortawesome/free-solid-svg-icons';
+import { faLink, faPhoneAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isVerified, parseDateString } from '../lib/utils';
 import Badge from './Badge';
@@ -71,9 +65,7 @@ const HelplineCard = ({
                             <span className="ml-2 text-base mt-1">Source Link</span>
                         </a>
                     )}
-                    <Badge 
-                        badgeType={verificationStatus || 'unverified'}
-                    />
+                    <Badge badgeType={verificationStatus || 'unverified'} />
                 </div>
             </div>
             <hr className="dark:border-gray-900" />

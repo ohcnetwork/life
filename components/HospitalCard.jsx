@@ -1,11 +1,6 @@
 import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import {
-    faPhoneAlt,
-    faCheckCircle,
-    faExclamationTriangle,
-    faMapMarkerAlt
-} from '@fortawesome/free-solid-svg-icons';
+import { faPhoneAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isVerified, parseDateString } from '../lib/utils';
 import Badge from './Badge';
@@ -46,26 +41,25 @@ const HospitalCard = ({
                             <span className="ml-2">{phone1}</span>
                         </a>
                     )}
-                    <Badge 
-                        badgeType={verificationStatus || 'unverified'}
-                    />
+                    <Badge badgeType={verificationStatus || 'unverified'} />
                 </div>
             </div>
             <hr className="dark:border-gray-900" />
             <div className="flex justify-between items-center px-2  mx-3 mt-2 pb-3 flex-wrap">
                 <div className="font-semibold dark:text-gray-400">{pointOfContact}</div>
                 <div className="text-gray-700 dark:text-gray-400 text-sm">
-                    {
-                        lastVerifiedOn &&
+                    {lastVerifiedOn && (
                         <div className="text-gray-700 text-xs dark:text-white">
                             <div>
-                                <span>{isVerified(verificationStatus) ? "Verified on: " : "Checked on: "}</span>
-                                <span className="font-bold">
-                                    {parseDateString(lastVerifiedOn)}
+                                <span>
+                                    {isVerified(verificationStatus)
+                                        ? 'Verified on: '
+                                        : 'Checked on: '}
                                 </span>
+                                <span className="font-bold">{parseDateString(lastVerifiedOn)}</span>
                             </div>
                         </div>
-                    }
+                    )}
                 </div>
             </div>
         </div>

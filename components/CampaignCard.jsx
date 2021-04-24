@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { faDonate } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const CampaignCard = ({ name, text, logoUrl, donate, open }) => {
     const [state, setState] = useState(open);

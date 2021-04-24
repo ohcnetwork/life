@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { faHeart, faHandsHelping } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 const Footer = () => {
     return (
         <footer className="bg-gray-200 dark:bg-gray-1200 absolute top-full left-0 w-full py-10">
