@@ -206,7 +206,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -908,7 +908,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -1289,6 +1289,19 @@
         },
         {
             "ambulance": false,
+            "contact": false,
+            "district": "Dakshin Dinajpur (South Dinajpur)",
+            "doctor": false,
+            "helpline": false,
+            "hospitals": false,
+            "id": "rec9t8cBjwTCkYsii",
+            "medicine": false,
+            "oxygen": true,
+            "plasma": false,
+            "state": "West Bengal"
+        },
+        {
+            "ambulance": false,
             "contact": true,
             "district": "Muktsar",
             "doctor": false,
@@ -1311,7 +1324,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -1493,7 +1506,7 @@
             "medicine": false,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -1922,7 +1935,7 @@
             "medicine": false,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -2331,11 +2344,11 @@
             "ambulance": false,
             "contact": true,
             "district": "Gurgaon",
-            "doctor": false,
+            "doctor": true,
             "helpline": true,
             "hospitals": true,
             "id": "recJHuYsP4t9ytH3C",
-            "medicine": false,
+            "medicine": true,
             "oxygen": true,
             "plasma": false,
             "state": "Haryana"
@@ -2439,7 +2452,7 @@
             "helpline": true,
             "hospitals": false,
             "id": "recKYF7Rp46qihqYy",
-            "medicine": false,
+            "medicine": true,
             "oxygen": false,
             "plasma": false,
             "state": "Bihar"
@@ -2611,7 +2624,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -2624,7 +2637,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -2767,7 +2780,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -2832,7 +2845,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -3040,7 +3053,7 @@
             "medicine": false,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -3092,7 +3105,7 @@
             "medicine": false,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -3261,7 +3274,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -3417,7 +3430,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -3677,7 +3690,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -4262,7 +4275,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -4395,7 +4408,7 @@
             "state": "Tamil Nadu"
         },
         {
-            "ambulance": false,
+            "ambulance": true,
             "contact": false,
             "district": "Surat",
             "doctor": false,
@@ -4405,7 +4418,7 @@
             "medicine": true,
             "oxygen": true,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -4509,7 +4522,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -4626,7 +4639,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -5107,7 +5120,7 @@
             "medicine": true,
             "oxygen": true,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -5328,7 +5341,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -5393,7 +5406,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -6069,7 +6082,7 @@
             "medicine": false,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -6602,7 +6615,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -6628,7 +6641,7 @@
             "medicine": false,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -7291,7 +7304,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Punjab"
+            "state": "Gujarat"
         },
         {
             "ambulance": false,
@@ -7894,12 +7907,12 @@
         {
             "ambulance": false,
             "contact": false,
-            "district": "Gautam Buddha Nagar",
+            "district": "Noida",
             "doctor": false,
             "helpline": true,
             "hospitals": true,
             "id": "reczp1CKsOSqcz512",
-            "medicine": false,
+            "medicine": true,
             "oxygen": false,
             "plasma": false,
             "state": "Uttar Pradesh"
