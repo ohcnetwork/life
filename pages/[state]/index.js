@@ -9,6 +9,7 @@ import { tabsInfo } from '../../lib/tabs';
 import { NextSeo } from 'next-seo';
 
 export default function State({ state }) {
+    // data.filter((el) => el.district.toLowerCase().includes(search));
     let districts = getDistricts(state);
     const [searchStr, setSearchStr] = useState('');
     const filterDistricts = districts.filter((el) =>
@@ -36,7 +37,7 @@ export default function State({ state }) {
                 <div className="max-w-xl">
                     <input
                         type="text"
-                        className="mt-6 w-full h-12 border-2 border-gray-400 rounded mb-2 focus:outline-none focus:border-indigo-600 text-xl px-8 bg-gray-200 dark:bg-gray-1200 dark:border-gray-800 placeholder-gray-500 dark:text-white "
+                        className="mt-6 w-full h-12 border-2 border-gray-400 rounded mb-2 focus:outline-none focus:border-indigo-600 text-xl px-8 bg-gray-200 dark:bg-gray-1200 dark:border-gray-800 placeholder-gray-500 dark:text-white placeholder-gray-500"
                         placeholder={`Search Districts of ${humanize(state)}`}
                         value={searchStr}
                         onChange={(e) => setSearchStr(e.target.value)}
@@ -44,7 +45,7 @@ export default function State({ state }) {
                 </div>
                 <div className="flex flex-wrap overflow-hidden mt-8">
                     {filterDistricts
-                        .sort((ex, ey) =>
+                    .sort((ex, ey) =>
                             ex.district.toLowerCase() < ey.district.toLowerCase() ? -1 : 1
                         )
                         .map((f) => (

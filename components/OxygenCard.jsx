@@ -20,7 +20,7 @@ const OxygenCard = ({
     fstate,
     fdistrict,
     createdTime,
-    verifiedStatus,
+    verificationStatus,
     lastVerifiedOn
 }) => {
     return (
@@ -31,8 +31,8 @@ const OxygenCard = ({
                         <h1>
                             {name}
                             <span>
-                                {verifiedStatus &&
-                                verifiedStatus.toLocaleLowerCase() == 'verified' ? (
+                                {verificationStatus &&
+                                    verificationStatus.toLocaleLowerCase() == 'verified' ? (
                                     <FontAwesomeIcon
                                         className="text-green-600 w-5 ml-4"
                                         title="Verified"
@@ -90,7 +90,7 @@ const OxygenCard = ({
                 <div className="font-mono text-gray-700 text-sm dark:text-gray-400">
                     {
                         lastVerifiedOn ? (
-                            verifiedStatus && verifiedStatus.toLocaleLowerCase() == 'verified' ?
+                            verificationStatus && verificationStatus.toLocaleLowerCase() == 'verified' ?
                                 `Verified @ ${parseDateString(lastVerifiedOn)}` :
                                 `Last Checked @ ${parseDateString(lastVerifiedOn)}`
                         ) : ''
