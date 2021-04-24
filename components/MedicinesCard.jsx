@@ -97,7 +97,7 @@ const MedicinesCard = ({
             <div className="flex justify-between items-center mx-4 mt-2 pb-3 flex-wrap">
                 <div className="font-semibold dark:text-gray-400">{description}</div>
                 <div className="font-mono text-gray-700 dark:text-gray-400 text-sm">
-                    {lastVerifiedOn && `Verified @ ${parseDateString(lastVerifiedOn)}`}
+                    {verificationStatus && verificationStatus.toLocaleLowerCase() == 'verified' ? `Verified @ ${parseDateString(lastVerifiedOn)}` : `Last Checked @ ${parseDateString(lastVerifiedOn)}`}
                 </div>
             </div>
         </div>
