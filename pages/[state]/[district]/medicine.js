@@ -40,8 +40,7 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                             <MedicinesCard
                                 key={p.id}
                                 verificationStatus={p.verificationStatus}
-                                name={p.name}
-                                distributorName={p.distributorName}
+                                name={p.distributorName}
                                 city={p.city}
                                 phone1={p.phone1}
                                 address={p.address}

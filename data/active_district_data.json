@@ -206,7 +206,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -960,7 +960,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -1402,7 +1402,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -1597,7 +1597,7 @@
             "medicine": false,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -2039,7 +2039,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -2494,7 +2494,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -2767,7 +2767,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -2780,7 +2780,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -2923,7 +2923,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -2988,7 +2988,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -3222,7 +3222,7 @@
             "medicine": false,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -3274,7 +3274,7 @@
             "medicine": false,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -3456,7 +3456,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -3612,7 +3612,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -3872,7 +3872,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -4496,7 +4496,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -4652,7 +4652,7 @@
             "medicine": true,
             "oxygen": true,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -4769,7 +4769,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -4899,7 +4899,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -5144,7 +5144,7 @@
             "hospitals": true,
             "id": "recdVXPdrsIQYbTyW",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Rajasthan"
         },
@@ -5406,7 +5406,7 @@
             "medicine": true,
             "oxygen": true,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -5627,7 +5627,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -5731,7 +5731,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -6420,7 +6420,7 @@
             "medicine": false,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -6992,7 +6992,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -7018,7 +7018,7 @@
             "medicine": false,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -7179,7 +7179,7 @@
         {
             "ambulance": true,
             "contact": false,
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "doctor": false,
             "helpline": true,
             "hospitals": true,
@@ -7187,7 +7187,7 @@
             "medicine": true,
             "oxygen": true,
             "plasma": true,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,
@@ -7707,7 +7707,7 @@
             "medicine": true,
             "oxygen": false,
             "plasma": false,
-            "state": "Gujarat"
+            "state": "Punjab"
         },
         {
             "ambulance": false,

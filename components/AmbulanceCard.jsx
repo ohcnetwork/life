@@ -29,7 +29,7 @@ const AmbulanceCard = ({
                                     {name ? name : 'Ambulance'}
                                     <span>
                                         {verificationStatus &&
-                                        verificationStatus.toLocaleLowerCase() == 'verified' ? (
+                                            verificationStatus.toLocaleLowerCase() == 'verified' ? (
                                             <FontAwesomeIcon
                                                 className="text-green-600 w-5 ml-4"
                                                 title="Verified"
@@ -73,6 +73,7 @@ const AmbulanceCard = ({
                                         className="text-xl w-6"
                                         icon={faPhoneAlt}
                                     />
+                                    <span className="ml-2 text-lg mt-1">Source Link</span>
                                 </a>
                             )}
                             {source && (
