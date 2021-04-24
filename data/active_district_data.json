@@ -4988,7 +4988,7 @@
             "hospitals": true,
             "id": "reccqFwwRBJFnP3Gs",
             "medicine": false,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Rajasthan"
         },

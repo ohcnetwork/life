@@ -196,20 +196,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not available in stock",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Aurangabad",
             "id": "rec1h9q8BSu2NKPiU",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T12:04:37.000Z",
             "name": null,
             "phone1": "0240-2339020",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -822,20 +820,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Whatever stock comes in goes to district administration and district hospital",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Amravati",
             "id": "rec8Oj72NDusuPisT",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T12:03:18.000Z",
             "name": null,
             "phone1": "0721-2564460",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -982,17 +978,17 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Out of stock for Remdesivir ,Fabiflu and Tocilizumap. \nFabiflu might be available from 26th , 27th April",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jalandhar",
             "id": "rec9hhKQ2jtWM96qd",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T12:07:26.000Z",
             "name": null,
-            "phone1": "0181-2224586 (invalid)\n9915001122",
+            "phone1": "9888504242\n0181-2224586 (invalid)\n",
             "phone2": null,
-            "source": null,
+            "source": "Phone Web",
             "state": "Punjab",
-            "verificationStatus": null,
+            "verificationStatus": "Verified",
             "verifiedBy": [
                 {}
             ]
@@ -3491,20 +3487,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Currently not in stock",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Aurangabad",
             "id": "recW7Wp9dTstOsaK7",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T12:08:47.000Z",
             "name": null,
             "phone1": "9372327615",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,

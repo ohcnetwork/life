@@ -27,7 +27,7 @@ export default function State({ state }) {
         <section className="md:pt-10">
             <NextSeo {...SEO} />
             <Breadcumb list={[{ href: null, name: humanize(state) }]} />
-            <h1 className="mt-4 text-xl sm:text-2xl md:text-3xl text-gray-900 dark:text-gray-500 md:text-left">
+            <h1 className="mt-4 text-xl sm:text-2xl md:text-3xl md:text-left text-gray-900 dark:text-gray-800">
                 Search Result For{' '}
                 <span className="mt-4 font-bold text-3xl sm:text-4xl md:text-5xl text-gray-900 dark:text-gray-200 md:text-left">
                     "{humanize(state)}"
@@ -45,7 +45,7 @@ export default function State({ state }) {
                 </div>
                 <div className="flex flex-wrap overflow-hidden mt-8">
                     {filterDistricts
-                    .sort((ex, ey) =>
+                        .sort((ex, ey) =>
                             ex.district.toLowerCase() < ey.district.toLowerCase() ? -1 : 1
                         )
                         .map((f) => (
