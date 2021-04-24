@@ -12,7 +12,7 @@ const About = () => {
                 <Breadcumb list={[{ href: null, name: 'About' }]} />
             </div>
 
-            <div className="pt-10 dark:text-gray-500 text-gray-900 dark font-bold px-2">
+            <div className="py-10 dark:text-gray-500 text-gray-900 dark font-bold px-2">
                 <h1 className={h1Class}>About</h1>
                 <h2 className={h2Class}>Are you official?</h2>
                 <p className={pClass}>No.</p>
@@ -28,9 +28,11 @@ const About = () => {
                 </p>
                 <p className={pClass}>
                     The data is validated by a group of volunteers and published into an Airtable
-                    sheet and an API. API is available for all at life-api.coronasafe.network. We
-                    would love it if you can use this data in the fight against this virus. The
-                    source list is here.{' '}
+                    sheet and an API. API is available for all at{' '}
+                    <a className={aClass} href="https://life-api.coronasafe.network/">
+                        life-api.coronasafe.network
+                    </a>{' '}
+                    . We would love it if you can use this data in the fight against this virus.
                 </p>
                 <h2 className={h2Class}>Where can I find the data for this?</h2>
                 <p className={pClass}>
@@ -50,7 +52,7 @@ const About = () => {
                 <h2 className={h2Class}>Who are you?</h2>
                 <p className={pClass}>
                     We are a group of dedicated volunteers who curate and verify the data coming
-                    from several sources.CovidFYI - aggregates covid resources in the form of a
+                    from several sources. CovidFYI - aggregates covid resources in the form of a
                     directory repository to help people looking for information. We never collect or
                     expose any personally identifiable data regarding the patients. We do not do
                     1-on-1 handling of cases. This is a product of collaboration - Covidfyi, a
@@ -84,13 +86,13 @@ const About = () => {
                     team you want to join or just stick around to pitch in whenever there is call
                     for help!.
                 </p>
-                <p>
+                <p className="mt-2">
                     <a className={aClass} href="https://chat.suraksha.network/">
                         Join our Slack
                     </a>
                 </p>
                 <h2 className={h2Class}>
-                    What to do if you have verified data and want to add to covidfyi database?
+                    What to do if you have verified data and want to add to Covidfyi Database?
                 </h2>
                 <p className={pClass}>
                     <a
@@ -103,9 +105,12 @@ const About = () => {
                 <h2 className={h2Class}>Have bulk verified data?</h2>
                 <p className={pClass}>
                     In case you want to add data in bulk, in excel format, and you are not
-                    comfortable with airtable, send it to us in google sheet or excel format on 
-                    <a className={aClass} href="mailto:simran@covidfyi.in"> simran@covidfyi.in</a> or reach out to us anywhere. Join our team to add
-                    information.
+                    comfortable with airtable, send it to us in google sheet or excel format on
+                    <a className={aClass} href="mailto:simran@covidfyi.in">
+                        {' '}
+                        simran@covidfyi.in
+                    </a>{' '}
+                    or reach out to us anywhere. Join our team to add information.
                 </p>
                 <h2 className={h2Class} id="partner">
                     Are you a similar initiative like ours? Or know one?
@@ -116,7 +121,7 @@ const About = () => {
                     collaborate as consolidation is important in the problem that we are solving. We
                     don&#39;t seek credits, we just want this information to reach. Our goal is to
                     provide the right information to the right people at the right time in the right
-                    manner. POC- Simran, Pranshumaan, Ajay
+                    manner.
                 </p>
             </div>
         </>
