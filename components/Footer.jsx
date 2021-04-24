@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import { faHeart, faHandsHelping } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
     return (
         <footer className="bg-gray-200 dark:bg-gray-1200 absolute top-full left-0 w-full py-10">
@@ -7,8 +9,25 @@ const Footer = () => {
                 <Link href="/data">
                     <button
                         type="button"
-                        className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        className="inline-flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        <FontAwesomeIcon
+                            className="dark:text-white h-4 mr-1"
+                            title="Support"
+                            icon={faHandsHelping}
+                        />
                         Contribute Verified Data
+                    </button>
+                </Link>
+                <Link href="/campaigns">
+                    <button
+                        type="button"
+                        className="inline-flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        <FontAwesomeIcon
+                            className="dark:text-white h-4 mr-1"
+                            title="Support"
+                            icon={faHeart}
+                        />
+                        Support
                     </button>
                 </Link>
             </section>
