@@ -45,13 +45,13 @@ const MedicinesCard = ({
                                 )}
                             </span>
                         </h1>
-                        <div className="text-sm text-gray-700 dark:text-gray-200 font-semibold">
-                            <span className="ml-2">{city}</span>
-                        </div>
+                        {city && <div className="text-sm text-gray-700 dark:text-gray-200 font-semibold">
+                            <span> {city} </span>
+                        </div>}
                     </div>
-                    <div className="w-11/12 max-w-3xl mt-2">
+                    {address && <div className="w-11/12 max-w-3xl mt-2">
                         <div className="text-sm">{address}</div>
-                    </div>
+                    </div>}
                 </div>
                 <div className="flex flex-col sm:items-end items-start">
                     {phone1 && (
