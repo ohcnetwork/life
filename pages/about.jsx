@@ -82,9 +82,13 @@ const About = () => {
                     contact/links from covidfyi Innovate on product related ideas Handle social
                     media &amp; marketing Manage operations, volunteers, onboarding Decide which
                     team you want to join or just stick around to pitch in whenever there is call
-                    for help!
+                    for help!.
                 </p>
-                <p className={pClass}>Links to our SLACK,</p>
+                <p>
+                    <a className={aClass} href="https://chat.suraksha.network/">
+                        Join our Slack
+                    </a>
+                </p>
                 <h2 className={h2Class}>
                     What to do if you have verified data and want to add to covidfyi database?
                 </h2>
