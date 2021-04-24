@@ -3435,17 +3435,17 @@
         },
         {
             "area": null,
-            "comment": "Ringing, no one picking up",
+            "comment": "Not Available \nRinging, no one picking up",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kurukshetra",
             "id": "recVv8rhTuWO3HBjN",
-            "lastVerifiedOn": "2021-04-23T12:57:27.000Z",
+            "lastVerifiedOn": "2021-04-24T08:35:18.000Z",
             "name": null,
             "phone1": "9812026380",
             "phone2": null,
             "source": null,
             "state": "Haryana",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -4742,17 +4742,17 @@
         },
         {
             "area": null,
-            "comment": "Busy",
+            "comment": "Not Available \nBusy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "New Delhi",
             "id": "recfFxFIllrgI2WDl",
-            "lastVerifiedOn": "2021-04-23T07:19:18.000Z",
+            "lastVerifiedOn": "2021-04-24T08:37:50.000Z",
             "name": null,
             "phone1": "8860074107",
             "phone2": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -5169,20 +5169,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not Available ",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bathinda",
             "id": "rechlSqJDJo8xTb3m",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T08:40:30.000Z",
             "name": null,
             "phone1": "0164-2235902",
             "phone2": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "MANISH NAYYAR"
         },
         {
             "area": null,
@@ -5831,17 +5829,17 @@
         },
         {
             "area": null,
-            "comment": "Busy",
+            "comment": "Not Available \nBusy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Dadra & Nagar Haveli",
             "id": "recoZvcgM65IhTpmv",
-            "lastVerifiedOn": "2021-04-23T07:21:13.000Z",
+            "lastVerifiedOn": "2021-04-24T08:34:20.000Z",
             "name": null,
             "phone1": "9825085033",
             "phone2": null,
             "source": null,
             "state": "Dadra and Nagar Haveli and Daman & Diu (UT)",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
