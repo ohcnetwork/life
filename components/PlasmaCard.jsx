@@ -19,9 +19,9 @@ const PlasmaCard = ({
 }) => {
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
-            <div className="w-full">
-                <p
-                    className="text-3xl ml-auto w-8"
+            <div className="w-full flex items-center pt-2">
+                <span
+                    className="ml-auto w-8"
                     onClick={() => {
                         copyToClipboard(`
                                 Name: ${name ? name : 'Ambulance'}
@@ -30,11 +30,11 @@ const PlasmaCard = ({
                         alert('Copied!');
                     }}>
                     <FontAwesomeIcon
-                        className="text-gray-600 mr-4 pt-2"
-                        title="Share on Facebook"
+                        className="text-gray-600 mr-4 w-4"
+                        title="Click to Copy"
                         icon={faCopy}
                     />
-                </p>
+                </span>
             </div>
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
@@ -49,11 +49,11 @@ const PlasmaCard = ({
                 <div className="flex flex-col items-start">
                     {phone1 && (
                         <a
-                            className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white"
+                            className="flex items-center text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white"
                             href={`tel:${phone1}`}>
                             <FontAwesomeIcon
                                 title={`${phone1}`}
-                                className="text-xl w-6"
+                                className="w-4"
                                 icon={faPhoneAlt}
                             />
                             <span className="ml-2">{phone1}</span>
@@ -61,12 +61,12 @@ const PlasmaCard = ({
                     )}
                     {sourceLink && (
                         <a
-                            className="font-bold text-xl text-gray-700 mt-0 hover:text-gray-900 dark:text-white"
+                            className="flex items-center text-xl text-gray-700 mt-0 hover:text-gray-900 dark:text-white"
                             target="_blank"
                             href={sourceLink}>
                             <FontAwesomeIcon
                                 title={`${sourceLink}`}
-                                className="text-xl w-6"
+                                className="w-4"
                                 icon={faLink}
                             />
                             <span className="ml-2 text-lg mt-1">Source Link</span>
