@@ -7,4 +7,6 @@ module.exports = withPWA({
     future: {
         webpack5: true,
     },
+    poweredByHeader: false,
+    generateEtags: false,
 })
