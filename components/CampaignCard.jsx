@@ -3,19 +3,14 @@ import { faDonate } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const CampaignCard = ({ name, text, logoUrl, donate }) => {
-    const [state, setstate] = useState(false);
+    const [state, setState] = useState(false);
     const [details, setDetails] = useState('');
 
-    useEffect(() => {
-        setDetails(`${text.substr(0, 300)}...`);
-    }, [text]);
-
     const textLen = () => {
-        setstate(!state);
         if (state) {
-            setDetails(text);
+            return text;
         } else {
-            setDetails(`${text.substr(0, 300)}...`);
+            return `${text.substr(0, 300)}...`;
         }
     };
     return (
@@ -26,21 +21,16 @@ const CampaignCard = ({ name, text, logoUrl, donate }) => {
                     <img src={logoUrl} alt="logo" className="h-8" />
                 </div>
             </div>
-            <div dangerouslySetInnerHTML={{ __html: details }}></div>
-            <div onClick={() => textLen(text)} className="underline cursor-pointer">
-                {!state ? 'Read less' : 'Read more'}
+            <div dangerouslySetInnerHTML={{ __html: textLen() }}></div>
+            <div onClick={() => setState(!state)} className="underline cursor-pointer">
+                {state ? 'Read less' : 'Read more'}
             </div>
 
             <a
                 href={donate}
                 className="w-full rounded flex cursor-pointer my-4 mx-auto justify-center text-white py-2 bg-indigo-600 hover:bg-indigo-700"
                 target="_blank">
-                <FontAwesomeIcon
-                    className="text-white w-5 mr-3"
-                    title="Donate"
-                    icon={faDonate}
-                />
-                Donate Now
+                <text className="ml-3">Donate Now</text>
             </a>
         </div>
     );
