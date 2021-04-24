@@ -21,7 +21,7 @@ export default function State({ state }) {
                 <title>{humanize(state)} | Coronasafe network</title>
             </Head>
             <Breadcumb list={[{ href: null, name: humanize(state) }]} />
-            <h1 className="mt-4 text-xl sm:text-2xl md:text-3xl text-gray-900 md:text-left">
+            <h1 className="mt-4 text-xl sm:text-2xl md:text-3xl text-gray-900 dark:text-gray-500 md:text-left">
                 Search Result For{' '}
                 <span className="mt-4 font-bold text-3xl sm:text-4xl md:text-5xl text-gray-900 dark:text-gray-200 md:text-left">
                     "{humanize(state)}"
@@ -46,7 +46,7 @@ export default function State({ state }) {
                             className="w-full rounded overflow-hidden md:w-1/2 mb-6 hover:bg-gray-200 dark:hover:bg-gray-1200">
                             <div className="p-4">
                                 <Link href={`/${parametreize(state)}/${parametreize(f.district)}`}>
-                                    <span className="font-semibold text-2xl md:text-4xl py-6 hover:underline cursor-pointer">
+                                    <span className="font-semibold text-2xl md:text-4xl py-6 hover:underline cursor-pointer dark:text-gray-200">
                                         {humanize(f.district)}
                                     </span>
                                 </Link>
