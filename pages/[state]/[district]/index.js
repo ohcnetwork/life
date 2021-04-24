@@ -5,8 +5,11 @@ import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 import SocialSharing from '../../../components/SocialSharing';
 import { tabsInfo } from '../../../lib/tabs';
+import { useRouter } from 'next/router';
 
 export default function State({ state, district }) {
+    const { asPath } = useRouter();
+    const pageUrl = `https://liferesources.in/${asPath}`;
     return (
         <section className="md:pt-10">
             <Head>
@@ -36,16 +39,10 @@ export default function State({ state, district }) {
                     </div>
                 </section>
                 <SocialSharing
-                    url={`https://life.coronasafe.network/${state}/${district.district.replace(
-                        ' ',
-                        '_'
-                    )}`}
+                    url={pageUrl}
                     twitterText={`Covid-19 Resources for ${humanize(district.district)}, ${humanize(
                         state
-                    )} https://life.coronasafe.network/${state}/${district.district.replace(
-                        ' ',
-                        '_'
-                    )}`}
+                    )} ${pageUrl}`}
                 />
             </div>
         </section>
