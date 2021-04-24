@@ -101,7 +101,7 @@ def get_oxygen_data():
                 "state": district.state,
                 "district": district.name,
                 "city": record["fields"].get("District"),
-                "name": record["fields"].get("Person name"),
+                "name": record["fields"].get("Name"),
                 "description": record["fields"].get("Description"),
                 "phone1": record["fields"].get("Phone 1"),
                 "phone2": record["fields"].get("Phone 2"),
@@ -144,7 +144,12 @@ def get_plasma_data():
                 "description": record["fields"].get("Description"),
                 "phone1": record["fields"].get("Phone 1"),
                 "sourceLink": record["fields"].get("Source link"),
-                "createdTime": record["createdTime"],
+                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
+                "comment": record["fields"].get("Verifier_Comment"),
+                "lastVerifiedOn": record["fields"].get("Verified_On"),
+                "verifiedBy": record["fields"]["Verified_By"][0].get("name")
+                if "Verified_By" in record["fields"]
+                else [{}],
             }
         )
     return plasma_data
@@ -195,9 +200,8 @@ def get_helpline_data():
         helpline_data["data"].append(
             {
                 "id": record["id"],
-                "name": record["fields"].get("Name"),
-                "category": record["fields"].get("category"),
-                "subCategory": record["fields"].get("subCategory"),
+                "name": record["fields"].get("Name of helpline"),
+                "category": record["fields"].get("Category"),
                 "state": district.state,
                 "district": district.name,
                 "phone1": record["fields"].get("phone1"),
@@ -206,6 +210,12 @@ def get_helpline_data():
                 "source": record["fields"].get("source"),
                 "description": record["fields"].get("description"),
                 "createdTime": record["createdTime"],
+                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
+                "comment": record["fields"].get("Verifier_Comment"),
+                "lastVerifiedOn": record["fields"].get("Verified_On"),
+                "verifiedBy": record["fields"]["Verified_By"].get("name")
+                if "Verified_By" in record["fields"]
+                else None,
             }
         )
     return helpline_data
@@ -225,7 +235,7 @@ def get_medicine_data():
                 "id": record["id"],
                 "city": record["fields"].get("City"),
                 "description": record["fields"].get("Description"),
-                "distributorName": record["fields"].get("Distributor Name"),
+                "name": record["fields"].get("Distributor Name"),
                 "address": record["fields"].get("Address"),
                 "emailId": record["fields"].get("Email ID"),
                 "state": district.state,
@@ -258,7 +268,7 @@ def get_ambulance_data():
         ambulance_data["data"].append(
             {
                 "id": record["id"],
-                "name": record["fields"].get("Name"),
+                "name": record["fields"].get("Ambulance service name"),
                 "area": record["fields"].get("Area"),
                 "state": district.state,
                 "district": district.name,

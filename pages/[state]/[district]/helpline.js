@@ -1,19 +1,27 @@
 import React from 'react';
 import { helplineByDistrict } from '../../../lib/api';
 import { statePaths, humanize, parseDateString } from '../../../lib/utils';
-import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 import HelplineCard from '../../../components/HelplineCard';
+import { NextSeo } from 'next-seo';
 
 export default function Helpline({ state, district, helplines }) {
+    const SEO = {
+        title: `Helpline in ${humanize(district)} , ${humanize(state)}`,
+        description: `Covid19 Resources for Helpline in ${humanize(district)} , ${humanize(
+            state
+        )} } `,
+        openGraph: {
+            title: `Helpline in ${humanize(district)} , ${humanize(state)}`,
+            description: `Covid19 Resources for Helpline in ${humanize(district)} , ${humanize(
+                state
+            )} } `
+        }
+    };
     return (
         <div>
+            <NextSeo {...SEO} />
             <section className="flex flex-col ml-2 md:pt-10">
-                <Head>
-                    <title>
-                        Helpline in {humanize(district)} , {humanize(state)}
-                    </title>
-                </Head>
                 <Breadcumb
                     list={[
                         { href: `/${state}`, name: humanize(state) },
@@ -26,7 +34,7 @@ export default function Helpline({ state, district, helplines }) {
                 <h1 className="mt-4 font-black text-4xl sm:text-5xl text-gray-900 dark:text-gray-200 md:text-left text-center">
                     {humanize(district)}
                 </h1>
-                <div className="w-full space-y-4 mt-4 max-w-3xl w-full">
+                <div className="space-y-4 mt-4 max-w-3xl w-full">
                     {helplines.map((p) => {
                         return (
                             <HelplineCard
@@ -41,6 +49,8 @@ export default function Helpline({ state, district, helplines }) {
                                 state={p.state}
                                 subCategory={p.subCategory}
                                 lastVerifiedOn={p.lastVerifiedOn}
+                                verificationStatus={p.verificationStatus}
+                                name={p.name}
                             />
                         );
                     })}

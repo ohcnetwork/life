@@ -1,19 +1,27 @@
 import React from 'react';
 import { medicineByDistrict } from '../../../lib/api';
 import { statePaths, humanize } from '../../../lib/utils';
-import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 import MedicinesCard from '../../../components/MedicinesCard';
+import { NextSeo } from 'next-seo';
 
 export default function Medicine({ state, district, medicineByDistrict }) {
+    const SEO = {
+        title: `Medicines in ${humanize(district)} , ${humanize(state)}`,
+        description: `Covid19 Resources for Medicines in ${humanize(district)} , ${humanize(
+            state
+        )} } `,
+        openGraph: {
+            title: `Medicines in ${humanize(district)} , ${humanize(state)}`,
+            description: `Covid19 Resources for Medicines in ${humanize(district)} , ${humanize(
+                state
+            )} } `
+        }
+    };
     return (
         <div>
+            <NextSeo {...SEO} />
             <section className="flex flex-col ml-2 md:pt-10">
-                <Head>
-                    <title>
-                        Medicines in {humanize(district)} , {humanize(state)}
-                    </title>
-                </Head>
                 <Breadcumb
                     list={[
                         { href: `/${state}`, name: humanize(state) },
@@ -33,7 +41,6 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                                 key={p.id}
                                 verificationStatus={p.verificationStatus}
                                 name={p.name}
-                                distributorName={p.distributorName}
                                 city={p.city}
                                 phone1={p.phone1}
                                 address={p.address}
@@ -52,13 +59,13 @@ export default function Medicine({ state, district, medicineByDistrict }) {
 }
 
 export async function getStaticProps({ params }) {
-  return {
-    props: {
-      state: params.state,
-      district: params.district,
-      medicineByDistrict: medicineByDistrict(params.state, params.district, true),
-    },
-  };
+    return {
+        props: {
+            state: params.state,
+            district: params.district,
+            medicineByDistrict: medicineByDistrict(params.state, params.district, true)
+        }
+    };
 }
 
 export async function getStaticPaths() {

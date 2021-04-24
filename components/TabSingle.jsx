@@ -10,7 +10,7 @@ const TabSingle = ({ tab, state, district }) => {
 
   const colorVal = district[tab.value]
     ? `${tab.color}`
-    : "text-gray-400 dark:text-gray-800";
+    : "text-gray-800 dark:text-gray-800";
 
   const divClass1 = `rounded shadow w-5/12 overflow-hidden flex justify-center hover:rounded-md mx-auto my-1 ${bgColorVal}`;
 

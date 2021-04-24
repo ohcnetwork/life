@@ -1,18 +1,26 @@
 import React from 'react';
 import { plasmaByDistrict } from '../../../lib/api';
 import { humanize, statePaths } from '../../../lib/utils';
-import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 import PlasmaCard from '../../../components/PlasmaCard';
+import { NextSeo } from 'next-seo';
 export default function Plasma({ state, district, plasmaListing }) {
+    const SEO = {
+        title: `Plasma in ${humanize(district)} , ${humanize(state)}`,
+        description: `Covid19 Resources for Plasma in ${humanize(district)} , ${humanize(
+            state
+        )} } `,
+        openGraph: {
+            title: `Plasma in ${humanize(district)} , ${humanize(state)}`,
+            description: `Covid19 Resources for Plasma in ${humanize(district)} , ${humanize(
+                state
+            )} } `
+        }
+    };
     return (
         <div>
+            <NextSeo {...SEO} />
             <section className="flex flex-col ml-2 md:pt-10">
-                <Head>
-                    <title>
-                        Plasma in {humanize(district)} , {humanize(state)}
-                    </title>
-                </Head>
                 <Breadcumb
                     list={[
                         { href: `/${state}`, name: humanize(state) },
@@ -38,6 +46,7 @@ export default function Plasma({ state, district, plasmaListing }) {
                                 sourceLink={p.sourceLink}
                                 state={p.state}
                                 lastVerifiedOn={p.lastVerifiedOn}
+                                verificationStatus={p.verificationStatus}
                             />
                         );
                     })}
