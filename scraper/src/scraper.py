@@ -115,6 +115,11 @@ def get_oxygen_data():
                 "verifiedBy": record["fields"]["Verified_By"][0].get("name")
                 if "Verified_By" in record["fields"]
                 else [{}],
+                "type": record["fields"].get("Type"),
+                "availability": record["fields"].get("Availability"),
+                "homeDeliveryAvailable": record["fields"].get("Home delivery available"),
+                "instructions": record["fields"].get("Instructions"),
+                "emailId": record["fields"].get("Email ID"),
             }
         )
     return oxygen_data
@@ -169,6 +174,9 @@ def get_hospital_clinic_centre():
                 if "Verified_By" in record["fields"]
                 else [{}],
                 "comment": record["fields"].get("Verifier_Comment"),
+                "typeOfHospital": record["fields"].get("Type of Hospital"),
+                "subCategory": record["fields"].get("Sub category"),
+                "availability": record["fields"].get("Availability"),
                 "createdTime": record["createdTime"],
             }
         )
@@ -231,6 +239,7 @@ def get_medicine_data():
                 if "Verified_By" in record["fields"]
                 else [{}],
                 "comment": record["fields"].get("Verifier_Comment"),
+                "priceCheck": record["fields"].get("Price_Check"),
                 "createdTime": record["createdTime"],
             }
         )

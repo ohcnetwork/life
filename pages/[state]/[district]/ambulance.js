@@ -7,7 +7,7 @@ import Breadcumb from '../../../components/Breadcumb';
 
 export default function Ambulance({ state, district, ambulancesListing }) {
     return (
-        <div className="mt-4">
+        <div>
             <Head>
                 <title>
                     Ambulance in {humanize(district)} , {humanize(state)}
@@ -52,13 +52,13 @@ export default function Ambulance({ state, district, ambulancesListing }) {
 }
 
 export async function getStaticProps({ params }) {
-  return {
-    props: {
-      state: params.state,
-      district: params.district,
-      ambulancesListing: getAmbulances(params.state, params.district, true),
-    },
-  };
+    return {
+        props: {
+            state: params.state,
+            district: params.district,
+            ambulancesListing: getAmbulances(params.state, params.district, true)
+        }
+    };
 }
 
 export async function getStaticPaths() {
