@@ -1,28 +1,33 @@
 import React from 'react';
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDatabase, faHandsHelping, faHeart } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
     return (
         <footer className="bg-gray-200 dark:bg-gray-1200 absolute top-full left-0 w-full py-10">
-            <section className="flex justify-center">
+            <section className="flex flex-wrap justify-center">
                 <Link href="/data">
                     <button
                         type="button"
-                        className="flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        className="flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 my-2 xs:my-0">
+                        <FontAwesomeIcon icon={faDatabase} className="w-3 mr-2" />
                         Contribute Verified Data
                     </button>
                 </Link>
                 <Link href="/campaigns">
                     <button
                         type="button"
-                        className="flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        className="flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 my-2 xs:my-0">
+                        <FontAwesomeIcon icon={faHeart} className="w-3 mr-2" />
                         Support
                     </button>
                 </Link>
                 <Link href="/about#partner">
                     <button
                         type="button"
-                        className="flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        className="flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 my-2 xs:my-0">
+                        <FontAwesomeIcon icon={faHandsHelping} className="w-3 mr-2" />
                         Partner with Us
                     </button>
                 </Link>
