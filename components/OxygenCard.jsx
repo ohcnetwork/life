@@ -4,10 +4,11 @@ import {
     faLink,
     faPhoneAlt,
     faCheckCircle,
-    faExclamationTriangle
+    faExclamationTriangle,
+    faCopy
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { isVerified, parseDateString } from '../lib/utils';
+import { isVerified, parseDateString, copyToClipboard } from '../lib/utils';
 
 const OxygenCard = ({
     name,
@@ -25,6 +26,23 @@ const OxygenCard = ({
 }) => {
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
+            <div className="w-full">
+                <p
+                    className="w-8 ml-auto text-3xl"
+                    onClick={() => {
+                        copyToClipboard(`
+                                Name: ${name ? name : 'Ambulance'}
+                                Contact: ${phone1}
+                                `);
+                        alert('Copied!');
+                    }}>
+                    <FontAwesomeIcon
+                        className="text-gray-600 mr-4 pt-2"
+                        title="Share on Facebook"
+                        icon={faCopy}
+                    />
+                </p>
+            </div>
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
                     <div className="font-bold text-2xl dark:text-white">
@@ -87,17 +105,18 @@ const OxygenCard = ({
             <div className="flex justify-between items-center mx-4 mt-2 pb-3 flex-wrap">
                 <div className="font-semibold dark:text-gray-400">{description}</div>
                 <div className="text-gray-700 text-sm dark:text-gray-400">
-                    {
-                        lastVerifiedOn &&
+                    {lastVerifiedOn && (
                         <div className="text-gray-700 text-xs dark:text-white">
                             <div>
-                                <span>{isVerified(verificationStatus) ? "Verified on: " : "Checked on: "}</span>
-                                <span className="font-bold">
-                                    {parseDateString(lastVerifiedOn)}
+                                <span>
+                                    {isVerified(verificationStatus)
+                                        ? 'Verified on: '
+                                        : 'Checked on: '}
                                 </span>
+                                <span className="font-bold">{parseDateString(lastVerifiedOn)}</span>
                             </div>
                         </div>
-                    }
+                    )}
                 </div>
             </div>
         </div>

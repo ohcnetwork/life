@@ -29,14 +29,8 @@ const SocialSharing = ({ twitterText, url }) => {
                 onClick={() => {
                     copyToClipboard(twitterText);
                     setCopiesSuccess(true);
-                    setTimeout(() => setCopiesSuccess(false), 2000);
+                    alert('heye');
                 }}>
-                <span
-                    className={`absolute -top-10 -left-1 dark:bg-green-600 bg-green-600 text-white py-2 px-3 rounded shadow text-xs ${
-                        copiedSuccess ? 'block' : 'hidden'
-                    }`}>
-                    Copied!
-                </span>
                 <FontAwesomeIcon
                     className="text-blue-500 ml-4"
                     title="Share on Facebook"

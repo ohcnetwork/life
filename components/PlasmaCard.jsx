@@ -4,10 +4,11 @@ import {
     faLink,
     faPhoneAlt,
     faCheckCircle,
-    faExclamationTriangle
+    faExclamationTriangle,
+    faCopy
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { parseDateString } from '../lib/utils';
+import { parseDateString, copyToClipboard } from '../lib/utils';
 
 const PlasmaCard = ({
     city,
@@ -23,6 +24,23 @@ const PlasmaCard = ({
 }) => {
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
+            <div className="w-full">
+                <p
+                    className="w-8 ml-auto text-3xl"
+                    onClick={() => {
+                        copyToClipboard(`
+                                Name: ${name ? name : 'Ambulance'}
+                                Contact: ${phone1 ? phone1 : ''}
+                                `);
+                        alert('Copied!');
+                    }}>
+                    <FontAwesomeIcon
+                        className="text-gray-600 mr-4 pt-2"
+                        title="Share on Facebook"
+                        icon={faCopy}
+                    />
+                </p>
+            </div>
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
                     <div className="font-bold text-2xl">
@@ -30,7 +48,7 @@ const PlasmaCard = ({
                             {name}
                             <span>
                                 {verificationStatus &&
-                                    verificationStatus.toLocaleLowerCase() == 'verified' ? (
+                                verificationStatus.toLocaleLowerCase() == 'verified' ? (
                                     <FontAwesomeIcon
                                         className="text-green-600 w-5 ml-4"
                                         title="Verified"
@@ -83,13 +101,11 @@ const PlasmaCard = ({
             <div className="flex justify-between items-center mx-2 mt-2 pb-3">
                 <div className="font-semibold">{description}</div>
                 <div className="font-mono text-gray-700 text-sm dark:text-white">
-                    {
-                        lastVerifiedOn ? (
-                            verifiedStatus && verifiedStatus.toLocaleLowerCase() == 'verified' ?
-                                `Verified @ ${parseDateString(lastVerifiedOn)}` :
-                                `Last Checked @ ${parseDateString(lastVerifiedOn)}`
-                        ) : ''
-                    }
+                    {lastVerifiedOn
+                        ? verifiedStatus && verifiedStatus.toLocaleLowerCase() == 'verified'
+                            ? `Verified @ ${parseDateString(lastVerifiedOn)}`
+                            : `Last Checked @ ${parseDateString(lastVerifiedOn)}`
+                        : ''}
                 </div>
             </div>
         </div>

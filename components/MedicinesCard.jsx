@@ -4,10 +4,11 @@ import {
     faPhoneAlt,
     faCheckCircle,
     faExclamationTriangle,
-    faEnvelope
+    faEnvelope,
+    faCopy
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { isVerified, parseDateString } from '../lib/utils';
+import { isVerified, parseDateString, copyToClipboard } from '../lib/utils';
 
 const MedicinesCard = ({
     verificationStatus,
@@ -23,6 +24,23 @@ const MedicinesCard = ({
 }) => {
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
+            <div className="w-full">
+                <p
+                    className="w-8 ml-auto text-3xl"
+                    onClick={() => {
+                        copyToClipboard(`
+                                Name: ${name ? name : ''}
+                                Contact: ${phone1}
+                                `);
+                        alert('Copied!');
+                    }}>
+                    <FontAwesomeIcon
+                        className="text-gray-600 mr-4 pt-2"
+                        title="Share on Facebook"
+                        icon={faCopy}
+                    />
+                </p>
+            </div>
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
                     <div className="font-bold text-2xl">
@@ -44,13 +62,17 @@ const MedicinesCard = ({
                                 )}
                             </span>
                         </h1>
-                        {city && <div className="text-sm text-gray-700 dark:text-gray-200 font-semibold">
-                            <span> {city} </span>
-                        </div>}
+                        {city && (
+                            <div className="text-sm text-gray-700 dark:text-gray-200 font-semibold">
+                                <span> {city} </span>
+                            </div>
+                        )}
                     </div>
-                    {address && <div className="w-11/12 max-w-3xl mt-2">
-                        <div className="text-sm">{address}</div>
-                    </div>}
+                    {address && (
+                        <div className="w-11/12 max-w-3xl mt-2">
+                            <div className="text-sm">{address}</div>
+                        </div>
+                    )}
                 </div>
                 <div className="flex flex-col sm:items-end items-start">
                     {phone1 && (
@@ -94,17 +116,18 @@ const MedicinesCard = ({
             <div className="flex justify-between items-center mx-4 mt-2 pb-3 flex-wrap">
                 <div className="font-semibold dark:text-gray-400">{description}</div>
                 <div className="text-gray-700 dark:text-gray-400 text-sm">
-                    {
-                        lastVerifiedOn &&
+                    {lastVerifiedOn && (
                         <div className="text-gray-700 text-xs dark:text-white">
                             <div>
-                                <span>{isVerified(verificationStatus) ? "Verified on: " : "Checked on: "}</span>
-                                <span className="font-bold">
-                                    {parseDateString(lastVerifiedOn)}
+                                <span>
+                                    {isVerified(verificationStatus)
+                                        ? 'Verified on: '
+                                        : 'Checked on: '}
                                 </span>
+                                <span className="font-bold">{parseDateString(lastVerifiedOn)}</span>
                             </div>
                         </div>
-                    }
+                    )}
                 </div>
             </div>
         </div>
