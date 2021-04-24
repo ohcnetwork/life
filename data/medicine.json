@@ -1672,15 +1672,13 @@
             "district": "Yavatmal",
             "emailId": "dubewar_suraj@rediffmail.com",
             "id": "recC5aSYSkxQOxlVR",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:25:07.000Z",
             "phone1": "07233-2474662474",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Andrea Palkhivala"
         },
         {
             "address": "MGS Hospital, Punjabi bagh",
@@ -2725,15 +2723,13 @@
             "district": "Wardha",
             "emailId": "shrisainathmedicalwardha@gmail.com",
             "id": "recJe0dAlKl0ATXv3",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:27:25.000Z",
             "phone1": "07152-253546",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Andrea Palkhivala"
         },
         {
             "address": "18/11543-A7,Gr Floor,Opp Raqmnath HospMeyon BuildingJail Road,Calicut,673004",
@@ -2959,7 +2955,7 @@
         {
             "address": "6/A, REHMAT MARKETNEAR GHORA NIKKASBUS STAND, BHOPALBHOPAL\n(M.P.),BHOPAL,462001",
             "city": null,
-            "comment": null,
+            "comment": "Switched off",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -2967,15 +2963,13 @@
             "district": "Bhopal",
             "emailId": "kamalagenciesbpl@yahoo.in",
             "id": "recKp4y67BUco2X2K",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:07:32.000Z",
             "phone1": "9893374031",
             "priceCheck": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "1ST FLOOR, JDA BUILDINGOPP. JDA OFFICE CIVIC CENTER,JABALPUR,482002",
