@@ -66,17 +66,14 @@ const HospitalCard = ({
             <hr className="dark:border-gray-900" />
             <div className="flex justify-between items-center px-2  mx-3 mt-2 pb-3 flex-wrap">
                 <div className="font-semibold dark:text-gray-400">{pointOfContact}</div>
-                <div className="text-gray-700 dark:text-gray-400 text-sm">
-                    {lastVerifiedOn && (
-                        <div className="text-gray-700 text-xs dark:text-white">
-                            <div>
-                                <span>{isVerified(verificationStatus) ? "Verified on: " : "Checked on: " }</span>
-                                <span className="font-bold">
-                                    {`${parseDateString(lastVerifiedOn)}`}
-                                </span>
-                            </div>
-                        </div>
-                    )}
+                <div className="font-mono text-gray-700 dark:text-gray-400 text-sm">
+                    {
+                        lastVerifiedOn ? (
+                            verificationStatus && verificationStatus.toLocaleLowerCase() == 'verified' ?
+                                `Verified @ ${parseDateString(lastVerifiedOn)}` :
+                                `Last Checked @ ${parseDateString(lastVerifiedOn)}`
+                        ) : ''
+                    }
                 </div>
             </div>
         </div>

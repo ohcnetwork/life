@@ -46,6 +46,7 @@ export default function Plasma({ state, district, plasmaListing }) {
                                 sourceLink={p.sourceLink}
                                 state={p.state}
                                 lastVerifiedOn={p.lastVerifiedOn}
+                                verificationStatus={p.verificationStatus}
                             />
                         );
                     })}
