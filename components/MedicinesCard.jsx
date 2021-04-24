@@ -4,6 +4,7 @@ import { faPhoneAlt, faEnvelope, faCopy } from '@fortawesome/free-solid-svg-icon
 import Badge from './Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isVerified, parseDateString, copyToClipboard } from '../lib/utils';
+import SocialSharing from '../components/SocialSharing';
 
 const MedicinesCard = ({
     verificationStatus,
@@ -20,21 +21,9 @@ const MedicinesCard = ({
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="w-full flex items-center pt-2">
-                <span
-                    className="ml-auto w-8 cursor-pointer"
-                    onClick={() => {
-                        copyToClipboard(`
-                                Name: ${name ? name : 'Medicine'}
-                                Contact: ${phone1}
-                                `);
-                        alert('Copied!');
-                    }}>
-                    <FontAwesomeIcon
-                        className="text-gray-600 w-4 mr-4"
-                        title="Click to Copy"
-                        icon={faCopy}
-                    />
-                </span>
+                <div className="ml-auto">
+                    <SocialSharing twitterText="test" url="test" />
+                </div>
             </div>
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
@@ -57,11 +46,7 @@ const MedicinesCard = ({
                         <a
                             className="flex items-center text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
                             href={`tel:${phone1}`}>
-                            <FontAwesomeIcon
-                                title={phone1}
-                                className="w-4"
-                                icon={faPhoneAlt}
-                            />
+                            <FontAwesomeIcon title={phone1} className="w-4" icon={faPhoneAlt} />
                             <span className="ml-2">{phone1}</span>
                         </a>
                     )}
@@ -70,21 +55,13 @@ const MedicinesCard = ({
                             className="flex items-center font-bold text-lg text-gray-700 dark:text-white mt-0 hover:text-gray-900"
                             target="_blank"
                             href={`mailto:${email}`}>
-                            <FontAwesomeIcon
-                                title={`${email}`}
-                                className="w-4"
-                                icon={faEnvelope}
-                            />
+                            <FontAwesomeIcon title={`${email}`} className="w-4" icon={faEnvelope} />
                             <span className="ml-2 text-lg">Email</span>
                         </a>
                     )}
                     {slink && (
                         <a href={slink} className="dark:text-white">
-                            <FontAwesomeIcon
-                                title={`${slink}`}
-                                className="w-4"
-                                icon={faLink}
-                            />
+                            <FontAwesomeIcon title={`${slink}`} className="w-4" icon={faLink} />
                             <span className="ml-2 text-lg">Source Link</span>
                         </a>
                     )}
