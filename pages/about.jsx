@@ -2,9 +2,9 @@ import React from 'react';
 import Breadcumb from '../components/Breadcumb';
 
 const About = () => {
-    const h1Class = `text-5xl mb-20`;
-    const h2Class = `text-3xl mb-2`;
-    const pClass = `text-blue-600 mb-5 text-lg`;
+    const h1Class = `text-4xl`;
+    const h2Class = `text-xl mt-5`;
+    const pClass = `text-blue-500 mt-2 text-md`;
     const aClass = `underline text-blue-600 hover:text-blue-800 visited:text-purple-600`;
     return (
         <>
@@ -12,7 +12,7 @@ const About = () => {
                 <Breadcumb list={[{ href: null, name: 'About' }]} />
             </div>
 
-            <div className="py-20 dark:text-gray-500 text-gray-900 dark font-bold">
+            <div className="pt-10 dark:text-gray-500 text-gray-900 dark font-bold px-2">
                 <h1 className={h1Class}>About</h1>
                 <h2 className={h2Class}>Are you official?</h2>
                 <p className={pClass}>No.</p>
@@ -82,9 +82,13 @@ const About = () => {
                     contact/links from covidfyi Innovate on product related ideas Handle social
                     media &amp; marketing Manage operations, volunteers, onboarding Decide which
                     team you want to join or just stick around to pitch in whenever there is call
-                    for help!
+                    for help!.
                 </p>
-                <p className={pClass}>Links to our SLACK,</p>
+                <p>
+                    <a className={aClass} href="https://chat.suraksha.network/">
+                        Join our Slack
+                    </a>
+                </p>
                 <h2 className={h2Class}>
                     What to do if you have verified data and want to add to covidfyi database?
                 </h2>
@@ -100,10 +104,12 @@ const About = () => {
                 <p className={pClass}>
                     In case you want to add data in bulk, in excel format, and you are not
                     comfortable with airtable, send it to us in google sheet or excel format on
-                    simran@covidfyi.in or reach out to us anywhere. Join our team to add
+                    <u> simran@covidfyi.in</u> or reach out to us anywhere. Join our team to add
                     information.
                 </p>
-                <h2 className={h2Class}>Are you a similar initiative like ours? Or know one?</h2>
+                <h2 className={h2Class} id="partner">
+                    Are you a similar initiative like ours? Or know one?
+                </h2>
                 <p className={pClass}>
                     Run by your company, friends, college, on social media that have similar data.
                     Reach out to them, talk about us. Earnest request to get other initiatives to

@@ -3,9 +3,8 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import {
     faLink,
     faPhoneAlt,
-    faCheckCircle,
-    faExclamationTriangle
 } from '@fortawesome/free-solid-svg-icons';
+import Badge from './Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isVerified, parseDateString } from '../lib/utils';
 
@@ -30,21 +29,6 @@ const OxygenCard = ({
                     <div className="font-bold text-2xl dark:text-white">
                         <h1>
                             {name}
-                            <span>
-                                {isVerified(verificationStatus) ? (
-                                    <FontAwesomeIcon
-                                        className="text-green-600 w-5 ml-4"
-                                        title="Verified"
-                                        icon={faCheckCircle}
-                                    />
-                                ) : (
-                                    <FontAwesomeIcon
-                                        className="text-yellow-400 w-4 ml-4"
-                                        title="Not verified"
-                                        icon={faExclamationTriangle}
-                                    />
-                                )}
-                            </span>
                         </h1>
                         <div className="text-sm  uppercase mt-3 text-gray-700 dark:text-gray-400 font-semibold">
                             <span className="mr-2">{fdistrict}</span>|
@@ -81,6 +65,11 @@ const OxygenCard = ({
                             <span className="ml-2 text-lg mt-1">Source Link</span>
                         </a>
                     )}
+                    <span>
+                        <Badge
+                            badgeType={verificationStatus || 'unverified'}
+                        />
+                    </span>
                 </div>
             </div>
             <hr className="dark:border-gray-900" />

@@ -85,31 +85,29 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bathinda",
             "id": "rec0nHYxZK4iAmZzd",
-            "lastVerifiedOn": "2021-04-24T13:39:29.000Z",
+            "lastVerifiedOn": "2021-04-24T14:26:31.000Z",
             "name": null,
             "phone1": "9814870373",
             "phone2": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Sangharsh Sapre"
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not in service",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Buldhana",
             "id": "rec15wLkYZsS2UVCV",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T14:55:38.000Z",
             "name": null,
             "phone1": "0291-2615120/",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -500,20 +498,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jaipur",
             "id": "rec63QLpaebfRODaJ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T15:08:31.000Z",
             "name": null,
-            "phone1": "2355532",
+            "phone1": "0141-2355532",
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -626,20 +622,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No stock available of any of the following : \n Remdesivir,Fabiflu or Tocilizumap .",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Patiala",
             "id": "rec7VJEugClTLVDGf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T14:25:05.000Z",
             "name": null,
             "phone1": "9855468600",
             "phone2": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Sangharsh Sapre"
         },
         {
             "area": null,
@@ -914,20 +908,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Currently not in stock",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jaipur",
             "id": "rec9qymbzOin3Ugn4",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T14:59:50.000Z",
             "name": null,
             "phone1": "9819072338",
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -1076,20 +1068,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not a valid number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jaipur",
             "id": "recBoWkgg7xOtmDay",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T15:06:06.000Z",
             "name": null,
             "phone1": "0141-2225554",
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -1569,20 +1559,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jodhpur",
             "id": "recHKIm3knImgu7Vz",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T15:09:06.000Z",
             "name": null,
             "phone1": "0291-2643881",
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -2075,20 +2063,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No contact number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jaipur",
             "id": "recLp5wxs5ZtJ87MA",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T15:00:32.000Z",
             "name": null,
             "phone1": null,
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -2828,20 +2814,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not available in stock. Available after 27/04/2021",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Alwar",
             "id": "recVYyxai1MrlKPiV",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T14:35:41.000Z",
             "name": null,
             "phone1": "9252760060",
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -3324,20 +3308,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not a valid number",
             "createdTime": "2021-04-23T08:21:11.000Z",
             "district": "Pune",
             "id": "recaUfejQis3eCfCu",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T14:51:46.000Z",
             "name": null,
             "phone1": null,
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -3531,16 +3513,31 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not a valid number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jaipur",
             "id": "reccbiJxJ1qzU9zE6",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T14:59:06.000Z",
             "name": null,
             "phone1": "9619806190",
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
+        },
+        {
+            "area": null,
+            "comment": null,
+            "createdTime": "2021-04-24T15:30:33.000Z",
+            "district": "Aurangabad",
+            "id": "reccdkPdvPTqYQWbj",
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": "9422496941",
+            "phone2": null,
+            "source": "Newspaper",
+            "state": "Bihar",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3719,20 +3716,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not a valid number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jaipur",
             "id": "recdrtTF8kUcMo7f9",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T14:58:47.000Z",
             "name": null,
             "phone1": "8947909823",
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -4242,9 +4237,7 @@
             "source": null,
             "state": "Punjab",
             "verificationStatus": "Unresponsive",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sangharsh Sapre"
         },
         {
             "area": null,
@@ -4635,20 +4628,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not a valid number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jaipur",
             "id": "reckd50sRFwuIwkb0",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T14:59:30.000Z",
             "name": null,
             "phone1": "9619806190",
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -4983,20 +4974,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Both the numbers are invalid",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kheda (Nadiad)",
             "id": "recogu9kfEHDTvmrs",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T14:52:35.000Z",
             "name": null,
             "phone1": "02692 - 2550433 2550533",
             "phone2": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,

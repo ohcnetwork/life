@@ -1,12 +1,8 @@
-import {
-    faPhoneAlt,
-    faLink,
-    faCheckCircle,
-    faExclamationTriangle
-} from '@fortawesome/free-solid-svg-icons';
+import { faPhoneAlt, faLink } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isVerified, parseDateString } from '../lib/utils';
 import React from 'react';
+import Badge from './Badge';
 
 const AmbulanceCard = ({
     name,
@@ -27,21 +23,6 @@ const AmbulanceCard = ({
                             <div className="font-bold text-2xl">
                                 <h1 className="flex items-center justify-start dark:text-white">
                                     {name ? name : 'Ambulance'}
-                                    <span>
-                                        {isVerified(verificationStatus) ? (
-                                            <FontAwesomeIcon
-                                                className="text-green-600 w-5 ml-4"
-                                                title="Verified"
-                                                icon={faCheckCircle}
-                                            />
-                                        ) : (
-                                            <FontAwesomeIcon
-                                                className="text-yellow-400 w-4 ml-4"
-                                                title="Not verified"
-                                                icon={faExclamationTriangle}
-                                            />
-                                        )}
-                                    </span>
                                 </h1>
                                 <div className="text-sm text-gray-700 font-semibold"></div>
                             </div>
@@ -84,22 +65,26 @@ const AmbulanceCard = ({
                                     />
                                 </a>
                             )}
+                            <Badge badgeType={verificationStatus || 'unverified'} />
                         </div>
                     </div>
                     <hr className="dark:border-gray-900" />
                     <div className="flex justify-between items-center mx-4 mt-2 pb-3">
                         <div className="text-gray-700 text-sm dark:text-white">
-                            {
-                                lastVerifiedOn &&
+                            {lastVerifiedOn && (
                                 <div className="text-gray-700 text-xs dark:text-white">
                                     <div>
-                                        <span>{isVerified(verificationStatus) ? "Verified on: " : "Checked on: "}</span>
+                                        <span>
+                                            {isVerified(verificationStatus)
+                                                ? 'Verified on: '
+                                                : 'Checked on: '}
+                                        </span>
                                         <span className="font-bold">
                                             {`${parseDateString(lastVerifiedOn)}`}
                                         </span>
                                     </div>
                                 </div>
-                            }
+                            )}
                         </div>
                     </div>
                 </div>

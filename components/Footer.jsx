@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { faHeart, faHandsHelping } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 const Footer = () => {
     return (
         <footer className="bg-gray-200 dark:bg-gray-1200 absolute top-full left-0 w-full py-10">
@@ -18,6 +17,13 @@ const Footer = () => {
                         type="button"
                         className="flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                         Support
+                    </button>
+                </Link>
+                <Link href="/about#partner">
+                    <button
+                        type="button"
+                        className="flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        Partner with Us
                     </button>
                 </Link>
             </section>
