@@ -1,4 +1,4 @@
-# Life | Coronasfe Network
+# Life | Coronasafe Network
 
 A database and API for life-fe
 
