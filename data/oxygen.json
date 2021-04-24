@@ -210,7 +210,7 @@
         {
             "availability": "Available",
             "city": null,
-            "comment": null,
+            "comment": "unreachable",
             "companyName": "Healthcare Scientific",
             "createdTime": "2021-04-24T03:12:29.000Z",
             "description": null,
@@ -219,7 +219,7 @@
             "homeDeliveryAvailable": "No",
             "id": "rec50C9ivhu0DmeQl",
             "instructions": "INR 15K for 10L O2 cylinder",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:11:51.000Z",
             "name": null,
             "phone1": 8700013641,
             "phone2": null,
@@ -229,10 +229,8 @@
             "type": [
                 "Cylinder"
             ],
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -279,6 +277,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Zenitha Das"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": null,
+            "companyName": null,
+            "createdTime": "2021-04-24T11:08:31.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "rec6MOy0kxPJ9Ffjn",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T11:08:31.000Z",
+            "name": null,
+            "phone1": 8918760223,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "West Bengal",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": "Barnali Banerjee"
         },
         {
             "availability": null,
@@ -2991,16 +3014,16 @@
         {
             "availability": "Available",
             "city": null,
-            "comment": null,
+            "comment": "available",
             "companyName": "Pune Air Products",
             "createdTime": "2021-04-24T03:07:00.000Z",
             "description": null,
             "district": "Pune",
             "emailId": null,
-            "homeDeliveryAvailable": "No",
+            "homeDeliveryAvailable": null,
             "id": "recfLAti5PIQZnp6a",
             "instructions": "12K per cylinder + INR 10 for daily rent for 7K Litres of O2",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:10:25.000Z",
             "name": null,
             "phone1": 9371015703,
             "phone2": 8048718876,
@@ -3010,10 +3033,8 @@
             "type": [
                 "Cylinder"
             ],
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": "Available",
