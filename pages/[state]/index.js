@@ -9,7 +9,6 @@ import { tabsInfo } from '../../lib/tabs';
 import { NextSeo } from 'next-seo';
 
 export default function State({ state }) {
-    // data.filter((el) => el.district.toLowerCase().includes(search));
     let districts = getDistricts(state);
     const [searchStr, setSearchStr] = useState('');
     const filterDistricts = districts.filter((el) =>
@@ -37,7 +36,7 @@ export default function State({ state }) {
                 <div className="max-w-xl">
                     <input
                         type="text"
-                        className="mt-6 w-full h-12 border-2 border-gray-400 rounded mb-2 focus:outline-none focus:border-indigo-600 text-xl px-8 bg-gray-200 dark:bg-gray-1200 dark:border-gray-800 placeholder-gray-500 dark:text-white placeholder-gray-500"
+                        className="mt-6 w-full h-12 border-2 border-gray-400 rounded mb-2 focus:outline-none focus:border-indigo-600 text-xl px-8 bg-gray-200 dark:bg-gray-1200 dark:border-gray-800 placeholder-gray-500 dark:text-white "
                         placeholder={`Search Districts of ${humanize(state)}`}
                         value={searchStr}
                         onChange={(e) => setSearchStr(e.target.value)}
@@ -45,19 +44,25 @@ export default function State({ state }) {
                 </div>
                 <div className="flex flex-wrap overflow-hidden mt-8">
                     {filterDistricts
-                    .sort((ex, ey) => ex.district.toLowerCase() < ey.district.toLowerCase() ? -1 : 1)
-                    .map((f) => (
-                        <div
-                            key={f.district}
-                            className="w-full rounded overflow-hidden md:w-1/2 mb-6 hover:bg-gray-200 dark:hover:bg-gray-1200">
-                            <div className="p-4">
-                                <Link href={`/${parametreize(state)}/${parametreize(f.district)}`}>
-                                    <span className="font-semibold text-2xl md:text-4xl py-6 hover:underline cursor-pointer dark:text-gray-200">
-                                        {humanize(f.district)}
-                                    </span>
-                                </Link>
-                                <div className="max-w-3xl mx-auto mt-6">
-                                    <TabLinks tabsInfo={tabsInfo} state={state} district={f} />
+                        .sort((ex, ey) =>
+                            ex.district.toLowerCase() < ey.district.toLowerCase() ? -1 : 1
+                        )
+                        .map((f) => (
+                            <div
+                                key={f.district}
+                                className="w-full rounded overflow-hidden md:w-1/2 mb-6 hover:bg-gray-200 dark:hover:bg-gray-1200">
+                                <div className="p-4">
+                                    <Link
+                                        href={`/${parametreize(state)}/${parametreize(
+                                            f.district
+                                        )}`}>
+                                        <span className="font-semibold text-2xl md:text-4xl py-6 hover:underline cursor-pointer dark:text-gray-200">
+                                            {humanize(f.district)}
+                                        </span>
+                                    </Link>
+                                    <div className="max-w-3xl mx-auto mt-6">
+                                        <TabLinks tabsInfo={tabsInfo} state={state} district={f} />
+                                    </div>
                                 </div>
                             </div>
                         ))}
