@@ -3,7 +3,8 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import {
     faPhoneAlt,
     faCheckCircle,
-    faExclamationTriangle
+    faExclamationTriangle,
+    faMapMarkerAlt
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { parseDateString } from '../lib/utils';
@@ -40,7 +41,8 @@ const HospitalCard = ({
                                 />
                             )}
                         </span>
-                        <div className="text-sm  uppercase mt-3 text-gray-700 dark:text-gray-400  font-semibold">
+                        <div className="text-sm uppercase mt-3 text-gray-700 dark:text-gray-400  font-semibold">
+                            <FontAwesomeIcon icon={faMapMarkerAlt} className="w-3 mr-2" />
                             <span className="mr-2">{district}</span>|
                             <span className="ml-2">{state}</span>
                         </div>
@@ -49,7 +51,7 @@ const HospitalCard = ({
                 <div className="flex space-x-7 items-start mt-1">
                     {phone1 && (
                         <a
-                            className="font-mono text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
+                            className="text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
                             href={`tel:${phone1}`}>
                             <FontAwesomeIcon
                                 title={`${phone1}`}
@@ -64,8 +66,18 @@ const HospitalCard = ({
             <hr />
             <div className="flex justify-between items-center px-2  mx-3 mt-2 pb-3 flex-wrap">
                 <div className="font-semibold dark:text-gray-400">{pointOfContact}</div>
-                <div className="font-mono text-gray-700 dark:text-gray-400 text-sm">
-                    {lastVerifiedOn && `Verified @ ${parseDateString(lastVerifiedOn)}`}
+                <div className="text-gray-700 dark:text-gray-400 text-sm">
+                    {
+                        lastVerifiedOn &&
+                        <div className="text-gray-700 text-xs dark:text-white">
+                            <div>
+                                <span>Checked on: </span>
+                                <span className="font-bold">
+                                    {`${parseDateString(lastVerifiedOn)}`}
+                                </span>
+                            </div>
+                        </div>
+                    }
                 </div>
             </div>
         </div>
