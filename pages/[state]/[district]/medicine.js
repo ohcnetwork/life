@@ -5,6 +5,7 @@ import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 import MedicinesCard from '../../../components/MedicinesCard';
 
+export const config = { amp: true };
 export default function Medicine({ state, district, medicineByDistrict }) {
     return (
         <div>
@@ -13,6 +14,14 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                     <title>
                         Medicines in {humanize(district)} , {humanize(state)}
                     </title>
+                    <script
+                        async
+                        custom-element="amp-bind"
+                        src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+                    <script
+                        async
+                        custom-element="amp-list"
+                        src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
                 </Head>
                 <Breadcumb
                     list={[
@@ -27,24 +36,35 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                     {humanize(district)}
                 </h1>
                 <div className="w-full space-y-4 mt-4 mb-4">
-                    {medicineByDistrict.map((p) => {
-                        return (
+                    <amp-state id="medicines">
+                        <script type="application/json">
+                            {{
+                                items: medicineByDistrict
+                            }}
+                        </script>
+                    </amp-state>
+                    <amp-list
+                        width="auto"
+                        height="100"
+                        layout="fixed-height"
+                        src="amp-state:medicines">
+                        <template type="amp-mustache">
                             <MedicinesCard
-                                key={p.id}
-                                verificationStatus={p.verificationStatus}
-                                name={p.name}
-                                distributorName={p.distributorName}
-                                city={p.city}
-                                phone1={p.phone1}
-                                address={p.address}
-                                description={p.description}
-                                createdTime={p.createdTime}
-                                slink={p.source_link}
-                                email={p.emailId}
-                                lastVerifiedOn={p.lastVerifiedOn}
+                                key={{ id }}
+                                verificationStatus={{ verificationStatus }}
+                                name={{ name }}
+                                distributorName={{ distributorName }}
+                                city={{ city }}
+                                phone1={{ phone1 }}
+                                address={{ address }}
+                                description={{ description }}
+                                createdTime={{ createdTime }}
+                                slink={{ source_link }}
+                                email={{ emailId }}
+                                lastVerifiedOn={{ lastVerifiedOn }}
                             />
-                        );
-                    })}
+                        </template>
+                    </amp-list>
                 </div>
             </section>
         </div>
@@ -52,13 +72,13 @@ export default function Medicine({ state, district, medicineByDistrict }) {
 }
 
 export async function getStaticProps({ params }) {
-  return {
-    props: {
-      state: params.state,
-      district: params.district,
-      medicineByDistrict: medicineByDistrict(params.state, params.district, true),
-    },
-  };
+    return {
+        props: {
+            state: params.state,
+            district: params.district,
+            medicineByDistrict: medicineByDistrict(params.state, params.district, true)
+        }
+    };
 }
 
 export async function getStaticPaths() {
