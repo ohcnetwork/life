@@ -29,9 +29,7 @@
             "phone2": 9495657880,
             "pointOfContact": "Dr. Manoj",
             "state": "Kerala",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Karthik Yadhati"
@@ -167,9 +165,7 @@
             "phone2": 9897226790,
             "pointOfContact": "Dr Sanchit Mittal",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Non covid hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -203,10 +199,8 @@
             "phone2": 9453019530,
             "pointOfContact": "Dr Rajneesh",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
-            "typeOfHospital": "Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Karthik Yadhati"
         },
@@ -239,10 +233,8 @@
             "phone2": 9415030615,
             "pointOfContact": "Dr Praveen Jain",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
-            "typeOfHospital": "Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Karthik Yadhati"
         },
@@ -292,10 +284,8 @@
             "phone2": 1412771777,
             "pointOfContact": "Dr Vikas Swarnkar ",
             "state": "Rajasthan",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
-            "typeOfHospital": "Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
         },
@@ -498,9 +488,7 @@
             "phone2": 9496651625,
             "pointOfContact": "Dr. Zinia",
             "state": "Kerala",
-            "subCategory": [
-                "Non covid hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Karthik Yadhati"
@@ -534,10 +522,8 @@
             "phone2": 8318748851,
             "pointOfContact": "Dr Jesudos S A",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Non covid hospital with ICU"
-            ],
-            "typeOfHospital": "Non-Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Karthik Yadhati"
         },
@@ -553,10 +539,8 @@
             "phone2": 7312920657,
             "pointOfContact": "Dr. Madhav Hasani",
             "state": "Madhya Pradesh",
-            "subCategory": [
-                "Covid Hospital without ICU"
-            ],
-            "typeOfHospital": "Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Karthik Yadhati"
         },
@@ -623,9 +607,7 @@
             "phone2": 9897955556,
             "pointOfContact": "Mr Manoj Agrawal",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Covid Hospital without ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Karthik Yadhati"
@@ -659,10 +641,8 @@
             "phone2": 9415937193,
             "pointOfContact": "Dr Rajesh Kumar Singh",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Non covid hospital with ICU"
-            ],
-            "typeOfHospital": "Non-Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Karthik Yadhati"
         },
@@ -678,9 +658,7 @@
             "phone2": 2612513555,
             "pointOfContact": "Chetanbhai",
             "state": "Punjab",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -731,9 +709,7 @@
             "phone2": 9496651625,
             "pointOfContact": "Dr. Ashish Mohan",
             "state": "Kerala",
-            "subCategory": [
-                "Non covid hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -801,9 +777,7 @@
             "phone2": 2637258021,
             "pointOfContact": "Pervez Daruwala",
             "state": "Punjab",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -854,9 +828,7 @@
             "phone2": null,
             "pointOfContact": "Dr. D. Nongpluh",
             "state": "Meghalaya",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Jasseerat Kaur"
@@ -890,9 +862,7 @@
             "phone2": 2652477777,
             "pointOfContact": "Dr Inderjeet",
             "state": "Punjab",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -1034,6 +1004,25 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-24T13:23:34.000Z",
+            "district": "Lucknow",
+            "id": "recCNAlr6T5uwO8GQ",
+            "lastVerifiedOn": null,
+            "name": "Gayatri Hospital",
+            "phone1": 9918101001,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "comment": "Didn't pick up the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -1051,6 +1040,25 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-24T13:27:03.000Z",
+            "district": "Lucknow",
+            "id": "recCiIBzbTs08Uofl",
+            "lastVerifiedOn": null,
+            "name": "Sunrise Hospital ",
+            "phone1": 9648845777,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "comment": "NON-COVID Hospital\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -1062,9 +1070,7 @@
             "phone2": 9811171555,
             "pointOfContact": "Dr Dinesh Chaudary",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Non covid hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -1132,10 +1138,8 @@
             "phone2": null,
             "pointOfContact": null,
             "state": "Madhya Pradesh",
-            "subCategory": [
-                "Quarantine hospital"
-            ],
-            "typeOfHospital": "Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
         },
@@ -1185,9 +1189,7 @@
             "phone2": 8935002601,
             "pointOfContact": "Dr K N Singh",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -1289,9 +1291,7 @@
             "phone2": null,
             "pointOfContact": "Dr. T W Momin",
             "state": "Meghalaya",
-            "subCategory": [
-                "Covid Hospital without ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -1325,9 +1325,7 @@
             "phone2": 9919494114,
             "pointOfContact": "Sanjeev Kumar(Mang)",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -1599,9 +1597,7 @@
             "phone2": 9856084064,
             "pointOfContact": "Dr. Z. Marak",
             "state": "Meghalaya",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Jasseerat Kaur"
@@ -1639,6 +1635,25 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Jasseerat Kaur"
+        },
+        {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-24T13:20:01.000Z",
+            "district": "Lucknow",
+            "id": "recKUm2dg2bu5pIQx",
+            "lastVerifiedOn": null,
+            "name": "Mercy hospital, LUCKNOW",
+            "phone1": 9455170204,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -1737,10 +1752,8 @@
             "phone2": null,
             "pointOfContact": null,
             "state": "Rajasthan",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
-            "typeOfHospital": "Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Jasseerat Kaur"
         },
@@ -1882,6 +1895,25 @@
         },
         {
             "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-24T13:29:53.000Z",
+            "district": "Lucknow",
+            "id": "recOh3hS6Vu3Yo7Za",
+            "lastVerifiedOn": null,
+            "name": "Lok Bandhu Hospital",
+            "phone1": 7897030844,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
             "comment": "beds are available depending on the patient's spo2 levels also since many patients have been transferred to this hospital by the government as of now only 1-2 beds are available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Gautam Buddha Nagar",
@@ -1892,9 +1924,7 @@
             "phone2": 9990099663,
             "pointOfContact": "Devesh Kumar Singh",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Covid Hospital without ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "sucharu asri"
@@ -1911,9 +1941,7 @@
             "phone2": null,
             "pointOfContact": "Dr. Jaulla K. Marak",
             "state": "Meghalaya",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "sucharu asri"
@@ -1951,6 +1979,25 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Jasseerat Kaur"
+        },
+        {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-24T15:34:17.000Z",
+            "district": "Gorakhpur",
+            "id": "recPcCheQ2xIFuR8C",
+            "lastVerifiedOn": null,
+            "name": "PS Hospital",
+            "phone1": 9415339267,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": "Available",
@@ -2049,9 +2096,7 @@
             "phone2": null,
             "pointOfContact": "Dr. Lyngkhoi",
             "state": "Meghalaya",
-            "subCategory": [
-                "Covid Hospital without ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -2119,9 +2164,7 @@
             "phone2": 7705816796,
             "pointOfContact": "Manish Kumar Rai",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Non covid hospital without ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "sucharu asri"
@@ -2138,9 +2181,7 @@
             "phone2": 9818110469,
             "pointOfContact": "Dr Suraj Kushwah",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "sucharu asri"
@@ -2174,9 +2215,7 @@
             "phone2": 2782424111,
             "pointOfContact": "Dr. Riddhesh\nLania",
             "state": "Punjab",
-            "subCategory": [
-                "Non covid hospital without ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -2329,9 +2368,7 @@
             "phone2": 9415208464,
             "pointOfContact": "Deo Prakash Rai",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Non covid hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -2382,9 +2419,7 @@
             "phone2": null,
             "pointOfContact": "Mr.shailesh",
             "state": "Punjab",
-            "subCategory": [
-                "Covid Hospital without ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -2571,9 +2606,7 @@
             "phone2": 8794052620,
             "pointOfContact": "Dr. H. Jyotidas",
             "state": "Meghalaya",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -2590,9 +2623,7 @@
             "phone2": 2632243833,
             "pointOfContact": "Dr. Devang Desai",
             "state": "Punjab",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -2626,9 +2657,7 @@
             "phone2": null,
             "pointOfContact": "Dr Sanjay Tripathi",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -2849,12 +2878,29 @@
             "phone2": 2637235726,
             "pointOfContact": "Dr. Faisal Bhura",
             "state": "Punjab",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
-            "typeOfHospital": "Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Jasseerat Kaur"
+        },
+        {
+            "availability": "Available",
+            "comment": "Beds without Oxygen",
+            "createdTime": "2021-04-24T13:20:42.000Z",
+            "district": "Lucknow",
+            "id": "recY2XswJhpBZfImu",
+            "lastVerifiedOn": null,
+            "name": "Takrohi Hospital ",
+            "phone1": 9452334488,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -2903,9 +2949,28 @@
             "pointOfContact": "Kuntal jain",
             "state": "Delhi (NCT)",
             "subCategory": null,
-            "typeOfHospital": "Covid Hospital",
+            "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": "Available",
+            "comment": "Taking only emergency and serious patients\nHave their own oxygen plant ",
+            "createdTime": "2021-04-24T13:22:14.000Z",
+            "district": "Lucknow",
+            "id": "recYbrfeGw8IWJKN8",
+            "lastVerifiedOn": null,
+            "name": "St.Joseph Hospital, gomti nagar",
+            "phone1": 7947145417,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -2957,6 +3022,25 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": "Available",
+            "comment": "Oxygen/ventilator available in Ambulance ",
+            "createdTime": "2021-04-24T13:18:43.000Z",
+            "district": "Lucknow",
+            "id": "recYqknNphWJh62L2",
+            "lastVerifiedOn": null,
+            "name": "Ambulance Services ",
+            "phone1": 9588160614,
+            "phone2": null,
+            "pointOfContact": "Lakhan ",
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -3072,9 +3156,7 @@
             "phone2": 2612238600,
             "pointOfContact": "Ashok Gajjar",
             "state": "Punjab",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -3159,9 +3241,7 @@
             "phone2": 7800455052,
             "pointOfContact": "Kamalnath",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Non covid hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -3417,7 +3497,7 @@
             "pointOfContact": "Dr Rajendra Munish",
             "state": "Uttar Pradesh",
             "subCategory": null,
-            "typeOfHospital": "Non-Covid Hospital",
+            "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
         },
@@ -3485,7 +3565,7 @@
             "pointOfContact": null,
             "state": "West Bengal",
             "subCategory": null,
-            "typeOfHospital": "Covid Hospital",
+            "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
         },
@@ -3552,11 +3632,8 @@
             "phone2": null,
             "pointOfContact": null,
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Maternity Hospital",
-                "Covid Hospital without ICU"
-            ],
-            "typeOfHospital": "Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
         },
@@ -3657,9 +3734,7 @@
             "phone2": null,
             "pointOfContact": "Dr. R. Pohrmen",
             "state": "Meghalaya",
-            "subCategory": [
-                "Covid Hospital without ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Jasseerat Kaur"
@@ -3761,9 +3836,7 @@
             "phone2": 9792203208,
             "pointOfContact": "Mr Yogesh",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Non covid hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -3780,16 +3853,8 @@
             "phone2": null,
             "pointOfContact": null,
             "state": "Haryana",
-            "subCategory": [
-                "Non covid hospital with ICU",
-                "Maternity Hospital",
-                "Non covid hospital without ICU",
-                "Quarantine hospital",
-                "Paedriatic (Children) hospital",
-                "Covid Hospital with ICU",
-                "Covid Hospital without ICU"
-            ],
-            "typeOfHospital": "Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
         },
@@ -3822,9 +3887,7 @@
             "phone2": 9863060371,
             "pointOfContact": "Dr. Papia Chakraborty",
             "state": "Meghalaya",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -3943,9 +4006,7 @@
             "phone2": 9358617603,
             "pointOfContact": "Dr Ashok Agarwal",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -3996,9 +4057,7 @@
             "phone2": 7055754433,
             "pointOfContact": "Anurag Jha",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Non covid hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -4542,10 +4601,8 @@
             "phone2": null,
             "pointOfContact": null,
             "state": "Haryana",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
-            "typeOfHospital": "Non-Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
         },
@@ -4578,10 +4635,8 @@
             "phone2": 9820959828,
             "pointOfContact": null,
             "state": "Maharashtra",
-            "subCategory": [
-                "Covid Hospital without ICU"
-            ],
-            "typeOfHospital": "Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -4599,9 +4654,7 @@
             "phone2": null,
             "pointOfContact": "Sister Jasine",
             "state": "Meghalaya",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Jasseerat Kaur"
@@ -4839,9 +4892,7 @@
             "phone2": 9837602917,
             "pointOfContact": "Dr Vijay Kumar Gautam",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Non covid hospital without ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -5136,6 +5187,25 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "availability": "Available",
+            "comment": "Oxygen Beds available ",
+            "createdTime": "2021-04-24T13:17:04.000Z",
+            "district": "Lucknow",
+            "id": "recpmoALlI3cDhuPf",
+            "lastVerifiedOn": null,
+            "name": "Maa Chandrika Devi Hospital ",
+            "phone1": 9140190282,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "comment": "Call Drop",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -5215,9 +5285,7 @@
             "phone2": 2612571011,
             "pointOfContact": "Dr. Hitesh Kakadia",
             "state": "Punjab",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -5320,7 +5388,7 @@
             "pointOfContact": "Dr. Dharampal Jain",
             "state": "Haryana",
             "subCategory": null,
-            "typeOfHospital": "Non-Covid Hospital",
+            "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
         },
@@ -5387,9 +5455,7 @@
             "phone2": 2637239980,
             "pointOfContact": "Dr. N.G Shah",
             "state": "Punjab",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -5406,9 +5472,7 @@
             "phone2": null,
             "pointOfContact": "Dr. Premkumar",
             "state": "Puducherry (UT)",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -5681,7 +5745,7 @@
             "pointOfContact": "Covid Helpline",
             "state": "Haryana",
             "subCategory": null,
-            "typeOfHospital": "Covid Hospital",
+            "typeOfHospital": null,
             "verificationStatus": null,
             "verifiedBy": "Varun Kumar"
         },
@@ -5737,6 +5801,25 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
+            "availability": "Available",
+            "comment": "Oxygen/Ventilator Beds available \n",
+            "createdTime": "2021-04-24T13:14:39.000Z",
+            "district": "Lucknow",
+            "id": "recwJIRNC5HITStj5",
+            "lastVerifiedOn": null,
+            "name": "Ambulance ",
+            "phone1": 8826602001,
+            "phone2": null,
+            "pointOfContact": "Rajeev Kumar ",
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "comment": "no beds",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -5782,9 +5865,7 @@
             "phone2": 9506211118,
             "pointOfContact": "Saurabh Singh",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Non covid hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -5921,7 +6002,7 @@
             "pointOfContact": "KARAN BHUTANI",
             "state": "Haryana",
             "subCategory": null,
-            "typeOfHospital": "Covid Hospital",
+            "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
         },
@@ -5971,10 +6052,8 @@
             "phone2": null,
             "pointOfContact": null,
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Covid Hospital without ICU"
-            ],
-            "typeOfHospital": "Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Harnoor Saini"
         },
@@ -6092,9 +6171,7 @@
             "phone2": 8837001912,
             "pointOfContact": "Dr. Alka Flora Marak",
             "state": "Meghalaya",
-            "subCategory": [
-                "Covid Hospital without ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
@@ -6179,10 +6256,8 @@
             "phone2": 2786640000,
             "pointOfContact": "Dr. Parth Pandya",
             "state": "Punjab",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
-            "typeOfHospital": "Covid Hospital",
+            "subCategory": null,
+            "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Karthik Yadhati"
         },
@@ -6232,9 +6307,7 @@
             "phone2": 9450200707,
             "pointOfContact": "Indrashan",
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Non covid hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"

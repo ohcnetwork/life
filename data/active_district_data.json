@@ -3104,7 +3104,7 @@
             "id": "recPaZWzd1QHiUtgB",
             "medicine": false,
             "oxygen": false,
-            "plasma": false,
+            "plasma": true,
             "state": "Assam"
         },
         {
@@ -6540,7 +6540,7 @@
             "state": "Uttar Pradesh"
         },
         {
-            "ambulance": false,
+            "ambulance": true,
             "contact": false,
             "district": "Saharanpur",
             "doctor": false,
@@ -6549,7 +6549,7 @@
             "id": "recpUoqUjESG1qDdQ",
             "medicine": false,
             "oxygen": false,
-            "plasma": false,
+            "plasma": true,
             "state": "Uttar Pradesh"
         },
         {
