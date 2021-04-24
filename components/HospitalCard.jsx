@@ -26,8 +26,7 @@ const HospitalCard = ({
                     <div className="font-bold text-2xl dark:text-white">
                         {name}
                         <span>
-                            {(verificationStatus && verificationStatus.toLocaleLowerCase()) ==
-                            'verified' ? (
+                            {isVerified(verificationStatus) ? (
                                 <FontAwesomeIcon
                                     className="text-green-600 w-2 md:w-4 ml-4"
                                     title="Verified"
@@ -66,13 +65,17 @@ const HospitalCard = ({
             <hr className="dark:border-gray-900" />
             <div className="flex justify-between items-center px-2  mx-3 mt-2 pb-3 flex-wrap">
                 <div className="font-semibold dark:text-gray-400">{pointOfContact}</div>
-                <div className="font-mono text-gray-700 dark:text-gray-400 text-sm">
+                <div className="text-gray-700 dark:text-gray-400 text-sm">
                     {
-                        lastVerifiedOn ? (
-                            verificationStatus && verificationStatus.toLocaleLowerCase() == 'verified' ?
-                                `Verified @ ${parseDateString(lastVerifiedOn)}` :
-                                `Last Checked @ ${parseDateString(lastVerifiedOn)}`
-                        ) : ''
+                        lastVerifiedOn &&
+                        <div className="text-gray-700 text-xs dark:text-white">
+                            <div>
+                                <span>{isVerified(verificationStatus) ? "Verified on: " : "Checked on: "}</span>
+                                <span className="font-bold">
+                                    {parseDateString(lastVerifiedOn)}
+                                </span>
+                            </div>
+                        </div>
                     }
                 </div>
             </div>

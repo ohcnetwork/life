@@ -5,7 +5,7 @@ import {
     faExclamationTriangle
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { parseDateString } from '../lib/utils';
+import { isVerified, parseDateString } from '../lib/utils';
 import React from 'react';
 
 const AmbulanceCard = ({
@@ -28,8 +28,7 @@ const AmbulanceCard = ({
                                 <h1 className="flex items-center justify-start dark:text-white">
                                     {name ? name : 'Ambulance'}
                                     <span>
-                                        {verificationStatus &&
-                                        verificationStatus.toLocaleLowerCase() == 'verified' ? (
+                                        {isVerified(verificationStatus) ? (
                                             <FontAwesomeIcon
                                                 className="text-green-600 w-5 ml-4"
                                                 title="Verified"
@@ -88,13 +87,17 @@ const AmbulanceCard = ({
                     </div>
                     <hr className="dark:border-gray-900" />
                     <div className="flex justify-between items-center mx-4 mt-2 pb-3">
-                        <div className="font-mono text-gray-700 text-sm dark:text-white">
+                        <div className="text-gray-700 text-sm dark:text-white">
                             {
-                                lastVerifiedOn ? (
-                                    verificationStatus && verificationStatus.toLocaleLowerCase() == 'verified' ?
-                                        `Verified @ ${parseDateString(lastVerifiedOn)}` :
-                                        `Last Checked @ ${parseDateString(lastVerifiedOn)}`
-                                ) : ''
+                                lastVerifiedOn &&
+                                <div className="text-gray-700 text-xs dark:text-white">
+                                    <div>
+                                        <span>{isVerified(verificationStatus) ? "Verified on: " : "Checked on: "}</span>
+                                        <span className="font-bold">
+                                            {`${parseDateString(lastVerifiedOn)}`}
+                                        </span>
+                                    </div>
+                                </div>
                             }
                         </div>
                     </div>

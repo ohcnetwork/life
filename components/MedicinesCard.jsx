@@ -7,7 +7,7 @@ import {
     faEnvelope
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { parseDateString } from '../lib/utils';
+import { isVerified, parseDateString } from '../lib/utils';
 
 const MedicinesCard = ({
     verificationStatus,
@@ -30,8 +30,7 @@ const MedicinesCard = ({
                         <h1 className="flex dark:text-white items-center justify-start">
                             {name}
                             <span>
-                                {(verificationStatus && verificationStatus.toLocaleLowerCase()) ==
-                                'verified' ? (
+                                {isVerified(verificationStatus) ? (
                                     <FontAwesomeIcon
                                         className="text-green-600 w-5 "
                                         title="Verified"
@@ -96,13 +95,17 @@ const MedicinesCard = ({
             <hr className="dark:border-gray-900" />
             <div className="flex justify-between items-center mx-4 mt-2 pb-3 flex-wrap">
                 <div className="font-semibold dark:text-gray-400">{description}</div>
-                <div className="font-mono text-gray-700 dark:text-gray-400 text-sm">
+                <div className="text-gray-700 dark:text-gray-400 text-sm">
                     {
-                        lastVerifiedOn ? (
-                            verificationStatus && verificationStatus.toLocaleLowerCase() == 'verified' ?
-                                `Verified @ ${parseDateString(lastVerifiedOn)}` :
-                                `Last Checked @ ${parseDateString(lastVerifiedOn)}`
-                        ) : ''
+                        lastVerifiedOn &&
+                        <div className="text-gray-700 text-xs dark:text-white">
+                            <div>
+                                <span>{isVerified(verificationStatus) ? "Verified on: " : "Checked on: "}</span>
+                                <span className="font-bold">
+                                    {parseDateString(lastVerifiedOn)}
+                                </span>
+                            </div>
+                        </div>
                     }
                 </div>
             </div>
