@@ -20,13 +20,13 @@ const HospitalCard = ({
 }) => {
     return (
         <div className="bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
-            <div className="p-4 flex justify-between">
+            <div className="p-4 flex justify-between flex-wrap">
                 <div>
                     <div className="font-bold text-2xl dark:text-white">
                         {name}
                         <span>
                             {(verificationStatus && verificationStatus.toLocaleLowerCase()) ==
-                            'verified' ? (
+                                'verified' ? (
                                 <FontAwesomeIcon
                                     className="text-green-600 w-5 ml-4"
                                     title="Verified"
@@ -46,7 +46,7 @@ const HospitalCard = ({
                         </div>
                     </div>
                 </div>
-                <div className="flex space-x-7 items-start">
+                <div className="flex space-x-7 items-start mt-1">
                     {phone1 && (
                         <a
                             className="font-mono text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
@@ -62,7 +62,7 @@ const HospitalCard = ({
                 </div>
             </div>
             <hr />
-            <div className="flex justify-between items-center px-2  mx-2 mt-2 pb-3">
+            <div className="flex justify-between items-center px-2  mx-3 mt-2 pb-3 flex-wrap">
                 <div className="font-semibold dark:text-gray-400">{pointOfContact}</div>
                 <div className="font-mono text-gray-700 dark:text-gray-400 text-sm">
                     {lastVerifiedOn && `Verified @ ${parseDateString(lastVerifiedOn)}`}
