@@ -107,23 +107,23 @@
             ]
         },
         {
-            "availability": null,
-            "comment": null,
+            "availability": "Available",
+            "comment": "15 beds available with oxygen, can be converted into ICU as well",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Palakkad",
             "id": "rec0NirkuJmTGdHsy",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T07:03:54.000Z",
             "name": "Taluk Hq Hospital Ottappalam",
             "phone1": null,
             "phone2": 9495657880,
             "pointOfContact": "Dr. Manoj",
             "state": "Kerala",
-            "subCategory": null,
+            "subCategory": [
+                "Covid Hospital with ICU"
+            ],
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "availability": null,
@@ -250,7 +250,7 @@
             "createdTime": "2021-04-23T15:26:52.000Z",
             "district": "Nainital",
             "id": "rec1BDNP6lOvZ9rND",
-            "lastVerifiedOn": "2021-04-23T15:26:52.000Z",
+            "lastVerifiedOn": "2021-04-24T06:45:11.000Z",
             "name": "Sushila tiwari hospital haldwani",
             "phone1": null,
             "phone2": null,
@@ -260,10 +260,8 @@
                 "Covid Hospital without ICU"
             ],
             "typeOfHospital": "Covid Hospital",
-            "verificationStatus": "Verified",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -1905,7 +1903,7 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Latur",
             "id": "recAHMoDMlOuqpg1f",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:43:57.000Z",
             "name": "Rural Hospital, Devani",
             "phone1": 9272102181,
             "phone2": null,
@@ -1913,10 +1911,8 @@
             "state": "Maharashtra",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -1971,11 +1967,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "User Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Moradabad",
             "id": "recAg6gdWim5xaGLI",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:46:37.000Z",
             "name": "Siddh Multispeciality Hospital",
             "phone1": 6396852002,
             "phone2": 9412235166,
@@ -1983,10 +1979,8 @@
             "state": "Uttar Pradesh",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -2024,11 +2018,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "POC left working here 2yrs ago.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Firozabad",
             "id": "recBc7FOWDQKkSFHu",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:49:21.000Z",
             "name": "Sevarth Sansthan Trauma And Physiotheraphy Dharmarth Samiti",
             "phone1": 8923335331,
             "phone2": 9837034050,
@@ -2036,10 +2030,8 @@
             "state": "Uttar Pradesh",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -2077,22 +2069,20 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "12 free beds for covid patient\n14 oxygen beds in which 6 are icu beds",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "East Garo Hills",
             "id": "recBpxRkL6laoTaIY",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:58:22.000Z",
             "name": "Civil Hospital Khliehriat",
-            "phone1": 8132009417,
+            "phone1": 9436103945,
             "phone2": 9856019406,
-            "pointOfContact": "Dr. Lakiang",
+            "pointOfContact": "Dr. Andrias Dkhar",
             "state": "Meghalaya",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": "Not Available",
@@ -2117,7 +2107,7 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nadia",
             "id": "recC2QDIfrv4H0UeX",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:51:35.000Z",
             "name": "Snr Carnival Hospital",
             "phone1": 3365010669,
             "phone2": null,
@@ -2125,10 +2115,8 @@
             "state": "West Bengal",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -2170,11 +2158,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "Didn't pick up the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bikaner",
             "id": "recCSL9ECTja0ynpy",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T07:01:32.000Z",
             "name": "Mch Wing Pbm Hospital",
             "phone1": 1512226331,
             "phone2": null,
@@ -2182,10 +2170,8 @@
             "state": "Rajasthan",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -2193,7 +2179,7 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
             "id": "recCdyBufhGdvqteH",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T07:02:57.000Z",
             "name": "North  City Hospital",
             "phone1": 3366050999,
             "phone2": null,
@@ -2201,10 +2187,8 @@
             "state": "West Bengal",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -2295,11 +2279,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "Busy on some other call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
             "id": "recDPexeI8yPGYklg",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T07:03:20.000Z",
             "name": "Calcutta Heart  Clinic",
             "phone1": 3323585735,
             "phone2": null,
@@ -2307,10 +2291,8 @@
             "state": "West Bengal",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -2382,11 +2364,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "Didn't pick up the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Howrah",
             "id": "recDb6gFRuGzamlyj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T07:04:21.000Z",
             "name": "Sanjivani Nursing Home",
             "phone1": 9230518611,
             "phone2": null,
@@ -2394,10 +2376,8 @@
             "state": "West Bengal",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": "Available",
@@ -2439,11 +2419,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "User Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Surat",
             "id": "recDexuS2vaV7oi8K",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T07:04:53.000Z",
             "name": "Mission Hospital",
             "phone1": 9924448034,
             "phone2": 2612667591,
@@ -2451,10 +2431,8 @@
             "state": "Gujarat",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": "Not Available",
@@ -2515,7 +2493,7 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
             "id": "recEIZ1IA6YqD6ink",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T07:05:19.000Z",
             "name": "Ils Dumdum",
             "phone1": 3340315000,
             "phone2": null,
@@ -2523,10 +2501,8 @@
             "state": "West Bengal",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -2926,31 +2902,31 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "availability": null,
-            "comment": null,
+            "availability": "Not Available",
+            "comment": "10 beds for Fully occupied( covid+oxygen)\n5 icu beds \n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kaushambi",
             "id": "recG5ZHln4lrGqu9J",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T07:08:37.000Z",
             "name": "Tejmati Hospital",
             "phone1": 9161722518,
             "phone2": 9919494114,
-            "pointOfContact": "Dr Neetu",
+            "pointOfContact": "Sanjeev Kumar(Mang)",
             "state": "Uttar Pradesh",
-            "subCategory": null,
+            "subCategory": [
+                "Covid Hospital with ICU"
+            ],
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "User Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Unnao",
             "id": "recG6K1wz6XBSwOwZ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T07:09:23.000Z",
             "name": "Shri Ram Murti Smarak Hospital",
             "phone1": 9412738652,
             "phone2": 9412293353,
@@ -2958,10 +2934,8 @@
             "state": "Uttar Pradesh",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -3094,7 +3068,7 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jalore",
             "id": "recGXz7wVrbdVA8IE",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T07:06:15.000Z",
             "name": "Govt. Bhandari General Hospital",
             "phone1": 9414266794,
             "phone2": null,
@@ -3102,10 +3076,8 @@
             "state": "Rajasthan",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -3198,7 +3170,7 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kanpur Dehat",
             "id": "recHDUzcdw7C50ipw",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:50:02.000Z",
             "name": "D.S Memorial Hospital",
             "phone1": 7572066699,
             "phone2": 7572066699,
@@ -3206,10 +3178,8 @@
             "state": "Uttar Pradesh",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Harnoor Saini"
         },
         {
             "availability": null,
@@ -3336,11 +3306,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "Not a valid number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Gadag",
             "id": "recHrEULjdHVqACEH",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:55:16.000Z",
             "name": "Gadag Institute Of Medical Sciences Gadag",
             "phone1": 8372297224,
             "phone2": null,
@@ -3348,18 +3318,16 @@
             "state": "Karnataka",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "All beds full\nReluctant on giving more info about the beds without patient details \n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Surat",
             "id": "recHrkr49BBFjtuPQ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:53:43.000Z",
             "name": "Mahavir Hospital",
             "phone1": 7567443733,
             "phone2": 261408200,
@@ -3367,10 +3335,8 @@
             "state": "Gujarat",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Harnoor Saini"
         },
         {
             "availability": null,
@@ -5221,11 +5187,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "2 oxygen beds available \n1 Non-oxygen bed available \nICU beds are full \n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Sikar",
             "id": "recS2fE2f035sWHRg",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:58:38.000Z",
             "name": "Shri Ram Trauma & Super Specialty Hospital",
             "phone1": 9783859589,
             "phone2": null,
@@ -5233,10 +5199,8 @@
             "state": "Rajasthan",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Harnoor Saini"
         },
         {
             "availability": null,
@@ -6253,7 +6217,7 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kannur",
             "id": "recWyaV2psPgPoPUK",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:45:28.000Z",
             "name": "District Hospital",
             "phone1": null,
             "phone2": 9961730233,
@@ -6261,10 +6225,8 @@
             "state": "Kerala",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "availability": null,
@@ -6272,7 +6234,7 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Raichur",
             "id": "recWzJlBajIw5FuN6",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:44:14.000Z",
             "name": "Rims",
             "phone1": 8532238489,
             "phone2": null,
@@ -6280,10 +6242,8 @@
             "state": "Karnataka",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "availability": null,
@@ -6887,11 +6847,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Idukki",
             "id": "recZMe4fmik1dum1h",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:59:55.000Z",
             "name": "District Hospital Thodupuzha",
             "phone1": null,
             "phone2": 9496357226,
@@ -6899,10 +6859,8 @@
             "state": "Kerala",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "availability": null,
@@ -12282,23 +12240,23 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "availability": null,
-            "comment": null,
+            "availability": "Available",
+            "comment": "8 available beds ",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "South West Garo Hills ",
             "id": "recz8CVazVQJZV6SH",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:37:18.000Z",
             "name": "Civil Hospital Ampati",
             "phone1": 9436118974,
             "phone2": 8837001912,
             "pointOfContact": "Dr. Alka Flora Marak",
             "state": "Meghalaya",
-            "subCategory": null,
+            "subCategory": [
+                "Covid Hospital without ICU"
+            ],
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -12319,11 +12277,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "User Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Sikar",
             "id": "reczDhbjhHzRUmJHw",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:35:14.000Z",
             "name": "Dhayal Hospital & Research Center",
             "phone1": 9636785947,
             "phone2": null,
@@ -12331,10 +12289,8 @@
             "state": "Rajasthan",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -12439,23 +12395,23 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "availability": null,
-            "comment": null,
+            "availability": "Not Available",
+            "comment": "As on 24th April, beds are not available.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bhavnagar",
             "id": "reczbAwchSTGXxF8d",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:37:33.000Z",
             "name": "Hcg Hospital",
             "phone1": 9925537507,
             "phone2": 2786640000,
             "pointOfContact": "Dr. Parth Pandya",
             "state": "Gujarat",
-            "subCategory": null,
-            "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "subCategory": [
+                "Covid Hospital with ICU"
+            ],
+            "typeOfHospital": "Covid Hospital",
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "availability": null,
@@ -12527,11 +12483,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "Didn't pick up the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kottayam",
             "id": "reczmz8MXA0ZWch0E",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T06:39:02.000Z",
             "name": "General Hospital Kottayam",
             "phone1": 9447347282,
             "phone2": null,
@@ -12539,10 +12495,8 @@
             "state": "Kerala",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,

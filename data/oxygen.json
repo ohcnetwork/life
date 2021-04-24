@@ -3392,6 +3392,34 @@
             "verifiedBy": "Archisha Singh"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": "Aryan Oxygen Service",
+            "createdTime": "2021-04-24T06:47:50.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recrv7dhmfNumZfsE",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T06:47:50.000Z",
+            "name": null,
+            "phone1": 9007427926,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Twitter",
+            "state": "West Bengal",
+            "type": [
+                "Cans",
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "Switched off\n",
