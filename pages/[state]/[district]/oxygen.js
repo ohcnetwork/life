@@ -49,7 +49,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
                                 fstate={state}
                                 fdistrict={district}
                                 createdTime={o.createdTime}
-                                verifiedStatus={o.verificationStatus}
+                                verificationStatus={o.verificationStatus}
                                 lastVerifiedOn={o.lastVerifiedOn}
                             />
                         );
