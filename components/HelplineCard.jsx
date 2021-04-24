@@ -19,19 +19,19 @@ const HelplineCard = ({
 }) => {
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
-            <div className="w-full flex">
+            <div className="w-full flex items-center pt-2">
                 <span
-                    className="ml-auto"
+                    className="ml-auto w-8 cursor-pointer"
                     onClick={() => {
                         copyToClipboard(`
-                                Name: ${name ? name : ''}
+                                Name: ${name ? name : 'Helpline'}
                                 Contact: ${phone1}
                                 `);
                         alert('Copied!');
                     }}>
                     <FontAwesomeIcon
-                        className="text-gray-600 w-4 mr-4 pt-2"
-                        title="Share on Facebook"
+                        className="text-gray-600 w-4 mr-4"
+                        title="Click to Copy"
                         icon={faCopy}
                     />
                 </span>

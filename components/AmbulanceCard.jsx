@@ -21,7 +21,7 @@ const AmbulanceCard = ({
                 <div className="bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
                     <div className="w-full flex items-center pt-2">
                         <span
-                            className="w-8 ml-auto"
+                            className="w-8 ml-auto cursor-pointer"
                             onClick={() => {
                                 copyToClipboard(`
                                 Name: ${name ? name : 'Ambulance'}

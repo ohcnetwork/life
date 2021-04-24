@@ -21,10 +21,10 @@ const PlasmaCard = ({
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="w-full flex items-center pt-2">
                 <span
-                    className="ml-auto w-8"
+                    className="ml-auto w-8 cursor-pointer"
                     onClick={() => {
                         copyToClipboard(`
-                                Name: ${name ? name : 'Ambulance'}
+                                Name: ${name ? name : 'Plasma'}
                                 Contact: ${phone1 ? phone1 : ''}
                                 `);
                         alert('Copied!');
