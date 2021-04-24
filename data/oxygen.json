@@ -565,6 +565,31 @@
             "availability": "Available",
             "city": null,
             "comment": null,
+            "companyName": "Thamwardas Chotelal",
+            "createdTime": "2021-04-24T05:29:58.000Z",
+            "description": null,
+            "district": "Jodhpur",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recCNCXUMFWBnUcq8",
+            "instructions": null,
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": 9829025500,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Verified by a friend over there",
+            "state": "Rajasthan",
+            "type": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
             "companyName": "Oxygen99",
             "createdTime": "2021-04-23T21:21:28.000Z",
             "description": null,
@@ -1166,6 +1191,35 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": "K M medical Solutions, Gende waali sadak",
+            "createdTime": "2021-04-24T05:31:29.000Z",
+            "description": null,
+            "district": "Gwalior",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recJEMCL88xiLKdxD",
+            "instructions": null,
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": 917947389052,
+            "phone2": null,
+            "sourceLink": "https://www.justdial.com/Gwalior/K-M-Medical-Solutions-Near-Dainik-Madhya-Rajya-Press-Lashkar/9999PX751-X751-200406174822-F5Q5_BZDET?catid=&checkin=&checkout=&vpfs=&stxt=Oxygen%2520Cylinder%2520Dealers&nid=10346749&stype=category_list&search=Oxygen-Cylinder-Dealers&area=Near%20Dainik%20Madhya%20Rajya%20Press%20Lashkar&type=Surgical%20Equipment%20Dealers&totalJdReviews=undefined&bdmsgtype=1&bdcaptiontype=4&bdpage=rsltpge&bdText=Best%20Deal&srcterm=K%2520M%2520Medical%2520Solutions",
+            "sourceName": "Just Dial",
+            "state": "Madhya Pradesh",
+            "type": [
+                "Cylinder",
+                "Concentrator",
+                "Cans"
+            ],
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
