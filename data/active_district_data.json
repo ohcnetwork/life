@@ -2537,7 +2537,7 @@
         },
         {
             "ambulance": false,
-            "contact": false,
+            "contact": true,
             "district": "Kanpur Nagar",
             "doctor": false,
             "helpline": true,
