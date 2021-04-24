@@ -36,7 +36,7 @@ const CampaignCard = ({ name, text, logoUrl, donate }) => {
                 className="w-full rounded flex cursor-pointer my-4 mx-auto justify-center text-white py-2 bg-indigo-600 hover:bg-indigo-700"
                 target="_blank">
                 <FontAwesomeIcon
-                    className="text-white w-5"
+                    className="text-white w-5 mr-3"
                     title="Donate"
                     icon={faDonate}
                 />
