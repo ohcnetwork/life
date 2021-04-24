@@ -33,10 +33,10 @@ const CampaignCard = ({ name, text, logoUrl, donate }) => {
 
             <a
                 href={donate}
-                className="block w-full rounded flex cursor-pointer my-4 mx-auto justify-center dark:text-white py-2 bg-indigo-600"
+                className="w-full rounded flex cursor-pointer my-4 mx-auto justify-center text-white py-2 bg-indigo-600 hover:bg-indigo-700"
                 target="_blank">
                 <FontAwesomeIcon
-                    className="dark:text-white h-6 w-1/12"
+                    className="text-white w-5"
                     title="Donate"
                     icon={faDonate}
                 />
