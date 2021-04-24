@@ -9,7 +9,6 @@ jobs:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@v2
-      - if: github.ref == 'refs/heads/main'
       - name: Create local changes
         run: |
           pip3 install -r scraper/requirements.txt 
