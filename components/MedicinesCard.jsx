@@ -21,11 +21,7 @@ const MedicinesCard = ({
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="w-full">
                 <p
-                    className="text-3xl"
-                    style={{
-                        width: '40px',
-                        marginLeft: 'auto'
-                    }}
+                    className="text-3xl ml-auto w-8"
                     onClick={() => {
                         copyToClipboard(`
                                 Name: ${name ? name : ''}
@@ -43,7 +39,6 @@ const MedicinesCard = ({
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
                     <div className="font-bold text-2xl">
-
                         <h1 className="flex dark:text-white items-center justify-start">{name}</h1>
                         {city && (
                             <div className="text-sm text-gray-700 dark:text-gray-200 font-semibold">

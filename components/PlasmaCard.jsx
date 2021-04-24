@@ -21,11 +21,7 @@ const PlasmaCard = ({
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="w-full">
                 <p
-                    className="text-3xl"
-                    style={{
-                        width: '40px',
-                        marginLeft: 'auto'
-                    }}
+                    className="text-3xl ml-auto w-8"
                     onClick={() => {
                         copyToClipboard(`
                                 Name: ${name ? name : 'Ambulance'}

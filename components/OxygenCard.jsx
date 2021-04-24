@@ -1,10 +1,6 @@
 import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import {
-    faLink,
-    faPhoneAlt,
-    faCopy,
-} from '@fortawesome/free-solid-svg-icons';
+import { faLink, faPhoneAlt, faCopy } from '@fortawesome/free-solid-svg-icons';
 import Badge from './Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isVerified, parseDateString, copyToClipboard } from '../lib/utils';
@@ -27,11 +23,7 @@ const OxygenCard = ({
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="w-full">
                 <p
-                    className="text-3xl"
-                    style={{
-                        width: '40px',
-                        marginLeft: 'auto'
-                    }}
+                    className="text-3xl ml-auto w-8"
                     onClick={() => {
                         copyToClipboard(`
                                 Name: ${name ? name : 'Ambulance'}
@@ -49,9 +41,7 @@ const OxygenCard = ({
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
                     <div className="font-bold text-2xl dark:text-white">
-                        <h1>
-                            {name}
-                        </h1>
+                        <h1>{name}</h1>
                         <div className="text-sm  uppercase mt-3 text-gray-700 dark:text-gray-400 font-semibold">
                             <span className="mr-2">{fdistrict}</span>|
                             <span className="ml-2">{fstate}</span>
@@ -88,9 +78,7 @@ const OxygenCard = ({
                         </a>
                     )}
                     <span>
-                        <Badge
-                            badgeType={verificationStatus || 'unverified'}
-                        />
+                        <Badge badgeType={verificationStatus || 'unverified'} />
                     </span>
                 </div>
             </div>
