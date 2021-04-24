@@ -7,6 +7,7 @@ import MedicinesCard from '../../../components/MedicinesCard';
 
 export const config = { amp: true };
 export default function Medicine({ state, district, medicineByDistrict }) {
+    console.log(JSON.stringify({ items: medicineByDistrict }).toString());
     return (
         <div>
             <section className="flex flex-col ml-2 md:pt-10">
@@ -37,11 +38,13 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                 </h1>
                 <div className="w-full space-y-4 mt-4 mb-4">
                     <amp-state id="medicines">
-                        <script type="application/json">
-                            {{
-                                items: medicineByDistrict
-                            }}
-                        </script>
+                        <script
+                            type="application/json"
+                            dangerouslySetInnerHTML={{
+                                __html: JSON.stringify({
+                                    items: medicineByDistrict
+                                })
+                            }}></script>
                     </amp-state>
                     <amp-list
                         width="auto"
@@ -49,7 +52,7 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                         layout="fixed-height"
                         src="amp-state:medicines">
                         <template type="amp-mustache">
-                            <MedicinesCard
+                            {/* <MedicinesCard
                                 key={{ id }}
                                 verificationStatus={{ verificationStatus }}
                                 name={{ name }}
@@ -62,7 +65,7 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                                 slink={{ source_link }}
                                 email={{ emailId }}
                                 lastVerifiedOn={{ lastVerifiedOn }}
-                            />
+                            /> */}
                         </template>
                     </amp-list>
                 </div>
