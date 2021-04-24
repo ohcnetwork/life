@@ -2011,7 +2011,7 @@
             "hospitals": false,
             "id": "recEqhyaBXtJnUEoE",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Maharashtra"
         },

@@ -587,6 +587,29 @@
             ]
         },
         {
+            "availability": null,
+            "city": null,
+            "comment": "Unavailable at the moment",
+            "companyName": "M/S. Life Care",
+            "createdTime": "2021-04-24T07:21:27.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recCsDNjAzxg5bahI",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T07:21:27.000Z",
+            "name": null,
+            "phone1": 917622970595,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Instagram",
+            "state": "West Bengal",
+            "type": null,
+            "verificationStatus": "Verified",
+            "verifiedBy": "Archisha Singh"
+        },
+        {
             "availability": "Available",
             "city": null,
             "comment": null,
@@ -1502,6 +1525,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": "Refill available.",
+            "companyName": null,
+            "createdTime": "2021-04-24T07:11:25.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recNL08m28yYbQGOD",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T07:11:25.000Z",
+            "name": null,
+            "phone1": 8017711721,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Instagram",
+            "state": "West Bengal",
+            "type": [
+                "Refil"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": "Archisha Singh"
         },
         {
             "availability": null,
@@ -3156,6 +3204,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Zenitha Das"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": "Portable Oxygen Cylinder12 ltr @ Rs 400/- for home quarantine",
+            "companyName": "Jan Sewa Trust",
+            "createdTime": "2021-04-24T07:18:54.000Z",
+            "description": "Dealers in Oxygen Portable Cylinders with supplies all over India. \n call directly 9814145420 0r 98805 98624: \nAny family in need of oxygen can reach 8447390017\n12 ltr oxygen @ Rs.400/- only. \nNo profit No loss.",
+            "district": "Satara",
+            "emailId": null,
+            "homeDeliveryAvailable": "Yes",
+            "id": "recnKyC4kCskXQ7yE",
+            "instructions": "Portable Oxygen 12 ltr @ Rs 400/- for home quarantine",
+            "lastVerifiedOn": "2021-04-24T07:30:37.000Z",
+            "name": null,
+            "phone1": 9814145420,
+            "phone2": 9880598624,
+            "sourceLink": "WhatsappFacebook Page : https://www.facebook.com/permalink.php?id=186085061535903&story_fbid=2190392661105123",
+            "sourceName": "Whatsapp - friend referral \nFacebook Page : https://www.facebook.com/permalink.php?id=186085061535903&story_fbid=2190392661105123",
+            "state": "Maharashtra",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": "Sangharsh Sapre"
         },
         {
             "availability": null,
