@@ -1,19 +1,27 @@
 import React from 'react';
 import { helplineByDistrict } from '../../../lib/api';
 import { statePaths, humanize, parseDateString } from '../../../lib/utils';
-import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 import HelplineCard from '../../../components/HelplineCard';
+import { NextSeo } from 'next-seo';
 
 export default function Helpline({ state, district, helplines }) {
+    const SEO = {
+        title: `Helpline in ${humanize(district)} , ${humanize(state)}`,
+        description: `Covid19 Resources for Helpline in ${humanize(district)} , ${humanize(
+            state
+        )} } `,
+        openGraph: {
+            title: `Helpline in ${humanize(district)} , ${humanize(state)}`,
+            description: `Covid19 Resources for Helpline in ${humanize(district)} , ${humanize(
+                state
+            )} } `
+        }
+    };
     return (
         <div>
+            <NextSeo {...SEO} />
             <section className="flex flex-col ml-2 md:pt-10">
-                <Head>
-                    <title>
-                        Helpline in {humanize(district)} , {humanize(state)}
-                    </title>
-                </Head>
                 <Breadcumb
                     list={[
                         { href: `/${state}`, name: humanize(state) },
