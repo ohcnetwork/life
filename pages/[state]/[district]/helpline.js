@@ -26,7 +26,7 @@ export default function Helpline({ state, district, helplines }) {
                 <h1 className="mt-4 font-black text-4xl sm:text-5xl text-gray-900 dark:text-gray-200 md:text-left text-center">
                     {humanize(district)}
                 </h1>
-                <div className="space-y-4 mt-4 max-w-3xl w-full">
+                <div className="w-full space-y-4 mt-4 max-w-3xl w-full">
                     {helplines.map((p) => {
                         return (
                             <HelplineCard

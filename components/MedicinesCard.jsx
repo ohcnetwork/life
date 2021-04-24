@@ -23,7 +23,7 @@ const MedicinesCard = ({
     lastVerifiedOn
 }) => {
     return (
-        <div className="bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
+        <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
                     <div className="font-bold text-2xl">

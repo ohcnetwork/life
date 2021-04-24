@@ -20,7 +20,7 @@ export default function Ambulance({ state, district, ambulancesListing }) {
                     { href: null, name: 'Ambulance' }
                 ]}
             />
-            <div className="space-y-4 mt-4 mb-4">
+            <div className="w-full space-y-4 mt-4 mb-4">
                 {ambulancesListing.map(
                     ({
                         name,
