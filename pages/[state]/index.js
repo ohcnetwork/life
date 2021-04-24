@@ -57,7 +57,7 @@ export default function State({ state }) {
                                         href={`/${parametreize(state)}/${parametreize(
                                             f.district
                                         )}`}>
-                                        <span className="font-semibold text-2xl md:text-4xl py-6 hover:underline cursor-pointer dark:text-gray-200">
+                                        <span className="font-semibold text-2xl md:text-4xl py-6 hover:underline block text-center cursor-pointer dark:text-gray-200">
                                             {humanize(f.district)}
                                         </span>
                                     </Link>
