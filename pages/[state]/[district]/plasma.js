@@ -29,6 +29,7 @@ export default function Plasma({ state, district, plasmaListing }) {
                     {plasmaListing.map((p) => {
                         return (
                             <PlasmaCard
+                                key={p.name}
                                 city={p.city}
                                 createdTime={p.createdTime}
                                 description={p.description}
