@@ -14,7 +14,7 @@ const HelplineCard = ({
     slink,
     state,
     subCategory,
-    lastVerifiedOn = Date()
+    lastVerifiedOn
 }) => {
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
