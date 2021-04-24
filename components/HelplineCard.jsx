@@ -4,7 +4,8 @@ import {
     faLink,
     faPhoneAlt,
     faCheckCircle,
-    faExclamationTriangle
+    faExclamationTriangle,
+    faMapMarkerAlt
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { parseDateString } from '../lib/utils';
