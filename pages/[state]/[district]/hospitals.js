@@ -1,13 +1,27 @@
 import React from 'react';
 import { hospitalByDistrict } from '../../../lib/api';
-import { statePaths, humanize, parseDateString } from '../../../lib/utils';
+import { statePaths, humanize } from '../../../lib/utils';
 import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 import HospitalCard from '../../../components/HospitalCard';
+import { NextSeo } from 'next-seo';
 
 export default function Hospitals({ state, district, hospitalByDistrict }) {
+    const SEO = {
+        title: `Hospitals in ${humanize(district)} , ${humanize(state)}`,
+        description: `Covid19 Resources for Hospitals in ${humanize(district)} , ${humanize(
+            state
+        )} } `,
+        openGraph: {
+            title: `Hospitals in ${humanize(district)} , ${humanize(state)}`,
+            description: `Covid19 Resources for Hospitals in ${humanize(district)} , ${humanize(
+                state
+            )} } `
+        }
+    };
     return (
         <div>
+            <NextSeo {...SEO} />
             <section className="flex flex-col ml-2 md:pt-10 ">
                 <Head>
                     <title>
@@ -49,13 +63,13 @@ export default function Hospitals({ state, district, hospitalByDistrict }) {
 }
 
 export async function getStaticProps({ params }) {
-  return {
-    props: {
-      state: params.state,
-      district: params.district,
-      hospitalByDistrict: hospitalByDistrict(params.state, params.district, true),
-    },
-  };
+    return {
+        props: {
+            state: params.state,
+            district: params.district,
+            hospitalByDistrict: hospitalByDistrict(params.state, params.district, true)
+        }
+    };
 }
 
 export async function getStaticPaths() {

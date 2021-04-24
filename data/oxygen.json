@@ -210,7 +210,7 @@
         {
             "availability": "Available",
             "city": null,
-            "comment": null,
+            "comment": "unreachable",
             "companyName": "Healthcare Scientific",
             "createdTime": "2021-04-24T03:12:29.000Z",
             "description": null,
@@ -219,7 +219,7 @@
             "homeDeliveryAvailable": "No",
             "id": "rec50C9ivhu0DmeQl",
             "instructions": "INR 15K for 10L O2 cylinder",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:11:51.000Z",
             "name": null,
             "phone1": 8700013641,
             "phone2": null,
@@ -229,10 +229,8 @@
             "type": [
                 "Cylinder"
             ],
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -279,6 +277,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Zenitha Das"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": null,
+            "companyName": null,
+            "createdTime": "2021-04-24T11:08:31.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "rec6MOy0kxPJ9Ffjn",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T11:08:31.000Z",
+            "name": null,
+            "phone1": 8918760223,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "West Bengal",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": "Barnali Banerjee"
         },
         {
             "availability": null,
@@ -348,6 +371,33 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": "KVN Foundation",
+            "createdTime": "2021-04-24T08:18:58.000Z",
+            "description": "Free Oxygen Concentrator on a rental basis for underprivileged. (Those who need and can afford are encouraged to donate to the foundation)\nPlease Whatsapp message the number (with Bangalore Area code (080).\nAlternatively give a missed call to the 2nd number with Bengaluru area code (080)",
+            "district": "Bengaluru (Bangalore) Urban",
+            "emailId": "Check Website for Mail",
+            "homeDeliveryAvailable": "Yes",
+            "id": "rec7ZBEolh9aVjT1R",
+            "instructions": "OC will be delivered to the home of the patient for the time reqiured (rental).",
+            "lastVerifiedOn": "2021-04-24T08:18:58.000Z",
+            "name": null,
+            "phone1": 47107750,
+            "phone2": 68065385,
+            "sourceLink": "https://kvnfoundation.com/",
+            "sourceName": "from my friend whose parents are organizing this",
+            "state": "Karnataka",
+            "type": [
+                "Concentrator"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -445,6 +495,59 @@
             "verifiedBy": [
                 {}
             ]
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "Unavailable at the moment,Refill available take 5 days",
+            "companyName": "Unitech",
+            "createdTime": "2021-04-24T08:36:11.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": "www.unitech01.com",
+            "homeDeliveryAvailable": "No",
+            "id": "rec9DRojXhmvx8TKw",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T08:36:11.000Z",
+            "name": null,
+            "phone1": 7947408440,
+            "phone2": null,
+            "sourceLink": "https://www.justdial.com/Kolkata/Unitech-Near-Entally-Police-Station-Entally/033PXX33-XX33-130629231501-C9G2_BZDET?xid=S29sa2F0YSBPeHlnZW4gQ3lsaW5kZXIgRGVhbGVycw==",
+            "sourceName": null,
+            "state": "West Bengal",
+            "type": [
+                "Refil",
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "Did not respond",
+            "companyName": null,
+            "createdTime": "2021-04-24T08:07:52.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "rec9Kn02yzjhyXwgt",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T08:07:52.000Z",
+            "name": null,
+            "phone1": 7890066630,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "West Bengal",
+            "type": [
+                "Cans"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Archisha Singh"
         },
         {
             "availability": null,
@@ -598,12 +701,12 @@
             "homeDeliveryAvailable": null,
             "id": "recCsDNjAzxg5bahI",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-24T07:21:27.000Z",
+            "lastVerifiedOn": "2021-04-24T10:34:16.000Z",
             "name": null,
-            "phone1": 917622970595,
+            "phone1": 9434116824,
             "phone2": null,
             "sourceLink": null,
-            "sourceName": "Instagram",
+            "sourceName": null,
             "state": "West Bengal",
             "type": null,
             "verificationStatus": "Verified",
@@ -1543,13 +1646,38 @@
             "phone1": 8017711721,
             "phone2": null,
             "sourceLink": null,
-            "sourceName": "Instagram",
+            "sourceName": null,
             "state": "West Bengal",
             "type": [
                 "Refil"
             ],
             "verificationStatus": "Verified",
             "verifiedBy": "Archisha Singh"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": null,
+            "companyName": "Life",
+            "createdTime": "2021-04-24T10:46:02.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recODIdXePGVZQzA0",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T10:46:02.000Z",
+            "name": null,
+            "phone1": 7947409562,
+            "phone2": null,
+            "sourceLink": "https://www.justdial.com/Kolkata/Life-Opp-Hindustan-Health-Point-Nursing-Home-Garia/033PXX33-XX33-090927103728-J5U9_BZDET?xid=S29sa2F0YSBPeHlnZW4gQ3lsaW5kZXIgRGVhbGVycw==",
+            "sourceName": "JD",
+            "state": "West Bengal",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Barnali Banerjee"
         },
         {
             "availability": null,
@@ -1688,6 +1816,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": null,
+            "companyName": "Fyrax INDIA",
+            "createdTime": "2021-04-24T11:00:30.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": "www.fyraxindia.com",
+            "homeDeliveryAvailable": null,
+            "id": "recQqHNGb60DCAPpW",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T11:00:30.000Z",
+            "name": null,
+            "phone1": 7947409772,
+            "phone2": null,
+            "sourceLink": "https://www.justdial.com/Kolkata/Fyrax-INDIA-Opposite-Vidyasar-College-Beadon-Street/033PXX33-XX33-141213134233-A9U7_BZDET?xid=S29sa2F0YSBPeHlnZW4gQ3lsaW5kZXIgRGVhbGVycw==",
+            "sourceName": "JD",
+            "state": "West Bengal",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": "Barnali Banerjee"
         },
         {
             "availability": null,
@@ -1899,6 +2052,31 @@
         {
             "availability": null,
             "city": null,
+            "comment": null,
+            "companyName": "K R Lynch and Co",
+            "createdTime": "2021-04-24T10:54:58.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": "www.krlynch.com",
+            "homeDeliveryAvailable": null,
+            "id": "recTIY4LLUp3eT5AO",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T10:54:58.000Z",
+            "name": null,
+            "phone1": 7947405304,
+            "phone2": null,
+            "sourceLink": "https://www.justdial.com/Kolkata/K-R-Lynch-and-Co-Opposite-School-Of-Tropical-Medicine-Colootola/033PG000462_BZDET?xid=S29sa2F0YSBPeHlnZW4gQ3lsaW5kZXIgRGVhbGVycw==",
+            "sourceName": "jd",
+            "state": "West Bengal",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Barnali Banerjee"
+        },
+        {
+            "availability": null,
+            "city": null,
             "comment": "busy",
             "companyName": null,
             "createdTime": "2021-04-19T09:53:14.000Z",
@@ -1991,6 +2169,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "Unavailable at the moment. Should be available after 30th April 2021.",
+            "companyName": null,
+            "createdTime": "2021-04-24T09:13:35.000Z",
+            "description": "Home delivery",
+            "district": "Kolkata",
+            "emailId": null,
+            "homeDeliveryAvailable": "Yes",
+            "id": "recVZUDHsztrB2pic",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T09:13:35.000Z",
+            "name": null,
+            "phone1": 9831267286,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "West Bengal",
+            "type": [
+                "Concentrator"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": "Archisha Singh"
         },
         {
             "availability": null,
@@ -2811,16 +3014,16 @@
         {
             "availability": "Available",
             "city": null,
-            "comment": null,
+            "comment": "available",
             "companyName": "Pune Air Products",
             "createdTime": "2021-04-24T03:07:00.000Z",
             "description": null,
             "district": "Pune",
             "emailId": null,
-            "homeDeliveryAvailable": "No",
+            "homeDeliveryAvailable": null,
             "id": "recfLAti5PIQZnp6a",
             "instructions": "12K per cylinder + INR 10 for daily rent for 7K Litres of O2",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:10:25.000Z",
             "name": null,
             "phone1": 9371015703,
             "phone2": 8048718876,
@@ -2830,10 +3033,8 @@
             "type": [
                 "Cylinder"
             ],
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": "Available",
@@ -3043,6 +3244,33 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Archisha Singh"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "Need Oxygen concentrater",
+            "companyName": null,
+            "createdTime": "2021-04-24T10:51:22.000Z",
+            "description": "Oxygen concentrater",
+            "district": "Bengaluru (Bangalore) Urban",
+            "emailId": "p.dass@live.com",
+            "homeDeliveryAvailable": "Yes",
+            "id": "recjHz8v28rVgQv7l",
+            "instructions": null,
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": 919886637388,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Karnataka",
+            "type": [
+                "Concentrator"
+            ],
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -3413,33 +3641,6 @@
             "type": null,
             "verificationStatus": "Verified",
             "verifiedBy": "sucharu asri"
-        },
-        {
-            "availability": null,
-            "city": null,
-            "comment": null,
-            "companyName": "Shree Maa Enterprises",
-            "createdTime": "2021-04-23T15:32:11.000Z",
-            "description": null,
-            "district": "Lucknow",
-            "emailId": null,
-            "homeDeliveryAvailable": "No",
-            "id": "recqz2poP7MmLI9dD",
-            "instructions": null,
-            "lastVerifiedOn": "2021-04-23T15:32:11.000Z",
-            "name": null,
-            "phone1": 8960002222,
-            "phone2": 9161666633,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "type": [
-                "Cans"
-            ],
-            "verificationStatus": "Verified",
-            "verifiedBy": [
-                {}
-            ]
         },
         {
             "availability": null,
