@@ -2,9 +2,9 @@ import React from 'react';
 import Breadcumb from '../components/Breadcumb';
 
 const About = () => {
-    const h1Class = `text-5xl mb-20`;
-    const h2Class = `text-3xl mb-2`;
-    const pClass = `text-blue-600 mb-5 text-lg`;
+    const h1Class = `text-4xl`;
+    const h2Class = `text-xl mt-5`;
+    const pClass = `text-blue-500 mt-2 text-md`;
     const aClass = `underline text-blue-600 hover:text-blue-800 visited:text-purple-600`;
     return (
         <>
@@ -12,7 +12,7 @@ const About = () => {
                 <Breadcumb list={[{ href: null, name: 'About' }]} />
             </div>
 
-            <div className="py-20 dark:text-gray-500 text-gray-900 dark font-bold">
+            <div className="pt-10 dark:text-gray-500 text-gray-900 dark font-bold px-2">
                 <h1 className={h1Class}>About</h1>
                 <h2 className={h2Class}>Are you official?</h2>
                 <p className={pClass}>No.</p>
