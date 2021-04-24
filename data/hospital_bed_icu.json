@@ -7969,6 +7969,22 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "comment": null,
+            "createdTime": "2021-04-24T02:30:40.000Z",
+            "district": "Koderma",
+            "id": "recnRuzBXnPMWbLDV",
+            "lastVerifiedOn": null,
+            "name": "Safar Hospital, koderma",
+            "phone1": null,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Jharkhand",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "comment": "user busy on some other call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ghaziabad",
