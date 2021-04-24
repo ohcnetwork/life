@@ -19,9 +19,9 @@ const HelplineCard = ({
 }) => {
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
-            <div className="w-full">
-                <p
-                    className="text-3xl ml-auto w-8"
+            <div className="w-full flex">
+                <span
+                    className="ml-auto"
                     onClick={() => {
                         copyToClipboard(`
                                 Name: ${name ? name : ''}
@@ -30,11 +30,11 @@ const HelplineCard = ({
                         alert('Copied!');
                     }}>
                     <FontAwesomeIcon
-                        className="text-gray-600 mr-4 pt-2"
+                        className="text-gray-600 w-4 mr-4 pt-2"
                         title="Share on Facebook"
                         icon={faCopy}
                     />
-                </p>
+                </span>
             </div>
             <div className="p-4 flex justify-between flex-col md:flex-row">
                 <div>
@@ -44,7 +44,7 @@ const HelplineCard = ({
                                 {name ? name : 'Helpline'}
                             </h1>
                         </div>
-                        <div className="text-sm  uppercase mt-3 text-gray-700 font-semibold dark:text-white">
+                        <div className="flex items-center text-sm uppercase mt-3 text-gray-700 font-semibold dark:text-white">
                             <FontAwesomeIcon icon={faMapMarkerAlt} className="w-3 mr-2" />
                             <span className="mr-2">{district}</span>|
                             <span className="ml-2">{state}</span>
@@ -57,11 +57,11 @@ const HelplineCard = ({
                 <div className="flex items-start flex-row justify-between md:flex-col">
                     {phone1 && (
                         <a
-                            className="text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white"
+                            className="flex items-center text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white"
                             href={`tel:${phone1}`}>
                             <FontAwesomeIcon
                                 title={`${phone1}`}
-                                className="text-xl w-6"
+                                className="w-4"
                                 icon={faPhoneAlt}
                             />
                             <span className="ml-2">{phone1}</span>
@@ -69,12 +69,12 @@ const HelplineCard = ({
                     )}
                     {slink && (
                         <a
-                            className="text-gray-700 font-bold text-xl hover:text-gray-900 dark:text-white"
+                            className="flex items-center text-gray-700 font-bold text-xl hover:text-gray-900 dark:text-white"
                             target="_blank"
                             href={slink}>
                             <FontAwesomeIcon
                                 title={`${slink}`}
-                                className="text-xl w-6"
+                                className="w-4"
                                 icon={faLink}
                             />
                             <span className="ml-2 text-base mt-1">Source Link</span>
