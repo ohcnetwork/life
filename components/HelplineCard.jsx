@@ -1,6 +1,11 @@
 import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import { faLink, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import {
+    faLink,
+    faPhoneAlt,
+    faCheckCircle,
+    faExclamationTriangle
+} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { parseDateString } from '../lib/utils';
 
@@ -14,7 +19,9 @@ const HelplineCard = ({
     slink,
     state,
     subCategory,
-    lastVerifiedOn
+    lastVerifiedOn,
+    verificationStatus,
+    name
 }) => {
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
@@ -22,10 +29,26 @@ const HelplineCard = ({
                 <div>
                     <div className="font-bold text-2xl">
                         <div>
-                            <h1>{category}</h1>
-                            <div className="text-sm mt-1 mb-3 text-gray-700 font-semibold dark:text-white">
-                                <span>({subCategory})</span>
-                            </div>
+                            <h1 className="flex items-center justify-start dark:text-white">
+                                {name ? name : 'Helpline'}
+                                <span>
+                                    {verificationStatus &&
+                                        verificationStatus.toLocaleLowerCase() == 'verified' ? (
+                                        <FontAwesomeIcon
+                                            className="text-green-600 w-5 ml-4"
+                                            title="Verified"
+                                            icon={faCheckCircle}
+                                        />
+                                    ) : (
+                                        <FontAwesomeIcon
+                                            className="text-yellow-400 w-4 ml-4"
+                                            title="Not verified"
+                                            icon={faExclamationTriangle}
+                                        />
+                                    )}
+                                </span>
+                            </h1>
+
                         </div>
                         <div className="text-sm  uppercase mt-3 text-gray-700 font-semibold dark:text-white">
                             <span className="mr-2">{district}</span>|
@@ -68,7 +91,7 @@ const HelplineCard = ({
             <div className="flex justify-between items-center mx-2 mt-2 pb-3">
                 <div className="font-semibold">{description}</div>
                 <div className="font-mono text-gray-700 text-sm dark:text-white">
-                    {lastVerifiedOn && `Verified @ ${parseDateString(lastVerifiedOn)}`}
+                    {verificationStatus && verificationStatus.toLocaleLowerCase() == 'verified' ? `Verified @ ${parseDateString(lastVerifiedOn)}` : `Last Checked @ ${parseDateString(lastVerifiedOn)}`}
                 </div>
             </div>
         </div>
