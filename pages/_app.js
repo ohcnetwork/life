@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
         <MainLayout>
             <DefaultSeo {...SEO} />
             <Head>
+                <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover' />
                 <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.coronasafe.network/life/apple-touch-icon.png" />
                 <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.coronasafe.network/life/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.coronasafe.network/life/favicon-16x16.png" />
