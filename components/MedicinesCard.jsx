@@ -4,7 +4,8 @@ import {
     faPhoneAlt,
     faCheckCircle,
     faExclamationTriangle,
-    faEnvelope
+    faEnvelope,
+    faLink
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { parseDateString } from '../lib/utils';
@@ -31,7 +32,7 @@ const MedicinesCard = ({
                             {name}
                             <span>
                                 {(verificationStatus && verificationStatus.toLocaleLowerCase()) ==
-                                    'verified' ? (
+                                'verified' ? (
                                     <FontAwesomeIcon
                                         className="text-green-600 w-5 "
                                         title="Verified"

@@ -52,20 +52,20 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                         layout="fixed-height"
                         src="amp-state:medicines">
                         <template type="amp-mustache">
-                            {/* <MedicinesCard
-                                key={{ id }}
-                                verificationStatus={{ verificationStatus }}
-                                name={{ name }}
-                                distributorName={{ distributorName }}
-                                city={{ city }}
-                                phone1={{ phone1 }}
-                                address={{ address }}
-                                description={{ description }}
-                                createdTime={{ createdTime }}
-                                slink={{ source_link }}
-                                email={{ emailId }}
-                                lastVerifiedOn={{ lastVerifiedOn }}
-                            /> */}
+                            <MedicinesCard
+                                key={`{{ id }}`}
+                                verificationStatus={`{{ verificationStatus }}`}
+                                name={`{{ name }}`}
+                                distributorName={`{{ distributorName }}`}
+                                city={`{{ city }}`}
+                                phone1={`{{ phone1 }}`}
+                                address={`{{ address }}`}
+                                description={`{{ description }}`}
+                                createdTime={`{{ createdTime }}`}
+                                slink={`{{ source_link }}`}
+                                email={`{{ emailId }}`}
+                                lastVerifiedOn={`{{ lastVerifiedOn }}`}
+                            />
                         </template>
                     </amp-list>
                 </div>
