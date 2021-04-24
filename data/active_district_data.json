@@ -5404,7 +5404,7 @@
             "hospitals": true,
             "id": "recfL8dLl2my4O4MQ",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Gujarat"
         },
@@ -7060,12 +7060,12 @@
             "state": "Uttar Pradesh"
         },
         {
-            "ambulance": false,
+            "ambulance": true,
             "contact": false,
             "district": "Jind",
             "doctor": false,
             "helpline": true,
-            "hospitals": false,
+            "hospitals": true,
             "id": "recqEdGMxt4r7Kkm3",
             "medicine": false,
             "oxygen": false,

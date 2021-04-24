@@ -328,6 +328,26 @@
         },
         {
             "city": null,
+            "comment": null,
+            "companyName": "Muncipal Corporator",
+            "createdTime": "2021-04-24T05:01:28.000Z",
+            "description": null,
+            "district": "Rajkot",
+            "id": "rec903e76uyCaufw6",
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": 9033333515,
+            "phone2": 9426780820,
+            "sourceLink": null,
+            "sourceName": "A doctor\u2019s Instagram Story. ",
+            "state": "Gujarat",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "city": null,
             "comment": "busy",
             "companyName": null,
             "createdTime": "2021-04-19T09:37:29.000Z",

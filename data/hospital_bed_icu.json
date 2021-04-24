@@ -2475,6 +2475,22 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "comment": "They admit and treat covid patients",
+            "createdTime": "2021-04-24T04:19:59.000Z",
+            "district": "Jind",
+            "id": "recGQBGILMxvMhxV2",
+            "lastVerifiedOn": null,
+            "name": "Garg hospital",
+            "phone1": null,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Haryana",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "comment": "FULL\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bankura",
@@ -6583,6 +6599,22 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "comment": "Just contact them they will admit you \nPlease note they have oxygen beds",
+            "createdTime": "2021-04-24T04:07:55.000Z",
+            "district": "Jind",
+            "id": "recexA4SXB4GZGZkd",
+            "lastVerifiedOn": null,
+            "name": "Civil hospital jind",
+            "phone1": 1681297149,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Haryana",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Sirsa",
@@ -7491,6 +7523,22 @@
             "state": "Meghalaya",
             "verificationStatus": "Invalid",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "comment": "They admit and treat covid patients ",
+            "createdTime": "2021-04-24T04:17:29.000Z",
+            "district": "Jind",
+            "id": "reckRfjUl3uJhBdoW",
+            "lastVerifiedOn": null,
+            "name": "Delhi hospitaal and maternity home",
+            "phone1": 1681247287,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Haryana",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": null,
@@ -8815,6 +8863,22 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
+            "comment": "They have oxygen beds and admit covid patients\nIcu is also there",
+            "createdTime": "2021-04-24T04:11:48.000Z",
+            "district": "Jind",
+            "id": "recsRzrRHeuypeHnn",
+            "lastVerifiedOn": null,
+            "name": "Balaji hospital jind",
+            "phone1": 1681253020,
+            "phone2": null,
+            "pointOfContact": "Dr. Dharampal Jain",
+            "state": "Haryana",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "comment": "No direct admission, call 1916",
             "createdTime": "2021-04-23T20:55:30.000Z",
             "district": "Mumbai Suburban",
@@ -9785,6 +9849,22 @@
             "state": "Uttar Pradesh",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "comment": null,
+            "createdTime": "2021-04-24T04:52:58.000Z",
+            "district": "Gautam Buddha Nagar",
+            "id": "recyAThrU1g22GZfk",
+            "lastVerifiedOn": null,
+            "name": "Tripathi Hospital",
+            "phone1": 9711621081,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "comment": "not reachable",
