@@ -7,6 +7,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isVerified, parseDateString } from '../lib/utils';
 import React from 'react';
+import Badge from './Badge';
 
 const AmbulanceCard = ({
     name,
@@ -27,21 +28,6 @@ const AmbulanceCard = ({
                             <div className="font-bold text-2xl">
                                 <h1 className="flex items-center justify-start dark:text-white">
                                     {name ? name : 'Ambulance'}
-                                    <span>
-                                        {isVerified(verificationStatus) ? (
-                                            <FontAwesomeIcon
-                                                className="text-green-600 w-5 ml-4"
-                                                title="Verified"
-                                                icon={faCheckCircle}
-                                            />
-                                        ) : (
-                                            <FontAwesomeIcon
-                                                className="text-yellow-400 w-4 ml-4"
-                                                title="Not verified"
-                                                icon={faExclamationTriangle}
-                                            />
-                                        )}
-                                    </span>
                                 </h1>
                                 <div className="text-sm text-gray-700 font-semibold"></div>
                             </div>
@@ -84,6 +70,7 @@ const AmbulanceCard = ({
                                     />
                                 </a>
                             )}
+                            <Badge badgeType={verificationStatus} />
                         </div>
                     </div>
                     <hr className="dark:border-gray-900" />
