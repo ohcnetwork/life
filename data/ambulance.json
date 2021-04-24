@@ -124,7 +124,7 @@
             "phone1": "919925026371",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -196,20 +196,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not available in stock",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Aurangabad",
             "id": "rec1h9q8BSu2NKPiU",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T12:04:37.000Z",
             "name": null,
             "phone1": "0240-2339020",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -230,14 +228,14 @@
             "area": null,
             "comment": "Not Available",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "rec25zsoYYwRdRiLy",
             "lastVerifiedOn": "2021-04-23T12:52:29.000Z",
             "name": null,
             "phone1": "079-27545042",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -258,17 +256,17 @@
         },
         {
             "area": null,
-            "comment": "Busy",
+            "comment": "Not Available \nBusy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Durg",
             "id": "rec2HQ4CBpCNOKvqZ",
-            "lastVerifiedOn": "2021-04-23T07:09:56.000Z",
+            "lastVerifiedOn": "2021-04-24T10:09:11.000Z",
             "name": null,
             "phone1": "9425552481",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -404,7 +402,7 @@
             "phone1": "0285-263420326306869428",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -513,7 +511,7 @@
             "phone1": "0261-2451775",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -583,20 +581,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No stock of Remdesivir  for last 22 days (since 2nd Apr)",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "rec69YulwERuvmGJZ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:25:56.000Z",
             "name": null,
             "phone1": "0161-2726110 9815963631",
             "phone2": null,
-            "source": null,
-            "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "source": "Phone",
+            "state": "Punjab",
+            "verificationStatus": "Verified",
+            "verifiedBy": "Sangharsh Sapre"
         },
         {
             "area": null,
@@ -624,7 +620,7 @@
             "phone1": "9879313346",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -656,7 +652,7 @@
             "phone1": "2,62,22,21,094",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
         },
@@ -688,7 +684,7 @@
             "phone1": "9825222370",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -794,14 +790,14 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "rec8NG1Qo2zuEuDat",
             "lastVerifiedOn": "2021-04-23T08:18:35.000Z",
             "name": null,
             "phone1": "9879034431",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -824,20 +820,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Whatever stock comes in goes to district administration and district hospital",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Amravati",
             "id": "rec8Oj72NDusuPisT",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T12:03:18.000Z",
             "name": null,
-            "phone1": "0721-25644602564",
+            "phone1": "0721-2564460",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -860,14 +854,14 @@
             "area": null,
             "comment": "Covid medicines not available",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "rec8YvzFr6s4Tj2DF",
             "lastVerifiedOn": "2021-04-23T08:17:06.000Z",
             "name": null,
             "phone1": "9601268124\n079-26880281",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -984,17 +978,17 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Out of stock for Remdesivir ,Fabiflu and Tocilizumap. \nFabiflu might be available from 26th , 27th April",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jalandhar",
             "id": "rec9hhKQ2jtWM96qd",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T12:07:26.000Z",
             "name": null,
-            "phone1": "0181-2224586",
+            "phone1": "9888504242\n0181-2224586 (invalid)\n",
             "phone2": null,
-            "source": null,
+            "source": "Phone Web",
             "state": "Punjab",
-            "verificationStatus": null,
+            "verificationStatus": "Verified",
             "verifiedBy": [
                 {}
             ]
@@ -1016,17 +1010,17 @@
         },
         {
             "area": null,
-            "comment": "Not picking up",
+            "comment": "Not Available \nNot picking up",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "rec9p3hPu7vqg2q3X",
-            "lastVerifiedOn": "2021-04-23T07:24:01.000Z",
+            "lastVerifiedOn": "2021-04-24T10:10:27.000Z",
             "name": null,
             "phone1": "9998921554",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "state": "Punjab",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -1127,14 +1121,14 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recAaJc1oauxCSGA0",
             "lastVerifiedOn": "2021-04-23T13:39:24.000Z",
             "name": null,
             "phone1": "9428480631",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -1228,7 +1222,7 @@
             "phone1": "9825956301",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -1411,33 +1405,31 @@
             "area": null,
             "comment": "Both numbers do not exist\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recClnA8Rli96UJX3",
             "lastVerifiedOn": "2021-04-23T13:11:11.000Z",
             "name": null,
             "phone1": "25627071/72",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not in stock. No idea when it will be available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmednagar",
             "id": "recCuI5pqfZSvmACX",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:45:05.000Z",
             "name": null,
             "phone1": "8087645229",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -1488,20 +1480,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Number does not exist",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Akola",
             "id": "recDewDALIpawEYbA",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:53:10.000Z",
             "name": null,
             "phone1": "0724-2431515 243",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -1608,7 +1598,7 @@
             "phone1": "02752-220010",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -1625,7 +1615,7 @@
             "phone1": "0278-2515775 ",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Aamod Kulkarni"
         },
@@ -1646,6 +1636,23 @@
         },
         {
             "area": null,
+            "comment": "Remdesivir injection now will be provided thru Collector and Drug inspectors\n1800222365 call on this toll free no and ask for injection. They share you contact no of area drug inspector .",
+            "createdTime": "2021-04-24T09:18:18.000Z",
+            "district": "Pune",
+            "id": "recFONnaAfgIRiecW",
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": "1800222365",
+            "phone2": null,
+            "source": "Twitter",
+            "state": "Maharashtra",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Nagpur",
@@ -1663,14 +1670,14 @@
             "area": null,
             "comment": "Invalid number\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recFWUPnrCptXPZTW",
             "lastVerifiedOn": "2021-04-24T06:38:45.000Z",
             "name": null,
             "phone1": "079- 40055601602603",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Disha Jariwala"
         },
@@ -1776,14 +1783,14 @@
             "area": null,
             "comment": "Not receiving",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recGFPKNjJxEc3quE",
             "lastVerifiedOn": "2021-04-23T13:41:57.000Z",
             "name": null,
             "phone1": "9998151514",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -1791,14 +1798,14 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recGRAidhTBHIFszp",
             "lastVerifiedOn": "2021-04-23T12:54:16.000Z",
             "name": null,
             "phone1": "8352020835",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -1860,7 +1867,7 @@
             "phone1": "02766-233624",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -1877,7 +1884,7 @@
             "phone1": "9825324372",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -2033,7 +2040,7 @@
             "phone1": "02642-222541, 9879454187",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -2048,7 +2055,7 @@
             "phone1": "288-2557207/6455001",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -2063,7 +2070,7 @@
             "phone1": "2812460522",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -2105,14 +2112,14 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recJVxZFPaONSdyl1",
             "lastVerifiedOn": "2021-04-23T09:35:12.000Z",
             "name": null,
             "phone1": "9924453922",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -2182,14 +2189,14 @@
             "area": null,
             "comment": "Out of stock for today",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recJwWUJuTYC2jYTQ",
             "lastVerifiedOn": "2021-04-23T13:02:35.000Z",
             "name": null,
             "phone1": "9327198989,9662905494",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -2219,7 +2226,7 @@
             "phone1": "0265 - 438768",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -2302,7 +2309,7 @@
             "phone1": "0261-2437887",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Disha Jariwala"
         },
@@ -2564,14 +2571,14 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recMOwDWtCKth08Wm",
             "lastVerifiedOn": "2021-04-23T12:51:15.000Z",
             "name": null,
             "phone1": "079 22936616/17",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -2725,7 +2732,7 @@
             "phone1": "0261-24117632402655",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -2742,7 +2749,7 @@
             "phone1": "9825034579",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -2767,14 +2774,14 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recNxmpkTglNw4Tm2",
             "lastVerifiedOn": "2021-04-23T12:55:24.000Z",
             "name": null,
             "phone1": "7940305067",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -2859,14 +2866,14 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recPYdIuEcRAX6sE8",
             "lastVerifiedOn": "2021-04-24T06:46:41.000Z",
             "name": null,
             "phone1": "9890927001",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Andrea Palkhivala"
         },
@@ -2896,7 +2903,7 @@
             "phone1": "9824179071",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -2964,7 +2971,7 @@
             "phone1": "02765-292132",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3004,14 +3011,14 @@
             "area": null,
             "comment": "Don\u2019t have it\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recR25J9V2yW2shbX",
             "lastVerifiedOn": "2021-04-23T12:56:41.000Z",
             "name": null,
             "phone1": "9825531706",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -3026,7 +3033,7 @@
             "phone1": "0265 24327612415760",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3092,7 +3099,7 @@
             "phone1": "26,22,24,34,290",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Disha Jariwala"
         },
@@ -3107,7 +3114,7 @@
             "phone1": "0265-2418955",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3139,7 +3146,7 @@
             "phone1": "23554553",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3218,7 +3225,7 @@
             "phone1": "2612438769",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3361,7 +3368,7 @@
             "phone1": "265",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3435,17 +3442,17 @@
         },
         {
             "area": null,
-            "comment": "Ringing, no one picking up",
+            "comment": "Not Available \nRinging, no one picking up",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kurukshetra",
             "id": "recVv8rhTuWO3HBjN",
-            "lastVerifiedOn": "2021-04-23T12:57:27.000Z",
+            "lastVerifiedOn": "2021-04-24T08:35:18.000Z",
             "name": null,
             "phone1": "9812026380",
             "phone2": null,
             "source": null,
             "state": "Haryana",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -3480,20 +3487,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Currently not in stock",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Aurangabad",
             "id": "recW7Wp9dTstOsaK7",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T12:08:47.000Z",
             "name": null,
             "phone1": "9372327615",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -3514,14 +3519,14 @@
             "area": null,
             "comment": "Does not have any covid related drugs",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recWJ7AkvVeasLb6D",
             "lastVerifiedOn": "2021-04-23T12:52:27.000Z",
             "name": null,
             "phone1": "9879045852",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -3645,7 +3650,7 @@
             "phone1": "02849-253878",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Aamod Kulkarni"
         },
@@ -3760,20 +3765,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Amravati",
             "id": "recXXCGY3vKOmRAk9",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:57:46.000Z",
             "name": null,
             "phone1": "9422957999",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -3861,7 +3864,7 @@
             "phone1": "9429136600",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3955,7 +3958,7 @@
             "phone1": "9426870319",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3987,7 +3990,7 @@
             "phone1": "9227626222",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -4052,6 +4055,23 @@
             "state": "Maharashtra",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Mohita Kotkar"
+        },
+        {
+            "area": null,
+            "comment": null,
+            "createdTime": "2021-04-23T08:21:11.000Z",
+            "district": "Pune",
+            "id": "recaUfejQis3eCfCu",
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": null,
+            "phone2": null,
+            "source": null,
+            "state": "Maharashtra",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "area": null,
@@ -4136,20 +4156,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Both the numbers are invalid",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmednagar",
             "id": "recbfVSlE2SuXMVsF",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:46:50.000Z",
             "name": null,
             "phone1": "02425-224784/221",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -4192,7 +4210,7 @@
             "phone1": "9377752557",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -4281,14 +4299,14 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "reccdyRtA86uSmJ4d",
             "lastVerifiedOn": "2021-04-23T12:55:36.000Z",
             "name": null,
             "phone1": "40305067-079",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -4405,14 +4423,14 @@
             "area": null,
             "comment": "Busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recdJAKMtv8vLpiUY",
             "lastVerifiedOn": "2021-04-23T09:24:50.000Z",
             "name": null,
             "phone1": "93288 22228 (BHAVINBHAI)",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Aamod Kulkarni"
         },
@@ -4474,7 +4492,7 @@
             "phone1": "0261-24259232454585",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -4484,14 +4502,14 @@
             "area": null,
             "comment": "Not receiving",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recdqhahTIH4XbSWZ",
             "lastVerifiedOn": "2021-04-23T13:35:55.000Z",
             "name": null,
             "phone1": "9979737500",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -4580,14 +4598,14 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "receJckkfJhSY2mg5",
             "lastVerifiedOn": "2021-04-23T12:53:50.000Z",
             "name": null,
             "phone1": "7926576739",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -4619,7 +4637,7 @@
             "phone1": "2,61,32,92,807",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
         },
@@ -4691,37 +4709,33 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Akola",
             "id": "recf3mnHn15Qps4qc",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:52:01.000Z",
             "name": null,
-            "phone1": "0724-24264212426",
+            "phone1": "0724-2426421 2426",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "He gets the stock every 3-4 days once but gives it to district administration and distributes to the hospitals as per advice from the collectorate",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmednagar",
             "id": "recfB4VZSFPMGMROV",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T12:00:23.000Z",
             "name": null,
             "phone1": "9420037963",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -4742,17 +4756,17 @@
         },
         {
             "area": null,
-            "comment": "Busy",
+            "comment": "Not Available \nBusy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "New Delhi",
             "id": "recfFxFIllrgI2WDl",
-            "lastVerifiedOn": "2021-04-23T07:19:18.000Z",
+            "lastVerifiedOn": "2021-04-24T08:37:50.000Z",
             "name": null,
             "phone1": "8860074107",
             "phone2": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -5086,7 +5100,7 @@
             "phone1": "0268 2552283",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -5169,20 +5183,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not Available ",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bathinda",
             "id": "rechlSqJDJo8xTb3m",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T08:40:30.000Z",
             "name": null,
             "phone1": "0164-2235902",
             "phone2": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "MANISH NAYYAR"
         },
         {
             "area": null,
@@ -5329,14 +5341,14 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recj0qWkYldlFQurZ",
             "lastVerifiedOn": "2021-04-24T06:47:11.000Z",
             "name": null,
             "phone1": "9822258016",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Andrea Palkhivala"
         },
@@ -5366,7 +5378,7 @@
             "phone1": null,
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -5428,7 +5440,7 @@
             "phone1": "(02772)40876",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Disha Jariwala"
         },
@@ -5588,26 +5600,24 @@
             "phone1": "MO9427536091",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Number does not exist",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Akola",
             "id": "recm6QG6WIbRot73x",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:50:29.000Z",
             "name": null,
             "phone1": "0724-24376952435",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -5626,20 +5636,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not available in stock. Not sure when it will be available again",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Amravati",
             "id": "recmTp9yIhD2OuwBO",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:56:24.000Z",
             "name": null,
             "phone1": "0721-26735522591",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -5667,7 +5675,24 @@
             "phone1": "9825223432",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "area": null,
+            "comment": "8208982265",
+            "createdTime": "2021-04-24T09:54:30.000Z",
+            "district": "Ahmednagar",
+            "id": "recmqXc8CLuMEgbyO",
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": "8208982265",
+            "phone2": null,
+            "source": null,
+            "state": "Maharashtra",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -5684,23 +5709,23 @@
             "phone1": "0278 - 2436017",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
             "area": null,
-            "comment": "No answer.",
+            "comment": "Not available (his response-Only covid hospital me milega)\nNo answer.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bilaspur",
             "id": "recmzWV0A4jBSSjgN",
-            "lastVerifiedOn": "2021-04-23T07:07:41.000Z",
+            "lastVerifiedOn": "2021-04-24T10:07:47.000Z",
             "name": null,
             "phone1": "9827165765",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -5831,17 +5856,17 @@
         },
         {
             "area": null,
-            "comment": "Busy",
+            "comment": "Not Available \nBusy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Dadra & Nagar Haveli",
             "id": "recoZvcgM65IhTpmv",
-            "lastVerifiedOn": "2021-04-23T07:21:13.000Z",
+            "lastVerifiedOn": "2021-04-24T08:34:20.000Z",
             "name": null,
             "phone1": "9825085033",
             "phone2": null,
             "source": null,
             "state": "Dadra and Nagar Haveli and Daman & Diu (UT)",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -5855,7 +5880,7 @@
             "phone1": "9825127704",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -5872,7 +5897,7 @@
             "phone1": "02692 - 2550433 2550533",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -5964,7 +5989,7 @@
             "phone1": "281-2450230/6539330",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -6028,7 +6053,7 @@
             "phone1": "9426924999",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -6043,7 +6068,7 @@
             "phone1": "02762 -221487 02762 -221",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -6135,7 +6160,7 @@
             "phone1": "0265-2418955",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -6152,7 +6177,7 @@
             "phone1": "9825129112",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -6216,7 +6241,7 @@
             "phone1": "9825861920",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Dr. Pallabi Roy"
         },
@@ -6261,7 +6286,7 @@
             "phone1": "2832",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -6276,7 +6301,7 @@
             "phone1": "9429972220",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -6291,7 +6316,7 @@
             "phone1": "02772-245404/244273",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -6316,14 +6341,14 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recswewJwwV1IMfOJ",
             "lastVerifiedOn": "2021-04-23T09:39:55.000Z",
             "name": null,
             "phone1": "7405673733",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -6355,7 +6380,7 @@
             "phone1": "9925150320",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -6387,7 +6412,7 @@
             "phone1": "9374711850",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -6511,7 +6536,7 @@
             "phone1": "2812460522",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -6669,7 +6694,7 @@
             "phone1": "0265-2432244",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -6677,20 +6702,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Call on mobile , Remdesivir is out of stock - check next week \ntocilizumab injection can be provided on Dr prescription",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ludhiana",
             "id": "recvKWCBDfnofmsjN",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:45:23.000Z",
             "name": null,
-            "phone1": "161-2773745",
+            "phone1": "9855400087 \n161-2773745(invalid)\n",
             "phone2": null,
-            "source": null,
+            "source": "Phone",
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Sangharsh Sapre"
         },
         {
             "area": null,
@@ -6711,14 +6734,14 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recvimiNh3YeCPFaj",
             "lastVerifiedOn": "2021-04-23T09:38:39.000Z",
             "name": null,
             "phone1": "0271-533853, 9825037319",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -6778,7 +6801,7 @@
             "phone1": "02778 - 253515",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -6835,14 +6858,14 @@
             "area": null,
             "comment": "Not answering",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recwSACV4qwsoB7yP",
             "lastVerifiedOn": "2021-04-24T06:45:22.000Z",
             "name": null,
             "phone1": "9427712710",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -6931,33 +6954,31 @@
             "area": null,
             "comment": "Numbers don\u2019t exist",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recxcvGVpx8nQtpjM",
             "lastVerifiedOn": "2021-04-23T13:00:21.000Z",
             "name": null,
             "phone1": "6584619658,3006982503666",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Urja Khandhediya"
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No phone number to contact",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmednagar",
             "id": "recxwDEUTTQ6N7RPh",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T12:01:51.000Z",
             "name": null,
             "phone1": null,
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -7002,7 +7023,7 @@
             "phone1": "281-2449826",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -7019,7 +7040,7 @@
             "phone1": "9426387029",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -7057,14 +7078,14 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recylkkSRu2tUfABf",
             "lastVerifiedOn": "2021-04-23T08:16:02.000Z",
             "name": null,
             "phone1": "9825931530",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -7079,7 +7100,7 @@
             "phone1": "9824419220, 948640791",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -7087,14 +7108,14 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recyrbixLC1EOpVi9",
             "lastVerifiedOn": "2021-04-23T13:37:04.000Z",
             "name": null,
             "phone1": "9825615442",
             "phone2": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -7211,20 +7232,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not in stock.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Akola",
             "id": "recznCUE9TQN1N8Qi",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:48:27.000Z",
             "name": null,
             "phone1": "0724-2414943 94",
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         }
     ]
 }

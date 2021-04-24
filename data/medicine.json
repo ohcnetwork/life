@@ -156,7 +156,7 @@
             "phone1": "919925026371",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -245,7 +245,7 @@
         {
             "address": "SHOP NO 8/9/10, SURANA APTBARUDGAR\nNALAAURANGPURAAURANGABAD,AURANGPURA,431001",
             "city": null,
-            "comment": null,
+            "comment": "Not available in stock",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -253,15 +253,13 @@
             "district": "Aurangabad",
             "emailId": "distributorsbhagirath@gmail.com",
             "id": "rec1h9q8BSu2NKPiU",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T12:04:37.000Z",
             "phone1": "0240-2339020",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "Ratan, Shop No :- 1CST No 5451 Dalalwadi Main Road,Malmatta NO D0008084Ground\nFloor 1st Floor 2nd Flr,Aurangabad,431001",
@@ -290,14 +288,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "K. R. HOSPITAL CARE",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "kr_mehta@hotmail.com",
             "id": "rec25zsoYYwRdRiLy",
             "lastVerifiedOn": "2021-04-23T12:52:29.000Z",
             "phone1": "079-27545042",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -323,7 +321,7 @@
         {
             "address": "HIG- C1 & C2HOUSING BOARD COMPLEXOPP. TO NEW BUS STAND,HOUSING\nBOARD COMPLEX DUR,491001",
             "city": "Durg",
-            "comment": "Busy",
+            "comment": "Not Available \nBusy",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -331,12 +329,12 @@
             "district": "Durg",
             "emailId": "rathimedical@yahoo.com",
             "id": "rec2HQ4CBpCNOKvqZ",
-            "lastVerifiedOn": "2021-04-23T07:09:56.000Z",
+            "lastVerifiedOn": "2021-04-24T10:09:11.000Z",
             "phone1": "9425552481",
             "priceCheck": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -508,7 +506,7 @@
             "phone1": "0285-263420326306869428",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -645,7 +643,7 @@
             "phone1": "0261-2451775",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -731,24 +729,22 @@
         },
         {
             "address": "PINDI STREET,LUDHIANA,LUDHIANA,141008",
-            "city": null,
-            "comment": null,
-            "contactName": null,
+            "city": "Ludhiana",
+            "comment": "No stock of Remdesivir  for last 22 days (since 2nd Apr)",
+            "contactName": "Mr Armaan Singh",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "ARMAAN PHARMA DISTRIBUTORS",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "apd0161@rediffmail.com",
             "id": "rec69YulwERuvmGJZ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:25:56.000Z",
             "phone1": "0161-2726110 9815963631",
             "priceCheck": null,
-            "source": null,
-            "state": "Gujarat",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "source": "Phone",
+            "state": "Punjab",
+            "verificationStatus": "Verified",
+            "verifiedBy": "Sangharsh Sapre"
         },
         {
             "address": "PINDI STREETLUDHIANA,LUDHIANA,141008",
@@ -784,7 +780,7 @@
             "phone1": "9879313346",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -824,7 +820,7 @@
             "phone1": "2,62,22,21,094",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
         },
@@ -864,7 +860,7 @@
             "phone1": "9825222370",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -998,14 +994,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Free Home Delivery",
             "distributorName": "Astha Medical",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": null,
             "id": "rec8NG1Qo2zuEuDat",
             "lastVerifiedOn": "2021-04-23T08:18:35.000Z",
             "phone1": "9879034431",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -1033,7 +1029,7 @@
         {
             "address": "SHOP NO.39, 1ST & 2ND FLOOR,GULSHAN TOWERS,NEAR PANCHASHEEL\nTALKIESAMRAVATI,AMRAVATI,444601",
             "city": null,
-            "comment": null,
+            "comment": "Whatever stock comes in goes to district administration and district hospital",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -1041,15 +1037,13 @@
             "district": "Amravati",
             "emailId": "deshmukhpravin76@gmail.com",
             "id": "rec8Oj72NDusuPisT",
-            "lastVerifiedOn": null,
-            "phone1": "0721-25644602564",
+            "lastVerifiedOn": "2021-04-24T12:03:18.000Z",
+            "phone1": "0721-2564460",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "(AGENCIES DEPARTMENT)DESH BANDHU WARDBANK\nSTREETGONDIA,GONDIA,441601",
@@ -1080,14 +1074,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Free Home Delivery",
             "distributorName": "Arihant Medicines",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": null,
             "id": "rec8YvzFr6s4Tj2DF",
             "lastVerifiedOn": "2021-04-23T08:17:06.000Z",
             "phone1": "9601268124\n079-26880281",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -1231,22 +1225,22 @@
             "verifiedBy": "Aamod Kulkarni"
         },
         {
-            "address": "G.T.ROAD,JALANDHAR,144001",
-            "city": null,
-            "comment": null,
-            "contactName": null,
+            "address": "G.T.ROAD, Near Nehru Garden, PNB Chowk, JALANDHAR,144001",
+            "city": "Jalandhar",
+            "comment": "Out of stock for Remdesivir ,Fabiflu and Tocilizumap. \nFabiflu might be available from 26th , 27th April",
+            "contactName": "Mr Sunny",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "KRISHNA & SONS",
             "district": "Jalandhar",
             "emailId": "krishnaandsons@yahoo.com",
             "id": "rec9hhKQ2jtWM96qd",
-            "lastVerifiedOn": null,
-            "phone1": "0181-2224586",
+            "lastVerifiedOn": "2021-04-24T12:07:26.000Z",
+            "phone1": "9888504242\n0181-2224586 (invalid)\n",
             "priceCheck": null,
-            "source": null,
+            "source": "Phone Web",
             "state": "Punjab",
-            "verificationStatus": null,
+            "verificationStatus": "Verified",
             "verifiedBy": [
                 {}
             ]
@@ -1273,20 +1267,20 @@
         {
             "address": "Prahladnagar",
             "city": "Ahmedabad",
-            "comment": "Not picking up",
+            "comment": "Not Available \nNot picking up",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "For Fabiflu",
             "distributorName": "Ambika Medicals",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": null,
             "id": "rec9p3hPu7vqg2q3X",
-            "lastVerifiedOn": "2021-04-23T07:24:01.000Z",
+            "lastVerifiedOn": "2021-04-24T10:10:27.000Z",
             "phone1": "9998921554",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "state": "Punjab",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -1415,14 +1409,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Free Home Delivery",
             "distributorName": "Sai Pharmacy",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": null,
             "id": "recAaJc1oauxCSGA0",
             "lastVerifiedOn": "2021-04-23T13:39:24.000Z",
             "phone1": "9428480631",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -1540,7 +1534,7 @@
             "phone1": "9825956301",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -1771,21 +1765,21 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "K. CHIMANLAL & CO",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "bhaveshkc@gmail.com",
             "id": "recClnA8Rli96UJX3",
             "lastVerifiedOn": "2021-04-23T13:11:11.000Z",
             "phone1": "25627071/72",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
             "address": "Shop No 1, Ground Floor, 1 st Floor,PR No 1296, S. No3 183 15 2,Shivshakti Nagar,\nSukewadi Road,Sukewadi Tal Sangamner, Dist Ahemednagar,Ahemednagar,422605",
             "city": null,
-            "comment": null,
+            "comment": "Not in stock. No idea when it will be available",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -1793,15 +1787,13 @@
             "district": "Ahmednagar",
             "emailId": null,
             "id": "recCuI5pqfZSvmACX",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:45:05.000Z",
             "phone1": "8087645229",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "S/NO 29 RAMWADINAGAR ROADPUNEX,PUNE,411014",
@@ -1865,7 +1857,7 @@
         {
             "address": "HOUSE NO. 310, PLOT NO. 52SHEET NO. 3 18, WARD NO. 41JOSHI MARKET,\nTOWER CHOWKAKOLA,AKOLA,444001",
             "city": null,
-            "comment": null,
+            "comment": "Number does not exist",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -1873,15 +1865,13 @@
             "district": "Akola",
             "emailId": "trimurtisalesakola@rediffmail.com",
             "id": "recDewDALIpawEYbA",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:53:10.000Z",
             "phone1": "0724-2431515 243",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "HOUSE NO 2-11-296, UNDER GROUND & UD. P. ROADBEHIND VAIDNATH BANK\n,,BEED,431122",
@@ -2016,7 +2006,7 @@
             "phone1": "02752-220010",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -2037,7 +2027,7 @@
             "phone1": "0278-2515775 ",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Aamod Kulkarni"
         },
@@ -2059,6 +2049,27 @@
             "state": "Assam",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Dr. Pallabi Roy"
+        },
+        {
+            "address": null,
+            "city": null,
+            "comment": "Remdesivir injection now will be provided thru Collector and Drug inspectors\n1800222365 call on this toll free no and ask for injection. They share you contact no of area drug inspector .",
+            "contactName": "Collector and Drug inspectors\n1800222365",
+            "createdTime": "2021-04-24T09:18:18.000Z",
+            "description": null,
+            "distributorName": "Collector and Drug inspectors",
+            "district": "Pune",
+            "emailId": null,
+            "id": "recFONnaAfgIRiecW",
+            "lastVerifiedOn": null,
+            "phone1": "1800222365",
+            "priceCheck": null,
+            "source": "Twitter",
+            "state": "Maharashtra",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "address": "BL. NO. 254,255,256, 2 ND FLOORSANDESH DAWA BAZAR,GANJIPETH,\nNAGPUR,NAGPUR,440018",
@@ -2087,14 +2098,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "DHRUVI PHARMA PVT. LTD.",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "ahm@dhruvipharma.com",
             "id": "recFWUPnrCptXPZTW",
             "lastVerifiedOn": "2021-04-24T06:38:45.000Z",
             "phone1": "079- 40055601602603",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Disha Jariwala"
         },
@@ -2228,14 +2239,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Free Home Delivery",
             "distributorName": "Tanvi",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": null,
             "id": "recGFPKNjJxEc3quE",
             "lastVerifiedOn": "2021-04-23T13:41:57.000Z",
             "phone1": "9998151514",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -2247,14 +2258,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "For Fabiflu",
             "distributorName": "Nataraj Medical Store",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": null,
             "id": "recGRAidhTBHIFszp",
             "lastVerifiedOn": "2021-04-23T12:54:16.000Z",
             "phone1": "8352020835",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -2332,7 +2343,7 @@
             "phone1": "02766-233624",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -2353,7 +2364,7 @@
             "phone1": "9825324372",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -2549,7 +2560,7 @@
             "phone1": "02642-222541, 9879454187",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -2568,7 +2579,7 @@
             "phone1": "288-2557207/6455001",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -2587,7 +2598,7 @@
             "phone1": "2812460522",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -2641,14 +2652,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Free Home Delivery",
             "distributorName": "Arihant Medicines",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": null,
             "id": "recJVxZFPaONSdyl1",
             "lastVerifiedOn": "2021-04-23T09:35:12.000Z",
             "phone1": "9924453922",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -2738,14 +2749,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "UMIYA PHARMA DIST.",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "mehta.purav18@gmail.com",
             "id": "recJwWUJuTYC2jYTQ",
             "lastVerifiedOn": "2021-04-23T13:02:35.000Z",
             "phone1": "9327198989,9662905494",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -2783,7 +2794,7 @@
             "phone1": "0265 - 438768",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -2886,7 +2897,7 @@
             "phone1": "0261-2437887",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Disha Jariwala"
         },
@@ -3216,14 +3227,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "K.B. SHAH & CO.",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "khokhra@kbshah.com",
             "id": "recMOwDWtCKth08Wm",
             "lastVerifiedOn": "2021-04-23T12:51:15.000Z",
             "phone1": "079 22936616/17",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -3417,7 +3428,7 @@
             "phone1": "0261-24117632402655",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3438,7 +3449,7 @@
             "phone1": "9825034579",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3471,14 +3482,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "O.B. ENTERPRISE",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "obenterprise2012@gmail.com",
             "id": "recNxmpkTglNw4Tm2",
             "lastVerifiedOn": "2021-04-23T12:55:24.000Z",
             "phone1": "7940305067",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -3587,14 +3598,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "H V SHAH",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "vinayshaha.dr@gmail.com",
             "id": "recPYdIuEcRAX6sE8",
             "lastVerifiedOn": "2021-04-24T06:46:41.000Z",
             "phone1": "9890927001",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Andrea Palkhivala"
         },
@@ -3632,7 +3643,7 @@
             "phone1": "9824179071",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3716,7 +3727,7 @@
             "phone1": "02765-292132",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3768,14 +3779,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Free Home Delivery",
             "distributorName": "Paras Medical Store",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": null,
             "id": "recR25J9V2yW2shbX",
             "lastVerifiedOn": "2021-04-23T12:56:41.000Z",
             "phone1": "9825531706",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -3794,7 +3805,7 @@
             "phone1": "0265 24327612415760",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3876,7 +3887,7 @@
             "phone1": "26,22,24,34,290",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Disha Jariwala"
         },
@@ -3895,7 +3906,7 @@
             "phone1": "0265-2418955",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -3935,7 +3946,7 @@
             "phone1": "23554553",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -4034,7 +4045,7 @@
             "phone1": "2612438769",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -4213,7 +4224,7 @@
             "phone1": "265",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -4304,7 +4315,7 @@
         {
             "address": "440/8INDIRA COLONY, KURUKSHETRAMAYA COMPLEX, NEAR ANKUR NURSING\nHOME,KURUKSHETRA,136118",
             "city": null,
-            "comment": "Ringing, no one picking up",
+            "comment": "Not Available \nRinging, no one picking up",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -4312,12 +4323,12 @@
             "district": "Kurukshetra",
             "emailId": "ajay.radhakishan@gmail.com",
             "id": "recVv8rhTuWO3HBjN",
-            "lastVerifiedOn": "2021-04-23T12:57:27.000Z",
+            "lastVerifiedOn": "2021-04-24T08:35:18.000Z",
             "phone1": "9812026380",
             "priceCheck": null,
             "source": null,
             "state": "Haryana",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -4361,7 +4372,7 @@
         {
             "address": "GR. FLOOR ,FIRST FLOOR ,SECOND FLOOR PRON. NO.4.1 76 77,\nPANDIRABAAURNGABAD,AURANGABAD,431001",
             "city": null,
-            "comment": null,
+            "comment": "Currently not in stock",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -4369,15 +4380,13 @@
             "district": "Aurangabad",
             "emailId": null,
             "id": "recW7Wp9dTstOsaK7",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T12:08:47.000Z",
             "phone1": "9372327615",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "BASEMENT PLOT NO - F 26/3,OKHLA PHASE - IINEW DELHINEW\nDELHI,DELHI,110020",
@@ -4406,14 +4415,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Free Home Delivery",
             "distributorName": "Labdhi Chemist",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": null,
             "id": "recWJ7AkvVeasLb6D",
             "lastVerifiedOn": "2021-04-23T12:52:27.000Z",
             "phone1": "9879045852",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -4569,7 +4578,7 @@
             "phone1": "02849-253878",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Aamod Kulkarni"
         },
@@ -4713,7 +4722,7 @@
         {
             "address": "SHOP NO 112,13,14MAHAVIR PLAZAAMRAWATI,AMRAVATI,444601",
             "city": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -4721,15 +4730,13 @@
             "district": "Amravati",
             "emailId": "geetamedicals@gmail.com",
             "id": "recXXCGY3vKOmRAk9",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:57:46.000Z",
             "phone1": "9422957999",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "SHOP NO. 66/7, GROUND FLOORNEAR JHUTRA DHARMSHALLA,HISAR,125001",
@@ -4841,7 +4848,7 @@
             "phone1": "9429136600",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -4959,7 +4966,7 @@
             "phone1": "9426870319",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -4999,7 +5006,7 @@
             "phone1": "9227626222",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -5080,6 +5087,27 @@
             "state": "Maharashtra",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Mohita Kotkar"
+        },
+        {
+            "address": null,
+            "city": null,
+            "comment": null,
+            "contactName": null,
+            "createdTime": "2021-04-23T08:21:11.000Z",
+            "description": null,
+            "distributorName": null,
+            "district": "Pune",
+            "emailId": null,
+            "id": "recaUfejQis3eCfCu",
+            "lastVerifiedOn": null,
+            "phone1": null,
+            "priceCheck": null,
+            "source": null,
+            "state": "Maharashtra",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "address": "NEW NO. 16, OLD NO. 239,THIRUVENKATASAMY ROAD (EAST)NEAR PONNAIH\nHOSPITAL,COIMBATORE,COIMBATORE,641001",
@@ -5185,7 +5213,7 @@
         {
             "address": "C S NO 1250-G-2MAHALAXMI APARTMENT, DR CHATUPHALE MARGA/P\nSHRIRAMPURDIST AHMEDNAGAR,AHMEDNAGAR,413709",
             "city": null,
-            "comment": null,
+            "comment": "Both the numbers are invalid",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -5193,15 +5221,13 @@
             "district": "Ahmednagar",
             "emailId": "trilok_enterprises@rediffmail.com",
             "id": "recbfVSlE2SuXMVsF",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:46:50.000Z",
             "phone1": "02425-224784/221",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "SHOP NO.1 & 2 ,KALPATARU CLASSIC,CHAKRADHAR NAGARS.T.DEPOT RD,\nNALASOPARA ( W )DIST THANE,NALASOPARA ( W ),401203",
@@ -5256,7 +5282,7 @@
             "phone1": "9377752557",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -5369,14 +5395,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "O.B.ENTERPRISE",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": null,
             "id": "reccdyRtA86uSmJ4d",
             "lastVerifiedOn": "2021-04-23T12:55:36.000Z",
             "phone1": "40305067-079",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -5525,14 +5551,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "BELA DRUG CENTRE",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "beladrug@gmail.com",
             "id": "recdJAKMtv8vLpiUY",
             "lastVerifiedOn": "2021-04-23T09:24:50.000Z",
             "phone1": "93288 22228 (BHAVINBHAI)",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Aamod Kulkarni"
         },
@@ -5610,7 +5636,7 @@
             "phone1": "0261-24259232454585",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -5624,14 +5650,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "PHARMA DISTRIBUTOR",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "pharmadistributor2016@gmail.com",
             "id": "recdqhahTIH4XbSWZ",
             "lastVerifiedOn": "2021-04-23T13:35:55.000Z",
             "phone1": "9979737500",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -5744,14 +5770,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "MAHENDRA MEDICINES",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "mahendramedicines@gmail.com",
             "id": "receJckkfJhSY2mg5",
             "lastVerifiedOn": "2021-04-23T12:53:50.000Z",
             "phone1": "7926576739",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -5791,7 +5817,7 @@
             "phone1": "2,61,32,92,807",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
         },
@@ -5880,7 +5906,7 @@
         {
             "address": "1ST&2ND FLOOR, GOYANKA BUILDING,NASUL SHEET NO 64 HOUSE NO.652\n1PLOT. NO. 115, RATANLAL PLOT, AKOLA,AKOLA,444005",
             "city": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -5888,20 +5914,18 @@
             "district": "Akola",
             "emailId": "nishantpcp@gmail.com",
             "id": "recf3mnHn15Qps4qc",
-            "lastVerifiedOn": null,
-            "phone1": "0724-24264212426",
+            "lastVerifiedOn": "2021-04-24T11:52:01.000Z",
+            "phone1": "0724-2426421 2426",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "Gala No. 1 Ground Floor , Milkat No 457/2,Cts No.1287, Near Vithhal Mandir,Main\nRoad, At Post, Jamkhed,Taluka Jamkhed District Ahmednagar,,Ahmednagar,413201",
             "city": null,
-            "comment": null,
+            "comment": "He gets the stock every 3-4 days once but gives it to district administration and distributes to the hospitals as per advice from the collectorate",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -5909,15 +5933,13 @@
             "district": "Ahmednagar",
             "emailId": "vishalsh74@gmail.com",
             "id": "recfB4VZSFPMGMROV",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T12:00:23.000Z",
             "phone1": "9420037963",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "11,SHRI PAVANSUT,DAVA\nBAZAR,RAMNAGR,CHANDRAPUR,CHANDRAPUR,442402",
@@ -5943,7 +5965,7 @@
         {
             "address": "A-7, 2nd FloorMayapuri, Industrial AreaPhase-IITal . Hari Nagar 28,NEW\nDELHI,110064",
             "city": "Delhi",
-            "comment": "Busy",
+            "comment": "Not Available \nBusy",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -5951,12 +5973,12 @@
             "district": "New Delhi",
             "emailId": "delhi@novacare.in",
             "id": "recfFxFIllrgI2WDl",
-            "lastVerifiedOn": "2021-04-23T07:19:18.000Z",
+            "lastVerifiedOn": "2021-04-24T08:37:50.000Z",
             "phone1": "8860074107",
             "priceCheck": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -6374,7 +6396,7 @@
             "phone1": "0268 2552283",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -6478,7 +6500,7 @@
         {
             "address": "MCB-Z1-10430 Near Kesri DrycleanerGandhi MarketBathinda,Bathinda,151001",
             "city": null,
-            "comment": null,
+            "comment": "Not Available ",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -6486,15 +6508,13 @@
             "district": "Bathinda",
             "emailId": "garg@gargpharma.com",
             "id": "rechlSqJDJo8xTb3m",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T08:40:30.000Z",
             "phone1": "0164-2235902",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "MANISH NAYYAR"
         },
         {
             "address": "Door No.152/1JAYANAGAR COLONYNEAR BAIRAGIPATTEDA\nPARK,TIRUPATHI,517501",
@@ -6681,14 +6701,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "SANJIVANI AGENCY (AHMEDNAGAR)",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "sanjivaniagency@gmail.com",
             "id": "recj0qWkYldlFQurZ",
             "lastVerifiedOn": "2021-04-24T06:47:11.000Z",
             "phone1": "9822258016",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Andrea Palkhivala"
         },
@@ -6726,7 +6746,7 @@
             "phone1": null,
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -6804,7 +6824,7 @@
             "phone1": "(02772)40876",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Disha Jariwala"
         },
@@ -7004,14 +7024,14 @@
             "phone1": "MO9427536091",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
         {
             "address": "3/4 GROUND FLOORSHRAWGI PLOTDAWA BAZAR AKOLAAKOLA,AKOLA,444001",
             "city": null,
-            "comment": null,
+            "comment": "Number does not exist",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -7019,15 +7039,13 @@
             "district": "Akola",
             "emailId": "nbvora1933@gmail.com",
             "id": "recm6QG6WIbRot73x",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:50:29.000Z",
             "phone1": "0724-24376952435",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "CROSS ROAD NO. 1OPP DATTA HOSPITALAMBALA CANTT,AMBALA,133001",
@@ -7051,7 +7069,7 @@
         {
             "address": "12-13 , DAWA BAZARMAHAVIR PLAZARALLIES\nPLOTAMRAWATI,AMRAVATI,444601",
             "city": null,
-            "comment": null,
+            "comment": "Not available in stock. Not sure when it will be available again",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -7059,15 +7077,13 @@
             "district": "Amravati",
             "emailId": "agencieschanda@gmail.com",
             "id": "recmTp9yIhD2OuwBO",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:56:24.000Z",
             "phone1": "0721-26735522591",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "OLD PABHAT ROAD, OPP MODI KUNJ FLATSVILLAGE:\nPABHARTZIRAKPUR,ZIRAKPUR,140105",
@@ -7103,7 +7119,28 @@
             "phone1": "9825223432",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "address": "Ahmednagar",
+            "city": null,
+            "comment": "8208982265",
+            "contactName": "Sumit Rathod",
+            "createdTime": "2021-04-24T09:54:30.000Z",
+            "description": null,
+            "distributorName": "M/s. Rathod Medical & General stores",
+            "district": "Ahmednagar",
+            "emailId": "rathod.medical1@gmail.com",
+            "id": "recmqXc8CLuMEgbyO",
+            "lastVerifiedOn": null,
+            "phone1": "8208982265",
+            "priceCheck": null,
+            "source": null,
+            "state": "Maharashtra",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -7124,14 +7161,14 @@
             "phone1": "0278 - 2436017",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
             "address": "BUS STAND ROADBILASPUR,BUS STAND ROAD BILASPUR,495001",
             "city": "Bilaspur",
-            "comment": "No answer.",
+            "comment": "Not available (his response-Only covid hospital me milega)\nNo answer.",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -7139,12 +7176,12 @@
             "district": "Bilaspur",
             "emailId": "melarambrothers.bsp@gmail.com",
             "id": "recmzWV0A4jBSSjgN",
-            "lastVerifiedOn": "2021-04-23T07:07:41.000Z",
+            "lastVerifiedOn": "2021-04-24T10:07:47.000Z",
             "phone1": "9827165765",
             "priceCheck": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -7308,7 +7345,7 @@
         {
             "address": "4, CITY CENTEROPP. UNION BANK OF INDIASILVASSA,SILVASSA,396230",
             "city": null,
-            "comment": "Busy",
+            "comment": "Not Available \nBusy",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -7316,12 +7353,12 @@
             "district": "Dadra & Nagar Haveli",
             "emailId": "lifeline.silvassa@gmail.com",
             "id": "recoZvcgM65IhTpmv",
-            "lastVerifiedOn": "2021-04-23T07:21:13.000Z",
+            "lastVerifiedOn": "2021-04-24T08:34:20.000Z",
             "phone1": "9825085033",
             "priceCheck": null,
             "source": null,
             "state": "Dadra and Nagar Haveli and Daman & Diu (UT)",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -7339,7 +7376,7 @@
             "phone1": "9825127704",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -7360,7 +7397,7 @@
             "phone1": "02692 - 2550433 2550533",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -7476,7 +7513,7 @@
             "phone1": "281-2450230/6539330",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -7556,7 +7593,7 @@
             "phone1": "9426924999",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -7575,7 +7612,7 @@
             "phone1": "02762 -221487 02762 -221",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -7691,7 +7728,7 @@
             "phone1": "0265-2418955",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -7712,7 +7749,7 @@
             "phone1": "9825129112",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -7792,7 +7829,7 @@
             "phone1": "9825861920",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Dr. Pallabi Roy"
         },
@@ -7849,7 +7886,7 @@
             "phone1": "2832",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -7868,7 +7905,7 @@
             "phone1": "9429972220",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
         },
@@ -7887,7 +7924,7 @@
             "phone1": "02772-245404/244273",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -7920,14 +7957,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Free Home Delivery",
             "distributorName": "Gandhi Medical Store",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": null,
             "id": "recswewJwwV1IMfOJ",
             "lastVerifiedOn": "2021-04-23T09:39:55.000Z",
             "phone1": "7405673733",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -7967,7 +8004,7 @@
             "phone1": "9925150320",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -8007,7 +8044,7 @@
             "phone1": "9374711850",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -8163,7 +8200,7 @@
             "phone1": "2812460522",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -8361,7 +8398,7 @@
             "phone1": "0265-2432244",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -8369,24 +8406,22 @@
         },
         {
             "address": "SHOP NO.5,ESI ROAD,,LUDHIANA,141001",
-            "city": null,
-            "comment": null,
-            "contactName": null,
+            "city": "Ludhiana",
+            "comment": "Call on mobile , Remdesivir is out of stock - check next week \ntocilizumab injection can be provided on Dr prescription",
+            "contactName": "Mr Jasdeep Singh",
             "createdTime": "2021-04-19T07:48:08.000Z",
-            "description": "Remdesivir distribution list",
+            "description": "Retailer in Ludhiana",
             "distributorName": "SANJIVANI MEDICOS",
             "district": "Ludhiana",
             "emailId": "sanjivani.medicos@yahoo.com",
             "id": "recvKWCBDfnofmsjN",
-            "lastVerifiedOn": null,
-            "phone1": "161-2773745",
+            "lastVerifiedOn": "2021-04-24T11:45:23.000Z",
+            "phone1": "9855400087 \n161-2773745(invalid)\n",
             "priceCheck": null,
-            "source": null,
+            "source": "Phone",
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Sangharsh Sapre"
         },
         {
             "address": "144, 1st Floor, Lal Dora Extn,Amberhai Village, Sector -19, Dwarka,New Delhi,110075",
@@ -8415,14 +8450,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "DESAI MEDICAL STORE",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "desaimedicalstores@gmail.com",
             "id": "recvimiNh3YeCPFaj",
             "lastVerifiedOn": "2021-04-23T09:38:39.000Z",
             "phone1": "0271-533853, 9825037319",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -8498,7 +8533,7 @@
             "phone1": "02778 - 253515",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -8571,14 +8606,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Free Home Delivery",
             "distributorName": "Tilak Medical Hospital",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": null,
             "id": "recwSACV4qwsoB7yP",
             "lastVerifiedOn": "2021-04-24T06:45:22.000Z",
             "phone1": "9427712710",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -8691,21 +8726,21 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "SHAH & KOTHARI BROTHERS",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "shah.kothari@gmail.com",
             "id": "recxcvGVpx8nQtpjM",
             "lastVerifiedOn": "2021-04-23T13:00:21.000Z",
             "phone1": "6584619658,3006982503666",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Urja Khandhediya"
         },
         {
             "address": "\"\"\"VIJAYSHRI\"\" NEAR BUS STAND\"JAMKHED 413 201DIST\nAHMEDNAGAR(VM),AHMEDNAGAR,413201",
             "city": null,
-            "comment": null,
+            "comment": "No phone number to contact",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -8713,15 +8748,13 @@
             "district": "Ahmednagar",
             "emailId": "prasanna.jamkhed@yahoo.in",
             "id": "recxwDEUTTQ6N7RPh",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T12:01:51.000Z",
             "phone1": null,
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "SHOP NO. 4,69, TARDEO ROADGIRNAR BUILDING,,MUMBAI,400034",
@@ -8778,7 +8811,7 @@
             "phone1": "281-2449826",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": [
                 {}
@@ -8799,7 +8832,7 @@
             "phone1": "9426387029",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -8849,14 +8882,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "distributorName": "ANGI AGENCY",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": "angi.agency@gmail.com",
             "id": "recylkkSRu2tUfABf",
             "lastVerifiedOn": "2021-04-23T08:16:02.000Z",
             "phone1": "9825931530",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -8875,7 +8908,7 @@
             "phone1": "9824419220, 948640791",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -8887,14 +8920,14 @@
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Free Home Delivery",
             "distributorName": "Raj Chemist",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "emailId": null,
             "id": "recyrbixLC1EOpVi9",
             "lastVerifiedOn": "2021-04-23T13:37:04.000Z",
             "phone1": "9825615442",
             "priceCheck": null,
             "source": null,
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": "Invalid",
             "verifiedBy": "Apoorva Vajpayee"
         },
@@ -9040,7 +9073,7 @@
         {
             "address": "SHOP. NO. 25, 1 ST FLOORAKOLACHEMIST SHOPPING COMPLEX,,AKOLA,444001",
             "city": null,
-            "comment": null,
+            "comment": "Not in stock.",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -9048,15 +9081,13 @@
             "district": "Akola",
             "emailId": "prashant.bhartiya123@gmail.com",
             "id": "recznCUE9TQN1N8Qi",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T11:48:27.000Z",
             "phone1": "0724-2414943 94",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         }
     ]
 }

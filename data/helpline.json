@@ -3348,6 +3348,20 @@
         },
         {
             "category": null,
+            "createdTime": "2021-04-24T11:50:27.000Z",
+            "description": "Saharanpur CMO Control Room number",
+            "district": "Saharanpur",
+            "id": "recG4YgJ8Ilxu82kp",
+            "name": null,
+            "phone1": 9412668306,
+            "phone2": 8279414202,
+            "source": "News",
+            "sourceUrl": "https://www.facebook.com/824866580910113/posts/4170382859691785/",
+            "state": "Uttar Pradesh",
+            "subCategory": null
+        },
+        {
+            "category": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Farmers Helpline Number - Shri. B D Rai",
             "district": "North Sikkim",
@@ -7424,14 +7438,14 @@
             "category": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Solve Doubts related COVID-19",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recXjsb5t6qPiFWOe",
             "name": null,
             "phone1": 2412323844,
             "phone2": 2412356940,
             "source": "mahainfocorona Website",
             "sourceUrl": "https://mahainfocorona.in/mr/help",
-            "state": "Gujarat",
+            "state": "Punjab",
             "subCategory": null
         },
         {
