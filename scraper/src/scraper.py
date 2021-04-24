@@ -144,7 +144,12 @@ def get_plasma_data():
                 "description": record["fields"].get("Description"),
                 "phone1": record["fields"].get("Phone 1"),
                 "sourceLink": record["fields"].get("Source link"),
-                "createdTime": record["createdTime"],
+                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
+                "comment": record["fields"].get("Verifier_Comment"),
+                "lastVerifiedOn": record["fields"].get("Verified_On"),
+                "verifiedBy": record["fields"]["Verified_By"][0].get("name")
+                if "Verified_By" in record["fields"]
+                else [{}],
             }
         )
     return plasma_data
@@ -206,6 +211,12 @@ def get_helpline_data():
                 "source": record["fields"].get("source"),
                 "description": record["fields"].get("description"),
                 "createdTime": record["createdTime"],
+                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
+                "comment": record["fields"].get("Verifier_Comment"),
+                "lastVerifiedOn": record["fields"].get("Verified_On"),
+                "verifiedBy": record["fields"]["Verified_By"][0].get("name")
+                if "Verified_By" in record["fields"]
+                else [{}],
             }
         )
     return helpline_data
