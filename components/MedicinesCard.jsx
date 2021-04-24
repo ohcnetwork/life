@@ -12,7 +12,6 @@ import { isVerified, parseDateString } from '../lib/utils';
 const MedicinesCard = ({
     verificationStatus,
     name,
-    distributorName,
     city,
     phone1,
     address,
@@ -32,13 +31,13 @@ const MedicinesCard = ({
                             <span>
                                 {isVerified(verificationStatus) ? (
                                     <FontAwesomeIcon
-                                        className="text-green-600 w-5 "
+                                        className="text-green-600 w-5 ml-4"
                                         title="Verified"
                                         icon={faCheckCircle}
                                     />
                                 ) : (
                                     <FontAwesomeIcon
-                                        className="text-yellow-400 w-4 "
+                                        className="text-yellow-400 w-4 ml-4"
                                         title="Not verified"
                                         icon={faExclamationTriangle}
                                     />
@@ -46,7 +45,6 @@ const MedicinesCard = ({
                             </span>
                         </h1>
                         <div className="text-sm text-gray-700 dark:text-gray-200 font-semibold">
-                            <span className="mr-2">{distributorName}</span>|
                             <span className="ml-2">{city}</span>
                         </div>
                     </div>
