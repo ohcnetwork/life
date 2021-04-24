@@ -498,20 +498,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jaipur",
             "id": "rec63QLpaebfRODaJ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T15:08:31.000Z",
             "name": null,
-            "phone1": "2355532",
+            "phone1": "0141-2355532",
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -1070,20 +1068,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not a valid number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jaipur",
             "id": "recBoWkgg7xOtmDay",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T15:06:06.000Z",
             "name": null,
             "phone1": "0141-2225554",
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -1563,20 +1559,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jodhpur",
             "id": "recHKIm3knImgu7Vz",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T15:09:06.000Z",
             "name": null,
             "phone1": "0291-2643881",
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -3531,6 +3525,23 @@
             "state": "Rajasthan",
             "verificationStatus": "Invalid",
             "verifiedBy": "Karthik Yadhati"
+        },
+        {
+            "area": null,
+            "comment": null,
+            "createdTime": "2021-04-24T15:30:33.000Z",
+            "district": "Aurangabad",
+            "id": "reccdkPdvPTqYQWbj",
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": "9422496941",
+            "phone2": null,
+            "source": "Newspaper",
+            "state": "Bihar",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "area": null,

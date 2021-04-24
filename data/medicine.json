@@ -627,23 +627,21 @@
         {
             "address": "KHATIPURA ROAD,JAIPUR,302021",
             "city": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "district": "Jaipur",
             "emailId": "jaipurimmunology@hotmail.com",
             "id": "rec63QLpaebfRODaJ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T15:08:31.000Z",
             "name": "MEDIMITRA MEDICALS",
-            "phone1": "2355532",
+            "phone1": "0141-2355532",
             "priceCheck": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "PINDI STREET,LUDHIANA,LUDHIANA,141008",
@@ -1343,23 +1341,21 @@
         {
             "address": "B-12 GROUND FLOOR & FIRST FLOORSUDERSHANPURA INDUSTRIAL AREA,22\nGODAM, JAIPUR,JAIPUR,302006",
             "city": null,
-            "comment": null,
+            "comment": "Not a valid number",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "district": "Jaipur",
             "emailId": "dhruvi_jpr@yahoo.co.in",
             "id": "recBoWkgg7xOtmDay",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T15:06:06.000Z",
             "name": "DHRUVI PHARMA PVT LTD.",
             "phone1": "0141-2225554",
             "priceCheck": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "SECTOR MLDA COLONYASHIYANAKANUR ROADLUCKNOW,LUCKNOW,226012",
@@ -1960,23 +1956,21 @@
         {
             "address": "MEDICINE MARKET,OPP. M.G.HOSPITALJODHPUR,JODHPUR,342001",
             "city": null,
-            "comment": null,
+            "comment": "Not answering the call",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "district": "Jodhpur",
             "emailId": "laxmipharma@yahoo.co.in",
             "id": "recHKIm3knImgu7Vz",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T15:09:06.000Z",
             "name": "LAXMI PHARMA",
             "phone1": "0291-2643881",
             "priceCheck": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "SHOP NO 4 , MADHU PALACENEAR SGPGIMS,LUCKNOW,226014",
@@ -4427,6 +4421,27 @@
             "state": "Rajasthan",
             "verificationStatus": "Invalid",
             "verifiedBy": "Karthik Yadhati"
+        },
+        {
+            "address": "Aurangabad, Maharashtra ",
+            "city": null,
+            "comment": null,
+            "contactName": "Mr. Bajaj",
+            "createdTime": "2021-04-24T15:30:33.000Z",
+            "description": "Remedesivir Helpline for Aurangabad District\nSetup by collector office of Sunil Chavan, IAS\n\nTo get the Remedesivir hospitals will have to whatsapp patient details to above whatsapp number & request for injection.\n\nNo individual request will be fulfilled ",
+            "district": "Aurangabad",
+            "emailId": null,
+            "id": "reccdkPdvPTqYQWbj",
+            "lastVerifiedOn": null,
+            "name": "FDA Inspector",
+            "phone1": "9422496941",
+            "priceCheck": null,
+            "source": "Newspaper",
+            "state": "Bihar",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "address": "32, WORLD BUSINESS HOUSEOPP. KRUPA PETROL PUMPNR. PARIMAL\nGARDEN,AHMEDABAD,380015",
