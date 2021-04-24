@@ -8365,7 +8365,7 @@
             "district": "Koderma",
             "doctor": false,
             "helpline": true,
-            "hospitals": false,
+            "hospitals": true,
             "id": "reczyR66uNFFtgmGj",
             "medicine": false,
             "oxygen": false,
