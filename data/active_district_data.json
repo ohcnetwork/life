@@ -979,7 +979,7 @@
             "ambulance": false,
             "contact": true,
             "district": "Mandsaur",
-            "doctor": false,
+            "doctor": true,
             "helpline": true,
             "hospitals": false,
             "id": "rec6tZ6GAfOYYIz9k",
@@ -7497,7 +7497,7 @@
             "hospitals": true,
             "id": "rectw4LhqVzZ7VIZ9",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Karnataka"
         },

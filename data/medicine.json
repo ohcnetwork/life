@@ -323,7 +323,7 @@
         {
             "address": "HIG- C1 & C2HOUSING BOARD COMPLEXOPP. TO NEW BUS STAND,HOUSING\nBOARD COMPLEX DUR,491001",
             "city": "Durg",
-            "comment": "Busy",
+            "comment": "Not Available \nBusy",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -331,12 +331,12 @@
             "district": "Durg",
             "emailId": "rathimedical@yahoo.com",
             "id": "rec2HQ4CBpCNOKvqZ",
-            "lastVerifiedOn": "2021-04-23T07:09:56.000Z",
+            "lastVerifiedOn": "2021-04-24T10:09:11.000Z",
             "phone1": "9425552481",
             "priceCheck": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -1273,7 +1273,7 @@
         {
             "address": "Prahladnagar",
             "city": "Ahmedabad",
-            "comment": "Not picking up",
+            "comment": "Not Available \nNot picking up",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "For Fabiflu",
@@ -1281,12 +1281,12 @@
             "district": "Ahmedabad",
             "emailId": null,
             "id": "rec9p3hPu7vqg2q3X",
-            "lastVerifiedOn": "2021-04-23T07:24:01.000Z",
+            "lastVerifiedOn": "2021-04-24T10:10:27.000Z",
             "phone1": "9998921554",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -2059,6 +2059,27 @@
             "state": "Assam",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Dr. Pallabi Roy"
+        },
+        {
+            "address": null,
+            "city": null,
+            "comment": "Remdesivir injection now will be provided thru Collector and Drug inspectors\n1800222365 call on this toll free no and ask for injection. They share you contact no of area drug inspector .",
+            "contactName": "Collector and Drug inspectors\n1800222365",
+            "createdTime": "2021-04-24T09:18:18.000Z",
+            "description": null,
+            "distributorName": "Collector and Drug inspectors",
+            "district": "Pune",
+            "emailId": null,
+            "id": "recFONnaAfgIRiecW",
+            "lastVerifiedOn": null,
+            "phone1": "1800222365",
+            "priceCheck": null,
+            "source": "Twitter",
+            "state": "Maharashtra",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "address": "BL. NO. 254,255,256, 2 ND FLOORSANDESH DAWA BAZAR,GANJIPETH,\nNAGPUR,NAGPUR,440018",
@@ -4304,7 +4325,7 @@
         {
             "address": "440/8INDIRA COLONY, KURUKSHETRAMAYA COMPLEX, NEAR ANKUR NURSING\nHOME,KURUKSHETRA,136118",
             "city": null,
-            "comment": "Ringing, no one picking up",
+            "comment": "Not Available \nRinging, no one picking up",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -4312,12 +4333,12 @@
             "district": "Kurukshetra",
             "emailId": "ajay.radhakishan@gmail.com",
             "id": "recVv8rhTuWO3HBjN",
-            "lastVerifiedOn": "2021-04-23T12:57:27.000Z",
+            "lastVerifiedOn": "2021-04-24T08:35:18.000Z",
             "phone1": "9812026380",
             "priceCheck": null,
             "source": null,
             "state": "Haryana",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -5943,7 +5964,7 @@
         {
             "address": "A-7, 2nd FloorMayapuri, Industrial AreaPhase-IITal . Hari Nagar 28,NEW\nDELHI,110064",
             "city": "Delhi",
-            "comment": "Busy",
+            "comment": "Not Available \nBusy",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -5951,12 +5972,12 @@
             "district": "New Delhi",
             "emailId": "delhi@novacare.in",
             "id": "recfFxFIllrgI2WDl",
-            "lastVerifiedOn": "2021-04-23T07:19:18.000Z",
+            "lastVerifiedOn": "2021-04-24T08:37:50.000Z",
             "phone1": "8860074107",
             "priceCheck": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -6478,7 +6499,7 @@
         {
             "address": "MCB-Z1-10430 Near Kesri DrycleanerGandhi MarketBathinda,Bathinda,151001",
             "city": null,
-            "comment": null,
+            "comment": "Not Available ",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -6486,15 +6507,13 @@
             "district": "Bathinda",
             "emailId": "garg@gargpharma.com",
             "id": "rechlSqJDJo8xTb3m",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T08:40:30.000Z",
             "phone1": "0164-2235902",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "MANISH NAYYAR"
         },
         {
             "address": "Door No.152/1JAYANAGAR COLONYNEAR BAIRAGIPATTEDA\nPARK,TIRUPATHI,517501",
@@ -7110,6 +7129,27 @@
             ]
         },
         {
+            "address": "Ahmednagar",
+            "city": null,
+            "comment": "8208982265",
+            "contactName": "Sumit Rathod",
+            "createdTime": "2021-04-24T09:54:30.000Z",
+            "description": null,
+            "distributorName": "M/s. Rathod Medical & General stores",
+            "district": "Ahmednagar",
+            "emailId": "rathod.medical1@gmail.com",
+            "id": "recmqXc8CLuMEgbyO",
+            "lastVerifiedOn": null,
+            "phone1": "8208982265",
+            "priceCheck": null,
+            "source": null,
+            "state": "Maharashtra",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "address": "18,BAHUBALI COMPLEXB/H PILL GARDEN,BHAVNAGARTELE-0278-26017F-\n24,BHAVNAGAR,364001",
             "city": "Bhavnagar",
             "comment": "No stock, no replenishment ",
@@ -7131,7 +7171,7 @@
         {
             "address": "BUS STAND ROADBILASPUR,BUS STAND ROAD BILASPUR,495001",
             "city": "Bilaspur",
-            "comment": "No answer.",
+            "comment": "Not available (his response-Only covid hospital me milega)\nNo answer.",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -7139,12 +7179,12 @@
             "district": "Bilaspur",
             "emailId": "melarambrothers.bsp@gmail.com",
             "id": "recmzWV0A4jBSSjgN",
-            "lastVerifiedOn": "2021-04-23T07:07:41.000Z",
+            "lastVerifiedOn": "2021-04-24T10:07:47.000Z",
             "phone1": "9827165765",
             "priceCheck": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -7308,7 +7348,7 @@
         {
             "address": "4, CITY CENTEROPP. UNION BANK OF INDIASILVASSA,SILVASSA,396230",
             "city": null,
-            "comment": "Busy",
+            "comment": "Not Available \nBusy",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -7316,12 +7356,12 @@
             "district": "Dadra & Nagar Haveli",
             "emailId": "lifeline.silvassa@gmail.com",
             "id": "recoZvcgM65IhTpmv",
-            "lastVerifiedOn": "2021-04-23T07:21:13.000Z",
+            "lastVerifiedOn": "2021-04-24T08:34:20.000Z",
             "phone1": "9825085033",
             "priceCheck": null,
             "source": null,
             "state": "Dadra and Nagar Haveli and Daman & Diu (UT)",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {

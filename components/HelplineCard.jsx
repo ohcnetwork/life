@@ -51,18 +51,19 @@ const HelplineCard = ({
 
                         </div>
                         <div className="text-sm  uppercase mt-3 text-gray-700 font-semibold dark:text-white">
+                            <FontAwesomeIcon icon={faMapMarkerAlt} className="w-3 mr-2" />
                             <span className="mr-2">{district}</span>|
                             <span className="ml-2">{state}</span>
                         </div>
-                        <div className="w-11/12 max-w-3xl mt-2">
-                            <div className="text-sm mb-3">{source}</div>
+                        <div className="w-11/12 max-w-3xl my-2">
+                            <div className="text-sm">{source}</div>
                         </div>
                     </div>
                 </div>
-                <div className="flex items-start flex-col">
+                <div className="flex items-start flex-row justify-between md:flex-col">
                     {phone1 && (
                         <a
-                            className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white"
+                            className="text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white"
                             href={`tel:${phone1}`}>
                             <FontAwesomeIcon
                                 title={`${phone1}`}
@@ -74,7 +75,7 @@ const HelplineCard = ({
                     )}
                     {slink && (
                         <a
-                            className="font-mono text-gray-700 font-bold text-xl hover:text-gray-900 dark:text-white"
+                            className="text-gray-700 font-bold text-xl hover:text-gray-900 dark:text-white"
                             target="_blank"
                             href={slink}>
                             <FontAwesomeIcon
@@ -82,7 +83,7 @@ const HelplineCard = ({
                                 className="text-xl w-6"
                                 icon={faLink}
                             />
-                            <span className="ml-2 text-lg mt-1">Source Link</span>
+                            <span className="ml-2 text-base mt-1">Source Link</span>
                         </a>
                     )}
                 </div>
