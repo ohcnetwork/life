@@ -420,7 +420,7 @@
             "ambulance": false,
             "contact": false,
             "district": "Samastipur",
-            "doctor": false,
+            "doctor": true,
             "helpline": true,
             "hospitals": false,
             "id": "rec32ABECm85ZgI62",
