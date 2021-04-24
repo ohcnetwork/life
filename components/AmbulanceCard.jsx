@@ -19,7 +19,7 @@ const AmbulanceCard = ({
         <>
             <div className="w-full">
                 <div className="bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
-                    <div className="w-full flex">
+                    <div className="w-full flex items-center pt-2">
                         <span
                             className="w-8 ml-auto"
                             onClick={() => {
@@ -30,7 +30,7 @@ const AmbulanceCard = ({
                                 alert('Copied!');
                             }}>
                             <FontAwesomeIcon
-                                className="text-gray-600 w-4 mr-4 pt-2"
+                                className="text-gray-600 w-4 mr-4"
                                 title="Click to Copy"
                                 icon={faCopy}
                             />
