@@ -1,18 +1,10 @@
 import React from 'react';
 import { statePaths, parametreize, humanize, activeDistricts } from '../../../lib/utils';
-import {
-    faLungsVirus,
-    faSyringe,
-    faHospital,
-    faAmbulance,
-    faCapsules,
-    faPhoneAlt
-} from '@fortawesome/free-solid-svg-icons';
 import TabLinks from '../../../components/TabLinks';
 import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 import SocialSharing from '../../../components/SocialSharing';
-import {tabsInfo} from '../../../lib/tabs'
+import { tabsInfo } from '../../../lib/tabs';
 
 export default function State({ state, district }) {
     return (
@@ -39,14 +31,21 @@ export default function State({ state, district }) {
                     </div>
                 </div>
                 <section className="flex justify-center">
-                    <div className="my-8 bg-gray-200 dark:bg-gray-900 rounded-md inline-block">
+                    <div className="my-8 bg-gray-200 dark:bg-gray-1200 rounded-md inline-block">
                         <TabLinks tabsInfo={tabsInfo} state={state} district={district} />
                     </div>
                 </section>
                 <SocialSharing
+                    url={`https://life.coronasafe.network/${state}/${district.district.replace(
+                        ' ',
+                        '_'
+                    )}`}
                     twitterText={`Covid-19 Resources for ${humanize(district.district)}, ${humanize(
                         state
-                    )} https://life.coronasafe.network/${state}/${district.district}`}
+                    )} https://life.coronasafe.network/${state}/${district.district.replace(
+                        ' ',
+                        '_'
+                    )}`}
                 />
             </div>
         </section>

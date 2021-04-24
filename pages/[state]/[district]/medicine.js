@@ -22,11 +22,11 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                     ]}
                 />
             </section>
-            <section className="flex flex-col items-center ">
+            <section className="w-full flex flex-col items-center ">
                 <h1 className="mt-4 font-black text-6xl text-gray-900 dark:text-gray-200 md:text-left text-center">
                     {humanize(district)}
                 </h1>
-                <div className="space-y-4 mt-4 mb-4">
+                <div className="w-full space-y-4 mt-4 mb-4">
                     {medicineByDistrict.map((p) => {
                         return (
                             <MedicinesCard
@@ -41,6 +41,7 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                                 createdTime={p.createdTime}
                                 slink={p.source_link}
                                 email={p.emailId}
+                                lastVerifiedOn={p.lastVerifiedOn}
                             />
                         );
                     })}

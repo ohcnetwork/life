@@ -179,7 +179,7 @@
             "id": "rec1M7U9YrPXOeiP1",
             "medicine": false,
             "oxygen": false,
-            "plasma": false,
+            "plasma": true,
             "state": "Madhya Pradesh"
         },
         {
@@ -368,7 +368,7 @@
             "ambulance": false,
             "contact": false,
             "district": "Varanasi",
-            "doctor": false,
+            "doctor": true,
             "helpline": true,
             "hospitals": true,
             "id": "rec2cQ9hfJO5bTCGC",
@@ -420,7 +420,7 @@
             "ambulance": false,
             "contact": false,
             "district": "Samastipur",
-            "doctor": false,
+            "doctor": true,
             "helpline": true,
             "hospitals": false,
             "id": "rec32ABECm85ZgI62",
@@ -1083,7 +1083,7 @@
             "ambulance": false,
             "contact": false,
             "district": "Patna",
-            "doctor": false,
+            "doctor": true,
             "helpline": true,
             "hospitals": false,
             "id": "rec7lKIO4tcbCIsck",
@@ -1322,7 +1322,7 @@
             "hospitals": true,
             "id": "rec9aUEhkol9sPq7p",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": true,
             "state": "West Bengal"
         },
@@ -2537,7 +2537,7 @@
         },
         {
             "ambulance": false,
-            "contact": false,
+            "contact": true,
             "district": "Kanpur Nagar",
             "doctor": false,
             "helpline": true,
@@ -2565,7 +2565,7 @@
             "ambulance": false,
             "contact": false,
             "district": "Bhojpur",
-            "doctor": false,
+            "doctor": true,
             "helpline": true,
             "hospitals": false,
             "id": "recKBShTac2YDvANg",
@@ -2609,7 +2609,7 @@
             "hospitals": false,
             "id": "recKa0ZmtzwZIWU43",
             "medicine": false,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Delhi (NCT)"
         },
@@ -3416,7 +3416,7 @@
             "id": "recR8vhGW4rN346NC",
             "medicine": true,
             "oxygen": false,
-            "plasma": false,
+            "plasma": true,
             "state": "Uttar Pradesh"
         },
         {
@@ -3750,7 +3750,7 @@
             "district": "Thane",
             "doctor": true,
             "helpline": true,
-            "hospitals": false,
+            "hospitals": true,
             "id": "recTBlT8eS6ylvAGQ",
             "medicine": true,
             "oxygen": false,
@@ -4468,7 +4468,7 @@
             "hospitals": true,
             "id": "recYXVG86sj1KcFhA",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Rajasthan"
         },
@@ -5292,12 +5292,12 @@
             "state": "Telangana"
         },
         {
-            "ambulance": false,
+            "ambulance": true,
             "contact": true,
             "district": "North West Delhi",
             "doctor": false,
             "helpline": true,
-            "hospitals": false,
+            "hospitals": true,
             "id": "receVk8AtUyEptQcF",
             "medicine": false,
             "oxygen": false,
@@ -5404,7 +5404,7 @@
             "hospitals": true,
             "id": "recfL8dLl2my4O4MQ",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Gujarat"
         },
@@ -5721,7 +5721,7 @@
             "state": "Maharashtra"
         },
         {
-            "ambulance": false,
+            "ambulance": true,
             "contact": false,
             "district": "Gandhinagar",
             "doctor": false,
@@ -5882,7 +5882,7 @@
             "district": "Mumbai Suburban",
             "doctor": false,
             "helpline": true,
-            "hospitals": false,
+            "hospitals": true,
             "id": "reci9xKnkR5ag8W9s",
             "medicine": true,
             "oxygen": false,
@@ -5986,7 +5986,7 @@
             "district": "Mumbai City",
             "doctor": false,
             "helpline": true,
-            "hospitals": false,
+            "hospitals": true,
             "id": "recip3Va1ugDr6rXP",
             "medicine": true,
             "oxygen": true,
@@ -7060,12 +7060,12 @@
             "state": "Uttar Pradesh"
         },
         {
-            "ambulance": false,
+            "ambulance": true,
             "contact": false,
             "district": "Jind",
             "doctor": false,
             "helpline": true,
-            "hospitals": false,
+            "hospitals": true,
             "id": "recqEdGMxt4r7Kkm3",
             "medicine": false,
             "oxygen": false,
@@ -7177,7 +7177,7 @@
             "state": "Madhya Pradesh"
         },
         {
-            "ambulance": false,
+            "ambulance": true,
             "contact": false,
             "district": "Ahmedabad",
             "doctor": false,
@@ -7229,7 +7229,7 @@
             "state": "Uttar Pradesh"
         },
         {
-            "ambulance": false,
+            "ambulance": true,
             "contact": true,
             "district": "South West Delhi",
             "doctor": false,
@@ -8238,7 +8238,7 @@
             "hospitals": true,
             "id": "recygRsl52I8qbgI0",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Madhya Pradesh"
         },
@@ -8365,7 +8365,7 @@
             "district": "Koderma",
             "doctor": false,
             "helpline": true,
-            "hospitals": false,
+            "hospitals": true,
             "id": "reczyR66uNFFtgmGj",
             "medicine": false,
             "oxygen": false,

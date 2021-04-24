@@ -111,6 +111,17 @@
             "state": "Delhi (NCT)"
         },
         {
+            "city": null,
+            "createdTime": "2021-04-23T19:32:58.000Z",
+            "description": null,
+            "district": "Khargone",
+            "id": "recbEqD3NSjweQmlf",
+            "name": null,
+            "phone1": "7024509977",
+            "sourceLink": "https://twitter.com/PuneetVuneet/status/1385454679144816642?s=19",
+            "state": "Madhya Pradesh"
+        },
+        {
             "city": "Ahmedabad",
             "createdTime": "2021-04-19T09:42:08.000Z",
             "description": "Plasma Banks",
@@ -120,6 +131,17 @@
             "phone1": "9879123774",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
             "state": "Gujarat"
+        },
+        {
+            "city": null,
+            "createdTime": "2021-04-23T19:25:39.000Z",
+            "description": null,
+            "district": "Ghaziabad",
+            "id": "receYgrfcn3GDE3Qx",
+            "name": "Plasma Arranger",
+            "phone1": "8595452014",
+            "sourceLink": null,
+            "state": "Uttar Pradesh"
         },
         {
             "city": "Ahmedabad",

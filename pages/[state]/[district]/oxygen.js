@@ -27,7 +27,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
         <h1 className="mt-4 font-black text-6xl text-gray-900 dark:text-gray-200 md:text-left text-center">
           {humanize(district)}
         </h1>
-        <div className="mt-4 w-full p-4 space-y-4">
+        <div className="w-full mt-4 w-full p-4 space-y-4">
           {oxygenListing.map((o) => {
             return (
               <OxygenCard
@@ -43,6 +43,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
                 fdistrict={district}
                 createdTime={o.createdTime}
                 verifiedStatus={o.verificationStatus}
+                lastVerifiedOn={o.lastVerifiedOn}
               />
             );
           })}
