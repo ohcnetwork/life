@@ -1,6 +1,7 @@
-import { faPhoneAlt, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faPhoneAlt, faLink, faCopy } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isVerified, parseDateString } from '../lib/utils';
+import { copyToClipboard } from '../lib/utils';
 import React from 'react';
 import Badge from './Badge';
 
@@ -18,6 +19,23 @@ const AmbulanceCard = ({
         <>
             <div className="w-full">
                 <div className="bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
+                    <div className="w-full flex items-center pt-2">
+                        <span
+                            className="w-8 ml-auto cursor-pointer"
+                            onClick={() => {
+                                copyToClipboard(`
+                                Name: ${name ? name : 'Ambulance'}
+                                Contact: ${phone1}
+                                `);
+                                alert('Copied!');
+                            }}>
+                            <FontAwesomeIcon
+                                className="text-gray-600 w-4 mr-4"
+                                title="Click to Copy"
+                                icon={faCopy}
+                            />
+                        </span>
+                    </div>
                     <div className="p-4 flex justify-between flex-wrap">
                         <div>
                             <div className="font-bold text-2xl">
@@ -30,39 +48,41 @@ const AmbulanceCard = ({
                                 <div className="text-sm">{area}</div>
                             </div>
                         </div>
-                        <div className="flex flex-col items-start">
+                        <div className="flex flex-col items-end">
                             {phone1 && (
                                 <a
-                                    className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white"
+                                    className="flex items-center text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white"
                                     href={`tel:${phone1}`}>
                                     <FontAwesomeIcon
                                         title={phone1}
-                                        className="text-xl w-6"
+                                        className="w-4"
                                         icon={faPhoneAlt}
                                     />
-                                    <span className="ml-4">{phone1}</span>
+                                    <span className="ml-2">{phone1}</span>
                                 </a>
                             )}
                             {phone2 && (
                                 <a
-                                    className="font-bold text-sm text-gray-700 mt-0 hover:text-gray-900"
-                                    target="_blank"
+                                    className="flex items-center font-bold text-sm text-gray-700 mt-0 hover:text-gray-900"
                                     href={`tel:${phone2}`}>
                                     <FontAwesomeIcon
                                         title={phone2}
-                                        className="text-xl w-6"
+                                        className="w-4"
                                         icon={faPhoneAlt}
                                     />
-                                    <span className="ml-2 text-lg mt-1">Source Link</span>
+                                    <span className="ml-2">{phone2}</span>
                                 </a>
                             )}
                             {source && (
-                                <a href={source}>
+                                <a
+                                    className="flex items-center font-bold text-sm text-gray-700 mt-0 hover:text-gray-900"
+                                    href={source}>
                                     <FontAwesomeIcon
                                         title={`${source}`}
-                                        className="text-xl w-6"
+                                        className="text-md w-4"
                                         icon={faLink}
                                     />
+                                    <span className="ml-2 text-lg mt-1">Source Link</span>
                                 </a>
                             )}
                             <Badge badgeType={verificationStatus || 'unverified'} />

@@ -1,9 +1,9 @@
 import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import { faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPhoneAlt, faEnvelope, faCopy } from '@fortawesome/free-solid-svg-icons';
 import Badge from './Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { isVerified, parseDateString } from '../lib/utils';
+import { isVerified, parseDateString, copyToClipboard } from '../lib/utils';
 
 const MedicinesCard = ({
     verificationStatus,
@@ -19,6 +19,23 @@ const MedicinesCard = ({
 }) => {
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
+            <div className="w-full flex items-center pt-2">
+                <span
+                    className="ml-auto w-8 cursor-pointer"
+                    onClick={() => {
+                        copyToClipboard(`
+                                Name: ${name ? name : 'Medicine'}
+                                Contact: ${phone1}
+                                `);
+                        alert('Copied!');
+                    }}>
+                    <FontAwesomeIcon
+                        className="text-gray-600 w-4 mr-4"
+                        title="Click to Copy"
+                        icon={faCopy}
+                    />
+                </span>
+            </div>
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
                     <div className="font-bold text-2xl">
@@ -38,11 +55,11 @@ const MedicinesCard = ({
                 <div className="flex flex-col sm:items-end items-start">
                     {phone1 && (
                         <a
-                            className="font-mono text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
+                            className="flex items-center text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
                             href={`tel:${phone1}`}>
                             <FontAwesomeIcon
                                 title={phone1}
-                                className="text-xl w-6"
+                                className="w-4"
                                 icon={faPhoneAlt}
                             />
                             <span className="ml-2">{phone1}</span>
@@ -50,25 +67,25 @@ const MedicinesCard = ({
                     )}
                     {email && (
                         <a
-                            className="font-bold text-lg text-gray-700 dark:text-white mt-0 hover:text-gray-900"
+                            className="flex items-center font-bold text-lg text-gray-700 dark:text-white mt-0 hover:text-gray-900"
                             target="_blank"
-                            href="mailto:callmatkarna@gmail.com">
+                            href={`mailto:${email}`}>
                             <FontAwesomeIcon
                                 title={`${email}`}
-                                className="text-xl w-6"
+                                className="w-4"
                                 icon={faEnvelope}
                             />
-                            <span className="ml-2 text-lg mt-1">Email</span>
+                            <span className="ml-2 text-lg">Email</span>
                         </a>
                     )}
                     {slink && (
                         <a href={slink} className="dark:text-white">
                             <FontAwesomeIcon
                                 title={`${slink}`}
-                                className="text-xl w-6"
+                                className="w-4"
                                 icon={faLink}
                             />
-                            <span className="ml-2 text-lg mt-1">Source Link</span>
+                            <span className="ml-2 text-lg">Source Link</span>
                         </a>
                     )}
                     <Badge badgeType={verificationStatus || 'unverified'} />

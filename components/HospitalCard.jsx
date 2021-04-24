@@ -1,8 +1,8 @@
 import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import { faPhoneAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faPhoneAlt, faMapMarkerAlt, faCopy } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { isVerified, parseDateString } from '../lib/utils';
+import { isVerified, parseDateString, copyToClipboard } from '../lib/utils';
 import Badge from './Badge';
 
 const HospitalCard = ({
@@ -17,11 +17,28 @@ const HospitalCard = ({
 }) => {
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
+            <div className="w-full flex items-center pt-2">
+                <span
+                    className="ml-auto w-8 cursor-pointer"
+                    onClick={() => {
+                        copyToClipboard(`
+                                Name: ${name ? name : 'Hospital'}
+                                Contact: ${phone1}
+                                `);
+                        alert('Copied!');
+                    }}>
+                    <FontAwesomeIcon
+                        className="text-gray-600 w-4 mr-4"
+                        title="Click to Copy"
+                        icon={faCopy}
+                    />
+                </span>
+            </div>
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
                     <div className="font-bold text-2xl dark:text-white">
                         {name}
-                        <div className="text-sm uppercase mt-3 text-gray-700 dark:text-gray-400  font-semibold">
+                        <div className="flex items-center text-sm uppercase mt-3 text-gray-700 dark:text-gray-400  font-semibold">
                             <FontAwesomeIcon icon={faMapMarkerAlt} className="w-3 mr-2" />
                             <span className="mr-2">{district}</span>|
                             <span className="ml-2">{state}</span>
@@ -31,11 +48,11 @@ const HospitalCard = ({
                 <div className="flex flex-col items-start">
                     {phone1 && (
                         <a
-                            className="text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
+                            className="flex items-center text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
                             href={`tel:${phone1}`}>
                             <FontAwesomeIcon
                                 title={`${phone1}`}
-                                className="text-xl w-6"
+                                className="w-4"
                                 icon={faPhoneAlt}
                             />
                             <span className="ml-2">{phone1}</span>
