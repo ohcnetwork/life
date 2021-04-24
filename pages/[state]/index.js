@@ -23,7 +23,7 @@ export default function State({ state }) {
             <Breadcumb list={[{ href: null, name: humanize(state) }]} />
             <h1 className="mt-4 text-xl sm:text-2xl md:text-3xl md:text-left text-gray-900 dark:text-gray-800">
                 Search Result For{' '}
-                <span className="mt-4 font-bold text-3xl sm:text-4xl md:text-5xl dark:text-gray-200 md:text-left">
+                <span className="mt-4 font-bold text-3xl sm:text-4xl md:text-5xl text-gray-900 dark:text-gray-200 md:text-left">
                     "{humanize(state)}"
                 </span>
             </h1>
