@@ -9,24 +9,14 @@ const Footer = () => {
                 <Link href="/data">
                     <button
                         type="button"
-                        className="inline-flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                        <FontAwesomeIcon
-                            className="dark:text-white h-4 mr-1"
-                            title="Support"
-                            icon={faHandsHelping}
-                        />
+                        className="flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                         Contribute Verified Data
                     </button>
                 </Link>
                 <Link href="/campaigns">
                     <button
                         type="button"
-                        className="inline-flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                        <FontAwesomeIcon
-                            className="dark:text-white h-4 mr-1"
-                            title="Support"
-                            icon={faHeart}
-                        />
+                        className="flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                         Support
                     </button>
                 </Link>
@@ -79,7 +69,7 @@ const Footer = () => {
                         </Link>
                     </div>
                     <div className="px-5 py-2">
-                        <Link href="https://life.coronasafe.network/about">
+                        <Link href="/about">
                             <span className="text-base text-gray-700 hover:text-indigo-600 cursor-pointer dark:text-primary-200">
                                 About
                             </span>

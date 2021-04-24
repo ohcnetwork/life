@@ -26,7 +26,7 @@ const Campaigns = () => {
     const checkUrl = (text) => {
         var urlRegex = /(https?:\/\/[^\s]+)/g;
         return text.replace(urlRegex, function (url) {
-            return `<a href=${url} target="_blank" class="text-primary-600">${url}</a>`;
+            return `<a href=${url} target="_blank"><u>${url}</u></a>`;
         });
     };
     return (
@@ -35,13 +35,13 @@ const Campaigns = () => {
             <section className="flex flex-col items-center">
                 <div className="flex flex-row">
                     <div>
-                        <h1 className="mt-4 font-black text-4xl sm:text-5xl text-gray-900 dark:text-gray-200 md:text-left text-center">
+                        <h1 className="mt-4 mr-4 font-black text-4xl sm:text-5xl text-gray-900 dark:text-gray-200 md:text-left text-center">
                             Campaigns
                         </h1>
                     </div>
                     <div className="pt-3 mx-auto">
                         <FontAwesomeIcon
-                            className="dark:text-white h-11 ml-4"
+                            className="dark:text-white fa-3x"
                             title="Support"
                             icon={faHandHoldingHeart}
                         />
@@ -56,6 +56,7 @@ const Campaigns = () => {
                                 text={checkUrl(camp.text)}
                                 logoUrl={camp.logoUrl}
                                 donate={camp.donateAt}
+                                open={campaign.length === 1 ? true : false}
                             />
                         );
                     })}
