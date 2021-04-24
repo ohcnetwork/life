@@ -1,6 +1,6 @@
 import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import { faLink, faPhoneAlt, faCopy } from '@fortawesome/free-solid-svg-icons';
+import { faLink, faPhoneAlt, faCopy, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import Badge from './Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isVerified, parseDateString, copyToClipboard } from '../lib/utils';
@@ -21,28 +21,29 @@ const OxygenCard = ({
 }) => {
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
-            <div className="w-full">
-                <p
-                    className="text-3xl ml-auto w-8"
+            <div className="w-full flex items-center pt-2">
+                <span
+                    className="ml-auto w-8"
                     onClick={() => {
                         copyToClipboard(`
-                                Name: ${name ? name : 'Ambulance'}
+                                Name: ${name ? name : 'Oxygen'}
                                 Contact: ${phone1}
                                 `);
                         alert('Copied!');
                     }}>
                     <FontAwesomeIcon
-                        className="text-gray-600 mr-4 pt-2"
-                        title="Share on Facebook"
+                        className="text-gray-600 mr-4 w-4"
+                        title="Click to Copy"
                         icon={faCopy}
                     />
-                </p>
+                </span>
             </div>
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
                     <div className="font-bold text-2xl dark:text-white">
                         <h1>{name}</h1>
-                        <div className="text-sm  uppercase mt-3 text-gray-700 dark:text-gray-400 font-semibold">
+                        <div className="flex items-center text-sm uppercase mt-3 text-gray-700 dark:text-gray-400 font-semibold">
+                            <FontAwesomeIcon icon={faMapMarkerAlt} className="w-3 mr-2" />
                             <span className="mr-2">{fdistrict}</span>|
                             <span className="ml-2">{fstate}</span>
                         </div>
@@ -51,14 +52,14 @@ const OxygenCard = ({
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col items-start ">
+                <div className="flex flex-col items-end">
                     {phone1 && (
                         <a
-                            className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white mt-2"
+                            className="flex items-center text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white mt-2"
                             href={`tel:${phone1}`}>
                             <FontAwesomeIcon
                                 title={`${phone1}`}
-                                className="text-xl w-6"
+                                className="w-4"
                                 icon={faPhoneAlt}
                             />
                             <span className="ml-2">{phone1}</span>
@@ -66,12 +67,12 @@ const OxygenCard = ({
                     )}
                     {slink && (
                         <a
-                            className="font-mono text-gray-700 font-bold text-xl hover:text-gray-900 dark:text-white"
+                            className="flex items-center text-gray-700 font-bold text-xl hover:text-gray-900 dark:text-white"
                             target="_blank"
                             href={slink}>
                             <FontAwesomeIcon
                                 title={`${slink}`}
-                                className="text-xl w-6"
+                                className="w-4"
                                 icon={faLink}
                             />
                             <span className="ml-2 text-lg mt-1">Source Link</span>
