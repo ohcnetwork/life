@@ -17,7 +17,7 @@ const HospitalCard = ({
 }) => {
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
-            <div className="w-full flex items-center">
+            <div className="w-full flex items-center pt-2">
                 <span
                     className="ml-auto"
                     onClick={() => {
@@ -28,7 +28,7 @@ const HospitalCard = ({
                         alert('Copied!');
                     }}>
                     <FontAwesomeIcon
-                        className="text-gray-600 w-4 mr-4 pt-2"
+                        className="text-gray-600 w-4 mr-4"
                         title="Click to Copy"
                         icon={faCopy}
                     />
@@ -52,7 +52,7 @@ const HospitalCard = ({
                             href={`tel:${phone1}`}>
                             <FontAwesomeIcon
                                 title={`${phone1}`}
-                                className="text-xl w-6"
+                                className="w-4"
                                 icon={faPhoneAlt}
                             />
                             <span className="ml-2">{phone1}</span>
