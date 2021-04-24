@@ -147,6 +147,22 @@
         {
             "city": null,
             "comment": null,
+            "description": "Hasanpur chungi, Delhi road, Saharanpur",
+            "district": "Saharanpur",
+            "id": "recOzkpz01pCJqac8",
+            "lastVerifiedOn": null,
+            "name": "Balaji charitable blood bank",
+            "phone1": "9997893030",
+            "sourceLink": null,
+            "state": "Uttar Pradesh",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "city": null,
+            "comment": null,
             "description": "Plasma Banks",
             "district": "New Delhi",
             "id": "recQ9BMLpRmFHVfX8",

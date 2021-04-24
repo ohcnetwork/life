@@ -81,20 +81,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not Reachable",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bathinda",
             "id": "rec0nHYxZK4iAmZzd",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T13:39:29.000Z",
             "name": null,
             "phone1": "9814870373",
             "phone2": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Sangharsh Sapre"
         },
         {
             "area": null,
@@ -147,20 +145,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Number Switched off",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Moga",
             "id": "rec1HsyX5tJQsoc4j",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T13:34:07.000Z",
             "name": null,
             "phone1": "01636-221988 9914920088",
             "phone2": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Sangharsh Sapre"
         },
         {
             "area": null,
@@ -2557,20 +2553,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No response",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Vadodara",
             "id": "recSa0O2usCcwNyeO",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T13:11:37.000Z",
             "name": null,
             "phone1": "0265-2418955",
             "phone2": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "area": null,
@@ -4237,17 +4231,17 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No response",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jalandhar",
             "id": "recgxdTBhcW8ID1cT",
-            "lastVerifiedOn": "2021-04-24T12:49:30.000Z",
+            "lastVerifiedOn": "2021-04-24T13:13:48.000Z",
             "name": null,
             "phone1": "0181-4611959 \n9316461959",
             "phone2": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4724,20 +4718,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No response",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Amritsar",
             "id": "reclgdtsLatdizC4E",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T13:24:45.000Z",
             "name": null,
             "phone1": "0183-5050684",
             "phone2": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Sangharsh Sapre"
         },
         {
             "area": null,
@@ -4914,20 +4906,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not in stock. Directly goes to district administration and gets directed to hospital as per the collector's advice",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Aurangabad",
             "id": "recnTYi3Wa3euRyyq",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T13:53:55.000Z",
             "name": null,
             "phone1": "0240 - 2337156",
             "phone2": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "area": null,
@@ -5713,20 +5703,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "No answer ",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Vadodara",
             "id": "recvE2I41loGc1tFj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T13:12:33.000Z",
             "name": null,
             "phone1": "0265-2432244",
             "phone2": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "area": null,

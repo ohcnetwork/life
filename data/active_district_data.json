@@ -6549,7 +6549,7 @@
             "id": "recpUoqUjESG1qDdQ",
             "medicine": false,
             "oxygen": false,
-            "plasma": false,
+            "plasma": true,
             "state": "Uttar Pradesh"
         },
         {

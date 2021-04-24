@@ -101,24 +101,22 @@
         },
         {
             "address": "S C F 8 THE MALL GANDHI MARKETBATHINDA,BATHINDA,151001",
-            "city": null,
-            "comment": null,
-            "contactName": null,
+            "city": "Bhatinda",
+            "comment": "Not Reachable",
+            "contactName": "Hareeh S",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "district": "Bathinda",
             "emailId": "smdist@rediffmail.com",
             "id": "rec0nHYxZK4iAmZzd",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T13:39:29.000Z",
             "name": "S M MEDICAL AGENCIES",
             "phone1": "9814870373",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Sangharsh Sapre"
         },
         {
             "address": "OPP. RAJDAN MANSIONJALORI GATE,JODHPUR,342001",
@@ -183,24 +181,22 @@
         },
         {
             "address": "WHOLESALE CHEMISTS & DRUGGISTSOPP. CIVIL\nHOSPITALMOGA,MOGA,142001",
-            "city": null,
-            "comment": null,
-            "contactName": null,
+            "city": "Moga",
+            "comment": "Number Switched off",
+            "contactName": "Lakhvir Singh",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "district": "Moga",
             "emailId": "mittalmedicos@yahoo.com",
             "id": "rec1HsyX5tJQsoc4j",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T13:34:07.000Z",
             "name": "MITTAL MEDICOS",
             "phone1": "01636-221988 9914920088",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Sangharsh Sapre"
         },
         {
             "address": "SWASTISHREE, PLOT NO 30OPP NIPPANIKAR PLYWOODKUPWAD\nRD,MIRAJ,MIRAJ,416410",
@@ -790,7 +786,7 @@
         },
         {
             "address": "PATIALA12 to 13 and 16 to17G T B MARKET T B HOSPITAL Rd,PATIALA,147001",
-            "city": null,
+            "city": "Patiala",
             "comment": null,
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -3202,23 +3198,21 @@
         {
             "address": "3rd Floor, Omkar - 1Opp. Police Parade GroundGPO LaneRaopura,Vadodara,390001",
             "city": "Vadodara",
-            "comment": null,
+            "comment": "No response",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "district": "Vadodara",
             "emailId": "yagnamedical@yahoo.com",
             "id": "recSa0O2usCcwNyeO",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T13:11:37.000Z",
             "name": "Yagna Medical Science",
             "phone1": "0265-2418955",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "D.NO:8-72, BLOCK-IIPRASAD PLAZA,KAMAIAHTHOPU CENTER,M.G.\nROADVIJAYAWADA,VIJAYAWADA,520007",
@@ -5306,20 +5300,20 @@
         {
             "address": "1-SHANKAR PALACEDILKUSHA MARKETJALANDHAR,JALANDHAR,144001",
             "city": "Jalandhar",
-            "comment": null,
+            "comment": "No response",
             "contactName": "Gaurav Gupta",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "district": "Jalandhar",
             "emailId": "shankarmedico.gaurav@gmail.com",
             "id": "recgxdTBhcW8ID1cT",
-            "lastVerifiedOn": "2021-04-24T12:49:30.000Z",
+            "lastVerifiedOn": "2021-04-24T13:13:48.000Z",
             "name": "SHANKAR MEDICOS",
             "phone1": "0181-4611959 \n9316461959",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5916,24 +5910,22 @@
         },
         {
             "address": "BUILDING NO 1333/12-13KUCHA DAL KHANA KATRA SHER\nSINGH,AMRITSAR,143001",
-            "city": null,
-            "comment": null,
+            "city": "Amritsar",
+            "comment": "No response",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "district": "Amritsar",
             "emailId": "kavyapharmaasr1@gmail.com",
             "id": "reclgdtsLatdizC4E",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T13:24:45.000Z",
             "name": "KAVYA PHARMA",
             "phone1": "0183-5050684",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Sangharsh Sapre"
         },
         {
             "address": "OPP.BOKA COMPLEX,GANJ\nROAD,DHANERADIST.BANASKANTHA,DHANERA,385310",
@@ -6155,23 +6147,21 @@
         {
             "address": "Shop No 1 Ground Floor,Ghrushneshwar Housing Society,Property Number G0003385,\n4 8 38 47Gulmandi,AURANGABAD,431001",
             "city": null,
-            "comment": null,
+            "comment": "Not in stock. Directly goes to district administration and gets directed to hospital as per the collector's advice",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "district": "Aurangabad",
             "emailId": "mr.maheshsoni@gmail.com",
             "id": "recnTYi3Wa3euRyyq",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T13:53:55.000Z",
             "name": "MAHESH PHARMACY",
             "phone1": "0240 - 2337156",
             "priceCheck": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Karthik Yadhati"
         },
         {
             "address": "G.F, 1st & 2nd Floor, Ward No. 12,Sheet No 42, Plot No. 104 2,Bid para , Masta\ngali,ANATHALAYA PARISHAR RAIGARH,496001",
@@ -7158,23 +7148,21 @@
         {
             "address": "B/H. GUJRATI KUMAR SHALA NO 1SHIYAPURAROAPURA, BARODABARODA 390\n001,BARODA,390001",
             "city": "Baroda",
-            "comment": null,
+            "comment": "No answer ",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "district": "Vadodara",
             "emailId": "ameeeterprise1989@yahoo.com",
             "id": "recvE2I41loGc1tFj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T13:12:33.000Z",
             "name": "AMEE ENTERPRISE",
             "phone1": "0265-2432244",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "address": "SHOP NO.5,ESI ROAD,,LUDHIANA,141001",

@@ -1034,6 +1034,25 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-24T13:23:34.000Z",
+            "district": "Lucknow",
+            "id": "recCNAlr6T5uwO8GQ",
+            "lastVerifiedOn": null,
+            "name": "Gayatri Hospital",
+            "phone1": 9918101001,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "comment": "Didn't pick up the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -1049,6 +1068,25 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-24T13:27:03.000Z",
+            "district": "Lucknow",
+            "id": "recCiIBzbTs08Uofl",
+            "lastVerifiedOn": null,
+            "name": "Sunrise Hospital ",
+            "phone1": 9648845777,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -1641,6 +1679,25 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-24T13:20:01.000Z",
+            "district": "Lucknow",
+            "id": "recKUm2dg2bu5pIQx",
+            "lastVerifiedOn": null,
+            "name": "Mercy hospital, LUCKNOW",
+            "phone1": 9455170204,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "comment": "Not responding ",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -1879,6 +1936,25 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-24T13:29:53.000Z",
+            "district": "Lucknow",
+            "id": "recOh3hS6Vu3Yo7Za",
+            "lastVerifiedOn": null,
+            "name": "Lok Bandhu Hospital",
+            "phone1": 7897030844,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": "Available",
@@ -2857,6 +2933,25 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
+            "availability": "Available",
+            "comment": "Beds without Oxygen",
+            "createdTime": "2021-04-24T13:20:42.000Z",
+            "district": "Lucknow",
+            "id": "recY2XswJhpBZfImu",
+            "lastVerifiedOn": null,
+            "name": "Takrohi Hospital ",
+            "phone1": 9452334488,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "comment": "Didn't pick up the call\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -2908,6 +3003,25 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "availability": "Available",
+            "comment": "Taking only emergency and serious patients\nHave their own oxygen plant ",
+            "createdTime": "2021-04-24T13:22:14.000Z",
+            "district": "Lucknow",
+            "id": "recYbrfeGw8IWJKN8",
+            "lastVerifiedOn": null,
+            "name": "St.Joseph Hospital, gomti nagar",
+            "phone1": 7947145417,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "comment": "Fully Occupied",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -2957,6 +3071,25 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": "Available",
+            "comment": "Oxygen/ventilator available in Ambulance ",
+            "createdTime": "2021-04-24T13:18:43.000Z",
+            "district": "Lucknow",
+            "id": "recYqknNphWJh62L2",
+            "lastVerifiedOn": null,
+            "name": "Ambulance Services ",
+            "phone1": 9588160614,
+            "phone2": null,
+            "pointOfContact": "Lakhan ",
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -5136,6 +5269,25 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "availability": "Available",
+            "comment": "Oxygen Beds available ",
+            "createdTime": "2021-04-24T13:17:04.000Z",
+            "district": "Lucknow",
+            "id": "recpmoALlI3cDhuPf",
+            "lastVerifiedOn": null,
+            "name": "Maa Chandrika Devi Hospital ",
+            "phone1": 9140190282,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "comment": "Call Drop",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -5735,6 +5887,25 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": "Available",
+            "comment": "Oxygen/Ventilator Beds available \n",
+            "createdTime": "2021-04-24T13:14:39.000Z",
+            "district": "Lucknow",
+            "id": "recwJIRNC5HITStj5",
+            "lastVerifiedOn": null,
+            "name": "Ambulance ",
+            "phone1": 8826602001,
+            "phone2": null,
+            "pointOfContact": "Rajeev Kumar ",
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
