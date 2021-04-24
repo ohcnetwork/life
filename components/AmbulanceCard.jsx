@@ -70,7 +70,7 @@ const AmbulanceCard = ({
                                     />
                                 </a>
                             )}
-                            <Badge badgeType={verificationStatus} />
+                            <Badge badgeType={verificationStatus || 'unverified'} />
                         </div>
                     </div>
                     <hr className="dark:border-gray-900" />

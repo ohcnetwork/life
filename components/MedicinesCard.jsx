@@ -74,7 +74,7 @@ const MedicinesCard = ({
                             <span className="ml-2 text-lg mt-1">Source Link</span>
                         </a>
                     )}
-                    <Badge badgeType={verificationStatus} />
+                    <Badge badgeType={verificationStatus || 'verified'} />
                 </div>
             </div>
             <hr className="dark:border-gray-900" />

@@ -67,7 +67,7 @@ const OxygenCard = ({
                     )}
                     <span>
                         <Badge
-                            badgeType={verificationStatus}
+                            badgeType={verificationStatus || 'unverified'}
                         />
                     </span>
                 </div>
