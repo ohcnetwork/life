@@ -21,18 +21,16 @@ const HelplineCard = ({
             <div className="p-4 flex justify-between flex-col md:flex-row">
                 <div>
                     <div className="font-bold text-2xl">
-                        {
-                            category &&
+                        {category && (
                             <div>
                                 <h1>{category}</h1>
-                                {
-                                    subCategory &&
+                                {subCategory && (
                                     <div className="text-sm mt-1 mb-3 text-gray-700 font-semibold dark:text-white">
                                         <span>({subCategory})</span>
                                     </div>
-                                }
+                                )}
                             </div>
-                        }
+                        )}
                         <div className="text-sm  uppercase mt-3 text-gray-700 font-semibold dark:text-white">
                             <FontAwesomeIcon icon={faMapMarkerAlt} className="w-3 mr-2" />
                             <span className="mr-2">{district}</span>|
@@ -71,11 +69,10 @@ const HelplineCard = ({
                     )}
                 </div>
             </div>
-            <hr />
+            <hr className="dark:border-gray-900" />
             <div className="flex justify-between items-center flex-wrap mx-2 mt-2 pb-3">
                 <div className="font-semibold text-sm">{description}</div>
-                {
-                    lastVerifiedOn &&
+                {lastVerifiedOn && (
                     <div className="text-gray-700 text-xs dark:text-white">
                         <div>
                             <span>Checked on: </span>
@@ -84,7 +81,7 @@ const HelplineCard = ({
                             </span>
                         </div>
                     </div>
-                }
+                )}
             </div>
         </div>
     );

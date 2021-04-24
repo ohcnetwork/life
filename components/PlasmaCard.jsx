@@ -30,7 +30,7 @@ const PlasmaCard = ({
                             {name}
                             <span>
                                 {verifiedStatus &&
-                                    verifiedStatus.toLocaleLowerCase() == 'verified' ? (
+                                verifiedStatus.toLocaleLowerCase() == 'verified' ? (
                                     <FontAwesomeIcon
                                         className="text-green-600 w-5 ml-4"
                                         title="Verified"
@@ -79,7 +79,7 @@ const PlasmaCard = ({
                     )}
                 </div>
             </div>
-            <hr />
+            <hr className="dark:border-gray-900" />
             <div className="flex justify-between items-center mx-2 mt-2 pb-3">
                 <div className="font-semibold">{description}</div>
                 <div className="font-mono text-gray-700 text-sm dark:text-white">
