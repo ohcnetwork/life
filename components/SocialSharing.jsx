@@ -29,7 +29,7 @@ const SocialSharing = ({ twitterText, url }) => {
                 onClick={() => {
                     copyToClipboard(twitterText);
                     setCopiesSuccess(true);
-                    alert('heye');
+                    alert('Copied!');
                 }}>
                 <FontAwesomeIcon
                     className="text-blue-500 ml-4"
