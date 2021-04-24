@@ -38,7 +38,9 @@ export default function State({ state }) {
                     />
                 </div>
                 <div className="flex flex-wrap overflow-hidden mt-8">
-                    {filterDistricts.map((f) => (
+                    {filterDistricts
+                    .sort((ex, ey) => ex.district.toLowerCase() < ey.district.toLowerCase() ? -1 : 1)
+                    .map((f) => (
                         <div
                             key={f.district}
                             className="w-full rounded overflow-hidden md:w-1/2 mb-6 hover:bg-gray-200 dark:hover:bg-gray-1200">
