@@ -4281,21 +4281,10 @@
             "verifiedBy": null
         },
         {
-            "category": null,
-            "createdTime": "2021-04-24T11:50:27.000Z",
-            "description": "Saharanpur CMO Control Room number",
-            "district": "Saharanpur",
-            "id": "recG4YgJ8Ilxu82kp",
-            "name": null,
-            "phone1": 9412668306,
-            "phone2": 8279414202,
-            "source": "News",
-            "sourceUrl": "https://www.facebook.com/824866580910113/posts/4170382859691785/",
-            "state": "Uttar Pradesh",
-            "subCategory": null
-        },
-        {
-            "category": null,
+            "category": [
+                "Farmers Helpline Numbers"
+            ],
+            "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Farmers Helpline Number - Shri. B D Rai",
             "district": "North Sikkim",
@@ -9509,7 +9498,8 @@
             "source": "mahainfocorona Website",
             "sourceUrl": "https://mahainfocorona.in/mr/help",
             "state": "Punjab",
-            "subCategory": null
+            "verificationStatus": null,
+            "verifiedBy": null
         },
         {
             "category": null,
