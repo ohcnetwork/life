@@ -33,6 +33,7 @@ const Selector = ({ data, page }) => {
     return (
         <>
             <input
+                key="search-bar"
                 type="text"
                 className="mt-6 w-full h-12 rounded mb-2 focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg dark:bg-gray-1200 dark:placeholder-gray-500 dark:text-gray-200"
                 placeholder={`Search for ${page} availability in a State or District`}
@@ -47,7 +48,9 @@ const Selector = ({ data, page }) => {
                 }}
             />
             {(searchStr || editing) && (
-                <div className="p-4 bg-white  dark:bg-gray-1200 dark:text-gray-400 mt-1 rounded-lg shadow-lg flex">
+                <div
+                    key="result"
+                    className="p-4 bg-white  dark:bg-gray-1200 dark:text-gray-400 mt-1 rounded-lg shadow-lg flex">
                     {filterTests(activeStates(districtWithState(page))).length !== 0 && (
                         <div className="w-1/2 p-4">
                             <h1 className="font-semibold text-lg dark:text-gray-200">State</h1>
@@ -68,7 +71,7 @@ const Selector = ({ data, page }) => {
                                     i.district
                                 )}/${page}`;
                                 return (
-                                    <div className="md">
+                                    <div key={i.district} className="md">
                                         <Link href={url}>{humanize(i.district)}</Link>
                                     </div>
                                 );
