@@ -258,17 +258,17 @@
         },
         {
             "area": null,
-            "comment": "Busy",
+            "comment": "Not Available \nBusy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Durg",
             "id": "rec2HQ4CBpCNOKvqZ",
-            "lastVerifiedOn": "2021-04-23T07:09:56.000Z",
+            "lastVerifiedOn": "2021-04-24T10:09:11.000Z",
             "name": null,
             "phone1": "9425552481",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -1016,17 +1016,17 @@
         },
         {
             "area": null,
-            "comment": "Not picking up",
+            "comment": "Not Available \nNot picking up",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ahmedabad",
             "id": "rec9p3hPu7vqg2q3X",
-            "lastVerifiedOn": "2021-04-23T07:24:01.000Z",
+            "lastVerifiedOn": "2021-04-24T10:10:27.000Z",
             "name": null,
             "phone1": "9998921554",
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -1643,6 +1643,23 @@
             "state": "Assam",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Dr. Pallabi Roy"
+        },
+        {
+            "area": null,
+            "comment": "Remdesivir injection now will be provided thru Collector and Drug inspectors\n1800222365 call on this toll free no and ask for injection. They share you contact no of area drug inspector .",
+            "createdTime": "2021-04-24T09:18:18.000Z",
+            "district": "Pune",
+            "id": "recFONnaAfgIRiecW",
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": "1800222365",
+            "phone2": null,
+            "source": "Twitter",
+            "state": "Maharashtra",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "area": null,
@@ -5673,6 +5690,23 @@
         },
         {
             "area": null,
+            "comment": "8208982265",
+            "createdTime": "2021-04-24T09:54:30.000Z",
+            "district": "Ahmednagar",
+            "id": "recmqXc8CLuMEgbyO",
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": "8208982265",
+            "phone2": null,
+            "source": null,
+            "state": "Maharashtra",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "area": null,
             "comment": "No stock, no replenishment ",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bhavnagar",
@@ -5688,17 +5722,17 @@
         },
         {
             "area": null,
-            "comment": "No answer.",
+            "comment": "Not available (his response-Only covid hospital me milega)\nNo answer.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bilaspur",
             "id": "recmzWV0A4jBSSjgN",
-            "lastVerifiedOn": "2021-04-23T07:07:41.000Z",
+            "lastVerifiedOn": "2021-04-24T10:07:47.000Z",
             "name": null,
             "phone1": "9827165765",
             "phone2": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {

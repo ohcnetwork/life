@@ -49,6 +49,8 @@ export default function Helpline({ state, district, helplines }) {
                                 state={p.state}
                                 subCategory={p.subCategory}
                                 lastVerifiedOn={p.lastVerifiedOn}
+                                verificationStatus={p.verificationStatus}
+                                name={p.name}
                             />
                         );
                     })}
