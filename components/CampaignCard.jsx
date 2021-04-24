@@ -15,10 +15,12 @@ const CampaignCard = ({ name, text, logoUrl, donate, open }) => {
                     <img src={logoUrl} alt="logo" className="h-8" />
                 </div>
             </div>
-            <Linkify
-                componentDecorator={linkifyDecorator}>
-                {isReadMore ? text : text.substr(0, 300)}
-            </Linkify>
+            <div className="w-full">
+                <Linkify
+                    componentDecorator={linkifyDecorator}>
+                    {isReadMore ? text : text.substr(0, 300)}
+                </Linkify>
+            </div>
             <div onClick={() => setIsReadMore(prev => !prev)} className="underline cursor-pointer">
                 {isReadMore ? 'Read less' : 'Read more'}
             </div>
