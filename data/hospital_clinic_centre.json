@@ -414,11 +414,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "beds available",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "South Garo Hills",
             "id": "rec2RXQgeHFTlTH1b",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T09:49:28.000Z",
             "name": "Civil Hospital Baghmara",
             "phone1": 7005316637,
             "phone2": 7085918868,
@@ -426,10 +426,8 @@
             "state": "Meghalaya",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -556,11 +554,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "not answering",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Darjeeling",
             "id": "rec3askmOCjW5srQ3",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T09:54:22.000Z",
             "name": "Medica Hospital",
             "phone1": 9933356081,
             "phone2": null,
@@ -568,10 +566,8 @@
             "state": "West Bengal",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": "Available",
@@ -594,11 +590,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "not answering",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Vadodara",
             "id": "rec3lzlyp0Fh0JIQu",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T09:55:39.000Z",
             "name": "Bankers Hospital",
             "phone1": 9879853595,
             "phone2": 2652324004,
@@ -606,10 +602,8 @@
             "state": "Gujarat",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -630,11 +624,11 @@
         },
         {
             "availability": "Available",
-            "comment": "Good hospital for covid patients with minimum price ",
+            "comment": "Didn't pick up the call",
             "createdTime": "2021-04-23T19:07:25.000Z",
             "district": "Jaipur",
             "id": "rec3rxQyvksWvp7K5",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:36:37.000Z",
             "name": "Mahatma Gandhi hospital ",
             "phone1": 1412770798,
             "phone2": 1412771777,
@@ -644,18 +638,16 @@
                 "Covid Hospital with ICU"
             ],
             "typeOfHospital": "Covid Hospital",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "both numbers are unreachable",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Rajkot",
             "id": "rec3sgz6h0kUcv3A5",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T09:57:07.000Z",
             "name": "Salus Hospital",
             "phone1": 9696796964,
             "phone2": 2812587100,
@@ -663,10 +655,8 @@
             "state": "Gujarat",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -721,11 +711,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Rajkot",
             "id": "rec4LNERbi9uQ7o9O",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:02:30.000Z",
             "name": "Vidit Hospital",
             "phone1": 9712811391,
             "phone2": 2812468489,
@@ -733,10 +723,8 @@
             "state": "Gujarat",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -757,11 +745,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "invalid number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Surat",
             "id": "rec4RTcH1t0TfBbqF",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:17:32.000Z",
             "name": "Apple Hospital",
             "phone1": 9924144772,
             "phone2": 2612310703,
@@ -769,10 +757,8 @@
             "state": "Gujarat",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -810,11 +796,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "not reachable",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Vadodara",
             "id": "rec52YswGnzPZVeSA",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:23:38.000Z",
             "name": "Savita Superspeciality\nHospital",
             "phone1": 6359678844,
             "phone2": 2652578844,
@@ -822,10 +808,8 @@
             "state": "Gujarat",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -846,11 +830,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "not taking COVID patients",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
             "id": "rec549W400Nb1pqc1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:24:47.000Z",
             "name": "Bhagirathi Neotia  Hospital",
             "phone1": 3340405000,
             "phone2": null,
@@ -858,10 +842,8 @@
             "state": "West Bengal",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": "Not Available",
@@ -899,11 +881,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "second number is invalid. first is not answering.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Rajkot",
             "id": "rec5ZZ6NIIoUn1Ebm",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:20:25.000Z",
             "name": "Gokul Hospital",
             "phone1": 7900108108,
             "phone2": 2812550600,
@@ -911,10 +893,8 @@
             "state": "Gujarat",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -935,24 +915,20 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "Tele doesn't exist anymore.",
             "createdTime": "2021-04-23T17:37:26.000Z",
             "district": "Meerut",
             "id": "rec5gGKMAR8XOI3Sn",
-            "lastVerifiedOn": "2021-04-23T17:37:26.000Z",
+            "lastVerifiedOn": "2021-04-24T10:58:43.000Z",
             "name": "Anand Hospital",
             "phone1": 1212792000,
             "phone2": null,
             "pointOfContact": null,
             "state": "Uttar Pradesh",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": "Covid Hospital",
-            "verificationStatus": "Verified",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": "Not Available",
@@ -992,11 +968,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "beds avialble after 1st May",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Murshidabad",
             "id": "rec62fiUVc8nLuYkO",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:30:00.000Z",
             "name": "Lalbagh Rainbow Nursing Home",
             "phone1": 9734462843,
             "phone2": null,
@@ -1004,10 +980,8 @@
             "state": "West Bengal",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -1134,11 +1108,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "invalid number",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Pratapgarh",
             "id": "rec6FQsn93iVa8HjD",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:31:11.000Z",
             "name": "District Hospital Pratapgarh",
             "phone1": 1478222004,
             "phone2": null,
@@ -1146,10 +1120,8 @@
             "state": "Rajasthan",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -1728,11 +1700,11 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "Not Available\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Valsad",
             "id": "rec9YOTxyvFDIsMie",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:35:10.000Z",
             "name": "Amit Hospital",
             "phone1": 9825120393,
             "phone2": 2632302000,
@@ -1740,10 +1712,8 @@
             "state": "Gujarat",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -2363,11 +2333,11 @@
         },
         {
             "availability": "Available",
-            "comment": null,
+            "comment": "Beds available with no oxygen beds\nICU available",
             "createdTime": "2021-04-23T19:24:26.000Z",
             "district": "Indore",
             "id": "recDcstiuK6QMQ7SU",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:38:25.000Z",
             "name": "Sai Ram hospital",
             "phone1": 7987265819,
             "phone2": null,
@@ -2377,10 +2347,8 @@
                 "Quarantine hospital"
             ],
             "typeOfHospital": "Covid Hospital",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -2488,24 +2456,20 @@
         },
         {
             "availability": null,
-            "comment": "18-04-2020, 1:36pm available, however ICU facility available only for kids as this is pediatric hospital",
+            "comment": "Fully Occupied!",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Surat",
             "id": "recEKALDmOhcjSLvJ",
-            "lastVerifiedOn": "2021-04-23T20:45:24.000Z",
+            "lastVerifiedOn": "2021-04-24T11:05:11.000Z",
             "name": "Saachi Hospital",
             "phone1": 7573039107,
             "phone2": 2612236800,
             "pointOfContact": "Kishor Desai",
             "state": "Gujarat",
-            "subCategory": [
-                "Paedriatic (Children) hospital"
-            ],
+            "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": "Not Available",
@@ -2610,25 +2574,21 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "availability": "Available",
+            "availability": null,
             "comment": null,
             "createdTime": "2021-04-24T07:51:31.000Z",
             "district": "Sri Ganganagar",
             "id": "recEwvv4JPlErzmEl",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:50:19.000Z",
             "name": "Govt. District Hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Rajasthan",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": "Covid Hospital",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -2992,27 +2952,21 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "availability": "Available",
-            "comment": "They admit and treat covid patients",
+            "availability": null,
+            "comment": null,
             "createdTime": "2021-04-24T04:19:59.000Z",
             "district": "Jind",
             "id": "recGQBGILMxvMhxV2",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:47:56.000Z",
             "name": "Garg hospital",
             "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Haryana",
-            "subCategory": [
-                "Non covid hospital with ICU",
-                "Maternity Hospital",
-                "Quarantine hospital"
-            ],
+            "subCategory": null,
             "typeOfHospital": "Non-Covid Hospital",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": "Not Available",
@@ -3647,11 +3601,11 @@
         },
         {
             "availability": null,
-            "comment": "18/04/2021 12:30",
+            "comment": "Switched OFF",
             "createdTime": "2021-04-23T20:48:04.000Z",
             "district": "Gautam Buddha Nagar",
             "id": "recJrlXlYJaTN3xQ4",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:40:36.000Z",
             "name": "Sharma Medicare ",
             "phone1": 9870134990,
             "phone2": 202326666,
@@ -3659,10 +3613,8 @@
             "state": "Uttar Pradesh",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -3687,7 +3639,7 @@
             "createdTime": "2021-04-23T20:53:18.000Z",
             "district": "Thane",
             "id": "recK3YWSsiWfE0Lwn",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:41:56.000Z",
             "name": "Reliance Hospital - Navi Mumbai (KDA, Navi Mumbai)",
             "phone1": null,
             "phone2": null,
@@ -3695,10 +3647,8 @@
             "state": "Maharashtra",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -3944,7 +3894,7 @@
             "createdTime": "2021-04-23T20:49:59.000Z",
             "district": "Mumbai City",
             "id": "recLVnn9jvbPZ7OnI",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:40:53.000Z",
             "name": "S L Raheja Hospital (Fortis, Raheja)",
             "phone1": 2266529999,
             "phone2": null,
@@ -3952,10 +3902,8 @@
             "state": "Maharashtra",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -5271,11 +5219,11 @@
         },
         {
             "availability": null,
-            "comment": "19/04/2021 21:00\t\t10 Oxygen beds, No ICU",
+            "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Amethi (Chatrapati Sahuji Mahraj Nagar)",
             "id": "recSQEbJwr2iR6oLB",
-            "lastVerifiedOn": "2021-04-22T08:50:34.000Z",
+            "lastVerifiedOn": "2021-04-24T10:56:37.000Z",
             "name": "Sanjay Gandhi Hospital",
             "phone1": 9434286688,
             "phone2": 7619040332,
@@ -5283,10 +5231,8 @@
             "state": "Uttar Pradesh",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -5481,20 +5427,16 @@
             "createdTime": "2021-04-24T07:21:36.000Z",
             "district": "Nellore",
             "id": "recTVCTeLkF8i122J",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:48:46.000Z",
             "name": "RAVI CHEST HOSPITAL",
             "phone1": null,
             "phone2": null,
             "pointOfContact": "DR.POKALA RAVI KUMAR",
             "state": "Andhra Pradesh",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": "Covid Hospital",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -6577,24 +6519,20 @@
         },
         {
             "availability": null,
-            "comment": null,
+            "comment": "User Busy",
             "createdTime": "2021-04-23T17:13:24.000Z",
             "district": "New Delhi",
             "id": "recYOfl9TMFd90Uew",
-            "lastVerifiedOn": "2021-04-23T17:13:24.000Z",
+            "lastVerifiedOn": "2021-04-24T10:57:31.000Z",
             "name": "MAX hospital delhi",
             "phone1": 9810025403,
             "phone2": 919810425403,
             "pointOfContact": "Kuntal jain",
             "state": "Delhi (NCT)",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": "Covid Hospital",
-            "verificationStatus": "Verified",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -7401,6 +7339,23 @@
         },
         {
             "availability": null,
+            "comment": "Didn't pick up the call",
+            "createdTime": "2021-04-24T09:20:48.000Z",
+            "district": "Kolkata",
+            "id": "reccSQYoT6vUQEv0B",
+            "lastVerifiedOn": "2021-04-24T10:54:22.000Z",
+            "name": "Beleghata ID Hospital",
+            "phone1": 3323032200,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "West Bengal",
+            "subCategory": null,
+            "typeOfHospital": "Covid Hospital",
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": null,
             "comment": "no contact details",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "North Garo Hills",
@@ -7417,12 +7372,12 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
-            "availability": "Available",
-            "comment": "50 oxygen beds \n200 isolation wards \n\nBeds running out soon though ",
+            "availability": null,
+            "comment": "Out of Network Coverage Area",
             "createdTime": "2021-04-24T07:31:59.000Z",
             "district": "Pune",
             "id": "reccfi37O43o9VvCq",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:49:49.000Z",
             "name": "Sky Clinic, Kondhwa, ",
             "phone1": 9420696893,
             "phone2": null,
@@ -7430,10 +7385,8 @@
             "state": "Maharashtra",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -9126,24 +9079,22 @@
         },
         {
             "availability": "Available",
-            "comment": "They admit and treat covid patients ",
+            "comment": "Doctor not available. Hence they aren't admitting patients at current\n\nBeds are available though.",
             "createdTime": "2021-04-24T04:17:29.000Z",
             "district": "Jind",
             "id": "reckRfjUl3uJhBdoW",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:47:37.000Z",
             "name": "Delhi hospitaal and maternity home",
             "phone1": 1681247287,
             "phone2": null,
             "pointOfContact": null,
             "state": "Haryana",
             "subCategory": [
-                "Non covid hospital with ICU"
+                "Covid Hospital with ICU"
             ],
             "typeOfHospital": "Non-Covid Hospital",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -9733,7 +9684,7 @@
             "createdTime": "2021-04-24T02:30:40.000Z",
             "district": "Koderma",
             "id": "recnRuzBXnPMWbLDV",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:42:12.000Z",
             "name": "Safar Hospital, koderma",
             "phone1": null,
             "phone2": null,
@@ -9743,10 +9694,8 @@
                 "Covid Hospital without ICU"
             ],
             "typeOfHospital": "Covid Hospital",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -9818,11 +9767,11 @@
         },
         {
             "availability": null,
-            "comment": "21 April 14:14 Busy Lines",
+            "comment": "Fully Occupied",
             "createdTime": "2021-04-23T20:35:51.000Z",
             "district": "North West Delhi",
             "id": "recnqfvQMBIE5tnVl",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:40:09.000Z",
             "name": "Pvt Rajiv Gandhi Cancer Institute & RC, Rohini",
             "phone1": 9717888473,
             "phone2": null,
@@ -9830,10 +9779,8 @@
             "state": "Delhi (NCT)",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -10756,35 +10703,29 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "availability": "Available",
-            "comment": "They have oxygen beds and admit covid patients\nIcu is also there",
+            "availability": null,
+            "comment": "User Busy ",
             "createdTime": "2021-04-24T04:11:48.000Z",
             "district": "Jind",
             "id": "recsRzrRHeuypeHnn",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:44:36.000Z",
             "name": "Balaji hospital jind",
             "phone1": 1681253020,
             "phone2": null,
             "pointOfContact": "Dr. Dharampal Jain",
             "state": "Haryana",
-            "subCategory": [
-                "Non covid hospital with ICU",
-                "Paedriatic (Children) hospital",
-                "Maternity Hospital"
-            ],
+            "subCategory": null,
             "typeOfHospital": "Non-Covid Hospital",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
-            "comment": "No direct admission, call 1916",
+            "comment": "Didn't pick up the call",
             "createdTime": "2021-04-23T20:55:30.000Z",
             "district": "Mumbai Suburban",
             "id": "recsk7c3TekiaKyVv",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:43:03.000Z",
             "name": "Hinduja Hospital Khar",
             "phone1": 8879001670,
             "phone2": null,
@@ -10792,10 +10733,8 @@
             "state": "Maharashtra",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -10909,7 +10848,7 @@
             "createdTime": "2021-04-23T20:51:25.000Z",
             "district": "Mumbai Suburban",
             "id": "rectfHEv1jY1MQEO2",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T10:41:42.000Z",
             "name": "Kokilaben Dhirubhai Ambani Hospital (KDA, Andheri)",
             "phone1": null,
             "phone2": null,
@@ -10917,10 +10856,8 @@
             "state": "Maharashtra",
             "subCategory": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -11416,28 +11353,21 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
-            "availability": "Available",
-            "comment": null,
+            "availability": null,
+            "comment": "Didn't pick up the call.",
             "createdTime": "2021-04-24T08:18:12.000Z",
             "district": "Gurgaon",
             "id": "recw0p2g8m7pONMtY",
             "lastVerifiedOn": null,
             "name": "Medanta Medicity",
-            "phone1": 91,
+            "phone1": null,
             "phone2": 1244141414,
             "pointOfContact": "Covid Helpline",
             "state": "Haryana",
-            "subCategory": [
-                "Covid Hospital with ICU",
-                "Non covid hospital with ICU",
-                "Maternity Hospital",
-                "Paedriatic (Children) hospital"
-            ],
+            "subCategory": null,
             "typeOfHospital": "Covid Hospital",
             "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -11918,25 +11848,21 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "availability": "Not Available",
-            "comment": "Can visit for checkup, prescription, and medical lab facility",
+            "availability": null,
+            "comment": "Switched OFF",
             "createdTime": "2021-04-23T17:59:19.000Z",
             "district": "Rohtak",
             "id": "recxjKOE35HrlD8oj",
-            "lastVerifiedOn": "2021-04-23T17:59:19.000Z",
+            "lastVerifiedOn": "2021-04-24T10:59:46.000Z",
             "name": "HOLY HEART",
             "phone1": 9306717284,
             "phone2": 9306722176,
             "pointOfContact": "KARAN BHUTANI",
             "state": "Haryana",
-            "subCategory": [
-                "Covid Hospital with ICU"
-            ],
+            "subCategory": null,
             "typeOfHospital": "Covid Hospital",
-            "verificationStatus": "Verified",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,

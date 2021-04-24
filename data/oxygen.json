@@ -497,7 +497,9 @@
                 "Cylinder"
             ],
             "verificationStatus": "Verified",
-            "verifiedBy": "Barnali Banerjee"
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -516,7 +518,7 @@
             "phone1": 7890066630,
             "phone2": null,
             "sourceLink": null,
-            "sourceName": "Instagram",
+            "sourceName": null,
             "state": "West Bengal",
             "type": [
                 "Cans"
@@ -676,12 +678,12 @@
             "homeDeliveryAvailable": null,
             "id": "recCsDNjAzxg5bahI",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-24T07:21:27.000Z",
+            "lastVerifiedOn": "2021-04-24T10:34:16.000Z",
             "name": null,
-            "phone1": 917622970595,
+            "phone1": 9434116824,
             "phone2": null,
             "sourceLink": null,
-            "sourceName": "Instagram",
+            "sourceName": null,
             "state": "West Bengal",
             "type": null,
             "verificationStatus": "Verified",
@@ -1621,13 +1623,38 @@
             "phone1": 8017711721,
             "phone2": null,
             "sourceLink": null,
-            "sourceName": "Instagram",
+            "sourceName": null,
             "state": "West Bengal",
             "type": [
                 "Refil"
             ],
             "verificationStatus": "Verified",
             "verifiedBy": "Archisha Singh"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": null,
+            "companyName": "Life",
+            "createdTime": "2021-04-24T10:46:02.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recODIdXePGVZQzA0",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T10:46:02.000Z",
+            "name": null,
+            "phone1": 7947409562,
+            "phone2": null,
+            "sourceLink": "https://www.justdial.com/Kolkata/Life-Opp-Hindustan-Health-Point-Nursing-Home-Garia/033PXX33-XX33-090927103728-J5U9_BZDET?xid=S29sa2F0YSBPeHlnZW4gQ3lsaW5kZXIgRGVhbGVycw==",
+            "sourceName": "JD",
+            "state": "West Bengal",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Barnali Banerjee"
         },
         {
             "availability": null,
@@ -1766,6 +1793,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": null,
+            "companyName": "Fyrax INDIA",
+            "createdTime": "2021-04-24T11:00:30.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": "www.fyraxindia.com",
+            "homeDeliveryAvailable": null,
+            "id": "recQqHNGb60DCAPpW",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T11:00:30.000Z",
+            "name": null,
+            "phone1": 7947409772,
+            "phone2": null,
+            "sourceLink": "https://www.justdial.com/Kolkata/Fyrax-INDIA-Opposite-Vidyasar-College-Beadon-Street/033PXX33-XX33-141213134233-A9U7_BZDET?xid=S29sa2F0YSBPeHlnZW4gQ3lsaW5kZXIgRGVhbGVycw==",
+            "sourceName": "JD",
+            "state": "West Bengal",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": "Barnali Banerjee"
         },
         {
             "availability": null,
@@ -1977,6 +2029,31 @@
         {
             "availability": null,
             "city": null,
+            "comment": null,
+            "companyName": "K R Lynch and Co",
+            "createdTime": "2021-04-24T10:54:58.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": "www.krlynch.com",
+            "homeDeliveryAvailable": null,
+            "id": "recTIY4LLUp3eT5AO",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T10:54:58.000Z",
+            "name": null,
+            "phone1": 7947405304,
+            "phone2": null,
+            "sourceLink": "https://www.justdial.com/Kolkata/K-R-Lynch-and-Co-Opposite-School-Of-Tropical-Medicine-Colootola/033PG000462_BZDET?xid=S29sa2F0YSBPeHlnZW4gQ3lsaW5kZXIgRGVhbGVycw==",
+            "sourceName": "jd",
+            "state": "West Bengal",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Barnali Banerjee"
+        },
+        {
+            "availability": null,
+            "city": null,
             "comment": "busy",
             "companyName": null,
             "createdTime": "2021-04-19T09:53:14.000Z",
@@ -2069,6 +2146,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "Unavailable at the moment. Should be available after 30th April 2021.",
+            "companyName": null,
+            "createdTime": "2021-04-24T09:13:35.000Z",
+            "description": "Home delivery",
+            "district": "Kolkata",
+            "emailId": null,
+            "homeDeliveryAvailable": "Yes",
+            "id": "recVZUDHsztrB2pic",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-24T09:13:35.000Z",
+            "name": null,
+            "phone1": 9831267286,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "West Bengal",
+            "type": [
+                "Concentrator"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": "Archisha Singh"
         },
         {
             "availability": null,
@@ -3125,6 +3227,33 @@
         {
             "availability": null,
             "city": null,
+            "comment": "Need Oxygen concentrater",
+            "companyName": null,
+            "createdTime": "2021-04-24T10:51:22.000Z",
+            "description": "Oxygen concentrater",
+            "district": "Bengaluru (Bangalore) Urban",
+            "emailId": "p.dass@live.com",
+            "homeDeliveryAvailable": "Yes",
+            "id": "recjHz8v28rVgQv7l",
+            "instructions": null,
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": 919886637388,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Karnataka",
+            "type": [
+                "Concentrator"
+            ],
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
+            "city": null,
             "comment": null,
             "companyName": null,
             "createdTime": "2021-04-20T08:46:34.000Z",
@@ -3491,33 +3620,6 @@
             "type": null,
             "verificationStatus": "Verified",
             "verifiedBy": "sucharu asri"
-        },
-        {
-            "availability": null,
-            "city": null,
-            "comment": null,
-            "companyName": "Shree Maa Enterprises",
-            "createdTime": "2021-04-23T15:32:11.000Z",
-            "description": null,
-            "district": "Lucknow",
-            "emailId": null,
-            "homeDeliveryAvailable": "No",
-            "id": "recqz2poP7MmLI9dD",
-            "instructions": null,
-            "lastVerifiedOn": "2021-04-23T15:32:11.000Z",
-            "name": null,
-            "phone1": 8960002222,
-            "phone2": 9161666633,
-            "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
-            "type": [
-                "Cans"
-            ],
-            "verificationStatus": "Verified",
-            "verifiedBy": [
-                {}
-            ]
         },
         {
             "availability": null,
