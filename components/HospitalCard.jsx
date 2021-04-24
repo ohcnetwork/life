@@ -7,7 +7,7 @@ import {
     faMapMarkerAlt
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { parseDateString } from '../lib/utils';
+import { isVerified, parseDateString } from '../lib/utils';
 
 const HospitalCard = ({
     name,
@@ -29,13 +29,13 @@ const HospitalCard = ({
                             {(verificationStatus && verificationStatus.toLocaleLowerCase()) ==
                                 'verified' ? (
                                 <FontAwesomeIcon
-                                    className="text-green-600 w-5 ml-4"
+                                    className="text-green-600 w-2 md:w-4 ml-4"
                                     title="Verified"
                                     icon={faCheckCircle}
                                 />
                             ) : (
                                 <FontAwesomeIcon
-                                    className="text-yellow-400 w-4 ml-4"
+                                    className="text-yellow-400 w-2 md:w-4 ml-4"
                                     title="Not verified"
                                     icon={faExclamationTriangle}
                                 />
@@ -71,7 +71,7 @@ const HospitalCard = ({
                         lastVerifiedOn &&
                         <div className="text-gray-700 text-xs dark:text-white">
                             <div>
-                                <span>Checked on: </span>
+                                <span>{isVerified(verificationStatus) ? "Verified on: " : "Checked on: " }</span>
                                 <span className="font-bold">
                                     {`${parseDateString(lastVerifiedOn)}`}
                                 </span>
