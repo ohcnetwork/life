@@ -8,6 +8,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { parseDateString } from '../lib/utils';
+import Badge from './Badge';
 
 const PlasmaCard = ({
     city,
@@ -28,22 +29,6 @@ const PlasmaCard = ({
                     <div className="font-bold text-2xl">
                         <h1>
                             {name}
-                            <span>
-                                {verificationStatus &&
-                                    verificationStatus.toLocaleLowerCase() == 'verified' ? (
-                                    <FontAwesomeIcon
-                                        className="text-green-600 w-5 ml-4"
-                                        title="Verified"
-                                        icon={faCheckCircle}
-                                    />
-                                ) : (
-                                    <FontAwesomeIcon
-                                        className="text-yellow-400 w-4 ml-4"
-                                        title="Not verified"
-                                        icon={faExclamationTriangle}
-                                    />
-                                )}
-                            </span>
                         </h1>
                         <div className="text-sm  uppercase mt-3 text-gray-700 font-semibold dark:text-white">
                             <span className="mr-2">{district}</span>|
@@ -77,6 +62,9 @@ const PlasmaCard = ({
                             <span className="ml-2 text-lg mt-1">Source Link</span>
                         </a>
                     )}
+                    <Badge 
+                        badgeType={verificationStatus || 'unverified'}
+                    />
                 </div>
             </div>
             <hr className="dark:border-gray-900" />

@@ -9,6 +9,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isVerified, parseDateString } from '../lib/utils';
+import Badge from './Badge';
 
 const HelplineCard = ({
     category,
@@ -32,21 +33,6 @@ const HelplineCard = ({
                         <div>
                             <h1 className="flex items-center justify-start dark:text-white">
                                 {name ? name : 'Helpline'}
-                                <span>
-                                    {isVerified(verificationStatus) ? (
-                                        <FontAwesomeIcon
-                                            className="text-green-600 w-5 ml-4"
-                                            title="Verified"
-                                            icon={faCheckCircle}
-                                        />
-                                    ) : (
-                                        <FontAwesomeIcon
-                                            className="text-yellow-400 w-4 ml-4"
-                                            title="Not verified"
-                                            icon={faExclamationTriangle}
-                                        />
-                                    )}
-                                </span>
                             </h1>
                         </div>
                         <div className="text-sm  uppercase mt-3 text-gray-700 font-semibold dark:text-white">
@@ -85,6 +71,9 @@ const HelplineCard = ({
                             <span className="ml-2 text-base mt-1">Source Link</span>
                         </a>
                     )}
+                    <Badge 
+                        badgeType={verificationStatus || 'unverified'}
+                    />
                 </div>
             </div>
             <hr className="dark:border-gray-900" />

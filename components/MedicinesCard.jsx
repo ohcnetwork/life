@@ -6,6 +6,7 @@ import {
     faExclamationTriangle,
     faEnvelope
 } from '@fortawesome/free-solid-svg-icons';
+import Badge from './Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isVerified, parseDateString } from '../lib/utils';
 
@@ -28,21 +29,6 @@ const MedicinesCard = ({
                     <div className="font-bold text-2xl">
                         <h1 className="flex dark:text-white items-center justify-start">
                             {name}
-                            <span>
-                                {isVerified(verificationStatus) ? (
-                                    <FontAwesomeIcon
-                                        className="text-green-600 w-5 ml-4"
-                                        title="Verified"
-                                        icon={faCheckCircle}
-                                    />
-                                ) : (
-                                    <FontAwesomeIcon
-                                        className="text-yellow-400 w-4 ml-4"
-                                        title="Not verified"
-                                        icon={faExclamationTriangle}
-                                    />
-                                )}
-                            </span>
                         </h1>
                         {city && <div className="text-sm text-gray-700 dark:text-gray-200 font-semibold">
                             <span> {city} </span>
@@ -88,6 +74,7 @@ const MedicinesCard = ({
                             <span className="ml-2 text-lg mt-1">Source Link</span>
                         </a>
                     )}
+                    <Badge badgeType={verificationStatus || 'unverified'} />
                 </div>
             </div>
             <hr className="dark:border-gray-900" />
