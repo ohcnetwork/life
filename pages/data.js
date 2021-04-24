@@ -101,7 +101,7 @@ export default function DataForm() {
                         return (
                             <li
                                 key={id}
-                                className="col-span-1 bg-white dark:bg-gray-1000 rounded-lg shadow divide-y divide-gray-200">
+                                className="col-span-1 bg-white dark:bg-gray-1200 rounded-lg shadow divide-y divide-gray-200">
                                 <div className="w-full flex items-center justify-between p-6 space-x-6">
                                     <div className="flex-1 truncate">
                                         <div className="flex items-center space-x-3">
@@ -109,14 +109,14 @@ export default function DataForm() {
                                                 {form.name}
                                             </h3>
                                         </div>
-                                        <p className="mt-1 text-gray-500 dark:text-gray-300 text-sm truncate">
+                                        <p className="mt-1 text-gray-700 dark:text-gray-300 text-sm truncate">
                                             {form.description}
                                         </p>
                                     </div>
-                                    <div className="w-10 h-10 bg-gray-300 flex justify-center items-center rounded-full flex-shrink-0">
+                                    <div className="w-10 h-10 bg-gray-300 dark:bg-gray-1100 flex justify-center items-center rounded-full flex-shrink-0">
                                         <FontAwesomeIcon
                                             icon={form.icon}
-                                            className="w-5 dark:text-primary-500"
+                                            className="w-5 dark:text-gray-300"
                                         />
                                     </div>
                                 </div>
