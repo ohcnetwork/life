@@ -25,14 +25,14 @@ const OxygenCard = ({
 }) => {
     return (
         <div className="bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
-            <div className="p-4 flex justify-between">
+            <div className="p-4 flex justify-between flex-wrap">
                 <div>
                     <div className="font-bold text-2xl dark:text-white">
                         <h1>
                             {name}
                             <span>
                                 {verifiedStatus &&
-                                verifiedStatus.toLocaleLowerCase() == 'verified' ? (
+                                    verifiedStatus.toLocaleLowerCase() == 'verified' ? (
                                     <FontAwesomeIcon
                                         className="text-green-600 w-5 ml-4"
                                         title="Verified"
@@ -51,7 +51,7 @@ const OxygenCard = ({
                             <span className="mr-2">{fdistrict}</span>|
                             <span className="ml-2">{fstate}</span>
                         </div>
-                        <div className="w-11/12 max-w-3xl mt-2">
+                        <div className="w-11/12 mt-2">
                             <div className="text-sm">{source}</div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ const OxygenCard = ({
                 <div className="flex flex-col items-start ">
                     {phone1 && (
                         <a
-                            className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white"
+                            className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white mt-2"
                             href={`tel:${phone1}`}>
                             <FontAwesomeIcon
                                 title={`${phone1}`}
@@ -85,7 +85,7 @@ const OxygenCard = ({
                 </div>
             </div>
             <hr />
-            <div className="flex justify-between items-center mx-2 mt-2 pb-3">
+            <div className="flex justify-between items-center mx-4 mt-2 pb-3 flex-wrap">
                 <div className="font-semibold dark:text-gray-400">{description}</div>
                 <div className="font-mono text-gray-700 text-sm dark:text-gray-400">
                     {lastVerifiedOn && `Verified @ ${parseDateString(lastVerifiedOn)}`}

@@ -22,14 +22,14 @@ const AmbulanceCard = ({
         <>
             <div>
                 <div className="bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
-                    <div className="p-4 flex justify-between">
+                    <div className="p-4 flex justify-between flex-wrap">
                         <div>
                             <div className="font-bold text-2xl">
                                 <h1 className="flex items-center justify-start dark:text-white">
                                     {name ? name : 'Ambulance'}
                                     <span>
                                         {verificationStatus &&
-                                        verificationStatus.toLocaleLowerCase() == 'verified' ? (
+                                            verificationStatus.toLocaleLowerCase() == 'verified' ? (
                                             <FontAwesomeIcon
                                                 className="text-green-600 w-5 ml-4"
                                                 title="Verified"
