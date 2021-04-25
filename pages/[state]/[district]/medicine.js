@@ -55,7 +55,7 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                                 description={p.description}
                                 createdTime={p.createdTime}
                                 sourceLink={p.source_link}
-                                email={p.emailId}
+                                email1={p.emailId}
                                 lastVerifiedOn={p.lastVerifiedOn}
                             />
                         );

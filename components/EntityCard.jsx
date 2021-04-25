@@ -5,7 +5,7 @@ import { isVerified, parseDateString } from '@lib/utils';
 import SocialSharing from '@components/SocialSharing';
 import { useRouter } from 'next/router';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import { faPhoneAlt, faEnvelope, faLink ,faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons';
+import { faPhoneAlt, faEnvelope, faLink, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
 const EntityCard = ({
     name,
@@ -20,15 +20,15 @@ const EntityCard = ({
     sourceLink,
     state,
     district,
-    email,
+    email1,
+    email2,
     lastVerifiedOn,
     verificationStatus
 }) => {
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
-    const copyText = `Name: ${
-        name ? name : 'Medicine'
-    } \nContact: ${phone1} More Info: ${pageUrl} `;
+    const copyText = `Name: ${name ? name : 'Medicine'
+        } \nContact: ${phone1} More Info: ${pageUrl} `;
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="w-full flex items-center pt-2">
@@ -49,7 +49,7 @@ const EntityCard = ({
                         </div>
                         {state && district && (
                             <div className="text-sm  uppercase mt-3 text-gray-700 font-semibold dark:text-white">
-                             <FontAwesomeIcon icon={faMapMarkerAlt} className="w-3 mr-2" />
+                                <FontAwesomeIcon icon={faMapMarkerAlt} className="w-3 mr-2" />
                                 <span className="mr-2">{district}</span>|
                                 <span className="ml-2">{state}</span>
                             </div>
@@ -70,20 +70,24 @@ const EntityCard = ({
                     )}
                 </div>
                 <div className="flex flex-col sm:items-end items-start">
-       
+
                     {phone1 && (
-                        <a
+                        <span
                             className="flex items-center text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
-                            href={`tel:${phone1}`}>
+                        >
                             <FontAwesomeIcon
-                                title={`${phone1}`}
-                                className="text-xl w-6"
+                                className="w-4"
                                 icon={faPhoneAlt}
                             />
-                            <span className="ml-2">{phone1}</span>
-                        </a>
+                            <a className="ml-2" href={`tel:${phone1}`}>{phone1}</a>
+                            {phone2 &&
+                                <a className="ml-2" href={`tel:${phone2}`}>
+                                    {phone2}
+                                </a>
+                            }
+                        </span>
                     )}
-                    {phone2 && (
+                    {(!phone1 && phone2) && (
                         <a
                             className="font-mono text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
                             href={`tel:${phone2}`}>
@@ -95,13 +99,29 @@ const EntityCard = ({
                             <span className="ml-2">{phone2}</span>
                         </a>
                     )}
-                    {email && (
+                    {email1 && (
+                        <span
+                            className="flex items-center font-bold text-lg text-gray-700 dark:text-white mt-0 hover:text-gray-900"
+                            target="_blank"
+                        >
+                            <FontAwesomeIcon className="w-4" icon={faEnvelope} />
+                            <a className="ml-2 text-lg" href={`mailto:${email1}`}>
+                                {email2 ? "Email1" : "Email"}
+                            </a>
+                            {email2 && <a className="ml-2 text-lg" href={`mailto:${email2}`}>
+                                Email2
+                            </a>}
+                        </span>
+                    )}
+                    {(!email1 && email2) && (
                         <a
                             className="flex items-center font-bold text-lg text-gray-700 dark:text-white mt-0 hover:text-gray-900"
                             target="_blank"
                             href={`mailto:${email}`}>
-                            <FontAwesomeIcon title={`${email}`} className="w-4" icon={faEnvelope} />
-                            <span className="ml-2 text-lg">Email</span>
+                            <FontAwesomeIcon className="w-4" icon={faEnvelope} />
+                            <a className="ml-2 text-lg" href={`mailto:${email2}`}>
+                                Email
+                            </a>
                         </a>
                     )}
                     {sourceLink && (

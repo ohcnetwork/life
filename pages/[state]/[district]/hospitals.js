@@ -57,6 +57,9 @@ export default function Hospitals({ state, district, hospitalByDistrict }) {
                                 pointOfContact={p.pointOfContact}
                                 createdTime={p.createdTime}
                                 phone1={p.phone1}
+                                phone2={p.phone2}
+                                email1={p.email1}
+                                email2={p.email2}
                                 district={p.district}
                                 state={p.state}
                                 verificationStatus={p.verificationStatus}
