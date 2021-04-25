@@ -1160,6 +1160,31 @@
         {
             "availability": null,
             "city": null,
+            "comment": null,
+            "companyName": "Mahamaya Pharmacy",
+            "createdTime": "2021-04-25T15:38:22.000Z",
+            "description": null,
+            "district": "Birbhum",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recGFV4O05c8uC6OZ",
+            "instructions": null,
+            "lastVerifiedOn": null,
+            "name": "Mahamaya Pharmacy Station Road, Bolpur Bazar Bolpur 731204",
+            "phone1": 9851504923,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "whatsapp fwd",
+            "state": "West Bengal",
+            "type": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
+            "city": null,
             "comment": "Didn't pick ",
             "companyName": null,
             "createdTime": "2021-04-19T09:58:01.000Z",
@@ -3261,6 +3286,31 @@
             "type": null,
             "verificationStatus": "Verified",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": null,
+            "companyName": "Gopal Pharmacy",
+            "createdTime": "2021-04-25T15:41:33.000Z",
+            "description": null,
+            "district": "Birbhum",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "reccTKDrm0S6yKRxB",
+            "instructions": null,
+            "lastVerifiedOn": null,
+            "name": "Sri Gopal Pharmacy  Nanur Chandida, Netaji Road, Bolpur 731204",
+            "phone1": 9800192590,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "whtsapp fws",
+            "state": "West Bengal",
+            "type": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
