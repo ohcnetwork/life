@@ -12,7 +12,7 @@ const Footer = () => {
         },
         {
             icon: faHeart,
-            text: 'Support',
+            text: 'Campaigns',
             link: '/campaigns'
         },
         {
