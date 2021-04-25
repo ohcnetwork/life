@@ -54,7 +54,12 @@ export default function Home() {
                     />
                 </div>
                 <div className="w-full md:w-3/4 px-2">
-                    <Selector page={selectedFilter} />
+                    <Selector
+                        localeState={t.state}
+                        localeDistrict={t.district}
+                        placeholder={t.searchPlaceholder}
+                        page={selectedFilter}
+                    />
                 </div>
                 <div className="flex flex-wrap items-center justify-evenly mt-6 ">
                     {getStates(selectedFilter).map((s) => {
