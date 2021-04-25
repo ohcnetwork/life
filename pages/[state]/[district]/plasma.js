@@ -4,7 +4,14 @@ import { humanize, statePaths } from '../../../lib/utils';
 import Breadcumb from '../../../components/Breadcumb';
 import PlasmaCard from '../../../components/PlasmaCard';
 import { NextSeo } from 'next-seo';
+import { useAmp } from 'next/amp';
+
+export const config = {
+    amp: 'hybrid'
+};
+
 export default function Plasma({ state, district, plasmaListing }) {
+    const isAmp = useAmp();
     const SEO = {
         title: `Plasma in ${humanize(district)} , ${humanize(state)}`,
         description: `Covid19 Resources for Plasma in ${humanize(district)} , ${humanize(
@@ -34,22 +41,56 @@ export default function Plasma({ state, district, plasmaListing }) {
                     {humanize(district)}
                 </h1>
                 <div className="w-full space-y-4 mt-4 max-w-3xl w-full">
-                    {plasmaListing.map((p) => {
-                        return (
-                            <PlasmaCard
-                                key={p.name}
-                                city={p.city}
-                                createdTime={p.createdTime}
-                                description={p.description}
-                                district={p.district}
-                                name={p.name}
-                                phone1={p.phone1}
-                                sourceLink={p.sourceLink}
-                                state={p.state}
-                                lastVerifiedOn={p.lastVerifiedOn}
-                            />
-                        );
-                    })}
+                    {isAmp ? (
+                        <>
+                            <amp-state id="plasma">
+                                <script
+                                    type="application/json"
+                                    dangerouslySetInnerHTML={{
+                                        __html: JSON.stringify({
+                                            items: plasmaByDistrict
+                                        })
+                                    }}></script>
+                            </amp-state>
+                            <amp-list
+                                width="auto"
+                                height="100"
+                                layout="fixed-height"
+                                src="amp-state:plasma">
+                                <template type="amp-mustache">
+                                    <PlasmaCard
+                                        key={`{{name}}`}
+                                        city={`{{city}}`}
+                                        createdTime={`{{createdTime}}`}
+                                        description={`{{description}}`}
+                                        district={`{{district}}`}
+                                        name={`{{name}}`}
+                                        phone1={`{{phone1}}`}
+                                        sourceLink={`{{sourceLink}}`}
+                                        state={`{{state}}`}
+                                        lastVerifiedOn={`{{lastVerifiedOn}}`}
+                                    />
+                                </template>
+                            </amp-list>
+                        </>
+                    ) : (
+                        plasmaListing.map((p) => {
+                            return (
+                                <PlasmaCard
+                                    key={p.name}
+                                    city={p.city}
+                                    createdTime={p.createdTime}
+                                    description={p.description}
+                                    district={p.district}
+                                    name={p.name}
+                                    phone1={p.phone1}
+                                    sourceLink={p.sourceLink}
+                                    state={p.state}
+                                    lastVerifiedOn={p.lastVerifiedOn}
+                                />
+                            );
+                        })
+                    )}
                 </div>
             </section>
         </div>

@@ -5,8 +5,14 @@ import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 import HospitalCard from '../../../components/HospitalCard';
 import { NextSeo } from 'next-seo';
+import { useAmp } from 'next/amp';
+
+export const config = {
+    amp: 'hybrid'
+};
 
 export default function Hospitals({ state, district, hospitalByDistrict }) {
+    const isAmp = useAmp();
     const SEO = {
         title: `Hospitals in ${humanize(district)} , ${humanize(state)}`,
         description: `Covid19 Resources for Hospitals in ${humanize(district)} , ${humanize(
@@ -41,21 +47,54 @@ export default function Hospitals({ state, district, hospitalByDistrict }) {
                     {humanize(district)}
                 </h1>
                 <div className="w-full space-y-4 mt-4 max-w-3xl w-full">
-                    {hospitalByDistrict.map((p) => {
-                        return (
-                            <HospitalCard
-                                key={p.id}
-                                name={p.name}
-                                pointOfContact={p.pointOfContact}
-                                createdTime={p.createdTime}
-                                phone1={p.phone1}
-                                district={p.district}
-                                state={p.state}
-                                verificationStatus={p.verificationStatus}
-                                lastVerifiedOn={p.lastVerifiedOn}
-                            />
-                        );
-                    })}
+                    {isAmp ? (
+                        <>
+                            <amp-state id="hospitals">
+                                <script
+                                    type="application/json"
+                                    dangerouslySetInnerHTML={{
+                                        __html: JSON.stringify({
+                                            items: hospitalByDistrict
+                                        })
+                                    }}></script>
+                            </amp-state>
+                            <amp-list
+                                width="auto"
+                                height="100"
+                                layout="fixed-height"
+                                src="amp-state:hospitals">
+                                <template type="amp-mustache">
+                                    <HospitalCard
+                                        key={`{{id}}`}
+                                        name={`{{name}}`}
+                                        pointOfContact={`{{pointOfContact}}`}
+                                        createdTime={`{{createdTime}}`}
+                                        phone1={`{{phone1}}`}
+                                        district={`{{district}}`}
+                                        state={`{{state}}`}
+                                        verificationStatus={`{{verificationStatus}}`}
+                                        lastVerifiedOn={`{{lastVerifiedOn}}`}
+                                    />
+                                </template>
+                            </amp-list>
+                        </>
+                    ) : (
+                        hospitalByDistrict.map((p) => {
+                            return (
+                                <HospitalCard
+                                    key={p.id}
+                                    name={p.name}
+                                    pointOfContact={p.pointOfContact}
+                                    createdTime={p.createdTime}
+                                    phone1={p.phone1}
+                                    district={p.district}
+                                    state={p.state}
+                                    verificationStatus={p.verificationStatus}
+                                    lastVerifiedOn={p.lastVerifiedOn}
+                                />
+                            );
+                        })
+                    )}
                 </div>
             </section>
         </div>

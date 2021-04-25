@@ -4,8 +4,14 @@ import { statePaths, humanize } from '../../../lib/utils';
 import OxygenCard from '../../../components/OxygenCard';
 import Breadcumb from '../../../components/Breadcumb';
 import { NextSeo } from 'next-seo';
+import { useAmp } from 'next/amp';
+
+export const config = {
+    amp: 'hybrid'
+};
 
 export default function Oxygen({ state, district, oxygenListing }) {
+    const isAmp = useAmp();
     const SEO = {
         title: `Oxygen in ${humanize(district)} , ${humanize(state)}`,
         description: `Covid19 Resources for Oxygen in ${humanize(district)} , ${humanize(
@@ -35,25 +41,62 @@ export default function Oxygen({ state, district, oxygenListing }) {
                     {humanize(district)}
                 </h1>
                 <div className="w-full mt-4 w-full p-4 space-y-4">
-                    {oxygenListing.map((o) => {
-                        return (
-                            <OxygenCard
-                                key={o.id}
-                                name={o.name}
-                                company={o.companyName}
-                                phone1={o.phone1}
-                                phone2={o.phone2}
-                                description={o.description}
-                                source={o.sourceName}
-                                slink={o.sourceLink}
-                                fstate={state}
-                                fdistrict={district}
-                                createdTime={o.createdTime}
-                                verifiedStatus={o.verificationStatus}
-                                lastVerifiedOn={o.lastVerifiedOn}
-                            />
-                        );
-                    })}
+                    {isAmp ? (
+                        <>
+                            <amp-state id="oxygen">
+                                <script
+                                    type="application/json"
+                                    dangerouslySetInnerHTML={{
+                                        __html: JSON.stringify({
+                                            items: oxygenListing
+                                        })
+                                    }}></script>
+                            </amp-state>
+                            <amp-list
+                                width="auto"
+                                height="100"
+                                layout="fixed-height"
+                                src="amp-state:oxygen">
+                                <template type="amp-mustache">
+                                    <OxygenCard
+                                        key={`{{id}}`}
+                                        name={`{{name}}`}
+                                        company={`{{companyName}}`}
+                                        phone1={`{{phone1}}`}
+                                        phone2={`{{phone2}}`}
+                                        description={`{{description}}`}
+                                        source={`{{sourceName}}`}
+                                        slink={`{{sourceLink}}`}
+                                        fstate={state}
+                                        fdistrict={district}
+                                        createdTime={`{{createdTime}}`}
+                                        verifiedStatus={`{{verificationStatus}}`}
+                                        lastVerifiedOn={`{{lastVerifiedOn}}`}
+                                    />
+                                </template>
+                            </amp-list>
+                        </>
+                    ) : (
+                        oxygenListing.map((o) => {
+                            return (
+                                <OxygenCard
+                                    key={o.id}
+                                    name={o.name}
+                                    company={o.companyName}
+                                    phone1={o.phone1}
+                                    phone2={o.phone2}
+                                    description={o.description}
+                                    source={o.sourceName}
+                                    slink={o.sourceLink}
+                                    fstate={state}
+                                    fdistrict={district}
+                                    createdTime={o.createdTime}
+                                    verifiedStatus={o.verificationStatus}
+                                    lastVerifiedOn={o.lastVerifiedOn}
+                                />
+                            );
+                        })
+                    )}
                 </div>
             </section>
         </div>

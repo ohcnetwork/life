@@ -4,8 +4,14 @@ import { statePaths, humanize, parseDateString } from '../../../lib/utils';
 import Breadcumb from '../../../components/Breadcumb';
 import HelplineCard from '../../../components/HelplineCard';
 import { NextSeo } from 'next-seo';
+import { useAmp } from 'next/amp';
+
+export const config = {
+    amp: 'hybrid'
+};
 
 export default function Helpline({ state, district, helplines }) {
+    const isAmp = useAmp();
     const SEO = {
         title: `Helpline in ${humanize(district)} , ${humanize(state)}`,
         description: `Covid19 Resources for Helpline in ${humanize(district)} , ${humanize(
@@ -35,23 +41,58 @@ export default function Helpline({ state, district, helplines }) {
                     {humanize(district)}
                 </h1>
                 <div className="space-y-4 mt-4 max-w-3xl w-full">
-                    {helplines.map((p) => {
-                        return (
-                            <HelplineCard
-                                key={p.id}
-                                category={p.category}
-                                createdTime={p.createdTime}
-                                description={p.description}
-                                district={p.district}
-                                phone1={p.phone1}
-                                source={p.source}
-                                slink={p.sourceUrl}
-                                state={p.state}
-                                subCategory={p.subCategory}
-                                lastVerifiedOn={p.lastVerifiedOn}
-                            />
-                        );
-                    })}
+                    {isAmp ? (
+                        <>
+                            <amp-state id="helpline">
+                                <script
+                                    type="application/json"
+                                    dangerouslySetInnerHTML={{
+                                        __html: JSON.stringify({
+                                            items: helplineByDistrict
+                                        })
+                                    }}></script>
+                            </amp-state>
+                            <amp-list
+                                width="auto"
+                                height="100"
+                                layout="fixed-height"
+                                src="amp-state:helpline">
+                                <template type="amp-mustache">
+                                    <HelplineCard
+                                        key={`{{id}}`}
+                                        category={`{{category}}`}
+                                        createdTime={`{{createdTime}}`}
+                                        description={`{{description}}`}
+                                        district={`{{district}}`}
+                                        phone1={`{{phone1}}`}
+                                        source={`{{source}}`}
+                                        slink={`{{sourceUrl}}`}
+                                        state={`{{state}}`}
+                                        subCategory={`{{subCategory}}`}
+                                        lastVerifiedOn={`{{lastVerifiedOn}}`}
+                                    />
+                                </template>
+                            </amp-list>
+                        </>
+                    ) : (
+                        helplines.map((p) => {
+                            return (
+                                <HelplineCard
+                                    key={p.id}
+                                    category={p.category}
+                                    createdTime={p.createdTime}
+                                    description={p.description}
+                                    district={p.district}
+                                    phone1={p.phone1}
+                                    source={p.source}
+                                    slink={p.sourceUrl}
+                                    state={p.state}
+                                    subCategory={p.subCategory}
+                                    lastVerifiedOn={p.lastVerifiedOn}
+                                />
+                            );
+                        })
+                    )}
                 </div>
             </section>
         </div>

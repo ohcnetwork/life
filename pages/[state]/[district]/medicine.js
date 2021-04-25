@@ -4,9 +4,14 @@ import { statePaths, humanize } from '../../../lib/utils';
 import Breadcumb from '../../../components/Breadcumb';
 import MedicinesCard from '../../../components/MedicinesCard';
 import { NextSeo } from 'next-seo';
+import { useAmp } from 'next/amp';
 
-export const config = { amp: true };
+export const config = {
+    amp: 'hybrid'
+};
+
 export default function Medicine({ state, district, medicineByDistrict }) {
+    const isAmp = useAmp();
     const SEO = {
         title: `Medicines in ${humanize(district)} , ${humanize(state)}`,
         description: `Covid19 Resources for Medicines in ${humanize(district)} , ${humanize(
@@ -36,37 +41,60 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                     {humanize(district)}
                 </h1>
                 <div className="w-full space-y-4 mt-4 mb-4">
-                    <amp-state id="medicines">
-                        <script
-                            type="application/json"
-                            dangerouslySetInnerHTML={{
-                                __html: JSON.stringify({
-                                    items: medicineByDistrict
-                                })
-                            }}></script>
-                    </amp-state>
-                    <amp-list
-                        width="auto"
-                        height="100"
-                        layout="fixed-height"
-                        src="amp-state:medicines">
-                        <template type="amp-mustache">
-                            <MedicinesCard
-                                key={`{{ id }}`}
-                                verificationStatus={`{{ verificationStatus }}`}
-                                name={`{{ name }}`}
-                                distributorName={`{{ distributorName }}`}
-                                city={`{{ city }}`}
-                                phone1={`{{ phone1 }}`}
-                                address={`{{ address }}`}
-                                description={`{{ description }}`}
-                                createdTime={`{{ createdTime }}`}
-                                slink={`{{ source_link }}`}
-                                email={`{{ emailId }}`}
-                                lastVerifiedOn={`{{ lastVerifiedOn }}`}
-                            />
-                        </template>
-                    </amp-list>
+                    {isAmp ? (
+                        <>
+                            <amp-state id="medicines">
+                                <script
+                                    type="application/json"
+                                    dangerouslySetInnerHTML={{
+                                        __html: JSON.stringify({
+                                            items: medicineByDistrict
+                                        })
+                                    }}></script>
+                            </amp-state>
+                            <amp-list
+                                width="auto"
+                                height="100"
+                                layout="fixed-height"
+                                src="amp-state:medicines">
+                                <template type="amp-mustache">
+                                    <MedicinesCard
+                                        key={`{{ id }}`}
+                                        verificationStatus={`{{ verificationStatus }}`}
+                                        name={`{{ name }}`}
+                                        distributorName={`{{ distributorName }}`}
+                                        city={`{{ city }}`}
+                                        phone1={`{{ phone1 }}`}
+                                        address={`{{ address }}`}
+                                        description={`{{ description }}`}
+                                        createdTime={`{{ createdTime }}`}
+                                        slink={`{{ source_link }}`}
+                                        email={`{{ emailId }}`}
+                                        lastVerifiedOn={`{{ lastVerifiedOn }}`}
+                                    />
+                                </template>
+                            </amp-list>
+                        </>
+                    ) : (
+                        medicineByDistrict.map((p) => {
+                            return (
+                                <MedicinesCard
+                                    key={p.id}
+                                    verificationStatus={p.verificationStatus}
+                                    name={p.name}
+                                    distributorName={p.distributorName}
+                                    city={p.city}
+                                    phone1={p.phone1}
+                                    address={p.address}
+                                    description={p.description}
+                                    createdTime={p.createdTime}
+                                    slink={p.source_link}
+                                    email={p.emailId}
+                                    lastVerifiedOn={p.lastVerifiedOn}
+                                />
+                            );
+                        })
+                    )}
                 </div>
             </section>
         </div>
