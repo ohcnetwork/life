@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { getDistricts } from '../../lib/api';
-import { parametreize, statesStaticPaths } from '../../lib/utils';
-import { humanize } from '../../lib/utils';
-import TabLinks from '../../components/TabLinks';
-import Breadcumb from '../../components/Breadcumb';
+import { getDistricts } from '@lib/api';
+import { parametreize, statesStaticPaths } from '@lib/utils';
+import { humanize } from '@lib/utils';
+import TabLinks from '@components/TabLinks';
+import Breadcumb from '@components/Breadcumb';
 import Link from 'next/link';
-import { tabsInfo } from '../../lib/tabs';
+import { tabsInfo } from '@lib/tabs';
 import { NextSeo } from 'next-seo';
-import SocialSharing from '../../components/SocialSharing';
+import SocialSharing from '@components/SocialSharing';
 import { useRouter } from 'next/router';
 
 export default function State({ state }) {

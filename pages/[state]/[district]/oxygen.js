@@ -1,8 +1,8 @@
 import React from 'react';
-import { getOxygen } from '../../../lib/api';
-import { statePaths, humanize } from '../../../lib/utils';
-import OxygenCard from '../../../components/OxygenCard';
-import Breadcumb from '../../../components/Breadcumb';
+import { getOxygen } from '@lib/api';
+import { statePaths, humanize } from '@lib/utils';
+import OxygenCard from '@components/OxygenCard';
+import Breadcumb from '@components/Breadcumb';
 import { NextSeo } from 'next-seo';
 
 export default function Oxygen({ state, district, oxygenListing }) {

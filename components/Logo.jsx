@@ -1,5 +1,3 @@
-import { isDarkMode } from "../lib/utils";
-
 function Logo(props) {
   return (
     <svg

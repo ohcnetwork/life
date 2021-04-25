@@ -3,7 +3,7 @@ import { faTwitter, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-
 import { faCopy } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { copyToClipboard } from '../lib/utils';
+import { copyToClipboard } from '@lib/utils';
 
 const SocialSharing = ({ twitterText, url, copyText }) => {
     return (

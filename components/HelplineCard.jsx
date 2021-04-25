@@ -1,8 +1,8 @@
-import { faLink, faPhoneAlt, faMapMarkerAlt, faCopy } from '@fortawesome/free-solid-svg-icons';
+import { faLink, faPhoneAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { isVerified, parseDateString, copyToClipboard } from '../lib/utils';
+import { isVerified, parseDateString } from '@lib/utils';
 import Badge from './Badge';
-import SocialSharing from '../components/SocialSharing';
+import SocialSharing from '@components/SocialSharing';
 import { useRouter } from 'next/router';
 
 const HelplineCard = ({

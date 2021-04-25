@@ -1,5 +1,5 @@
 import React from 'react';
-import Breadcumb from '../components/Breadcumb';
+import Breadcumb from '@components/Breadcumb';
 
 const About = () => {
     const h1Class = `text-4xl`;

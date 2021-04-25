@@ -12,7 +12,7 @@ import {
     faUsers
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Logo from '../components/Logo';
+import Logo from '@components/Logo';
 
 export default function DataForm() {
     const formsInfo = [

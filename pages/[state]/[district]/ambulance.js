@@ -1,8 +1,8 @@
 import React from 'react';
-import { getAmbulances } from '../../../lib/api';
-import { humanize, statePaths } from '../../../lib/utils';
-import AmbulanceCard from '../../../components/AmbulanceCard';
-import Breadcumb from '../../../components/Breadcumb';
+import { getAmbulances } from '@lib/api';
+import { humanize, statePaths } from '@lib/utils';
+import AmbulanceCard from '@components/AmbulanceCard';
+import Breadcumb from '@components/Breadcumb';
 import { NextSeo } from 'next-seo';
 
 export default function Ambulance({ state, district, ambulancesListing }) {
