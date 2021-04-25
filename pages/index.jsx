@@ -12,6 +12,7 @@ import { faChartBar, faMedkit } from '@fortawesome/free-solid-svg-icons';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 
+
 let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 
 export default function Home() {
@@ -80,7 +81,7 @@ export default function Home() {
                             {t.covid19Stats}
                         </button>
                     </a>
-                    <a href="/oxygen_requirements">
+                    {/* <a href="/oxygen_requirements">
                         <button
                             type="button"
                             className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
@@ -91,7 +92,7 @@ export default function Home() {
                             />
                             {t.oxygenRequirements}
                         </button>
-                    </a>
+                    </a> */}
                 </div>
             </section>
         </div>
