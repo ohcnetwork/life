@@ -18,7 +18,9 @@ const AmbulanceCard = ({
 }) => {
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
-    const copyText = `Name: ${name ? name : 'Ambulance'} \n Contact: ${phone1}`;
+    const copyText = `Name: ${
+        name ? name : 'Ambulance'
+    } \n Contact: ${phone1} More Info: ${pageUrl}`;
     return (
         <>
             <div className="w-full">

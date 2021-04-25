@@ -21,7 +21,9 @@ const HelplineCard = ({
 }) => {
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
-    const copyText = ` Name: ${name ? name : 'Helpline'} \n Contact: ${phone1}`;
+    const copyText = ` Name: ${
+        name ? name : 'Helpline'
+    } \n Contact: ${phone1} More Info: ${pageUrl}`;
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="w-full flex items-center pt-2">
