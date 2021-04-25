@@ -9,8 +9,8 @@ import Selector from '@components/Selector';
 import { tabsInfo } from '@lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar, faMedkit } from '@fortawesome/free-solid-svg-icons';
-import hospitalCareCenterData from './../data/hospital_clinic_centre.json';
-import ambulanceData from './../data/ambulance.json';
+import hospitalCareCenterData from '@data/hospital_clinic_centre.json';
+import ambulanceData from '@data/ambulance.json';
 
 let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 
