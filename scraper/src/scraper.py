@@ -16,8 +16,7 @@ def get_records(url: str) -> list:
     records = []
     offset = ""
     while True:
-        response = requests.get(url, headers=headers,
-                                params=[("offset", offset)])
+        response = requests.get(url, headers=headers, params=[("offset", offset)])
         records.extend(response.json()["records"])
         if "offset" in response.json():
             offset = response.json()["offset"]
@@ -27,8 +26,7 @@ def get_records(url: str) -> list:
 
 
 def get_active_district_data():
-    records = get_records(
-        "https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Districts")
+    records = get_records("https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Districts")
     active_districts = {"data": []}
     for district in records:
         if("Oxygen 2" in district["fields"] or "Hospitals, Bed, ICU" in district["fields"] or "Medicine, Injection" in district["fields"] or "Ambulance" in district["fields"] or "Helpline" in district["fields"] or "Plasma" in district["fields"] or "Doctor, Telemedicine" in district["fields"] or "Government contact" in district["fields"]):
@@ -49,24 +47,19 @@ def get_active_district_data():
             )
     return active_districts
 
-
 def get_district_data():
-    records = get_records(
-        "https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Districts")
+    records = get_records("https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Districts")
     districts = {}
     for district in records:
-        districts[district["id"]] = District(district["fields"].get(
-            "Name"), district["fields"]["Name (from State)"][0])
+        districts[district["id"]] = District(district["fields"].get("Name"), district["fields"]["Name (from State)"][0])
     return districts
 
 
 def get_states_data():
-    records = get_records(
-        "https://api.airtable.com/v0/appIVYBhHiWvtSV1h/State")
+    records = get_records("https://api.airtable.com/v0/appIVYBhHiWvtSV1h/State")
     states = {}
     for state in records:
-        states[state["fields"]["Name"]] = [
-            districts[district].name for district in state["fields"]["Districts"]]
+        states[state["fields"]["Name"]] = [districts[district].name for district in state["fields"]["Districts"]]
     return states
 
 
@@ -94,14 +87,13 @@ def get_oxygen_data():
             district = districts[record["fields"]["Districts"][0]]
         except Exception:
             continue
-
         oxygen_data["data"].append(
             {
                 "id": record["id"],
                 "state": district.state,
                 "district": district.name,
                 "city": record["fields"].get("District"),
-                "name": record["fields"].get("Name"),
+                "name": record["fields"].get("Person name"),
                 "description": record["fields"].get("Description"),
                 "phone1": record["fields"].get("Phone 1"),
                 "phone2": record["fields"].get("Phone 2"),
@@ -109,17 +101,10 @@ def get_oxygen_data():
                 "createdTime": record["createdTime"],
                 "sourceName": record["fields"].get("Source Name"),
                 "companyName": record["fields"].get("Company name"),
-                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
-                "comment": record["fields"].get("Verifier_Comment"),
-                "lastVerifiedOn": record["fields"].get("Verified_On"),
-                "verifiedBy": record["fields"]["Verified_By"][0].get("name")
-                if "Verified_By" in record["fields"]
-                else [{}],
-                "type": record["fields"].get("Type"),
-                "availability": record["fields"].get("Availability"),
-                "homeDeliveryAvailable": record["fields"].get("Home delivery available"),
-                "instructions": record["fields"].get("Instructions"),
-                "emailId": record["fields"].get("Email ID"),
+                "verifiedStatus": record["fields"].get("Verified status").strip()
+                if "Verified status" in record["fields"]
+                else None,
+                "comments": record["fields"].get("Comments"),
             }
         )
     return oxygen_data
@@ -144,27 +129,22 @@ def get_plasma_data():
                 "description": record["fields"].get("Description"),
                 "phone1": record["fields"].get("Phone 1"),
                 "sourceLink": record["fields"].get("Source link"),
-                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
-                "comment": record["fields"].get("Verifier_Comment"),
-                "lastVerifiedOn": record["fields"].get("Verified_On"),
-                "verifiedBy": record["fields"]["Verified_By"][0].get("name")
-                if "Verified_By" in record["fields"]
-                else [{}],
+                "createdTime": record["createdTime"],
             }
         )
     return plasma_data
 
 
-def get_hospital_clinic_centre():
+def get_hospital_bed_icu():
     url = "https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Hospital%2C%20Clinics%2C%20Centre"
-    hospital_clinic_centre = {"data": []}
+    hospital_bed_icu = {"data": []}
     raw_data = get_records(url)
     for record in raw_data:
         try:
             district = districts[record["fields"]["Districts"][0]]
         except Exception:
             continue
-        hospital_clinic_centre["data"].append(
+        hospital_bed_icu["data"].append(
             {
                 "id": record["id"],
                 "name": record["fields"].get("Name"),
@@ -173,19 +153,15 @@ def get_hospital_clinic_centre():
                 "pointOfContact": record["fields"].get("pointOfContact"),
                 "phone1": record["fields"].get("phone1"),
                 "phone2": record["fields"].get("phone2"),
-                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
-                "lastVerifiedOn": record["fields"].get("Verified_On"),
-                "verifiedBy": record["fields"]["Verified_By"][0].get("name")
-                if "Verified_By" in record["fields"]
-                else [{}],
-                "comment": record["fields"].get("Verifier_Comment"),
-                "typeOfHospital": record["fields"].get("Type of Hospital"),
-                "subCategory": record["fields"].get("Sub category"),
-                "availability": record["fields"].get("Availability"),
+                "sourceUrl": record["fields"].get("sourceUrl"),
+                "source": record["fields"].get("source"),
+                "verificationStatus": record["fields"].get("Verification Status"),
+                "verifiedBy": record["fields"].get("Verified by"),
+                "verifiedBy2": record["fields"].get("Verified By 2"),
                 "createdTime": record["createdTime"],
             }
         )
-    return hospital_clinic_centre
+    return hospital_bed_icu
 
 
 def get_helpline_data():
@@ -200,8 +176,9 @@ def get_helpline_data():
         helpline_data["data"].append(
             {
                 "id": record["id"],
-                "name": record["fields"].get("Name of helpline"),
-                "category": record["fields"].get("Category"),
+                "name": record["fields"].get("Name"),
+                "category": record["fields"].get("category"),
+                "subCategory": record["fields"].get("subCategory"),
                 "state": district.state,
                 "district": district.name,
                 "phone1": record["fields"].get("phone1"),
@@ -209,13 +186,9 @@ def get_helpline_data():
                 "sourceUrl": record["fields"].get("sourceUrl"),
                 "source": record["fields"].get("source"),
                 "description": record["fields"].get("description"),
+                "zonalVerificationStatus": record["fields"].get("Zonal Verification Status"),
+                "verifiedBy": record["fields"].get("Verified by"),
                 "createdTime": record["createdTime"],
-                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
-                "comment": record["fields"].get("Verifier_Comment"),
-                "lastVerifiedOn": record["fields"].get("Verified_On"),
-                "verifiedBy": record["fields"]["Verified_By"].get("name")
-                if "Verified_By" in record["fields"]
-                else None,
             }
         )
     return helpline_data
@@ -233,23 +206,21 @@ def get_medicine_data():
         medicine_data["data"].append(
             {
                 "id": record["id"],
+                "name": record["fields"].get("Name"),
                 "city": record["fields"].get("City"),
                 "description": record["fields"].get("Description"),
-                "name": record["fields"].get("Distributor Name"),
+                "distributorName": record["fields"].get("Distributor Name"),
                 "address": record["fields"].get("Address"),
                 "emailId": record["fields"].get("Email ID"),
                 "state": district.state,
                 "district": district.name,
                 "phone1": record["fields"].get("Phone 1"),
+                "Verified": record["fields"].get("Verified"),
+                "commentsLatestupdate": record["fields"].get("Comments/Latest update"),
                 "source": record["fields"].get("Source"),
                 "contactName": record["fields"].get("Contact name"),
-                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
-                "lastVerifiedOn": record["fields"].get("Verified_On"),
-                "verifiedBy": record["fields"]["Verified_By"][0].get("name")
-                if "Verified_By" in record["fields"]
-                else [{}],
-                "comment": record["fields"].get("Verifier_Comment"),
-                "priceCheck": record["fields"].get("Price_Check"),
+                "updateDateAndTime": record["fields"].get("Update date & time"),
+                "verifiedBy": record["fields"].get("Verified by"),
                 "createdTime": record["createdTime"],
             }
         )
@@ -268,36 +239,30 @@ def get_ambulance_data():
         ambulance_data["data"].append(
             {
                 "id": record["id"],
-                "name": record["fields"].get("Ambulance service name"),
+                "name": record["fields"].get("Name"),
                 "area": record["fields"].get("Area"),
                 "state": district.state,
                 "district": district.name,
                 "phone1": record["fields"].get("Phone 1"),
                 "phone2": record["fields"].get("Phone 2"),
                 "source": record["fields"].get("Source"),
-                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
-                "lastVerifiedOn": record["fields"].get("Verified_On"),
-                "verifiedBy": record["fields"]["Verified_By"][0].get("name")
-                if "Verified_By" in record["fields"]
-                else [{}],
-                "comment": record["fields"].get("Verifier_Comment"),
                 "createdTime": record["createdTime"],
             }
         )
     return ambulance_data
 
-
-active_district_data = get_active_district_data()
-dump_data("active_district_data.json", active_district_data)
-hospital_data = get_hospital_clinic_centre()
-dump_data("hospital_clinic_centre.json", hospital_data)
-oxygen_data = get_oxygen_data()
-dump_data("oxygen.json", oxygen_data)
-plasmadata = get_plasma_data()
-dump_data("plasma.json", plasmadata)
-helpline_data = get_helpline_data()
-dump_data("helpline.json", helpline_data)
-medicine_data = get_medicine_data()
-dump_data("medicine.json", medicine_data)
-ambulance_data = get_ambulance_data()
-dump_data("ambulance.json", ambulance_data)
+if __name__=="__main__":
+    active_district_data = get_active_district_data()
+    dump_data("active_district_data.json", active_district_data)
+    hospital_data = get_hospital_bed_icu()
+    dump_data("hospital_bed_icu.json", hospital_data)
+    oxygen_data = get_oxygen_data()
+    dump_data("oxygen.json", oxygen_data)
+    plasmadata = get_plasma_data()
+    dump_data("plasma.json", plasmadata)
+    helpline_data = get_helpline_data()
+    dump_data("helpline.json", helpline_data)
+    medicine_data = get_medicine_data()
+    dump_data("medicine.json", medicine_data)
+    ambulance_data = get_ambulance_data()
+    dump_data("ambulance.json", ambulance_data)
