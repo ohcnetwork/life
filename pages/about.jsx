@@ -67,11 +67,14 @@ const About = () => {
                     hope we are able to save lives. Look forward to your support. Thanks to
                     everyone, wouldn&#39;t have been possible without you all.
                 </p>
-                <p className={pClass}>
+                <h2 className={h2Class}>
                     Why are you guys putting in time and resources to do this while not gaining a
-                    single penny from it? We believe in the true spirit of collaboration,
-                    crowdsourcing, the democratization of data, and volunteering. Please support us
-                    to save lives! Join us.{' '}
+                    single penny from it?
+                </h2>
+                <p className={pClass}>
+                    We believe in the true spirit of collaboration, crowdsourcing, the
+                    democratization of data, and volunteering. Please support us to save lives! Join
+                    us.{' '}
                 </p>
                 <h2 className={h2Class}>How can you volunteer with us?</h2>
                 <p className={pClass}>
