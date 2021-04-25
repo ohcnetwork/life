@@ -2,8 +2,8 @@ import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { faLink, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { parseDateString } from '../lib/utils';
-import SocialSharing from '../components/SocialSharing';
+import { parseDateString } from '@lib/utils';
+import SocialSharing from '@components/AmbulanceCard';
 import { useRouter } from 'next/router';
 import Badge from './Badge';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
-import { parametreize } from '../lib/utils';
+import { parametreize } from '@lib/utils';
 
 const TabSingle = ({ tab, state, district }) => {
     const bgColorVal = district[tab.value]

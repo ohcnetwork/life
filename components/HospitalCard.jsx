@@ -2,9 +2,9 @@ import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { faPhoneAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { isVerified, parseDateString } from '../lib/utils';
+import { isVerified, parseDateString } from '@lib/utils';
+import SocialSharing from '@components/AmbulanceCard';
 import Badge from './Badge';
-import SocialSharing from '../components/SocialSharing';
 import { useRouter } from 'next/router';
 
 const HospitalCard = ({

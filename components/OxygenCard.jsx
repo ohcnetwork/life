@@ -3,8 +3,8 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import { faLink, faPhoneAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import Badge from './Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { isVerified, parseDateString } from '../lib/utils';
-import SocialSharing from '../components/SocialSharing';
+import { isVerified, parseDateString } from '@lib/utils';
+import SocialSharing from '@components/AmbulanceCard';
 import { useRouter } from 'next/router';
 
 const OxygenCard = ({
