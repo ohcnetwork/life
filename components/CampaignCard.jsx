@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Linkify from 'react-linkify';
-import { linkifyDecorator } from '../lib/utils';
+import { linkifyDecorator } from '@lib/utils';
 import { faDonate } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

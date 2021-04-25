@@ -1,9 +1,9 @@
 import { faPhoneAlt, faLink } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { isVerified, parseDateString } from '../lib/utils';
+import { isVerified, parseDateString } from '@lib/utils';
 import React from 'react';
 import Badge from './Badge';
-import SocialSharing from '../components/SocialSharing';
+import SocialSharing from '@components/SocialSharing';
 import { useRouter } from 'next/router';
 
 const AmbulanceCard = ({
