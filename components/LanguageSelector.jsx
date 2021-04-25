@@ -9,6 +9,7 @@ const LanguageSelector = () => {
             value={locale}
             onChange={(e) => setLocale(e.target.value)}>
             <option value="EN">English</option>
+            <option value="HI">Hindi</option>
             <option value="MR">Marathi</option>
         </select>
     );

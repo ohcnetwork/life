@@ -16,7 +16,7 @@ let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection
 
 export default function Home() {
     const { locale } = useLocaleContext();
-    const t = useLocale(locale);
+    const t = useLocale(locale).home;
 
     let tabsInfoNew = [];
     tabsInfo.forEach((tab) => {
