@@ -1,12 +1,11 @@
 import React, { useContext } from 'react';
-import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDatabase, faHandsHelping, faHeart } from '@fortawesome/free-solid-svg-icons';
 import useLocale from '@hooks/use-locale';
-import { LocaleContext } from '../context/LocaleContext';
+import { useLocaleContext } from '@hooks/use-locale-context';
 
 const Footer = () => {
-    const { locale, setLocale } = useContext(LocaleContext);
+    const { locale, setLocale } = useLocaleContext();
     const t = useLocale(locale);
     const buttonArr = [
         {
