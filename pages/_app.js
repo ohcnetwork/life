@@ -6,7 +6,7 @@ import { DefaultSeo } from 'next-seo';
 import { useAmp } from 'next/amp';
 
 export const config = {
-    amp: true
+    amp: 'hybrid'
 };
 
 function MyApp({ Component, pageProps }) {

@@ -7,7 +7,7 @@ import { NextSeo } from 'next-seo';
 import { useAmp } from 'next/amp';
 
 export const config = {
-    amp: true
+    amp: 'hybrid'
 };
 
 export default function Helpline({ state, district, helplines }) {
