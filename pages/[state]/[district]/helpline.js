@@ -47,6 +47,7 @@ export default function Helpline({ state, district, helplines }) {
                         return (
                             <EntityCard
                                 key={p.id}
+                                id={p.id}
                                 category={p.category}
                                 createdTime={p.createdTime}
                                 description={p.description}

@@ -53,6 +53,7 @@ export default function Hospitals({ state, district, hospitalByDistrict }) {
                         return (
                             <EntityCard
                                 key={p.id}
+                                id={p.id}
                                 name={p.name}
                                 pointOfContact={p.pointOfContact}
                                 createdTime={p.createdTime}

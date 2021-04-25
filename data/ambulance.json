@@ -4568,6 +4568,23 @@
         },
         {
             "area": null,
+            "comment": null,
+            "createdTime": "2021-04-25T09:59:31.000Z",
+            "district": "Baramulla",
+            "id": "recjOfQD85q8NmlBj",
+            "lastVerifiedOn": "2021-04-25T09:59:31.000Z",
+            "name": null,
+            "phone1": null,
+            "phone2": null,
+            "source": null,
+            "state": "Jammu & Kashmir (UT)",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "area": null,
             "comment": "Remdesivir stock expected tomorrow morning",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Jammu",
