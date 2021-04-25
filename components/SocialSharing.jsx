@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { faTwitter, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faCopy } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { copyToClipboard } from '@lib/utils';
 
 const SocialSharing = ({ twitterText, url, copyText }) => {
+    const [copiedSuccess, setCopiesSuccess] = useState(false);
     return (
         <div className="text-gray-700 dark:text-gray-400 text-lg pr-4  w-full flex ">
             Share
@@ -28,14 +29,20 @@ const SocialSharing = ({ twitterText, url, copyText }) => {
                 </a>
             </span>
             <span
-                className="ml-auto w-8 cursor-pointer"
+                className="relative cursor-pointer"
                 onClick={() => {
-                    copyToClipboard(`${copyText || url}`);
-                    alert('Copied!');
+                    copyToClipboard(twitterText);
+                    setCopiesSuccess(true);
+                    setTimeout(() => setCopiesSuccess(false), 2000);
                 }}>
+                {copiedSuccess && (
+                    <span className="absolute -top-10 -left-1 dark:bg-green-600 bg-green-600 text-white py-2 px-3 rounded shadow text-xs">
+                        Copied!
+                    </span>
+                )}
                 <FontAwesomeIcon
                     className="text-blue-500 ml-4"
-                    title="Click to Copy"
+                    title="Copy to Clipboard"
                     icon={faCopy}
                 />
             </span>
