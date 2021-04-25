@@ -14,7 +14,7 @@ export default {
     oxygenRequirements: 'Oxygen Requirements',
     contributeData: 'Contribute Verified Data',
     campaigns: 'Campaigns',
-    parterWithUs: 'Partner With Us',
+    partnerWithUs: 'Partner With Us',
     curatedBy: 'Curated By',
     supportedBy: 'Supported By',
     poweredBy: 'Powered By',

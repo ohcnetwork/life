@@ -1,37 +1,41 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDatabase, faHandsHelping, faHeart } from '@fortawesome/free-solid-svg-icons';
+import useLocale from '@hooks/use-locale';
+import { LocaleContext } from '../context/LocaleContext';
 
 const Footer = () => {
+    const { locale, setLocale } = useContext(LocaleContext);
+    const t = useLocale(locale);
     const buttonArr = [
         {
             icon: faDatabase,
-            text: 'Contribute Verified Data',
+            text: `${t.contributeData}`,
             link: '/data'
         },
         {
             icon: faHeart,
-            text: 'Campaigns',
+            text: `${t.campaigns}`,
             link: '/campaigns'
         },
         {
             icon: faHandsHelping,
-            text: 'Partner with Us',
+            text: `${t.partnerWithUs}`,
             link: '/about#partner'
         }
     ];
     const socialArr = [
         {
-            text: 'Github',
+            text: `${t.github}`,
             link: 'https://github.com/coronasafe/life'
         },
         {
-            text: 'Database',
+            text: `${t.database}`,
             link: 'https://github.com/coronasafe/life'
         },
         {
-            text: 'About',
+            text: `${t.about}`,
             link: '/about'
         }
     ];
@@ -50,7 +54,7 @@ const Footer = () => {
             </section>
             <div className="max-w-7xl mx-auto py-6 px-4 overflow-hidden sm:px-6 lg:px-8 sm:flex items-center justify-between">
                 <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
-                    Curated by{' '}
+                    {`${t.curatedBy} `}
                     <a href="https://covidfyi.in/">
                         <span className="underline cursor-pointer text-indigo-600 dark:text-primary-500">
                             Covid FYI
@@ -58,7 +62,7 @@ const Footer = () => {
                     </a>
                 </p>
                 <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
-                    Supported by{' '}
+                    {`${t.supportedBy} `}
                     <a href="https://www.swasth.app">
                         <span className="underline cursor-pointer text-indigo-600 dark:text-primary-500">
                             Swasth Alliance
@@ -73,7 +77,7 @@ const Footer = () => {
                 </p>
 
                 <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
-                    Powered By{' '}
+                    {`${t.poweredBy} `}
                     <a href="https://coronasafe.network/">
                         <span className="underline cursor-pointer text-indigo-600 dark:text-primary-500">
                             CoronaSafe Network

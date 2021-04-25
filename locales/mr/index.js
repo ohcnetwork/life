@@ -14,7 +14,7 @@ export default {
     oxygenRequirements: 'ऑक्सिजन आवश्यकता',
     contributeData: 'सत्यापित डेटाचे योगदान द्या',
     campaigns: 'मोहिमा',
-    parterWithUs: 'आमच्यासह भागीदार',
+    partnerWithUs: 'आमच्यासह भागीदार',
     curatedBy: 'क्युरेटेड बाय',
     supportedBy: 'समर्थित',
     poweredBy: 'द्वारा समर्थित',
