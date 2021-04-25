@@ -31,7 +31,7 @@ def get_active_district_data():
         "https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Districts")
     active_districts = {"data": []}
     for district in records:
-        if("Oxygen 2" in district["fields"] or "Hospitals, Bed, ICU" in district["fields"] or "Medicine, Injection" in district["fields"] or "Ambulance" in district["fields"] or "Helpline" in district["fields"] or "Plasma" in district["fields"] or "Doctor, Telemedicine" in district["fields"] or "Government contact" in district["fields"]):
+        if("Oxygen 2" in district["fields"] or "Hospitals, Bed, ICU" in district["fields"] or "Medicine, Injection" in district["fields"] or "Ambulance" in district["fields"] or "Helpline" in district["fields"] or "Doctor, Telemedicine" in district["fields"] or "Government contact" in district["fields"]):
             active_districts["data"].append(
                 {
                     "id": district["id"],
@@ -42,7 +42,6 @@ def get_active_district_data():
                     "medicine": "Medicine, Injection" in district["fields"],
                     "ambulance": "Ambulance" in district["fields"],
                     "helpline": "Helpline" in district["fields"],
-                    "plasma": "Plasma" in district["fields"],
                     "doctor": "Doctor, Telemedicine" in district["fields"],
                     "contact": "Government contact" in district["fields"],
                 }
@@ -123,36 +122,6 @@ def get_oxygen_data():
             }
         )
     return oxygen_data
-
-
-def get_plasma_data():
-    url = "https://api.airtable.com/v0/appIVYBhHiWvtSV1h/Plasma"
-    plasma_data = {"data": []}
-    raw_data = get_records(url)
-    for record in raw_data:
-        try:
-            district = districts[record["fields"]["Districts"][0]]
-        except Exception:
-            continue
-        plasma_data["data"].append(
-            {
-                "id": record["id"],
-                "state": district.state,
-                "district": district.name,
-                "city": record["fields"].get("City"),
-                "name": record["fields"].get("Name"),
-                "description": record["fields"].get("Description"),
-                "phone1": record["fields"].get("Phone 1"),
-                "sourceLink": record["fields"].get("Source link"),
-                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
-                "comment": record["fields"].get("Verifier_Comment"),
-                "lastVerifiedOn": record["fields"].get("Verified_On"),
-                "verifiedBy": record["fields"]["Verified_By"][0].get("name")
-                if "Verified_By" in record["fields"]
-                else [{}],
-            }
-        )
-    return plasma_data
 
 
 def get_hospital_clinic_centre():
@@ -298,8 +267,6 @@ if __name__ == "__main__":
     dump_data("hospital_clinic_centre.json", hospital_data)
     oxygen_data = get_oxygen_data()
     dump_data("oxygen.json", oxygen_data)
-    plasmadata = get_plasma_data()
-    dump_data("plasma.json", plasmadata)
     helpline_data = get_helpline_data()
     dump_data("helpline.json", helpline_data)
     medicine_data = get_medicine_data()
