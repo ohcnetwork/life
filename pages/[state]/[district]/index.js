@@ -44,12 +44,16 @@ export default function State({ state, district }) {
                         <TabLinks tabsInfo={tabsInfo} state={state} district={district} />
                     </div>
                 </section>
-                <SocialSharing
-                    url={pageUrl}
-                    twitterText={`Covid-19 Resources for ${humanize(district.district)}, ${humanize(
-                        state
-                    )} ${pageUrl}`}
-                />
+                <div className="w-full flex items-center pt-2">
+                    <div className="mr-auto">
+                        <SocialSharing
+                            url={pageUrl}
+                            twitterText={`Covid-19 Resources for ${humanize(
+                                district.district
+                            )}, ${humanize(state)} ${pageUrl}`}
+                        />
+                    </div>
+                </div>
             </div>
         </section>
     );
