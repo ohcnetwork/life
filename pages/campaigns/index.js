@@ -1,8 +1,8 @@
 import React from 'react';
-import CampaignCard from '../../components/CampaignCard';
+import CampaignCard from '@components/CampaignCard';
 import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Breadcumb from '../../components/Breadcumb';
+import Breadcumb from '@components/Breadcumb';
 
 const campaign = [
     {

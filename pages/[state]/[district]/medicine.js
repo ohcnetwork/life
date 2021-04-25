@@ -1,8 +1,8 @@
 import React from 'react';
-import { medicineByDistrict } from '../../../lib/api';
-import { statePaths, humanize } from '../../../lib/utils';
-import Breadcumb from '../../../components/Breadcumb';
-import MedicinesCard from '../../../components/MedicinesCard';
+import { medicineByDistrict } from '@lib/api';
+import { statePaths, humanize } from '@lib/utils';
+import Breadcumb from '@components/Breadcumb';
+import MedicinesCard from '@components/MedicinesCard';
 import { NextSeo } from 'next-seo';
 
 export default function Medicine({ state, district, medicineByDistrict }) {

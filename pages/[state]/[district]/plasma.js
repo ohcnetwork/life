@@ -1,8 +1,8 @@
 import React from 'react';
-import { plasmaByDistrict } from '../../../lib/api';
-import { humanize, statePaths } from '../../../lib/utils';
-import Breadcumb from '../../../components/Breadcumb';
-import PlasmaCard from '../../../components/PlasmaCard';
+import { plasmaByDistrict } from '@lib/api';
+import { humanize, statePaths } from '@lib/utils';
+import Breadcumb from '@components/Breadcumb';
+import PlasmaCard from '@components/PlasmaCard';
 import { NextSeo } from 'next-seo';
 export default function Plasma({ state, district, plasmaListing }) {
     const SEO = {
