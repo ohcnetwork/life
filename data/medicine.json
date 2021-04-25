@@ -1002,23 +1002,21 @@
         {
             "address": "Door No. 6-3-668/9/6, Uday Medicals2nd Floor, PunjaguttaHyderabad Central\nZone,Hyderabad,500082",
             "city": null,
-            "comment": null,
+            "comment": "Not Available ",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "district": "Hyderabad",
             "emailId": null,
             "id": "rec8hnkCY5KK5J7Av",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-25T07:16:56.000Z",
             "name": "Gaudev & Co, Hyderabad",
-            "phone1": null,
+            "phone1": "9963107800",
             "priceCheck": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "MANISH NAYYAR"
         },
         {
             "address": "OLD NO 15/20 NEW NO 35OPPANAKARA\nSTREETCOIMBATORE,COIMBATORE,641001",
@@ -2845,20 +2843,20 @@
         {
             "address": "2nd floor, punjaguttaD NO 6 3 668 9 6 OPP MODEL HOUSEMAIN ROAD,UDAY\nMEDICALSMCH CIRCLE 5 MANDAL,HYDERABAD,500082",
             "city": null,
-            "comment": "1st number is incorrect. 2nd was busy",
+            "comment": "Not Avaailable \n1st number is incorrect. 2nd was busy",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "district": "Hyderabad",
             "emailId": "gaudevcompany@yahoo.com",
             "id": "recNvntpHEULbfa8J",
-            "lastVerifiedOn": "2021-04-23T14:08:28.000Z",
+            "lastVerifiedOn": "2021-04-25T07:16:09.000Z",
             "name": "GAUDEV & CO",
             "phone1": "040-65916729/9963107800",
             "priceCheck": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -6536,20 +6534,20 @@
         {
             "address": "SY NO.403JUBILEE HILLSAMEERPETAPOLLO HOSPITALS\nCOMPLEXHYDERABAD,HYDERABAD,500033",
             "city": null,
-            "comment": "Busy",
+            "comment": "They are not Distributors and its available for Inpatients only \nBusy",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "district": "Hyderabad",
             "emailId": "yuvaraj_ar@apollopharmacy.org",
             "id": "recqGYnPCiEs8xdJl",
-            "lastVerifiedOn": "2021-04-23T13:48:07.000Z",
+            "lastVerifiedOn": "2021-04-25T07:23:45.000Z",
             "name": "APOLLO HOSPITALS ENTERPRISE LTD",
             "phone1": "9980377553",
             "priceCheck": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
