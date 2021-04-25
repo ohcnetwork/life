@@ -233,6 +233,29 @@
         },
         {
             "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-25T17:09:04.000Z",
+            "district": "North 24 Parganas",
+            "email1": "bandipur_bphc@yahoo.co.in",
+            "email2": null,
+            "id": "rec2k28MCx8GZVnNI",
+            "lastVerifiedOn": null,
+            "name": "Bandipur B.P.H.C",
+            "phone1": 3325236763,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "West Bengal",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
             "comment": "Continuously disconnecting the call",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Vadodara",
@@ -1706,6 +1729,29 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-25T17:05:48.000Z",
+            "district": "North 24 Parganas",
+            "email1": "chhotojaguliabphc@rediffmail.com",
+            "email2": null,
+            "id": "recFsjpWoMhfjamXR",
+            "lastVerifiedOn": null,
+            "name": "Chhoto Jagulia B.P.H.C.",
+            "phone1": 3325527421,
+            "phone2": null,
+            "pointOfContact": "Hospital Number",
+            "state": "West Bengal",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": "Not Available",
             "comment": "10 beds for Fully occupied( covid+oxygen)\n5 icu beds \n",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -2340,6 +2386,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Diya Dashiwal"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-25T17:11:23.000Z",
+            "district": "North 24 Parganas",
+            "email1": "sibhatibphc@yahoo.in",
+            "email2": null,
+            "id": "recN6KvwSUluDrPtp",
+            "lastVerifiedOn": null,
+            "name": "Shibhati B.P.H.C.",
+            "phone1": 3217246409,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "West Bengal",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -3634,6 +3703,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Karthik Yadhati"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-25T16:55:14.000Z",
+            "district": "North 24 Parganas",
+            "email1": "sundarpur_bphc@yahoo.in",
+            "email2": null,
+            "id": "recX3kmGxWp6ow6qn",
+            "lastVerifiedOn": null,
+            "name": "Sundarpur B.P.H.C",
+            "phone1": 3215262260,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "West Bengal",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
