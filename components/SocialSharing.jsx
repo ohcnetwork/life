@@ -7,7 +7,7 @@ import { copyToClipboard } from '../lib/utils';
 
 const SocialSharing = ({ twitterText, url }) => {
     return (
-        <div className="text-black dark:text-white  w-full flex text-xl ">
+        <div className="text-gray-700 dark:text-gray-400 text-lg pr-4  w-full flex ">
             Share
             <a href={`https://twitter.com/intent/tweet?text=${twitterText}`} target="_blank">
                 <FontAwesomeIcon
@@ -30,7 +30,7 @@ const SocialSharing = ({ twitterText, url }) => {
                     alert('Copied!');
                 }}>
                 <FontAwesomeIcon
-                    className="text-gray-600 ml-4 w-4"
+                    className="text-blue-500 ml-4"
                     title="Click to Copy"
                     icon={faCopy}
                 />
