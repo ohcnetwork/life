@@ -197,6 +197,32 @@
         {
             "availability": null,
             "city": null,
+            "comment": "busy",
+            "companyName": null,
+            "createdTime": "2021-04-25T14:12:06.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "rec2y8OI80kDo2202",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T14:12:06.000Z",
+            "name": "oxygen on rent",
+            "phone1": 9919977999,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": [
+                "Refil",
+                "Cylinder"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": null,
+            "city": null,
             "comment": "switched off",
             "companyName": null,
             "createdTime": "2021-04-19T09:59:46.000Z",
@@ -239,6 +265,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Archisha Singh"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "busy",
+            "companyName": null,
+            "createdTime": "2021-04-25T14:16:56.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "rec3m5WKrQ9plUrZD",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T14:16:56.000Z",
+            "name": "Nayyar Alam",
+            "phone1": 9899509939,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -1105,6 +1156,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "sushma shyamsundar"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": null,
+            "companyName": "Mahamaya Pharmacy",
+            "createdTime": "2021-04-25T15:38:22.000Z",
+            "description": null,
+            "district": "Birbhum",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recGFV4O05c8uC6OZ",
+            "instructions": null,
+            "lastVerifiedOn": null,
+            "name": "Mahamaya Pharmacy Station Road, Bolpur Bazar Bolpur 731204",
+            "phone1": 9851504923,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "whatsapp fwd",
+            "state": "West Bengal",
+            "type": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -1981,6 +2057,32 @@
             ],
             "verificationStatus": "Verified",
             "verifiedBy": "Archisha Singh"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "not available",
+            "companyName": null,
+            "createdTime": "2021-04-25T14:14:43.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recNcNosQ3ZHxRL5y",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T14:14:43.000Z",
+            "name": "Javed",
+            "phone1": 8127411951,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": [
+                "Refil",
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -3188,6 +3290,31 @@
         {
             "availability": null,
             "city": null,
+            "comment": null,
+            "companyName": "Gopal Pharmacy",
+            "createdTime": "2021-04-25T15:41:33.000Z",
+            "description": null,
+            "district": "Birbhum",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "reccTKDrm0S6yKRxB",
+            "instructions": null,
+            "lastVerifiedOn": null,
+            "name": "Sri Gopal Pharmacy  Nanur Chandida, Netaji Road, Bolpur 731204",
+            "phone1": 9800192590,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "whtsapp fws",
+            "state": "West Bengal",
+            "type": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
+            "city": null,
             "comment": "not answering",
             "companyName": null,
             "createdTime": "2021-04-19T09:37:07.000Z",
@@ -4247,6 +4374,32 @@
             "type": null,
             "verificationStatus": "Verified",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "unreachable",
+            "companyName": null,
+            "createdTime": "2021-04-25T14:05:11.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recqwRmoQVNIqvfwg",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T14:05:11.000Z",
+            "name": "Chand Quereshi",
+            "phone1": 979470460,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": [
+                "Refil",
+                "Cylinder"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,

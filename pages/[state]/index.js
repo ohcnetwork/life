@@ -30,7 +30,7 @@ export default function State({ state }) {
                 property: 'keywords',
                 content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
                     state
-                )},hospital,ambulance,plasma,helpline,oxygen,medicine`
+                )},hospital,ambulance,helpline,oxygen,medicine`
             }
         ]
     };

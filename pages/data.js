@@ -41,12 +41,6 @@ export default function DataForm() {
             link: 'https://airtable.com/shrAO7oA9qwh1OABJ'
         },
         {
-            name: 'Plasma',
-            description: 'Organization, City, Contact',
-            icon: faSyringe,
-            link: 'https://airtable.com/shrtvIFkPjcUxRd1H'
-        },
-        {
             name: 'Helpline',
             description: 'Category, Phone',
             icon: faPhoneAlt,
