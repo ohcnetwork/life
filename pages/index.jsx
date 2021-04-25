@@ -10,13 +10,12 @@ import { tabsInfo } from '@lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar, faMedkit } from '@fortawesome/free-solid-svg-icons';
 import useLocale from '@hooks/use-locale';
-import { useContext } from 'react';
-import { LocaleContext } from '../context/LocaleContext';
+import { useLocaleContext } from '@hooks/use-locale-context';
 
 let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 
 export default function Home() {
-    const { locale, setLocale } = useContext(LocaleContext);
+    const { locale, setLocale } = useLocaleContext();
     const t = useLocale(locale);
 
     let tabsInfoNew = [];
