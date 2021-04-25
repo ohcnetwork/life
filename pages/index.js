@@ -12,7 +12,7 @@ import { faChartBar } from '@fortawesome/free-solid-svg-icons';
 import { useAmp } from 'next/amp';
 
 export const config = {
-    amp: 'hybrid'
+    amp: true
 };
 let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 

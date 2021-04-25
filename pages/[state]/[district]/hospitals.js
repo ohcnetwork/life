@@ -8,7 +8,7 @@ import { NextSeo } from 'next-seo';
 import { useAmp } from 'next/amp';
 
 export const config = {
-    amp: 'hybrid'
+    amp: true
 };
 
 export default function Hospitals({ state, district, hospitalByDistrict }) {
