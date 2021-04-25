@@ -4048,6 +4048,33 @@
             "verifiedBy": "Urja Khandhediya"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "Pre booking with 50%  advance ",
+            "companyName": "R&D Impex International",
+            "createdTime": "2021-04-25T11:54:18.000Z",
+            "description": "Home delivery",
+            "district": "Ludhiana",
+            "emailId": null,
+            "homeDeliveryAvailable": "Yes",
+            "id": "recqCslXNaC9dR8K3",
+            "instructions": "Pre booking available ,with 50% advance",
+            "lastVerifiedOn": "2021-04-25T11:54:18.000Z",
+            "name": "R&D Impex International ",
+            "phone1": 918048861379,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "WhatsApp ",
+            "state": "Punjab",
+            "type": [
+                "Concentrator"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "not answering phone 1 phone 2 busy",
