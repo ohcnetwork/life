@@ -47,6 +47,7 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                         return (
                             <EntityCard
                                 key={p.id}
+                                id={p.id}
                                 verificationStatus={p.verificationStatus}
                                 name={p.name}
                                 city={p.city}

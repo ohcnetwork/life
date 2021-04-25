@@ -1,13 +1,14 @@
 import React from 'react';
 import Badge from './Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { isVerified, parseDateString } from '@lib/utils';
+import { copyTextGenerator, isVerified, parseDateString } from '@lib/utils';
 import SocialSharing from '@components/SocialSharing';
 import { useRouter } from 'next/router';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { faPhoneAlt, faEnvelope, faLink, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
 const EntityCard = ({
+    id,
     name,
     pointOfContact,
     city,
@@ -27,15 +28,15 @@ const EntityCard = ({
 }) => {
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
-    const copyText = `Name: ${name ? name : 'Medicine'
-        } \nContact: ${phone1} More Info: ${pageUrl} `;
+    const resourceType = asPath.split("/").pop();
+    const copyText = copyTextGenerator({ name, id, phone: phone1, type: resourceType }, pageUrl)
     return (
-        <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
+        <div id={id} className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="w-full flex items-center pt-2">
                 <div className="ml-auto">
                     <SocialSharing
                         url={pageUrl}
-                        twitterText={`${copyText} More Info: ${pageUrl}`}
+                        twitterText={copyText}
                         copyText={copyText}
                     />
                 </div>
@@ -43,7 +44,7 @@ const EntityCard = ({
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
                     <div className="font-bold text-2xl">
-                        <h1 className="flex dark:text-white items-center justify-start">{name}</h1>
+                        <h1 className="flex capitalize dark:text-white items-center justify-start">{name || resourceType}</h1>
                         <div className="w-11/12 max-w-3xl mt-2">
                             <div className="text-sm">{area}</div>
                         </div>

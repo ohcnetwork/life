@@ -45,6 +45,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
                         return (
                             <EntityCard
                                 key={o.id}
+                                id={o.id}
                                 name={o.name}
                                 company={o.companyName}
                                 phone1={o.phone1}

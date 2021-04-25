@@ -40,6 +40,7 @@ export default function Ambulance({ state, district, ambulancesListing }) {
                 {ambulancesListing.map((a) => (
                         <EntityCard
                             key={a.id}
+                            id={a.id}
                             name={a.name || 'Ambulance'}
                             phone1={a.phone1}
                             phone2={a.phone2}
