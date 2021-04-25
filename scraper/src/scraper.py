@@ -108,7 +108,9 @@ def get_oxygen_data():
                 "createdTime": record["createdTime"],
                 "sourceName": record["fields"].get("Source Name"),
                 "companyName": record["fields"].get("Company name"),
-                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
+                "verificationStatus": record["fields"].get("Latest_Verification_Status")
+                if "Latest_Verification_Status" in record["fields"]
+                else "Unresponsive",
                 "comment": record["fields"].get("Verifier_Comment"),
                 "lastVerifiedOn": record["fields"].get("Verified_On"),
                 "verifiedBy": record["fields"]["Verified_By"][0].get("name")
@@ -144,7 +146,9 @@ def get_hospital_clinic_centre():
                 "phone2": record["fields"].get("phone2"),
                 "email1": record["fields"].get("email1"),
                 "email2": record["fields"].get("email2"),
-                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
+                "verificationStatus": record["fields"].get("Latest_Verification_Status")
+                if "Latest_Verification_Status" in record["fields"]
+                else "Unresponsive",
                 "lastVerifiedOn": record["fields"].get("Verified_On"),
                 "verifiedBy": record["fields"]["Verified_By"][0].get("name")
                 if "Verified_By" in record["fields"]
@@ -183,7 +187,9 @@ def get_helpline_data():
                 "source": record["fields"].get("source"),
                 "description": record["fields"].get("description"),
                 "createdTime": record["createdTime"],
-                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
+                "verificationStatus": record["fields"].get("Latest_Verification_Status")
+                if "Latest_Verification_Status" in record["fields"]
+                else "Unresponsive",
                 "comment": record["fields"].get("Verifier_Comment"),
                 "lastVerifiedOn": record["fields"].get("Verified_On"),
                 "verifiedBy": record["fields"]["Verified_By"].get("name")
@@ -216,7 +222,9 @@ def get_medicine_data():
                 "phone1": record["fields"].get("Phone 1"),
                 "source": record["fields"].get("Source"),
                 "contactName": record["fields"].get("Contact name"),
-                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
+                "verificationStatus": record["fields"].get("Latest_Verification_Status")
+                if "Latest_Verification_Status" in record["fields"]
+                else "Unresponsive",
                 "lastVerifiedOn": record["fields"].get("Verified_On"),
                 "verifiedBy": record["fields"]["Verified_By"][0].get("name")
                 if "Verified_By" in record["fields"]
@@ -248,7 +256,9 @@ def get_ambulance_data():
                 "phone1": record["fields"].get("Phone 1"),
                 "phone2": record["fields"].get("Phone 2"),
                 "source": record["fields"].get("Source"),
-                "verificationStatus": record["fields"].get("Latest_Verification_Status"),
+                "verificationStatus": record["fields"].get("Latest_Verification_Status")
+                if "Latest_Verification_Status" in record["fields"]
+                else "Unresponsive",
                 "lastVerifiedOn": record["fields"].get("Verified_On"),
                 "verifiedBy": record["fields"]["Verified_By"][0].get("name")
                 if "Verified_By" in record["fields"]

@@ -4110,7 +4110,7 @@
             "district": "North 24 Parganas",
             "doctor": false,
             "helpline": false,
-            "hospitals": false,
+            "hospitals": true,
             "id": "recaDVN8l0q1f7OsB",
             "medicine": false,
             "oxygen": true,

@@ -126,11 +126,36 @@ const About = () => {
                 <h2 className={h2Class} id="disclaimer">
                     Disclaimer
                 </h2>
+
                 <p className={pClass}>
-                    COVID Information Platform ({<a className={aClass} href="https://liferesources.in/" target="_blank">https://liferesources.in/</a>}) is a platform created by Swasth Digital Health Foundation (“Swasth”), CovidFYI and Coronasafe Network for providing verified crowd sourced emergency services for COVID-19 emergencies across India.
+                    COVID Information Platform (
+                    {
+                        <a className={aClass} href="https://liferesources.in/" target="_blank">
+                            https://liferesources.in/
+                        </a>
+                    }
+                    ) is a platform created by Swasth Digital Health Foundation (“Swasth”), CovidFYI
+                    and Coronasafe Network for providing verified crowd sourced emergency services
+                    for COVID-19 emergencies across India.
                 </p>
                 <p className={pClass}>
-                    All data and information provided in the COVID Information Platform are verified by a group of volunteers to the best of their abilities and Swasth disclaims all responsibility for any data/information provided on the COVID Information Platform. Swasth, CovidFYI and Coronasafe Network shall under no circumstances be held liable for any direct, indirect, incidental, consequential, special, punitive, exemplary, or any other damages arising out of the use of the COVID Information Platform. There is no assurance by Swasth, CovidFYI and Coronasafe Network of any specified outcomes of the use of the COVID Information Platform. The users understand that by using any data or information provided on the COVID Information Platform shall be at their own risk and violation and that Swasth is not responsible for any consequences for offering such data/information.
+                    All data and information provided in the COVID Information Platform are verified
+                    by a group of volunteers to the best of their abilities and the Organizations
+                    disclaim all responsibility for any data/information provided on the COVID
+                    Information Platform. Organizations shall under no circumstances be held liable
+                    for any direct, indirect, incidental, consequential, special, punitive,
+                    exemplary, or any other damages arising out of the use of the COVID Information
+                    Platform. There is no assurance by the Organizations of any specified outcomes
+                    of the use of the COVID Information Platform. The users understand that by using
+                    any data or information provided on the COVID Information Platform shall be at
+                    their own risk and violation and that the Organizations are not responsible for
+                    any consequences for offering such data/information. COVID Informational
+                    Platform may provide, for informational purposes, links to websites operated by
+                    other entities and persons, but does not endorse or accept any responsibility
+                    for such content, or the use of such websites. No warranty of any kind including
+                    but not limited to the warranties of non-infringement of third party rights,
+                    title, merchantability, fitness for a particular purpose is given with respect
+                    to the contents of this website or its hyperlinks to other internet resources.
                 </p>
             </div>
         </>
