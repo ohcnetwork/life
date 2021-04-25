@@ -24,7 +24,15 @@ export default function State({ state }) {
         openGraph: {
             title: `${humanize(state)} | Coronasafe network`,
             description: `Covid19 Resources for ${humanize(state)} `
-        }
+        },
+        additionalMetaTags: [
+            {
+                property: 'keywords',
+                content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
+                    state
+                )},hospital,ambulance,plasma,helpline,oxygen,medicine`
+            }
+        ]
     };
     return (
         <section className="md:pt-10">

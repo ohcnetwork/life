@@ -16,7 +16,15 @@ export default function Helpline({ state, district, helplines }) {
             description: `Covid19 Resources for Helpline in ${humanize(district)} , ${humanize(
                 state
             )} `
-        }
+        },
+        additionalMetaTags: [
+            {
+                property: 'keywords',
+                content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
+                    district
+                )},${humanize(state)},helpline`
+            }
+        ]
     };
     return (
         <div>

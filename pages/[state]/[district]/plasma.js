@@ -13,7 +13,15 @@ export default function Plasma({ state, district, plasmaListing }) {
             description: `Covid19 Resources for Plasma in ${humanize(district)} , ${humanize(
                 state
             )} `
-        }
+        },
+        additionalMetaTags: [
+            {
+                property: 'keywords',
+                content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
+                    district
+                )},${humanize(state)},plasma`
+            }
+        ]
     };
     return (
         <div>

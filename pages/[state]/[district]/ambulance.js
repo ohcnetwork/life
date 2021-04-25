@@ -16,7 +16,15 @@ export default function Ambulance({ state, district, ambulancesListing }) {
             description: `Covid19 Resources for Ambulance in ${humanize(district)} , ${humanize(
                 state
             )}  `
-        }
+        },
+        additionalMetaTags: [
+            {
+                property: 'keywords',
+                content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
+                    district
+                )},${humanize(state)},ambulance`
+            }
+        ]
     };
     return (
         <div>

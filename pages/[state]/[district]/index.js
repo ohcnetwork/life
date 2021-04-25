@@ -18,7 +18,15 @@ export default function State({ state, district }) {
             description: `Covid19 Resources for ${humanize(district.district)} , ${humanize(
                 state
             )} `
-        }
+        },
+        additionalMetaTags: [
+            {
+                property: 'keywords',
+                content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
+                    district.district
+                )},hospital,ambulance,plasma,helpline,oxygen,medicine`
+            }
+        ]
     };
     return (
         <section className="md:pt-10">

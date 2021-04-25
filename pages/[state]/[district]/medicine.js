@@ -16,7 +16,15 @@ export default function Medicine({ state, district, medicineByDistrict }) {
             description: `Covid19 Resources for Medicines in ${humanize(district)} , ${humanize(
                 state
             )} `
-        }
+        },
+        additionalMetaTags: [
+            {
+                property: 'keywords',
+                content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
+                    district
+                )},${humanize(state)},medicines`
+            }
+        ]
     };
     return (
         <div>

@@ -17,7 +17,15 @@ export default function Hospitals({ state, district, hospitalByDistrict }) {
             description: `Covid19 Resources for Hospitals in ${humanize(district)} , ${humanize(
                 state
             )} `
-        }
+        },
+        additionalMetaTags: [
+            {
+                property: 'keywords',
+                content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
+                    district
+                )},${humanize(state)},hospitals`
+            }
+        ]
     };
     return (
         <div>

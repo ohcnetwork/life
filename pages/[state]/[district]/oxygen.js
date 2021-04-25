@@ -14,7 +14,15 @@ export default function Oxygen({ state, district, oxygenListing }) {
             description: `Covid19 Resources for Oxygen in ${humanize(district)} , ${humanize(
                 state
             )}`
-        }
+        },
+        additionalMetaTags: [
+            {
+                property: 'keywords',
+                content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
+                    district
+                )},${humanize(state)},oxygen`
+            }
+        ]
     };
     return (
         <div>
