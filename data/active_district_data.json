@@ -609,7 +609,7 @@
             "hospitals": false,
             "id": "rec59ewVAEuTTXHtr",
             "medicine": false,
-            "oxygen": false,
+            "oxygen": true,
             "state": "West Bengal"
         },
         {
