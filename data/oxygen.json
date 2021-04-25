@@ -197,6 +197,32 @@
         {
             "availability": null,
             "city": null,
+            "comment": "busy",
+            "companyName": null,
+            "createdTime": "2021-04-25T14:12:06.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "rec2y8OI80kDo2202",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T14:12:06.000Z",
+            "name": "oxygen on rent",
+            "phone1": 9919977999,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": [
+                "Refil",
+                "Cylinder"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": null,
+            "city": null,
             "comment": "switched off",
             "companyName": null,
             "createdTime": "2021-04-19T09:59:46.000Z",
@@ -239,6 +265,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Archisha Singh"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "busy",
+            "companyName": null,
+            "createdTime": "2021-04-25T14:16:56.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "rec3m5WKrQ9plUrZD",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T14:16:56.000Z",
+            "name": "Nayyar Alam",
+            "phone1": 9899509939,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -1981,6 +2032,32 @@
             ],
             "verificationStatus": "Verified",
             "verifiedBy": "Archisha Singh"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "not available",
+            "companyName": null,
+            "createdTime": "2021-04-25T14:14:43.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recNcNosQ3ZHxRL5y",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T14:14:43.000Z",
+            "name": "Javed",
+            "phone1": 8127411951,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": [
+                "Refil",
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -4247,6 +4324,32 @@
             "type": null,
             "verificationStatus": "Verified",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "unreachable",
+            "companyName": null,
+            "createdTime": "2021-04-25T14:05:11.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recqwRmoQVNIqvfwg",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T14:05:11.000Z",
+            "name": "Chand Quereshi",
+            "phone1": 979470460,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": [
+                "Refil",
+                "Cylinder"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
