@@ -19,6 +19,18 @@ export default function Home() {
     const { locale, setLocale } = useContext(LocaleContext);
     const t = useLocale(locale);
 
+    let tabsInfoNew = [];
+    tabsInfo.forEach((tab) => {
+        const { icon, link, color, value } = tab;
+        tabsInfoNew.push({
+            color,
+            link,
+            value,
+            icon,
+            name: t[tab.name.toLowerCase()]
+        });
+    });
+
     const [selectedFilter, setSelectedFilter] = useState('oxygen');
     return (
         <div>
@@ -36,7 +48,7 @@ export default function Home() {
                 </h2>
                 <div className="mt-4 ">
                     <Tabs
-                        tabsInfo={tabsInfo}
+                        tabsInfo={tabsInfoNew}
                         selectedFilter={selectedFilter}
                         updateFilterCB={(e) => updateFilter(setSelectedFilter, e)}
                     />
