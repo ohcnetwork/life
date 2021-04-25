@@ -1,9 +1,10 @@
-import { faPhoneAlt, faLink, faCopy } from '@fortawesome/free-solid-svg-icons';
+import { faPhoneAlt, faLink } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isVerified, parseDateString } from '../lib/utils';
-import { copyToClipboard } from '../lib/utils';
 import React from 'react';
 import Badge from './Badge';
+import SocialSharing from '../components/SocialSharing';
+import { useRouter } from 'next/router';
 
 const AmbulanceCard = ({
     name,
@@ -15,26 +16,16 @@ const AmbulanceCard = ({
     verificationStatus,
     lastVerifiedOn
 }) => {
+    const { asPath } = useRouter();
+    const pageUrl = `https://liferesources.in${asPath}`;
     return (
         <>
             <div className="w-full">
                 <div className="bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
                     <div className="w-full flex items-center pt-2">
-                        <span
-                            className="w-8 ml-auto cursor-pointer"
-                            onClick={() => {
-                                copyToClipboard(`
-                                Name: ${name ? name : 'Ambulance'}
-                                Contact: ${phone1}
-                                `);
-                                alert('Copied!');
-                            }}>
-                            <FontAwesomeIcon
-                                className="text-gray-600 w-4 mr-4"
-                                title="Click to Copy"
-                                icon={faCopy}
-                            />
-                        </span>
+                        <div className="ml-auto">
+                            <SocialSharing url={pageUrl} twitterText={pageUrl} />
+                        </div>
                     </div>
                     <div className="p-4 flex justify-between flex-wrap">
                         <div>

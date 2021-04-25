@@ -9,7 +9,7 @@ import { NextSeo } from 'next-seo';
 
 export default function State({ state, district }) {
     const { asPath } = useRouter();
-    const pageUrl = `https://liferesources.in/${asPath}`;
+    const pageUrl = `https://liferesources.in${asPath}`;
     const SEO = {
         title: `${humanize(district.district)} , ${humanize(state)} | Coronasafe network`,
         description: `Covid19 Resources for ${humanize(district.district)} , ${humanize(state)} `,

@@ -1,9 +1,9 @@
 import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import { faLink, faPhoneAlt, faCopy, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faLink, faPhoneAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import Badge from './Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { isVerified, parseDateString, copyToClipboard } from '../lib/utils';
+import { isVerified, parseDateString } from '../lib/utils';
 import SocialSharing from '../components/SocialSharing';
 import { useRouter } from 'next/router';
 
@@ -22,7 +22,7 @@ const OxygenCard = ({
     lastVerifiedOn
 }) => {
     const { asPath } = useRouter();
-    const pageUrl = `https://liferesources.in/${asPath}`;
+    const pageUrl = `https://liferesources.in${asPath}`;
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="w-full flex items-center pt-2">
