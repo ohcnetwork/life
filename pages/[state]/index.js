@@ -7,9 +7,12 @@ import Breadcumb from '../../components/Breadcumb';
 import Link from 'next/link';
 import { tabsInfo } from '../../lib/tabs';
 import { NextSeo } from 'next-seo';
+import SocialSharing from '../../components/SocialSharing';
+import { useRouter } from 'next/router';
 
 export default function State({ state }) {
-    // data.filter((el) => el.district.toLowerCase().includes(search));
+    const { asPath } = useRouter();
+    const pageUrl = `https://liferesources.in${asPath}`;
     let districts = getDistricts(state);
     const [searchStr, setSearchStr] = useState('');
     const filterDistricts = districts.filter((el) =>
@@ -27,6 +30,15 @@ export default function State({ state }) {
         <section className="md:pt-10">
             <NextSeo {...SEO} />
             <Breadcumb list={[{ href: null, name: humanize(state) }]} />
+            <div className="w-full flex items-center pt-2">
+                <div className="mr-auto">
+                    <SocialSharing
+                        url={pageUrl}
+                        twitterText={`Covid-19 Resources for ${humanize(state)}  ${pageUrl}`}
+                    />
+                </div>
+            </div>
+
             <h1 className="mt-4 text-xl sm:text-2xl md:text-3xl md:text-left text-gray-900 dark:text-gray-800">
                 Search Result For{' '}
                 <span className="mt-4 font-bold text-3xl sm:text-4xl md:text-5xl text-gray-900 dark:text-gray-200 md:text-left">
