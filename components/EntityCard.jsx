@@ -1,11 +1,12 @@
 import React from 'react';
 import Badge from './Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { copyTextGenerator, isVerified, parseDateString } from '@lib/utils';
+import { appendPhoneNumbers, copyTextGenerator, isVerified, parseDateString } from '@lib/utils';
 import SocialSharing from '@components/SocialSharing';
 import { useRouter } from 'next/router';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import { faPhoneAlt, faEnvelope, faLink, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import Phone from '@components/Phone';
+import { faEnvelope, faLink, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
 const EntityCard = ({
     id,
@@ -72,34 +73,8 @@ const EntityCard = ({
                 </div>
                 <div className="flex flex-col sm:items-end items-start">
 
-                    {phone1 && (
-                        <span
-                            className="flex items-center text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
-                        >
-                            <FontAwesomeIcon
-                                className="w-4"
-                                icon={faPhoneAlt}
-                            />
-                            <a className="ml-2" href={`tel:${phone1}`}>{phone1}</a>
-                            {phone2 &&
-                                <a className="ml-2" href={`tel:${phone2}`}>
-                                    {phone2}
-                                </a>
-                            }
-                        </span>
-                    )}
-                    {(!phone1 && phone2) && (
-                        <a
-                            className="font-mono text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
-                            href={`tel:${phone2}`}>
-                            <FontAwesomeIcon
-                                title={`${phone2}`}
-                                className="text-xl w-6"
-                                icon={faPhoneAlt}
-                            />
-                            <span className="ml-2">{phone2}</span>
-                        </a>
-                    )}
+                    <Phone phones={appendPhoneNumbers(phone1, phone2)}></Phone>
+
                     {email1 && (
                         <span
                             className="flex items-center font-bold text-lg text-gray-700 dark:text-white mt-0 hover:text-gray-900"

@@ -53,6 +53,7 @@ export default function Helpline({ state, district, helplines }) {
                                 description={p.description}
                                 district={p.district}
                                 phone1={p.phone1}
+                                phone2={p.phone2}
                                 source={p.source}
                                 sourceLink={p.sourceUrl}
                                 state={p.state}
