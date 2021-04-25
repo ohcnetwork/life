@@ -18,13 +18,18 @@ const AmbulanceCard = ({
 }) => {
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
+    const copyText = `Name: ${name ? name : 'Ambulance'} \n Contact: ${phone1}`;
     return (
         <>
             <div className="w-full">
                 <div className="bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
                     <div className="w-full flex items-center pt-2">
                         <div className="ml-auto">
-                            <SocialSharing url={pageUrl} twitterText={pageUrl} />
+                            <SocialSharing
+                                url={pageUrl}
+                                twitterText={`${copyText} More Info: ${pageUrl}`}
+                                copyText={copyText}
+                            />
                         </div>
                     </div>
                     <div className="p-4 flex justify-between flex-wrap">

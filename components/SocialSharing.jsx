@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { copyToClipboard } from '../lib/utils';
 
-const SocialSharing = ({ twitterText, url }) => {
+const SocialSharing = ({ twitterText, url, copyText }) => {
     return (
         <div className="text-gray-700 dark:text-gray-400 text-lg pr-4  w-full flex ">
             Share
@@ -30,7 +30,7 @@ const SocialSharing = ({ twitterText, url }) => {
             <span
                 className="ml-auto w-8 cursor-pointer"
                 onClick={() => {
-                    copyToClipboard(`${url}`);
+                    copyToClipboard(`${copyText || url}`);
                     alert('Copied!');
                 }}>
                 <FontAwesomeIcon
