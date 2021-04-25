@@ -9,10 +9,15 @@ import Selector from '../components/Selector';
 import { tabsInfo } from '../lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar } from '@fortawesome/free-solid-svg-icons';
+import { useAmp } from 'next/amp';
 
+export const config = {
+    amp: 'hybrid'
+};
 let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 
 export default function Home() {
+    const isAmp = useAmp();
     const [selectedFilter, setSelectedFilter] = useState('oxygen');
 
     return (
@@ -30,20 +35,35 @@ export default function Home() {
                         updateFilterCB={(e) => updateFilter(setSelectedFilter, e)}
                     />
                 </div>
-                <div className="w-full md:w-3/4 px-2">
-                    <Selector page={selectedFilter} />
-                </div>
-                <div className="flex flex-wrap items-center justify-evenly mt-6 ">
-                    {getStates(selectedFilter).map((s) => {
-                        return (
-                            <Link key={s} href={`[state]`} as={`${parametreize(s)}`}>
-                                <span className="p-2 text-sm md:text-md font-normal hover:font-bold cursor-pointer hover:text-gray-900 text-gray-500 dark:hover:text-gray-50">
-                                    {humanize(s)}
-                                </span>
-                            </Link>
-                        );
-                    })}
-                </div>
+                {isAmp ? (
+                    <amp-autocomplete filter="substring" id="searchBar">
+                        <input />
+                        <script
+                            type="application/json"
+                            dangerouslySetInnerHTML={{
+                                __html: JSON.stringify({
+                                    items: selectedFilter
+                                })
+                            }}></script>
+                    </amp-autocomplete>
+                ) : (
+                    <>
+                        <div className="w-full md:w-3/4 px-2">
+                            <Selector page={selectedFilter} />
+                        </div>
+                        <div className="flex flex-wrap items-center justify-evenly mt-6 ">
+                            {getStates(selectedFilter).map((s) => {
+                                return (
+                                    <Link key={s} href={`[state]`} as={`${parametreize(s)}`}>
+                                        <span className="p-2 text-sm md:text-md font-normal hover:font-bold cursor-pointer hover:text-gray-900 text-gray-500 dark:hover:text-gray-50">
+                                            {humanize(s)}
+                                        </span>
+                                    </Link>
+                                );
+                            })}
+                        </div>
+                    </>
+                )}
                 <button
                     type="button"
                     className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
