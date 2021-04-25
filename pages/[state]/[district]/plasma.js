@@ -1,8 +1,8 @@
 import React from 'react';
-import { plasmaByDistrict } from '.@lib/api';
-import { humanize, statePaths } from '.@lib/utils';
-import Breadcumb from '.@components/Breadcumb';
-import PlasmaCard from '.@components/PlasmaCard';
+import { plasmaByDistrict } from '@lib/api';
+import { humanize, statePaths } from '@lib/utils';
+import Breadcumb from '@components/Breadcumb';
+import PlasmaCard from '@components/PlasmaCard';
 import { NextSeo } from 'next-seo';
 export default function Plasma({ state, district, plasmaListing }) {
     const SEO = {
@@ -31,7 +31,7 @@ export default function Plasma({ state, district, plasmaListing }) {
                 <h1 className="mt-4 font-black text-6xl text-gray-900 dark:text-gray-200 md:text-left text-center">
                     {humanize(district)}
                 </h1>
-                <div className="w-full space-y-4 mt-4 max-w-3xl w-full">
+                <div className="space-y-4 mt-4 max-w-3xl w-full">
                     {plasmaListing.map((p) => {
                         return (
                             <PlasmaCard
