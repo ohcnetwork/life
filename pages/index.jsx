@@ -10,12 +10,14 @@ import { tabsInfo } from '@lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar, faMedkit } from '@fortawesome/free-solid-svg-icons';
 import useLocale from '@hooks/use-locale';
+import { useContext } from 'react';
+import { LocaleContext } from '../context/LocaleContext';
 
 let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 
 export default function Home() {
-    const [lang, setLang] = useState('EN');
-    const t = useLocale(lang);
+    const { locale, setLocale } = useContext(LocaleContext);
+    const t = useLocale(locale);
 
     const [selectedFilter, setSelectedFilter] = useState('oxygen');
     return (
@@ -25,7 +27,7 @@ export default function Home() {
                 <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">
                     {t.title}
                 </h1>
-                <select value={lang} onChange={(e) => setLang(e.target.value)}>
+                <select value={locale} onChange={(e) => setLocale(e.target.value)}>
                     <option value="EN">English</option>
                     <option value="MR">Marathi</option>
                 </select>

@@ -1,8 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Footer from '@components/Footer';
 import ThemeButton from '@components/ThemeButton';
+import { LocaleContext } from '../context/LocaleContext';
 
 const MainLayout = ({ children }) => {
+    const [locale, setLocale] = useState('EN');
+    const value = { locale, setLocale };
     useEffect(() => {
         if (typeof window !== 'undefined') {
             if (
@@ -18,14 +21,16 @@ const MainLayout = ({ children }) => {
     }, []);
 
     return (
-        <div
-            className="flex-grow bg-gray-100 dark:bg-gray-1100 relative"
-            style={{ minHeight: '85vh' }}>
-            <ThemeButton />
-            <div className="max-w-5xl mx-auto container px-2 pb-6">{children}</div>
+        <LocaleContext.Provider value={value}>
+            <div
+                className="flex-grow bg-gray-100 dark:bg-gray-1100 relative"
+                style={{ minHeight: '85vh' }}>
+                <ThemeButton />
+                <div className="max-w-5xl mx-auto container px-2 pb-6">{children}</div>
 
-            <Footer />
-        </div>
+                <Footer />
+            </div>
+        </LocaleContext.Provider>
     );
 };
 
