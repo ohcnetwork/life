@@ -173,6 +173,8 @@ def get_hospital_clinic_centre():
                 "pointOfContact": record["fields"].get("pointOfContact"),
                 "phone1": record["fields"].get("phone1"),
                 "phone2": record["fields"].get("phone2"),
+                "email1": record["fields"].get("email1"),
+                "email2": record["fields"].get("email2"),
                 "verificationStatus": record["fields"].get("Latest_Verification_Status"),
                 "lastVerifiedOn": record["fields"].get("Verified_On"),
                 "verifiedBy": record["fields"]["Verified_By"][0].get("name")
@@ -182,6 +184,8 @@ def get_hospital_clinic_centre():
                 "typeOfHospital": record["fields"].get("Type of Hospital"),
                 "subCategory": record["fields"].get("Sub category"),
                 "availability": record["fields"].get("Availability"),
+                "typeOfBedAvailable": record["fields"].get("Type of bed available"),
+                "totalBedsAvailable": record["fields"].get("How many beds available"),
                 "createdTime": record["createdTime"],
             }
         )
@@ -287,17 +291,18 @@ def get_ambulance_data():
     return ambulance_data
 
 
-active_district_data = get_active_district_data()
-dump_data("active_district_data.json", active_district_data)
-hospital_data = get_hospital_clinic_centre()
-dump_data("hospital_clinic_centre.json", hospital_data)
-oxygen_data = get_oxygen_data()
-dump_data("oxygen.json", oxygen_data)
-plasmadata = get_plasma_data()
-dump_data("plasma.json", plasmadata)
-helpline_data = get_helpline_data()
-dump_data("helpline.json", helpline_data)
-medicine_data = get_medicine_data()
-dump_data("medicine.json", medicine_data)
-ambulance_data = get_ambulance_data()
-dump_data("ambulance.json", ambulance_data)
+if __name__ == "__main__":
+    active_district_data = get_active_district_data()
+    dump_data("active_district_data.json", active_district_data)
+    hospital_data = get_hospital_clinic_centre()
+    dump_data("hospital_clinic_centre.json", hospital_data)
+    oxygen_data = get_oxygen_data()
+    dump_data("oxygen.json", oxygen_data)
+    plasmadata = get_plasma_data()
+    dump_data("plasma.json", plasmadata)
+    helpline_data = get_helpline_data()
+    dump_data("helpline.json", helpline_data)
+    medicine_data = get_medicine_data()
+    dump_data("medicine.json", medicine_data)
+    ambulance_data = get_ambulance_data()
+    dump_data("ambulance.json", ambulance_data)

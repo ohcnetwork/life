@@ -123,6 +123,15 @@ const About = () => {
                     provide the right information to the right people at the right time in the right
                     manner.
                 </p>
+                <h2 className={h2Class} id="disclaimer">
+                    Disclaimer
+                </h2>
+                <p className={pClass}>
+                    COVID Information Platform ({<a className={aClass} href="https://liferesources.in/" target="_blank">https://liferesources.in/</a>}) is a platform created by Swasth Digital Health Foundation (“Swasth”), CovidFYI and Coronasafe Network for providing verified crowd sourced emergency services for COVID-19 emergencies across India. 
+                </p>
+                <p className={pClass}>
+                    All data and information provided in the COVID Information Platform are verified by a group of volunteers to the best of their abilities and Swasth disclaims all responsibility for any data/information provided on the COVID Information Platform. Swasth, CovidFYI and Coronasafe Network shall under no circumstances be held liable for any direct, indirect, incidental, consequential, special, punitive, exemplary, or any other damages arising out of the use of the COVID Information Platform. There is no assurance by Swasth, CovidFYI and Coronasafe Network of any specified outcomes of the use of the COVID Information Platform. The users understand that by using any data or information provided on the COVID Information Platform shall be at their own risk and violation and that Swasth is not responsible for any consequences for offering such data/information.
+                </p>
             </div>
         </>
     );

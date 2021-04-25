@@ -1,4 +1,5 @@
 # Life | Coronasafe Network
+![Life Logo](./public/static/banner.png)
 
 A database and API for life-fe
 
@@ -23,13 +24,13 @@ A database and API for life-fe
 ## Getting Started
 
 First, run the development server:
-
-```
-npm run dev
-# or
-yarn dev
+  ```
+  npm run dev
+  # or
+  yarn dev
+  ```
 Open http://localhost:3000 with your browser to see the result.
-```
 
 You can start editing the page by modifying pages/index.js. The page auto-updates as you edit the file.
+
 Supported by [Swasth Alliance](https://www.swasth.app) | [Vercel](https://vercel.com?utm_source=life&utm_campaign=oss)

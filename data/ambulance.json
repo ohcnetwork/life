@@ -453,7 +453,7 @@
         },
         {
             "area": null,
-            "comment": "Stocked out, contact COVID hospitals for availability",
+            "comment": "If this call is regarding Remdevisir/Tamiflu/Tocilizumab, then I am sorry because it has been take over by DM. Contact COVID hosiptals for its availibility.\nStocked out, contact COVID hospitals for availability",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kanpur Dehat",
             "id": "rec5BFU5yMLccxPSg",
@@ -797,20 +797,18 @@
         },
         {
             "area": null,
-            "comment": null,
+            "comment": "Not Available ",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hyderabad",
             "id": "rec8hnkCY5KK5J7Av",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-25T07:16:56.000Z",
             "name": null,
-            "phone1": null,
+            "phone1": "9963107800",
             "phone2": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "MANISH NAYYAR"
         },
         {
             "area": null,
@@ -2268,17 +2266,17 @@
         },
         {
             "area": null,
-            "comment": "1st number is incorrect. 2nd was busy",
+            "comment": "Not Avaailable \n1st number is incorrect. 2nd was busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hyderabad",
             "id": "recNvntpHEULbfa8J",
-            "lastVerifiedOn": "2021-04-23T14:08:28.000Z",
+            "lastVerifiedOn": "2021-04-25T07:16:09.000Z",
             "name": null,
             "phone1": "040-65916729/9963107800",
             "phone2": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -5211,17 +5209,17 @@
         },
         {
             "area": null,
-            "comment": "Busy",
+            "comment": "They are not Distributors and its available for Inpatients only \nBusy",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hyderabad",
             "id": "recqGYnPCiEs8xdJl",
-            "lastVerifiedOn": "2021-04-23T13:48:07.000Z",
+            "lastVerifiedOn": "2021-04-25T07:23:45.000Z",
             "name": null,
             "phone1": "9980377553",
             "phone2": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
