@@ -22,6 +22,27 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-25T13:54:27.000Z",
+            "district": "Bhopal",
+            "email1": null,
+            "email2": null,
+            "id": "rec0JS2YkdkCTuHXm",
+            "lastVerifiedOn": "2021-04-25T13:55:42.000Z",
+            "name": "RKDF University Hospital",
+            "phone1": 917692940261,
+            "phone2": 919301108890,
+            "pointOfContact": null,
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
+        },
+        {
             "availability": "Available",
             "comment": "15 beds available with oxygen, can be converted into ICU as well",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -1262,7 +1283,7 @@
                 "Bed without oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1309,10 +1330,35 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
+        },
+        {
+            "availability": null,
+            "comment": "Busy",
+            "createdTime": "2021-04-25T13:17:41.000Z",
+            "district": "Jaipur",
+            "email1": null,
+            "email2": null,
+            "id": "recCn7EWz5cahg6Q7",
+            "lastVerifiedOn": "2021-04-25T13:18:51.000Z",
+            "name": "Vivekanand swasthay sewa samiti hospital\n",
+            "phone1": 9413378691,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Rajasthan",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "Bed with oxygen",
+                "ICU bed",
+                "Bed with ventilator"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "availability": null,
@@ -1864,6 +1910,27 @@
         },
         {
             "availability": null,
+            "comment": "Busy",
+            "createdTime": "2021-04-25T13:58:06.000Z",
+            "district": "Bhopal",
+            "email1": null,
+            "email2": null,
+            "id": "recHsQY9rnbVQxalT",
+            "lastVerifiedOn": "2021-04-25T13:58:59.000Z",
+            "name": "Chirayu Hospital",
+            "phone1": 919993366621,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "availability": null,
             "comment": "Number switched off",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Indore",
@@ -1924,6 +1991,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Jasseerat Kaur"
+        },
+        {
+            "availability": "Available",
+            "comment": "They're having a shortage of oxygen, beds are available but not with oxygen. No ventilators either.",
+            "createdTime": "2021-04-25T13:13:59.000Z",
+            "district": "Jaipur",
+            "email1": null,
+            "email2": null,
+            "id": "recJAS3RoMAGBdfO9",
+            "lastVerifiedOn": "2021-04-25T13:15:38.000Z",
+            "name": "Maharaja Vinayak General Hospital",
+            "phone1": 8209112988,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Rajasthan",
+            "subCategory": null,
+            "totalBedsAvailable": 20,
+            "typeOfBedAvailable": [
+                "Bed without oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Verified",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "availability": null,
@@ -2019,7 +2109,7 @@
             "id": "recKEO1FeBGW5364D",
             "lastVerifiedOn": "2021-04-23T10:22:44.000Z",
             "name": "SGT Medical College & Research Institute",
-            "phone1": null,
+            "phone1": 7042292198,
             "phone2": null,
             "pointOfContact": null,
             "state": "Haryana",
@@ -2050,7 +2140,7 @@
                 "Bed without oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2369,7 +2459,7 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2481,7 +2571,7 @@
                 "ICU bed"
             ],
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3302,7 +3392,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3456,6 +3546,27 @@
         },
         {
             "availability": null,
+            "comment": "Busy",
+            "createdTime": "2021-04-25T13:56:03.000Z",
+            "district": "Bhopal",
+            "email1": null,
+            "email2": null,
+            "id": "recWafOyysuXDVmbH",
+            "lastVerifiedOn": "2021-04-25T13:57:15.000Z",
+            "name": "Hamidia Hospital",
+            "phone1": 919425079117,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "availability": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kannur",
@@ -3577,7 +3688,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3621,7 +3732,7 @@
                 "Bed without oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3688,7 +3799,7 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3777,7 +3888,7 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4295,8 +4406,8 @@
             "email2": null,
             "id": "recbH7yUaJDn5ByYj",
             "lastVerifiedOn": null,
-            "name": "CMC",
-            "phone1": 9878747783,
+            "name": null,
+            "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Punjab",
@@ -4304,7 +4415,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4453,7 +4564,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5234,7 +5345,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -5804,7 +5915,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -6522,7 +6633,7 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -7158,6 +7269,30 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
+            "availability": "Not Available",
+            "comment": "No beds available ",
+            "createdTime": "2021-04-25T13:30:37.000Z",
+            "district": "Jaipur",
+            "email1": null,
+            "email2": null,
+            "id": "recvpl3WtoC54mds1",
+            "lastVerifiedOn": "2021-04-25T13:32:26.000Z",
+            "name": "Asopa Hospital",
+            "phone1": 1412246161,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Rajasthan",
+            "subCategory": null,
+            "totalBedsAvailable": 0,
+            "typeOfBedAvailable": [
+                "ICU bed",
+                "Bed with oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Verified",
+            "verifiedBy": "Disha Jariwala"
+        },
+        {
             "availability": null,
             "comment": "number is busy",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -7196,7 +7331,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -7283,7 +7418,7 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]

@@ -23,7 +23,7 @@
                 "Cylinder",
                 "Refil"
             ],
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -408,6 +408,32 @@
         {
             "availability": null,
             "city": null,
+            "comment": "not answering",
+            "companyName": null,
+            "createdTime": "2021-04-25T13:32:19.000Z",
+            "description": null,
+            "district": "Bhopal",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "rec711REW7NFm9B6G",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T13:32:19.000Z",
+            "name": "oxygen cylinder",
+            "phone1": 8319629805,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Madhya Pradesh",
+            "type": [
+                "Cylinder",
+                "Refil"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": null,
+            "city": null,
             "comment": "Busy. Try again.",
             "companyName": null,
             "createdTime": "2021-04-19T09:56:48.000Z",
@@ -570,7 +596,7 @@
                 "Cylinder",
                 "Refil"
             ],
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -694,7 +720,7 @@
             "sourceName": null,
             "state": "Uttar Pradesh",
             "type": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
         },
         {
@@ -811,7 +837,7 @@
             "sourceName": "Verified by a friend over there",
             "state": "Rajasthan",
             "type": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -863,7 +889,7 @@
                 "Refil",
                 "Cylinder"
             ],
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -890,6 +916,32 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Zenitha Das"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "not answering",
+            "companyName": null,
+            "createdTime": "2021-04-25T13:34:19.000Z",
+            "description": null,
+            "district": "Bhopal",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recDvEKf43636Lk7t",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T13:34:19.000Z",
+            "name": "Mr Ajay Gupta",
+            "phone1": 9752537079,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Madhya Pradesh",
+            "type": [
+                "Cylinder",
+                "Refil"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -1217,7 +1269,7 @@
             "sourceName": null,
             "state": "Uttar Pradesh",
             "type": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
         },
         {
@@ -1520,7 +1572,7 @@
                 "Concentrator",
                 "Cans"
             ],
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1593,7 +1645,7 @@
             "type": [
                 "Refil"
             ],
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1958,7 +2010,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": "will have by tomorrow",
+            "comment": "will have by tuesday",
             "companyName": null,
             "createdTime": "2021-04-25T12:25:10.000Z",
             "description": null,
@@ -3291,7 +3343,7 @@
             "sourceName": "Twitter - Non government",
             "state": "Uttar Pradesh",
             "type": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -3365,7 +3417,7 @@
                 "Concentrator",
                 "Cans"
             ],
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3720,7 +3772,7 @@
             "type": [
                 "Concentrator"
             ],
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3839,6 +3891,32 @@
             "type": null,
             "verificationStatus": "Verified",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "not answering",
+            "companyName": null,
+            "createdTime": "2021-04-25T13:30:02.000Z",
+            "description": null,
+            "district": "Bhopal",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recmOlre0PbRfe91i",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T13:30:02.000Z",
+            "name": "Mohammad Akhil",
+            "phone1": 8989792802,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Madhya Pradesh",
+            "type": [
+                "Cylinder",
+                "Refil"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -4551,6 +4629,31 @@
             "verifiedBy": "Disha Jariwala"
         },
         {
+            "availability": null,
+            "city": null,
+            "comment": "unreachable",
+            "companyName": null,
+            "createdTime": "2021-04-25T13:36:27.000Z",
+            "description": null,
+            "district": "Bhopal",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recv1UenwmpAbcnTR",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T13:36:27.000Z",
+            "name": "Sukhmani Foundation",
+            "phone1": 764884300,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Madhya Pradesh",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
+        },
+        {
             "availability": "Available",
             "city": null,
             "comment": null,
@@ -4572,7 +4675,7 @@
             "type": [
                 "Cylinder"
             ],
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4620,7 +4723,7 @@
             "sourceName": null,
             "state": "Uttar Pradesh",
             "type": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4891,7 +4994,7 @@
             "sourceName": null,
             "state": "Uttar Pradesh",
             "type": null,
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
