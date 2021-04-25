@@ -9,18 +9,37 @@ import Selector from '@components/Selector';
 import { tabsInfo } from '@lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar, faMedkit } from '@fortawesome/free-solid-svg-icons';
-
+import en from '@locales/en/index';
+import mr from '@locales/mr/index';
 
 let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 
 export default function Home() {
-    const [selectedFilter, setSelectedFilter] = useState('oxygen');
+    let t;
+    const [lang, setLang] = useState('EN');
+    switch (lang) {
+        case 'EN':
+            t = en;
+            break;
+        case 'MR':
+            t = mr;
+            break;
+        default:
+            t = en;
+    }
 
+    const [selectedFilter, setSelectedFilter] = useState('oxygen');
     return (
         <div>
             <section className="flex flex-col items-center md:pt-20">
                 <Logo width={100} />
-                <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">LIFE</h1>
+                <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">
+                    {t.text}
+                </h1>
+                <select value={lang} onChange={(e) => setLang(e.target.value)}>
+                    <option value="EN">English</option>
+                    <option value="MR">Marathi</option>
+                </select>
                 <h2 className="mt-4 font-semibold text-xl text-gray-900 dark:text-gray-100 text-center">
                     Verified Crowd Sourced Emergency Services Directory
                 </h2>
@@ -45,7 +64,7 @@ export default function Home() {
                         );
                     })}
                 </div>
-               <div className="flex space-x-3">
+                <div className="flex space-x-3">
                     <a href="https://www.covid19india.org/">
                         <button
                             type="button"
