@@ -42,7 +42,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -74,7 +74,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -136,7 +136,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -168,7 +168,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -305,7 +305,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -367,7 +367,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -399,7 +399,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -433,6 +433,21 @@
             "state": "Punjab",
             "verificationStatus": "Verified",
             "verifiedBy": "MANISH NAYYAR"
+        },
+        {
+            "area": null,
+            "comment": "Will not pick up phones. Drop a text",
+            "createdTime": "2021-04-25T11:07:20.000Z",
+            "district": "Kolkata",
+            "id": "rec4yySXl3xmcZILv",
+            "lastVerifiedOn": "2021-04-25T11:09:20.000Z",
+            "name": null,
+            "phone1": "6291049491",
+            "phone2": null,
+            "source": "https://www.theuncutteam.com/resources",
+            "state": "West Bengal",
+            "verificationStatus": "Verified",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "area": null,
@@ -568,7 +583,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -600,7 +615,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -647,7 +662,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -664,7 +679,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -696,7 +711,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -760,7 +775,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -837,7 +852,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -854,7 +869,7 @@
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -946,7 +961,7 @@
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -993,7 +1008,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1010,7 +1025,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1042,7 +1057,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1059,7 +1074,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1181,7 +1196,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1198,7 +1213,7 @@
             "phone2": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1230,7 +1245,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1292,7 +1307,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1309,7 +1324,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1356,7 +1371,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1403,7 +1418,7 @@
             "phone2": null,
             "source": "Twitter",
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1420,7 +1435,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1437,7 +1452,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1469,7 +1484,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1486,7 +1501,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1518,7 +1533,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1550,7 +1565,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1627,7 +1642,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1659,7 +1674,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1706,7 +1721,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1723,7 +1738,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1755,7 +1770,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1832,7 +1847,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1864,7 +1879,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1881,7 +1896,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1928,7 +1943,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -1990,7 +2005,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2022,7 +2037,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2039,7 +2054,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2086,7 +2101,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2103,7 +2118,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2195,7 +2210,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2227,7 +2242,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2259,7 +2274,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2336,7 +2351,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2398,7 +2413,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2415,7 +2430,7 @@
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2432,7 +2447,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2449,7 +2464,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2466,7 +2481,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2513,7 +2528,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2530,7 +2545,7 @@
             "phone2": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2577,7 +2592,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2609,7 +2624,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2626,7 +2641,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2673,7 +2688,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2720,7 +2735,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2737,7 +2752,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2754,7 +2769,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2788,7 +2803,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2805,7 +2820,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -2974,7 +2989,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3006,7 +3021,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3023,7 +3038,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3160,7 +3175,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3237,7 +3252,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3284,7 +3299,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3361,7 +3376,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3378,7 +3393,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3395,7 +3410,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3442,7 +3457,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3504,7 +3519,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3536,7 +3551,7 @@
             "phone2": null,
             "source": "Newspaper",
             "state": "Bihar",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3583,7 +3598,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3645,7 +3660,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3677,7 +3692,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3754,7 +3769,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3771,7 +3786,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3818,7 +3833,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3850,7 +3865,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3867,7 +3882,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3899,7 +3914,7 @@
             "phone2": null,
             "source": null,
             "state": "Haryana",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3916,7 +3931,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -3963,7 +3978,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4010,7 +4025,7 @@
             "phone2": null,
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4042,7 +4057,7 @@
             "phone2": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4059,7 +4074,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4121,7 +4136,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4138,7 +4153,7 @@
             "phone2": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4155,7 +4170,7 @@
             "phone2": null,
             "source": null,
             "state": "Jharkhand",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4204,7 +4219,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4221,7 +4236,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4253,7 +4268,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4300,7 +4315,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4454,7 +4469,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4471,7 +4486,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4490,21 +4505,6 @@
             "state": "Maharashtra",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Mohita Kotkar"
-        },
-        {
-            "area": null,
-            "comment": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Kolkata",
-            "id": "recib5SMVpwqy3u8c",
-            "lastVerifiedOn": "2021-04-22T08:08:50.000Z",
-            "name": null,
-            "phone1": "0674-2951213",
-            "phone2": null,
-            "source": null,
-            "state": "West Bengal",
-            "verificationStatus": "Unresponsive",
-            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -4563,7 +4563,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4627,7 +4627,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4644,7 +4644,7 @@
             "phone2": null,
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4676,7 +4676,7 @@
             "phone2": null,
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4753,7 +4753,7 @@
             "phone2": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4785,7 +4785,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4802,7 +4802,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4894,7 +4894,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4911,7 +4911,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4958,7 +4958,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -4990,7 +4990,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5067,7 +5067,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5159,7 +5159,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5191,7 +5191,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5268,7 +5268,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5315,7 +5315,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5362,7 +5362,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5379,7 +5379,7 @@
             "phone2": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5471,7 +5471,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5488,7 +5488,7 @@
             "phone2": null,
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5535,7 +5535,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5552,7 +5552,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5584,7 +5584,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5646,7 +5646,7 @@
             "phone2": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5693,7 +5693,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5725,25 +5725,10 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
-        },
-        {
-            "area": null,
-            "comment": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "district": "Kolkata",
-            "id": "recuWuWTqj81YxpG5",
-            "lastVerifiedOn": "2021-04-22T08:10:30.000Z",
-            "name": null,
-            "phone1": "0674-2951213",
-            "phone2": null,
-            "source": null,
-            "state": "West Bengal",
-            "verificationStatus": "Unresponsive",
-            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "area": null,
@@ -5787,7 +5772,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5804,7 +5789,7 @@
             "phone2": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5911,7 +5896,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5928,7 +5913,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5975,7 +5960,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -5992,7 +5977,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -6024,7 +6009,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -6041,7 +6026,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -6058,7 +6043,7 @@
             "phone2": null,
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -6090,7 +6075,7 @@
             "phone2": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -6182,7 +6167,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -6199,7 +6184,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
@@ -6216,7 +6201,7 @@
             "phone2": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": null,
+            "verificationStatus": "Unresponsive",
             "verifiedBy": [
                 {}
             ]
