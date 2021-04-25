@@ -26,7 +26,7 @@ const SocialSharing = ({ twitterText, url }) => {
             <span
                 className="ml-auto w-8 cursor-pointer"
                 onClick={() => {
-                    copyToClipboard(` test`);
+                    copyToClipboard(`${url}`);
                     alert('Copied!');
                 }}>
                 <FontAwesomeIcon

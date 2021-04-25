@@ -1,10 +1,11 @@
 import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import { faPhoneAlt, faEnvelope, faCopy } from '@fortawesome/free-solid-svg-icons';
+import { faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Badge from './Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { isVerified, parseDateString, copyToClipboard } from '../lib/utils';
+import { isVerified, parseDateString } from '../lib/utils';
 import SocialSharing from '../components/SocialSharing';
+import { useRouter } from 'next/router';
 
 const MedicinesCard = ({
     verificationStatus,
@@ -18,11 +19,13 @@ const MedicinesCard = ({
     email,
     lastVerifiedOn
 }) => {
+    const { asPath } = useRouter();
+    const pageUrl = `https://liferesources.in/${asPath}`;
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="w-full flex items-center pt-2">
                 <div className="ml-auto">
-                    <SocialSharing twitterText="test" url="test" />
+                    <SocialSharing url={pageUrl} twitterText={pageUrl} />
                 </div>
             </div>
             <div className="p-4 flex justify-between flex-wrap">
