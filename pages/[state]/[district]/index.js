@@ -1,15 +1,15 @@
 import React from 'react';
-import { statePaths, parametreize, humanize, activeDistricts } from '../../../lib/utils';
-import TabLinks from '../../../components/TabLinks';
-import Breadcumb from '../../../components/Breadcumb';
-import SocialSharing from '../../../components/SocialSharing';
-import { tabsInfo } from '../../../lib/tabs';
+import { statePaths, parametreize, humanize, activeDistricts } from '@lib/utils';
+import TabLinks from '@components/TabLinks';
+import Breadcumb from '@components/Breadcumb';
+import SocialSharing from '@components/SocialSharing';
+import { tabsInfo } from '@lib/tabs';
 import { useRouter } from 'next/router';
 import { NextSeo } from 'next-seo';
 
 export default function State({ state, district }) {
     const { asPath } = useRouter();
-    const pageUrl = `https://liferesources.in/${asPath}`;
+    const pageUrl = `https://liferesources.in${asPath}`;
     const SEO = {
         title: `${humanize(district.district)} , ${humanize(state)} | Coronasafe network`,
         description: `Covid19 Resources for ${humanize(district.district)} , ${humanize(state)} `,
@@ -18,7 +18,15 @@ export default function State({ state, district }) {
             description: `Covid19 Resources for ${humanize(district.district)} , ${humanize(
                 state
             )} `
-        }
+        },
+        additionalMetaTags: [
+            {
+                property: 'keywords',
+                content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
+                    district.district
+                )},hospital,ambulance,plasma,helpline,oxygen,medicine`
+            }
+        ]
     };
     return (
         <section className="md:pt-10">
@@ -44,12 +52,16 @@ export default function State({ state, district }) {
                         <TabLinks tabsInfo={tabsInfo} state={state} district={district} />
                     </div>
                 </section>
-                <SocialSharing
-                    url={pageUrl}
-                    twitterText={`Covid-19 Resources for ${humanize(district.district)}, ${humanize(
-                        state
-                    )} ${pageUrl}`}
-                />
+                <div className="w-full flex items-center pt-2">
+                    <div className="mr-auto">
+                        <SocialSharing
+                            url={pageUrl}
+                            twitterText={`Covid-19 Resources for ${humanize(
+                                district.district
+                            )}, ${humanize(state)} ${pageUrl}`}
+                        />
+                    </div>
+                </div>
             </div>
         </section>
     );

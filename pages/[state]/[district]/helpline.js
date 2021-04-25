@@ -1,8 +1,8 @@
 import React from 'react';
-import { helplineByDistrict } from '../../../lib/api';
-import { statePaths, humanize, parseDateString } from '../../../lib/utils';
-import Breadcumb from '../../../components/Breadcumb';
-import HelplineCard from '../../../components/HelplineCard';
+import { helplineByDistrict } from '@lib/api';
+import { statePaths, humanize } from '@lib/utils';
+import Breadcumb from '@components/Breadcumb';
+import HelplineCard from '@components/HelplineCard';
 import { NextSeo } from 'next-seo';
 
 export default function Helpline({ state, district, helplines }) {
@@ -10,13 +10,21 @@ export default function Helpline({ state, district, helplines }) {
         title: `Helpline in ${humanize(district)} , ${humanize(state)}`,
         description: `Covid19 Resources for Helpline in ${humanize(district)} , ${humanize(
             state
-        )} } `,
+        )} `,
         openGraph: {
             title: `Helpline in ${humanize(district)} , ${humanize(state)}`,
             description: `Covid19 Resources for Helpline in ${humanize(district)} , ${humanize(
                 state
-            )} } `
-        }
+            )} `
+        },
+        additionalMetaTags: [
+            {
+                property: 'keywords',
+                content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
+                    district
+                )},${humanize(state)},helpline`
+            }
+        ]
     };
     return (
         <div>

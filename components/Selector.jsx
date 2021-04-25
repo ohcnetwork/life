@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
-import { districtWithState, getStates } from '../lib/api';
-import { parametreize, humanize, activeStates } from '../lib/utils';
+import { districtWithState } from '@lib/api';
+import { parametreize, humanize, activeStates } from '@lib/utils';
 
 const Selector = ({ data, page }) => {
     const [searchStr, setSearchStr] = useState('');

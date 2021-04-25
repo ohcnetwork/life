@@ -1,6 +1,12 @@
 export default {
     title: 'Life | Coronasafe Network ',
     description: 'Life is a Verified Crowd Sourced Emergency Services Directory',
+    additionalMetaTags: [
+        {
+            property: 'keywords',
+            content: 'covid19, india, resources, coronasafe, swasth alliance, covidfyi'
+        }
+    ],
     openGraph: {
         type: 'website',
         locale: 'en_IN',

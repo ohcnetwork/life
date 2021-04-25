@@ -3120,6 +3120,28 @@
             "verifiedBy": null
         },
         {
+            "category": [
+                "War room",
+                "Government Departmental Numbers",
+                "Medical Control Room ",
+                "Covid19 Helpline"
+            ],
+            "comment": null,
+            "createdTime": "2021-04-24T19:01:24.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "id": "recBXqx7RFXDGwX4H",
+            "lastVerifiedOn": null,
+            "name": "Covid Command Center",
+            "phone1": 5224523000,
+            "phone2": null,
+            "source": null,
+            "sourceUrl": null,
+            "state": "Uttar Pradesh",
+            "verificationStatus": null,
+            "verifiedBy": null
+        },
+        {
             "category": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -4256,6 +4278,27 @@
             "source": "Govt of Punjab",
             "sourceUrl": "http://pbhealth.gov.in/Civil%20Surgeons,%20Nodal%20Officer%20and%20Control%20Room%20Nos.pdf",
             "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": null
+        },
+        {
+            "category": [
+                "Medical Control Room ",
+                "Government Departmental Numbers",
+                "Covid19 Helpline"
+            ],
+            "comment": null,
+            "createdTime": "2021-04-24T11:50:27.000Z",
+            "description": "Saharanpur CMO Control Room number",
+            "district": "Saharanpur",
+            "id": "recG4YgJ8Ilxu82kp",
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": 9412668306,
+            "phone2": 8279414202,
+            "source": "News",
+            "sourceUrl": "https://www.facebook.com/824866580910113/posts/4170382859691785/",
+            "state": "Uttar Pradesh",
             "verificationStatus": null,
             "verifiedBy": null
         },
@@ -8601,7 +8644,7 @@
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": null,
-            "district": "Gautam Buddha Nagar",
+            "district": "Noida",
             "id": "recV0GcnPdqORvdRr",
             "lastVerifiedOn": null,
             "name": "Helplines",
@@ -9468,7 +9511,7 @@
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Solve Doubts related COVID-19",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recXjsb5t6qPiFWOe",
             "lastVerifiedOn": null,
             "name": "Helplines",
@@ -9476,7 +9519,7 @@
             "phone2": 2412356940,
             "source": "mahainfocorona Website",
             "sourceUrl": "https://mahainfocorona.in/mr/help",
-            "state": "Gujarat",
+            "state": "Punjab",
             "verificationStatus": null,
             "verifiedBy": null
         },
@@ -17309,7 +17352,7 @@
             "comment": null,
             "createdTime": "2021-04-23T17:42:34.000Z",
             "description": null,
-            "district": "Gautam Buddha Nagar",
+            "district": "Noida",
             "id": "recztPVDNCzsB0Fvu",
             "lastVerifiedOn": null,
             "name": "Noida Integrated Covid Helpline",

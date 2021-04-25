@@ -9,6 +9,8 @@ jobs:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@v2
+        with:
+          ref: main
       - name: Create local changes
         run: |
           pip3 install -r scraper/requirements.txt 
@@ -25,4 +27,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          branch: main

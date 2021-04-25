@@ -1,8 +1,8 @@
 import React from 'react';
-import { getAmbulances } from '../../../lib/api';
-import { humanize, statePaths } from '../../../lib/utils';
-import AmbulanceCard from '../../../components/AmbulanceCard';
-import Breadcumb from '../../../components/Breadcumb';
+import { getAmbulances } from '@lib/api';
+import { humanize, statePaths } from '@lib/utils';
+import AmbulanceCard from '@components/AmbulanceCard';
+import Breadcumb from '@components/Breadcumb';
 import { NextSeo } from 'next-seo';
 
 export default function Ambulance({ state, district, ambulancesListing }) {
@@ -10,13 +10,21 @@ export default function Ambulance({ state, district, ambulancesListing }) {
         title: `Ambulance in ${humanize(district)} , ${humanize(state)}`,
         description: `Covid19 Resources for Ambulance in ${humanize(district)} , ${humanize(
             state
-        )} } `,
+        )} `,
         openGraph: {
             title: `Ambulance in ${humanize(district)} , ${humanize(state)}`,
             description: `Covid19 Resources for Ambulance in ${humanize(district)} , ${humanize(
                 state
-            )} } `
-        }
+            )}  `
+        },
+        additionalMetaTags: [
+            {
+                property: 'keywords',
+                content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
+                    district
+                )},${humanize(state)},ambulance`
+            }
+        ]
     };
     return (
         <div>
