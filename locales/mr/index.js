@@ -1,5 +1,5 @@
 export default {
-    name: 'लाइफ़',
+    title: 'लाइफ़',
     description: 'सत्यापित क्रोड सोर्सिड इमर्जन्सी सर्व्हिसेस निर्देशिका',
     oxygen: 'ऑक्सिजन',
     medicine: 'औषध',
