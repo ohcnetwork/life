@@ -6419,6 +6419,27 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "availability": "Not Available",
+            "comment": "All beds full. Railway employees only",
+            "createdTime": "2021-04-25T12:55:21.000Z",
+            "district": "Jaipur",
+            "email1": null,
+            "email2": null,
+            "id": "recpUQJvvuiH94lhZ",
+            "lastVerifiedOn": "2021-04-25T12:57:16.000Z",
+            "name": "Railway Hospital Jaipur ",
+            "phone1": 1412223735,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Rajasthan",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Verified",
+            "verifiedBy": "Disha Jariwala"
+        },
+        {
             "availability": null,
             "comment": "They only admit patient having NEURO + COVID. Availability of beds i",
             "createdTime": "2021-04-19T07:48:08.000Z",
