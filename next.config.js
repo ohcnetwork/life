@@ -1,4 +1,4 @@
-const withPWA = require('next-pwa')
+const withPWA = require('next-pwa');
 const { createSecureHeaders } = require('next-secure-headers');
 
 module.exports = withPWA({
@@ -7,21 +7,29 @@ module.exports = withPWA({
         dest: 'public'
     },
     future: {
-        webpack5: true,
+        webpack5: true
     },
     poweredByHeader: false,
     generateEtags: false,
     async headers() {
-        return [{
-            source: "/(.*)",
-            headers: createSecureHeaders({
-                forceHTTPSRedirect: [true, { maxAge: 63072000, includeSubDomains: true }],
-                referrerPolicy: "strict-origin-when-cross-origin",
-                nosniff: 'nosniff',
-                xssProtection: 'block-rendering',
-                frameGuard: 'sameorigin',
+        return [
+            {
+                source: '/(.*)',
+                headers: createSecureHeaders({
+                    forceHTTPSRedirect: [true, { maxAge: 63072000, includeSubDomains: true }],
+                    referrerPolicy: 'strict-origin-when-cross-origin',
+                    nosniff: 'nosniff',
+                    xssProtection: 'block-rendering',
+                    frameGuard: 'sameorigin'
+                })
+            }
+        ];
+    }
+});
 
-            })
-        }];
-    },
-})
+module.exports = {
+    webpack(config) {
+        config.resolve.modules.push(__dirname);
+        return config;
+    }
+};

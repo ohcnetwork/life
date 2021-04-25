@@ -8,4 +8,7 @@
       "@layouts/*": ["layouts/*"],
     }
   },
+  "exclude": [
+    "node_modules"
+  ]
 }
