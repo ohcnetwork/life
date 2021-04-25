@@ -44,18 +44,18 @@ export default function Home() {
                         );
                     })}
                 </div>
-                <button
-                    type="button"
-                    className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
-                    <a href="https://www.covid19india.org/">
+                <a href="https://www.covid19india.org/">
+                    <button
+                        type="button"
+                        className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
                         <FontAwesomeIcon
                             className="text-white-400 w-4 mr-4"
                             title="Covid 19 Statistics"
                             icon={faChartBar}
                         />
                         Covid19 Statistics
-                    </a>
-                </button>
+                    </button>
+                </a>
             </section>
         </div>
     );
