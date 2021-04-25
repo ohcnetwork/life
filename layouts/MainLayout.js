@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import Footer from '../components/Footer';
-import ThemeButton from '../components/ThemeButton';
+import Footer from '@components/Footer';
+import ThemeButton from '@components/ThemeButton';
 
 const MainLayout = ({ children }) => {
     useEffect(() => {

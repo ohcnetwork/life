@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import { useState } from 'react';
-import { getStates } from '../lib/api';
-import { humanize, parametreize } from '../lib/utils';
-import Tabs from '../components/Tabs';
-import Logo from '../components/Logo';
+import { getStates } from '@lib/api';
+import { humanize, parametreize } from '@lib/utils';
+import Tabs from '@components/Tabs';
+import Logo from '@components/Logo';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import Selector from '../components/Selector';
-import { tabsInfo } from '../lib/tabs';
+import Selector from '@components/Selector';
+import { tabsInfo } from '@lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar } from '@fortawesome/free-solid-svg-icons';
 

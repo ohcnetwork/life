@@ -1,9 +1,9 @@
 import React from 'react';
-import { hospitalByDistrict } from '../../../lib/api';
-import { statePaths, humanize } from '../../../lib/utils';
+import { hospitalByDistrict } from '@lib/api';
+import { statePaths, humanize } from '@lib/utils';
 import Head from 'next/head';
-import Breadcumb from '../../../components/Breadcumb';
-import HospitalCard from '../../../components/HospitalCard';
+import Breadcumb from '@components/Breadcumb';
+import HospitalCard from '@components/HospitalCard';
 import { NextSeo } from 'next-seo';
 
 export default function Hospitals({ state, district, hospitalByDistrict }) {

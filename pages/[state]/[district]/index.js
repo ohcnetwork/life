@@ -1,9 +1,9 @@
 import React from 'react';
-import { statePaths, parametreize, humanize, activeDistricts } from '../../../lib/utils';
-import TabLinks from '../../../components/TabLinks';
-import Breadcumb from '../../../components/Breadcumb';
-import SocialSharing from '../../../components/SocialSharing';
-import { tabsInfo } from '../../../lib/tabs';
+import { statePaths, parametreize, humanize, activeDistricts } from '@lib/utils';
+import TabLinks from '@components/TabLinks';
+import Breadcumb from '@components/Breadcumb';
+import SocialSharing from '@components/SocialSharing';
+import { tabsInfo } from '@lib/tabs';
 import { useRouter } from 'next/router';
 import { NextSeo } from 'next-seo';
 
