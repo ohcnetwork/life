@@ -5728,7 +5728,7 @@
             "helpline": true,
             "hospitals": false,
             "id": "recjF7fAHjxm0sPox",
-            "medicine": false,
+            "medicine": true,
             "oxygen": false,
             "plasma": false,
             "state": "Jammu & Kashmir (UT)"

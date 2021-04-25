@@ -5727,6 +5727,27 @@
             "verifiedBy": "Andrea Palkhivala"
         },
         {
+            "address": "Main Market Baramulla",
+            "city": null,
+            "comment": null,
+            "contactName": null,
+            "createdTime": "2021-04-25T09:59:31.000Z",
+            "description": null,
+            "district": "Baramulla",
+            "emailId": null,
+            "id": "recjOfQD85q8NmlBj",
+            "lastVerifiedOn": "2021-04-25T09:59:31.000Z",
+            "name": "Shafeeq Medicate",
+            "phone1": null,
+            "priceCheck": null,
+            "source": null,
+            "state": "Jammu & Kashmir (UT)",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "address": "RAGHUNATHPURA,OPP. UNION BANK OF INDIA,JAMMU,JAMMU,180001",
             "city": null,
             "comment": "Remdesivir stock expected tomorrow morning",

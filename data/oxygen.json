@@ -4420,6 +4420,33 @@
         {
             "availability": "Available",
             "city": null,
+            "comment": "Oxygen Concentrators available against advanced payment, whatsapp only.",
+            "companyName": "Indian Oxygen concentrator",
+            "createdTime": "2021-04-25T09:01:44.000Z",
+            "description": "Oxygen Concentrator\npickup within 4 days ",
+            "district": "Faridabad",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recyR50gPaUVe82l1",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T09:01:44.000Z",
+            "name": "Oxygen concentrator Tarun",
+            "phone1": 9667221130,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Haryana",
+            "type": [
+                "Concentrator"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
+            "city": null,
             "comment": "22/4 , 3pm. Phone was switched off but responded to Whatsapp message. He sells oxygen concentrators ",
             "companyName": null,
             "createdTime": "2021-04-19T09:58:01.000Z",
