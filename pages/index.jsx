@@ -9,24 +9,13 @@ import Selector from '@components/Selector';
 import { tabsInfo } from '@lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar, faMedkit } from '@fortawesome/free-solid-svg-icons';
-import en from '@locales/en/index';
-import mr from '@locales/mr/index';
+import useLocale from '@hooks/use-locale';
 
 let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 
 export default function Home() {
-    let t;
     const [lang, setLang] = useState('EN');
-    switch (lang) {
-        case 'EN':
-            t = en;
-            break;
-        case 'MR':
-            t = mr;
-            break;
-        default:
-            t = en;
-    }
+    const t = useLocale(lang);
 
     const [selectedFilter, setSelectedFilter] = useState('oxygen');
     return (
