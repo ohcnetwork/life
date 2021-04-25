@@ -34,14 +34,14 @@ export default function Home() {
             <section className="flex flex-col items-center md:pt-20">
                 <Logo width={100} />
                 <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">
-                    {t.text}
+                    {t.title}
                 </h1>
                 <select value={lang} onChange={(e) => setLang(e.target.value)}>
                     <option value="EN">English</option>
                     <option value="MR">Marathi</option>
                 </select>
                 <h2 className="mt-4 font-semibold text-xl text-gray-900 dark:text-gray-100 text-center">
-                    Verified Crowd Sourced Emergency Services Directory
+                    {t.description}
                 </h2>
                 <div className="mt-4 ">
                     <Tabs
@@ -74,7 +74,7 @@ export default function Home() {
                                 title="Covid 19 Statistics"
                                 icon={faChartBar}
                             />
-                            Covid19 Statistics
+                            {t.covid19Stats}
                         </button>
                     </a>
                     <a href="/oxygen_requirements">
@@ -86,7 +86,7 @@ export default function Home() {
                                 title="Covid 19 Statistics"
                                 icon={faMedkit}
                             />
-                            Oxygen Requirements
+                            {t.oxygenRequirements}
                         </button>
                     </a>
                 </div>
