@@ -75,6 +75,57 @@
             "verifiedBy": "Disha Jariwala"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "CYLINDER",
+            "companyName": "---",
+            "createdTime": "2021-04-25T10:34:16.000Z",
+            "description": "PICKUP",
+            "district": "Ranchi",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "rec1JaFZsDPLYlv4y",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T10:34:16.000Z",
+            "name": "AMAN ",
+            "phone1": 9162402852,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Jharkhand",
+            "type": [
+                "Refil",
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "not answering",
+            "companyName": null,
+            "createdTime": "2021-04-25T10:28:07.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "rec24P6ujG2xcZ3fD",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T10:28:07.000Z",
+            "name": "SSB Medicare",
+            "phone1": 8400600800,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "No answer\n",
@@ -1477,6 +1528,29 @@
         {
             "availability": null,
             "city": null,
+            "comment": "switched off",
+            "companyName": null,
+            "createdTime": "2021-04-25T10:13:53.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recJFbfXFrTQa9VNQ",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T10:13:53.000Z",
+            "name": "Bhupendra Kumar",
+            "phone1": 7844038913,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": null,
+            "city": null,
             "comment": "phone 1 busy phone 2 not answering",
             "companyName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -1525,6 +1599,29 @@
             ]
         },
         {
+            "availability": null,
+            "city": null,
+            "comment": "not answering",
+            "companyName": null,
+            "createdTime": "2021-04-25T10:25:18.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recJJugEBBmiTYzcD",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T10:25:18.000Z",
+            "name": "UK Pharma",
+            "phone1": 8090067876,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
+        },
+        {
             "availability": "Available",
             "city": null,
             "comment": "Available. Andheri to Malad only.",
@@ -1548,6 +1645,33 @@
             ],
             "verificationStatus": "Verified",
             "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": null,
+            "createdTime": "2021-04-25T10:39:55.000Z",
+            "description": "REFILL",
+            "district": "Ramgarh",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recKSqlXpQEw1s4q0",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T10:39:55.000Z",
+            "name": "SANJAY",
+            "phone1": 9798924853,
+            "phone2": 9334464725,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Jharkhand",
+            "type": [
+                "Refil"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -2046,6 +2170,56 @@
             "verifiedBy": "Disha Jariwala"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "REFILL",
+            "companyName": "--",
+            "createdTime": "2021-04-25T10:43:58.000Z",
+            "description": "OXYGEN",
+            "district": "Ranchi",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recRRrdfxMUuxPRjm",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T10:43:58.000Z",
+            "name": "PRATAP SINGH",
+            "phone1": 8409577669,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Jharkhand",
+            "type": [
+                "Refil"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "switched off",
+            "companyName": null,
+            "createdTime": "2021-04-25T10:16:21.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recS0YYprxEeWYeIy",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T10:16:21.000Z",
+            "name": "Balaji surgical",
+            "phone1": 9651494145,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "switched off",
@@ -2228,6 +2402,34 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": "CYLINDER AND  REFILL",
+            "companyName": null,
+            "createdTime": "2021-04-25T10:38:06.000Z",
+            "description": "CYLINDER  ",
+            "district": "Ranchi",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recTGOkhzwR8tJPmm",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T10:38:06.000Z",
+            "name": "TULIKA BURMAN",
+            "phone1": 7295949177,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Jharkhand",
+            "type": [
+                "Cylinder",
+                "Refil"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -2951,6 +3153,29 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "unreachable",
+            "companyName": null,
+            "createdTime": "2021-04-25T10:10:40.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recckRQOHkoBB2wvC",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T10:13:07.000Z",
+            "name": "Channi Lal Chauraha",
+            "phone1": 9559694440,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,
@@ -4303,6 +4528,34 @@
         {
             "availability": "Available",
             "city": null,
+            "comment": "CYLINDER ",
+            "companyName": "---",
+            "createdTime": "2021-04-25T10:36:08.000Z",
+            "description": "PICKUP",
+            "district": "Ranchi",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recvZPQExM6fRfedS",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T10:36:08.000Z",
+            "name": "SUNIL SINGH",
+            "phone1": 9006749157,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Jharkhand",
+            "type": [
+                "Cylinder",
+                "Refil"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
+            "city": null,
             "comment": "Refill only, need to bring your own cylinders\n",
             "companyName": "Shifa Hospital Bank\n",
             "createdTime": "2021-04-19T09:59:46.000Z",
@@ -4324,6 +4577,32 @@
             ],
             "verificationStatus": "Verified",
             "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "no supply as of now",
+            "companyName": null,
+            "createdTime": "2021-04-25T10:30:49.000Z",
+            "description": null,
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recw0fWYI5USlssNz",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T10:30:49.000Z",
+            "name": "Oxygen",
+            "phone1": 9170818858,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": [
+                "Refil",
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": null,

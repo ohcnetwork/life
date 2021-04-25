@@ -997,7 +997,7 @@
             "hospitals": false,
             "id": "rec7a2JcBVn7XwoQL",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Jharkhand"
         },
@@ -2687,7 +2687,7 @@
             "hospitals": false,
             "id": "recMXux7OskjzCkB6",
             "medicine": false,
-            "oxygen": false,
+            "oxygen": true,
             "plasma": false,
             "state": "Jharkhand"
         },
