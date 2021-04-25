@@ -16,7 +16,7 @@ export default {
     a32: `Do file an issue at`,
     a33: `if you have feedbacks / want to report a bug.`,
     q4: `Who are you?`,
-    a4: `                    We are a group of dedicated volunteers who curate and verify the data coming
+    a4: `We are a group of dedicated volunteers who curate and verify the data coming
   from several sources. CovidFYI - aggregates covid resources in the form of a
   directory repository to help people looking for information. We never collect or
   expose any personally identifiable data regarding the patients. We do not do
@@ -45,11 +45,11 @@ export default {
     a8: `Recommend you to read this before adding data Tips on how to share COVID
   resources online`,
     q9: `Have bulk verified data?`,
-    a9: `                    In case you want to add data in bulk, in excel format, and you are not
+    a9: `In case you want to add data in bulk, in excel format, and you are not
   comfortable with airtable, send it to us in google sheet or excel format on`,
     a91: `or reach out to us anywhere. Join our team to add information.`,
     q10: `Are you a similar initiative like ours? Or know one?`,
-    a10: `                    Run by your company, friends, college, on social media that have similar data.
+    a10: `Run by your company, friends, college, on social media that have similar data.
   Reach out to them, talk about us. Earnest request to get other initiatives to
   collaborate as consolidation is important in the problem that we are solving. We
   don&#39;t seek credits, we just want this information to reach. Our goal is to
@@ -60,7 +60,7 @@ export default {
     a113: `is a platform created by Swasth Digital Health Foundation (“Swasth”), CovidFYI
   and Coronasafe Network for providing verified crowd sourced emergency services
   for COVID-19 emergencies across India.`,
-    a114: `                All data and information provided in the COVID Information Platform are verified
+    a114: `All data and information provided in the COVID Information Platform are verified
   by a group of volunteers to the best of their abilities and the Organizations
   disclaim all responsibility for any data/information provided on the COVID
   Information Platform. Organizations shall under no circumstances be held liable
