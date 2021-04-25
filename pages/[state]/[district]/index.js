@@ -1,19 +1,28 @@
 import React from 'react';
 import { statePaths, parametreize, humanize, activeDistricts } from '../../../lib/utils';
 import TabLinks from '../../../components/TabLinks';
-import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 import SocialSharing from '../../../components/SocialSharing';
 import { tabsInfo } from '../../../lib/tabs';
+import { useRouter } from 'next/router';
+import { NextSeo } from 'next-seo';
 
 export default function State({ state, district }) {
+    const { asPath } = useRouter();
+    const pageUrl = `https://liferesources.in/${asPath}`;
+    const SEO = {
+        title: `${humanize(district.district)} , ${humanize(state)} | Coronasafe network`,
+        description: `Covid19 Resources for ${humanize(district.district)} , ${humanize(state)} `,
+        openGraph: {
+            title: `${humanize(district.district)} , ${humanize(state)} | Coronasafe network`,
+            description: `Covid19 Resources for ${humanize(district.district)} , ${humanize(
+                state
+            )} `
+        }
+    };
     return (
         <section className="md:pt-10">
-            <Head>
-                <title>
-                    {humanize(district.district)} , {humanize(state)} | Coronasafe network
-                </title>
-            </Head>
+            <NextSeo {...SEO} />
             <Breadcumb
                 list={[
                     { href: `/${state}`, name: humanize(state) },
@@ -36,16 +45,10 @@ export default function State({ state, district }) {
                     </div>
                 </section>
                 <SocialSharing
-                    url={`https://life.coronasafe.network/${state}/${district.district.replace(
-                        ' ',
-                        '_'
-                    )}`}
+                    url={pageUrl}
                     twitterText={`Covid-19 Resources for ${humanize(district.district)}, ${humanize(
                         state
-                    )} https://life.coronasafe.network/${state}/${district.district.replace(
-                        ' ',
-                        '_'
-                    )}`}
+                    )} ${pageUrl}`}
                 />
             </div>
         </section>

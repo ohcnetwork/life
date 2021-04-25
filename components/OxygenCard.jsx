@@ -32,7 +32,7 @@ const OxygenCard = ({
                             {name}
                             <span>
                                 {verifiedStatus &&
-                                    verifiedStatus.toLocaleLowerCase() == 'verified' ? (
+                                verifiedStatus.toLocaleLowerCase() == 'verified' ? (
                                     <FontAwesomeIcon
                                         className="text-green-600 w-5 ml-4"
                                         title="Verified"
@@ -84,7 +84,7 @@ const OxygenCard = ({
                     )}
                 </div>
             </div>
-            <hr />
+            <hr className="dark:border-gray-900" />
             <div className="flex justify-between items-center mx-4 mt-2 pb-3 flex-wrap">
                 <div className="font-semibold dark:text-gray-400">{description}</div>
                 <div className="font-mono text-gray-700 text-sm dark:text-gray-400">

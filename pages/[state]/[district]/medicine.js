@@ -1,29 +1,28 @@
 import React from 'react';
 import { medicineByDistrict } from '../../../lib/api';
 import { statePaths, humanize } from '../../../lib/utils';
-import Head from 'next/head';
 import Breadcumb from '../../../components/Breadcumb';
 import MedicinesCard from '../../../components/MedicinesCard';
+import { NextSeo } from 'next-seo';
 
 export const config = { amp: true };
 export default function Medicine({ state, district, medicineByDistrict }) {
-    console.log(JSON.stringify({ items: medicineByDistrict }).toString());
+    const SEO = {
+        title: `Medicines in ${humanize(district)} , ${humanize(state)}`,
+        description: `Covid19 Resources for Medicines in ${humanize(district)} , ${humanize(
+            state
+        )} } `,
+        openGraph: {
+            title: `Medicines in ${humanize(district)} , ${humanize(state)}`,
+            description: `Covid19 Resources for Medicines in ${humanize(district)} , ${humanize(
+                state
+            )} } `
+        }
+    };
     return (
         <div>
+            <NextSeo {...SEO} />
             <section className="flex flex-col ml-2 md:pt-10">
-                <Head>
-                    <title>
-                        Medicines in {humanize(district)} , {humanize(state)}
-                    </title>
-                    <script
-                        async
-                        custom-element="amp-bind"
-                        src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
-                    <script
-                        async
-                        custom-element="amp-list"
-                        src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
-                </Head>
                 <Breadcumb
                     list={[
                         { href: `/${state}`, name: humanize(state) },

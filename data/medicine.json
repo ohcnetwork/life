@@ -4304,7 +4304,7 @@
         {
             "address": "440/8INDIRA COLONY, KURUKSHETRAMAYA COMPLEX, NEAR ANKUR NURSING\nHOME,KURUKSHETRA,136118",
             "city": null,
-            "comment": "Ringing, no one picking up",
+            "comment": "Not Available \nRinging, no one picking up",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -4312,12 +4312,12 @@
             "district": "Kurukshetra",
             "emailId": "ajay.radhakishan@gmail.com",
             "id": "recVv8rhTuWO3HBjN",
-            "lastVerifiedOn": "2021-04-23T12:57:27.000Z",
+            "lastVerifiedOn": "2021-04-24T08:35:18.000Z",
             "phone1": "9812026380",
             "priceCheck": null,
             "source": null,
             "state": "Haryana",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -5943,7 +5943,7 @@
         {
             "address": "A-7, 2nd FloorMayapuri, Industrial AreaPhase-IITal . Hari Nagar 28,NEW\nDELHI,110064",
             "city": "Delhi",
-            "comment": "Busy",
+            "comment": "Not Available \nBusy",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -5951,12 +5951,12 @@
             "district": "New Delhi",
             "emailId": "delhi@novacare.in",
             "id": "recfFxFIllrgI2WDl",
-            "lastVerifiedOn": "2021-04-23T07:19:18.000Z",
+            "lastVerifiedOn": "2021-04-24T08:37:50.000Z",
             "phone1": "8860074107",
             "priceCheck": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -6478,7 +6478,7 @@
         {
             "address": "MCB-Z1-10430 Near Kesri DrycleanerGandhi MarketBathinda,Bathinda,151001",
             "city": null,
-            "comment": null,
+            "comment": "Not Available ",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -6486,15 +6486,13 @@
             "district": "Bathinda",
             "emailId": "garg@gargpharma.com",
             "id": "rechlSqJDJo8xTb3m",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-24T08:40:30.000Z",
             "phone1": "0164-2235902",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": null,
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Verified",
+            "verifiedBy": "MANISH NAYYAR"
         },
         {
             "address": "Door No.152/1JAYANAGAR COLONYNEAR BAIRAGIPATTEDA\nPARK,TIRUPATHI,517501",
@@ -7308,7 +7306,7 @@
         {
             "address": "4, CITY CENTEROPP. UNION BANK OF INDIASILVASSA,SILVASSA,396230",
             "city": null,
-            "comment": "Busy",
+            "comment": "Not Available \nBusy",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
@@ -7316,12 +7314,12 @@
             "district": "Dadra & Nagar Haveli",
             "emailId": "lifeline.silvassa@gmail.com",
             "id": "recoZvcgM65IhTpmv",
-            "lastVerifiedOn": "2021-04-23T07:21:13.000Z",
+            "lastVerifiedOn": "2021-04-24T08:34:20.000Z",
             "phone1": "9825085033",
             "priceCheck": null,
             "source": null,
             "state": "Dadra and Nagar Haveli and Daman & Diu (UT)",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
