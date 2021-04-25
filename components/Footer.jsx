@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import { faHeart, faHandsHelping } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
     return (
         <footer className="bg-gray-200 dark:bg-gray-1200 absolute top-full left-0 w-full py-10">
@@ -7,8 +9,15 @@ const Footer = () => {
                 <Link href="/data">
                     <button
                         type="button"
-                        className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        className="flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                         Contribute Verified Data
+                    </button>
+                </Link>
+                <Link href="/campaigns">
+                    <button
+                        type="button"
+                        className="flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        Support
                     </button>
                 </Link>
             </section>
@@ -60,7 +69,7 @@ const Footer = () => {
                         </Link>
                     </div>
                     <div className="px-5 py-2">
-                        <Link href="https://github.com/coronasafe/life">
+                        <Link href="/about">
                             <span className="text-base text-gray-700 hover:text-indigo-600 cursor-pointer dark:text-primary-200">
                                 About
                             </span>

@@ -2,212 +2,307 @@
     "data": [
         {
             "city": "Ahmedabad",
-            "createdTime": "2021-04-19T09:42:08.000Z",
+            "comment": null,
             "description": "Plasma Banks",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "rec0abKDdMmqa08r4",
+            "lastVerifiedOn": null,
             "name": "Prajesh Bharwad",
             "phone1": "9724304143",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Gujarat"
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": "Ahmedabad",
-            "createdTime": "2021-04-19T09:42:08.000Z",
+            "comment": null,
             "description": "Plasma Banks",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "rec1shEfeQQ7yt09Q",
+            "lastVerifiedOn": null,
             "name": "Vijay Bhai",
             "phone1": "9898102029",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Gujarat"
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": "Ahmedabad",
-            "createdTime": "2021-04-19T09:42:08.000Z",
+            "comment": null,
             "description": "Plasma Banks",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "rec2uzShPoIcirZ6h",
+            "lastVerifiedOn": null,
             "name": "Whitecross Blood Bank",
             "phone1": "8866304644",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Gujarat"
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": "Varanasi",
-            "createdTime": "2021-04-19T09:39:46.000Z",
+            "comment": null,
             "description": null,
             "district": "Varanasi",
             "id": "rec8FbXR3Lo1KL2J9",
+            "lastVerifiedOn": null,
             "name": "Shipra Gandhi",
             "phone1": "7995204721",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Uttar Pradesh"
+            "state": "Uttar Pradesh",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": "Ahmedabad",
-            "createdTime": "2021-04-19T09:42:08.000Z",
+            "comment": null,
             "description": "Plasma Banks",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recAB0HGWDRpFydib",
+            "lastVerifiedOn": null,
             "name": "Pruthvish Pandya",
             "phone1": "9377406999",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Gujarat"
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": "Ahmedabad",
-            "createdTime": "2021-04-19T09:39:46.000Z",
+            "comment": null,
             "description": "Plasma Banks",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recBHEfkyj46o1e51",
+            "lastVerifiedOn": null,
             "name": "Janak bhai Thakkar",
             "phone1": "9925733531",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Gujarat"
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": "Ahmedabad",
-            "createdTime": "2021-04-19T09:42:08.000Z",
+            "comment": null,
             "description": "Plasma Banks",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recCFCJGhNg26jWT4",
+            "lastVerifiedOn": null,
             "name": "Bhavik Raj Purohit",
             "phone1": "8153830226",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Gujarat"
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": "Ahmedabad",
-            "createdTime": "2021-04-19T09:42:08.000Z",
+            "comment": null,
             "description": "Plasma Banks",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recFZ4WMgCUsYYTJG",
+            "lastVerifiedOn": null,
             "name": "Shiv Thakkar",
             "phone1": "8140001795",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Gujarat"
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": "Ahmedabad",
-            "createdTime": "2021-04-19T09:42:08.000Z",
+            "comment": null,
             "description": "Plasma",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recL54ofhvOicoxEC",
+            "lastVerifiedOn": null,
             "name": "Unknown ",
             "phone1": "9408543983",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Gujarat"
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": null,
-            "createdTime": "2021-04-22T12:24:00.000Z",
+            "comment": null,
             "description": "Plasma Banks",
             "district": "New Delhi",
             "id": "recQ9BMLpRmFHVfX8",
+            "lastVerifiedOn": null,
             "name": "ILBS Plasma",
             "phone1": "8448884344",
             "sourceLink": "Facebook, cant share link",
-            "state": "Delhi (NCT)"
+            "state": "Delhi (NCT)",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": null,
-            "createdTime": "2021-04-23T19:32:58.000Z",
+            "comment": null,
             "description": null,
             "district": "Khargone",
             "id": "recbEqD3NSjweQmlf",
+            "lastVerifiedOn": null,
             "name": null,
             "phone1": "7024509977",
             "sourceLink": "https://twitter.com/PuneetVuneet/status/1385454679144816642?s=19",
-            "state": "Madhya Pradesh"
+            "state": "Madhya Pradesh",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": "Ahmedabad",
-            "createdTime": "2021-04-19T09:42:08.000Z",
+            "comment": null,
             "description": "Plasma Banks",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "reccOHeXotJjMMu88",
+            "lastVerifiedOn": null,
             "name": "Hiteshbhai Thakkar",
             "phone1": "9879123774",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Gujarat"
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": null,
-            "createdTime": "2021-04-23T19:25:39.000Z",
+            "comment": null,
             "description": null,
             "district": "Ghaziabad",
             "id": "receYgrfcn3GDE3Qx",
+            "lastVerifiedOn": null,
             "name": "Plasma Arranger",
             "phone1": "8595452014",
             "sourceLink": null,
-            "state": "Uttar Pradesh"
+            "state": "Uttar Pradesh",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": "Ahmedabad",
-            "createdTime": "2021-04-19T09:42:20.000Z",
+            "comment": null,
             "description": "Plasma",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recfmhWnXlmYnUDVL",
+            "lastVerifiedOn": null,
             "name": "Shipra Gandhi",
             "phone1": "7995204721",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Gujarat"
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": "Ahmedabad",
-            "createdTime": "2021-04-19T09:39:46.000Z",
+            "comment": null,
             "description": "Plasma Banks",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "reciMOak0iizOXArO",
+            "lastVerifiedOn": null,
             "name": "*unknown*",
             "phone1": "9408543983",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Gujarat"
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": "Ahmedabad",
-            "createdTime": "2021-04-19T09:42:08.000Z",
+            "comment": null,
             "description": "Plasma Banks",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "recj4CcBOA9XU9NXd",
+            "lastVerifiedOn": null,
             "name": "Zalak Vasavda",
             "phone1": "7600233746",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Gujarat"
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": null,
-            "createdTime": "2021-04-23T17:41:20.000Z",
+            "comment": null,
             "description": null,
             "district": "Kolkata",
             "id": "recjMo4Aa1hfsXn49",
+            "lastVerifiedOn": null,
             "name": "https://indiaplasmadonor.com/",
             "phone1": null,
             "sourceLink": "https://indiaplasmadonor.com/",
-            "state": "West Bengal"
+            "state": "West Bengal",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": "Ahmedabad",
-            "createdTime": "2021-04-19T09:42:08.000Z",
+            "comment": null,
             "description": "Plasma Banks",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "rectcHrHLVYcHwZsg",
+            "lastVerifiedOn": null,
             "name": "Sudhir bhai Thakkar",
             "phone1": "9825622181",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Gujarat"
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "city": "Ahmedabad",
-            "createdTime": "2021-04-19T09:42:08.000Z",
+            "comment": null,
             "description": "Plasma Banks",
-            "district": "Ahmedabad",
+            "district": "Ludhiana",
             "id": "reczqhBIFW3a5RQ1k",
+            "lastVerifiedOn": null,
             "name": "Nirav Patel-Sanjeevani Blood Bank",
             "phone1": "9426871496",
             "sourceLink": "https://docs.google.com/spreadsheets/d/18sdw0j4-mDr3T-nlBROl3hIwJQta88h16OVbl-zCpQ4/edit#gid=823633222",
-            "state": "Gujarat"
+            "state": "Punjab",
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         }
     ]
 }
