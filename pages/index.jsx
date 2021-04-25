@@ -10,7 +10,6 @@ import { tabsInfo } from '@lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar, faMedkit } from '@fortawesome/free-solid-svg-icons';
 
-
 let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 
 export default function Home() {
@@ -45,7 +44,7 @@ export default function Home() {
                         );
                     })}
                 </div>
-               <div className="flex space-x-3">
+                <div className="flex space-x-3">
                     <a href="https://www.covid19india.org/">
                         <button
                             type="button"
@@ -58,7 +57,7 @@ export default function Home() {
                             Covid19 Statistics
                         </button>
                     </a>
-                    <a href="/oxygen_requirements">
+                    {/* <a href="/oxygen_requirements">
                         <button
                             type="button"
                             className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
@@ -69,7 +68,7 @@ export default function Home() {
                             />
                             Oxygen Requirements
                         </button>
-                    </a>
+                    </a> */}
                 </div>
             </section>
         </div>
