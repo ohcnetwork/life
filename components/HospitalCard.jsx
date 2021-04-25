@@ -1,6 +1,6 @@
 import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import { faPhoneAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faPhoneAlt, faMapMarkerAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isVerified, parseDateString } from '@lib/utils';
 import Badge from './Badge';
@@ -12,6 +12,9 @@ const HospitalCard = ({
     pointOfContact,
     createdTime,
     phone1,
+    phone2,
+    email1,
+    email2,
     district,
     state,
     verificationStatus,
@@ -19,9 +22,8 @@ const HospitalCard = ({
 }) => {
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
-    const copyText = `Name: ${
-        name ? name : 'Hospital'
-    } \nContact: ${phone1}  More Info: ${pageUrl}`;
+    const copyText = `Name: ${name ? name : 'Hospital'
+        } \nContact: ${phone1}  More Info: ${pageUrl}`;
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="w-full flex items-center pt-2">
@@ -44,18 +46,32 @@ const HospitalCard = ({
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col items-start">
+                <div className="flex flex-col items-start sm:items-end">
                     {phone1 && (
-                        <a
+                        <span
                             className="flex items-center text-gray-800 hover:text-gray-900 dark:text-white text-lg font-bold"
-                            href={`tel:${phone1}`}>
+                        >
                             <FontAwesomeIcon
-                                title={`${phone1}`}
                                 className="w-4"
                                 icon={faPhoneAlt}
                             />
-                            <span className="ml-2">{phone1}</span>
-                        </a>
+                            <a className="ml-2" href={`tel:${phone1}`}>{phone1}</a>
+                            <a className="ml-2" href={`tel:${phone2}`}>{phone2}</a>
+                        </span>
+                    )}
+                    {email1 && (
+                        <span
+                            className="flex items-center font-bold text-lg text-gray-700 dark:text-white mt-0 hover:text-gray-900"
+                            target="_blank"
+                        >
+                            <FontAwesomeIcon title={`${email1}`} className="w-4" icon={faEnvelope} />
+                            <a className="ml-2 text-lg" href={`mailto:${email1}`}>
+                                {email2 ? "Email1" : "Email"}
+                            </a>
+                            {email2 && <a className="ml-2 text-lg" href={`mailto:${email2}`}>
+                                Email2
+                            </a>}
+                        </span>
                     )}
                     <Badge badgeType={verificationStatus || 'unverified'} />
                 </div>
