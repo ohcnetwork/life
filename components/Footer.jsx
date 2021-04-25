@@ -40,7 +40,7 @@ const Footer = () => {
             <section className="flex flex-wrap justify-center">
                 {buttonArr.map((el) => (
                     <a
-                        key={el.text}
+                        key={el.link}
                         href={el.link}
                         className="flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 my-2 md:my-0">
                         <FontAwesomeIcon icon={el.icon} className="w-3 mr-2" />
@@ -82,7 +82,7 @@ const Footer = () => {
                 </p>
                 <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
                     {socialArr.map((el) => (
-                        <div className="px-5 py-2" key={el.text}>
+                        <div className="px-5 py-2" key={el.link}>
                             <a href={el.link}>
                                 <span className="text-base text-gray-700 hover:text-indigo-600 cursor-pointer dark:text-primary-200">
                                     {el.text}

@@ -1958,6 +1958,31 @@
         {
             "availability": null,
             "city": null,
+            "comment": "will have by tomorrow",
+            "companyName": null,
+            "createdTime": "2021-04-25T12:25:10.000Z",
+            "description": null,
+            "district": "Bhopal",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recOIueeXtkNfat6G",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T12:25:10.000Z",
+            "name": "oxygen cylinder",
+            "phone1": 8319629805,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Madhya Pradesh",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": null,
+            "city": null,
             "comment": "switched off",
             "companyName": null,
             "createdTime": "2021-04-19T09:53:14.000Z",
@@ -3515,6 +3540,29 @@
         {
             "availability": null,
             "city": null,
+            "comment": "switched off",
+            "companyName": null,
+            "createdTime": "2021-04-25T12:19:59.000Z",
+            "description": null,
+            "district": "Bhopal",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recgcvwmq24KDsM1Y",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T12:19:59.000Z",
+            "name": "OP Singh",
+            "phone1": 9425604924,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Madhya Pradesh",
+            "type": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": null,
+            "city": null,
             "comment": null,
             "companyName": null,
             "createdTime": "2021-04-19T09:59:08.000Z",
@@ -4025,6 +4073,31 @@
             "verifiedBy": "sucharu asri"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "has concentrators available",
+            "companyName": null,
+            "createdTime": "2021-04-25T12:23:38.000Z",
+            "description": "oxygen concentrator",
+            "district": "Bhopal",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recpWmixmSI5Nk22T",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T12:23:38.000Z",
+            "name": "Oxygen concentrator",
+            "phone1": 8817169974,
+            "phone2": null,
+            "sourceLink": "twitter",
+            "sourceName": null,
+            "state": "Madhya Pradesh",
+            "type": [
+                "Concentrator"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": "Nidhi Rungta"
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "busy",
@@ -4046,6 +4119,33 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Urja Khandhediya"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": "Pre booking with 50%  advance ",
+            "companyName": "R&D Impex International",
+            "createdTime": "2021-04-25T11:54:18.000Z",
+            "description": "Home delivery",
+            "district": "Ludhiana",
+            "emailId": null,
+            "homeDeliveryAvailable": "Yes",
+            "id": "recqCslXNaC9dR8K3",
+            "instructions": "Pre booking available ,with 50% advance",
+            "lastVerifiedOn": "2021-04-25T11:54:18.000Z",
+            "name": "R&D Impex International ",
+            "phone1": 918048861379,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "WhatsApp ",
+            "state": "Punjab",
+            "type": [
+                "Concentrator"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,

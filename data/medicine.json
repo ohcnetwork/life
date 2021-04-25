@@ -547,6 +547,25 @@
             "verifiedBy": "MANISH NAYYAR"
         },
         {
+            "address": null,
+            "city": "Kolkata ",
+            "comment": "Will not pick up phones. Drop a text",
+            "contactName": null,
+            "createdTime": "2021-04-25T11:07:20.000Z",
+            "description": null,
+            "district": "Kolkata",
+            "emailId": null,
+            "id": "rec4yySXl3xmcZILv",
+            "lastVerifiedOn": "2021-04-25T11:09:20.000Z",
+            "name": "Saurabh Surana",
+            "phone1": "6291049491",
+            "priceCheck": "Market Priced",
+            "source": "https://www.theuncutteam.com/resources",
+            "state": "West Bengal",
+            "verificationStatus": "Verified",
+            "verifiedBy": "Disha Jariwala"
+        },
+        {
             "address": "12/2856-A/B,SAIYEDPURA,BASEMENT BIBI NI WADI,SURAT,395003",
             "city": "Surat",
             "comment": "Out of stock",
@@ -5632,25 +5651,6 @@
             "verifiedBy": "Mohita Kotkar"
         },
         {
-            "address": "ASHOK NAGARUNIT 2CAPITALBHUBANESWAR,BHUBANESWAR,751009",
-            "city": null,
-            "comment": null,
-            "contactName": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "description": "Remdesivir distribution list",
-            "district": "Kolkata",
-            "emailId": null,
-            "id": "recib5SMVpwqy3u8c",
-            "lastVerifiedOn": "2021-04-22T08:08:50.000Z",
-            "name": "ADELINE PHARMA PVT LTD APOLLO",
-            "phone1": "0674-2951213",
-            "priceCheck": null,
-            "source": null,
-            "state": "West Bengal",
-            "verificationStatus": "Unresponsive",
-            "verifiedBy": "Dr. Pallabi Roy"
-        },
-        {
             "address": "1ST FLOOR, A WING, SHREE SAI TOWER,BORIVALI ( WEST )SODAWALA\nLANE,NEAR OM SAI HOSPITAL,,MUMBAI,400092",
             "city": null,
             "comment": null,
@@ -7185,25 +7185,6 @@
             "verifiedBy": [
                 {}
             ]
-        },
-        {
-            "address": "ASHOK NAGARUNIT 2CAPITALBHUBANESWAR,BHUBANESWAR,751009",
-            "city": null,
-            "comment": null,
-            "contactName": null,
-            "createdTime": "2021-04-19T07:48:08.000Z",
-            "description": "Remdesivir distribution list",
-            "district": "Kolkata",
-            "emailId": null,
-            "id": "recuWuWTqj81YxpG5",
-            "lastVerifiedOn": "2021-04-22T08:10:30.000Z",
-            "name": "ADELINE PHARMA PVT LTD APOLLO",
-            "phone1": "0674-2951213",
-            "priceCheck": null,
-            "source": null,
-            "state": "West Bengal",
-            "verificationStatus": "Unresponsive",
-            "verifiedBy": "Dr. Pallabi Roy"
         },
         {
             "address": "729/3/4 CHATRAPATI COLONYKURDUWADI ROADBARSHIDIST\nSOLAPUR,BARSHI,413401",

@@ -40,11 +40,23 @@ function OxygenCard({ data }) {
                     {' '}
                     {data.govtOrNonGovt || 'Govt'}
                 </div>
-                <div>
+                <div className="ml-auto">
                     <SocialSharing
-                        url={'pageUrl'}
-                        twitterText={` More Info: ${'pageUrl'}`}
-                        copyText={'copyText'}
+                        url={'https://life.coronasafe.network/oxygen_requirements'}
+                        twitterText={` More Info: https://life.coronasafe.network/oxygen_requirements`}
+                        copyText={`
+                                    Name: ${data.name}
+                                    State: ${data.state}
+                                    District: ${data.district}
+                                    Patients served perday: ~${data.approximatePatientsServedPerDay}
+                                    Hign flow oxygen required: ${data.highFlowOxygenConcentratorsRequired}
+                                    Low flow oxygen required: ${data.lowFlowOxygenConcentratorsRequired}
+                                    PPE kits required: ${data.ppeKitsRequired}
+                                    Remesivir required: ${data.remdesivirRequired}
+                                    Tocilizumab required: ${data.tocilizumabRequired}
+                                    Favipiravir required: ${data.favipiravirRequired}
+                                    Other items required: ${data.otherItemsRequired}
+                                    `}
                     />
                 </div>
             </div>

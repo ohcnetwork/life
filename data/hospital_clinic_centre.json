@@ -3669,27 +3669,6 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "availability": null,
-            "comment": "User Busy",
-            "createdTime": "2021-04-23T17:13:24.000Z",
-            "district": "New Delhi",
-            "email1": "kushagrajain108@gmail.com",
-            "email2": null,
-            "id": "recYOfl9TMFd90Uew",
-            "lastVerifiedOn": "2021-04-24T10:57:31.000Z",
-            "name": "MAX hospital delhi",
-            "phone1": 9810025403,
-            "phone2": 919810425403,
-            "pointOfContact": "Kuntal jain",
-            "state": "Delhi (NCT)",
-            "subCategory": null,
-            "totalBedsAvailable": null,
-            "typeOfBedAvailable": null,
-            "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
-            "verifiedBy": "Varun Kumar"
-        },
-        {
             "availability": "Available",
             "comment": "Taking only emergency and serious patients\nHave their own oxygen plant ",
             "createdTime": "2021-04-24T13:22:14.000Z",
@@ -4306,6 +4285,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": null,
+            "comment": "Busy. Try again.",
+            "createdTime": "2021-04-25T11:06:34.000Z",
+            "district": "Ludhiana",
+            "email1": null,
+            "email2": null,
+            "id": "recbH7yUaJDn5ByYj",
+            "lastVerifiedOn": null,
+            "name": "CMC",
+            "phone1": 9878747783,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Punjab",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": null,
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -6415,6 +6417,27 @@
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": "Not Available",
+            "comment": "All beds full. Railway employees only",
+            "createdTime": "2021-04-25T12:55:21.000Z",
+            "district": "Jaipur",
+            "email1": null,
+            "email2": null,
+            "id": "recpUQJvvuiH94lhZ",
+            "lastVerifiedOn": "2021-04-25T12:57:16.000Z",
+            "name": "Railway Hospital Jaipur ",
+            "phone1": 1412223735,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Rajasthan",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Verified",
+            "verifiedBy": "Disha Jariwala"
         },
         {
             "availability": null,

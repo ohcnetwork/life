@@ -27,7 +27,7 @@ function OxygenRequirements({ oxygenReqData }) {
                 <Breadcumb list={[{ href: null, name: 'Oxygen Requirement' }]} />
             </section>
             <section className="flex flex-col items-center space-y-4">
-                {oxygenReqData.map((dt, index) => (
+                {oxygenReqData.map((dt) => (
                     // TODO: replace key with a valid id
                     <OxygenCard key={dt.name + dt.district} data={dt} />
                 ))}
@@ -45,10 +45,3 @@ export async function getStaticProps({ params }) {
         }
     };
 }
-
-// export async function getStaticPaths() {
-//     return {
-//         paths: statePaths('medicine'),
-//         fallback: false
-//     };
-// }
