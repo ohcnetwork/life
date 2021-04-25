@@ -34,9 +34,21 @@ function OxygenRequirements({ oxygenReqData }) {
                         <div className="w-full flex items-center pt-2">
                             <div className="ml-auto">
                                 <SocialSharing
-                                    url={'pageUrl'}
-                                    twitterText={` More Info: ${'pageUrl'}`}
-                                    copyText={'copyText'}
+                                    url={'https://life.coronasafe.network/oxygen_requirements'}
+                                    twitterText={` More Info: https://life.coronasafe.network/oxygen_requirements`}
+                                    copyText={`
+                                    Name: ${dt.name}
+                                    State: ${dt.state}
+                                    District: ${dt.district}
+                                    Patients served perday: ~${dt.approximatePatientsServedPerDay}
+                                    Hign flow oxygen required: ${dt.highFlowOxygenConcentratorsRequired}
+                                    Low flow oxygen required: ${dt.lowFlowOxygenConcentratorsRequired}
+                                    PPE kits required: ${dt.ppeKitsRequired}
+                                    Remesivir required: ${dt.remdesivirRequired}
+                                    Tocilizumab required: ${dt.tocilizumabRequired}
+                                    Favipiravir required: ${dt.favipiravirRequired}
+                                    Other items required: ${dt.otherItemsRequired}
+                                    `}
                                 />
                             </div>
                         </div>
@@ -159,10 +171,3 @@ export async function getStaticProps({ params }) {
         }
     };
 }
-
-// export async function getStaticPaths() {
-//     return {
-//         paths: statePaths('medicine'),
-//         fallback: false
-//     };
-// }
