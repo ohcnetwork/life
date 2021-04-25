@@ -44,6 +44,7 @@ export default function Plasma({ state, district, plasmaListing }) {
                         return (
                             <EntityCard
                                 key={p.id}
+                                id={p.id}
                                 city={p.city}
                                 createdTime={p.createdTime}
                                 description={p.description}
