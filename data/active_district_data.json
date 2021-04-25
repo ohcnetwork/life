@@ -1254,7 +1254,7 @@
             "district": "New Delhi",
             "doctor": false,
             "helpline": true,
-            "hospitals": true,
+            "hospitals": false,
             "id": "rec9amzhpfopyIHTk",
             "medicine": true,
             "oxygen": true,
