@@ -3,7 +3,7 @@ import { hospitalByDistrict } from '@lib/api';
 import { statePaths, humanize } from '@lib/utils';
 import Head from 'next/head';
 import Breadcumb from '@components/Breadcumb';
-import HospitalCard from '@components/HospitalCard';
+import EntityCard from '@components/EntityCard';
 import { NextSeo } from 'next-seo';
 
 export default function Hospitals({ state, district, hospitalByDistrict }) {
@@ -51,7 +51,7 @@ export default function Hospitals({ state, district, hospitalByDistrict }) {
                 <div className="space-y-4 mt-4 max-w-3xl w-full">
                     {hospitalByDistrict.map((p) => {
                         return (
-                            <HospitalCard
+                            <EntityCard
                                 key={p.id}
                                 name={p.name}
                                 pointOfContact={p.pointOfContact}

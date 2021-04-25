@@ -1,7 +1,7 @@
 import React from 'react';
 import { getOxygen } from '@lib/api';
 import { statePaths, humanize } from '@lib/utils';
-import OxygenCard from '@components/OxygenCard';
+import EntityCard from '@components/EntityCard';
 import Breadcumb from '@components/Breadcumb';
 import { NextSeo } from 'next-seo';
 
@@ -43,7 +43,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
                 <div className="w-full mt-4 p-4 space-y-4">
                     {oxygenListing.map((o) => {
                         return (
-                            <OxygenCard
+                            <EntityCard
                                 key={o.id}
                                 name={o.name}
                                 company={o.companyName}
@@ -51,9 +51,9 @@ export default function Oxygen({ state, district, oxygenListing }) {
                                 phone2={o.phone2}
                                 description={o.description}
                                 source={o.sourceName}
-                                slink={o.sourceLink}
-                                fstate={state}
-                                fdistrict={district}
+                                sourceLink={o.sourceLink}
+                                state={state}
+                                district={district}
                                 createdTime={o.createdTime}
                                 verificationStatus={o.verificationStatus}
                                 lastVerifiedOn={o.lastVerifiedOn}

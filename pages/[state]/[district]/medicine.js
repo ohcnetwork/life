@@ -2,7 +2,7 @@ import React from 'react';
 import { medicineByDistrict } from '@lib/api';
 import { statePaths, humanize } from '@lib/utils';
 import Breadcumb from '@components/Breadcumb';
-import MedicinesCard from '@components/MedicinesCard';
+import EntityCard from '@components/EntityCard';
 import { NextSeo } from 'next-seo';
 
 export default function Medicine({ state, district, medicineByDistrict }) {
@@ -45,7 +45,7 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                 <div className="w-full space-y-4 mt-4 mb-4">
                     {medicineByDistrict.map((p) => {
                         return (
-                            <MedicinesCard
+                            <EntityCard
                                 key={p.id}
                                 verificationStatus={p.verificationStatus}
                                 name={p.name}
@@ -54,7 +54,7 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                                 address={p.address}
                                 description={p.description}
                                 createdTime={p.createdTime}
-                                slink={p.source_link}
+                                sourceLink={p.source_link}
                                 email={p.emailId}
                                 lastVerifiedOn={p.lastVerifiedOn}
                             />
