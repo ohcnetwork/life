@@ -8,14 +8,12 @@ import { NextSeo } from 'next-seo';
 export default function Oxygen({ state, district, oxygenListing }) {
     const SEO = {
         title: `Oxygen in ${humanize(district)} , ${humanize(state)}`,
-        description: `Covid19 Resources for Oxygen in ${humanize(district)} , ${humanize(
-            state
-        )} } `,
+        description: `Covid19 Resources for Oxygen in ${humanize(district)} , ${humanize(state)}`,
         openGraph: {
             title: `Oxygen in ${humanize(district)} , ${humanize(state)}`,
             description: `Covid19 Resources for Oxygen in ${humanize(district)} , ${humanize(
                 state
-            )} } `
+            )}`
         }
     };
     return (

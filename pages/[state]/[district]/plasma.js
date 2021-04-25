@@ -7,14 +7,12 @@ import { NextSeo } from 'next-seo';
 export default function Plasma({ state, district, plasmaListing }) {
     const SEO = {
         title: `Plasma in ${humanize(district)} , ${humanize(state)}`,
-        description: `Covid19 Resources for Plasma in ${humanize(district)} , ${humanize(
-            state
-        )} } `,
+        description: `Covid19 Resources for Plasma in ${humanize(district)} , ${humanize(state)} `,
         openGraph: {
             title: `Plasma in ${humanize(district)} , ${humanize(state)}`,
             description: `Covid19 Resources for Plasma in ${humanize(district)} , ${humanize(
                 state
-            )} } `
+            )} `
         }
     };
     return (

@@ -10,12 +10,12 @@ export default function Ambulance({ state, district, ambulancesListing }) {
         title: `Ambulance in ${humanize(district)} , ${humanize(state)}`,
         description: `Covid19 Resources for Ambulance in ${humanize(district)} , ${humanize(
             state
-        )} } `,
+        )} `,
         openGraph: {
             title: `Ambulance in ${humanize(district)} , ${humanize(state)}`,
             description: `Covid19 Resources for Ambulance in ${humanize(district)} , ${humanize(
                 state
-            )} } `
+            )}  `
         }
     };
     return (

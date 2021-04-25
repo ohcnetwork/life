@@ -11,12 +11,12 @@ export default function Hospitals({ state, district, hospitalByDistrict }) {
         title: `Hospitals in ${humanize(district)} , ${humanize(state)}`,
         description: `Covid19 Resources for Hospitals in ${humanize(district)} , ${humanize(
             state
-        )} } `,
+        )} `,
         openGraph: {
             title: `Hospitals in ${humanize(district)} , ${humanize(state)}`,
             description: `Covid19 Resources for Hospitals in ${humanize(district)} , ${humanize(
                 state
-            )} } `
+            )} `
         }
     };
     return (

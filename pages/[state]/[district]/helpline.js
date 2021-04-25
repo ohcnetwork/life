@@ -10,12 +10,12 @@ export default function Helpline({ state, district, helplines }) {
         title: `Helpline in ${humanize(district)} , ${humanize(state)}`,
         description: `Covid19 Resources for Helpline in ${humanize(district)} , ${humanize(
             state
-        )} } `,
+        )} `,
         openGraph: {
             title: `Helpline in ${humanize(district)} , ${humanize(state)}`,
             description: `Covid19 Resources for Helpline in ${humanize(district)} , ${humanize(
                 state
-            )} } `
+            )} `
         }
     };
     return (
