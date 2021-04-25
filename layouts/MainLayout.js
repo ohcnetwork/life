@@ -4,8 +4,8 @@ import ThemeButton from '@components/ThemeButton';
 import { LocaleContext } from '@hooks/use-locale-context';
 
 const MainLayout = ({ children }) => {
-    const [locale, setLocale] = useState('EN');
-    const value = { locale, setLocale };
+    const [locale, setBaseLocal] = useState('EN');
+    const value = { locale, setBaseLocal };
     useEffect(() => {
         if (typeof window !== 'undefined') {
             if (
