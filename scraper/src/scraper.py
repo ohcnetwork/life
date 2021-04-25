@@ -173,6 +173,8 @@ def get_hospital_clinic_centre():
                 "pointOfContact": record["fields"].get("pointOfContact"),
                 "phone1": record["fields"].get("phone1"),
                 "phone2": record["fields"].get("phone2"),
+                "email1": record["fields"].get("email1"),
+                "email2": record["fields"].get("email2"),
                 "verificationStatus": record["fields"].get("Latest_Verification_Status"),
                 "lastVerifiedOn": record["fields"].get("Verified_On"),
                 "verifiedBy": record["fields"]["Verified_By"][0].get("name")
@@ -182,6 +184,8 @@ def get_hospital_clinic_centre():
                 "typeOfHospital": record["fields"].get("Type of Hospital"),
                 "subCategory": record["fields"].get("Sub category"),
                 "availability": record["fields"].get("Availability"),
+                "typeOfBedAvailable": record["fields"].get("Type of bed available"),
+                "totalBedsAvailable": record["fields"].get("How many beds available"),
                 "createdTime": record["createdTime"],
             }
         )
