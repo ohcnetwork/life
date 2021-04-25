@@ -4,6 +4,8 @@ import { faLink, faPhoneAlt, faCopy, faMapMarkerAlt } from '@fortawesome/free-so
 import Badge from './Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { isVerified, parseDateString, copyToClipboard } from '../lib/utils';
+import SocialSharing from '../components/SocialSharing';
+import { useRouter } from 'next/router';
 
 const OxygenCard = ({
     name,
@@ -19,24 +21,14 @@ const OxygenCard = ({
     verificationStatus,
     lastVerifiedOn
 }) => {
+    const { asPath } = useRouter();
+    const pageUrl = `https://liferesources.in/${asPath}`;
     return (
         <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="w-full flex items-center pt-2">
-                <span
-                    className="ml-auto w-8 cursor-pointer"
-                    onClick={() => {
-                        copyToClipboard(`
-                                Name: ${name ? name : 'Oxygen'}
-                                Contact: ${phone1}
-                                `);
-                        alert('Copied!');
-                    }}>
-                    <FontAwesomeIcon
-                        className="text-gray-600 mr-4 w-4"
-                        title="Click to Copy"
-                        icon={faCopy}
-                    />
-                </span>
+                <div className="ml-auto">
+                    <SocialSharing url={pageUrl} twitterText={pageUrl} />
+                </div>
             </div>
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
@@ -70,11 +62,7 @@ const OxygenCard = ({
                             className="flex items-center text-gray-700 font-bold text-xl hover:text-gray-900 dark:text-white"
                             target="_blank"
                             href={slink}>
-                            <FontAwesomeIcon
-                                title={`${slink}`}
-                                className="w-4"
-                                icon={faLink}
-                            />
+                            <FontAwesomeIcon title={`${slink}`} className="w-4" icon={faLink} />
                             <span className="ml-2 text-lg mt-1">Source Link</span>
                         </a>
                     )}
