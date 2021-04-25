@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDatabase, faHandsHelping, faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase, faHandsHelping, faHeart, faBookOpen } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
     const buttonArr = [
@@ -16,8 +16,13 @@ const Footer = () => {
             link: '/campaigns'
         },
         {
+            icon: faBookOpen,
+            text: 'Learn',
+            link: '/learn'
+        },
+        {
             icon: faHandsHelping,
-            text: 'Partner with Us',
+            text: 'About',
             link: '/about#partner'
         }
     ];
