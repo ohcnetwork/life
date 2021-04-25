@@ -2,7 +2,7 @@ import React from 'react';
 import { plasmaByDistrict } from '@lib/api';
 import { humanize, statePaths } from '@lib/utils';
 import Breadcumb from '@components/Breadcumb';
-import PlasmaCard from '@components/PlasmaCard';
+import EntityCard from '@components/EntityCard';
 import { NextSeo } from 'next-seo';
 export default function Plasma({ state, district, plasmaListing }) {
     const SEO = {
@@ -42,7 +42,8 @@ export default function Plasma({ state, district, plasmaListing }) {
                 <div className="w-full space-y-4 mt-4 max-w-3xl">
                     {plasmaListing.map((p) => {
                         return (
-                            <PlasmaCard
+                            <EntityCard
+                                key={p.id}
                                 city={p.city}
                                 createdTime={p.createdTime}
                                 description={p.description}

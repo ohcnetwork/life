@@ -1,7 +1,7 @@
 import React from 'react';
 import { getAmbulances } from '@lib/api';
 import { humanize, statePaths } from '@lib/utils';
-import AmbulanceCard from '@components/AmbulanceCard';
+import EntityCard from '@components/EntityCard';
 import Breadcumb from '@components/Breadcumb';
 import { NextSeo } from 'next-seo';
 
@@ -37,28 +37,17 @@ export default function Ambulance({ state, district, ambulancesListing }) {
                 ]}
             />
             <div className="w-full space-y-4 mt-4 mb-4">
-                {ambulancesListing.map(
-                    ({
-                        name,
-                        phone1,
-                        phone2,
-                        area,
-                        source,
-                        id,
-                        createdTime,
-                        verificationStatus,
-                        lastVerifiedOn
-                    }) => (
-                        <AmbulanceCard
-                            key={id}
-                            name={name}
-                            phone1={phone1}
-                            phone2={phone2}
-                            area={area}
-                            source={source}
-                            createdTime={createdTime}
-                            verificationStatus={verificationStatus}
-                            lastVerifiedOn={lastVerifiedOn}
+                {ambulancesListing.map((a) => (
+                        <EntityCard
+                            key={a.id}
+                            name={a.name || 'Ambulance'}
+                            phone1={a.phone1}
+                            phone2={a.phone2}
+                            area={a.area}
+                            source={a.source}
+                            createdTime={a.createdTime}
+                            verificationStatus={a.verificationStatus}
+                            lastVerifiedOn={a.lastVerifiedOn}
                         />
                     )
                 )}

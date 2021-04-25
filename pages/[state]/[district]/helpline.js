@@ -2,7 +2,7 @@ import React from 'react';
 import { helplineByDistrict } from '@lib/api';
 import { statePaths, humanize } from '@lib/utils';
 import Breadcumb from '@components/Breadcumb';
-import HelplineCard from '@components/HelplineCard';
+import EntityCard from '@components/EntityCard';
 import { NextSeo } from 'next-seo';
 
 export default function Helpline({ state, district, helplines }) {
@@ -45,7 +45,7 @@ export default function Helpline({ state, district, helplines }) {
                 <div className="space-y-4 mt-4 max-w-3xl w-full">
                     {helplines.map((p) => {
                         return (
-                            <HelplineCard
+                            <EntityCard
                                 key={p.id}
                                 category={p.category}
                                 createdTime={p.createdTime}
@@ -53,7 +53,7 @@ export default function Helpline({ state, district, helplines }) {
                                 district={p.district}
                                 phone1={p.phone1}
                                 source={p.source}
-                                slink={p.sourceUrl}
+                                sourceLink={p.sourceUrl}
                                 state={p.state}
                                 subCategory={p.subCategory}
                                 lastVerifiedOn={p.lastVerifiedOn}
