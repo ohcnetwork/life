@@ -42,6 +42,17 @@ export default function State({ state, district }) {
                     { href: null, name: humanize(district.district) }
                 ]}
             />
+            <div className="w-full flex items-center pt-2">
+                <div className="mr-auto">
+                    <SocialSharing
+                        shareText={th.share}
+                        url={pageUrl}
+                        twitterText={`Covid-19 Resources for ${humanize(
+                            district.district
+                        )}, ${humanize(state)} ${pageUrl}`}
+                    />
+                </div>
+            </div>
             <div className="w-full mt-2 px-2">
                 <div className="w-full">
                     <div className="mt-4 font-black text-5xl text-gray-900 dark:text-gray-200 py-4">
@@ -57,17 +68,6 @@ export default function State({ state, district }) {
                         <TabLinks tabsInfo={tabsInfo} state={state} district={district} />
                     </div>
                 </section>
-                <div className="w-full flex items-center pt-2">
-                    <div className="mr-auto">
-                        <SocialSharing
-                            shareText={th.share}
-                            url={pageUrl}
-                            twitterText={`Covid-19 Resources for ${humanize(
-                                district.district
-                            )}, ${humanize(state)} ${pageUrl}`}
-                        />
-                    </div>
-                </div>
             </div>
         </section>
     );
