@@ -2091,6 +2091,29 @@
         },
         {
             "availability": null,
+            "comment": "If anyone is Not getting a bed in Pune for treatment on Corona, there is  a well-equipped hospital center of 450 beds has been set up at Wipro's campus at Hinjewadi Phase-1 and it is also completely * free *.  There is oxygen and all kinds of essential medicines with no additional cost.",
+            "createdTime": "2021-04-26T14:28:27.000Z",
+            "district": "Pune",
+            "email1": null,
+            "email2": null,
+            "id": "recJZCtGm71x1AKyk",
+            "lastVerifiedOn": null,
+            "name": "Wipro Covid Hospital",
+            "phone1": 919518593779,
+            "phone2": 919011087560,
+            "pointOfContact": "Rajendra Mohite",
+            "state": "Maharashtra",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
             "comment": "Switched OFF",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bhopal",
