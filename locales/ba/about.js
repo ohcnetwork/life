@@ -51,7 +51,7 @@ export default {
     ক্রেডিট চাই না, আমরা কেবল এই তথ্যটি পৌঁছাতে চাই। আমাদের লক্ষ্য
     সঠিক সময়ে সঠিক লোককে সঠিক তথ্য সরবরাহ করা।`,
     q11: `অস্বীকৃতি`,
-    a112: `কভিড তথ্য প্ল্যাটফর্ম`,
+    a112: `কভিড তথ্য প্ল্যাটফর্ম `,
     a113: ` Swasth Digital Health Foundation (“Swasth”) দ্বারা নির্মিত একটি প্ল্যাটফর্ম, CovidFYI
   and Coronasafe Network for providing verified crowd sourced emergency services
   for COVID-19 emergencies across India.`,
