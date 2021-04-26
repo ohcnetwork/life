@@ -4,11 +4,11 @@ export default [
         code: 'EN'
     },
     {
-        name: 'Hindi',
+        name: 'हिंदी',
         code: 'HI'
     },
     {
-        name: 'Marathi',
+        name: 'मराठी',
         code: 'MR'
     }
 ];

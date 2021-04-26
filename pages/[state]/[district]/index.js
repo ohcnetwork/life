@@ -7,7 +7,12 @@ import { tabsInfo } from '@lib/tabs';
 import { useRouter } from 'next/router';
 import { NextSeo } from 'next-seo';
 
+import useLocale from '@hooks/use-locale';
+import { useLocaleContext } from '@hooks/use-locale-context';
+
 export default function State({ state, district }) {
+    const { locale } = useLocaleContext();
+    const th = useLocale(locale).state;
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
     const SEO = {
@@ -55,6 +60,7 @@ export default function State({ state, district }) {
                 <div className="w-full flex items-center pt-2">
                     <div className="mr-auto">
                         <SocialSharing
+                            shareText={th.share}
                             url={pageUrl}
                             twitterText={`Covid-19 Resources for ${humanize(
                                 district.district
