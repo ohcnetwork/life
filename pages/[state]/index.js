@@ -83,7 +83,7 @@ export default function State({ state }) {
                                             f.district
                                         )}`}>
                                         <a>
-                                            <span className="font-semibold text-2xl md:text-4xl py-6 hover:underline cursor-pointer dark:text-gray-200">
+                                            <span className="font-semibold text-2xl md:text-4xl py-6 cursor-pointer dark:text-gray-200">
                                                 {humanize(f.district)}
                                             </span>
                                         </a>
