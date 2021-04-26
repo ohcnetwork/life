@@ -23,18 +23,15 @@ export default {
     1-অন -1 কেস পরিচালনা করা। এটি সহযোগিতার একটি পণ্য - কোভিডফেই, এ
     স্টোথোন স্বেচ্ছাসেবক, পিআইআইন্ডিয়া সহ করোনাসাফের সমর্থনযুক্ত স্বস্ত উদ্যোগ,
     চিকিত্সা সহায়তা গোষ্ঠী, ভারতীয় হেল্পলাইন, আইআইএম-কে সম্প্রদায় সমর্থন (আরও অনেক)।`,
-    q5: `How often do you verify your information?`,
-    a5: `We verify information periodically, however, due to the size of data, please
-  accept our apologies in case you do not find what you were looking for. We will
-  continue to add, verify, clean the data. Since we are only as good as the data
-  hope we are able to save lives. Look forward to your support. Thanks to
-  everyone, wouldn't have been possible without you all.`,
-    q6: `Why are you guys putting in time and resources to do this while not gaining a
-  single penny from it?`,
-    a6: `We believe in the true spirit of collaboration, crowdsourcing, the
-  democratization of data, and volunteering. Please support us to save lives! Join
-  us.`,
-    q7: `How can you volunteer with us?`,
+    q5: `আপনি কতবার আপনার তথ্য যাচাই করেন?`,
+    a5: `আমরা পর্যায়ক্রমে তথ্য যাচাই করি। আমাদের স্বেচ্ছাসেবীরা
+    ডেটা যুক্ত করবে, যাচাই করবে, পরিষ্কার করবে। যেহেতু আমরা কেবল তথ্যের মতোই ভাল,
+    আশা করি আমরা জীবন বাঁচাতে পারব আপনার সমর্থনের জন্য উন্মুখ আপনারা সবাই না থাকলে সম্ভব হত না। আপনাদের সকলকে অনেক অনেক ধন্যবাদ।`,
+    q6: `আপনি এ থেকে কোনও লাভ পাচ্ছেন না, আপনি এটি করছেন কেন?`,
+    a6: `আমরা সহযোগিতা, ভিড়সোর্সিংয়ের সত্যিকার চেতনায় বিশ্বাসী
+    ডেটা গণতন্ত্রকরণ, এবং স্বেচ্ছাসেবক। জীবন বাঁচাতে আমাদের সমর্থন করুন! যোগ দিন
+    আমাদের সাথে!`,
+    q7: `আপনি কীভাবে আমাদের সাথে স্বেচ্ছাসেবক হিসাবে কাজ করতে পারেন?`,
     a7: ` Add verified data (that doesn't already exist) Verify existing data and
   update verification status Help people 1-1 on other platforms by sharing
   contact/links from covidfyi Innovate on product related ideas Handle social
