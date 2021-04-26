@@ -22,7 +22,9 @@ function AboutQA({ question, answer }) {
                     />
                 )}
             </div>
-            {open && <div className="text-sm text-gray-800 px-8 mt-3">{answer}</div>}
+            {open && (
+                <div className="text-sm text-gray-800 px-8 mt-3">{answer.map((ans) => ans)}</div>
+            )}
         </div>
     );
 }

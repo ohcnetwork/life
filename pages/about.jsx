@@ -19,40 +19,46 @@ const About = () => {
             </div>
 
             <div className="py-10 dark:text-gray-500 text-gray-900 dark font-bold px-2">
-                <AboutQA question="Who are you?" answer="I am me" />
                 <h1 className={h1Class}>{t.head}</h1>
-                <h2 className={h2Class}>{t.q1}</h2>
-                <p className={pClass}>{t.a1}</p>
-                <h2 className={h2Class}>{t.q2} </h2>
-                <p className={pClass}>{t.a21}</p>
-                <p className={pClass}>
-                    {t.a22}
-                    <a className={aClass} href="https://life-api.coronasafe.network/">
-                        life-api.coronasafe.network
-                    </a>{' '}
-                    {t.a23}
-                </p>
-                <h2 className={h2Class}>{t.q3}</h2>
-                <p className={pClass}>
-                    {t.a31}
-                    <a className={aClass} href="https://life-api.coronasafe.network/">
-                        {' '}
-                        API
-                    </a>
-                </p>
-                <p className={pClass}>
-                    {t.a32}
-                    <a className={aClass} href="https://github.com/coronasafe/life/">
-                        Github
-                    </a>{' '}
-                    {t.a33}
-                </p>
-                <h2 className={h2Class}>{t.q4}</h2>
-                <p className={pClass}>{t.a4}</p>
-                <h2 className={h2Class}>{t.q5}</h2>
-                <p className={pClass}>{t.a5}</p>
-                <h2 className={h2Class}>{t.q6}</h2>
-                <p className={pClass}>{t.a6}</p>
+                <div className="flex flex-col items-center justify-center space-y-4 w-full my-4">
+                    <AboutQA question={t.q1} answer={[t.a1]} />
+                    <AboutQA
+                        question={t.q2}
+                        answer={[
+                            t.a21,
+                            <p className={pClass}>
+                                {t.a22}
+                                <a className={aClass} href="https://life-api.coronasafe.network/">
+                                    life-api.coronasafe.network
+                                </a>{' '}
+                                {t.a23}
+                            </p>
+                        ]}
+                    />
+                    <AboutQA
+                        question={t.q3}
+                        answer={[
+                            <p className={pClass}>
+                                {t.a31}
+                                <a className={aClass} href="https://life-api.coronasafe.network/">
+                                    {' '}
+                                    API
+                                </a>
+                            </p>,
+                            <p className={pClass}>
+                                {t.a32}
+                                <a className={aClass} href="https://github.com/coronasafe/life/">
+                                    Github
+                                </a>{' '}
+                                {t.a33}
+                            </p>
+                        ]}
+                    />
+                    <AboutQA question={t.q4} answer={[t.a4]} />
+                    <AboutQA question={t.q5} answer={[t.a5]} />
+                    <AboutQA question={t.q6} answer={[t.a6]} />
+                    <AboutQA question={t.q7} answer={[t.a6]} />
+                </div>
                 <h2 className={h2Class}>{t.q7}</h2>
                 <p className={pClass}>
                     <a className={aClass} href="https://youtu.be/PMEhgHdmRkQ">
