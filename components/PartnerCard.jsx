@@ -5,8 +5,8 @@ const PartnerCard = ({ name, logoURL, url }) => {
         <div className="inline-block">
             <a href={url} target="_blank">
                 <span
-                    className=" max-w-md shadow my-3 inline-block mx-6 border-2 border-gray-300
-        dark:border-gray-900 cursor-pointer hover:transform transition duration-300 ease-in-out hover:scale-105">
+                    className=" max-w-md shadow my-3 inline-block mx-6 border border-gray-300
+        dark:border-gray-900 cursor-pointer">
                     <div className="bg-white">
                         <img
                             src={logoURL}
