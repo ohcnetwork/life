@@ -18,5 +18,9 @@ export default [
     {
         name: 'বাঙ্গালী',
         code: 'BA'
+    },
+    {
+        name: 'ਪੰਜਾਬੀ',
+        code: 'PA'
     }
 ];
