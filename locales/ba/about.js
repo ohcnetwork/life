@@ -53,21 +53,16 @@ export default {
     a113: ` Swasth Digital Health Foundation (“Swasth”) দ্বারা নির্মিত একটি প্ল্যাটফর্ম, CovidFYI
   and Coronasafe Network, যাচাই করা ভিড় উত্সাহিত জরুরি পরিষেবা সরবরাহের জন্য
   COVID-19 এর জন্য ভারত জুড়ে।`,
-    a114: `All data and information provided in the COVID Information Platform are verified
-  by a group of volunteers to the best of their abilities and the Organizations
-  disclaim all responsibility for any data/information provided on the COVID
-  Information Platform. Organizations shall under no circumstances be held liable
-  for any direct, indirect, incidental, consequential, special, punitive,
-  exemplary, or any other damages arising out of the use of the COVID Information
-  Platform. There is no assurance by the Organizations of any specified outcomes
-  of the use of the COVID Information Platform. The users understand that by using
-  any data or information provided on the COVID Information Platform shall be at
-  their own risk and violation and that the Organizations are not responsible for
-  any consequences for offering such data/information. COVID Informational
-  Platform may provide, for informational purposes, links to websites operated by
-  other entities and persons, but does not endorse or accept any responsibility
-  for such content, or the use of such websites. No warranty of any kind including
-  but not limited to the warranties of non-infringement of third party rights,
-  title, merchantability, fitness for a particular purpose is given with respect
-  to the contents of this website or its hyperlinks to other internet resources.`
+    a114: `COVID তথ্য প্ল্যাটফর্মে প্রদত্ত সমস্ত ডেটা এবং তথ্য যাচাই করা হয়েছে স্বেচ্ছাসেবীদের একটি গ্রুপ দ্বার।
+    COVID এ প্রদত্ত যে কোনও ডেটা / তথ্যের জন্য সমস্ত দায়বদ্ধতা অস্বীকার করে.
+    তথ্য প্ল্যাটফর্ম। সংস্থাগুলিকে কোনও পরিস্থিতিতে দায়বদ্ধ রাখা হবে না
+    যে কোনও প্রত্যক্ষ, পরোক্ষ, ঘটনামূলক, পরিণতিমূলক, বিশেষ, শাস্তিমূলক,
+    অনুকরণীয়, বা কোভিড  তথ্য ব্যবহারের ফলে উদ্ভূত অন্য কোনও ক্ষয়ক্ষতির কারণে । COVID তথ্য প্ল্যাটফর্ম ব্যবহার করার ফলে কোনও নির্দিষ্ট ফলাফলের আশ্বাস দেয়না সংগঠনগুলি। ব্যবহারকারীরা এটি ব্যবহার করে বুঝতে পারে
+    COVID তথ্য প্ল্যাটফর্মে প্রদত্ত যে কোনও ডেটা বা তথ্য ব্যবহার করা
+    তাদের নিজস্ব ঝুঁকি এবং সংস্থা এর জন্য দায়ী নয়।
+    কভিড তথ্যমূলক প্ল্যাটফর্ম তথ্য সংগ্রহের  উদ্দেশ্যে, অনেক ওয়েবসাইটগুলির লিঙ্ক সরবরাহ করতে পারে,
+    যেই ওয়েবসাইটগুলি হয়তো অন্য কোনো ব্যাক্তি পরিচালনা করেন , তবে এর  জন্য প্লাটফর্ম কোনও দায়বদ্ধতা অনুমোদন করে না বা গ্রহণ করে না,
+    এই জাতীয় সামগ্রীর জন্য, বা এই জাতীয় ওয়েবসাইটগুলির ব্যবহারের জন্য। কোনও ধরণের ওয়ারেন্টি নেই
+    তার সাথে  তৃতীয় পক্ষের অধিকার লঙ্ঘনের ওয়্যারেন্টিগুলিও তবে তাতে  সীমাবদ্ধ নয়,
+    শিরোনাম, মার্চেন্টেবিলিটি, কোনও নির্দিষ্ট উদ্দেশ্যে ফিটনেস এর এই ওয়েবসাইটের বিষয়বস্তুতে বা অন্যান্য ইন্টারনেট সংস্থায় এর হাইপারলিঙ্কগুলি।`
 };
