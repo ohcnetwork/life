@@ -8,40 +8,21 @@ import gu from '@locales/gu/index';
 import kn from '@locales/kn/index';
 import ta from '@locales/ta/index';
 
+const languages = {
+    'EN': en,
+    'MR': mr,
+    'HI': hi,
+    'TE': te,
+    'BA': ba,
+    'PA': pa,
+    'GU': gu,
+    'KN': kn,
+    'TA': ta
+}
+
 const useLocale = (loc) => {
-    let t = loc;
-    switch (loc) {
-        case 'EN':
-            t = en;
-            break;
-        case 'MR':
-            t = mr;
-            break;
-        case 'HI':
-            t = hi;
-            break;
-        case 'TE':
-            t = te;
-            break;
-        case 'BA':
-            t = ba;
-            break;
-        case 'PA':
-            t = pa;
-            break;
-        case 'GU':
-            t = gu;
-            break;
-        case 'KN':
-            t = kn;
-            break;
-        case 'TA':
-            t = ta;
-            break;
-        default:
-            t = en;
-    }
-    return t;
+    const locale = languages[loc] || languages["EN"]
+    return locale;
 };
 
 export default useLocale;

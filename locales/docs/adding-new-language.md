@@ -90,21 +90,10 @@ Update `/hooks/use-locale.js`
 import en from '@locales/en/index';
 + import mr from '@locales/mr/index';
 
-const useLocale = (loc) => {
-    let t = loc;
-    switch (loc) {
-        case 'EN':
-            t = en;
-            break;
-+        case 'MR':
-+            t = mr;
-+            break;
-    }
-    return t;
-};
-
-export default useLocale;
-
+const languages = {
+    'EN': en,
++    'MR': mr
+}
 ```
 
 Update `/locales/index.js`
