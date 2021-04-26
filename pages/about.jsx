@@ -9,8 +9,7 @@ const About = () => {
     const t = useLocale(locale).about;
 
     const h1Class = `text-4xl`;
-    const h2Class = `text-blue-500 dark:text-gray-600 text-xl mt-5`;
-    const pClass = `text-blue-500 dark:text-gray-600 mt-2 text-md`;
+    const pClass = `dark:text-gray-600 mt-2 text-md`;
     const aClass = `underline text-primary-600 hover:text-primary-800 visited:text-purple-600`;
     return (
         <>
