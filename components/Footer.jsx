@@ -20,7 +20,7 @@ const Footer = () => {
         },
         {
             icon: faBookOpen,
-            text: 'Learn',
+            text: `${t.learn}`,
             link: '/learn'
         },
         {

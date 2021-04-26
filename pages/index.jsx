@@ -97,16 +97,14 @@ export default function Home() {
                     </a> */}
                 </div>
                 <div className="flex space-x-3">
-                    <div
-                        type="button"
-                        className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                    <div className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white  mt-6">
                         <FontAwesomeIcon
                             className="text-white-400 w-4 mr-4"
                             title="Covid 19 Statistics"
-                            icon={faChartBar}
+                            icon={faMedkit}
                         />
-                        Total Hospitals : {Object.keys(hospitalCareCenterData.data).length}{' '}
-                        (Verified :
+                        {t.totalHospitals} : {Object.keys(hospitalCareCenterData.data).length} ({' '}
+                        {t.verified} :
                         {
                             hospitalCareCenterData.data.filter((value) =>
                                 value.verificationStatus
@@ -114,7 +112,8 @@ export default function Home() {
                                     : ''
                             ).length
                         }
-                        ) | Total Ambulance : {Object.keys(ambulanceData.data).length} (Verified :
+                        ) | {t.totalAmbulace} : {Object.keys(ambulanceData.data).length} ({' '}
+                        {t.verified} :
                         {
                             ambulanceData.data.filter((value) =>
                                 value.verificationStatus
