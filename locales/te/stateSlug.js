@@ -1,5 +1,5 @@
 export default {
-    share: `Share`,
-    searchResFor: `Search Result For`,
-    searchPlaceholder: `Search Districts For`
+    share: `భాగస్వామ్యం చేయండి`,
+    searchResFor: `దీని కోసం శోధన ఫలితం`,
+    searchPlaceholder: `కోసం జిల్లాలను శోధించండి`
 };
