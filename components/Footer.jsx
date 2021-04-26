@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDatabase, faHandsHelping, faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase, faHandsHelping, faHeart, faBookOpen } from '@fortawesome/free-solid-svg-icons';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 
