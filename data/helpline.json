@@ -5535,6 +5535,23 @@
             "verifiedBy": null
         },
         {
+            "category": null,
+            "comment": null,
+            "createdTime": "2021-04-26T04:19:04.000Z",
+            "description": "https://covid19.karnataka.gov.in/page/Helpline/en",
+            "district": "Mysuru (Mysore)",
+            "id": "recJv9OBLrDSvRyFm",
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": 8212423800,
+            "phone2": 821,
+            "source": "Karnataka Govt COVID19 Information Portal",
+            "sourceUrl": "https://covid19.karnataka.gov.in/page/Helpline/en",
+            "state": "Karnataka",
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": null
+        },
+        {
             "category": [
                 "Groccery Supplies & Essential Commodities"
             ],

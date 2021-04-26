@@ -1156,7 +1156,7 @@
             "ambulance": true,
             "contact": true,
             "district": "New Delhi",
-            "doctor": false,
+            "doctor": true,
             "helpline": true,
             "hospitals": false,
             "id": "rec9amzhpfopyIHTk",
@@ -3233,7 +3233,7 @@
             "contact": false,
             "district": "Mysuru (Mysore)",
             "doctor": false,
-            "helpline": false,
+            "helpline": true,
             "hospitals": true,
             "id": "recSjlLScpoll3ox9",
             "medicine": false,
@@ -3309,7 +3309,7 @@
             "hospitals": false,
             "id": "recTIi1YNzkj9ZrIt",
             "medicine": false,
-            "oxygen": false,
+            "oxygen": true,
             "state": "West Bengal"
         },
         {
@@ -4112,7 +4112,7 @@
             "helpline": false,
             "hospitals": true,
             "id": "recaDVN8l0q1f7OsB",
-            "medicine": false,
+            "medicine": true,
             "oxygen": true,
             "state": "West Bengal"
         },

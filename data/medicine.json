@@ -3677,6 +3677,27 @@
             "verifiedBy": "Disha Jariwala"
         },
         {
+            "address": null,
+            "city": null,
+            "comment": null,
+            "contactName": null,
+            "createdTime": "2021-04-25T17:22:54.000Z",
+            "description": null,
+            "district": "North 24 Parganas",
+            "emailId": "info.availibility@cipla.com",
+            "id": "recWRTd8Qvu9QmOzw",
+            "lastVerifiedOn": "2021-04-25T17:22:54.000Z",
+            "name": "Cipla",
+            "phone1": "8657311088",
+            "priceCheck": "Market Priced",
+            "source": null,
+            "state": "West Bengal",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "address": "HOUSE NO 2-10-274, GROUND FLOORSHOP NO-1, SAHYOG NAGAR,NEAR\nGANAPATI MANDIR,TALUKA BEED,BEED,431122",
             "city": null,
             "comment": "Busy on other call",
@@ -4200,6 +4221,27 @@
             "state": "Tamil Nadu",
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Karthik Yadhati"
+        },
+        {
+            "address": null,
+            "city": null,
+            "comment": null,
+            "contactName": null,
+            "createdTime": "2021-04-25T17:24:50.000Z",
+            "description": null,
+            "district": "North 24 Parganas",
+            "emailId": null,
+            "id": "recat29IQf0yVZAtr",
+            "lastVerifiedOn": "2021-04-25T17:24:50.000Z",
+            "name": "Nexus",
+            "phone1": "9664400575",
+            "priceCheck": "Market Priced",
+            "source": null,
+            "state": "West Bengal",
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "address": "Basement F-26/3,PHASE -IIOKHLA INDUSTRIAL AREANEW DELHI,NEW\nDELHI,110020",
@@ -6472,6 +6514,27 @@
             "source": null,
             "state": "Gujarat",
             "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "address": null,
+            "city": null,
+            "comment": null,
+            "contactName": "Sanjay Lohia",
+            "createdTime": "2021-04-25T17:23:57.000Z",
+            "description": null,
+            "district": "North 24 Parganas",
+            "emailId": null,
+            "id": "recpUZzt1UdWzbU3Z",
+            "lastVerifiedOn": "2021-04-25T17:23:57.000Z",
+            "name": null,
+            "phone1": "9831001951",
+            "priceCheck": "Market Priced",
+            "source": null,
+            "state": "West Bengal",
+            "verificationStatus": "Verified",
             "verifiedBy": [
                 {}
             ]
