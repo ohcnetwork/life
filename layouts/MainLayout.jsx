@@ -28,7 +28,7 @@ const MainLayout = ({ children }) => {
                     <ThemeButton />
                     <LanguageSelector />
                 </div>
-                <div className="max-w-5xl mx-auto px-2 pb-6 flex-grow flex-shrink-0">
+                <div className="max-w-5xl container mx-auto px-2 pb-6 flex-grow flex-shrink-0">
                     {children}
                 </div>
                 <Footer />
