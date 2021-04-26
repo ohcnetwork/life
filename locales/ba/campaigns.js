@@ -3,10 +3,10 @@ export default {
 
   Swasth Digital Health Foundation (Swasth.app) along with ACT Grants এরা অক্সিজেন কনসেন্টেটর সংগ্রহ করতে এবং সিওভিড প্রতিক্রিয়া এবং দীর্ঘমেয়াদী স্বাস্থ্য-ব্যবস্থার শক্তিশালীকরণের জন্য প্রত্যন্ত অঞ্চলে যত্নের স্তরের বিভিন্ন হাসপাতালে তাদের চ্যানেল সরবরাহ করছে। এই অক্সিজেন কনসেন্ট্রেটরগুলি হাজার হাজার জীবন বাঁচাতে এবং হাসপাতালের জন্য প্রয়োজনীয় প্রয়োজনীয় সংস্থানগুলি বাড়িয়ে তুলতে পারে। এগুলি বহিরাগত রোগীদের চিকিত্সা করতে, হাসপাতালের বিছানার ভার বোঝা কমাতে এবং রোগীদের দ্বারা আসা চাপ কমাতেও ব্যবহার করা যেতে পারে।
   • একটি উচ্চ ফ্লো কনসেন্ট্রেটারের দাম 85000 টাকা এবং গুরুতর বা গুরুতর অসুস্থতায় 550 জন রোগীর চিকিত্সা করা হয়।
-  • A low flow concentrator costs Rs.45000 and can treat up to 900 patients with mild to moderate illness
+  • স্বল্প প্রবাহের অক্সিজেন কনসেন্ট্রেটারের দাম 45000 টাকা এবং হালকা থেকে মাঝারি অসুস্থতায় 900 জন রোগী চিকিত্সা করতে পারে
 
-  Swasth is raising funds to support this effort. Please contribute by donating at: https://www.impactguru.com/fundraiser/oxygen
-  The distribution and allocation of concentrators will be a transparent process with the method and impact metrics published openly so you can be assured of your contributions saving lives.
+  Swasth এই প্রচেষ্টাকে সমর্থন করার জন্য তহবিল সংগ্রহ করছে। অনুদান দানের মাধ্যমে অবদান করুন: https://www.impactguru.com/fundraiser/oxygen
+  কনসেন্ট্রেটার বিতরণ এবং বরাদ্দ হ'ল প্রকাশিত পদ্ধতি এবং ইমপ্যাক্ট মেট্রিকগুলির সাথে স্বচ্ছ প্রক্রিয়া হবে যাতে আপনার জীবন বাঁচানোর অবদান সম্পর্কে নিশ্চিত হতে পারেন।
   If you are a company looking to deploy a CSR budget or an individual donor willing to contribute, please email us at shubha@swasthapp.com. We look forward to your support.`
 };
 
