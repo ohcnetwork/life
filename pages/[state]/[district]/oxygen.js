@@ -11,7 +11,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
 
     // Airtable connection
     const airtableTableName = 'Oxygen';
-    // list(airtableTableName);
+    list(airtableTableName);
     
     const SEO = {
         title: `Oxygen in ${humanize(district)} , ${humanize(state)}`,
