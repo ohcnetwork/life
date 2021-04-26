@@ -9,6 +9,8 @@ import Selector from '@components/Selector';
 import { tabsInfo } from '@lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar, faMedkit } from '@fortawesome/free-solid-svg-icons';
+import hospitalCareCenterData from '@data/hospital_clinic_centre.json';
+import ambulanceData from '@data/ambulance.json';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 
@@ -81,6 +83,7 @@ export default function Home() {
                             {t.covid19Stats}
                         </button>
                     </a>
+
                     {/* <a href="/oxygen_requirements">
                         <button
                             type="button"
@@ -93,6 +96,35 @@ export default function Home() {
                             {t.oxygenRequirements}
                         </button>
                     </a> */}
+                </div>
+                <div className="flex space-x-3">
+                    <div
+                        type="button"
+                        className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                        <FontAwesomeIcon
+                            className="text-white-400 w-4 mr-4"
+                            title="Covid 19 Statistics"
+                            icon={faMedkit}
+                        />
+                        Total Hospitals : {Object.keys(hospitalCareCenterData.data).length}{' '}
+                        (Verified :
+                        {
+                            hospitalCareCenterData.data.filter((value) =>
+                                value.verificationStatus
+                                    ? value.verificationStatus.toLocaleLowerCase() == 'verified'
+                                    : ''
+                            ).length
+                        }
+                        ) | Total Ambulance : {Object.keys(ambulanceData.data).length} (Verified :
+                        {
+                            ambulanceData.data.filter((value) =>
+                                value.verificationStatus
+                                    ? value.verificationStatus.toLocaleLowerCase() == 'verified'
+                                    : ''
+                            ).length
+                        }
+                        )
+                    </div>
                 </div>
             </section>
         </div>
