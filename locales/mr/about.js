@@ -1,18 +1,18 @@
 export default {
-    head: 'About',
-    q1: 'Are you official?',
-    a1: 'No.',
-    q2: 'What are your sources? How is the data gathered for this project?',
-    a21: ` We are using multiple sources to obtain data. Our internal volunteer team scouts
-for data from circulars, notices, tweets, other databases, websites. We also
-obtain significant data from crowdsourced channels like - forms submitted by
-common people. Partner initiatives engaged in similar list creation have merged
-efforts with us to share their verified information.`,
-    a22: `The data is validated by a group of volunteers and published into an Airtable
-sheet and an API. API is available for all at`,
-    a23: `. We would love it if you can use this data in the fight against this virus.`,
-    q3: `Where can I find the data for this?`,
-    a31: `All the data is available through an`,
+    head: 'आमच्याबद्दल',
+    q1: 'आपण अधिकृत आहात?',
+    a1: 'नाही.',
+    q2: 'आपले स्रोत काय आहेत? या प्रकल्पासाठी डेटा कसा गोळा केला जातो?',
+    a21: ` आम्ही डेटा मिळविण्यासाठी अनेक स्त्रोत वापरत आहोत. आमची अंतर्गत स्वयंसेवक टीम स्काउट्स
+    परिपत्रक, सूचना, ट्वीट्स, अन्य डेटाबेस, वेबसाइटवरील डेटासाठी. आम्ही सुद्धा
+    क्राऊडसोर्स केलेल्या चॅनेल वरून सबमिट केलेले फॉर्म कडून महत्त्वपूर्ण डेटा मिळवा
+    सामान्य लोक. समान यादी तयार करण्यात गुंतलेली भागीदार पुढाकार विलीन झाली आहेत
+    त्यांच्या सत्यापित माहिती सामायिक करण्यासाठी आमच्यासह प्रयत्न.`,
+    a22: `डेटा स्वयंसेवकांच्या गटाद्वारे सत्यापित केला जातो आणि एअरटेबलमध्ये प्रकाशित केला जातो
+    पत्रक आणि एक एपीआय एपीआय सर्वांसाठी उपलब्ध आहे.`,
+    a23: `आपण हा विषाणूविरूद्ध लढ्यात हा डेटा वापरु शकत असल्यास आम्हाला ते आवडेल.`,
+    q3: `मी यासाठी डेटा कोठे शोधू शकतो?`,
+    a31: `सर्व डेटा उपलब्ध आहे`,
     a32: `Do file an issue at`,
     a33: `if you have feedbacks / want to report a bug.`,
     q4: `Who are you?`,
