@@ -10,5 +10,9 @@ export default [
     {
         name: 'मराठी',
         code: 'MR'
+    },
+    {
+        name: 'తెలుగు',
+        code: 'TE'
     }
 ];
