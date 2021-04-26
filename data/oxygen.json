@@ -29,6 +29,34 @@
             ]
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": null,
+            "createdTime": "2021-04-26T17:00:09.000Z",
+            "description": "Oxygen cans available in gurgaon/gurugram sector 7 Madanpuri\n15 ltrs @ 2500 per can",
+            "district": "Gurgaon",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "rec0BvkTws7WwtC8I",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-26T17:00:09.000Z",
+            "name": "Manoj Oxygen",
+            "phone1": 9873478788,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Whatsapp groups",
+            "state": "Haryana",
+            "type": [
+                "Cans",
+                "Oxygen Cylinders"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "Restriced to Morbi city limits only\n",
@@ -786,6 +814,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": null,
+            "createdTime": "2021-04-26T16:11:23.000Z",
+            "description": null,
+            "district": "Malda",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recAmFdCAZLPxmarj",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-26T16:11:23.000Z",
+            "name": null,
+            "phone1": 9734475423,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "West Bengal",
+            "type": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -5412,6 +5465,36 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": "Verified via call",
+            "companyName": null,
+            "createdTime": "2021-04-26T17:02:39.000Z",
+            "description": "oxygen concentrator",
+            "district": "West Delhi",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recz677tMLPFIaVtU",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-26T17:02:39.000Z",
+            "name": "Oxygen store",
+            "phone1": 9717701636,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "whatsapp personal groups to verify information",
+            "state": "Delhi (NCT)",
+            "type": [
+                "Concentrator",
+                "Oxygen Concentrator",
+                "Oxygen concentrator",
+                "Oxygen Concentrator/Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,

@@ -6470,6 +6470,33 @@
         },
         {
             "availability": null,
+            "comment": "verified via call",
+            "createdTime": "2021-04-26T17:08:35.000Z",
+            "district": "New Delhi",
+            "email1": null,
+            "email2": null,
+            "id": "recmtkLUbJmgDRFfF",
+            "lastVerifiedOn": null,
+            "name": "Home setup ventilator & ICU",
+            "phone1": 8802911790,
+            "phone2": null,
+            "pointOfContact": "Praveen Verma",
+            "state": "Delhi (NCT)",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "Bed with oxygen",
+                "Bed with ventilator",
+                "ICU bed"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
             "comment": "FULL Covid Hospital with ICU",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chhota Udepur",
