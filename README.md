@@ -37,6 +37,9 @@ You can start editing the page by modifying pages/index.js. The page auto-update
 
 ## Adding Translations
 
-[Refer This](/locales/docs/adding-new-language.md)
+[For Adding a New Language](/locales/docs/adding-new-language.md)
+
+For translations of Existing Language:
+[Please Refer This](https://github.com/coronasafe/life/issues/109)
 
 Supported by [Swasth Alliance](https://www.swasth.app) | [Vercel](https://vercel.com?utm_source=life&utm_campaign=oss)

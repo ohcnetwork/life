@@ -1,14 +1,22 @@
 # Adding a new Language
 
+For translations of Existing Language:
+
+[Please Refer This](https://github.com/coronasafe/life/issues/109)
+
 All Translations are inside the [`/locales` ]()folder
 
 Each language has a Folder with the Name of its Respective Code [Based on this](https://forums.asp.net/t/1250681.aspx?need+locale+code+for+an+Indian+language).
 
 For example: English Translation would be in `/locales/en` and Marathi in `/locales/mr`
 
-Each File Inside the Language Folder would have Multiple Files based on the Template we would give.
+Each File Inside the Language Folder would have Multiple Files based te generate the template for the language:
 
-For generating template there would some Script that would automate this process.
+```bash
+python locales/locale_generator.py <LANG_CODE>
+```
+
+It would generate the Folder and Files.
 
 By Default it would add files with English Translation and you have add translations for the words,phrases you know because we want a fallback if the translation doesn't exists.
 
