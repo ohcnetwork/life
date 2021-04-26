@@ -11,7 +11,10 @@ const SocialSharing = ({ twitterText, url, copyText, shareText }) => {
         <div className="text-gray-700 dark:text-gray-400 text-lg pr-4  w-full flex ">
             {shareText}
             <span>
-                <a href={`https://twitter.com/intent/tweet?text=${twitterText}`} target="_blank">
+                <a
+                    href={`https://twitter.com/intent/tweet?text=${twitterText}`}
+                    rel="noopener"
+                    target="_blank">
                     <FontAwesomeIcon
                         className="text-blue-500 ml-4"
                         title="Share on Twitter"
@@ -20,7 +23,10 @@ const SocialSharing = ({ twitterText, url, copyText, shareText }) => {
                 </a>
             </span>
             <span>
-                <a href={`https://www.facebook.com/sharer/sharer.php?u=${url}`} target="_blank">
+                <a
+                    href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
+                    rel="noopener"
+                    target="_blank">
                     <FontAwesomeIcon
                         className="text-blue-500 ml-4"
                         title="Share on Facebook"
@@ -49,7 +55,8 @@ const SocialSharing = ({ twitterText, url, copyText, shareText }) => {
             <span>
                 <a
                     href={`https://www.linkedin.com/shareArticle?mini=true&url=${url}`}
-                    target="_blank">
+                    target="_blank"
+                    rel="noopener">
                     <FontAwesomeIcon
                         className="text-blue-500 ml-4"
                         title="Share on Linkedin"
