@@ -4293,6 +4293,29 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-26T15:38:39.000Z",
+            "district": "Jodhpur",
+            "email1": null,
+            "email2": null,
+            "id": "recZkmq2KIA0oKpPt",
+            "lastVerifiedOn": null,
+            "name": "AIIMS JODHPUR",
+            "phone1": 8764505002,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Rajasthan",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": "Not Available",
             "comment": "Non-Covid Hospital\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -8210,6 +8233,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Karthik Yadhati"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-26T15:39:34.000Z",
+            "district": "Jodhpur",
+            "email1": null,
+            "email2": null,
+            "id": "reczdgDDBgzyYLPU1",
+            "lastVerifiedOn": null,
+            "name": "MAHATMA GANDHI HOSPITAL JODHPUR",
+            "phone1": 2912636441,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Rajasthan",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
