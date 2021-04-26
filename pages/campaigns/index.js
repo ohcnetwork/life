@@ -3,6 +3,8 @@ import CampaignCard from '@components/CampaignCard';
 import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Breadcumb from '@components/Breadcumb';
+import useLocale from '@hooks/use-locale';
+import { useLocaleContext } from '@hooks/use-locale-context';
 
 const campaign = [
     {
@@ -23,6 +25,8 @@ const campaign = [
 ];
 
 const Campaigns = () => {
+    const { locale } = useLocaleContext();
+    const t = useLocale(locale).campaigns;
     return (
         <section className="md:pt-10">
             <Breadcumb list={[{ href: null, name: 'Campaigns' }]} />
@@ -47,7 +51,7 @@ const Campaigns = () => {
                             <CampaignCard
                                 key={camp.id}
                                 name={camp.name}
-                                text={camp.text}
+                                text={t.text}
                                 logoUrl={camp.logoUrl}
                                 donate={camp.donateAt}
                                 open={campaign.length === 1}

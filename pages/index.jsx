@@ -11,29 +11,53 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar, faMedkit } from '@fortawesome/free-solid-svg-icons';
 import hospitalCareCenterData from '@data/hospital_clinic_centre.json';
 import ambulanceData from '@data/ambulance.json';
+import useLocale from '@hooks/use-locale';
+import { useLocaleContext } from '@hooks/use-locale-context';
+
 
 let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 
 export default function Home() {
-    const [selectedFilter, setSelectedFilter] = useState('oxygen');
+    const { locale } = useLocaleContext();
+    const t = useLocale(locale).home;
 
+    let tabsInfoNew = [];
+    tabsInfo.forEach((tab) => {
+        const { icon, link, color, value } = tab;
+        tabsInfoNew.push({
+            color,
+            link,
+            value,
+            icon,
+            name: t[tab.name.toLowerCase()]
+        });
+    });
+
+    const [selectedFilter, setSelectedFilter] = useState('oxygen');
     return (
         <div>
             <section className="flex flex-col items-center md:pt-20">
                 <Logo width={100} />
-                <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">LIFE</h1>
+                <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">
+                    {t.title}
+                </h1>
                 <h2 className="mt-4 font-semibold text-xl text-gray-900 dark:text-gray-100 text-center">
-                    Verified Crowd Sourced Emergency Services Directory
+                    {t.description}
                 </h2>
                 <div className="mt-4 ">
                     <Tabs
-                        tabsInfo={tabsInfo}
+                        tabsInfo={tabsInfoNew}
                         selectedFilter={selectedFilter}
                         updateFilterCB={(e) => updateFilter(setSelectedFilter, e)}
                     />
                 </div>
                 <div className="w-full md:w-3/4 px-2">
-                    <Selector page={selectedFilter} />
+                    <Selector
+                        localeState={t.state}
+                        localeDistrict={t.district}
+                        placeholder={t.searchPlaceholder}
+                        page={selectedFilter}
+                    />
                 </div>
                 <div className="flex flex-wrap items-center justify-evenly mt-6 ">
                     {getStates(selectedFilter).map((s) => {
@@ -56,7 +80,7 @@ export default function Home() {
                                 title="Covid 19 Statistics"
                                 icon={faChartBar}
                             />
-                            Covid19 Statistics
+                            {t.covid19Stats}
                         </button>
                     </a>
 
@@ -69,7 +93,7 @@ export default function Home() {
                                 title="Covid 19 Statistics"
                                 icon={faMedkit}
                             />
-                            Oxygen Requirements
+                            {t.oxygenRequirements}
                         </button>
                     </a> */}
                 </div>
@@ -86,6 +110,26 @@ export default function Home() {
                          Total Ambulance : {Object.keys(ambulanceData.data).length}(Verified :
                                               {ambulanceData.data.filter(value => value.verificationStatus ? value.verificationStatus.toLocaleLowerCase() == 'verified': '').length})
 
+                            icon={faMedkit}
+                        />
+                        Total Hospitals : {Object.keys(hospitalCareCenterData.data).length}{' '}
+                        (Verified :
+                        {
+                            hospitalCareCenterData.data.filter((value) =>
+                                value.verificationStatus
+                                    ? value.verificationStatus.toLocaleLowerCase() == 'verified'
+                                    : ''
+                            ).length
+                        }
+                        ) | Total Ambulance : {Object.keys(ambulanceData.data).length} (Verified :
+                        {
+                            ambulanceData.data.filter((value) =>
+                                value.verificationStatus
+                                    ? value.verificationStatus.toLocaleLowerCase() == 'verified'
+                                    : ''
+                            ).length
+                        }
+                        )
                     </div>
                 </div>
             </section>
