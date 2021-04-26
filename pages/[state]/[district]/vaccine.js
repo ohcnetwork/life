@@ -75,7 +75,7 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
     return {
-        paths: statePaths('oxygen'),
+        paths: statePaths('vaccine'),
         fallback: false
     };
 }
