@@ -25,7 +25,11 @@ const EntityCard = ({
     email1,
     email2,
     lastVerifiedOn,
-    verificationStatus
+    verificationStatus,
+    comment,
+    availability,
+    totalBedsAvailable,
+    typeOfBedAvailable
 }) => {
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
@@ -62,6 +66,21 @@ const EntityCard = ({
                         {city && (
                             <div className="text-sm text-gray-700 dark:text-gray-200 font-semibold">
                                 <span> {city} </span>
+                            </div>
+                        )}
+                        {availability && (
+                            <div className="text-sm text-gray-700 dark:text-gray-200 font-semibold">
+                                <span> {availability} </span>
+                            </div>
+                        )}
+                        {totalBedsAvailable && (
+                            <div className="text-sm text-gray-700 dark:text-gray-200 font-semibold">
+                                <span>Total Available Beds: {totalBedsAvailable} </span>
+                            </div>
+                        )}
+                        {typeOfBedAvailable && (
+                            <div className="text-sm text-gray-700 dark:text-gray-200 font-semibold">
+                                <span>Available bed type: {typeOfBedAvailable.join(", ")} </span>
                             </div>
                         )}
                     </div>
@@ -122,6 +141,9 @@ const EntityCard = ({
                 )}
                 {description && (
                     <div className="font-semibold dark:text-gray-400">{description}</div>
+                )}
+                {comment && (
+                    <div className="font-semibold dark:text-gray-400">{comment}</div>
                 )}
                 <div className="text-gray-700 dark:text-gray-400 text-sm">
                     {lastVerifiedOn && (

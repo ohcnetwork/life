@@ -82,7 +82,7 @@ export default function Home() {
                             title="Covid 19 Statistics"
                             icon={faChartBar}
                         />Total Hospitals : {Object.keys(hospitalCareCenterData.data).length}(Verified :{hospitalCareCenterData.data.filter(
-                        value => value.verificationStatus ? value.verificationStatus.toLocaleLowerCase() == 'verified' : '').length}) |
+                        value => value.typeOfBedAvailable ? value.typeOfBedAvailable != null : '').length}) |
                          Total Ambulance : {Object.keys(ambulanceData.data).length}(Verified :
                                               {ambulanceData.data.filter(value => value.verificationStatus ? value.verificationStatus.toLocaleLowerCase() == 'verified': '').length})
 

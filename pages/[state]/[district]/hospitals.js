@@ -65,6 +65,10 @@ export default function Hospitals({ state, district, hospitalByDistrict }) {
                                 state={p.state}
                                 verificationStatus={p.verificationStatus}
                                 lastVerifiedOn={p.lastVerifiedOn}
+                                comment={p.comment}
+                                availability={p.availability}
+                                totalBedsAvailable={p.totalBedsAvailable}
+                                typeOfBedAvailable={p.typeOfBedAvailable}
                             />
                         );
                     })}
