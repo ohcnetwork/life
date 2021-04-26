@@ -9,11 +9,11 @@ export default {
   common people. Partner initiatives engaged in similar list creation have merged
   efforts with us to share their verified information.`,
     a22: `The data is validated by a group of volunteers and published into an Airtable
-  sheet and an API. API is available for all at`,
+  sheet and an API. API is available for all at `,
     a23: `. We would love it if you can use this data in the fight against this virus.`,
     q3: `Where can I find the data for this?`,
     a31: `All the data is available through an`,
-    a32: `Do file an issue at`,
+    a32: `Do file an issue at `,
     a33: `if you have feedbacks / want to report a bug.`,
     q4: `Who are you?`,
     a4: `We are a group of dedicated volunteers who curate and verify the data coming
@@ -35,7 +35,7 @@ export default {
   democratization of data, and volunteering. Please support us to save lives! Join
   us.`,
     q7: `How can you volunteer with us?`,
-    a7: `Add verified data (that doesn&#39;t already exist) Verify existing data and
+    a7: ` Add verified data (that doesn't already exist) Verify existing data and
   update verification status Help people 1-1 on other platforms by sharing
   contact/links from covidfyi Innovate on product related ideas Handle social
   media &amp; marketing Manage operations, volunteers, onboarding Decide which
@@ -56,8 +56,8 @@ export default {
   provide the right information to the right people at the right time in the right
   manner.`,
     q11: `Disclaimer`,
-    a112: `COVID Information Platform`,
-    a113: `is a platform created by Swasth Digital Health Foundation (“Swasth”), CovidFYI
+    a112: `COVID Information Platform `,
+    a113: ` is a platform created by Swasth Digital Health Foundation (“Swasth”), CovidFYI
   and Coronasafe Network for providing verified crowd sourced emergency services
   for COVID-19 emergencies across India.`,
     a114: `All data and information provided in the COVID Information Platform are verified
