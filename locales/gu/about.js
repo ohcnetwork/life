@@ -1,16 +1,11 @@
 export default {
-    head: 'About',
-    q1: 'Are you official?',
-    a1: 'No.',
-    q2: 'What are your sources? How is the data gathered for this project?',
-    a21: ` We are using multiple sources to obtain data. Our internal volunteer team scouts
-  for data from circulars, notices, tweets, other databases, websites. We also
-  obtain significant data from crowdsourced channels like - forms submitted by
-  common people. Partner initiatives engaged in similar list creation have merged
-  efforts with us to share their verified information.`,
-    a22: `The data is validated by a group of volunteers and published into an Airtable
-  sheet and an API. API is available for all at `,
-    a23: `. We would love it if you can use this data in the fight against this virus.`,
+    head: 'અમારા વિશે',
+    q1: 'શું તમે અધિકારી કર્મચારી છો?',
+    a1: 'ના',
+    q2: 'તમારા સ્રોત(sources) શું છે? આ પ્રોજેક્ટ માટે ડેટા કેવી રીતે એકત્રિત કરવામાં આવે છે?',
+    a21: 'અમે ડેટા મેળવવા માટે ઘણા સ્રોતોનો ઉપયોગ કરી રહ્યા છીએ. અમારી સ્વયંસેવકો ની  ટીમ પરિપત્રો, સૂચનાઓ, ટ્વીટ્સ, અન્ય ડેટાબેસેસ, વેબસાઇટ્સના ડેટા ને સતત શોધે છે. અમે સામાન્ય લોકો દ્વારા સબમિટ કરેલ નોંધપાત્ર ડેટા પણ મેળવીએ છી(crowd source channels  ). સમાન નિર્માણમાં રોકાયેલા ભાગીદારોએ પહેલેથી ચકાસણી કરેલી માહિતીને એકરૂપ પણ કરવામાં આવે છે.',
+    a22: 'ડેટા સ્વયંસેવકોના જૂથ દ્વારા માન્ય કરવામાં આવે છે અને એરટેબલ શીટ અને એક API માં પ્રકાશિત થાય છે. API બધા માટે ઉપલબ્ધ છે.',
+    a23: 'જો તમે આ વાયરસ સામેની લડતમાં આ ડેટાનો ઉપયોગ કરી શકો તો અમને ખુબ પસંદ આવશે.',
     q3: `Where can I find the data for this?`,
     a31: `All the data is available through an`,
     a32: `Do file an issue at `,
