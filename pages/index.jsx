@@ -14,7 +14,6 @@ import ambulanceData from '@data/ambulance.json';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 
-
 let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 
 export default function Home() {
@@ -105,12 +104,6 @@ export default function Home() {
                             className="text-white-400 w-4 mr-4"
                             title="Covid 19 Statistics"
                             icon={faChartBar}
-                        />Total Hospitals : {Object.keys(hospitalCareCenterData.data).length}(Verified :{hospitalCareCenterData.data.filter(
-                        value => value.typeOfBedAvailable ? value.typeOfBedAvailable != null : '').length}) |
-                         Total Ambulance : {Object.keys(ambulanceData.data).length}(Verified :
-                                              {ambulanceData.data.filter(value => value.verificationStatus ? value.verificationStatus.toLocaleLowerCase() == 'verified': '').length})
-
-                            icon={faMedkit}
                         />
                         Total Hospitals : {Object.keys(hospitalCareCenterData.data).length}{' '}
                         (Verified :
