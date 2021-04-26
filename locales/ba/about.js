@@ -32,12 +32,10 @@ export default {
     ডেটা গণতন্ত্রকরণ, এবং স্বেচ্ছাসেবক। জীবন বাঁচাতে আমাদের সমর্থন করুন! যোগ দিন
     আমাদের সাথে!`,
     q7: `আপনি কীভাবে আমাদের সাথে স্বেচ্ছাসেবক হিসাবে কাজ করতে পারেন?`,
-    a7: ` Add verified data (that doesn't already exist) Verify existing data and
-  update verification status Help people 1-1 on other platforms by sharing
-  contact/links from covidfyi Innovate on product related ideas Handle social
-  media &amp; marketing Manage operations, volunteers, onboarding Decide which
-  team you want to join or just stick around to pitch in whenever there is call
-  for help!.`,
+    a7: ` যাচাই করা ডেটা যুক্ত করুন (এটি ইতিমধ্যে বিদ্যমান নেই) বিদ্যমান ডেটা যাচাই করুন,
+    আপডেটের, যাচাইকরণের স্থিতি ভাগ করে লোকেরা 1-1 কে অন্যান্য প্ল্যাটফর্মে সহায়তা করে
+    পণ্য সম্পর্কিত আইডিয়াসগুলিতে COVIDFYI থেকে যোগাযোগ / লিঙ্কগুলি উদ্ভাবন করুন হ্যান্ডেল Social
+    Media &amp; বিপণন পরিচালনা করুন, আপনি যে দলে যোগদান করতে চান!.`,
     q8: `আপনার যদি যাচাই করা ডেটা থাকে এবং কোভিডফাই ডেটাবেস যুক্ত করতে চান তবে কী করবেন?`,
     a8: `আমরা আপনাকে ডেটা যুক্ত করার আগে এটি পড়ার প্রস্তাব দিই "Tips on how to share COVID
   resources online"`,
