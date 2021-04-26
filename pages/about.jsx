@@ -84,6 +84,11 @@ const About = () => {
                     {t.q10}
                 </h2>
                 <p className={pClass}>{t.a10}</p>
+                {
+                    <a className={aClass} href="/partners">
+                        Current Partners
+                    </a>
+                }
                 <h2 className={h2Class} id="disclaimer">
                     {t.q11}
                 </h2>
