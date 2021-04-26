@@ -388,6 +388,34 @@
         {
             "availability": null,
             "city": null,
+            "comment": null,
+            "companyName": null,
+            "createdTime": "2021-04-25T20:19:35.000Z",
+            "description": "12Ltr oxygen @ 400 /-",
+            "district": "Kolkata",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "rec5CnZmTwn0uJd1r",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T20:19:35.000Z",
+            "name": "NA",
+            "phone1": 8447390017,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Facebook",
+            "state": "West Bengal",
+            "type": [
+                "Oxygen",
+                "Cylinder"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
+            "city": null,
             "comment": "Both numbers switched off. Try later.",
             "companyName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -1403,6 +1431,33 @@
             "verifiedBy": "Disha Jariwala"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "Verified at other sources",
+            "companyName": "Goyal MG Gases Pvt. Ltd. Durgapur, West Bengal",
+            "createdTime": "2021-04-25T20:11:37.000Z",
+            "description": null,
+            "district": "Burdwan (Bardhaman)",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recHDvGkF592PyC5R",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T20:11:37.000Z",
+            "name": "Shudhakar Jha",
+            "phone1": 9735317722,
+            "phone2": null,
+            "sourceLink": "https://covidfightclub.org/posts/oxygen/shudhakar/2699",
+            "sourceName": "Facebook and other sources",
+            "state": "West Bengal",
+            "type": [
+                "Oxygen"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "switched off\n",
@@ -1806,6 +1861,31 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
+            "availability": null,
+            "city": null,
+            "comment": null,
+            "companyName": "SK Gas",
+            "createdTime": "2021-04-25T18:09:32.000Z",
+            "description": null,
+            "district": "Ranchi",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recKS9bVZIDDuo2jX",
+            "instructions": "Near Lala Raj Pat Rai school",
+            "lastVerifiedOn": "2021-04-25T18:09:32.000Z",
+            "name": "SK Gas\nMandal Ji",
+            "phone1": 9431359714,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Jharkhand",
+            "type": null,
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": "Available",
             "city": null,
             "comment": null,
@@ -2114,6 +2194,33 @@
             ],
             "verificationStatus": "Verified",
             "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": "Jibandan Medical",
+            "createdTime": "2021-04-25T17:20:53.000Z",
+            "description": "Ventilators on Rent",
+            "district": "North 24 Parganas",
+            "emailId": null,
+            "homeDeliveryAvailable": "Yes",
+            "id": "recO7YDZyYHE10JcN",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T17:20:53.000Z",
+            "name": null,
+            "phone1": 9123319819,
+            "phone2": 9163437940,
+            "sourceLink": null,
+            "sourceName": "Friend",
+            "state": "West Bengal",
+            "type": [
+                "Others"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
