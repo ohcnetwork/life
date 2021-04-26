@@ -53,8 +53,8 @@ export default {
     q11: `অস্বীকৃতি`,
     a112: `কভিড তথ্য প্ল্যাটফর্ম `,
     a113: ` Swasth Digital Health Foundation (“Swasth”) দ্বারা নির্মিত একটি প্ল্যাটফর্ম, CovidFYI
-  and Coronasafe Network for providing verified crowd sourced emergency services
-  for COVID-19 emergencies across India.`,
+  and Coronasafe Network, যাচাই করা ভিড় উত্সাহিত জরুরি পরিষেবা সরবরাহের জন্য
+  COVID-19 এর জন্য ভারত জুড়ে।`,
     a114: `All data and information provided in the COVID Information Platform are verified
   by a group of volunteers to the best of their abilities and the Organizations
   disclaim all responsibility for any data/information provided on the COVID
