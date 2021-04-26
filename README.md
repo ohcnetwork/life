@@ -35,4 +35,8 @@ Open http://localhost:3000 with your browser to see the result.
 
 You can start editing the page by modifying pages/index.js. The page auto-updates as you edit the file.
 
+## Adding Translations
+
+[Refer This](/locales/docs/adding-new-language.md)
+
 Supported by [Swasth Alliance](https://www.swasth.app) | [Vercel](https://vercel.com?utm_source=life&utm_campaign=oss)
