@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { getOxygen } from '@lib/api';
 import { statePaths, humanize } from '@lib/utils';
 import EntityCard from '@components/EntityCard';
@@ -6,6 +6,13 @@ import Breadcumb from '@components/Breadcumb';
 import { NextSeo } from 'next-seo';
 
 export default function Oxygen({ state, district, oxygenListing }) {
+    const [filtered, setFiltered] = useState(oxygenListing);
+
+    const filterByRefill = (field) => {
+        let data = filtered.filter((x) => x.type && x.type.includes(field));
+        setFiltered(data);
+    };
+
     const SEO = {
         title: `Oxygen in ${humanize(district)} , ${humanize(state)}`,
         description: `Covid19 Resources for Oxygen in ${humanize(district)} , ${humanize(state)}`,
@@ -40,8 +47,20 @@ export default function Oxygen({ state, district, oxygenListing }) {
                 <h1 className="mt-4 font-black text-6xl text-gray-900 dark:text-gray-200 md:text-left text-center">
                     {humanize(district)}
                 </h1>
+                <div className="my-4 flex">
+                    <button
+                        className="py-3 px-5 bg-indigo-600 text-white mr-4 rounded"
+                        onClick={() => filterByRefill('Refil')}>
+                        Sort by Refill
+                    </button>
+                    <button
+                        className="py-3 bg-indigo-600 text-white rounded px-5"
+                        onClick={() => filterByRefill('Cylinder')}>
+                        Sort by Cylinder
+                    </button>
+                </div>
                 <div className="w-full mt-4 p-4 space-y-4">
-                    {oxygenListing.map((o) => {
+                    {filtered.map((o) => {
                         return (
                             <EntityCard
                                 key={o.id}
