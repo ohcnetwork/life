@@ -23,7 +23,7 @@ const MainLayout = ({ children }) => {
 
     return (
         <LocaleContext.Provider value={value}>
-            <div className="flex flex-col items-stretch min-h-full bg-gray-100 dark:bg-gray-1100">
+            <div className="flex flex-col items-stretch min-h-screen bg-gray-100 dark:bg-gray-1100">
                 <div className="relative flex-shrink-0">
                     <ThemeButton />
                     <LanguageSelector />
