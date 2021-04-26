@@ -26,5 +26,9 @@ export default [
     {
         name: 'ગુજરાતી',
         code: 'GU'
+    },
+    {
+        name: 'ಕನ್ನಡ',
+        code: 'KN'
     }
 ];

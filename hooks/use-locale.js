@@ -5,6 +5,7 @@ import te from '@locales/te/index';
 import ba from '@locales/ba/index';
 import pa from '@locales/pa/index';
 import gu from '@locales/gu/index';
+import kn from '@locales/kn/index';
 
 const useLocale = (loc) => {
     let t = loc;
@@ -29,6 +30,9 @@ const useLocale = (loc) => {
             break;
         case 'GU':
             t = gu;
+            break;
+        case 'KN':
+            t = kn;
             break;
         default:
             t = en;
