@@ -57,20 +57,23 @@ const About = () => {
                     <AboutQA question={t.q4} answer={[t.a4]} />
                     <AboutQA question={t.q5} answer={[t.a5]} />
                     <AboutQA question={t.q6} answer={[t.a6]} />
-                    <AboutQA question={t.q7} answer={[t.a6]} />
+                    <AboutQA
+                        question={t.q7}
+                        answer={[
+                            <p className={pClass}>
+                                <a className={aClass} href="https://youtu.be/PMEhgHdmRkQ">
+                                    Our tutorial on how to help us on airtable
+                                </a>
+                                {t.a7}
+                            </p>,
+                            <p className="mt-2">
+                                <a className={aClass} href="https://chat.suraksha.network/">
+                                    Join our Slack
+                                </a>
+                            </p>
+                        ]}
+                    />
                 </div>
-                <h2 className={h2Class}>{t.q7}</h2>
-                <p className={pClass}>
-                    <a className={aClass} href="https://youtu.be/PMEhgHdmRkQ">
-                        Our tutorial on how to help us on airtable
-                    </a>
-                    {t.a7}
-                </p>
-                <p className="mt-2">
-                    <a className={aClass} href="https://chat.suraksha.network/">
-                        Join our Slack
-                    </a>
-                </p>
                 <h2 className={h2Class}>{t.q8}</h2>
                 <p className={pClass}>
                     <a
