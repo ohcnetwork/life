@@ -12,5 +12,6 @@ export default {
     applyVol: `ਸੇਵਾ ਵਜੋਂ ਅਰਜ਼ੀ ਦਿਓ`,
     applyDes: `ਹੁਨਰ, ਸੰਪਰਕ`,
     govtContact: `ਸਰਕਾਰੀ ਸੰਪਰਕ`,
-    govtDes: `ਸਰੋਤ, ਸ਼ਹਿਰ, ਸੰਪਰਕ`
+    govtDes: `ਸਰੋਤ, ਸ਼ਹਿਰ, ਸੰਪਰਕ`,
+    fillTheForm: `Fill the Form`
 };

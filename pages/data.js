@@ -126,7 +126,7 @@ export default function DataForm() {
                                                     icon={faUserEdit}
                                                     className="w-5"
                                                 />
-                                                <span className="ml-3">Fill the Form</span>
+                                                <span className="ml-3">{t.fillTheForm}</span>
                                             </a>
                                         </div>
                                     </div>

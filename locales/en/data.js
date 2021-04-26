@@ -12,5 +12,6 @@ export default {
     applyVol: `Apply as volunteer`,
     applyDes: `Skills, Contact`,
     govtContact: `Government Contact`,
-    govtDes: `Source, City, Contact`
+    govtDes: `Source, City, Contact`,
+    fillTheForm: `Fill the Form`
 };

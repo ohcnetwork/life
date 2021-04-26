@@ -12,5 +12,6 @@ export default {
     applyVol: ` স্বেচ্ছাসেবক হিসাবে আবেদন করুন`,
     applyDes: ` দক্ষতা, যোগাযোগ`,
     govtContact: `সরকারী যোগাযোগ`,
-    govtDes: ` উৎস/কোথা থেকে পাওয়া গেছে, শহর, যোগাযোগ`
+    govtDes: ` উৎস/কোথা থেকে পাওয়া গেছে, শহর, যোগাযোগ`,
+    fillTheForm: `Fill the Form`
 };
