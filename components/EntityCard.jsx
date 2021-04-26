@@ -33,23 +33,23 @@ const EntityCard = ({
 }) => {
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
-    const resourceType = asPath.split("/").pop();
-    const copyText = copyTextGenerator({ name, id, phone: phone1, type: resourceType }, pageUrl)
+    const resourceType = asPath.split('/').pop();
+    const copyText = copyTextGenerator({ name, id, phone: phone1, type: resourceType }, pageUrl);
     return (
-        <div id={id} className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
+        <div
+            id={id}
+            className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="w-full flex items-center pt-2">
                 <div className="ml-auto">
-                    <SocialSharing
-                        url={pageUrl}
-                        twitterText={copyText}
-                        copyText={copyText}
-                    />
+                    <SocialSharing url={pageUrl} twitterText={copyText} copyText={copyText} />
                 </div>
             </div>
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
                     <div className="font-bold text-2xl">
-                        <h1 className="flex capitalize dark:text-white items-center justify-start">{name || resourceType}</h1>
+                        <h1 className="flex capitalize dark:text-white items-center justify-start">
+                            {name || resourceType}
+                        </h1>
                         <div className="w-11/12 max-w-3xl mt-2">
                             <div className="text-sm">{area}</div>
                         </div>
@@ -80,7 +80,7 @@ const EntityCard = ({
                         )}
                         {typeOfBedAvailable && (
                             <div className="text-sm text-gray-700 dark:text-gray-200 font-semibold">
-                                <span>Available bed type: {typeOfBedAvailable.join(", ")} </span>
+                                <span>Available bed type: {typeOfBedAvailable.join(', ')} </span>
                             </div>
                         )}
                     </div>
@@ -91,24 +91,24 @@ const EntityCard = ({
                     )}
                 </div>
                 <div className="flex flex-col sm:items-end items-start">
-
                     <Phone phones={appendPhoneNumbers(phone1, phone2)}></Phone>
 
                     {email1 && (
                         <span
                             className="flex items-center font-bold text-lg text-gray-700 dark:text-white mt-0 hover:text-gray-900"
-                            target="_blank"
-                        >
+                            target="_blank">
                             <FontAwesomeIcon className="w-4" icon={faEnvelope} />
                             <a className="ml-2 text-lg" href={`mailto:${email1}`}>
-                                {email2 ? "Email1" : "Email"}
+                                {email2 ? 'Email1' : 'Email'}
                             </a>
-                            {email2 && <a className="ml-2 text-lg" href={`mailto:${email2}`}>
-                                Email2
-                            </a>}
+                            {email2 && (
+                                <a className="ml-2 text-lg" href={`mailto:${email2}`}>
+                                    Email2
+                                </a>
+                            )}
                         </span>
                     )}
-                    {(!email1 && email2) && (
+                    {!email1 && email2 && (
                         <a
                             className="flex items-center font-bold text-lg text-gray-700 dark:text-white mt-0 hover:text-gray-900"
                             target="_blank"
@@ -142,9 +142,7 @@ const EntityCard = ({
                 {description && (
                     <div className="font-semibold dark:text-gray-400">{description}</div>
                 )}
-                {comment && (
-                    <div className="font-semibold dark:text-gray-400">{comment}</div>
-                )}
+                {comment && <div className="font-semibold dark:text-gray-400">{comment}</div>}
                 <div className="text-gray-700 dark:text-gray-400 text-sm">
                     {lastVerifiedOn && (
                         <div className="text-gray-700 text-xs dark:text-white">
