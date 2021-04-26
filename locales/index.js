@@ -22,5 +22,9 @@ export default [
     {
         name: 'ਪੰਜਾਬੀ',
         code: 'PA'
+    },
+    {
+        name: 'ગુજરાતી',
+        code: 'GU'
     }
 ];
