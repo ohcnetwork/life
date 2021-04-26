@@ -7,15 +7,6 @@ export default {
 
   Swasth এই প্রচেষ্টাকে সমর্থন করার জন্য তহবিল সংগ্রহ করছে। অনুদান দানের মাধ্যমে অবদান করুন: https://www.impactguru.com/fundraiser/oxygen
   কনসেন্ট্রেটার বিতরণ এবং বরাদ্দ হ'ল প্রকাশিত পদ্ধতি এবং ইমপ্যাক্ট মেট্রিকগুলির সাথে স্বচ্ছ প্রক্রিয়া হবে যাতে আপনার জীবন বাঁচানোর অবদান সম্পর্কে নিশ্চিত হতে পারেন।
-  If you are a company looking to deploy a CSR budget or an individual donor willing to contribute, please email us at shubha@swasthapp.com. We look forward to your support.`
+
+আপনি যদি কোনও সিএসআর বাজেট স্থাপন করতে চান বা অবদান রাখতে ইচ্ছুক কোনও স্বতন্ত্র দাতা হয়ে থাকেন তবে shubha@swasthapp.com এ আমাদের ইমেল করুন। আমরা আপনার সমর্থন প্রত্যাশিত।`
 };
-
-// Oxygen concentrators are alternate devices to oxygen cylinders – while cylinders contain a finite amount of oxygen supply, a concentrator recycles oxygen from the air and delivers it to the patient. They can be used to manage patient requirements without looking for external sources of oxygen.
-
-//   Swasth Digital Health Foundation (Swasth.app) along with ACT Grants is looking to procure oxygen concentrators and channel them to hospitals across levels of care in remote areas for COVID response and long-term health-system strengthening. These oxygen concentrators can save many thousands of lives and bolster much-needed resources for hospitals. They can also be used to treat outpatients, reducing the load on hospital beds and easing the stress faced by patients.
-//   • A high flow concentrator costs Rs.85000 and treat up to 550 patients with a severe or critical illness.
-//   • A low flow concentrator costs Rs.45000 and can treat up to 900 patients with mild to moderate illness
-
-//   Swasth is raising funds to support this effort. Please contribute by donating at: https://www.impactguru.com/fundraiser/oxygen
-//   The distribution and allocation of concentrators will be a transparent process with the method and impact metrics published openly so you can be assured of your contributions saving lives.
-//   If you are a company looking to deploy a CSR budget or an individual donor willing to contribute, please email us at shubha@swasthapp.com. We look forward to your support.
