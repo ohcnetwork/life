@@ -73,33 +73,41 @@ const About = () => {
                             </p>
                         ]}
                     />
+                    <AboutQA
+                        question={t.q8}
+                        answer={[
+                            <p className={pClass}>
+                                <a
+                                    className={aClass}
+                                    href="https://www.instagram.com/p/CN-6uNIBa7q/?igshid=1x1hs3m8omw9f">
+                                    {t.a8}
+                                </a>
+                            </p>
+                        ]}
+                    />
+                    <AboutQA
+                        question={t.q9}
+                        answer={[
+                            <p className={pClass}>
+                                {t.a9}
+                                <a className={aClass} href="mailto:simran@covidfyi.in">
+                                    {' '}
+                                    simran@covidfyi.in
+                                </a>{' '}
+                                {t.a91}
+                            </p>
+                        ]}
+                    />
+                    <AboutQA
+                        question={t.q10}
+                        answer={[
+                            <p className={pClass}>{t.a10}</p>,
+                            <a className={aClass} href="/partners">
+                                Current Partners
+                            </a>
+                        ]}
+                    />
                 </div>
-                <h2 className={h2Class}>{t.q8}</h2>
-                <p className={pClass}>
-                    <a
-                        className={aClass}
-                        href="https://www.instagram.com/p/CN-6uNIBa7q/?igshid=1x1hs3m8omw9f">
-                        {t.a8}
-                    </a>
-                </p>
-                <h2 className={h2Class}>{t.q9}</h2>
-                <p className={pClass}>
-                    {t.a9}
-                    <a className={aClass} href="mailto:simran@covidfyi.in">
-                        {' '}
-                        simran@covidfyi.in
-                    </a>{' '}
-                    {t.a91}
-                </p>
-                <h2 className={h2Class} id="partner">
-                    {t.q10}
-                </h2>
-                <p className={pClass}>{t.a10}</p>
-                {
-                    <a className={aClass} href="/partners">
-                        Current Partners
-                    </a>
-                }
                 <h2 className={h2Class} id="disclaimer">
                     {t.q11}
                 </h2>
