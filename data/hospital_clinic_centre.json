@@ -2283,7 +2283,7 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "availability": "Not Available",
+            "availability": null,
             "comment": "No direct admission, only through 1916",
             "createdTime": "2021-04-23T20:49:59.000Z",
             "district": "Mumbai City",
@@ -4774,7 +4774,7 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
-            "availability": null,
+            "availability": "Available",
             "comment": "2021-04-21 14:36 25 beds available Only for pregnant women and children. Asked to confirm the most updated number on the following number: 8285880852",
             "createdTime": "2021-04-23T20:34:21.000Z",
             "district": "Noida",
@@ -6461,7 +6461,7 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "availability": null,
+            "availability": "Not Available",
             "comment": "Fully Occupied",
             "createdTime": "2021-04-23T20:35:51.000Z",
             "district": "North West Delhi",
