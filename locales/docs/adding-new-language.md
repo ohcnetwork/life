@@ -81,3 +81,43 @@ export default {
     about: 'बद्दल'
 };
 ```
+
+Things to do After adding a New Language:
+
+Update `/hooks/use-locale.js`
+
+```diff
+import en from '@locales/en/index';
++ import mr from '@locales/mr/index';
+
+const useLocale = (loc) => {
+    let t = loc;
+    switch (loc) {
+        case 'EN':
+            t = en;
+            break;
++        case 'MR':
++            t = mr;
++            break;
+    }
+    return t;
+};
+
+export default useLocale;
+
+```
+
+Update `/locales/index.js`
+
+```diff
+export default [
+    {
+        name: 'English',
+        code: 'EN'
+    },
++    {
++        name: 'मराठी',
++        code: 'MR'
++    },
+];
+```

@@ -1961,6 +1961,34 @@
         {
             "availability": null,
             "city": null,
+            "comment": "IMT Manesar, Sector 8,Plot no, 546",
+            "companyName": null,
+            "createdTime": "2021-04-26T12:37:26.000Z",
+            "description": "Cylinder & Refill",
+            "district": "Gurgaon",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recL5MsF8iL1fEcuf",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-26T12:37:26.000Z",
+            "name": "Ravi Gas agency",
+            "phone1": 9599428757,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Haryana",
+            "type": [
+                "Refil",
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
+            "city": null,
             "comment": null,
             "companyName": null,
             "createdTime": "2021-04-20T08:44:17.000Z",

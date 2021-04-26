@@ -3925,6 +3925,31 @@
             ]
         },
         {
+            "availability": "Available",
+            "comment": "Noida Beds with oxygen available",
+            "createdTime": "2021-04-26T13:00:31.000Z",
+            "district": "Noida",
+            "email1": null,
+            "email2": null,
+            "id": "recYfkMM3iLPPtbf0",
+            "lastVerifiedOn": null,
+            "name": "Sharma Medicare Super Specialty Hospital",
+            "phone1": 1202326666,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "Bed with oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "comment": "Fully Occupied",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -7076,6 +7101,31 @@
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-26T12:58:28.000Z",
+            "district": "Bareilly",
+            "email1": null,
+            "email2": null,
+            "id": "rectEbvln8KUS2QBf",
+            "lastVerifiedOn": null,
+            "name": "Khuslok Hospital",
+            "phone1": 5812530800,
+            "phone2": 9760701234,
+            "pointOfContact": "Receptionist",
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "Bed without oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
