@@ -1,80 +1,80 @@
 export default {
-    head: 'About',
-    q1: 'Are you official?',
-    a1: 'No.',
-    q2: 'What are your sources? How is the data gathered for this project?',
-    a21: ` We are using multiple sources to obtain data. Our internal volunteer team scouts
-  for data from circulars, notices, tweets, other databases, websites. We also
-  obtain significant data from crowdsourced channels like - forms submitted by
-  common people. Partner initiatives engaged in similar list creation have merged
-  efforts with us to share their verified information.`,
-    a22: `The data is validated by a group of volunteers and published into an Airtable
-  sheet and an API. API is available for all at `,
-    a23: `. We would love it if you can use this data in the fight against this virus.`,
-    q3: `Where can I find the data for this?`,
-    a31: `All the data is available through an`,
-    a32: `Do file an issue at `,
-    a33: `if you have feedbacks / want to report a bug.`,
-    q4: `Who are you?`,
-    a4: `We are a group of dedicated volunteers who curate and verify the data coming
-  from several sources. CovidFYI - aggregates covid resources in the form of a
-  directory repository to help people looking for information. We never collect or
-  expose any personally identifiable data regarding the patients. We do not do
-  1-on-1 handling of cases. This is a product of collaboration - Covidfyi, a
-  Swasth initiative, backed by Coronasafe, with Stepone volunteers, PIIndia,
-  medical support group, Indian helpline, IIM-K community support (many more).`,
-    q5: `How often do you verify your information?`,
-    a5: `We verify information periodically, however, due to the size of data, please
-  accept our apologies in case you do not find what you were looking for. We will
-  continue to add, verify, clean the data. Since we are only as good as the data
-  hope we are able to save lives. Look forward to your support. Thanks to
-  everyone, wouldn't have been possible without you all.`,
-    q6: `Why are you guys putting in time and resources to do this while not gaining a
-  single penny from it?`,
-    a6: `We believe in the true spirit of collaboration, crowdsourcing, the
-  democratization of data, and volunteering. Please support us to save lives! Join
-  us.`,
-    q7: `How can you volunteer with us?`,
-    a7: ` Add verified data (that doesn't already exist) Verify existing data and
-  update verification status Help people 1-1 on other platforms by sharing
-  contact/links from covidfyi Innovate on product related ideas Handle social
-  media &amp; marketing Manage operations, volunteers, onboarding Decide which
-  team you want to join or just stick around to pitch in whenever there is call
-  for help!.`,
-    q8: `What to do if you have verified data and want to add to Covidfyi Database?`,
-    a8: `Recommend you to read this before adding data Tips on how to share COVID
-  resources online`,
-    q9: `Have bulk verified data?`,
-    a9: `In case you want to add data in bulk, in excel format, and you are not
-  comfortable with airtable, send it to us in google sheet or excel format on`,
-    a91: `or reach out to us anywhere. Join our team to add information.`,
-    q10: `Are you a similar initiative like ours? Or know one?`,
-    a10: `Run by your company, friends, college, on social media that have similar data.
-  Reach out to them, talk about us. Earnest request to get other initiatives to
-  collaborate as consolidation is important in the problem that we are solving. We
-  don&#39;t seek credits, we just want this information to reach. Our goal is to
-  provide the right information to the right people at the right time in the right
-  manner.`,
-    q11: `Disclaimer`,
-    a112: `COVID Information Platform `,
-    a113: ` is a platform created by Swasth Digital Health Foundation (“Swasth”), CovidFYI
-  and Coronasafe Network for providing verified crowd sourced emergency services
-  for COVID-19 emergencies across India.`,
-    a114: `All data and information provided in the COVID Information Platform are verified
-  by a group of volunteers to the best of their abilities and the Organizations
-  disclaim all responsibility for any data/information provided on the COVID
-  Information Platform. Organizations shall under no circumstances be held liable
-  for any direct, indirect, incidental, consequential, special, punitive,
-  exemplary, or any other damages arising out of the use of the COVID Information
-  Platform. There is no assurance by the Organizations of any specified outcomes
-  of the use of the COVID Information Platform. The users understand that by using
-  any data or information provided on the COVID Information Platform shall be at
-  their own risk and violation and that the Organizations are not responsible for
-  any consequences for offering such data/information. COVID Informational
-  Platform may provide, for informational purposes, links to websites operated by
-  other entities and persons, but does not endorse or accept any responsibility
-  for such content, or the use of such websites. No warranty of any kind including
-  but not limited to the warranties of non-infringement of third party rights,
-  title, merchantability, fitness for a particular purpose is given with respect
-  to the contents of this website or its hyperlinks to other internet resources.`
+    head: 'గురించి',
+    q1: 'మీరు అధికారికమా?',
+    a1: 'లేదు.',
+    q2: 'మీ మూలాలు ఏమిటి? ఈ ప్రాజెక్ట్ కోసం డేటా ఎలా సేకరిస్తారు?',
+    a21: ` డేటాను పొందడానికి మేము బహుళ వనరులను ఉపయోగిస్తున్నాము. మా అంతర్గత వాలంటీర్ బృందం స్కౌట్స్
+  సర్క్యులర్లు, నోటీసులు, ట్వీట్లు, ఇతర డేటాబేస్లు, వెబ్‌సైట్ల నుండి డేటా కోసం. మేము కూడా
+  క్రౌడ్‌సోర్స్ చేసిన ఛానెల్‌ల నుండి ముఖ్యమైన డేటాను పొందండి - సమర్పించిన ఫారమ్‌లు
+  సామాన్య ప్రజలు. ఇలాంటి జాబితా సృష్టిలో నిమగ్నమైన భాగస్వామి కార్యక్రమాలు విలీనం అయ్యాయి
+  వారి ధృవీకరించబడిన సమాచారాన్ని పంచుకోవడానికి మాతో ప్రయత్నాలు.`,
+    a22: `డేటా వాలంటీర్ల బృందం ధృవీకరించబడుతుంది మరియు ఎయిర్‌టేబుల్‌లో ప్రచురించబడుతుంది
+  షీట్ మరియు API. API అందరికీ అందుబాటులో ఉంది `,
+    a23: `. ఈ వైరస్‌కు వ్యతిరేకంగా పోరాటంలో మీరు ఈ డేటాను ఉపయోగించగలిగితే మేము దీన్ని ఇష్టపడతాము.`,
+    q3: `దీని కోసం డేటాను నేను ఎక్కడ కనుగొనగలను?`,
+    a31: `అన్ని డేటా ఒక ద్వారా లభిస్తుంది`,
+    a32: `వద్ద సమస్యను ఫైల్ చేయండి `,
+    a33: `మీకు ఫీడ్‌బ్యాక్‌లు ఉంటే / బగ్‌ను నివేదించాలనుకుంటే.`,
+    q4: `నీవెవరు?`,
+    a4: `మేము అంకితమైన స్వచ్ఛంద సేవకుల బృందం, వారు రాబోయే డేటాను క్యూరేట్ చేస్తారు మరియు ధృవీకరిస్తారు
+  అనేక మూలాల నుండి. CovidFYI - కోవిడ్ వనరులను a రూపంలో కలుపుతుంది
+  సమాచారం కోసం చూస్తున్న ప్రజలకు సహాయపడటానికి డైరెక్టరీ రిపోజిటరీ. మేము ఎప్పుడూ సేకరించము లేదా
+  రోగులకు సంబంధించి వ్యక్తిగతంగా గుర్తించదగిన డేటాను బహిర్గతం చేయండి. మేము చేయము
+  1-ఆన్ -1 కేసుల నిర్వహణ. ఇది సహకారం యొక్క ఉత్పత్తి - కోవిడ్ఫీ, ఎ
+  స్వాష్ చొరవ, కరోనాసాఫ్ మద్దతుతో, స్టెపోన్ వాలంటీర్లతో, పిఐండియా,
+  మెడికల్ సపోర్ట్ గ్రూప్, ఇండియన్ హెల్ప్‌లైన్, ఐఐఎం-కె కమ్యూనిటీ సపోర్ట్ (మరెన్నో).`,
+    q5: `మీరు మీ సమాచారాన్ని ఎంత తరచుగా ధృవీకరిస్తారు?`,
+    a5: `మేము సమాచారాన్ని క్రమానుగతంగా ధృవీకరిస్తాము, అయితే, డేటా పరిమాణం కారణంగా, దయచేసి
+  మీరు వెతుకుతున్నదాన్ని మీరు కనుగొనలేకపోతే మా క్షమాపణలను అంగీకరించండి. మేము చేస్తాము
+  డేటాను జోడించడం, ధృవీకరించడం, శుభ్రపరచడం కొనసాగించండి. మేము డేటా వలె మాత్రమే మంచివి కాబట్టి
+  మేము ప్రాణాలను రక్షించగలమని ఆశిస్తున్నాము. మీ మద్దతు కోసం ఎదురుచూడండి. ధన్యవాదాలు
+  ప్రతి ఒక్కరూ, మీరంతా లేకుండా సాధ్యం కాదు.`,
+    q6: `మీరు అబ్బాయిలు ఎందుకు సంపాదించడానికి సమయం మరియు వనరులను పెట్టడం లేదు
+  దాని నుండి ఒకే పెన్నీ?`,
+    a6: `సహకారం, క్రౌడ్‌సోర్సింగ్, యొక్క నిజమైన స్ఫూర్తిని మేము నమ్ముతున్నాము
+  డేటా యొక్క ప్రజాస్వామ్యీకరణ మరియు స్వయంసేవకంగా. ప్రాణాలను కాపాడటానికి దయచేసి మాకు మద్దతు ఇవ్వండి! చేరండి
+  మాకు.`,
+    q7: `మీరు మాతో ఎలా స్వచ్ఛందంగా పనిచేయగలరు?`,
+    a7: ` ధృవీకరించబడిన డేటాను జోడించండి (ఇది ఇప్పటికే లేదు) ఇప్పటికే ఉన్న డేటాను ధృవీకరించండి మరియు
+  ధృవీకరణ స్థితిని నవీకరించండి భాగస్వామ్యం చేయడం ద్వారా ఇతర ప్లాట్‌ఫారమ్‌లలో 1-1 మందికి సహాయం చేయండి
+  covidfyi నుండి పరిచయం / లింక్‌లు ఉత్పత్తి సంబంధిత ఆలోచనలపై ఆవిష్కరించండి సామాజికంగా నిర్వహించండి
+  మీడియా & amp; మార్కెటింగ్ కార్యకలాపాలు, వాలంటీర్లు, ఆన్‌బోర్డింగ్ నిర్వహించండి
+  మీరు చేరాలనుకుంటున్న బృందం లేదా కాల్ వచ్చినప్పుడల్లా పిచ్ చేయడానికి చుట్టూ ఉండండి
+  సహాయం కోసం!.`,
+    q8: `మీరు ధృవీకరించిన డేటాను కలిగి ఉంటే మరియు కోవిడ్‌ఫై డేటాబేస్‌కు జోడించాలనుకుంటే ఏమి చేయాలి?`,
+    a8: `డేటాను జోడించే ముందు దీన్ని చదవమని మీకు సిఫార్సు చేయండి COVID ని ఎలా పంచుకోవాలో చిట్కాలు
+  వనరులు ఆన్‌లైన్`,
+    q9: `బల్క్ ధృవీకరించబడిన డేటాను కలిగి ఉండండి?`,
+    a9: `ఒకవేళ మీరు డేటాను బల్క్‌లో, ఎక్సెల్ ఫార్మాట్‌లో జోడించాలనుకుంటే, మీరు కాదు
+  ఎయిర్‌టేబుల్‌తో సౌకర్యవంతంగా, గూగుల్ షీట్ లేదా ఎక్సెల్ ఫార్మాట్‌లో మాకు పంపండి`,
+    a91: `లేదా ఎక్కడైనా మాకు చేరండి. సమాచారాన్ని జోడించడానికి మా బృందంలో చేరండి.`,
+    q10: `మీరు మా లాంటి ప్రయత్నం చేస్తున్నారా? లేదా ఒకటి తెలుసు?`,
+    a10: `ఇలాంటి డేటాను కలిగి ఉన్న సోషల్ మీడియాలో మీ కంపెనీ, స్నేహితులు, కళాశాల నడుపుతుంది.
+  వారితో చేరండి, మా గురించి మాట్లాడండి. ఇతర కార్యక్రమాలను పొందడానికి ఎర్నెస్ట్ అభ్యర్థన
+  మేము పరిష్కరించే సమస్యలో ఏకీకరణ ముఖ్యం కాబట్టి సహకరించండి.మేము
+  క్రెడిట్లను వెతకండి, ఈ సమాచారం చేరుకోవాలని మేము కోరుకుంటున్నాము. మా లక్ష్యం
+  సరైన వ్యక్తులకు సరైన సమయంలో సరైన సమాచారాన్ని సరైన సమయంలో అందించండి
+  పద్ధతిలో.`,
+    q11: `నిరాకరణ`,
+    a112: `COVID సమాచార వేదిక`,
+    a113: ` కోవిడ్ఎఫ్వైఐ, స్వాష్త్ డిజిటల్ హెల్త్ ఫౌండేషన్ (“స్వాత్”) చేత సృష్టించబడిన వేదిక
+  మరియు ధృవీకరించబడిన క్రౌడ్ సోర్స్డ్ అత్యవసర సేవలను అందించడానికి కరోనాసాఫ్ నెట్‌వర్క్
+  భారతదేశం అంతటా COVID-19 అత్యవసర పరిస్థితులకు.`,
+    a114: `COVID ఇన్ఫర్మేషన్ ప్లాట్‌ఫామ్‌లో అందించిన మొత్తం డేటా మరియు సమాచారం ధృవీకరించబడతాయి
+  స్వచ్ఛంద సేవకుల బృందం వారి సామర్థ్యాలు మరియు సంస్థల ద్వారా
+  COVID లో అందించబడిన ఏదైనా డేటా / సమాచారం కోసం అన్ని బాధ్యతలను నిరాకరించండి
+  సమాచార వేదిక. సంస్థలు ఎట్టి పరిస్థితుల్లోనూ బాధ్యత వహించవు
+  ఏదైనా ప్రత్యక్ష, పరోక్ష, యాదృచ్ఛిక, పర్యవసాన, ప్రత్యేక, శిక్షాత్మక,
+  ఆదర్శప్రాయమైన, లేదా COVID సమాచార ఉపయోగం వల్ల ఉత్పన్నమయ్యే ఇతర నష్టాలు
+  వేదిక. పేర్కొన్న ఫలితాల గురించి సంస్థలచే ఎటువంటి హామీ లేదు
+  COVID ఇన్ఫర్మేషన్ ప్లాట్‌ఫాం యొక్క ఉపయోగం. ఉపయోగించడం ద్వారా వినియోగదారులు దానిని అర్థం చేసుకుంటారు
+  COVID ఇన్ఫర్మేషన్ ప్లాట్‌ఫామ్‌లో అందించబడిన ఏదైనా డేటా లేదా సమాచారం వద్ద ఉండాలి
+  వారి స్వంత ప్రమాదం మరియు ఉల్లంఘన మరియు సంస్థలు బాధ్యత వహించవు
+  అటువంటి డేటా / సమాచారాన్ని అందించడానికి ఏదైనా పరిణామాలు. COVID సమాచార
+  ప్లాట్‌ఫాం సమాచార ప్రయోజనాల కోసం, నిర్వహించే వెబ్‌సైట్‌లకు లింక్‌లను అందించవచ్చు
+  ఇతర సంస్థలు మరియు వ్యక్తులు, కానీ ఏ బాధ్యతను ఆమోదించరు లేదా అంగీకరించరు
+  అటువంటి కంటెంట్ కోసం లేదా అటువంటి వెబ్‌సైట్ల ఉపయోగం కోసం. సహా ఎలాంటి వారంటీ లేదు
+  కానీ మూడవ పార్టీ హక్కులను ఉల్లంఘించని వారెంటీలకు మాత్రమే పరిమితం కాదు,
+  టైటిల్, మర్చంటబిలిటీ, ఫిట్నెస్ ఒక నిర్దిష్ట ప్రయోజనం కోసం గౌరవంగా ఇవ్వబడుతుంది
+  ఈ వెబ్‌సైట్ యొక్క కంటెంట్‌లకు లేదా ఇతర ఇంటర్నెట్ వనరులకు దాని హైపర్‌లింక్‌లకు.`
 };
