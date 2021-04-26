@@ -7,6 +7,8 @@ import Logo from '../components/Logo';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import Selector from '../components/Selector';
 import { tabsInfo } from '../lib/tabs';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChartBar, faList } from '@fortawesome/free-solid-svg-icons';
 
 let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 
@@ -42,6 +44,30 @@ export default function Home() {
                         );
                     })}
                 </div>
+                <button
+                    type="button"
+                    className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                    <a href="https://www.covid19india.org/">
+                        <FontAwesomeIcon
+                            className="text-white-400 w-4 mr-4"
+                            title="Covid 19 Statistics"
+                            icon={faChartBar}
+                        />
+                        Covid19 Statistics
+                    </a>
+                </button>
+                <button
+                    type="button"
+                    className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS7nP0QvIvm5VDEbVDG0ELECYS446P-MgLwdX_elDrYbkN39g_o90wmJIMcazmcLH38Snn7rSqwAS_y/pubhtml?gid=972869835&single=true">
+                        <FontAwesomeIcon
+                            className="text-white-400 w-4 mr-4"
+                            title="Covid 19 Statistics"
+                            icon={faList}
+                        />
+                        Oxygen Concentrator Requirements
+                    </a>
+                </button>
             </section>
         </div>
     );
