@@ -4961,6 +4961,37 @@
             "verifiedBy": "Disha Jariwala"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "You'll need doctor's prescription for oxygen support for patient and covid +ve report to get the cylinder.",
+            "companyName": null,
+            "createdTime": "2021-04-26T14:16:50.000Z",
+            "description": "15L cylinders. No home delivery. Doctor's prescription and Covid report required",
+            "district": "Muzaffarnagar",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "rectp5ohLM1cU3r64",
+            "instructions": "1. Doctor's prescription\n2. Covid +ve report",
+            "lastVerifiedOn": "2021-04-26T14:16:50.000Z",
+            "name": "Rama Agencies",
+            "phone1": 1312442373,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": [
+                "Cylinder",
+                "Oxygen Cylinders",
+                "Oxygen",
+                "Oxygen cylinders",
+                "Oxygen Cylinders For Home Use"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "city": null,
             "comment": null,
