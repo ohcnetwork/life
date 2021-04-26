@@ -7,11 +7,11 @@ function AboutQA({ question, answer }) {
     return (
         <div className="w-full border-2 border-blue-500 shadow-md rounded-md py-4 px-8">
             <div className="flex justify-between items-center w-full">
-                <div className="">{question}</div>
+                <div className="w-4/5">{question}</div>
                 {!open ? (
                     <FontAwesomeIcon
                         onClick={() => setOpen(!open)}
-                        className="w-10 cursor-pointer"
+                        className="w-1/5 cursor-pointer"
                         icon={faPlusCircle}
                     />
                 ) : (
