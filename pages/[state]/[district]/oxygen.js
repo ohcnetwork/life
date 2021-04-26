@@ -25,7 +25,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
         ]
     };
     return (
-        <div>
+        <div className="pt-10">
             <NextSeo {...SEO} />
             <section className="flex flex-col ml-2 md:pt-10">
                 <Breadcumb

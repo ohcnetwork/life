@@ -29,7 +29,7 @@ export default function State({ state, district }) {
         ]
     };
     return (
-        <section className="md:pt-10">
+        <section className="pt-10">
             <NextSeo {...SEO} />
             <Breadcumb
                 list={[

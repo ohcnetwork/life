@@ -27,7 +27,7 @@ export default function Helpline({ state, district, helplines }) {
         ]
     };
     return (
-        <div>
+        <div className="pt-10">
             <NextSeo {...SEO} />
             <section className="flex flex-col ml-2 md:pt-10">
                 <Breadcumb

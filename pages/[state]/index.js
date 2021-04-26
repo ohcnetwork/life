@@ -35,7 +35,7 @@ export default function State({ state }) {
         ]
     };
     return (
-        <section className="md:pt-10">
+        <section className="pt-10">
             <NextSeo {...SEO} />
             <Breadcumb list={[{ href: null, name: humanize(state) }]} />
             <div className="w-full flex items-center pt-2">

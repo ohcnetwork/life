@@ -27,7 +27,7 @@ export default function Ambulance({ state, district, ambulancesListing }) {
         ]
     };
     return (
-        <div>
+        <div className="pt-10">
             <NextSeo {...SEO} />
             <Breadcumb
                 list={[
@@ -38,20 +38,19 @@ export default function Ambulance({ state, district, ambulancesListing }) {
             />
             <div className="w-full space-y-4 mt-4 mb-4">
                 {ambulancesListing.map((a) => (
-                        <EntityCard
-                            key={a.id}
-                            id={a.id}
-                            name={a.name || 'Ambulance'}
-                            phone1={a.phone1}
-                            phone2={a.phone2}
-                            area={a.area}
-                            source={a.source}
-                            createdTime={a.createdTime}
-                            verificationStatus={a.verificationStatus}
-                            lastVerifiedOn={a.lastVerifiedOn}
-                        />
-                    )
-                )}
+                    <EntityCard
+                        key={a.id}
+                        id={a.id}
+                        name={a.name || 'Ambulance'}
+                        phone1={a.phone1}
+                        phone2={a.phone2}
+                        area={a.area}
+                        source={a.source}
+                        createdTime={a.createdTime}
+                        verificationStatus={a.verificationStatus}
+                        lastVerifiedOn={a.lastVerifiedOn}
+                    />
+                ))}
             </div>
         </div>
     );
