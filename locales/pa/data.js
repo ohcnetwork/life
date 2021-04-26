@@ -13,5 +13,5 @@ export default {
     applyDes: `ਹੁਨਰ, ਸੰਪਰਕ`,
     govtContact: `ਸਰਕਾਰੀ ਸੰਪਰਕ`,
     govtDes: `ਸਰੋਤ, ਸ਼ਹਿਰ, ਸੰਪਰਕ`,
-    fillTheForm: `Fill the Form`
+    fillTheForm: `ਫਾਰਮ ਭਰੋ`
 };
