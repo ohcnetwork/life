@@ -90,7 +90,7 @@ const Footer = () => {
                 </p>
                 <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
                     {socialArr.map((el) => (
-                        <div className="px-5 py-2" key={el.link}>
+                        <div className="px-5 py-2" key={el.text + el.link}>
                             <a href={el.link}>
                                 <span className="text-base text-gray-700 hover:text-indigo-600 cursor-pointer dark:text-primary-200">
                                     {el.text}
