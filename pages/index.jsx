@@ -61,7 +61,7 @@ export default function Home() {
                     {getStates(selectedFilter).map((s) => {
                         return (
                             <Link key={s} href={`[state]`} as={`${parametreize(s)}`}>
-                                <span className="p-2 text-sm md:text-md font-normal hover:font-bold cursor-pointer hover:text-gray-900 text-gray-500 dark:hover:text-gray-50">
+                                <span className="p-2 text-sm md:text-md font-normal cursor-pointer hover:text-gray-900 text-gray-500 dark:hover:text-gray-50">
                                     {humanize(s)}
                                 </span>
                             </Link>

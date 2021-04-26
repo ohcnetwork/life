@@ -19,6 +19,11 @@ const Footer = () => {
             link: '/campaigns'
         },
         {
+            icon: faBookOpen,
+            text: 'Learn',
+            link: '/learn'
+        },
+        {
             icon: faHandsHelping,
             text: `${t.partnerWithUs}`,
             link: '/about#partner'

@@ -52,6 +52,7 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                                 name={p.name}
                                 city={p.city}
                                 phone1={p.phone1}
+                                phone2={p.phone2}
                                 address={p.address}
                                 description={p.description}
                                 createdTime={p.createdTime}
