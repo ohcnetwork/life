@@ -73,7 +73,7 @@ const Selector = ({ data, page, placeholder, localeState, localeDistrict }) => {
                             {filterTests(districtWithState(page), 'district').map((i) => {
                                 const url = `/${parametreize(i.state)}/${parametreize(
                                     i.district
-                                )}/${page}`;
+                                )}/${page === 'all' ? '' : page}`;
                                 return (
                                     <div key={i.district} className="md">
                                         <Link href={url}>{humanize(i.district)}</Link>

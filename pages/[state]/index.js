@@ -90,7 +90,11 @@ export default function State({ state }) {
                                     </Link>
 
                                     <div className="max-w-3xl mx-auto mt-6">
-                                        <TabLinks tabsInfo={tabsInfo} state={state} district={f} />
+                                        <TabLinks
+                                            tabsInfo={tabsInfo.filter((tab) => tab.value !== 'all')}
+                                            state={state}
+                                            district={f}
+                                        />
                                     </div>
                                 </div>
                             </div>
