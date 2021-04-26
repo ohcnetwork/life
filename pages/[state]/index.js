@@ -9,8 +9,12 @@ import { tabsInfo } from '@lib/tabs';
 import { NextSeo } from 'next-seo';
 import SocialSharing from '@components/SocialSharing';
 import { useRouter } from 'next/router';
+import useLocale from '@hooks/use-locale';
+import { useLocaleContext } from '@hooks/use-locale-context';
 
 export default function State({ state }) {
+    const { locale } = useLocaleContext();
+    const t = useLocale(locale).state;
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
     let districts = getDistricts(state);
@@ -41,6 +45,7 @@ export default function State({ state }) {
             <div className="w-full flex items-center pt-2">
                 <div className="mr-auto">
                     <SocialSharing
+                        shareText={t.share}
                         url={pageUrl}
                         twitterText={`Covid-19 Resources for ${humanize(state)}  ${pageUrl}`}
                     />
@@ -48,7 +53,7 @@ export default function State({ state }) {
             </div>
 
             <h1 className="mt-4 text-xl sm:text-2xl md:text-3xl md:text-left text-gray-900 dark:text-gray-800">
-                Search Result For{' '}
+                {t.searchResFor}{' '}
                 <span className="mt-4 font-bold text-3xl sm:text-4xl md:text-5xl text-gray-900 dark:text-gray-200 md:text-left">
                     "{humanize(state)}"
                 </span>
@@ -58,7 +63,7 @@ export default function State({ state }) {
                     <input
                         type="text"
                         className="mt-6 w-full h-12 border-2 border-gray-400 rounded mb-2 focus:outline-none focus:border-indigo-600 text-xl px-8 bg-gray-200 dark:bg-gray-1200 dark:border-gray-800  dark:text-white placeholder-gray-500"
-                        placeholder={`Search Districts of ${humanize(state)}`}
+                        placeholder={`${t.searchPlaceholder} ${humanize(state)}`}
                         value={searchStr}
                         onChange={(e) => setSearchStr(e.target.value)}
                     />
