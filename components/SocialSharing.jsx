@@ -5,11 +5,11 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { copyToClipboard } from '@lib/utils';
 
-const SocialSharing = ({ twitterText, url, copyText }) => {
+const SocialSharing = ({ twitterText, url, copyText, shareText }) => {
     const [copiedSuccess, setCopiesSuccess] = useState(false);
     return (
         <div className="text-gray-700 dark:text-gray-400 text-lg pr-4  w-full flex ">
-            Share
+            {shareText}
             <span>
                 <a href={`https://twitter.com/intent/tweet?text=${twitterText}`} target="_blank">
                     <FontAwesomeIcon
