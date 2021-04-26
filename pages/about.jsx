@@ -18,6 +18,7 @@ const About = () => {
             </div>
 
             <div className="py-10 dark:text-gray-500 text-gray-900 dark font-bold px-2">
+                <AboutQA question="Who are you?" answer="I am me" />
                 <h1 className={h1Class}>{t.head}</h1>
                 <h2 className={h2Class}>{t.q1}</h2>
                 <p className={pClass}>{t.a1}</p>
