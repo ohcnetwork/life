@@ -1,14 +1,21 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
+    mode: 'jit',
     purge: [
         './pages/**/*.{js,jsx,ts,tsx}',
         './lib/**/*.{js,jsx,ts,tsx}',
         './layouts/**/*.{js,jsx,ts,tsx}',
-        './components/**/*.{js,jsx,ts,tsx}',
+        './components/*.{js,jsx,ts,tsx}',
         './public/index.html'
     ],
     darkMode: 'class',
     theme: {
         extend: {
+            screens: {
+                xs: '475px',
+                ...defaultTheme.screens
+            },
             fontFamily: {
                 inter:
                     'Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";'

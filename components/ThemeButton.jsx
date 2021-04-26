@@ -1,7 +1,7 @@
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
-import { isDarkMode } from '../lib/utils';
+import { isDarkMode } from '@lib/utils';
 
 const ThemeButton = () => {
     const [isDarkModeEnabled, setIsDarkModeEnabled] = useState(isDarkMode());
@@ -27,7 +27,7 @@ const ThemeButton = () => {
     return (
         <span
             onClick={toggleTheme}
-            className="cursor-pointer fixed top-3 right-3 flex items-center justify-center h-10 w-10 bg-gray-200 text-gray-800 rounded-full">
+            className="cursor-pointer fixed top-3 right-3 flex items-center justify-center h-10 w-10 bg-gray-200 text-gray-800 dark:bg-gray-1000 z-50 rounded-full">
             <FontAwesomeIcon icon={isDarkModeEnabled ? faSun : faMoon} className="w-6" />
         </span>
     );

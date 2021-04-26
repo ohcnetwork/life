@@ -1,19 +1,35 @@
 import React from 'react';
-import { medicineByDistrict } from '../../../lib/api';
-import { statePaths, humanize } from '../../../lib/utils';
-import Head from 'next/head';
-import Breadcumb from '../../../components/Breadcumb';
-import MedicinesCard from '../../../components/MedicinesCard';
+import { medicineByDistrict } from '@lib/api';
+import { statePaths, humanize } from '@lib/utils';
+import Breadcumb from '@components/Breadcumb';
+import EntityCard from '@components/EntityCard';
+import { NextSeo } from 'next-seo';
 
 export default function Medicine({ state, district, medicineByDistrict }) {
+    const SEO = {
+        title: `Medicines in ${humanize(district)} , ${humanize(state)}`,
+        description: `Covid19 Resources for Medicines in ${humanize(district)} , ${humanize(
+            state
+        )}  `,
+        openGraph: {
+            title: `Medicines in ${humanize(district)} , ${humanize(state)}`,
+            description: `Covid19 Resources for Medicines in ${humanize(district)} , ${humanize(
+                state
+            )} `
+        },
+        additionalMetaTags: [
+            {
+                property: 'keywords',
+                content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
+                    district
+                )},${humanize(state)},medicines`
+            }
+        ]
+    };
     return (
-        <div>
+        <div className="pt-10">
+            <NextSeo {...SEO} />
             <section className="flex flex-col ml-2 md:pt-10">
-                <Head>
-                    <title>
-                        Medicines in {humanize(district)} , {humanize(state)}
-                    </title>
-                </Head>
                 <Breadcumb
                     list={[
                         { href: `/${state}`, name: humanize(state) },
@@ -29,18 +45,19 @@ export default function Medicine({ state, district, medicineByDistrict }) {
                 <div className="w-full space-y-4 mt-4 mb-4">
                     {medicineByDistrict.map((p) => {
                         return (
-                            <MedicinesCard
+                            <EntityCard
                                 key={p.id}
+                                id={p.id}
                                 verificationStatus={p.verificationStatus}
                                 name={p.name}
-                                distributorName={p.distributorName}
                                 city={p.city}
                                 phone1={p.phone1}
+                                phone2={p.phone2}
                                 address={p.address}
                                 description={p.description}
                                 createdTime={p.createdTime}
-                                slink={p.source_link}
-                                email={p.emailId}
+                                sourceLink={p.source_link}
+                                email1={p.emailId}
                                 lastVerifiedOn={p.lastVerifiedOn}
                             />
                         );
@@ -52,13 +69,13 @@ export default function Medicine({ state, district, medicineByDistrict }) {
 }
 
 export async function getStaticProps({ params }) {
-  return {
-    props: {
-      state: params.state,
-      district: params.district,
-      medicineByDistrict: medicineByDistrict(params.state, params.district, true),
-    },
-  };
+    return {
+        props: {
+            state: params.state,
+            district: params.district,
+            medicineByDistrict: medicineByDistrict(params.state, params.district, true)
+        }
+    };
 }
 
 export async function getStaticPaths() {

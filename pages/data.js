@@ -6,74 +6,71 @@ import {
     faLandmark,
     faLungsVirus,
     faPhoneAlt,
-    faSyringe,
     faUserEdit,
     faUserMd,
     faUsers
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Link from 'next/link';
-import Logo from '../components/Logo';
+import Logo from '@components/Logo';
+import useLocale from '@hooks/use-locale';
+import { useLocaleContext } from '@hooks/use-locale-context';
 
 export default function DataForm() {
+    const { locale } = useLocaleContext();
+    const th = useLocale(locale).home;
+    const t = useLocale(locale).data;
     const formsInfo = [
         {
-            name: 'Oxygen',
+            name: `${th.oxygen}`,
             icon: faLungsVirus,
-            description: 'Source, Type, Delivery',
+            description: `${t.sourceType}`,
             link: 'https://airtable.com/shrjYwvwPhPY6h6Hw'
         },
         {
-            name: 'Medicine/Injection/Chemist',
-            description: 'Distributor, Category, Address',
+            name: `${t.medicineInjection}`,
+            description: `${t.medicineDes}`,
             icon: faCapsules,
             link: 'https://airtable.com/shrCNfkEdSTxeWAGg'
         },
         {
-            name: 'Hospital',
-            description: 'District, Address, Contact',
+            name: `${th.hospital}`,
+            description: `${t.hospitalDes}`,
             icon: faHospital,
             link: 'https://airtable.com/shrfZV2enmY9wge0F'
         },
         {
-            name: 'Ambulance',
-            description: 'District, Address, Contact',
+            name: `${th.ambulance}`,
+            description: `${t.hospitalDes}`,
             icon: faAmbulance,
             link: 'https://airtable.com/shrAO7oA9qwh1OABJ'
         },
         {
-            name: 'Plasma',
-            description: 'Organization, City, Contact',
-            icon: faSyringe,
-            link: 'https://airtable.com/shrtvIFkPjcUxRd1H'
-        },
-        {
-            name: 'Helpline',
-            description: 'Category, Phone',
+            name: `${th.helpline}`,
+            description: `${t.helplineDes}`,
             icon: faPhoneAlt,
             link: 'https://airtable.com/shruCmaVNNXt1q1Uj'
         },
         {
-            name: 'Doctor/Telemedicine/Consultation',
+            name: `${t.doctorTele}`,
             icon: faUserMd,
-            description: 'Specialisation, City, Contact',
+            description: `${t.doctorDes}`,
             link: 'https://airtable.com/shrg0KEI0qRfLRPRP'
         },
         {
-            name: 'Support Groups (WhatsApp, Telegram etc)',
+            name: `${t.supportGroup}`,
             icon: faUsers,
-            description: 'Platform, Category, Contact',
+            description: `${t.supportDes}`,
             link: 'https://airtable.com/shrf64QSuwSrzWPxo'
         },
         {
-            name: 'Apply as volunteer',
-            description: 'Skills, Contact',
+            name: `${t.applyVol}`,
+            description: `${t.applyDes}`,
             icon: faHandsHelping,
             link: 'https://airtable.com/shrDiUIg7e1IWj6mz'
         },
         {
-            name: 'Government Contact',
-            description: 'Source, City, Contact',
+            name: `${t.govtContact}`,
+            description: `${t.govtDes}`,
             icon: faLandmark,
             link: 'https://airtable.com/shr5IdHRDcFrOKLcg'
         }
@@ -85,11 +82,11 @@ export default function DataForm() {
                 <a href="/" className="flex flex-col items-center cursor-pointer">
                     <Logo width={50} />
                     <h1 className="mt-1 font-black text-3xl text-gray-900 dark:text-gray-100">
-                        LIFE
+                        {th.title}
                     </h1>
                 </a>
                 <h2 className="mt-4 font-semibold text-md text-gray-900 text-center dark:text-gray-200">
-                    Verified Crowd Sourced Emergency Services Directory
+                    {th.description}
                 </h2>
             </section>
             <section className="text-center text-xl my-3 dark:text-gray-400">
@@ -101,7 +98,7 @@ export default function DataForm() {
                         return (
                             <li
                                 key={id}
-                                className="col-span-1 bg-white dark:bg-gray-1000 rounded-lg shadow divide-y divide-gray-200">
+                                className="col-span-1 bg-white dark:bg-gray-1200 rounded-lg shadow divide-y divide-gray-200">
                                 <div className="w-full flex items-center justify-between p-6 space-x-6">
                                     <div className="flex-1 truncate">
                                         <div className="flex items-center space-x-3">
@@ -109,14 +106,14 @@ export default function DataForm() {
                                                 {form.name}
                                             </h3>
                                         </div>
-                                        <p className="mt-1 text-gray-500 dark:text-gray-300 text-sm truncate">
+                                        <p className="mt-1 text-gray-700 dark:text-gray-300 text-sm truncate">
                                             {form.description}
                                         </p>
                                     </div>
-                                    <div className="w-10 h-10 bg-gray-300 flex justify-center items-center rounded-full flex-shrink-0">
+                                    <div className="w-10 h-10 bg-gray-300 dark:bg-gray-1100 flex justify-center items-center rounded-full flex-shrink-0">
                                         <FontAwesomeIcon
                                             icon={form.icon}
-                                            className="w-5 dark:text-primary-500"
+                                            className="w-5 dark:text-gray-300"
                                         />
                                     </div>
                                 </div>

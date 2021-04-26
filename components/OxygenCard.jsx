@@ -1,98 +1,122 @@
-import React from 'react';
-import '@fortawesome/fontawesome-svg-core/styles.css';
 import {
-    faLink,
-    faPhoneAlt,
-    faCheckCircle,
-    faExclamationTriangle
+    faMapMarkerAlt,
+    faQuestionCircle,
+    faBed,
+    faProcedures
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { parseDateString } from '../lib/utils';
+import SocialSharing from '@components/SocialSharing';
 
-const OxygenCard = ({
-    name,
-    company,
-    phone1,
-    phone2,
-    description,
-    source,
-    slink,
-    fstate,
-    fdistrict,
-    createdTime,
-    verifiedStatus,
-    lastVerifiedOn
-}) => {
+const fields = {
+    approximatePatientsServedPerDay: 'Patients served per day (approx)',
+    crateringToPeople: 'Cratering',
+    oxygenRequired: 'Oxygen Req',
+    highFlowOxygenConcentratorsRequired: 'High Oxygen Conc. needed',
+    lowFlowOxygenConcentratorsRequired: 'Low Oxygen Conc. Needed',
+    favipiravirRequired: 'Favipiravir Req',
+    ppeKitsRequired: 'PPE Kits Req',
+    remdesivirRequired: 'Remdesivir Req',
+    otherItemsRequired: 'Other Items Req',
+    tocilizumabRequired: 'Tocilizumab Required'
+};
+
+function OxygenCard({ data }) {
+    const fieldELem = (record) => {
+        return (
+            <div className={`text-lg ${data[record] ? '' : 'text-red-600 dark:text-red-400'}`}>
+                <span className="font-semibold">{fields[record]}</span> :{' '}
+                <span>
+                    {data[record] || (
+                        <FontAwesomeIcon icon={faQuestionCircle} className="w-3 ml-2" />
+                    )}
+                </span>
+            </div>
+        );
+    };
     return (
-        <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
-            <div className="p-4 flex justify-between flex-wrap">
-                <div>
-                    <div className="font-bold text-2xl dark:text-white">
-                        <h1>
-                            {name}
-                            <span>
-                                {verifiedStatus &&
-                                    verifiedStatus.toLocaleLowerCase() == 'verified' ? (
-                                    <FontAwesomeIcon
-                                        className="text-green-600 w-5 ml-4"
-                                        title="Verified"
-                                        icon={faCheckCircle}
-                                    />
-                                ) : (
-                                    <FontAwesomeIcon
-                                        className="text-yellow-400 w-4 ml-4"
-                                        title="Not verified"
-                                        icon={faExclamationTriangle}
-                                    />
-                                )}
-                            </span>
-                        </h1>
-                        <div className="text-sm  uppercase mt-3 text-gray-700 dark:text-gray-400 font-semibold">
-                            <span className="mr-2">{fdistrict}</span>|
-                            <span className="ml-2">{fstate}</span>
-                        </div>
-                        <div className="w-11/12 mt-2">
-                            <div className="text-sm">{source}</div>
-                        </div>
-                    </div>
+        <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300 pb-3 hover:shadow-lg">
+            <div className="w-full flex justify-between items-center pt-2">
+                <div className="ml-4 font-mono text-xs font-bold text-white dark:text-black rounded-full py-1 px-2 bg-gray-600">
+                    {' '}
+                    {data.govtOrNonGovt || 'Govt'}
                 </div>
-                <div className="flex flex-col items-start ">
-                    {phone1 && (
-                        <a
-                            className="font-mono text-gray-800 hover:text-gray-900 text-lg font-bold dark:text-white mt-2"
-                            href={`tel:${phone1}`}>
-                            <FontAwesomeIcon
-                                title={`${phone1}`}
-                                className="text-xl w-6"
-                                icon={faPhoneAlt}
-                            />
-                            <span className="ml-2">{phone1}</span>
-                        </a>
-                    )}
-                    {slink && (
-                        <a
-                            className="font-mono text-gray-700 font-bold text-xl hover:text-gray-900 dark:text-white"
-                            target="_blank"
-                            href={slink}>
-                            <FontAwesomeIcon
-                                title={`${slink}`}
-                                className="text-xl w-6"
-                                icon={faLink}
-                            />
-                            <span className="ml-2 text-lg mt-1">Source Link</span>
-                        </a>
-                    )}
+                <div className="ml-auto">
+                    <SocialSharing
+                        url={'https://life.coronasafe.network/oxygen_requirements'}
+                        twitterText={` More Info: https://life.coronasafe.network/oxygen_requirements`}
+                        copyText={`
+                                    Name: ${data.name}
+                                    State: ${data.state}
+                                    District: ${data.district}
+                                    Patients served perday: ~${data.approximatePatientsServedPerDay}
+                                    Hign flow oxygen required: ${data.highFlowOxygenConcentratorsRequired}
+                                    Low flow oxygen required: ${data.lowFlowOxygenConcentratorsRequired}
+                                    PPE kits required: ${data.ppeKitsRequired}
+                                    Remesivir required: ${data.remdesivirRequired}
+                                    Tocilizumab required: ${data.tocilizumabRequired}
+                                    Favipiravir required: ${data.favipiravirRequired}
+                                    Other items required: ${data.otherItemsRequired}
+                                    `}
+                    />
                 </div>
             </div>
-            <hr />
-            <div className="flex justify-between items-center mx-4 mt-2 pb-3 flex-wrap">
-                <div className="font-semibold dark:text-gray-400">{description}</div>
-                <div className="font-mono text-gray-700 text-sm dark:text-gray-400">
-                    {lastVerifiedOn && `Verified @ ${parseDateString(lastVerifiedOn)}`}
+            <div className="px-4">
+                <div className="w-full px-2">
+                    <div className="space-x-2 items-center">
+                        <h1 className="text-2xl font-bold dark:text-white items-center justify-start">
+                            {data.name}
+                        </h1>
+                    </div>
+                    <div className="text-lg mt-1">{data.type}</div>
+                    {data.state && data.district && (
+                        <div className="text-sm  uppercase mt-3 text-gray-700 font-semibold dark:text-gray-500">
+                            <FontAwesomeIcon icon={faMapMarkerAlt} className="w-3 mr-2" />
+                            <span className="mr-2">{data.villageTownCity}</span>
+                            <span className="mr-2">{data.district}</span>|
+                            <span className="ml-2">
+                                {data.state} {data.pincode}
+                            </span>
+                        </div>
+                    )}
+                    <div
+                        className={`flex flex-wrap space-x-4 text-sm text-white mt-2 font-bold items-center`}>
+                        <div
+                            className={`px-3 py-1 rounded-lg ${
+                                data.beds ? 'bg-green-600' : 'bg-red-600'
+                            }`}>
+                            <FontAwesomeIcon icon={faBed} className="w-3 mr-2" />{' '}
+                            <span className="mr-1">Beds:</span>
+                            {data.beds || '0'}
+                        </div>
+                        <div
+                            className={`px-3 py-1 rounded-lg ${
+                                data.beds ? 'bg-green-600' : 'bg-red-600'
+                            }`}>
+                            <FontAwesomeIcon icon={faProcedures} className="w-3 mr-2" />{' '}
+                            <span className="mr-1">Covid Beds:</span>
+                            {data.covidBeds || '0'}
+                        </div>
+                    </div>
+                    <div className="w-full flex  flex-wrap mt-3">
+                        <div className="w-full md:w-2/3">
+                            <div>{fieldELem('approximatePatientsServedPerDay')}</div>
+                            <div>{fieldELem('crateringToPeople')}</div>
+                            <div>{fieldELem('oxygenRequired')}</div>
+                            <div>{fieldELem('highFlowOxygenConcentratorsRequired')}</div>
+                            <div>{fieldELem('lowFlowOxygenConcentratorsRequired')}</div>
+                        </div>
+                        <div>
+                            <div>{fieldELem('favipiravirRequired')}</div>
+                            <div>{fieldELem('ppeKitsRequired')}</div>
+                            <div>{fieldELem('remdesivirRequired')}</div>
+                            <div>{fieldELem('otherItemsRequired')}</div>
+                            <div>{fieldELem('tocilizumabRequired')}</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     );
-};
+}
 
 export default OxygenCard;
