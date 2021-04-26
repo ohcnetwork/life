@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { faTwitter, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faFacebook, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faCopy } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -19,6 +19,18 @@ const SocialSharing = ({ twitterText, url, copyText, shareText }) => {
                         className="text-blue-500 ml-4"
                         title="Share on Twitter"
                         icon={faTwitter}
+                    />
+                </a>
+            </span>
+            <span>
+                <a
+                    href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
+                    rel="noopener"
+                    target="_blank">
+                    <FontAwesomeIcon
+                        className="text-blue-500 ml-4"
+                        title="Share on Whatsapp"
+                        icon={faWhatsapp}
                     />
                 </a>
             </span>
