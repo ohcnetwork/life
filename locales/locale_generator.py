@@ -8,20 +8,16 @@ if len(args) <= 1:
 
 folder_name = args[1]
 
-
-folder = "locales/" + folder_name
-
+new_folder = "locales/" + folder_name
 
 def create_file(file_name):
-    f = open(folder + file_name, "w")
-    f = open(folder + file_name, "a")
-    f2 = open("locales/en" + file_name, "r", encoding='utf-8')
-    for line in f2:
-        f.write(line)
-
+    new_file = open(new_folder + file_name, "a")
+    template_file = open("locales/en" + file_name, "r", encoding='utf-8')
+    for line in template_file:
+        new_file.write(line)
 
 try:
-    os.mkdir(folder)
+    os.mkdir(new_folder)
     create_file("/about.js")
     create_file("/campaigns.js")
     create_file("/data.js")
