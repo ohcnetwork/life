@@ -8,7 +8,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import Selector from '@components/Selector';
 import { tabsInfo } from '@lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartBar, faMedkit, faList } from '@fortawesome/free-solid-svg-icons';
+import { faChartBar, faMedkit } from '@fortawesome/free-solid-svg-icons';
 import hospitalCareCenterData from '@data/hospital_clinic_centre.json';
 import ambulanceData from '@data/ambulance.json';
 import useLocale from '@hooks/use-locale';
@@ -89,9 +89,9 @@ export default function Home() {
                             <FontAwesomeIcon
                                 className="text-white-400 w-4 mr-4"
                                 title="Covid 19 Statistics"
-                                icon={faList}
+                                icon={faMedkit}
                             />
-                            Oxygen Concentrator Requirements
+                            {t.oxygenRequirements}
                         </button>
                     </a>
                     {/* <a href="/oxygen_requirements">

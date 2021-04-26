@@ -14,7 +14,7 @@ export default {
     totalHospitals: 'Total Hospitals',
     verified: 'Verified',
     totalAmbulace: 'Total Ambulance',
-    oxygenRequirements: 'Oxygen Requirements',
+    oxygenRequirements: 'Oxygen Concentration Requirements',
     contributeData: 'Contribute Verified Data',
     campaigns: 'Campaigns',
     learn: 'Learn',
