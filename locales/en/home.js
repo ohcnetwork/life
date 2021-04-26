@@ -1,6 +1,7 @@
 export default {
     title: 'Life',
     description: 'Verified Crowd Sourced Emergency Services Directory',
+    all: 'All',
     oxygen: 'Oxygen',
     medicine: 'Medicine',
     hospital: 'Hospital',

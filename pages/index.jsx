@@ -19,6 +19,7 @@ let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection
 export default function Home() {
     const { locale } = useLocaleContext();
     const t = useLocale(locale).home;
+    const t_shared = useLocale('en').home;
 
     let tabsInfoNew = [];
     tabsInfo.forEach((tab) => {
@@ -28,11 +29,11 @@ export default function Home() {
             link,
             value,
             icon,
-            name: t[tab.name.toLowerCase()]
+            name: t[tab.name.toLowerCase()] ?? t_shared[tab.name.toLowerCase()]
         });
     });
 
-    const [selectedFilter, setSelectedFilter] = useState('oxygen');
+    const [selectedFilter, setSelectedFilter] = useState('all');
     return (
         <div>
             <section className="flex flex-col items-center mt-12">

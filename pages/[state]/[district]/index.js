@@ -65,7 +65,11 @@ export default function State({ state, district }) {
                 </div>
                 <section className="flex justify-center">
                     <div className="my-8 bg-gray-200 dark:bg-gray-1200 rounded-md inline-block">
-                        <TabLinks tabsInfo={tabsInfo} state={state} district={district} />
+                        <TabLinks
+                            tabsInfo={tabsInfo.filter((tab) => tab.value !== 'all')}
+                            state={state}
+                            district={district}
+                        />
                     </div>
                 </section>
             </div>
