@@ -7099,7 +7099,7 @@
             "email1": null,
             "email2": null,
             "id": "recrrgyYE2S6EzIGj",
-            "lastVerifiedOn": "2021-04-23T14:29:33.000Z",
+            "lastVerifiedOn": "2021-04-26T17:35:46.000Z",
             "name": "Sharda Hospital",
             "phone1": 8368623463,
             "phone2": 8800998800,
@@ -7109,7 +7109,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Varun Kumar"
         },
         {
