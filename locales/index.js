@@ -16,7 +16,7 @@ export default [
         code: 'TE'
     },
     {
-        name: 'বাঙ্গালী',
+        name: 'বাংলা',
         code: 'BA'
     },
     {
