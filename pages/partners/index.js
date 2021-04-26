@@ -8,18 +8,6 @@ const partners = [
         name: 'Covid India Campaign',
         logoURL: 'https://covidindiacampaign.org/wp-content/uploads/2020/05/logo-2-1.png',
         url: 'http://www.covidindiacampaign.org/'
-    },
-    {
-        id: '2',
-        name: 'Covid India Campaign',
-        logoURL: 'https://covidindiacampaign.org/wp-content/uploads/2020/05/logo-2-1.png',
-        url: 'http://www.covidindiacampaign.org/'
-    },
-    {
-        id: '3',
-        name: 'Covid India Campaign',
-        logoURL: 'https://covidindiacampaign.org/wp-content/uploads/2020/05/logo-2-1.png',
-        url: 'http://www.covidindiacampaign.org/'
     }
 ];
 
