@@ -44,7 +44,7 @@ const Footer = () => {
         }
     ];
     return (
-        <footer className="bg-gray-200 dark:bg-gray-1200 absolute top-full left-0 w-full py-10">
+        <footer className="bg-gray-200 dark:bg-gray-1200 w-full flex-shrink-0 pt-6 pb-2">
             <section className="flex flex-wrap justify-center">
                 {buttonArr.map((el) => (
                     <a

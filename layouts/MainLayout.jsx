@@ -23,12 +23,14 @@ const MainLayout = ({ children }) => {
 
     return (
         <LocaleContext.Provider value={value}>
-            <div
-                className="flex-grow bg-gray-100 dark:bg-gray-1100 relative"
-                style={{ minHeight: '85vh' }}>
-                <ThemeButton />
-                <LanguageSelector />
-                <div className="max-w-5xl mx-auto container px-2 pb-6">{children}</div>
+            <div className="flex flex-col items-stretch min-h-full bg-gray-100 dark:bg-gray-1100">
+                <div className="relative flex-shrink-0">
+                    <ThemeButton />
+                    <LanguageSelector />
+                </div>
+                <div className="max-w-5xl mx-auto px-2 pb-6 flex-grow flex-shrink-0">
+                    {children}
+                </div>
                 <Footer />
             </div>
         </LocaleContext.Provider>

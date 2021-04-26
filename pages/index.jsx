@@ -35,7 +35,7 @@ export default function Home() {
     const [selectedFilter, setSelectedFilter] = useState('oxygen');
     return (
         <div>
-            <section className="flex flex-col items-center md:pt-20">
+            <section className="flex flex-col items-center mt-12">
                 <Logo width={100} />
                 <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">
                     {t.title}
