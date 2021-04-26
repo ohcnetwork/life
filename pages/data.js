@@ -89,9 +89,7 @@ export default function DataForm() {
                     {th.description}
                 </h2>
             </section>
-            <section className="text-center text-xl my-3 dark:text-gray-400">
-                Do you have verified data and want to add to the database?
-            </section>
+            <section className="text-center text-xl my-3 dark:text-gray-400">{t.question}</section>
             <section className="max-w-full mx-auto mt-5 px-2 sm:px-4 lg:px-6">
                 <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2">
                     {formsInfo.map((form, id) => {

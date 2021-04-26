@@ -14,5 +14,9 @@ export default [
     {
         name: 'తెలుగు',
         code: 'TE'
+    },
+    {
+        name: 'বাঙ্গালী',
+        code: 'BA'
     }
 ];
