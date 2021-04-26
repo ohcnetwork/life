@@ -2,6 +2,7 @@ import React from 'react';
 import Breadcumb from '@components/Breadcumb';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
+import AboutQA from '@components/AboutQA';
 
 const About = () => {
     const { locale } = useLocaleContext();
