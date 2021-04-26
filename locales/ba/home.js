@@ -17,7 +17,7 @@ export default {
     totalAmbulace: 'মোট অ্যাম্বুলেন্স',
     oxygenRequirements: 'অক্সিজেন প্রয়োজনীয়তা',
     contributeData: 'যাচাই করা ডেটা অবদান করুন',
-    campaigns: 'অন্য অভিযান',
+    campaigns: 'আমাদের প্রচার',
     learn: 'শিখুন',
     partnerWithUs: 'আমাদের সাথে যোগ দিন',
     curatedBy: 'তথ্য সংগ্রহ করেছে',
