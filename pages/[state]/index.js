@@ -52,14 +52,14 @@ export default function State({ state }) {
                 </div>
             </div>
 
-            <h1 className="mt-4 text-xl sm:text-2xl md:text-3xl md:text-left text-gray-900 dark:text-gray-800">
+            <h1 className="mt-4 text-xl sm:text-2xl md:text-3xl text-center text-gray-900 dark:text-gray-800">
                 {t.searchResFor}{' '}
                 <span className="mt-4 font-bold text-3xl sm:text-4xl md:text-5xl text-gray-900 dark:text-gray-200 md:text-left">
                     "{humanize(state)}"
                 </span>
             </h1>
             <div className="w-full mt-2">
-                <div className="max-w-xl">
+                <div className="max-w-xl mx-auto">
                     <input
                         type="text"
                         className="mt-6 w-full h-12 border-2 border-gray-400 rounded mb-2 focus:outline-none focus:border-indigo-600 text-xl px-8 bg-gray-200 dark:bg-gray-1200 dark:border-gray-800  dark:text-white placeholder-gray-500"
