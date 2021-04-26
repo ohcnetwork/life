@@ -23,12 +23,19 @@ const Partners = () => {
                         </h1>
                     </div>
                 </div>
-                <div className="space-y-6 mt-12 dark:text-white mt-6 sm:justify-center max-w-2xl w-full ">
-                    {partners.map((p) => {
-                        return (
-                            <PartnerCard key={p.id} name={p.name} logoURL={p.logoURL} url={p.url} />
-                        );
-                    })}
+                <div className="space-y-6 mt-12 dark:text-white mt-6 w-full" align="center">
+                    <ul>
+                        {partners.map((p) => {
+                            return (
+                                <PartnerCard
+                                    key={p.id}
+                                    name={p.name}
+                                    logoURL={p.logoURL}
+                                    url={p.url}
+                                />
+                            );
+                        })}
+                    </ul>
                 </div>
             </section>
         </section>
