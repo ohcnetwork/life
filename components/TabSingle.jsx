@@ -21,7 +21,7 @@ const TabSingle = ({ tab, state, district }) => {
     const renderLink = (
         <div className={divClass2}>
             <FontAwesomeIcon icon={tab.icon} className="w-5" />
-            <span className="ml-2">{t[tab.name.toLowerCase()]}</span>
+            <span className="ml-2 whitespace-nowrap">{t[tab.name.toLowerCase()]}</span>
         </div>
     );
 
