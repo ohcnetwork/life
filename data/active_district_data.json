@@ -801,7 +801,7 @@
             "hospitals": true,
             "id": "rec6eQIzqBfmuh1pr",
             "medicine": false,
-            "oxygen": false,
+            "oxygen": true,
             "state": "Uttar Pradesh"
         },
         {

@@ -4262,6 +4262,38 @@
         {
             "availability": "Available",
             "city": null,
+            "comment": null,
+            "companyName": "Radha Industrial Gases",
+            "createdTime": "2021-04-26T09:14:45.000Z",
+            "description": "Oxygen cylinders are provided here and also refilled.",
+            "district": "Aligarh",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recn6MWwbyfaTetiB",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-26T09:14:45.000Z",
+            "name": "Radha Industrial Gases",
+            "phone1": 9997229249,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": [
+                "Refil",
+                "Cylinder",
+                "Oxygen Cylinders",
+                "Oxygen cylinders",
+                "Oxygen Cylinders - Empty",
+                "Oxygen Cylinders For Home Use"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
+            "city": null,
             "comment": "Portable Oxygen Cylinder12 ltr @ Rs 400/- for home quarantine",
             "companyName": "Jan Sewa Trust",
             "createdTime": "2021-04-24T07:18:54.000Z",
