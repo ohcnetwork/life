@@ -1,7 +1,7 @@
 export default {
     head: 'About',
     q1: 'Are you official?',
-    a1: 'No.',
+    a1: 'ના',
     q2: 'What are your sources? How is the data gathered for this project?',
     a21: ` We are using multiple sources to obtain data. Our internal volunteer team scouts
   for data from circulars, notices, tweets, other databases, websites. We also
