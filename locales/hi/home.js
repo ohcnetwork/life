@@ -7,6 +7,7 @@ export default {
     ambulance: `एम्बुलेंस`,
     helpline: `हेल्पलाइन`,
     plasma: `प्लाज्मा`,
+    vaccine: 'वैक्सीन',
     searchPlaceholder: `राज्य या जिले में उपलब्धता के लिए खोजें`,
     state: `राज्य`,
     district: `जिला`,
