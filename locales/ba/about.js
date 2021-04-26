@@ -38,21 +38,19 @@ export default {
   media &amp; marketing Manage operations, volunteers, onboarding Decide which
   team you want to join or just stick around to pitch in whenever there is call
   for help!.`,
-    q8: `What to do if you have verified data and want to add to Covidfyi Database?`,
-    a8: `Recommend you to read this before adding data Tips on how to share COVID
-  resources online`,
-    q9: `Have bulk verified data?`,
-    a9: `In case you want to add data in bulk, in excel format, and you are not
-  comfortable with airtable, send it to us in google sheet or excel format on`,
-    a91: `or reach out to us anywhere. Join our team to add information.`,
-    q10: `Are you a similar initiative like ours? Or know one?`,
-    a10: `Run by your company, friends, college, on social media that have similar data.
-  Reach out to them, talk about us. Earnest request to get other initiatives to
-  collaborate as consolidation is important in the problem that we are solving. We
-  don&#39;t seek credits, we just want this information to reach. Our goal is to
-  provide the right information to the right people at the right time in the right
-  manner.`,
-    q11: `Disclaimer`,
+    q8: `আপনার যদি যাচাই করা ডেটা থাকে এবং কোভিডফাই ডেটাবেস যুক্ত করতে চান তবে কী করবেন?`,
+    a8: `আমরা আপনাকে ডেটা যুক্ত করার আগে এটি পড়ার প্রস্তাব দিই "Tips on how to share COVID
+  resources online"`,
+    q9: `আপনার কি অনেক যাচাই করা ডেটা আছে?`,
+    a9: `যদি আপনার কাছে এক্সেল ফর্ম্যাটে ডেটা থাকে এবং আপনি এটি আমাদের কাছে প্রেরণ করতে চান তবে এটি এখানে পাঠান`,
+    a91: `বা আমাদের কাছে কোথাও পৌঁছাতে। তথ্য যোগ করতে আমাদের দলে যোগদান করুন।`,
+    q10: `আপনি কি আমাদের মতো একই উদ্যোগ?`,
+    a10: `আপনার সংস্থা, বন্ধুবান্ধব, কলেজ, সোশ্যাল মিডিয়ায় চালিত হয় যা একই রকম ডেটা রয়েছে।
+    তাদের কাছে পৌঁছে দিন, আমাদের সম্পর্কে কথা বলুন। অন্যান্য উদ্যোগ পেতে আন্তরিক অনুরোধ
+    আমরা যে সমস্যার সমাধান করছি তাতে একীকরণ গুরুত্বপূর্ণ হিসাবে সহযোগিতা করা। আমরা
+    ক্রেডিট চাই না, আমরা কেবল এই তথ্যটি পৌঁছাতে চাই। আমাদের লক্ষ্য
+    সঠিক সময়ে সঠিক লোককে সঠিক তথ্য সরবরাহ করা।`,
+    q11: `অস্বীকৃতি`,
     a112: `COVID Information Platform `,
     a113: ` is a platform created by Swasth Digital Health Foundation (“Swasth”), CovidFYI
   and Coronasafe Network for providing verified crowd sourced emergency services
