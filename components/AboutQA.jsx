@@ -5,7 +5,7 @@ import { faMinusCircle, faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 function AboutQA({ question, answer }) {
     const [open, setOpen] = useState(false);
     return (
-        <div className="w-full border-2 border-blue-500 shadow rounded-md py-4 px-8">
+        <div className="w-full border-2 border-blue-500 shadow-md rounded-md py-4 px-8">
             <div className="flex justify-between items-center w-full">
                 <div className="">{question}</div>
                 {!open ? (
@@ -22,9 +22,7 @@ function AboutQA({ question, answer }) {
                     />
                 )}
             </div>
-            {open && (
-                <div className="text-sm text-gray-800 px-8 mt-3">{answer.map((ans) => ans)}</div>
-            )}
+            {open && <div className="text-sm text-gray-800 mt-3">{answer.map((ans) => ans)}</div>}
         </div>
     );
 }

@@ -9,8 +9,8 @@ const About = () => {
     const t = useLocale(locale).about;
 
     const h1Class = `text-4xl`;
-    const h2Class = `text-xl mt-5`;
-    const pClass = `text-blue-500 mt-2 text-md`;
+    const h2Class = `text-blue-500 dark:text-gray-600 text-xl mt-5`;
+    const pClass = `text-blue-500 dark:text-gray-600 mt-2 text-md`;
     const aClass = `underline text-primary-600 hover:text-primary-800 visited:text-purple-600`;
     return (
         <>
@@ -18,7 +18,7 @@ const About = () => {
                 <Breadcumb list={[{ href: null, name: 'About' }]} />
             </div>
 
-            <div className="py-10 dark:text-gray-500 text-gray-900 dark font-bold px-2">
+            <div className="py-10 dark:text-gray-500 text-gray-900 dark font-bold px-2 md:mx-10">
                 <h1 className={h1Class}>{t.head}</h1>
                 <div className="flex flex-col items-center justify-center space-y-4 w-full my-4">
                     <AboutQA question={t.q1} answer={[t.a1]} />
@@ -107,21 +107,25 @@ const About = () => {
                             </a>
                         ]}
                     />
+                    <AboutQA
+                        question={t.q11}
+                        answer={[
+                            <p className={pClass}>
+                                {t.a112}
+                                {
+                                    <a
+                                        className={aClass}
+                                        href="https://liferesources.in/"
+                                        target="_blank">
+                                        https://liferesources.in/
+                                    </a>
+                                }
+                                {t.a113}
+                            </p>,
+                            <p className={pClass}>{t.a114}</p>
+                        ]}
+                    />
                 </div>
-                <h2 className={h2Class} id="disclaimer">
-                    {t.q11}
-                </h2>
-
-                <p className={pClass}>
-                    {t.a112}
-                    {
-                        <a className={aClass} href="https://liferesources.in/" target="_blank">
-                            https://liferesources.in/
-                        </a>
-                    }
-                    {t.a113}
-                </p>
-                <p className={pClass}>{t.a114}</p>
             </div>
         </>
     );
