@@ -1,5 +1,5 @@
 export default {
-    share: `Share`,
-    searchResFor: `Search Result For`,
-    searchPlaceholder: `Search Districts For`
+    share: `শেয়ার`,
+    searchResFor: `রাজ্যের অনুসন্ধান ফলাফল`,
+    searchPlaceholder: `জেলার অনুসন্ধান ফলাফল`
 };
