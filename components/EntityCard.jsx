@@ -6,9 +6,11 @@ import SocialSharing from '@components/SocialSharing';
 import { useRouter } from 'next/router';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import Phone from '@components/Phone';
-import { faEnvelope, faLink, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faLink, faMapMarkerAlt, faThumbsUp, faThumbsDown } from '@fortawesome/free-solid-svg-icons';
+import {airtableUpVote, airtableDownVote} from '@lib/airtable_api';
 
 const EntityCard = ({
+    airtableTableName,
     id,
     name,
     pointOfContact,
@@ -45,7 +47,7 @@ const EntityCard = ({
             <div className="p-4 flex justify-between flex-wrap">
                 <div>
                     <div className="font-bold text-2xl">
-                        <h1 className="flex capitalize dark:text-white items-center justify-start">{name || resourceType}</h1>
+                      <h1 className="flex capitalize dark:text-white items-center justify-start">{name || resourceType}</h1>
                         <div className="w-11/12 max-w-3xl mt-2">
                             <div className="text-sm">{area}</div>
                         </div>
@@ -112,7 +114,12 @@ const EntityCard = ({
                             <span className="ml-2 text-lg mt-1">Source Link</span>
                         </a>
                     )}
-                    <Badge badgeType={verificationStatus || 'unverified'} />
+                  <Badge badgeType={verificationStatus || 'unverified'} />
+                  <span>
+                    Did this work? <FontAwesomeIcon className="w-4" icon={faThumbsUp} onClick={() => {airtableUpVote(airtableTableName, id);}}/> &nbsp; &nbsp; &nbsp;<FontAwesomeIcon className="w-4" icon={faThumbsDown} onClick={() => {airtableDownVote(airtableTableName, id);}}/>
+                  </span>
+
+                  
                 </div>
             </div>
             <hr className="dark:border-gray-900" />

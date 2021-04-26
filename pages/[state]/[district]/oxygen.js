@@ -4,8 +4,15 @@ import { statePaths, humanize } from '@lib/utils';
 import EntityCard from '@components/EntityCard';
 import Breadcumb from '@components/Breadcumb';
 import { NextSeo } from 'next-seo';
+import {list, airtableUpVote, airtableDownVote} from '@lib/airtable_api';
+
 
 export default function Oxygen({ state, district, oxygenListing }) {
+
+    // Airtable connection
+    const airtableTableName = 'Oxygen';
+    // list(airtableTableName);
+    
     const SEO = {
         title: `Oxygen in ${humanize(district)} , ${humanize(state)}`,
         description: `Covid19 Resources for Oxygen in ${humanize(district)} , ${humanize(state)}`,
@@ -44,6 +51,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
                     {oxygenListing.map((o) => {
                         return (
                             <EntityCard
+                                airtableTableName={airtableTableName}
                                 key={o.id}
                                 id={o.id}
                                 name={o.name}
