@@ -270,6 +270,38 @@ def get_ambulance_data():
     return ambulance_data
 
 
+def get_vaccine_data():
+    url = "https://api.airtable.com/v0/appIVYBhHiWvtSV1h/vaccine"
+    ambulance_data = {"data": []}
+    raw_data = get_records(url)
+    for record in raw_data:
+        try:
+            district = districts[record["fields"]["Districts"][0]]
+        except Exception:
+            continue
+        ambulance_data["data"].append(
+            {
+                "id": record["id"],
+                "name": record["fields"].get("Center Name"),
+                "state": district.state,
+                "district": district.name,
+                "date": record["fields"].get("Date"),
+                "status": record["fields"].get("Status"),
+                "address": record["fields"].get("Address"),
+                "verificationStatus": record["fields"].get("Last_Verification")
+                if "Latest_Verification_Status" in record["fields"]
+                else "Unresponsive",
+                "lastVerifiedOn": record["fields"].get("Verified_on"),
+                "verifiedBy": record["fields"]["Verified_By"][0].get("name")
+                if "Verified_By" in record["fields"]
+                else [{}],
+                "comment": record["fields"].get("Verifier_comment"),
+                "createdTime": record["createdTime"],
+            }
+        )
+    return ambulance_data
+
+
 if __name__ == "__main__":
     active_district_data = get_active_district_data()
     dump_data("active_district_data.json", active_district_data)
@@ -283,3 +315,5 @@ if __name__ == "__main__":
     dump_data("medicine.json", medicine_data)
     ambulance_data = get_ambulance_data()
     dump_data("ambulance.json", ambulance_data)
+    vaccine_data = get_vaccine_data()
+    dump_data("vaccine.json", vaccine_data)

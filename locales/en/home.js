@@ -7,6 +7,7 @@ export default {
     ambulance: 'Ambulance',
     helpline: 'Helpline',
     plasma: 'Plasma',
+    vaccine: 'Vaccine',
     searchPlaceholder: 'Search for availability in a State or District',
     state: 'State',
     district: 'District',
