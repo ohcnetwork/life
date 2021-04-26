@@ -24,7 +24,7 @@ const SocialSharing = ({ twitterText, url, copyText, shareText }) => {
             </span>
             <span>
                 <a
-                    href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
+                    href={`https://api.whatsapp.com/send?&text=${twitterText}`}
                     rel="noopener"
                     target="_blank">
                     <FontAwesomeIcon
