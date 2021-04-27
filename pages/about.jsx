@@ -106,24 +106,6 @@ const About = () => {
                             </a>
                         ]}
                     />
-                    <AboutQA
-                        question={t.q11}
-                        answer={[
-                            <p className={pClass}>
-                                {t.a112}
-                                {
-                                    <a
-                                        className={aClass}
-                                        href="https://liferesources.in/"
-                                        target="_blank">
-                                        https://liferesources.in/
-                                    </a>
-                                }
-                                {t.a113}
-                            </p>,
-                            <p className={pClass}>{t.a114}</p>
-                        ]}
-                    />
                 </div>
             </div>
         </>
