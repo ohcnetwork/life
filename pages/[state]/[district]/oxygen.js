@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { getOxygen } from '@lib/api';
 import { statePaths, humanize } from '@lib/utils';
 import EntityCard from '@components/EntityCard';
@@ -40,6 +40,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
                 <h1 className="mt-4 font-black text-6xl text-gray-900 dark:text-gray-200 md:text-left text-center">
                     {humanize(district)}
                 </h1>
+
                 <div className="w-full mt-4 p-4 space-y-4">
                     {oxygenListing.map((o) => {
                         return (
@@ -58,6 +59,7 @@ export default function Oxygen({ state, district, oxygenListing }) {
                                 createdTime={o.createdTime}
                                 verificationStatus={o.verificationStatus}
                                 lastVerifiedOn={o.lastVerifiedOn}
+                                type={o.type}
                             />
                         );
                     })}
