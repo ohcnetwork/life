@@ -1,5 +1,5 @@
 export default {
-    share: `Share`,
-    searchResFor: `Search Result For`,
-    searchPlaceholder: `Search Districts For`
+    share: `ಹಂಚಿಕೊಳ್ಳಿ`,
+    searchResFor: `ಇದಕ್ಕಾಗಿ ಹುಡುಕಾಟ ಫಲಿತಾಂಶ`,
+    searchPlaceholder: `ಇದಕ್ಕಾಗಿ ಜಿಲ್ಲೆಗಳನ್ನು ಹುಡುಕಿ`
 };

@@ -7,41 +7,40 @@ import pa from '@locales/pa/index';
 import gu from '@locales/gu/index';
 import kn from '@locales/kn/index';
 import ma from '@locales/ma/index';
+import ta from '@locales/ta/index';
+import ur from '@locales/ur/index';
 
-const useLocale = (loc) => {
-    let t = loc;
-    switch (loc) {
-        case 'EN':
-            t = en;
-            break;
-        case 'MR':
-            t = mr;
-            break;
-        case 'HI':
-            t = hi;
-            break;
-        case 'TE':
-            t = te;
-            break;
-        case 'BA':
-            t = ba;
-            break;
-        case 'PA':
-            t = pa;
-            break;
-        case 'GU':
-            t = gu;
-            break;
-        case 'KN':
-            t = kn;
-            break;
-        case 'MA':
-            t = ma;
-            break;
-        default:
-            t = en;
-    }
-    return t;
+const languages = {
+    EN: en,
+    MR: mr,
+    HI: hi,
+    TE: te,
+    BA: ba,
+    PA: pa,
+    GU: gu,
+    KN: kn,
+    TA: ta,
+    UR: ur,
+    MA: ma,
 };
+
+const transParse = (lang, type) => {
+    // if the type doesn't exist on the lang send the default
+    if (lang[type] === undefined) {
+        return en[type];
+    } else {
+        for (let x in en[type]) {
+            if (lang[type][x] === undefined) {
+                lang[type][x] = en[type][x];
+            }
+        }
+        return lang[type];
+    }
+};
+
+const useLocale = (loc, type) => {
+    return transParse(languages[loc], type);
+};
+
 
 export default useLocale;

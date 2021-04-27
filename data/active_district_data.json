@@ -1101,7 +1101,7 @@
             "hospitals": false,
             "id": "rec8SxDjhoFwp9YF1",
             "medicine": false,
-            "oxygen": false,
+            "oxygen": true,
             "state": "Uttar Pradesh"
         },
         {
@@ -1158,7 +1158,7 @@
             "district": "New Delhi",
             "doctor": true,
             "helpline": true,
-            "hospitals": false,
+            "hospitals": true,
             "id": "rec9amzhpfopyIHTk",
             "medicine": true,
             "oxygen": true,
@@ -1545,7 +1545,7 @@
             "hospitals": false,
             "id": "recCuDugOytJWakbz",
             "medicine": false,
-            "oxygen": false,
+            "oxygen": true,
             "state": "West Bengal"
         },
         {
@@ -3305,8 +3305,8 @@
             "contact": true,
             "district": "Burdwan (Bardhaman)",
             "doctor": false,
-            "helpline": false,
-            "hospitals": false,
+            "helpline": true,
+            "hospitals": true,
             "id": "recTIi1YNzkj9ZrIt",
             "medicine": false,
             "oxygen": true,
@@ -5829,7 +5829,7 @@
             "hospitals": false,
             "id": "recnJnyRw5EWBWWXY",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "state": "Delhi (NCT)"
         },
         {
@@ -7305,7 +7305,7 @@
             "hospitals": true,
             "id": "reczp1CKsOSqcz512",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "state": "Uttar Pradesh"
         },
         {

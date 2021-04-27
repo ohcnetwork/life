@@ -13,5 +13,5 @@ export default {
     applyDes: ` দক্ষতা, যোগাযোগ`,
     govtContact: `সরকারী যোগাযোগ`,
     govtDes: ` উৎস/কোথা থেকে পাওয়া গেছে, শহর, যোগাযোগ`,
-    fillTheForm: `Fill the Form`
+    fillTheForm: `এই ফর্মটি পূরণ করুন`
 };

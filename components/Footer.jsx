@@ -1,12 +1,18 @@
 import React, { useContext } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDatabase, faHandsHelping, faHeart, faBookOpen } from '@fortawesome/free-solid-svg-icons';
+import {
+    faDatabase,
+    faHandsHelping,
+    faHeart,
+    faBookOpen,
+    faInfo
+} from '@fortawesome/free-solid-svg-icons';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 
 const Footer = () => {
     const { locale, setLocale } = useLocaleContext();
-    const t = useLocale(locale).home;
+    const t = useLocale(locale, 'home');
     const buttonArr = [
         {
             icon: faDatabase,
@@ -44,7 +50,7 @@ const Footer = () => {
         }
     ];
     return (
-        <footer className="bg-gray-200 dark:bg-gray-1200 absolute top-full left-0 w-full py-10">
+        <footer className="bg-gray-200 dark:bg-gray-1200 w-full flex-shrink-0 pt-6 pb-2">
             <section className="flex flex-wrap justify-center">
                 {buttonArr.map((el) => (
                     <a
@@ -55,6 +61,17 @@ const Footer = () => {
                         {el.text}
                     </a>
                 ))}
+            </section>
+            <section className="flex flex-wrap justify-center my-3 text-sm">
+                <div className="flex items-center mr-2 text-gray-900 dark:text-gray-500">
+                    <span className="font-semibold mr-2">Disclaimer: </span>
+                    <span className="">Data is not owned or created by us.</span>
+                </div>
+                <div>
+                    <a href="/disclaimer" className="font-semibold text-indigo-500 underline">
+                        Know More
+                    </a>
+                </div>
             </section>
             <div className="max-w-7xl mx-auto py-6 px-4 overflow-hidden sm:px-6 lg:px-8 sm:flex items-center justify-between">
                 <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">

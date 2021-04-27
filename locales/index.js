@@ -12,11 +12,15 @@ export default [
         code: 'MR'
     },
     {
+        name: 'தமிழ்',
+        code: 'TA'
+    },
+    {
         name: 'తెలుగు',
         code: 'TE'
     },
     {
-        name: 'বাঙ্গালী',
+        name: 'বাংলা',
         code: 'BA'
     },
     {
@@ -35,4 +39,8 @@ export default [
         name: 'മലയാളം',
         code: 'MA'
     },
+    {
+        name: 'اردو',
+        code: 'UR'
+    }
 ];

@@ -271,6 +271,25 @@
         },
         {
             "category": [
+                "Medicines"
+            ],
+            "comment": null,
+            "createdTime": "2021-04-27T09:58:01.000Z",
+            "description": null,
+            "district": "Burdwan (Bardhaman)",
+            "id": "rec1CdQ9DID0rs5Zm",
+            "lastVerifiedOn": null,
+            "name": "Cipla Customer Care",
+            "phone1": 8657311080,
+            "phone2": null,
+            "source": null,
+            "sourceUrl": null,
+            "state": "West Bengal",
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": null
+        },
+        {
+            "category": [
                 "Government Departmental Numbers"
             ],
             "comment": null,
@@ -8386,6 +8405,25 @@
             "source": "Govt of Haryana",
             "sourceUrl": "https://cdn.s3waas.gov.in/s36e7b33fdea3adc80ebd648fffb665bb8/uploads/2020/04/2020040732.pdf",
             "state": "Haryana",
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": null
+        },
+        {
+            "category": [
+                "Covid19 Helpline"
+            ],
+            "comment": null,
+            "createdTime": "2021-04-27T09:55:06.000Z",
+            "description": null,
+            "district": "Burdwan (Bardhaman)",
+            "id": "recTUhBnpRZlCa2IT",
+            "lastVerifiedOn": null,
+            "name": "Covid-19 Helpline Number",
+            "phone1": 1075,
+            "phone2": 1123978046,
+            "source": null,
+            "sourceUrl": "https://www.mohfw.gov.in",
+            "state": "West Bengal",
             "verificationStatus": "Unresponsive",
             "verifiedBy": null
         },
