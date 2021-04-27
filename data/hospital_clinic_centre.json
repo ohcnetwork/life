@@ -31,7 +31,7 @@
             "id": "rec0JS2YkdkCTuHXm",
             "lastVerifiedOn": "2021-04-25T13:55:42.000Z",
             "name": "RKDF University Hospital",
-            "phone1": 917692940261,
+            "phone1": 7692940261,
             "phone2": 919301108890,
             "pointOfContact": null,
             "state": "Madhya Pradesh",
@@ -1992,7 +1992,7 @@
             "id": "recHsQY9rnbVQxalT",
             "lastVerifiedOn": "2021-04-25T13:58:59.000Z",
             "name": "Chirayu Hospital",
-            "phone1": 919993366621,
+            "phone1": 9993366621,
             "phone2": null,
             "pointOfContact": null,
             "state": "Madhya Pradesh",
@@ -2088,6 +2088,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "availability": null,
+            "comment": "If anyone is Not getting a bed in Pune for treatment on Corona, there is  a well-equipped hospital center of 450 beds has been set up at Wipro's campus at Hinjewadi Phase-1 and it is also completely * free *.  There is oxygen and all kinds of essential medicines with no additional cost.",
+            "createdTime": "2021-04-26T14:28:27.000Z",
+            "district": "Pune",
+            "email1": null,
+            "email2": null,
+            "id": "recJZCtGm71x1AKyk",
+            "lastVerifiedOn": null,
+            "name": "Wipro Covid Hospital",
+            "phone1": 919518593779,
+            "phone2": 919011087560,
+            "pointOfContact": "Rajendra Mohite",
+            "state": "Maharashtra",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -2283,7 +2306,7 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "availability": "Not Available",
+            "availability": null,
             "comment": "No direct admission, only through 1916",
             "createdTime": "2021-04-23T20:49:59.000Z",
             "district": "Mumbai City",
@@ -3481,7 +3504,7 @@
             "id": "recV2CSzm3960abI5",
             "lastVerifiedOn": null,
             "name": "Victoria Hospital",
-            "phone1": 80,
+            "phone1": null,
             "phone2": null,
             "pointOfContact": null,
             "state": "Karnataka",
@@ -3651,7 +3674,7 @@
             "id": "recWafOyysuXDVmbH",
             "lastVerifiedOn": "2021-04-25T13:57:15.000Z",
             "name": "Hamidia Hospital",
-            "phone1": 919425079117,
+            "phone1": 9425079117,
             "phone2": null,
             "pointOfContact": null,
             "state": "Madhya Pradesh",
@@ -3910,6 +3933,31 @@
             "lastVerifiedOn": null,
             "name": "St.Joseph Hospital, gomti nagar",
             "phone1": 7947145417,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "Bed with oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
+            "comment": "Noida Beds with oxygen available",
+            "createdTime": "2021-04-26T13:00:31.000Z",
+            "district": "Noida",
+            "email1": null,
+            "email2": null,
+            "id": "recYfkMM3iLPPtbf0",
+            "lastVerifiedOn": null,
+            "name": "Sharma Medicare Super Specialty Hospital",
+            "phone1": 1202326666,
             "phone2": null,
             "pointOfContact": null,
             "state": "Uttar Pradesh",
@@ -4243,6 +4291,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-26T15:38:39.000Z",
+            "district": "Jodhpur",
+            "email1": null,
+            "email2": null,
+            "id": "recZkmq2KIA0oKpPt",
+            "lastVerifiedOn": null,
+            "name": "AIIMS JODHPUR",
+            "phone1": 8764505002,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Rajasthan",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": "Not Available",
@@ -4774,7 +4845,7 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
-            "availability": null,
+            "availability": "Available",
             "comment": "2021-04-21 14:36 25 beds available Only for pregnant women and children. Asked to confirm the most updated number on the following number: 8285880852",
             "createdTime": "2021-04-23T20:34:21.000Z",
             "district": "Noida",
@@ -6399,6 +6470,33 @@
         },
         {
             "availability": null,
+            "comment": "verified via call",
+            "createdTime": "2021-04-26T17:08:35.000Z",
+            "district": "New Delhi",
+            "email1": null,
+            "email2": null,
+            "id": "recmtkLUbJmgDRFfF",
+            "lastVerifiedOn": null,
+            "name": "Home setup ventilator & ICU",
+            "phone1": 8802911790,
+            "phone2": null,
+            "pointOfContact": "Praveen Verma",
+            "state": "Delhi (NCT)",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "Bed with oxygen",
+                "Bed with ventilator",
+                "ICU bed"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
             "comment": "FULL Covid Hospital with ICU",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Chhota Udepur",
@@ -6461,7 +6559,7 @@
             "verifiedBy": "Varun Kumar"
         },
         {
-            "availability": null,
+            "availability": "Not Available",
             "comment": "Fully Occupied",
             "createdTime": "2021-04-23T20:35:51.000Z",
             "district": "North West Delhi",
@@ -7001,7 +7099,7 @@
             "email1": null,
             "email2": null,
             "id": "recrrgyYE2S6EzIGj",
-            "lastVerifiedOn": "2021-04-23T14:29:33.000Z",
+            "lastVerifiedOn": "2021-04-26T17:35:46.000Z",
             "name": "Sharda Hospital",
             "phone1": 8368623463,
             "phone2": 8800998800,
@@ -7011,7 +7109,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -7076,6 +7174,54 @@
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": "Available",
+            "comment": "Take the patient directly to the hospital",
+            "createdTime": "2021-04-27T05:03:04.000Z",
+            "district": "Kolkata",
+            "email1": null,
+            "email2": null,
+            "id": "recsvpHgbtu9fEUFY",
+            "lastVerifiedOn": null,
+            "name": "Bypass Apollo ",
+            "phone1": 3323202122,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "West Bengal",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-26T12:58:28.000Z",
+            "district": "Bareilly",
+            "email1": null,
+            "email2": null,
+            "id": "rectEbvln8KUS2QBf",
+            "lastVerifiedOn": null,
+            "name": "Khuslok Hospital",
+            "phone1": 5812530800,
+            "phone2": 9760701234,
+            "pointOfContact": "Receptionist",
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "Bed without oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -8137,6 +8283,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Karthik Yadhati"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-26T15:39:34.000Z",
+            "district": "Jodhpur",
+            "email1": null,
+            "email2": null,
+            "id": "reczdgDDBgzyYLPU1",
+            "lastVerifiedOn": null,
+            "name": "MAHATMA GANDHI HOSPITAL JODHPUR",
+            "phone1": 2912636441,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Rajasthan",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,

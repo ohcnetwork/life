@@ -6,67 +6,71 @@ import {
     faLandmark,
     faLungsVirus,
     faPhoneAlt,
-    faSyringe,
     faUserEdit,
     faUserMd,
     faUsers
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '@components/Logo';
+import useLocale from '@hooks/use-locale';
+import { useLocaleContext } from '@hooks/use-locale-context';
 
 export default function DataForm() {
+    const { locale } = useLocaleContext();
+    const th = useLocale(locale).home;
+    const t = useLocale(locale).data;
     const formsInfo = [
         {
-            name: 'Oxygen',
+            name: `${th.oxygen}`,
             icon: faLungsVirus,
-            description: 'Source, Type, Delivery',
+            description: `${t.sourceType}`,
             link: 'https://airtable.com/shrjYwvwPhPY6h6Hw'
         },
         {
-            name: 'Medicine/Injection/Chemist',
-            description: 'Distributor, Category, Address',
+            name: `${t.medicineInjection}`,
+            description: `${t.medicineDes}`,
             icon: faCapsules,
             link: 'https://airtable.com/shrCNfkEdSTxeWAGg'
         },
         {
-            name: 'Hospital',
-            description: 'District, Address, Contact',
+            name: `${th.hospital}`,
+            description: `${t.hospitalDes}`,
             icon: faHospital,
             link: 'https://airtable.com/shrfZV2enmY9wge0F'
         },
         {
-            name: 'Ambulance',
-            description: 'District, Address, Contact',
+            name: `${th.ambulance}`,
+            description: `${t.hospitalDes}`,
             icon: faAmbulance,
             link: 'https://airtable.com/shrAO7oA9qwh1OABJ'
         },
         {
-            name: 'Helpline',
-            description: 'Category, Phone',
+            name: `${th.helpline}`,
+            description: `${t.helplineDes}`,
             icon: faPhoneAlt,
             link: 'https://airtable.com/shruCmaVNNXt1q1Uj'
         },
         {
-            name: 'Doctor/Telemedicine/Consultation',
+            name: `${t.doctorTele}`,
             icon: faUserMd,
-            description: 'Specialisation, City, Contact',
+            description: `${t.doctorDes}`,
             link: 'https://airtable.com/shrg0KEI0qRfLRPRP'
         },
         {
-            name: 'Support Groups (WhatsApp, Telegram etc)',
+            name: `${t.supportGroup}`,
             icon: faUsers,
-            description: 'Platform, Category, Contact',
+            description: `${t.supportDes}`,
             link: 'https://airtable.com/shrf64QSuwSrzWPxo'
         },
         {
-            name: 'Apply as volunteer',
-            description: 'Skills, Contact',
+            name: `${t.applyVol}`,
+            description: `${t.applyDes}`,
             icon: faHandsHelping,
             link: 'https://airtable.com/shrDiUIg7e1IWj6mz'
         },
         {
-            name: 'Government Contact',
-            description: 'Source, City, Contact',
+            name: `${t.govtContact}`,
+            description: `${t.govtDes}`,
             icon: faLandmark,
             link: 'https://airtable.com/shr5IdHRDcFrOKLcg'
         }
@@ -78,16 +82,14 @@ export default function DataForm() {
                 <a href="/" className="flex flex-col items-center cursor-pointer">
                     <Logo width={50} />
                     <h1 className="mt-1 font-black text-3xl text-gray-900 dark:text-gray-100">
-                        LIFE
+                        {th.title}
                     </h1>
                 </a>
                 <h2 className="mt-4 font-semibold text-md text-gray-900 text-center dark:text-gray-200">
-                    Verified Crowd Sourced Emergency Services Directory
+                    {th.description}
                 </h2>
             </section>
-            <section className="text-center text-xl my-3 dark:text-gray-400">
-                Do you have verified data and want to add to the database?
-            </section>
+            <section className="text-center text-xl my-3 dark:text-gray-400">{t.question}</section>
             <section className="max-w-full mx-auto mt-5 px-2 sm:px-4 lg:px-6">
                 <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2">
                     {formsInfo.map((form, id) => {
@@ -124,7 +126,7 @@ export default function DataForm() {
                                                     icon={faUserEdit}
                                                     className="w-5"
                                                 />
-                                                <span className="ml-3">Fill the Form</span>
+                                                <span className="ml-3">{t.fillTheForm}</span>
                                             </a>
                                         </div>
                                     </div>

@@ -29,6 +29,34 @@
             ]
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": null,
+            "createdTime": "2021-04-26T17:00:09.000Z",
+            "description": "Oxygen cans available in gurgaon/gurugram sector 7 Madanpuri\n15 ltrs @ 2500 per can",
+            "district": "Gurgaon",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "rec0BvkTws7WwtC8I",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-26T17:00:09.000Z",
+            "name": "Manoj Oxygen",
+            "phone1": 9873478788,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Whatsapp groups",
+            "state": "Haryana",
+            "type": [
+                "Cans",
+                "Oxygen Cylinders"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "Restriced to Morbi city limits only\n",
@@ -384,6 +412,34 @@
             "type": null,
             "verificationStatus": "Verified",
             "verifiedBy": "Urja Khandhediya"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": null,
+            "companyName": null,
+            "createdTime": "2021-04-25T20:19:35.000Z",
+            "description": "12Ltr oxygen @ 400 /-",
+            "district": "Kolkata",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "rec5CnZmTwn0uJd1r",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T20:19:35.000Z",
+            "name": "NA",
+            "phone1": 8447390017,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Facebook",
+            "state": "West Bengal",
+            "type": [
+                "Oxygen",
+                "Cylinder"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -758,6 +814,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": null,
+            "createdTime": "2021-04-26T16:11:23.000Z",
+            "description": null,
+            "district": "Malda",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recAmFdCAZLPxmarj",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-26T16:11:23.000Z",
+            "name": null,
+            "phone1": 9734475423,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "West Bengal",
+            "type": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -1403,6 +1484,33 @@
             "verifiedBy": "Disha Jariwala"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "Verified at other sources",
+            "companyName": "Goyal MG Gases Pvt. Ltd. Durgapur, West Bengal",
+            "createdTime": "2021-04-25T20:11:37.000Z",
+            "description": null,
+            "district": "Burdwan (Bardhaman)",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recHDvGkF592PyC5R",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T20:11:37.000Z",
+            "name": "Shudhakar Jha",
+            "phone1": 9735317722,
+            "phone2": null,
+            "sourceLink": "https://covidfightclub.org/posts/oxygen/shudhakar/2699",
+            "sourceName": "Facebook and other sources",
+            "state": "West Bengal",
+            "type": [
+                "Oxygen"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "switched off\n",
@@ -1806,6 +1914,31 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
+            "availability": null,
+            "city": null,
+            "comment": null,
+            "companyName": "SK Gas",
+            "createdTime": "2021-04-25T18:09:32.000Z",
+            "description": null,
+            "district": "Ranchi",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recKS9bVZIDDuo2jX",
+            "instructions": "Near Lala Raj Pat Rai school",
+            "lastVerifiedOn": "2021-04-25T18:09:32.000Z",
+            "name": "SK Gas\nMandal Ji",
+            "phone1": 9431359714,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Jharkhand",
+            "type": null,
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": "Available",
             "city": null,
             "comment": null,
@@ -1877,6 +2010,34 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Vijay Krishna"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "IMT Manesar, Sector 8,Plot no, 546",
+            "companyName": null,
+            "createdTime": "2021-04-26T12:37:26.000Z",
+            "description": "Cylinder & Refill",
+            "district": "Gurgaon",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recL5MsF8iL1fEcuf",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-26T12:37:26.000Z",
+            "name": "Ravi Gas agency",
+            "phone1": 9599428757,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Haryana",
+            "type": [
+                "Refil",
+                "Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -2114,6 +2275,33 @@
             ],
             "verificationStatus": "Verified",
             "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": "Jibandan Medical",
+            "createdTime": "2021-04-25T17:20:53.000Z",
+            "description": "Ventilators on Rent",
+            "district": "North 24 Parganas",
+            "emailId": null,
+            "homeDeliveryAvailable": "Yes",
+            "id": "recO7YDZyYHE10JcN",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-25T17:20:53.000Z",
+            "name": null,
+            "phone1": 9123319819,
+            "phone2": 9163437940,
+            "sourceLink": null,
+            "sourceName": "Friend",
+            "state": "West Bengal",
+            "type": [
+                "Others"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -3918,6 +4106,33 @@
         {
             "availability": null,
             "city": null,
+            "comment": null,
+            "companyName": "G.K Enterprise Plot No. 28,29 IDC Sector M.G. Road Gurgaon",
+            "createdTime": "2021-04-26T11:44:56.000Z",
+            "description": "You have to reach there to get service.Filling oxygen cylinder",
+            "district": "Gurgaon",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "reciuTDL2O1LP7VCL",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-26T11:44:56.000Z",
+            "name": "G.K Enterprise",
+            "phone1": 9212270086,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Through Whatsapp Contact",
+            "state": "Haryana",
+            "type": [
+                "Refil"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
+            "city": null,
             "comment": "Switched Off",
             "companyName": null,
             "createdTime": "2021-04-19T09:55:21.000Z",
@@ -4151,6 +4366,38 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Zenitha Das"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": "Radha Industrial Gases",
+            "createdTime": "2021-04-26T09:14:45.000Z",
+            "description": "Oxygen cylinders are provided here and also refilled.",
+            "district": "Aligarh",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recn6MWwbyfaTetiB",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-26T09:14:45.000Z",
+            "name": "Radha Industrial Gases",
+            "phone1": 9997229249,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": [
+                "Refil",
+                "Cylinder",
+                "Oxygen Cylinders",
+                "Oxygen cylinders",
+                "Oxygen Cylinders - Empty",
+                "Oxygen Cylinders For Home Use"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": "Available",
@@ -4767,6 +5014,37 @@
             "verifiedBy": "Disha Jariwala"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "You'll need doctor's prescription for oxygen support for patient and covid +ve report to get the cylinder.",
+            "companyName": null,
+            "createdTime": "2021-04-26T14:16:50.000Z",
+            "description": "15L cylinders. No home delivery. Doctor's prescription and Covid report required",
+            "district": "Muzaffarnagar",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "rectp5ohLM1cU3r64",
+            "instructions": "1. Doctor's prescription\n2. Covid +ve report",
+            "lastVerifiedOn": "2021-04-26T14:16:50.000Z",
+            "name": "Rama Agencies",
+            "phone1": 1312442373,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Uttar Pradesh",
+            "type": [
+                "Cylinder",
+                "Oxygen Cylinders",
+                "Oxygen",
+                "Oxygen cylinders",
+                "Oxygen Cylinders For Home Use"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "city": null,
             "comment": null,
@@ -5187,6 +5465,36 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": "Verified via call",
+            "companyName": null,
+            "createdTime": "2021-04-26T17:02:39.000Z",
+            "description": "oxygen concentrator",
+            "district": "West Delhi",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recz677tMLPFIaVtU",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-26T17:02:39.000Z",
+            "name": "Oxygen store",
+            "phone1": 9717701636,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "whatsapp personal groups to verify information",
+            "state": "Delhi (NCT)",
+            "type": [
+                "Concentrator",
+                "Oxygen Concentrator",
+                "Oxygen concentrator",
+                "Oxygen Concentrator/Cylinder"
+            ],
+            "verificationStatus": "Verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,

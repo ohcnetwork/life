@@ -44,7 +44,7 @@ const Footer = () => {
         }
     ];
     return (
-        <footer className="bg-gray-200 dark:bg-gray-1200 absolute top-full left-0 w-full py-10">
+        <footer className="bg-gray-200 dark:bg-gray-1200 w-full flex-shrink-0 pt-6 pb-2">
             <section className="flex flex-wrap justify-center">
                 {buttonArr.map((el) => (
                     <a
@@ -90,7 +90,7 @@ const Footer = () => {
                 </p>
                 <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
                     {socialArr.map((el) => (
-                        <div className="px-5 py-2" key={el.link}>
+                        <div className="px-5 py-2" key={el.text + el.link}>
                             <a href={el.link}>
                                 <span className="text-base text-gray-700 hover:text-indigo-600 cursor-pointer dark:text-primary-200">
                                     {el.text}
