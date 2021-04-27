@@ -16,22 +16,21 @@ const CampaignCard = ({ name, text, logoUrl, donate, open }) => {
                 </div>
             </div>
             <div className="w-full">
-                <Linkify
-                    componentDecorator={linkifyDecorator}>
+                <Linkify componentDecorator={linkifyDecorator}>
                     {isReadMore ? text : text.substr(0, 300)}
                 </Linkify>
             </div>
-            <div onClick={() => setIsReadMore(prev => !prev)} className="underline cursor-pointer">
+            <div
+                onClick={() => setIsReadMore((prev) => !prev)}
+                className="underline cursor-pointer">
                 {isReadMore ? 'Read less' : 'Read more'}
             </div>
             <a
                 href={donate}
-                className="w-full mt-2 rounded flex cursor-pointer my-4 mx-auto justify-center text-white py-2 bg-indigo-600 hover:bg-indigo-700"
+                className="w-full mt-2 rounded flex cursor-pointer mx-auto justify-center text-white py-2 bg-indigo-600 hover:bg-indigo-700"
                 target="_blank">
                 <FontAwesomeIcon icon={faDonate} className="w-4 mr-2" />
-                <span className="ml-2">
-                    Donate Now
-                </span>
+                <span className="ml-2">Donate Now</span>
             </a>
         </div>
     );
