@@ -330,7 +330,7 @@
             "district": "Dadra & Nagar Haveli",
             "doctor": false,
             "helpline": true,
-            "hospitals": false,
+            "hospitals": true,
             "id": "rec2gWTqkSCGGaUTu",
             "medicine": true,
             "oxygen": false,
