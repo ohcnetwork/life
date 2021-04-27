@@ -18,7 +18,7 @@ let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection
 
 export default function Home() {
     const { locale } = useLocaleContext();
-    const t = useLocale(locale).home;
+    const t = useLocale(locale, 'home');
 
     let tabsInfoNew = [];
     tabsInfo.forEach((tab) => {
@@ -32,10 +32,10 @@ export default function Home() {
         });
     });
 
-    const [selectedFilter, setSelectedFilter] = useState('oxygen');
+    const [selectedFilter, setSelectedFilter] = useState('all');
     return (
         <div>
-            <section className="flex flex-col items-center md:pt-20">
+            <section className="flex flex-col items-center mt-12">
                 <Logo width={100} />
                 <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">
                     {t.title}
@@ -59,15 +59,21 @@ export default function Home() {
                     />
                 </div>
                 <div className="flex flex-wrap items-center justify-evenly mt-6 ">
-                    {getStates(selectedFilter).map((s) => {
-                        return (
-                            <Link key={s} href={`[state]`} as={`${parametreize(s)}`}>
-                                <span className="p-2 text-sm md:text-md font-normal cursor-pointer hover:text-gray-900 text-gray-500 dark:hover:text-gray-50">
-                                    {humanize(s)}
-                                </span>
-                            </Link>
-                        );
-                    })}
+                    {selectedFilter === 'vaccine' ? (
+                        <div className="inline-flex items-center px-4 py-3 border border-transparent shadow-sm text-lg leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white mb-4">
+                            Coming Soon!
+                        </div>
+                    ) : (
+                        getStates(selectedFilter).map((s) => {
+                            return (
+                                <Link key={s} href={`[state]`} as={`${parametreize(s)}`}>
+                                    <span className="p-2 text-sm md:text-md font-normal cursor-pointer hover:text-gray-900 text-gray-600 dark:hover:text-gray-50">
+                                        {humanize(s)}
+                                    </span>
+                                </Link>
+                            );
+                        })
+                    )}
                 </div>
                 <div className="flex space-x-3">
                     <a href="https://www.covid19india.org/">
