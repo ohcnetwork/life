@@ -6,6 +6,7 @@ import ba from '@locales/ba/index';
 import pa from '@locales/pa/index';
 import gu from '@locales/gu/index';
 import kn from '@locales/kn/index';
+import ma from '@locales/ma/index';
 import ta from '@locales/ta/index';
 import ur from '@locales/ur/index';
 
@@ -20,6 +21,7 @@ const languages = {
     KN: kn,
     TA: ta,
     UR: ur,
+    MA: ma,
 };
 
 const transParse = (lang, type) => {
