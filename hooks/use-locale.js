@@ -7,6 +7,7 @@ import pa from '@locales/pa/index';
 import gu from '@locales/gu/index';
 import kn from '@locales/kn/index';
 import ta from '@locales/ta/index';
+import ur from '@locales/ur/index';
 
 const languages = {
     EN: en,
@@ -17,7 +18,8 @@ const languages = {
     PA: pa,
     GU: gu,
     KN: kn,
-    TA: ta
+    TA: ta,
+    UR: ur,
 };
 
 const transParse = (lang, type) => {
@@ -37,5 +39,6 @@ const transParse = (lang, type) => {
 const useLocale = (loc, type) => {
     return transParse(languages[loc], type);
 };
+
 
 export default useLocale;
