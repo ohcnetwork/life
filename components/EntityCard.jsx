@@ -29,7 +29,8 @@ const EntityCard = ({
     comment,
     availability,
     totalBedsAvailable,
-    typeOfBedAvailable
+    typeOfBedAvailable,
+    type
 }) => {
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
@@ -40,6 +41,12 @@ const EntityCard = ({
             id={id}
             className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300">
             <div className="w-full flex items-center pt-2">
+                <div className="ml-auto flex">
+                    {type &&
+                        type.map((e) => (
+                            <div class="rounded-full text-sm dark:bg-color-gray-200 mx-2">{e}</div>
+                        ))}
+                </div>
                 <div className="ml-auto">
                     <SocialSharing url={pageUrl} twitterText={copyText} copyText={copyText} />
                 </div>
