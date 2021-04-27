@@ -26,11 +26,41 @@ function OxygenRequirements({ oxygenReqData }) {
             <section className="flex flex-col ml-2 md:pt-10">
                 <Breadcumb list={[{ href: null, name: 'Oxygen Requirement' }]} />
             </section>
-            <section className="flex flex-col items-center space-y-4">
-                {oxygenReqData.map((dt) => (
-                    // TODO: replace key with a valid id
-                    <OxygenCard key={dt.name + dt.district} data={dt} />
-                ))}
+
+            <section class="flex flex-col">
+                <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                    <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+                    <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+                        <table class="min-w-full divide-y divide-gray-200">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    Name
+                                </th>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    Location
+                                </th>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    Oxygen Concentrators Required
+                                </th>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    Beds
+                                </th>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    Capacity
+                                </th>
+                                <th scope="col" class="relative px-6 py-3">
+                                    <span class="sr-only" />
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white divide-y divide-gray-200">
+                            { oxygenReqData.map((data) => <OxygenCard key={data.name + data.district} data={data} />) }
+                        </tbody>
+                        </table>
+                    </div>
+                    </div>
+                </div>
             </section>
         </div>
     );

@@ -89,19 +89,7 @@ export default function Home() {
                             {t.covid19Stats}
                         </button>
                     </a>
-                    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS7nP0QvIvm5VDEbVDG0ELECYS446P-MgLwdX_elDrYbkN39g_o90wmJIMcazmcLH38Snn7rSqwAS_y/pubhtml?gid=972869835&single=true">
-                        <button
-                            type="button"
-                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
-                            <FontAwesomeIcon
-                                className="text-white-400 w-4 mr-4"
-                                title="Covid 19 Statistics"
-                                icon={faMedkit}
-                            />
-                            {t.oxygenRequirements}
-                        </button>
-                    </a>
-                    {/* <a href="/oxygen_requirements">
+                    {/* <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS7nP0QvIvm5VDEbVDG0ELECYS446P-MgLwdX_elDrYbkN39g_o90wmJIMcazmcLH38Snn7rSqwAS_y/pubhtml?gid=972869835&single=true">
                         <button
                             type="button"
                             className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
@@ -113,6 +101,18 @@ export default function Home() {
                             {t.oxygenRequirements}
                         </button>
                     </a> */}
+                    <a href="/oxygen_requirements">
+                        <button
+                            type="button"
+                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                            <FontAwesomeIcon
+                                className="text-white-400 w-4 mr-4"
+                                title="Covid 19 Statistics"
+                                icon={faMedkit}
+                            />
+                            {t.oxygenRequirements}
+                        </button>
+                    </a>
                 </div>
                 <div className="flex space-x-3">
                     <div className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white  mt-6">
