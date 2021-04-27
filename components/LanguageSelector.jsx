@@ -26,7 +26,7 @@ const LanguageSelector = () => {
 
     return (
         <select
-            className="cursor-pointer fixed top-3 left-3 font-semibold text-sm rounded shadow h-8 dark:bg-gray-1000 px-2 dark:text-white appearance-none "
+            className="cursor-pointer font-semibold text-sm rounded shadow h-8 dark:bg-gray-1000 px-3 text-center dark:text-white appearance-none "
             value={locale}
             onChange={handleChangeLocale}>
             {langArr.map((el) => (

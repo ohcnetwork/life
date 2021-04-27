@@ -540,6 +540,29 @@
         {
             "availability": null,
             "comment": null,
+            "createdTime": "2021-04-27T18:04:49.000Z",
+            "district": "Dadra & Nagar Haveli",
+            "email1": "svbch.sil@gmail.com",
+            "email2": null,
+            "id": "rec4Xl59ts2T6yq2L",
+            "lastVerifiedOn": null,
+            "name": "Vinobha bhave civil hospital",
+            "phone1": 2602630102,
+            "phone2": 2602642940,
+            "pointOfContact": null,
+            "state": "Dadra and Nagar Haveli and Daman & Diu (UT)",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
+            "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Indore",
             "email1": null,
@@ -6839,6 +6862,31 @@
                 "ICU bed",
                 "Bed with ventilator",
                 "Bed with oxygen",
+                "Bed without oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-27T14:02:43.000Z",
+            "district": "Bareilly",
+            "email1": null,
+            "email2": null,
+            "id": "recpLcpfIituoi9VZ",
+            "lastVerifiedOn": null,
+            "name": "Rajshree Medical Research Institute & Hospital Bareilly",
+            "phone1": 8192000288,
+            "phone2": null,
+            "pointOfContact": "Receptionist",
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
                 "Bed without oxygen"
             ],
             "typeOfHospital": null,
