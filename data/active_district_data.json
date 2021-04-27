@@ -3305,8 +3305,8 @@
             "contact": true,
             "district": "Burdwan (Bardhaman)",
             "doctor": false,
-            "helpline": false,
-            "hospitals": false,
+            "helpline": true,
+            "hospitals": true,
             "id": "recTIi1YNzkj9ZrIt",
             "medicine": false,
             "oxygen": true,
@@ -7305,7 +7305,7 @@
             "hospitals": true,
             "id": "reczp1CKsOSqcz512",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "state": "Uttar Pradesh"
         },
         {
