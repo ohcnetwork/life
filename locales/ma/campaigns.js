@@ -1,11 +1,19 @@
 export default {
-    text: `As of today, India is undergoing a severe second wave with the world’s highest daily cases. Hospitals and healthcare providers are running out of resources in the fight against COVID-19 and the situation on the ground is dire. Oxygen is critically required to treat patients affected with COVID, many of whom require hospitalization due to fluctuating oxygen levels. However, there is a severe shortage of oxygen availability across hospitals in India. Oxygen concentrators are alternate devices to oxygen cylinders – while cylinders contain a finite amount of oxygen supply, a concentrator recycles oxygen from the air and delivers it to the patient. They can be used to manage patient requirements without looking for external sources of oxygen.
+  text: `ഇന്നത്തെ കണക്കനുസരിച്ച്, ലോകത്തിലെ ഏറ്റവും ഉയർന്ന ദൈനംദിന കേസുകളുള്ള ഇന്ത്യ കടുത്ത രണ്ടാം തരംഗത്തിന് വിധേയമാണ്.
+  COVID-19, എന്നിവയ്‌ക്കെതിരായ പോരാട്ടത്തിൽ ആശുപത്രികളും ആരോഗ്യ സംരക്ഷണ ദാതാക്കളും ഉപാധികള്‍ തീർന്നു. കൂടാതെ, സ്ഥിതി ദയനീയമാണ്.
+  COVID ബാധിച്ച രോഗികളെ ചികിത്സിക്കാൻ ഓക്സിജൻ വളരെ പ്രധാനമാണ്, അവരിൽ പലർക്കും ഓക്സിജന്റെ അളവ് ഏറ്റക്കുറച്ചിലുകൾ കാരണം ആശുപത്രിയിൽ പ്രവേശനം ആവശ്യമാണ്.
+  എന്നിരുന്നാലും, ഇന്ത്യയിലെ ആശുപത്രികളിലുടനീളം ഓക്സിജൻ ലഭ്യതയ്ക്ക് കടുത്ത ക്ഷാമമുണ്ട്. ഓക്സിജൻ സിലിണ്ടറുകൾക്ക് പകരമുള്ള ഉപകരണങ്ങളാണ് ഓക്സിജൻ കോൺസെൻട്രേറ്ററുകൾ
+  – സിലിണ്ടറുകളിൽ പരിമിതമായ അളവിൽ ഓക്സിജൻ ലഭിക്കുമ്പോൾ, ഒരു കോൺസെൻട്രേറ്ററുകൾ വായുവിൽ നിന്ന് ഓക്സിജൻ പുനരുപയോഗിച്ച് രോഗിക്ക് എത്തിക്കുന്നു.
+  ഓക്സിജന്റെ ബാഹ്യ സ്രോതസ്സുകൾ നോക്കാതെ രോഗിയുടെ ആവശ്യകതകൾ കൈകാര്യം ചെയ്യാൻ അവ ഉപയോഗിക്കാം.
 
-  Swasth Digital Health Foundation (Swasth.app) along with ACT Grants is looking to procure oxygen concentrators and channel them to hospitals across levels of care in remote areas for COVID response and long-term health-system strengthening. These oxygen concentrators can save many thousands of lives and bolster much-needed resources for hospitals. They can also be used to treat outpatients, reducing the load on hospital beds and easing the stress faced by patients.
-  • A high flow concentrator costs Rs.85000 and treat up to 550 patients with a severe or critical illness.
-  • A low flow concentrator costs Rs.45000 and can treat up to 900 patients with mild to moderate illness
+  COVID പ്രതികരണത്തിനും ദീർഘകാല ആരോഗ്യ-സിസ്റ്റം ശക്തിപ്പെടുത്തലിനുമായി ഓക്സിജൻ കോൺസെൻട്രേറ്ററുകൾ സംഭരിക്കാനും വിദൂര പ്രദേശങ്ങളിലെ പരിചരണത്തിന്റെ
+  വിവിധ തലങ്ങളിൽ ആശുപത്രികളിലേക്ക് കൊണ്ടുപോകാനും ACT ഗ്രാന്റുകൾക്കൊപ്പം Swasth ഡിജിറ്റൽ ഹെൽത്ത് ഫൗണ്ടേഷനും (swasth.app) ശ്രമിക്കുന്നു.
+  ഈ ഓക്സിജൻ കോൺസെൻട്രേറ്റോഴ്സിന് ആയിരക്കണക്കിന് ജീവൻ രക്ഷിക്കാനും ആശുപത്രികൾക്ക് ആവശ്യമായ വിഭവങ്ങൾ വർദ്ധിപ്പിക്കാനും കഴിയും.
+  ഔട്പേഷ്യന്റുകളെ ചികിത്സിക്കുന്നതിനും ഇവ ഉപയോഗിക്കാം, ഇത് ആശുപത്രി കിടക്കകളിലെ ഭാരം കുറയ്ക്കുകയും രോഗികൾ നേരിടുന്ന സമ്മർദ്ദം കുറയ്ക്കുകയും ചെയ്യുന്നു.
+  • ഉയർന്ന ഫ്ലോ കോൺസെൻട്രേറ്ററിന് 85000 രൂപ വിലവരും, കഠിനമോ ഗുരുതരമോ ആയ 550 രോഗികൾക്ക് ചികിത്സിക്കാൻ കഴിയും.
+  • കുറഞ്ഞ ഫ്ലോ കോൺസെൻട്രേറ്ററിന് 45000 രൂപ വിലവരും, മിതമായതും ചെറിയതുമായ രോഗമുള്ള 900 രോഗികൾക്ക് ചികിത്സിക്കാൻ കഴിയും.
 
-  Swasth is raising funds to support this effort. Please contribute by donating at: https://www.impactguru.com/fundraiser/oxygen
-  The distribution and allocation of concentrators will be a transparent process with the method and impact metrics published openly so you can be assured of your contributions saving lives.
-  If you are a company looking to deploy a CSR budget or an individual donor willing to contribute, please email us at shubha@swasthapp.com. We look forward to your support.`
+  ഈ ശ്രമത്തെ പിന്തുണയ്ക്കുന്നതിനായി Swasth ധനസമാഹരണം നടത്തുന്നു. https://www.impactguru.com/fundraiser/oxygen എന്ന വെബ്‌സൈറ്റിൽ സംഭാവന നൽകി സംഭാവന ചെയ്യുക.
+  കോൺസെൻട്രേറ്റോഴ്സിന്റെ വിതരണവും വിഹിതവും പരസ്യമായി പ്രസിദ്ധീകരിക്കുന്ന രീതിയും ഇംപാക്ട് മെട്രിക്കുകളും ഉള്ള ഒരു സുതാര്യ പ്രക്രിയയാണ്, അതിനാൽ നിങ്ങളുടെ സംഭാവനകളെക്കുറിച്ച് നിങ്ങൾക്ക് ഉറപ്പുനൽകാൻ കഴിയും.
+  നിങ്ങൾ ഒരു CSR ബജറ്റ് വിന്യസിക്കാൻ ആഗ്രഹിക്കുന്ന കമ്പനിയോ സംഭാവന നൽകാൻ തയ്യാറുള്ള ഒരു ദാതാവോ ആണെങ്കിൽ, ദയവായി shubha@swasthapp.com ൽ ഇമെയിൽ ചെയ്യുക. നിങ്ങളുടെ പിന്തുണ ഞങ്ങൾ പ്രതീക്ഷിക്കുന്നു.`
 };
