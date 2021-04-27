@@ -3,7 +3,7 @@ import VideoCard from '@components/VideoCard';
 import { videoData } from '@data/video';
 
 export const getStaticProps = async ({ params }) => {
-    const videoList = videoData.filter((v) => v.id.toString() === params.id);
+    const videoList = videoData.filter((v) => v['Title'].toString() === params['id']);
     return {
         props: {
             video: videoList[0]
@@ -13,7 +13,7 @@ export const getStaticProps = async ({ params }) => {
 
 export const getStaticPaths = async () => {
     const paths = videoData.map((v) => ({
-        params: { id: v.id.toString() }
+        params: { id: v['Title'].toString() }
     }));
 
     return { paths, fallback: false };

@@ -1,9 +1,19 @@
 import React from 'react';
+import { NextSeo } from 'next-seo';
 
 const VideoCard = ({ dt }) => {
+    const SEO = {
+        title: `Life | ${dt['Title']}`,
+        description: `${dt['Key Message']}`,
+        openGraph: {
+            title: `Life | ${dt['Title']}`,
+            description: `${dt['Key Message']}`
+        }
+    };
     const badgeClass = `inline-flex items-center px-2.5 py-0.5 rounded-full text-xs mr-1 border-gray-800 font-medium border dark:text-gray-200 text-gray-1200`;
     return (
         <a href={dt['Content Link']}>
+            <NextSeo {...SEO} />
             <div className="my-2 p-4 border-gray-900 border rounded">
                 <h2 className="text-2xl tracking-tight font-bold leading-tight text-gray-1200 dark:text-white">
                     {dt.Title}
