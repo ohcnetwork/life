@@ -4,9 +4,9 @@ import { LocaleContext } from '@hooks/use-locale-context';
 import NavBar from '@components/NavBar';
 
 const MainLayout = ({ children }) => {
-    const [locale, setBaseLocal] = useState('EN');
-    const value = { locale, setBaseLocal };
-   
+    const [locale, setLocale] = useState("EN");
+    const localeValue = { locale, setLocale };
+
     useEffect(() => {
         if (typeof window !== 'undefined') {
             if (
@@ -22,7 +22,7 @@ const MainLayout = ({ children }) => {
     }, []);
 
     return (
-        <LocaleContext.Provider value={value}>
+        <LocaleContext.Provider value={localeValue}>
             <div className="flex flex-col items-stretch min-h-screen bg-gray-100 dark:bg-gray-1100">
                 <NavBar />                
                 <div className="max-w-5xl mx-auto px-2 pb-6 flex-grow flex-shrink-0">

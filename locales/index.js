@@ -36,6 +36,10 @@ export default [
         code: 'KN'
     },
     {
+        name: 'മലയാളം',
+        code: 'MA'
+    },
+    {
         name: 'اردو',
         code: 'UR'
     }

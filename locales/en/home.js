@@ -18,7 +18,7 @@ export default {
     totalAmbulace: 'Total Ambulance',
     oxygenRequirements: 'Oxygen Concentration Requirements',
     contributeData: 'Contribute Verified Data',
-    campaigns: 'Campaigns',
+    campaigns: 'Donate Now',
     learn: 'Learn',
     partnerWithUs: 'Partner With Us',
     curatedBy: 'Curated By',
