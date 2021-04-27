@@ -2725,7 +2725,7 @@
             "state": "West Bengal"
         },
         {
-            "ambulance": false,
+            "ambulance": true,
             "contact": true,
             "district": "Bhopal",
             "doctor": false,

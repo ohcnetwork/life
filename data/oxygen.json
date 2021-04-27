@@ -1559,6 +1559,31 @@
         {
             "availability": "Available",
             "city": null,
+            "comment": "verified",
+            "companyName": null,
+            "createdTime": "2021-04-27T13:17:56.000Z",
+            "description": "oxygen refill available, have to bring the empty cylinder",
+            "district": "New Delhi",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recHnDWkyvwYl7Gjq",
+            "instructions": "long queue ",
+            "lastVerifiedOn": "2021-04-27T13:20:25.000Z",
+            "name": "Ram gas agency",
+            "phone1": 9205202518,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Delhi (NCT)",
+            "type": [
+                "Oxygen - Refill"
+            ],
+            "verificationStatus": "Unavailable but verified",
+            "verifiedBy": "Diya Dashiwal"
+        },
+        {
+            "availability": "Available",
+            "city": null,
             "comment": "Oxygen cans available.",
             "companyName": null,
             "createdTime": "2021-04-20T09:01:01.000Z",
@@ -1816,6 +1841,31 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "verified",
+            "companyName": null,
+            "createdTime": "2021-04-27T13:25:15.000Z",
+            "description": "refilling available from 7p.m to 2a.m",
+            "district": "Central Delhi",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recJHUrJ7tC8hRTZB",
+            "instructions": "address- Old delhi",
+            "lastVerifiedOn": "2021-04-27T13:26:28.000Z",
+            "name": null,
+            "phone1": 9560123835,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Delhi (NCT)",
+            "type": [
+                "Oxygen - Refill"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": "Diya Dashiwal"
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "phone 1 busy phone 2 not answering",
@@ -2065,6 +2115,31 @@
             "verifiedBy": [
                 {}
             ]
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": "Verified via call",
+            "companyName": null,
+            "createdTime": "2021-04-27T13:11:20.000Z",
+            "description": "oxygen cans available ",
+            "district": "New Delhi",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recLFGkUO4yqn3Eva",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-27T13:17:32.000Z",
+            "name": null,
+            "phone1": 9953237188,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "known contact",
+            "state": "Delhi (NCT)",
+            "type": [
+                "Cans"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": "Diya Dashiwal"
         },
         {
             "availability": null,
@@ -2696,6 +2771,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": "verified",
+            "companyName": null,
+            "createdTime": "2021-04-27T13:21:21.000Z",
+            "description": "refills are available",
+            "district": "New Delhi",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recS8oJozM4XYR9Xs",
+            "instructions": "address- Daryaganj\n10kg refills available",
+            "lastVerifiedOn": "2021-04-27T13:24:41.000Z",
+            "name": null,
+            "phone1": 9212154073,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Delhi (NCT)",
+            "type": [
+                "Oxygen - Refill"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": "Diya Dashiwal"
         },
         {
             "availability": null,
@@ -5469,6 +5569,31 @@
             "type": null,
             "verificationStatus": "Pending",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": "verified via call",
+            "companyName": null,
+            "createdTime": "2021-04-27T13:14:24.000Z",
+            "description": "oxygen cylinders",
+            "district": "New Delhi",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recxu8tsn5jx4EJF2",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-27T13:15:47.000Z",
+            "name": "Amit",
+            "phone1": 9709910000,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "through whatsapp",
+            "state": "Delhi (NCT)",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": "Diya Dashiwal"
         },
         {
             "availability": "Available",
