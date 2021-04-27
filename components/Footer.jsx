@@ -1,6 +1,12 @@
 import React, { useContext } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDatabase, faHandsHelping, faHeart, faBookOpen, faInfo } from '@fortawesome/free-solid-svg-icons';
+import {
+    faDatabase,
+    faHandsHelping,
+    faHeart,
+    faBookOpen,
+    faInfo
+} from '@fortawesome/free-solid-svg-icons';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 
@@ -57,12 +63,14 @@ const Footer = () => {
                 ))}
             </section>
             <section className="flex flex-wrap justify-center my-3 text-sm">
-                <div className="flex items-center mr-2">
+                <div className="flex items-center mr-2 text-gray-900 dark:text-gray-500">
                     <span className="font-semibold mr-2">Disclaimer: </span>
                     <span className="">Data is not owned or created by us.</span>
                 </div>
                 <div>
-                    <a href="/disclaimer" className="font-semibold text-indigo-800 underline">Know More</a>
+                    <a href="/disclaimer" className="font-semibold text-indigo-500 underline">
+                        Know More
+                    </a>
                 </div>
             </section>
             <div className="max-w-7xl mx-auto py-6 px-4 overflow-hidden sm:px-6 lg:px-8 sm:flex items-center justify-between">
