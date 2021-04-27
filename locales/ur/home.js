@@ -1,5 +1,5 @@
 export default {
-    title: 'زندگی',
+    title: 'لائف',
     description: 'تصدیق شدہ کراؤڈ سورسڈ ایمرجنسی سروسز ڈائریکٹری',
     all: 'تمام',
     oxygen: 'آکسیجن',
