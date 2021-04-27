@@ -1,6 +1,6 @@
 export const videoData = [
     {
-        'Sr. No.': 1,
+        id: 1,
         Title: 'Corona Virus- जानकारी',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -12,7 +12,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 2,
+        id: 2,
         Title: 'Corona Virus को दूर रखिये',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -24,7 +24,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 3,
+        id: 3,
         Title: 'साबुन हमारा Dost',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -36,7 +36,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 4,
+        id: 4,
         Title: 'बच्चों से करें Coronavirus की बातें',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -48,7 +48,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 5,
+        id: 5,
         Title: 'अपना भी ध्यान रखें',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -60,7 +60,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 6,
+        id: 6,
         Title: '5 कदम-छींकने या खांसने के बाद...',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -72,7 +72,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 7,
+        id: 7,
         Title: '5 कदम-कोरोना वायरस के लक्षण',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -84,7 +84,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 8,
+        id: 8,
         Title: '5 कदम-सामाजिक दूरी',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -96,7 +96,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 9,
+        id: 9,
         Title: '5 कदम-हाथ की सफ़ाई',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -108,7 +108,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 10,
+        id: 10,
         Title: 'स्वस्थ मन, सुखी बचपन',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -120,7 +120,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 11,
+        id: 11,
         Title: 'कुछ अनमोल पल, एक बेहतर कल',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -132,7 +132,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 12,
+        id: 12,
         Title: 'Plan बनाओ बेहतर समय बिताओ',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -144,7 +144,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 13,
+        id: 13,
         Title: 'तोल मोल के मीठे बोल',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -156,7 +156,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 14,
+        id: 14,
         Title: 'तनाव से बचाव?',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -168,7 +168,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 15,
+        id: 15,
         Title: 'चेहरे पे पेहरा',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -180,7 +180,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 19,
+        id: 19,
         Title: 'Symptoms of Coronavirus Disease 2019',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Treatment &Recovery',
@@ -192,7 +192,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 20,
+        id: 20,
         Title: 'Why you need to rest',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -204,7 +204,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 21,
+        id: 21,
         Title: 'Developing social support',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -217,7 +217,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 22,
+        id: 22,
         Title: 'Accepting negative emotions',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -229,7 +229,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 23,
+        id: 23,
         Title: 'How to boost productivity during WFH',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -241,7 +241,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 24,
+        id: 24,
         Title: 'Bouncing back from burnout',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -253,7 +253,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 25,
+        id: 25,
         Title: 'COVID-19 vaccine side effects',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Vaccination',
@@ -265,7 +265,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 26,
+        id: 26,
         Title: 'Monitor your COVID-19 long-term effects',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Treatment &Recovery',
@@ -277,7 +277,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 27,
+        id: 27,
         Title: 'What to Expect After Getting a COVID-19 Vaccine',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Vaccination',
@@ -289,7 +289,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 28,
+        id: 28,
         Title: 'Managing chronic worry',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -301,7 +301,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 29,
+        id: 29,
         Title: 'Parenting during a health crisis',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -313,7 +313,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 30,
+        id: 30,
         Title: 'Signs of anxiety',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -325,7 +325,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 31,
+        id: 31,
         Title: 'The psychology of fake news',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -337,7 +337,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 32,
+        id: 32,
         Title: 'Coping with uncertainty',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -349,7 +349,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 33,
+        id: 33,
         Title: 'Supporting your elders amidst a crisis',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -361,7 +361,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 34,
+        id: 34,
         Title: 'What you can do to overcome loneliness',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -373,7 +373,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 35,
+        id: 35,
         Title: 'Helping someone through trying times',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -386,7 +386,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 36,
+        id: 36,
         Title: 'Making long distance relationships work',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -398,7 +398,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 37,
+        id: 37,
         Title: 'How to spend your time in a lockdown',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -411,7 +411,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 38,
+        id: 38,
         Title: 'Managing your anxiety during a crisis',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -424,7 +424,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 39,
+        id: 39,
         Title: 'Caring for the sick',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Treatment &Recovery',
@@ -437,7 +437,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 40,
+        id: 40,
         Title: 'Care for mask',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -450,7 +450,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 41,
+        id: 41,
         Title: 'Getting a mask',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -463,7 +463,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 42,
+        id: 42,
         Title: 'How is a mask useful',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -476,7 +476,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 43,
+        id: 43,
         Title: 'Importance of a mask',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -489,7 +489,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 44,
+        id: 44,
         Title: 'Physical distancing',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -502,7 +502,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 45,
+        id: 45,
         Title: 'Finding hope amisdt a health crisis',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -514,7 +514,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 46,
+        id: 46,
         Title: 'Staying connected while working remotely',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -526,7 +526,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 47,
+        id: 47,
         Title: 'Social media and mental health',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Mental Health&Wellbeing',
@@ -538,7 +538,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 51,
+        id: 51,
         Title: 'Home care tips',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Treatment &Recovery',
@@ -550,7 +550,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 52,
+        id: 52,
         Title: 'Home quarantine tips',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Treatment &Recovery',
@@ -562,7 +562,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 53,
+        id: 53,
         Title: 'Oxygen Therapy for COVID-19 patients',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Treatment &Recovery',
@@ -574,7 +574,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 54,
+        id: 54,
         Title: 'Is the COVID-19 Vaccine Safe?',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Vaccination',
@@ -586,7 +586,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 55,
+        id: 55,
         Title: 'COVID19 से अपने आप को कैसे सुरक्षित रखे?',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -598,7 +598,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 56,
+        id: 56,
         Title: 'Guidelines to prevent Coronavirus Infection',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -611,7 +611,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 57,
+        id: 57,
         Title: 'Going out carefully',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
@@ -625,7 +625,7 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     },
     {
-        'Sr. No.': 58,
+        id: 58,
         Title: 'Keeping high-risk individuals safe',
         'Primary Category': 'Covid-19',
         'Secondary Category': 'Prevention&Safety',
