@@ -442,6 +442,33 @@
             ]
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "verified",
+            "companyName": "individual",
+            "createdTime": "2021-04-27T15:00:28.000Z",
+            "description": "donno",
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "rec5xPAfrbuVPbEJP",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-27T15:00:28.000Z",
+            "name": null,
+            "phone1": 1234567890,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "kj",
+            "state": "Uttar Pradesh",
+            "type": [
+                "Refil"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "Both numbers switched off. Try later.",
@@ -1151,6 +1178,32 @@
             "type": null,
             "verificationStatus": "Unavailable but verified",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "unreachable",
+            "companyName": null,
+            "createdTime": "2021-04-27T14:03:10.000Z",
+            "description": "oxygen concentrator",
+            "district": "Bhopal",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recEg3GitmYzjAxbz",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-27T14:03:10.000Z",
+            "name": "oxygen concentrator",
+            "phone1": 7987747886,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Madhya Pradesh",
+            "type": [
+                "Concentrator",
+                "Oxygen Concentrator"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
         },
         {
             "availability": "Available",
