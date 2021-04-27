@@ -2725,7 +2725,7 @@
             "state": "West Bengal"
         },
         {
-            "ambulance": false,
+            "ambulance": true,
             "contact": true,
             "district": "Bhopal",
             "doctor": false,
@@ -3305,8 +3305,8 @@
             "contact": true,
             "district": "Burdwan (Bardhaman)",
             "doctor": false,
-            "helpline": false,
-            "hospitals": false,
+            "helpline": true,
+            "hospitals": true,
             "id": "recTIi1YNzkj9ZrIt",
             "medicine": false,
             "oxygen": true,

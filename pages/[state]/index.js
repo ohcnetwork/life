@@ -14,7 +14,7 @@ import { useLocaleContext } from '@hooks/use-locale-context';
 
 export default function State({ state }) {
     const { locale } = useLocaleContext();
-    const t = useLocale(locale).state;
+    const t = useLocale(locale, 'state');
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
     let districts = getDistricts(state);

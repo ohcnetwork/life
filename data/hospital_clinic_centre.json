@@ -29,7 +29,7 @@
             "email1": null,
             "email2": null,
             "id": "rec0JS2YkdkCTuHXm",
-            "lastVerifiedOn": "2021-04-25T13:55:42.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "RKDF University Hospital",
             "phone1": 7692940261,
             "phone2": 919301108890,
@@ -39,7 +39,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -60,7 +60,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -81,7 +81,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -176,7 +176,7 @@
             "email1": null,
             "email2": null,
             "id": "rec1vSzz86ARc75Y3",
-            "lastVerifiedOn": "2021-04-23T15:31:37.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "Amri Hospital",
             "phone1": 3366063800,
             "phone2": null,
@@ -186,7 +186,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -207,7 +207,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -228,7 +228,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -239,7 +239,7 @@
             "email1": "bandipur_bphc@yahoo.co.in",
             "email2": null,
             "id": "rec2k28MCx8GZVnNI",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Bandipur B.P.H.C",
             "phone1": 3325236763,
             "phone2": null,
@@ -249,7 +249,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -283,7 +283,7 @@
             "email1": null,
             "email2": null,
             "id": "rec3EV5RWksiAB5gk",
-            "lastVerifiedOn": "2021-04-24T08:36:49.000Z",
+            "lastVerifiedOn": "2021-04-27T09:12:16.000Z",
             "name": "Isha Hospital",
             "phone1": 9415273211,
             "phone2": 9453019530,
@@ -293,7 +293,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -335,7 +335,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -377,7 +377,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Diya Dashiwal"
         },
         {
@@ -443,7 +443,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -475,7 +475,7 @@
             "email1": null,
             "email2": null,
             "id": "rec4BzOnuPDzIFr1K",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "College of Medicine and Sagore Dutta Hospital",
             "phone1": 3325239058,
             "phone2": null,
@@ -490,7 +490,7 @@
                 "Bed with ventilator"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -545,7 +545,7 @@
             "email1": null,
             "email2": null,
             "id": "rec4ZNtd9tMS7aluu",
-            "lastVerifiedOn": "2021-04-24T08:50:39.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "Synergy Hospital",
             "phone1": 9826730066,
             "phone2": null,
@@ -555,7 +555,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -618,7 +618,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -660,7 +660,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -681,7 +681,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -702,7 +702,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -713,7 +713,7 @@
             "email1": null,
             "email2": null,
             "id": "rec67PXFhpc6xiawE",
-            "lastVerifiedOn": "2021-04-24T08:29:23.000Z",
+            "lastVerifiedOn": "2021-04-27T09:12:05.000Z",
             "name": "Broadwell Christian Hosptial",
             "phone1": 9670780916,
             "phone2": 8318748851,
@@ -723,7 +723,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -734,7 +734,7 @@
             "email1": null,
             "email2": null,
             "id": "rec68lG2WP6CyhNHd",
-            "lastVerifiedOn": "2021-04-24T08:48:11.000Z",
+            "lastVerifiedOn": "2021-04-27T09:10:13.000Z",
             "name": "MTH Hospital",
             "phone1": 7879154987,
             "phone2": 7312920657,
@@ -744,7 +744,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -807,7 +807,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -828,7 +828,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -860,7 +860,7 @@
             "email1": null,
             "email2": null,
             "id": "rec7Tk8nOPZoQNHzD",
-            "lastVerifiedOn": "2021-04-24T08:26:49.000Z",
+            "lastVerifiedOn": "2021-04-27T09:11:59.000Z",
             "name": "Raj Rajeshwari Hospital",
             "phone1": 9455401385,
             "phone2": 9415937193,
@@ -870,7 +870,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -891,7 +891,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -933,7 +933,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -954,7 +954,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -996,7 +996,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1038,7 +1038,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1059,7 +1059,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1101,7 +1101,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Jasseerat Kaur"
         },
         {
@@ -1112,7 +1112,7 @@
             "email1": null,
             "email2": null,
             "id": "rec9PyYYoiEQv1O3w",
-            "lastVerifiedOn": "2021-04-23T12:22:02.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "Navjeevan Krushnay Mission",
             "phone1": 9415156212,
             "phone2": 9415156212,
@@ -1122,7 +1122,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1143,7 +1143,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1154,7 +1154,7 @@
             "email1": "amithospital2010@yahoo.in",
             "email2": null,
             "id": "rec9YOTxyvFDIsMie",
-            "lastVerifiedOn": "2021-04-24T10:35:10.000Z",
+            "lastVerifiedOn": "2021-04-27T09:08:48.000Z",
             "name": "Amit Hospital",
             "phone1": 9825120393,
             "phone2": 2632302000,
@@ -1164,7 +1164,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1269,7 +1269,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1290,7 +1290,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1311,7 +1311,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1322,7 +1322,7 @@
             "email1": null,
             "email2": null,
             "id": "recCNAlr6T5uwO8GQ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Gayatri Hospital",
             "phone1": 9918101001,
             "phone2": null,
@@ -1334,7 +1334,7 @@
                 "Bed without oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1368,7 +1368,7 @@
             "email1": null,
             "email2": null,
             "id": "recCiIBzbTs08Uofl",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Sunrise Hospital ",
             "phone1": 9648845777,
             "phone2": null,
@@ -1381,7 +1381,7 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1429,7 +1429,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1440,7 +1440,7 @@
             "email1": "MRD.Rajkot@sterlinghospitals.com",
             "email2": null,
             "id": "recD4yvMeg5TgSOAM",
-            "lastVerifiedOn": "2021-04-22T10:50:37.000Z",
+            "lastVerifiedOn": "2021-04-27T09:08:43.000Z",
             "name": "Sterling Hospital",
             "phone1": null,
             "phone2": 2812545600,
@@ -1450,7 +1450,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -1515,7 +1515,7 @@
                 "Bed without oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1578,7 +1578,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1599,7 +1599,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1620,7 +1620,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -1641,7 +1641,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1704,7 +1704,7 @@
             "totalBedsAvailable": 30,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1725,7 +1725,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1736,7 +1736,7 @@
             "email1": "chhotojaguliabphc@rediffmail.com",
             "email2": null,
             "id": "recFsjpWoMhfjamXR",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Chhoto Jagulia B.P.H.C.",
             "phone1": 3325527421,
             "phone2": null,
@@ -1746,7 +1746,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1769,7 +1769,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1832,7 +1832,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1843,7 +1843,7 @@
             "email1": null,
             "email2": null,
             "id": "recGVWfCenmN4vvpT",
-            "lastVerifiedOn": "2021-04-22T08:24:43.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "Pushpanjali Hospital And Research Centre Pvt Ltd",
             "phone1": 8954893910,
             "phone2": 9837068263,
@@ -1853,7 +1853,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1874,7 +1874,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -1885,7 +1885,7 @@
             "email1": null,
             "email2": null,
             "id": "recHDUzcdw7C50ipw",
-            "lastVerifiedOn": "2021-04-24T06:50:02.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "D.S Memorial Hospital",
             "phone1": 7572066699,
             "phone2": 7572066699,
@@ -1895,7 +1895,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Harnoor Saini"
         },
         {
@@ -1979,7 +1979,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Harnoor Saini"
         },
         {
@@ -2086,7 +2086,7 @@
                 "Bed without oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -2097,7 +2097,7 @@
             "email1": null,
             "email2": null,
             "id": "recJZCtGm71x1AKyk",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Wipro Covid Hospital",
             "phone1": 919518593779,
             "phone2": 919011087560,
@@ -2107,7 +2107,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2141,7 +2141,7 @@
             "email1": null,
             "email2": null,
             "id": "recJgZzdUaQiZwnnR",
-            "lastVerifiedOn": "2021-04-22T13:14:09.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "Saraswathi Institute Of Medical Sciences",
             "phone1": 8057153994,
             "phone2": 8755377390,
@@ -2151,7 +2151,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Pending",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -2172,7 +2172,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Jasseerat Kaur"
         },
         {
@@ -2204,7 +2204,7 @@
             "email1": null,
             "email2": null,
             "id": "recKEO1FeBGW5364D",
-            "lastVerifiedOn": "2021-04-25T14:01:32.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "SGT Medical College & Research Institute",
             "phone1": 7042292198,
             "phone2": null,
@@ -2214,7 +2214,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Pending",
             "verifiedBy": "Jasseerat Kaur"
         },
         {
@@ -2225,7 +2225,7 @@
             "email1": null,
             "email2": null,
             "id": "recKUm2dg2bu5pIQx",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Mercy hospital, LUCKNOW",
             "phone1": 9455170204,
             "phone2": null,
@@ -2237,7 +2237,7 @@
                 "Bed without oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2271,7 +2271,7 @@
             "email1": null,
             "email2": null,
             "id": "recKi3krCLKTiT7E2",
-            "lastVerifiedOn": "2021-04-22T09:35:49.000Z",
+            "lastVerifiedOn": "2021-04-27T09:09:07.000Z",
             "name": "Bowring & Lady Curzon Medical College & Research Institute",
             "phone1": 9036304558,
             "phone2": null,
@@ -2281,7 +2281,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -2323,7 +2323,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -2355,7 +2355,7 @@
             "email1": null,
             "email2": null,
             "id": "recMpz2Gya3kMxnwA",
-            "lastVerifiedOn": "2021-04-22T13:04:30.000Z",
+            "lastVerifiedOn": "2021-04-27T09:11:22.000Z",
             "name": "Shri Ramkaran Joshi Dh Dausa",
             "phone1": 7877461931,
             "phone2": null,
@@ -2365,7 +2365,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Jasseerat Kaur"
         },
         {
@@ -2397,7 +2397,7 @@
             "email1": null,
             "email2": null,
             "id": "recN4QJuY928ceFSC",
-            "lastVerifiedOn": "2021-04-23T10:47:48.000Z",
+            "lastVerifiedOn": "2021-04-27T09:10:33.000Z",
             "name": "Rural Hospital, Nilanga",
             "phone1": 8275178348,
             "phone2": null,
@@ -2407,7 +2407,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Diya Dashiwal"
         },
         {
@@ -2418,7 +2418,7 @@
             "email1": "sibhatibphc@yahoo.in",
             "email2": null,
             "id": "recN6KvwSUluDrPtp",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Shibhati B.P.H.C.",
             "phone1": 3217246409,
             "phone2": null,
@@ -2428,7 +2428,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2462,7 +2462,7 @@
             "email1": null,
             "email2": null,
             "id": "recNxmG1X7bGTbCa9",
-            "lastVerifiedOn": "2021-04-22T08:25:18.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "Sms Hospital",
             "phone1": 7573949408,
             "phone2": null,
@@ -2472,7 +2472,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -2504,7 +2504,7 @@
             "email1": "hospitalsadbhavana@gmail.com",
             "email2": null,
             "id": "recOBPNw46xXGSXZo",
-            "lastVerifiedOn": "2021-04-23T11:10:12.000Z",
+            "lastVerifiedOn": "2021-04-27T09:06:53.000Z",
             "name": "Sadbhavna Hospital",
             "phone1": 9904464036,
             "phone2": 8469851717,
@@ -2514,7 +2514,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Diya Dashiwal"
         },
         {
@@ -2525,7 +2525,7 @@
             "email1": null,
             "email2": null,
             "id": "recOcptpgpDrMVZhN",
-            "lastVerifiedOn": "2021-04-23T11:19:10.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "Columbia Asia Hospital",
             "phone1": 3366003300,
             "phone2": null,
@@ -2535,7 +2535,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "sucharu asri"
         },
         {
@@ -2546,7 +2546,7 @@
             "email1": null,
             "email2": null,
             "id": "recOgXXqNLcbg0C4T",
-            "lastVerifiedOn": "2021-04-23T11:20:22.000Z",
+            "lastVerifiedOn": "2021-04-27T09:12:17.000Z",
             "name": "Chiranjiv Hospital",
             "phone1": 9839777166,
             "phone2": 9839777166,
@@ -2556,7 +2556,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "sucharu asri"
         },
         {
@@ -2567,7 +2567,7 @@
             "email1": null,
             "email2": null,
             "id": "recOh3hS6Vu3Yo7Za",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Lok Bandhu Hospital",
             "phone1": 7897030844,
             "phone2": null,
@@ -2579,7 +2579,7 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2602,7 +2602,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "sucharu asri"
         },
         {
@@ -2613,7 +2613,7 @@
             "email1": null,
             "email2": null,
             "id": "recOuEO4n2YE3kTk6",
-            "lastVerifiedOn": "2021-04-23T11:25:37.000Z",
+            "lastVerifiedOn": "2021-04-27T09:10:30.000Z",
             "name": "Williamnagar Civil Hospital",
             "phone1": 8414055904,
             "phone2": null,
@@ -2623,7 +2623,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "sucharu asri"
         },
         {
@@ -2676,7 +2676,7 @@
             "email1": null,
             "email2": null,
             "id": "recPcCheQ2xIFuR8C",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:38.000Z",
             "name": "PS Hospital",
             "phone1": 9415339267,
             "phone2": null,
@@ -2691,7 +2691,7 @@
                 "ICU bed"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2714,7 +2714,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -2725,7 +2725,7 @@
             "email1": null,
             "email2": null,
             "id": "recPofKkf5dqFAhUH",
-            "lastVerifiedOn": "2021-04-23T11:31:00.000Z",
+            "lastVerifiedOn": "2021-04-27T09:11:48.000Z",
             "name": "Dr Ram Niwas Gupta Hospital",
             "phone1": 9818059321,
             "phone2": 9818059321,
@@ -2735,7 +2735,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "sucharu asri"
         },
         {
@@ -2746,7 +2746,7 @@
             "email1": null,
             "email2": null,
             "id": "recPwE75jjahpTLeK",
-            "lastVerifiedOn": "2021-04-23T11:47:33.000Z",
+            "lastVerifiedOn": "2021-04-27T09:08:44.000Z",
             "name": "Baps Hospital",
             "phone1": 9429149761,
             "phone2": null,
@@ -2756,7 +2756,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Jasseerat Kaur"
         },
         {
@@ -2777,7 +2777,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -2819,7 +2819,7 @@
             "totalBedsAvailable": 3,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -2830,7 +2830,7 @@
             "email1": null,
             "email2": null,
             "id": "recQMvRS1HFfePZiD",
-            "lastVerifiedOn": "2021-04-23T11:54:37.000Z",
+            "lastVerifiedOn": "2021-04-27T09:10:10.000Z",
             "name": "Shri Arihant Hospital & Research Centre Indore",
             "phone1": 9827272418,
             "phone2": null,
@@ -2840,7 +2840,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Jasseerat Kaur"
         },
         {
@@ -2903,7 +2903,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "sucharu asri"
         },
         {
@@ -2924,7 +2924,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "sucharu asri"
         },
         {
@@ -2935,7 +2935,7 @@
             "email1": null,
             "email2": null,
             "id": "recR4mSLYKN49BfYf",
-            "lastVerifiedOn": "2021-04-23T12:17:53.000Z",
+            "lastVerifiedOn": "2021-04-27T09:11:05.000Z",
             "name": "Dimapur District Hospital",
             "phone1": 9099607609,
             "phone2": 7085444710,
@@ -2945,7 +2945,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -2966,7 +2966,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3040,7 +3040,7 @@
             "email1": null,
             "email2": null,
             "id": "recRTpXQAAJtbdo0d",
-            "lastVerifiedOn": "2021-04-22T09:48:50.000Z",
+            "lastVerifiedOn": "2021-04-27T09:11:00.000Z",
             "name": "Mairang Civil Hospital",
             "phone1": 8837367750,
             "phone2": 9436706852,
@@ -3050,7 +3050,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Jasseerat Kaur"
         },
         {
@@ -3113,7 +3113,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3155,7 +3155,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3166,7 +3166,7 @@
             "email1": "zmchdhd@gmail.com",
             "email2": null,
             "id": "recRxvFfW3Osm8eJx",
-            "lastVerifiedOn": "2021-04-23T11:14:31.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "Zydus Hospital",
             "phone1": 9824267168,
             "phone2": null,
@@ -3176,7 +3176,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Diya Dashiwal"
         },
         {
@@ -3197,7 +3197,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Harnoor Saini"
         },
         {
@@ -3218,7 +3218,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3344,7 +3344,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3355,7 +3355,7 @@
             "email1": null,
             "email2": null,
             "id": "recTR8jzaCzSadxpZ",
-            "lastVerifiedOn": "2021-04-22T09:30:13.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "Rohilkhand Medical College And Hospital",
             "phone1": 8171790347,
             "phone2": 9358617603,
@@ -3365,7 +3365,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3449,7 +3449,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3470,7 +3470,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3502,7 +3502,7 @@
             "email1": null,
             "email2": null,
             "id": "recV2CSzm3960abI5",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Victoria Hospital",
             "phone1": null,
             "phone2": null,
@@ -3512,7 +3512,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3535,7 +3535,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3556,7 +3556,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3598,7 +3598,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3693,7 +3693,7 @@
             "email1": "dhkannur@yahoo.co.in",
             "email2": null,
             "id": "recWyaV2psPgPoPUK",
-            "lastVerifiedOn": "2021-04-24T06:45:28.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "District Hospital",
             "phone1": null,
             "phone2": 9961730233,
@@ -3703,7 +3703,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -3714,7 +3714,7 @@
             "email1": null,
             "email2": null,
             "id": "recWzJlBajIw5FuN6",
-            "lastVerifiedOn": "2021-04-24T06:44:14.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "Rims",
             "phone1": 8532238489,
             "phone2": null,
@@ -3724,7 +3724,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -3735,7 +3735,7 @@
             "email1": "sundarpur_bphc@yahoo.in",
             "email2": null,
             "id": "recX3kmGxWp6ow6qn",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Sundarpur B.P.H.C",
             "phone1": 3215262260,
             "phone2": null,
@@ -3745,7 +3745,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3768,7 +3768,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3821,7 +3821,7 @@
             "email1": null,
             "email2": null,
             "id": "recXu8XrZ0SnIqKTf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "District Hospital",
             "phone1": 2875254651,
             "phone2": null,
@@ -3831,7 +3831,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -3852,7 +3852,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Jasseerat Kaur"
         },
         {
@@ -3863,7 +3863,7 @@
             "email1": null,
             "email2": null,
             "id": "recY2XswJhpBZfImu",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Takrohi Hospital ",
             "phone1": 9452334488,
             "phone2": null,
@@ -3875,7 +3875,7 @@
                 "Bed without oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3930,7 +3930,7 @@
             "email1": null,
             "email2": null,
             "id": "recYbrfeGw8IWJKN8",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "St.Joseph Hospital, gomti nagar",
             "phone1": 7947145417,
             "phone2": null,
@@ -3942,7 +3942,7 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3955,7 +3955,7 @@
             "email1": null,
             "email2": null,
             "id": "recYfkMM3iLPPtbf0",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Sharma Medicare Super Specialty Hospital",
             "phone1": 1202326666,
             "phone2": null,
@@ -3967,7 +3967,7 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3990,7 +3990,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -4043,7 +4043,7 @@
             "email1": null,
             "email2": null,
             "id": "recYqknNphWJh62L2",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Ambulance Services ",
             "phone1": 9588160614,
             "phone2": null,
@@ -4056,7 +4056,7 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4205,7 +4205,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -4289,7 +4289,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -4300,7 +4300,7 @@
             "email1": null,
             "email2": null,
             "id": "recZkmq2KIA0oKpPt",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "AIIMS JODHPUR",
             "phone1": 8764505002,
             "phone2": null,
@@ -4310,7 +4310,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4333,7 +4333,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -4365,7 +4365,7 @@
             "email1": null,
             "email2": null,
             "id": "recaHKJBD8SVf4Zq1",
-            "lastVerifiedOn": "2021-04-22T12:03:26.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "Carewell Hospital",
             "phone1": 9447010565,
             "phone2": null,
@@ -4375,7 +4375,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Pending",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -4428,7 +4428,7 @@
             "email1": null,
             "email2": null,
             "id": "recaPPLnGQ65cIrwl",
-            "lastVerifiedOn": "2021-04-22T12:09:09.000Z",
+            "lastVerifiedOn": "2021-04-27T09:12:14.000Z",
             "name": "R.S Hospital",
             "phone1": 8175852700,
             "phone2": 8175852700,
@@ -4438,7 +4438,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -4459,7 +4459,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -4501,7 +4501,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -4522,7 +4522,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -4596,7 +4596,7 @@
             "email1": null,
             "email2": null,
             "id": "recbH7yUaJDn5ByYj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": null,
             "phone1": null,
             "phone2": null,
@@ -4606,7 +4606,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4629,7 +4629,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -4671,7 +4671,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -4724,7 +4724,7 @@
             "email1": null,
             "email2": null,
             "id": "reccHKFlWNdrLtQWy",
-            "lastVerifiedOn": "2021-04-23T12:21:45.000Z",
+            "lastVerifiedOn": "2021-04-27T09:10:14.000Z",
             "name": "Mayur Hospital And Research Centre",
             "phone1": 9826049666,
             "phone2": null,
@@ -4734,7 +4734,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -4745,7 +4745,7 @@
             "email1": null,
             "email2": null,
             "id": "reccKNRzTlcBwMD9a",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": null,
             "phone1": 9829294865,
             "phone2": null,
@@ -4755,7 +4755,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4862,7 +4862,7 @@
             "totalBedsAvailable": 25,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -4883,7 +4883,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -4915,7 +4915,7 @@
             "email1": null,
             "email2": null,
             "id": "recd8VbvNPmsKbG22",
-            "lastVerifiedOn": "2021-04-23T09:59:03.000Z",
+            "lastVerifiedOn": "2021-04-27T09:12:31.000Z",
             "name": "Divine  Nursing Home",
             "phone1": 3340156789,
             "phone2": null,
@@ -4925,7 +4925,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -4988,7 +4988,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Jasseerat Kaur"
         },
         {
@@ -5020,7 +5020,7 @@
             "email1": "adm.unityhospital@gmail.com",
             "email2": null,
             "id": "rece3GdpP2dWzxEu6",
-            "lastVerifiedOn": "2021-04-22T12:45:39.000Z",
+            "lastVerifiedOn": "2021-04-27T09:08:47.000Z",
             "name": "Unity Hosp",
             "phone1": 9879955855,
             "phone2": null,
@@ -5030,7 +5030,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -5072,7 +5072,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -5114,7 +5114,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -5137,7 +5137,7 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -5158,7 +5158,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -5179,7 +5179,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -5221,7 +5221,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -5263,7 +5263,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -5305,7 +5305,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -5326,7 +5326,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -5389,7 +5389,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -5452,7 +5452,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -5562,6 +5562,32 @@
         },
         {
             "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-27T09:46:19.000Z",
+            "district": "Burdwan (Bardhaman)",
+            "email1": null,
+            "email2": null,
+            "id": "rechIVdopOud46ciS",
+            "lastVerifiedOn": null,
+            "name": "Bidhannagar Sub Divisional Hospital",
+            "phone1": null,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "West Bengal",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "Bed with oxygen",
+                "Bed without oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
             "comment": "no contact details",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Ramanagara",
@@ -5610,7 +5636,7 @@
             "email1": null,
             "email2": null,
             "id": "rechaFMLmtvWQxVl3",
-            "lastVerifiedOn": "2021-04-23T08:37:53.000Z",
+            "lastVerifiedOn": "2021-04-27T09:12:31.000Z",
             "name": "Muzaffarnagar Medical College",
             "phone1": 8923256659,
             "phone2": 9988682822,
@@ -5620,7 +5646,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -5652,7 +5678,7 @@
             "email1": null,
             "email2": null,
             "id": "rechlsfu5ETf0uJFo",
-            "lastVerifiedOn": "2021-04-23T11:53:29.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "Kr Hospital",
             "phone1": null,
             "phone2": null,
@@ -5662,7 +5688,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -5746,7 +5772,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -5851,7 +5877,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -5988,7 +6014,7 @@
             "email1": null,
             "email2": null,
             "id": "recjQ2UUMla10HwUM",
-            "lastVerifiedOn": "2021-04-23T11:17:23.000Z",
+            "lastVerifiedOn": "2021-04-27T09:06:59.000Z",
             "name": "Prashanti Hospital",
             "phone1": 9826019722,
             "phone2": null,
@@ -5998,7 +6024,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Diya Dashiwal"
         },
         {
@@ -6019,7 +6045,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -6051,7 +6077,7 @@
             "email1": null,
             "email2": null,
             "id": "reckRfjUl3uJhBdoW",
-            "lastVerifiedOn": "2021-04-24T10:47:37.000Z",
+            "lastVerifiedOn": "2021-04-27T09:08:01.000Z",
             "name": "Delhi hospitaal and maternity home",
             "phone1": 1681247287,
             "phone2": null,
@@ -6064,7 +6090,7 @@
                 "ICU bed"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -6085,7 +6111,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Diya Dashiwal"
         },
         {
@@ -6096,7 +6122,7 @@
             "email1": null,
             "email2": null,
             "id": "recke42gXd3bVHr2d",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Pawan Dham",
             "phone1": 9820881282,
             "phone2": 9820959828,
@@ -6106,7 +6132,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6129,7 +6155,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Jasseerat Kaur"
         },
         {
@@ -6140,7 +6166,7 @@
             "email1": null,
             "email2": null,
             "id": "recksWqxywtGUPOJQ",
-            "lastVerifiedOn": "2021-04-25T14:22:43.000Z",
+            "lastVerifiedOn": "2021-04-27T09:10:08.000Z",
             "name": "Navyug Hospital",
             "phone1": 7999623457,
             "phone2": null,
@@ -6150,7 +6176,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -6234,7 +6260,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Diya Dashiwal"
         },
         {
@@ -6308,7 +6334,7 @@
             "email1": null,
             "email2": null,
             "id": "recljbyk8mtYlXs7J",
-            "lastVerifiedOn": "2021-04-23T11:44:48.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "Sainath Holistic Hospital",
             "phone1": 9621407820,
             "phone2": 9125026751,
@@ -6318,7 +6344,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Diya Dashiwal"
         },
         {
@@ -6339,7 +6365,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -6381,7 +6407,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -6444,7 +6470,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -6476,7 +6502,7 @@
             "email1": null,
             "email2": null,
             "id": "recmtkLUbJmgDRFfF",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Home setup ventilator & ICU",
             "phone1": 8802911790,
             "phone2": null,
@@ -6490,7 +6516,7 @@
                 "ICU bed"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6576,7 +6602,7 @@
             "totalBedsAvailable": 198,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -6650,7 +6676,7 @@
             "email1": null,
             "email2": null,
             "id": "recoOKoC8o49SFh1w",
-            "lastVerifiedOn": "2021-04-22T08:24:41.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "Peoples Heritage Hospital Pvt Ltd",
             "phone1": 9319122030,
             "phone2": 9319122030,
@@ -6660,7 +6686,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -6706,7 +6732,7 @@
                 "ICU bed"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -6748,7 +6774,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -6769,7 +6795,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -6780,7 +6806,7 @@
             "email1": null,
             "email2": null,
             "id": "recpETG8HIig2rTvv",
-            "lastVerifiedOn": "2021-04-23T13:49:18.000Z",
+            "lastVerifiedOn": "2021-04-27T09:11:26.000Z",
             "name": "Jan Sewa Hospital, Tantia University",
             "phone1": 9414090854,
             "phone2": null,
@@ -6790,8 +6816,61 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-27T09:44:27.000Z",
+            "district": "Burdwan (Bardhaman)",
+            "email1": null,
+            "email2": null,
+            "id": "recpGUNe7wPaEiA5e",
+            "lastVerifiedOn": null,
+            "name": "Mission Hospital",
+            "phone1": 8687500500,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "West Bengal",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "ICU bed",
+                "Bed with ventilator",
+                "Bed with oxygen",
+                "Bed without oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-27T14:02:43.000Z",
+            "district": "Bareilly",
+            "email1": null,
+            "email2": null,
+            "id": "recpLcpfIituoi9VZ",
+            "lastVerifiedOn": null,
+            "name": "Rajshree Medical Research Institute & Hospital Bareilly",
+            "phone1": 8192000288,
+            "phone2": null,
+            "pointOfContact": "Receptionist",
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "Bed without oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": "Not Available",
@@ -6811,7 +6890,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -6832,7 +6911,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -6874,7 +6953,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -6885,7 +6964,7 @@
             "email1": null,
             "email2": null,
             "id": "recpmoALlI3cDhuPf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Maa Chandrika Devi Hospital ",
             "phone1": 9140190282,
             "phone2": null,
@@ -6897,7 +6976,7 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7004,7 +7083,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -7015,7 +7094,7 @@
             "email1": null,
             "email2": null,
             "id": "recrKGDYtJ3A7VqZ6",
-            "lastVerifiedOn": "2021-04-23T14:14:10.000Z",
+            "lastVerifiedOn": "2021-04-27T09:12:30.000Z",
             "name": "Sharda Narayan",
             "phone1": 9839510050,
             "phone2": 9415884590,
@@ -7025,7 +7104,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -7099,7 +7178,7 @@
             "email1": null,
             "email2": null,
             "id": "recrrgyYE2S6EzIGj",
-            "lastVerifiedOn": "2021-04-26T17:35:46.000Z",
+            "lastVerifiedOn": "2021-04-27T09:07:05.000Z",
             "name": "Sharda Hospital",
             "phone1": 8368623463,
             "phone2": 8800998800,
@@ -7109,7 +7188,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Invalid",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -7172,7 +7251,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -7183,7 +7262,7 @@
             "email1": null,
             "email2": null,
             "id": "recsvpHgbtu9fEUFY",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Bypass Apollo ",
             "phone1": 3323202122,
             "phone2": null,
@@ -7193,7 +7272,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7206,7 +7285,7 @@
             "email1": null,
             "email2": null,
             "id": "rectEbvln8KUS2QBf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Khuslok Hospital",
             "phone1": 5812530800,
             "phone2": 9760701234,
@@ -7218,7 +7297,7 @@
                 "Bed without oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7231,7 +7310,7 @@
             "email1": null,
             "email2": null,
             "id": "rectGMXKNJitB9LGd",
-            "lastVerifiedOn": "2021-04-23T11:01:21.000Z",
+            "lastVerifiedOn": "2021-04-27T09:07:01.000Z",
             "name": "Mahatma Gandhi Memorial Hospital",
             "phone1": 9413378778,
             "phone2": null,
@@ -7241,7 +7320,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Diya Dashiwal"
         },
         {
@@ -7262,7 +7341,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -7283,7 +7362,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -7325,7 +7404,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -7367,7 +7446,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -7409,7 +7488,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -7420,7 +7499,7 @@
             "email1": "kejallifeinhospital@gmail.com",
             "email2": null,
             "id": "recuWqgrjZyGQgBcp",
-            "lastVerifiedOn": "2021-04-23T14:57:38.000Z",
+            "lastVerifiedOn": "2021-04-27T09:08:42.000Z",
             "name": "Kejal Lifein Hospital",
             "phone1": 9825683362,
             "phone2": 2637236101,
@@ -7430,7 +7509,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -7483,7 +7562,7 @@
             "email1": "ghkozhikode@gmail.com",
             "email2": null,
             "id": "recvAbiiXJPN6uO12",
-            "lastVerifiedOn": "2021-04-23T15:00:34.000Z",
+            "lastVerifiedOn": "2021-04-27T09:09:20.000Z",
             "name": "Gen H Beach Kozhikode",
             "phone1": null,
             "phone2": 9847476700,
@@ -7493,7 +7572,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -7588,7 +7667,7 @@
             "email1": null,
             "email2": null,
             "id": "recvpl3WtoC54mds1",
-            "lastVerifiedOn": "2021-04-25T13:32:26.000Z",
+            "lastVerifiedOn": "2021-04-27T09:11:32.000Z",
             "name": "Asopa Hospital",
             "phone1": 1412246161,
             "phone2": null,
@@ -7601,7 +7680,7 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -7685,7 +7764,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -7717,7 +7796,7 @@
             "email1": null,
             "email2": null,
             "id": "recwJIRNC5HITStj5",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "Ambulance ",
             "phone1": 8826602001,
             "phone2": null,
@@ -7730,7 +7809,7 @@
                 "Bed with oxygen"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7753,7 +7832,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -7795,7 +7874,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -7806,7 +7885,7 @@
             "email1": "talukhospitalaluva@gmail.com",
             "email2": null,
             "id": "recwzI8M0Z9P3DHeB",
-            "lastVerifiedOn": "2021-04-23T15:09:43.000Z",
+            "lastVerifiedOn": "2021-04-27T09:09:15.000Z",
             "name": "District Hospital Aluva",
             "phone1": null,
             "phone2": 9744841155,
@@ -7816,7 +7895,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -7911,7 +7990,7 @@
             "email1": null,
             "email2": null,
             "id": "recxcoL1Cfw4oafmi",
-            "lastVerifiedOn": "2021-04-22T10:15:52.000Z",
+            "lastVerifiedOn": "2021-04-27T09:10:51.000Z",
             "name": "Mission Hospital Tura",
             "phone1": 9436316287,
             "phone2": null,
@@ -7921,7 +8000,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Jasseerat Kaur"
         },
         {
@@ -8061,7 +8140,7 @@
             "email1": null,
             "email2": null,
             "id": "recyNQb569fNbXOLS",
-            "lastVerifiedOn": "2021-04-23T15:39:50.000Z",
+            "lastVerifiedOn": "2021-04-27T09:11:35.000Z",
             "name": "Super Specialty Building, Mbgh",
             "phone1": 2942528811,
             "phone2": null,
@@ -8071,7 +8150,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Nidhi Rungta"
         },
         {
@@ -8134,7 +8213,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -8155,7 +8234,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -8176,7 +8255,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -8187,7 +8266,7 @@
             "email1": null,
             "email2": null,
             "id": "reczDhbjhHzRUmJHw",
-            "lastVerifiedOn": "2021-04-24T06:35:14.000Z",
+            "lastVerifiedOn": "2021-04-27T09:07:03.000Z",
             "name": "Dhayal Hospital & Research Center",
             "phone1": 9636785947,
             "phone2": null,
@@ -8197,7 +8276,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -8239,7 +8318,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -8271,7 +8350,7 @@
             "email1": "mrd.hhb@hcgel.com",
             "email2": null,
             "id": "reczbAwchSTGXxF8d",
-            "lastVerifiedOn": "2021-04-24T06:37:33.000Z",
+            "lastVerifiedOn": "2021-04-27T09:08:32.000Z",
             "name": "Hcg Hospital",
             "phone1": 9925537507,
             "phone2": 2786640000,
@@ -8281,7 +8360,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -8292,7 +8371,7 @@
             "email1": null,
             "email2": null,
             "id": "reczdgDDBgzyYLPU1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
             "name": "MAHATMA GANDHI HOSPITAL JODHPUR",
             "phone1": 2912636441,
             "phone2": null,
@@ -8302,7 +8381,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -8315,7 +8394,7 @@
             "email1": null,
             "email2": null,
             "id": "reczmTtcoqLOPzrSa",
-            "lastVerifiedOn": "2021-04-22T09:32:36.000Z",
+            "lastVerifiedOn": "2021-04-27T09:05:57.000Z",
             "name": "SR Hospital And Medical Institute",
             "phone1": 9415607398,
             "phone2": 9415607398,
@@ -8325,7 +8404,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Pending",
             "verifiedBy": "Varun Kumar"
         },
         {
@@ -8367,7 +8446,7 @@
             "totalBedsAvailable": null,
             "typeOfBedAvailable": null,
             "typeOfHospital": null,
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
         }
     ]

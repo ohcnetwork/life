@@ -5,8 +5,10 @@ import { LocaleContext } from '@hooks/use-locale-context';
 import LanguageSelector from '@components/LanguageSelector';
 
 const MainLayout = ({ children }) => {
-    const [locale, setBaseLocal] = useState('EN');
-    const value = { locale, setBaseLocal };
+
+    const [locale, setLocale] = useState("EN");
+    const localeValue = { locale, setLocale };
+
     useEffect(() => {
         if (typeof window !== 'undefined') {
             if (
@@ -22,7 +24,7 @@ const MainLayout = ({ children }) => {
     }, []);
 
     return (
-        <LocaleContext.Provider value={value}>
+        <LocaleContext.Provider value={localeValue}>
             <div className="flex flex-col items-stretch min-h-screen bg-gray-100 dark:bg-gray-1100">
                 <div className="relative flex-shrink-0">
                     <ThemeButton />
