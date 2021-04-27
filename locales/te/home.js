@@ -16,7 +16,7 @@ export default {
     verified: 'ధృవీకరించబడిన',
     totalAmbulace: 'అన్ని అంబులెన్సుల సంఖ్య',
     oxygenRequirements: 'ఆక్సిజన్ ఆవశ్యకత',
-    contributeData: 'ఆమోదింపబడ్డ సమాచారాన్ని మాతో పంచుకోండి',
+    contributeData: 'సమాచారాన్ని మాతో పంచుకోండి',
     campaigns: 'క్యాంపైన్',
     learn: 'నేర్చుకోనుము',
     partnerWithUs: 'మాతో కలిసి పనిచేయండి',

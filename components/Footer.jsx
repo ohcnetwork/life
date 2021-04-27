@@ -12,28 +12,6 @@ import { useLocaleContext } from '@hooks/use-locale-context';
 const Footer = () => {
     const { locale } = useLocaleContext();
     const t = useLocale(locale, 'home');
-    const buttonArr = [
-        {
-            icon: faDatabase,
-            text: `${t.contributeData}`,
-            link: '/data'
-        },
-        {
-            icon: faHeart,
-            text: `${t.campaigns}`,
-            link: '/campaigns'
-        },
-        {
-            icon: faBookOpen,
-            text: `${t.learn}`,
-            link: '/learn'
-        },
-        {
-            icon: faHandsHelping,
-            text: `${t.partnerWithUs}`,
-            link: '/about#partner'
-        }
-    ];
     const socialArr = [
         {
             text: `${t.github}`,
@@ -50,17 +28,6 @@ const Footer = () => {
     ];
     return (
         <footer className="bg-gray-200 dark:bg-gray-1200 w-full flex-shrink-0 pt-6 pb-2">
-            <section className="flex flex-wrap justify-center">
-                {buttonArr.map((el) => (
-                    <a
-                        key={el.link}
-                        href={el.link}
-                        className="flex mx-2 items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 my-2 md:my-0">
-                        <FontAwesomeIcon icon={el.icon} className="w-3 mr-2" />
-                        {el.text}
-                    </a>
-                ))}
-            </section>
             <section className="flex flex-wrap justify-center my-3 text-sm">
                 <div className="flex items-center mr-2 text-gray-900 dark:text-gray-500">
                     <span className="font-semibold mr-2">Disclaimer: </span>
