@@ -6848,6 +6848,31 @@
             ]
         },
         {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-27T14:02:43.000Z",
+            "district": "Bareilly",
+            "email1": null,
+            "email2": null,
+            "id": "recpLcpfIituoi9VZ",
+            "lastVerifiedOn": null,
+            "name": "Rajshree Medical Research Institute & Hospital Bareilly",
+            "phone1": 8192000288,
+            "phone2": null,
+            "pointOfContact": "Receptionist",
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "Bed without oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": "Not Available",
             "comment": "All beds full. Railway employees only",
             "createdTime": "2021-04-25T12:55:21.000Z",

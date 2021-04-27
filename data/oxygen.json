@@ -442,6 +442,33 @@
             ]
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "verified",
+            "companyName": "individual",
+            "createdTime": "2021-04-27T15:00:28.000Z",
+            "description": "donno",
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "rec5xPAfrbuVPbEJP",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-27T15:00:28.000Z",
+            "name": null,
+            "phone1": 1234567890,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "kj",
+            "state": "Uttar Pradesh",
+            "type": [
+                "Refil"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "Both numbers switched off. Try later.",
@@ -1153,6 +1180,32 @@
             "verifiedBy": "sucharu asri"
         },
         {
+            "availability": null,
+            "city": null,
+            "comment": "unreachable",
+            "companyName": null,
+            "createdTime": "2021-04-27T14:03:10.000Z",
+            "description": "oxygen concentrator",
+            "district": "Bhopal",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recEg3GitmYzjAxbz",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-27T14:03:10.000Z",
+            "name": "oxygen concentrator",
+            "phone1": 7987747886,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Madhya Pradesh",
+            "type": [
+                "Concentrator",
+                "Oxygen Concentrator"
+            ],
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Nidhi Rungta"
+        },
+        {
             "availability": "Available",
             "city": null,
             "comment": "available but changes every hour \nbut the line is responsive actively providing oxygen cylinders",
@@ -1559,6 +1612,31 @@
         {
             "availability": "Available",
             "city": null,
+            "comment": "verified",
+            "companyName": null,
+            "createdTime": "2021-04-27T13:17:56.000Z",
+            "description": "oxygen refill available, have to bring the empty cylinder",
+            "district": "New Delhi",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recHnDWkyvwYl7Gjq",
+            "instructions": "long queue ",
+            "lastVerifiedOn": "2021-04-27T13:20:25.000Z",
+            "name": "Ram gas agency",
+            "phone1": 9205202518,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Delhi (NCT)",
+            "type": [
+                "Oxygen - Refill"
+            ],
+            "verificationStatus": "Unavailable but verified",
+            "verifiedBy": "Diya Dashiwal"
+        },
+        {
+            "availability": "Available",
+            "city": null,
             "comment": "Oxygen cans available.",
             "companyName": null,
             "createdTime": "2021-04-20T09:01:01.000Z",
@@ -1816,6 +1894,31 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "verified",
+            "companyName": null,
+            "createdTime": "2021-04-27T13:25:15.000Z",
+            "description": "refilling available from 7p.m to 2a.m",
+            "district": "Central Delhi",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recJHUrJ7tC8hRTZB",
+            "instructions": "address- Old delhi",
+            "lastVerifiedOn": "2021-04-27T13:26:28.000Z",
+            "name": null,
+            "phone1": 9560123835,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Delhi (NCT)",
+            "type": [
+                "Oxygen - Refill"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": "Diya Dashiwal"
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "phone 1 busy phone 2 not answering",
@@ -2065,6 +2168,31 @@
             "verifiedBy": [
                 {}
             ]
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": "Verified via call",
+            "companyName": null,
+            "createdTime": "2021-04-27T13:11:20.000Z",
+            "description": "oxygen cans available ",
+            "district": "New Delhi",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recLFGkUO4yqn3Eva",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-27T13:17:32.000Z",
+            "name": null,
+            "phone1": 9953237188,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "known contact",
+            "state": "Delhi (NCT)",
+            "type": [
+                "Cans"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": "Diya Dashiwal"
         },
         {
             "availability": null,
@@ -2696,6 +2824,31 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": "verified",
+            "companyName": null,
+            "createdTime": "2021-04-27T13:21:21.000Z",
+            "description": "refills are available",
+            "district": "New Delhi",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recS8oJozM4XYR9Xs",
+            "instructions": "address- Daryaganj\n10kg refills available",
+            "lastVerifiedOn": "2021-04-27T13:24:41.000Z",
+            "name": null,
+            "phone1": 9212154073,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Delhi (NCT)",
+            "type": [
+                "Oxygen - Refill"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": "Diya Dashiwal"
         },
         {
             "availability": null,
@@ -5473,27 +5626,27 @@
         {
             "availability": "Available",
             "city": null,
-            "comment": "Approved",
-            "companyName": "Test",
-            "createdTime": "2021-04-27T09:30:10.000Z",
-            "description": "Test",
-            "district": "Noida",
-            "emailId": "test@test.com",
+            "comment": "verified via call",
+            "companyName": null,
+            "createdTime": "2021-04-27T13:14:24.000Z",
+            "description": "oxygen cylinders",
+            "district": "New Delhi",
+            "emailId": null,
             "homeDeliveryAvailable": "No",
-            "id": "recxgcPH94Pu2X9nD",
+            "id": "recxu8tsn5jx4EJF2",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T09:30:10.000Z",
-            "name": "Test Persion",
-            "phone1": 8800442222,
+            "lastVerifiedOn": "2021-04-27T13:15:47.000Z",
+            "name": "Amit",
+            "phone1": 9709910000,
             "phone2": null,
             "sourceLink": null,
-            "sourceName": null,
-            "state": "Uttar Pradesh",
+            "sourceName": "through whatsapp",
+            "state": "Delhi (NCT)",
             "type": [
-                "Oxygen"
+                "Cylinder"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": "Aakanksha Kalra"
+            "verificationStatus": "Available and verified",
+            "verifiedBy": "Diya Dashiwal"
         },
         {
             "availability": "Available",
