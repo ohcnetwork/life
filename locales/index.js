@@ -36,7 +36,7 @@ export default [
         code: 'KN'
     },
     {
-        name: 'اُردُو',
+        name: 'اردو',
         code: 'UR'
     }
 ];

@@ -10,20 +10,20 @@ import ta from '@locales/ta/index';
 import ur from '@locales/ur/index';
 
 const languages = {
-    'EN': en,
-    'MR': mr,
-    'HI': hi,
-    'TE': te,
-    'BA': ba,
-    'PA': pa,
-    'GU': gu,
-    'KN': kn,
-    'TA': ta,
-    'UR': ur
-}
+    EN: en,
+    MR: mr,
+    HI: hi,
+    TE: te,
+    BA: ba,
+    PA: pa,
+    GU: gu,
+    KN: kn,
+    TA: ta,
+    UR: ur
+};
 
 const useLocale = (loc) => {
-    const locale = languages[loc] || languages["EN"]
+    const locale = languages[loc] || languages['EN'];
     return locale;
 };
 
