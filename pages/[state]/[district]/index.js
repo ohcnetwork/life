@@ -12,7 +12,7 @@ import { useLocaleContext } from '@hooks/use-locale-context';
 
 export default function State({ state, district }) {
     const { locale } = useLocaleContext();
-    const th = useLocale(locale).state;
+    const th = useLocale(locale, 'state');
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
     const SEO = {

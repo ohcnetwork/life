@@ -5,7 +5,7 @@ import { useLocaleContext } from '@hooks/use-locale-context';
 
 const About = () => {
     const { locale } = useLocaleContext();
-    const t = useLocale(locale).about;
+    const t = useLocale(locale, 'about');
 
     const h1Class = `text-4xl`;
     const h2Class = `text-xl mt-5`;

@@ -7,7 +7,7 @@ import { useLocaleContext } from '@hooks/use-locale-context';
 
 const TabSingle = ({ tab, state, district }) => {
     const { locale } = useLocaleContext();
-    const t = useLocale(locale).home;
+    const t = useLocale(locale, 'home');
     const bgColorVal = district[tab.value]
         ? ' cursor-pointer hover:bg-gray-300 dark:hover:bg-gray-1100'
         : ' cursor-not-allowed';
