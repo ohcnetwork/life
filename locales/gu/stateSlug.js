@@ -1,5 +1,5 @@
 export default {
     share: `શેર`,
-    searchResFor: `ના માટે પરિણામ શોધો`,
+    searchResFor: `શોધ નું પરિણામ`,
     searchPlaceholder: `ના માટે જીલ્લા શોધો`
 };
