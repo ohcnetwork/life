@@ -639,4 +639,3 @@ export const videoData = [
         'Uploaded (Y/N)': ''
     }
 ];
-console.log(videoData);
