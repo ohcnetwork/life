@@ -17,8 +17,8 @@ import { useLocaleContext } from '@hooks/use-locale-context';
 
 export default function DataForm() {
     const { locale } = useLocaleContext();
-    const th = useLocale(locale).home;
-    const t = useLocale(locale).data;
+    const th = useLocale(locale, 'home');
+    const t = useLocale(locale, 'data');
     const formsInfo = [
         {
             name: `${th.oxygen}`,

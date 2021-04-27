@@ -6,7 +6,7 @@ import AboutQA from '@components/AboutQA';
 
 const About = () => {
     const { locale } = useLocaleContext();
-    const t = useLocale(locale).about;
+    const t = useLocale(locale, 'about');
 
     const h1Class = `text-4xl`;
     const pClass = `dark:text-gray-600 mt-2 text-md`;

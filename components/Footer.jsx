@@ -12,7 +12,7 @@ import { useLocaleContext } from '@hooks/use-locale-context';
 
 const Footer = () => {
     const { locale, setLocale } = useLocaleContext();
-    const t = useLocale(locale).home;
+    const t = useLocale(locale, 'home');
     const buttonArr = [
         {
             icon: faDatabase,
