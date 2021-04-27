@@ -18,8 +18,7 @@ let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection
 
 export default function Home() {
     const { locale } = useLocaleContext();
-    const t = useLocale(locale).home;
-    const t_shared = useLocale('en').home;
+    const t = useLocale(locale, 'home');
 
     let tabsInfoNew = [];
     tabsInfo.forEach((tab) => {
@@ -29,7 +28,7 @@ export default function Home() {
             link,
             value,
             icon,
-            name: t[tab.name.toLowerCase()] ?? t_shared[tab.name.toLowerCase()]
+            name: t[tab.name.toLowerCase()]
         });
     });
 
