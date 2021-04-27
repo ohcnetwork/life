@@ -28,7 +28,7 @@ export default function Hospitals({ state, district, hospitalByDistrict }) {
         ]
     };
     return (
-        <div>
+        <div className="pt-10">
             <NextSeo {...SEO} />
             <section className="flex flex-col ml-2 md:pt-10 ">
                 <Head>
@@ -65,6 +65,10 @@ export default function Hospitals({ state, district, hospitalByDistrict }) {
                                 state={p.state}
                                 verificationStatus={p.verificationStatus}
                                 lastVerifiedOn={p.lastVerifiedOn}
+                                comment={p.comment}
+                                availability={p.availability}
+                                totalBedsAvailable={p.totalBedsAvailable}
+                                typeOfBedAvailable={p.typeOfBedAvailable}
                             />
                         );
                     })}

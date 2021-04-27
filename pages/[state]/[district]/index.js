@@ -7,7 +7,12 @@ import { tabsInfo } from '@lib/tabs';
 import { useRouter } from 'next/router';
 import { NextSeo } from 'next-seo';
 
+import useLocale from '@hooks/use-locale';
+import { useLocaleContext } from '@hooks/use-locale-context';
+
 export default function State({ state, district }) {
+    const { locale } = useLocaleContext();
+    const th = useLocale(locale).state;
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
     const SEO = {
@@ -29,7 +34,7 @@ export default function State({ state, district }) {
         ]
     };
     return (
-        <section className="md:pt-10">
+        <section className="pt-10">
             <NextSeo {...SEO} />
             <Breadcumb
                 list={[
@@ -37,8 +42,19 @@ export default function State({ state, district }) {
                     { href: null, name: humanize(district.district) }
                 ]}
             />
+            <div className="w-full flex items-center pt-2">
+                <div className="mr-auto">
+                    <SocialSharing
+                        shareText={th.share}
+                        url={pageUrl}
+                        twitterText={`Covid-19 Resources for ${humanize(
+                            district.district
+                        )}, ${humanize(state)} ${pageUrl}`}
+                    />
+                </div>
+            </div>
             <div className="w-full mt-2 px-2">
-                <div className="w-full">
+                <div className="w-full text-center">
                     <div className="mt-4 font-black text-5xl text-gray-900 dark:text-gray-200 py-4">
                         {humanize(district.district)}
                         <span className="text-3xl font-semibold text-gray-700 dark:text-gray-200">
@@ -49,19 +65,13 @@ export default function State({ state, district }) {
                 </div>
                 <section className="flex justify-center">
                     <div className="my-8 bg-gray-200 dark:bg-gray-1200 rounded-md inline-block">
-                        <TabLinks tabsInfo={tabsInfo} state={state} district={district} />
-                    </div>
-                </section>
-                <div className="w-full flex items-center pt-2">
-                    <div className="mr-auto">
-                        <SocialSharing
-                            url={pageUrl}
-                            twitterText={`Covid-19 Resources for ${humanize(
-                                district.district
-                            )}, ${humanize(state)} ${pageUrl}`}
+                        <TabLinks
+                            tabsInfo={tabsInfo.filter((tab) => tab.value !== 'all')}
+                            state={state}
+                            district={district}
                         />
                     </div>
-                </div>
+                </section>
             </div>
         </section>
     );

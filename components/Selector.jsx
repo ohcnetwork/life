@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { districtWithState } from '@lib/api';
 import { parametreize, humanize, activeStates } from '@lib/utils';
 
-const Selector = ({ data, page }) => {
+const Selector = ({ data, page, placeholder, localeState, localeDistrict }) => {
     const [searchStr, setSearchStr] = useState('');
     const [editing, setEditing] = useState(false);
 
@@ -36,7 +36,7 @@ const Selector = ({ data, page }) => {
                 key="search-bar"
                 type="text"
                 className="mt-6 w-full h-12 rounded mb-2 focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg dark:bg-gray-1200 dark:placeholder-gray-500 dark:text-gray-200"
-                placeholder={`Search for ${page} availability in a State or District`}
+                placeholder={placeholder}
                 value={searchStr}
                 onChange={(e) => {
                     setEditing(false);
@@ -53,7 +53,9 @@ const Selector = ({ data, page }) => {
                     className="p-4 bg-white  dark:bg-gray-1200 dark:text-gray-400 mt-1 rounded-lg shadow-lg flex">
                     {filterTests(activeStates(districtWithState(page))).length !== 0 && (
                         <div className="w-1/2 p-4">
-                            <h1 className="font-semibold text-lg dark:text-gray-200">State</h1>
+                            <h1 className="font-semibold text-lg dark:text-gray-200">
+                                {localeState}
+                            </h1>
                             {filterTests(activeStates(districtWithState(page))).map((i) => {
                                 return (
                                     <div key={i} className="md">
@@ -65,11 +67,13 @@ const Selector = ({ data, page }) => {
                     )}
                     {filterTests(districtWithState(page), 'district').length !== 0 && (
                         <div className="w-1/2 p-4">
-                            <h1 className="font-semibold text-lg dark:text-gray-200">District</h1>
+                            <h1 className="font-semibold text-lg dark:text-gray-200">
+                                {localeDistrict}
+                            </h1>
                             {filterTests(districtWithState(page), 'district').map((i) => {
                                 const url = `/${parametreize(i.state)}/${parametreize(
                                     i.district
-                                )}/${page}`;
+                                )}/${page === 'all' ? '' : page}`;
                                 return (
                                     <div key={i.district} className="md">
                                         <Link href={url}>{humanize(i.district)}</Link>

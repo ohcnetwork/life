@@ -2,8 +2,12 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 import { parametreize } from '@lib/utils';
+import useLocale from '@hooks/use-locale';
+import { useLocaleContext } from '@hooks/use-locale-context';
 
 const TabSingle = ({ tab, state, district }) => {
+    const { locale } = useLocaleContext();
+    const t = useLocale(locale).home;
     const bgColorVal = district[tab.value]
         ? ' cursor-pointer hover:bg-gray-300 dark:hover:bg-gray-1100'
         : ' cursor-not-allowed';
@@ -17,7 +21,7 @@ const TabSingle = ({ tab, state, district }) => {
     const renderLink = (
         <div className={divClass2}>
             <FontAwesomeIcon icon={tab.icon} className="w-5" />
-            <span className="ml-2">{tab.name}</span>
+            <span className="ml-2 whitespace-nowrap">{t[tab.name.toLowerCase()]}</span>
         </div>
     );
 
