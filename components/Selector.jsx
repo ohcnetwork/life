@@ -4,10 +4,6 @@ import React, { useEffect, useState } from 'react';
 import { districtWithState } from '@lib/api';
 import { parametreize, humanize, activeStates } from '@lib/utils';
 import TwitterResultCard from '@components/TwitterResult';
-import useSWR from 'swr';
-
-
-
 
 function useFetch(searchStr, resourceType='supply', maxResults=25) {
     const url = `/api/CovidConnect?city=${searchStr}&resource_type=${resourceType}&max_results=${maxResults}`;
