@@ -27,7 +27,7 @@ const CampaignCard = ({ name, text, logoUrl, donate, open }) => {
             </div>
             <a
                 href={donate}
-                className="w-full mt-2 rounded flex cursor-pointer mx-auto justify-center text-white py-2 bg-indigo-600 hover:bg-indigo-700"
+                className="w-full h-12 mt-2 rounded flex cursor-pointer mx-auto justify-center items-center text-white py-2 bg-indigo-600 hover:bg-indigo-700"
                 target="_blank">
                 <FontAwesomeIcon icon={faDonate} className="w-4 mr-2" />
                 <span className="ml-2">Donate Now</span>
