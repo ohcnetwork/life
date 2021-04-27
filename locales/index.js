@@ -34,5 +34,9 @@ export default [
     {
         name: 'ಕನ್ನಡ',
         code: 'KN'
+    },
+    {
+        name: 'اُردُو',
+        code: 'UR'
     }
 ];
