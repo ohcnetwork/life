@@ -7177,6 +7177,29 @@
         },
         {
             "availability": "Available",
+            "comment": "Take the patient directly to the hospital",
+            "createdTime": "2021-04-27T05:03:04.000Z",
+            "district": "Kolkata",
+            "email1": null,
+            "email2": null,
+            "id": "recsvpHgbtu9fEUFY",
+            "lastVerifiedOn": null,
+            "name": "Bypass Apollo ",
+            "phone1": 3323202122,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "West Bengal",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
             "comment": null,
             "createdTime": "2021-04-26T12:58:28.000Z",
             "district": "Bareilly",
