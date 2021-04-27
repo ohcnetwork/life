@@ -6,7 +6,7 @@ const LanguageSelector = () => {
     const { locale, setLocale } = useLocaleContext();
     return (
         <select
-            className="cursor-pointer font-semibold text-sm rounded shadow h-8 dark:bg-gray-1000 px-2 dark:text-white appearance-none "
+            className="cursor-pointer font-semibold text-sm rounded shadow h-8 dark:bg-gray-900 px-3 text-center dark:text-white appearance-none "
             value={locale}
             onChange={(e) => setLocale(e.target.value)}>
             {langArr.map((el) => (
