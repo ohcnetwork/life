@@ -1,4 +1,5 @@
 import Breadcumb from '@components/Breadcumb';
+import Header from '@components/Header';
 import VideoCard from '@components/VideoCard';
 import { videoData } from '@data/video';
 import { parametreize } from '@lib/utils';
@@ -25,20 +26,17 @@ export const getStaticPaths = async () => {
 const VideoSingle = ({ video }) => {
     return (
         <div>
-            <section className="pt-10">
-                <div>
-                    <Breadcumb
-                        list={[
-                            { href: `/videos`, name: `Videos` },
-                            { href: null, name: `${video['Title']}` }
-                        ]}
-                    />
+            <section>
+                <Breadcumb
+                    list={[
+                        { href: `/videos`, name: `Videos` },
+                        { href: null, name: `${video['Title']}` }
+                    ]}
+                />
+                <Header title={video["Title"]} />
+                <div className="mx-2">
+                    <VideoCard dt={video} link={video['Content Link']} />
                 </div>
-                <h2 className="text-3xl mb-5 md:text-4xl xl:text-5xl tracking-tight mt-4 font-bold leading-tight dark:text-white text-gray-1200 ">
-                    Videos
-                </h2>
-                {console.log()}
-                <VideoCard dt={video} link={video['Content Link']} />
             </section>
         </div>
     );
