@@ -76,10 +76,20 @@ export default function Home({ state, district, type }) {
         Vaccine: getVaccine(parametreize(stateChoosen), parametreize(districtChoosen), true)
     };
 
-    const handleChooseState = ({ target: { value } }) => {
-        setStateChoosen(value);
-        const newDistrict = statesWithDistricts[value][0];
+    const handleChooseState = (s) => {
+        setStateChoosen(s);
+        const newDistrict = statesWithDistricts[s][0];
         setDistrictChoosen(newDistrict);
+        router.push(
+            `/${parametreize(s)}/${parametreize(newDistrict)}/${parametreize(resourceChoosen)}`
+        );
+    };
+
+    const handleDistrictChange = (d) => {
+        setDistrictChoosen(d);
+        router.push(
+            `/${parametreize(stateChoosen)}/${parametreize(d)}/${parametreize(resourceChoosen)}`
+        );
     };
 
     const handleResourceChange = (v) => {
@@ -104,7 +114,7 @@ export default function Home({ state, district, type }) {
                             <select
                                 id="state"
                                 value={stateChoosen}
-                                onChange={handleChooseState}
+                                onChange={({ target: { value } }) => handleChooseState(value)}
                                 className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer z-10">
                                 {states.map((s, id) => (
                                     <option
@@ -129,7 +139,7 @@ export default function Home({ state, district, type }) {
                             <select
                                 id="district"
                                 value={districtChoosen}
-                                onChange={({ target: { value } }) => setDistrictChoosen(value)}
+                                onChange={({ target: { value } }) => handleDistrictChange(value)}
                                 className="py-2  w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer z-10">
                                 {districts.map((s, id) => (
                                     <option className="dark:text-gray-900" key={id} value={s}>
