@@ -15,6 +15,11 @@ A database and API for life-fe
 | Medicine availability       | <https://life-api.coronasafe.network/data/medicine.json>               |
 | Oxygen availability         | <https://life-api.coronasafe.network/data/oxygen.json>                 |
 
+## Want to help with coding?
+-   [Open issues](https://github.com/coronasafe/life/issues)
+
+[<img src="https://i.imgur.com/V7jxjak.png">](http://slack.coronasafe.in/)
+
 ## Source
 
 -   [Covidfyi data store](https://airtable.com/shrIlOoS6PyhIIVEv)
