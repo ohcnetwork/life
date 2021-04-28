@@ -4,7 +4,7 @@ import { LocaleContext } from '@hooks/use-locale-context';
 import NavBar from '@components/NavBar';
 
 const MainLayout = ({ children }) => {
-    const [locale, setLocale] = useState("EN");
+    const [locale, setLocale] = useState('EN');
     const localeValue = { locale, setLocale };
 
     useEffect(() => {
