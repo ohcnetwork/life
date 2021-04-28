@@ -9,7 +9,7 @@ def generate_v2_file(url, data, name=""):
     if name != "":
         life_file_name_v2 = name + "_v2.json"
 
-    f = open("../../data/" + life_file_name_v2, 'w')
+    f = open("data/" + life_file_name_v2, 'w')
     print("Adding file: "+life_file_name_v2)
     f.write(json.dumps(data))
     f.close()
