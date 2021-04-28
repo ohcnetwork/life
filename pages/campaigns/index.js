@@ -28,24 +28,24 @@ const Campaigns = () => {
     const { locale } = useLocaleContext();
     const t = useLocale(locale, 'campaigns');
     return (
-        <section className="md:pt-10">
-            <Breadcumb list={[{ href: null, name: 'Campaigns' }]} />
+        <section className="mt-10 md:pt-10 bg-gray-200 dark:bg-gray-1200">
             <section className="flex flex-col items-center">
-                <div className="flex flex-row">
-                    <div>
-                        <h1 className="mt-4 mr-4 font-black text-4xl sm:text-5xl text-gray-900 dark:text-gray-200 md:text-left text-center">
-                            Campaigns
-                        </h1>
-                    </div>
-                    <div className="pt-3 mx-auto">
-                        <FontAwesomeIcon
-                            className="dark:text-white fa-3x"
-                            title="Support"
-                            icon={faHandHoldingHeart}
-                        />
+                <div className=" w-full ">
+                    <div className="pt-5 w-3/4 mx-auto md:px-10">
+                        <Breadcumb list={[{ href: null, name: 'Campaigns' }]} />
+                        <div className="pt-3 mx-auto w-min flex flex-col items-center">
+                            <FontAwesomeIcon
+                                className="dark:text-white fa-3x min-w-5"
+                                title="Support"
+                                icon={faHandHoldingHeart}
+                            />
+                            <h1 className="mt-6 mx-auto font-black text-4xl sm:text-5xl text-gray-900 dark:text-gray-200 text-center">
+                                Swasth
+                            </h1>
+                        </div>
                     </div>
                 </div>
-                <div className="space-y-4  dark:text-white mt-6 max-w-3xl w-full">
+                <div className="py-10 px-0 space-y-4 md:px-10 bg-gray-100 dark:text-white mt-6 w-full  dark:bg-gray-1100" >
                     {campaign.map((camp) => {
                         return (
                             <CampaignCard
