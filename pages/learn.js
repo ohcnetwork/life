@@ -104,17 +104,19 @@ const renderLanguageElement = (data) => (
 
 const Learn = () => {
     return (
-        <section className="md:pt-10">
-            <div>
-                <Breadcumb list={[{ href: null, name: 'Learn' }]} />
-            </div>
+        <div className="py-10 dark:text-gray-500 text-gray-900 font-bold px-2 md:mx-10">
             <h2 class="text-3xl md:text-4xl xl:text-5xl tracking-tight font-bold leading-tight dark:text-white">
                 Learn
             </h2>
-            <div class="flex flex-wrap md:-mx-6 pt-2 text-gray-900 dark ">
-                {languages.map((l) => renderLanguageElement(l))}
+            <div>
+                <Breadcumb list={[{ href: null, name: 'Learn' }]} />
             </div>
-        </section>
+            <div className="flex flex-col  items-center justify-center space-y-4 w-full my-4">
+                <div className="flex flex-col items-center justify-center space-y-4 w-full my-4">
+                    {languages.map((l) => renderLanguageElement(l))}
+                </div>
+            </div>
+        </div>
     );
 };
 

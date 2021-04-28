@@ -26,7 +26,7 @@ const campaign = [
 
 const Campaigns = () => {
     const { locale } = useLocaleContext();
-    const t = useLocale(locale).campaigns;
+    const t = useLocale(locale, 'campaigns');
     return (
         <section className="md:pt-10">
             <Breadcumb list={[{ href: null, name: 'Campaigns' }]} />

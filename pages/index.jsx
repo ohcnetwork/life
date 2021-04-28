@@ -8,7 +8,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import Selector from '@components/Selector';
 import { tabsInfo } from '@lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartBar, faMedkit } from '@fortawesome/free-solid-svg-icons';
+import { faChartBar, faMedkit, faBuilding } from '@fortawesome/free-solid-svg-icons';
 import hospitalCareCenterData from '@data/hospital_clinic_centre.json';
 import ambulanceData from '@data/ambulance.json';
 import useLocale from '@hooks/use-locale';
@@ -18,8 +18,7 @@ let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection
 
 export default function Home() {
     const { locale } = useLocaleContext();
-    const t = useLocale(locale).home;
-    const t_shared = useLocale('en').home;
+    const t = useLocale(locale, 'home');
 
     let tabsInfoNew = [];
     tabsInfo.forEach((tab) => {
@@ -29,7 +28,7 @@ export default function Home() {
             link,
             value,
             icon,
-            name: t[tab.name.toLowerCase()] ?? t_shared[tab.name.toLowerCase()]
+            name: t[tab.name.toLowerCase()]
         });
     });
 
@@ -126,7 +125,8 @@ export default function Home() {
                         {
                             hospitalCareCenterData.data.filter((value) =>
                                 value.verificationStatus
-                                    ? value.verificationStatus.toLocaleLowerCase() == 'verified'
+                                    ? value.verificationStatus.toLocaleLowerCase() ===
+                                      'available and verified'
                                     : ''
                             ).length
                         }
@@ -135,7 +135,9 @@ export default function Home() {
                         {
                             ambulanceData.data.filter((value) =>
                                 value.verificationStatus
-                                    ? value.verificationStatus.toLocaleLowerCase() == 'verified'
+                                    ? value.verificationStatus
+                                          .toLocaleLowerCase()
+                                          .includes('verified')
                                     : ''
                             ).length
                         }

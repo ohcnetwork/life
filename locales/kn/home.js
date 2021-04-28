@@ -25,5 +25,5 @@ export default {
     poweredBy: 'ಸಮರ್ಥಕರು',
     github: 'ಗೀಥಬ್',
     database: 'ಮಾಹಿತಿ ಆಧಾರ',
-    about: 'ನಮ್ಮ ಬಗ್ಗೆ'
+    infoOnCovid: `COVID-19 ನಲ್ಲಿ ಮಾಹಿತಿ`
 };

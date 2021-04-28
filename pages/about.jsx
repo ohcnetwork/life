@@ -6,7 +6,7 @@ import AboutQA from '@components/AboutQA';
 
 const About = () => {
     const { locale } = useLocaleContext();
-    const t = useLocale(locale).about;
+    const t = useLocale(locale, 'about');
 
     const h1Class = `text-4xl`;
     const pClass = `dark:text-gray-600 mt-2 text-md`;
@@ -101,27 +101,9 @@ const About = () => {
                         question={t.q10}
                         answer={[
                             <p className={pClass}>{t.a10}</p>,
-                            <a className={aClass} href="/partners">
+                            <a className={aClass} href="/partners#partner">
                                 Current Partners
                             </a>
-                        ]}
-                    />
-                    <AboutQA
-                        question={t.q11}
-                        answer={[
-                            <p className={pClass}>
-                                {t.a112}
-                                {
-                                    <a
-                                        className={aClass}
-                                        href="https://liferesources.in/"
-                                        target="_blank">
-                                        https://liferesources.in/
-                                    </a>
-                                }
-                                {t.a113}
-                            </p>,
-                            <p className={pClass}>{t.a114}</p>
                         ]}
                     />
                 </div>
