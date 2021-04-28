@@ -15,20 +15,20 @@ const languages = [
     },
     {
         id: 2,
-        name: 'മലയാളം',
-        logoUrl: 'icons/malayalam-icon.png',
-        color: 'border-green-500 bg-green-100',
-        description: 'കൊറോണ വൈറസ് രോഗം Covid 19 പടരുന്നതിനാൽ സുരക്ഷിതമായി തുടരാനുള്ള വഴികാട്ടി',
-        link: 'https://ml.coronasafe.in/'
-    },
-    {
-        id: 3,
         name: 'Quiz',
         logoUrl: 'icons/quiz-icon.png',
         color: 'border-blue-500 bg-blue-100',
         description:
             'WHO Quiz on COVID-19. Currently the questions are available in english, malayalam, urdu, kannada and french.',
         link: 'https://quiz.coronasafe.in/'
+    },
+    {
+        id: 3,
+        name: 'മലയാളം',
+        logoUrl: 'icons/malayalam-icon.png',
+        color: 'border-green-500 bg-green-100',
+        description: 'കൊറോണ വൈറസ് രോഗം Covid 19 പടരുന്നതിനാൽ സുരക്ഷിതമായി തുടരാനുള്ള വഴികാട്ടി',
+        link: 'https://ml.coronasafe.in/'
     },
     {
         id: 4,
@@ -104,7 +104,7 @@ const renderLanguageElement = (data) => (
 
 const Learn = () => {
     return (
-        <div className="py-10 dark:text-gray-500 text-gray-900 font-bold px-2 md:mx-10">
+        <div className="py-10 text-gray-900 font-bold px-2 md:mx-10">
             <h2 className="text-3xl md:text-4xl xl:text-5xl tracking-tight font-bold leading-tight dark:text-white">
                 Learn
             </h2>
