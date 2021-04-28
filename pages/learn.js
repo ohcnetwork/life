@@ -16,20 +16,20 @@ const languages = [
     },
     {
         id: 2,
-        name: 'മലയാളം',
-        logoUrl: 'icons/malayalam-icon.png',
-        color: 'border-green-500 bg-green-100',
-        description: 'കൊറോണ വൈറസ് രോഗം Covid 19 പടരുന്നതിനാൽ സുരക്ഷിതമായി തുടരാനുള്ള വഴികാട്ടി',
-        link: 'https://ml.coronasafe.in/'
-    },
-    {
-        id: 3,
         name: 'Quiz',
         logoUrl: 'icons/quiz-icon.png',
         color: 'border-blue-500 bg-blue-100',
         description:
             'WHO Quiz on COVID-19. Currently the questions are available in english, malayalam, urdu, kannada and french.',
         link: 'https://quiz.coronasafe.in/'
+    },
+    {
+        id: 3,
+        name: 'മലയാളം',
+        logoUrl: 'icons/malayalam-icon.png',
+        color: 'border-green-500 bg-green-100',
+        description: 'കൊറോണ വൈറസ് രോഗം Covid 19 പടരുന്നതിനാൽ സുരക്ഷിതമായി തുടരാനുള്ള വഴികാട്ടി',
+        link: 'https://ml.coronasafe.in/'
     },
     {
         id: 4,
