@@ -2,6 +2,7 @@ import Breadcumb from '@components/Breadcumb';
 import PartnerCard from '@components/PartnerCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
+import {NextSeo} from 'next-seo'
 import React from 'react';
 
 const partners = [
@@ -50,6 +51,22 @@ const partners = [
 ];
 
 const Partners = () => {
+    const SEO = {
+        title: 'Life partners',
+        description: 'Life partners',
+        openGraph: {
+            title: 'Life partners',
+            description: 'Life partners',
+        },
+        additionalMetaTags: [
+            {
+                property: 'keywords',
+                content: `life, partners, covid19, coronasafe, covid india campaign, the product folks, 
+                PARLIAMENTARIANS WITH INNOVATORS FOR INDIA, Step one, swasth, india covid resources`
+            }
+        ]
+    }
+
     return (
         <section className="md:pt-10">
             <Breadcumb list={[{ href: null, name: 'Partner with us' }]} />
