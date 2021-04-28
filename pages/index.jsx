@@ -171,22 +171,28 @@ export default function Home({ state, district, type }) {
                         </Link>
                     </div>
                 </section>
-                <div className="dark:text-gray-200 mx-auto w-1/6 flex font-bold justify-around my-5 cursor-pointer">
-                    <div
-                        className={`${tabVal === 'result' ? `border-b-2 border-gray-500` : ``}`}
-                        onClick={() => changeTabs('result')}>
-                        Results
-                    </div>
-                    <div
-                        className={`${tabVal === 'twitter' ? `border-b-2 border-gray-500` : ``}`}
-                        onClick={() => changeTabs('twitter')}>
-                        Twitter Results
-                    </div>
-                </div>
                 {type ? (
                     <>
-                        <TwitterContainer searchStr={districtChoosen} />
-                        <SearchResult type={type} resources={resources[type]} />
+                        <div className="dark:text-gray-200 mx-auto w-1/6 flex font-bold justify-around my-5 cursor-pointer">
+                            <div
+                                className={`${
+                                    tabVal === 'result' ? `border-b-2 border-gray-500` : ``
+                                }`}
+                                onClick={() => changeTabs('result')}>
+                                Results
+                            </div>
+                            <div
+                                className={`${
+                                    tabVal === 'twitter' ? `border-b-2 border-gray-500` : ``
+                                }`}
+                                onClick={() => changeTabs('twitter')}>
+                                Twitter Results
+                            </div>
+                        </div>
+                        {tabVal === 'result' && (
+                            <SearchResult type={type} resources={resources[type]} />
+                        )}
+                        {tabVal === 'twitter' && <TwitterContainer searchStr={districtChoosen} />}
                     </>
                 ) : (
                     <StartSearching />
