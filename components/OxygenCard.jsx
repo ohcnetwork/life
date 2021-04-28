@@ -1,13 +1,5 @@
-import {
-    faMapMarkerAlt,
-    faQuestionCircle,
-    faBed,
-    faProcedures,
-    faAngleUp,
-    faAngleDown
-} from '@fortawesome/free-solid-svg-icons';
+import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import SocialSharing from '@components/SocialSharing';
 
 function OxygenCard({ data }) {
     const checkValue = (value) => {
