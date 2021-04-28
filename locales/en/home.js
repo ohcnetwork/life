@@ -17,6 +17,7 @@ export default {
     verified: 'Verified',
     totalAmbulace: 'Total Ambulance',
     oxygenRequirements: 'Oxygen Concentration Requirements',
+    fdaOfficerContact: 'FDA Officers Contact',
     contributeData: 'Contribute Verified Data',
     campaigns: 'Donate Now',
     learn: 'Learn',

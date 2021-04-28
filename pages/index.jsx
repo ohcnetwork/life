@@ -8,7 +8,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import Selector from '@components/Selector';
 import { tabsInfo } from '@lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartBar, faMedkit } from '@fortawesome/free-solid-svg-icons';
+import { faChartBar, faMedkit, faBuilding } from '@fortawesome/free-solid-svg-icons';
 import hospitalCareCenterData from '@data/hospital_clinic_centre.json';
 import ambulanceData from '@data/ambulance.json';
 import useLocale from '@hooks/use-locale';
@@ -98,6 +98,18 @@ export default function Home() {
                                 icon={faMedkit}
                             />
                             {t.oxygenRequirements}
+                        </button>
+                    </a>
+                    <a href="https://docs.google.com/spreadsheets/d/1BEXdf68gxsYsp3Hsc0gUEPbH_wx0kSbu/edit#gid=438108583">
+                        <button
+                            type="button"
+                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                            <FontAwesomeIcon
+                                className="text-white-400 w-4 mr-4"
+                                title="FDA Officers Contact"
+                                icon={faBuilding}
+                            />
+                            {t.fdaOfficerContact}
                         </button>
                     </a>
                     {/* <a href="/oxygen_requirements">
