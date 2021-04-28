@@ -105,46 +105,49 @@ const Selector = ({ data, page, placeholder, localeState, localeDistrict }) => {
             {(searchStr || editing) && (
                 <div
                     key="result"
-                    className="p-4 bg-white  dark:bg-gray-1200 dark:text-gray-400 mt-1 rounded-lg shadow-lg flex">
-                    {filterTests(activeStates(districtWithState(page))).length !== 0 && (
-                        <div className="w-1/2 p-4">
-                            <h1 className="font-semibold text-lg dark:text-gray-200">
-                                {localeState}
-                            </h1>
-                            {filterTests(activeStates(districtWithState(page))).map((i) => {
-                                return (
-                                    <div key={i} className="md">
-                                        <Link href={parametreize(i)}>{i}</Link>
-                                    </div>
-                                );
-                            })}
-                        </div>
-                    )}
-                    {filterTests(districtWithState(page), 'district').length !== 0 && (
-                        <div className="w-1/2 p-4">
-                            <h1 className="font-semibold text-lg dark:text-gray-200">
-                                {localeDistrict}
-                            </h1>
-                            {filterTests(districtWithState(page), 'district').map((i) => {
-                                const url = `/${parametreize(i.state)}/${parametreize(
-                                    i.district
-                                )}/${page === 'all' ? '' : page}`;
-                                return (
-                                    <div key={i.district} className="md">
-                                        <Link href={url}>{humanize(i.district)}</Link>
-                                    </div>
-                                );
-                            })}
-                        </div>
+                    className="p-4 bg-white  dark:bg-gray-1200 dark:text-gray-400 mt-1 rounded-lg shadow-lg flex flex-col">
+                    <div className="flex">
+                        {filterTests(activeStates(districtWithState(page))).length !== 0 && (
+                            <div className="w-1/2 p-4">
+                                <h1 className="font-semibold text-lg dark:text-gray-200">
+                                    {localeState}
+                                </h1>
+                                {filterTests(activeStates(districtWithState(page))).map((i) => {
+                                    return (
+                                        <div key={i} className="md">
+                                            <Link href={parametreize(i)}>{i}</Link>
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        )}
+                        {filterTests(districtWithState(page), 'district').length !== 0 && (
+                            <div className="w-1/2 p-4">
+                                <h1 className="font-semibold text-lg dark:text-gray-200">
+                                    {localeDistrict}
+                                </h1>
+                                {filterTests(districtWithState(page), 'district').map((i) => {
+                                    const url = `/${parametreize(i.state)}/${parametreize(
+                                        i.district
+                                    )}/${page === 'all' ? '' : page}`;
+                                    return (
+                                        <div key={i.district} className="md">
+                                            <Link href={url}>{humanize(i.district)}</Link>
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        )}
+                    </div>
+
+                    {loading ? (
+                        <></>
+                    ) : (
+                        (searchStr || editing) && (
+                            <TwitterResultCard covidConnectResults={covidConnectResults} />
+                        )
                     )}
                 </div>
-            )}
-            {loading ? (
-                <></>
-            ) : (
-                (searchStr || editing) && (
-                    <TwitterResultCard covidConnectResults={covidConnectResults} />
-                )
             )}
         </>
     );
