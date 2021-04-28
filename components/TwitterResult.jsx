@@ -14,7 +14,8 @@ function TwitterResultCard({ covidConnectResults }) {
                                 <a
                                     href={`https://twitter.com/i/web/status/${result.id}`}
                                     target="_blank"
-                                    rel="noopener noreferrer">
+                                    rel="noopener noreferrer"
+                                    key={result.id}>
                                     <div className="flex justify-start cursor-pointer text-gray-700  hover:bg-gray-200 dark:hover:bg-gray-1100 rounded-md px-2 py-2 my-2">
                                         <div className="px-2">
                                             <div className="text-sm dark:text-primary-400 font-normal text-black-500 tracking-wide">
