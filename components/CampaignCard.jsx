@@ -8,13 +8,13 @@ const CampaignCard = ({ name, text, logoUrl, donate, open }) => {
     const [isReadMore, setIsReadMore] = useState(open);
 
     return (
-        <div className="w-3/4 mx-auto space-y-6">
-            {/* <div className="flex justify-between flex-wrap mb-4">
+        <div className="w-full bg-white rounded-lg shadow dark:bg-gray-1200 dark:text-gray-300 p-4 my-3">
+            <div className="flex justify-between flex-wrap mb-4">
                 <div className="font-bold text-3xl dark:text-white">{name}</div>
                 <div>
                     <img src={logoUrl} alt="logo" className="h-8" />
                 </div>
-            </div> */}
+            </div>
             <div className="w-full">
                 <Linkify componentDecorator={linkifyDecorator}>
                     {isReadMore ? text : text.substr(0, 300)}
@@ -22,7 +22,7 @@ const CampaignCard = ({ name, text, logoUrl, donate, open }) => {
             </div>
             <div
                 onClick={() => setIsReadMore((prev) => !prev)}
-                className="text-indigo-600 font-semibold cursor-pointer">
+                className="underline cursor-pointer">
                 {isReadMore ? 'Read less' : 'Read more'}
             </div>
             <a
