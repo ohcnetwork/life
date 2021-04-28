@@ -3,6 +3,7 @@ import Breadcumb from '@components/Breadcumb';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 import AboutQA from '@components/AboutQA';
+import Header from '@components/Header';
 
 const About = () => {
     const { locale } = useLocaleContext();
@@ -13,12 +14,9 @@ const About = () => {
     const aClass = `underline text-primary-600 hover:text-primary-800 visited:text-purple-600`;
     return (
         <>
-            <div className="pt-10">
-                <Breadcumb list={[{ href: null, name: 'About' }]} />
-            </div>
-
+            <Breadcumb list={[{ href: null, name: 'About' }]} />
+            <Header title="About" />
             <div className="py-10 dark:text-gray-500 text-gray-900 dark font-bold px-2 md:mx-10">
-                <h1 className={h1Class}>{t.head}</h1>
                 <div className="flex flex-col items-center justify-center space-y-4 w-full my-4">
                     <AboutQA question={t.q1} answer={[t.a1]} />
                     <AboutQA
