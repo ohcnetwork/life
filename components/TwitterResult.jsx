@@ -1,13 +1,13 @@
 import { parseDateString } from '@lib/utils';
 
-function TwitterResultCard({ covidConnectResults }) {
+function TwitterResultCard({ covidConnectResults, searchStr }) {
     return (
         <div className="w-full mx-auto" key="TwitterResultCard">
             <div className="flex justify-center pt-10">
                 <div className="w-full">
                     <div className="bg-white dark:bg-gray-1200 shadow-md rounded-lg px-1 py-2 mb-4">
                         <div className="block text-gray-700 dark:text-primary-400 text-lg font-semibold py-2 px-3">
-                            Live Twitter Results
+                            Live Twitter Results for "{searchStr}"
                         </div>
                         <div className="py-3 text-sm">
                             {covidConnectResults.map((result) => (

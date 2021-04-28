@@ -3,7 +3,6 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import { faSearch, faAngleDown, faMedkit } from '@fortawesome/free-solid-svg-icons';
 import useLocale from '@hooks/use-locale';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import PulseSvg from '@components/PulseSvg';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { useLocaleContext } from '@hooks/use-locale-context';
 import {
@@ -27,7 +26,6 @@ export default function Home({ state, district, type }) {
 
     const statesWithDistricts = statesAndDistrict();
     const [tabVal, setTabVal] = useState('result');
-    const activeTabClass = `border-b-2 border-gray-500`;
     const changeTabs = (v) => setTabVal(v);
 
     const states = Object.keys(statesWithDistricts);
@@ -39,7 +37,6 @@ export default function Home({ state, district, type }) {
     district = districts.find((e) => e.toLowerCase() === district?.toLowerCase());
 
     const [districtChoosen, setDistrictChoosen] = useState(district || districts[0]);
-    console.log(districtChoosen);
 
     const [resourceChoosen, setResourceChoosen] = useState(type || 'Oxygen');
 
@@ -88,7 +85,7 @@ export default function Home({ state, district, type }) {
                                 id="state"
                                 value={stateChoosen}
                                 onChange={handleChooseState}
-                                className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3">
+                                className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer">
                                 {states.map((s, id) => (
                                     <option
                                         className="dark:text-gray-900 overflow-ellipsis"
@@ -117,7 +114,7 @@ export default function Home({ state, district, type }) {
                                 id="district"
                                 value={districtChoosen}
                                 onChange={({ target: { value } }) => setDistrictChoosen(value)}
-                                className="py-2  w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3">
+                                className="py-2  w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer">
                                 {districts.map((s, id) => (
                                     <option className="dark:text-gray-900" key={id} value={s}>
                                         {s}
@@ -133,17 +130,17 @@ export default function Home({ state, district, type }) {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-gray-100 dark:bg-gray-1000 h-1 transform rotate-90 w-12 my-2 hidden md:block" />
-                    <div className="flex flex-col flex-1 my-2 md:my-0 dark:text-gray-200">
+                    <div className="bg-gray-100 dark:bg-gray-1000 h-1 transform rotate-90 w-12 my-2 hidden md:block " />
+                    <div className="flex flex-col flex-1 my-2 md:my-0 dark:text-gray-200 ">
                         <label htmlFor="resource" className="text-sm">
                             Select Resource{' '}
                         </label>
-                        <div className="flex items-center">
+                        <div className="flex items-center ">
                             <select
                                 id="resource"
                                 value={resourceChoosen}
                                 onChange={({ target: { value } }) => setResourceChoosen(value)}
-                                className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3">
+                                className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer">
                                 {Object.keys(resources).map((s, id) => (
                                     <option className="dark:text-gray-900" key={id} value={s}>
                                         {s}
@@ -175,22 +172,26 @@ export default function Home({ state, district, type }) {
                 </section>
                 {type ? (
                     <>
-                        <div className="dark:text-gray-200 mx-auto max-w-md text-lg flex font-bold justify-around my-5 cursor-pointer">
+                        <div className="dark:text-gray-200 mx-auto max-w-xs text-base flex font-bold justify-around my-5 cursor-pointer">
                             <div
-                                className={`${
-                                    tabVal === 'result' ? `border-b-2 border-gray-500` : ``
+                                className={`w-3/6 flex justify-center items-center pb-2  ${
+                                    tabVal === 'result'
+                                        ? `border-b-2 border-gray-900 dark:border-gray-300`
+                                        : ``
                                 }`}
                                 onClick={() => changeTabs('result')}>
                                 <FontAwesomeIcon
-                                    className="text-gray-500 mr-2"
+                                    className="text-gray-900 dark:text-gray-300 mr-2"
                                     title="Supplies"
                                     icon={faMedkit}
                                 />
                                 Results
                             </div>
                             <div
-                                className={`${
-                                    tabVal === 'twitter' ? `border-b-2 border-gray-500` : ``
+                                className={`w-3/6 flex justify-center items-center pb-2  ${
+                                    tabVal === 'twitter'
+                                        ? `border-b-2 border-gray-900 dark:border-gray-300`
+                                        : ``
                                 }`}
                                 onClick={() => changeTabs('twitter')}>
                                 <FontAwesomeIcon

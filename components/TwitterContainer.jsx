@@ -44,7 +44,12 @@ const Selector = ({ searchStr }) => {
                 {loading ? (
                     <></>
                 ) : (
-                    searchStr && <TwitterResultCard covidConnectResults={covidConnectResults} />
+                    searchStr && (
+                        <TwitterResultCard
+                            searchStr={searchStr}
+                            covidConnectResults={covidConnectResults}
+                        />
+                    )
                 )}
             </div>
         </>
