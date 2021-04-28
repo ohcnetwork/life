@@ -24,8 +24,8 @@ const MainLayout = ({ children }) => {
     return (
         <LocaleContext.Provider value={localeValue}>
             <div className="flex flex-col items-stretch min-h-screen bg-gray-100 dark:bg-gray-1100">
-                <NavBar />                
-                <div className="max-w-5xl mx-auto px-2 pb-6 flex-grow flex-shrink-0">
+                <NavBar />
+                <div className="m-0 pb-6 flex-grow flex-shrink-0">
                     {children}
                 </div>
                 <Footer />
