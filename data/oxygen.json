@@ -74,9 +74,7 @@
                 "Refil"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -316,9 +314,7 @@
             "state": "Maharashtra",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Mahesh Chandak"
         },
         {
             "availability": null,
@@ -669,7 +665,7 @@
             "homeDeliveryAvailable": "No",
             "id": "rec1JaFZsDPLYlv4y",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T14:57:45.000Z",
             "name": "AMAN ",
             "phone1": 9162402852,
             "phone2": null,
@@ -681,9 +677,7 @@
                 "Cylinder"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -1903,7 +1897,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "9:13 PM, 28th Apr - Incoming call facility is temporarily restricted. ",
             "companyName": "Ajmer Gases ",
             "createdTime": "2021-04-24T05:35:20.000Z",
             "description": null,
@@ -1912,7 +1906,7 @@
             "homeDeliveryAvailable": null,
             "id": "rec4B9jLskCtZhCZ2",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T15:43:35.000Z",
             "name": "Subhash Bhatted",
             "phone1": 9214173658,
             "phone2": null,
@@ -1920,10 +1914,8 @@
             "sourceName": null,
             "state": "Rajasthan",
             "type": null,
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -2426,9 +2418,7 @@
                 "Cylinder"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Mahesh Chandak"
         },
         {
             "availability": "Available",
@@ -2689,9 +2679,7 @@
             "state": "Maharashtra",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -2744,9 +2732,7 @@
                 "Refil"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -3539,9 +3525,7 @@
                 "Concentrator"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Mahesh Chandak"
         },
         {
             "availability": null,
@@ -3700,7 +3684,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "9:15 PM, 28th Apr - Number switched off or not reachable. Will try again. ",
             "companyName": "Earnest Gases Pvt. ltd. (Udaipur)",
             "createdTime": "2021-04-24T05:37:24.000Z",
             "description": null,
@@ -3718,9 +3702,7 @@
             "state": "Rajasthan",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -4072,7 +4054,7 @@
         {
             "availability": "Available",
             "city": null,
-            "comment": null,
+            "comment": "Unreachable / Closed down currently\n",
             "companyName": "Muncipal Corporator",
             "createdTime": "2021-04-24T05:01:28.000Z",
             "description": null,
@@ -4081,7 +4063,7 @@
             "homeDeliveryAvailable": null,
             "id": "rec903e76uyCaufw6",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T14:44:38.000Z",
             "name": "ArvindBhai Pambhar\nMukeshBhai tada ",
             "phone1": 9033333515,
             "phone2": 9426780820,
@@ -4092,10 +4074,8 @@
                 "Cylinder",
                 "Refil"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -4175,9 +4155,7 @@
                 "Cylinder"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Mahesh Chandak"
         },
         {
             "availability": null,
@@ -4331,9 +4309,7 @@
                 "Oxygen Concentrator"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -5662,7 +5638,7 @@
         {
             "availability": "Available",
             "city": null,
-            "comment": null,
+            "comment": "9:04 PM, Apr 28th - Number busy. Will try again in a bit. \n9:19 PM - Unresponsive.",
             "companyName": "Thamwardas Chotelal",
             "createdTime": "2021-04-24T05:29:58.000Z",
             "description": null,
@@ -5680,9 +5656,7 @@
             "state": "Rajasthan",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -6059,7 +6033,7 @@
         {
             "availability": "Available",
             "city": null,
-            "comment": null,
+            "comment": "Not receiving the call currently\n",
             "companyName": "Oxygen99",
             "createdTime": "2021-04-23T21:21:28.000Z",
             "description": null,
@@ -6068,7 +6042,7 @@
             "homeDeliveryAvailable": "Yes",
             "id": "recCxCFG14DC0gwTL",
             "instructions": "If you have a cylinder, then filling is free",
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T14:44:32.000Z",
             "name": "Mayank ",
             "phone1": 9810180710,
             "phone2": null,
@@ -6080,10 +6054,8 @@
                 "Refil",
                 "Cylinder"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -6434,9 +6406,7 @@
                 "Cylinder"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -7864,9 +7834,7 @@
                 "Cylinder"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -8574,9 +8542,7 @@
                 "Oxygen"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -8824,18 +8790,18 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Unavailable Stock",
-            "companyName": "Nameless",
+            "comment": "Available",
+            "companyName": "Will Foundation Borivalli",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
-            "district": "Thane",
+            "district": "Mumbai Suburban",
             "emailId": "Will be available on Monday, need to followup",
             "homeDeliveryAvailable": null,
             "id": "recJ4SPL7xgMPrZDK",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T09:58:59.000Z",
             "name": "JAYESH BHAI, DINESH BHAI",
-            "phone1": 9821274770932230000,
+            "phone1": 9821274770,
             "phone2": null,
             "sourceLink": "https://twitter.com/intent/tweet?url=https%3A%2F%2Findiacovidresources.in%2F&text=",
             "sourceName": null,
@@ -8843,10 +8809,8 @@
             "type": [
                 "Oxygen - Refill"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Available and verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -8951,7 +8915,7 @@
         {
             "availability": "Available",
             "city": null,
-            "comment": null,
+            "comment": "\nSpoke to Pramod. Ventilator can be arranged on rent - conditionally. Available today. For oxygen machine, order and pay today and you can get the oxygen machine on rent after 10-15 days.",
             "companyName": "K M medical Solutions, Gende waali sadak",
             "createdTime": "2021-04-24T05:31:29.000Z",
             "description": null,
@@ -8960,22 +8924,16 @@
             "homeDeliveryAvailable": "No",
             "id": "recJEMCL88xiLKdxD",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T15:55:32.000Z",
             "name": "K M medical Solutions",
             "phone1": 917947389052,
             "phone2": null,
             "sourceLink": "https://www.justdial.com/Gwalior/K-M-Medical-Solutions-Near-Dainik-Madhya-Rajya-Press-Lashkar/9999PX751-X751-200406174822-F5Q5_BZDET?catid=&checkin=&checkout=&vpfs=&stxt=Oxygen%2520Cylinder%2520Dealers&nid=10346749&stype=category_list&search=Oxygen-Cylinder-Dealers&area=Near%20Dainik%20Madhya%20Rajya%20Press%20Lashkar&type=Surgical%20Equipment%20Dealers&totalJdReviews=undefined&bdmsgtype=1&bdcaptiontype=4&bdpage=rsltpge&bdText=Best%20Deal&srcterm=K%2520M%2520Medical%2520Solutions",
             "sourceName": "Just Dial",
             "state": "Madhya Pradesh",
-            "type": [
-                "Cylinder",
-                "Concentrator",
-                "Cans"
-            ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "type": null,
+            "verificationStatus": "Available and verified",
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -9051,7 +9009,7 @@
         {
             "availability": "Available",
             "city": null,
-            "comment": null,
+            "comment": "Cylinder refill available from tomorrow morning 7am\n",
             "companyName": null,
             "createdTime": "2021-04-23T19:17:05.000Z",
             "description": null,
@@ -9060,7 +9018,7 @@
             "homeDeliveryAvailable": null,
             "id": "recJIamSAWnx6I1N3",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T14:44:19.000Z",
             "name": "Vishwajeet",
             "phone1": 7879728854,
             "phone2": null,
@@ -9070,10 +9028,8 @@
             "type": [
                 "Refil"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unavailable but verified",
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -9101,7 +9057,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "9:09 PM, 28th Apr - Didn't pick up. Will try again. ",
             "companyName": "Raashi Air Products",
             "createdTime": "2021-04-24T05:33:41.000Z",
             "description": null,
@@ -9119,9 +9075,7 @@
             "state": "Rajasthan",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -9710,9 +9664,7 @@
                 "Refil"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -10380,7 +10332,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "Busy\n",
             "companyName": null,
             "createdTime": "2021-04-20T09:28:58.000Z",
             "description": null,
@@ -10389,7 +10341,7 @@
             "homeDeliveryAvailable": null,
             "id": "recLjkVKz7SRwNkOm",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T14:43:46.000Z",
             "name": "Mohank Shah",
             "phone1": 9619396153,
             "phone2": null,
@@ -10397,10 +10349,8 @@
             "sourceName": null,
             "state": "Maharashtra",
             "type": null,
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -11130,9 +11080,7 @@
                 "Cylinder"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": "Available",
@@ -12119,9 +12067,7 @@
                 "Cylinder"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -12880,9 +12826,7 @@
                 "Refil"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -13707,9 +13651,7 @@
                 "Refil"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -13840,9 +13782,7 @@
                 "Concentrator"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Mahesh Chandak"
         },
         {
             "availability": null,
@@ -14356,7 +14296,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "Out of Stock. Will be available for refill.\n",
             "companyName": "BS INDUSTRIAL GASES",
             "createdTime": "2021-04-23T17:10:40.000Z",
             "description": null,
@@ -14365,7 +14305,7 @@
             "homeDeliveryAvailable": "Yes",
             "id": "recUvvEGzGekAiVIS",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T14:44:15.000Z",
             "name": "NAKUL BHARDWAJ",
             "phone1": 9891442284,
             "phone2": null,
@@ -14375,10 +14315,8 @@
             "type": [
                 "Cylinder"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unavailable but verified",
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -14607,9 +14545,7 @@
             "state": "Maharashtra",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -14867,9 +14803,7 @@
                 "Refil"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -18068,7 +18002,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "9:16 PM, 28th Apr - Number not available right now.  ",
             "companyName": "Shri Ram bas",
             "createdTime": "2021-04-24T05:39:06.000Z",
             "description": null,
@@ -18086,9 +18020,7 @@
             "state": "Rajasthan",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -18640,7 +18572,7 @@
         {
             "availability": "Available",
             "city": null,
-            "comment": null,
+            "comment": "Call being Forwarded\n",
             "companyName": "Simarjeet Oxygen Cylinder",
             "createdTime": "2021-04-23T19:27:11.000Z",
             "description": null,
@@ -18649,7 +18581,7 @@
             "homeDeliveryAvailable": null,
             "id": "receJRXlZX8dl3Eoo",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T14:44:28.000Z",
             "name": "Simarjeet Oxygen Cylinder Faridabad",
             "phone1": 9818059334,
             "phone2": null,
@@ -18662,10 +18594,8 @@
                 "Concentrator",
                 "Cans"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -18986,7 +18916,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "Invalid data\n\n\n\n",
             "companyName": "COMPANY",
             "createdTime": "2021-04-20T19:30:50.000Z",
             "description": "DESC",
@@ -18995,7 +18925,7 @@
             "homeDeliveryAvailable": null,
             "id": "recfDugibkIXCjZZs",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T14:44:01.000Z",
             "name": "TEST DATA",
             "phone1": 8888888888,
             "phone2": 8989898989,
@@ -19003,10 +18933,8 @@
             "sourceName": "SOURCE",
             "state": "Jharkhand",
             "type": null,
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -20457,9 +20385,7 @@
                 "Concentrator"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Mahesh Chandak"
         },
         {
             "availability": null,
@@ -20671,6 +20597,31 @@
             "state": "West Bengal",
             "type": null,
             "verificationStatus": "Pending",
+            "verifiedBy": "Samyak Chaudhary"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": null,
+            "createdTime": "2021-04-28T10:42:19.000Z",
+            "description": null,
+            "district": "Ramgarh",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recjruYBcuhCoX5xJ",
+            "instructions": "SMPL, RAMGARH ",
+            "lastVerifiedOn": "2021-04-28T10:42:19.000Z",
+            "name": "Sanjay",
+            "phone1": 9798924853,
+            "phone2": 9334464725,
+            "sourceLink": null,
+            "sourceName": "Help ( team HELPRanchi) ",
+            "state": "Jharkhand",
+            "type": [
+                "Refil"
+            ],
+            "verificationStatus": "Available and verified",
             "verifiedBy": [
                 {}
             ]
@@ -20994,9 +20945,7 @@
                 "Cans"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Mahesh Chandak"
         },
         {
             "availability": null,
@@ -21263,7 +21212,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "9:07 PM, 28th Apr - Currently switched off. ",
             "companyName": "Progressive Air Products ",
             "createdTime": "2021-04-24T05:32:54.000Z",
             "description": null,
@@ -21281,9 +21230,7 @@
             "state": "Rajasthan",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -22787,7 +22734,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "9:14 PM, 28th Apr - Switched off. Will try again. ",
             "companyName": "Ankur Gases (Jaipur)",
             "createdTime": "2021-04-24T05:36:37.000Z",
             "description": null,
@@ -22805,9 +22752,7 @@
             "state": "Rajasthan",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -22909,9 +22854,7 @@
                 "Cylinder"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -23018,6 +22961,33 @@
             ],
             "verificationStatus": "Available and verified",
             "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": "Updated on 28/4/2021",
+            "companyName": null,
+            "createdTime": "2021-04-28T10:32:28.000Z",
+            "description": null,
+            "district": "Ranchi",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recpaQRupmeue89LM",
+            "instructions": null,
+            "lastVerifiedOn": "2021-04-28T10:32:28.000Z",
+            "name": "Pinak ",
+            "phone1": 8588946723,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "HELP, team help Ranchi ",
+            "state": "Jharkhand",
+            "type": [
+                "Cylinder"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -23362,9 +23332,7 @@
                 "Concentrator"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -24029,9 +23997,7 @@
                 "Cylinder"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Mahesh Chandak"
         },
         {
             "availability": null,
@@ -24472,9 +24438,7 @@
                 "Refil"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Mahesh Chandak"
         },
         {
             "availability": null,
@@ -25076,7 +25040,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "Wrong Number",
             "companyName": "Medishopi ",
             "createdTime": "2021-04-23T14:07:17.000Z",
             "description": null,
@@ -25085,7 +25049,7 @@
             "homeDeliveryAvailable": "Yes",
             "id": "recuAFsSKXfOvaVjI",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T14:44:05.000Z",
             "name": "Ansar",
             "phone1": 7384073807,
             "phone2": null,
@@ -25098,10 +25062,8 @@
                 "Refil",
                 "Cylinder"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -25152,6 +25114,33 @@
             "type": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "sucharu asri"
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": null,
+            "companyName": null,
+            "createdTime": "2021-04-28T10:38:37.000Z",
+            "description": null,
+            "district": "Ranchi",
+            "emailId": null,
+            "homeDeliveryAvailable": null,
+            "id": "recuKUTCdCSuzVHUv",
+            "instructions": "Near BIT, vikash Vidyalaya ",
+            "lastVerifiedOn": "2021-04-28T10:38:37.000Z",
+            "name": "Ashish",
+            "phone1": 9931313196,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": null,
+            "state": "Jharkhand",
+            "type": [
+                "Refil"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -25305,9 +25294,7 @@
             "state": "Maharashtra",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Mahesh Chandak"
         },
         {
             "availability": null,
@@ -25418,7 +25405,7 @@
         {
             "availability": "Available",
             "city": null,
-            "comment": null,
+            "comment": "12pm to 8pm. Surgical equipment only. Doesn't have anything oxygen related. ",
             "companyName": "Shakuntala Medicare and Surgical",
             "createdTime": "2021-04-24T05:25:39.000Z",
             "description": null,
@@ -25427,7 +25414,7 @@
             "homeDeliveryAvailable": "No",
             "id": "recv4AkpC4wXvQIJx",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T15:26:10.000Z",
             "name": "Shakuntala Medicare and Surgical",
             "phone1": 9555235409,
             "phone2": null,
@@ -25437,10 +25424,8 @@
             "type": [
                 "Cylinder"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unavailable but verified",
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -25684,7 +25669,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "Contact Number not available\n",
             "companyName": "Lucknow",
             "createdTime": "2021-04-20T09:17:25.000Z",
             "description": "Will be hopefully available by tomorrow",
@@ -25693,7 +25678,7 @@
             "homeDeliveryAvailable": null,
             "id": "recvVHy4czLLX5H8m",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T14:43:32.000Z",
             "name": "Sujeet Oxygen",
             "phone1": null,
             "phone2": null,
@@ -25701,10 +25686,8 @@
             "sourceName": null,
             "state": "Uttar Pradesh",
             "type": null,
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Invalid",
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": "Available",
@@ -25755,9 +25738,7 @@
                 "Refil"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,
@@ -25789,7 +25770,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "9:12 PM, 28th Apr - Call could not be completed due to congestion in the network. Will try again. ",
             "companyName": "Adarsh Gases & Techno Industries",
             "createdTime": "2021-04-24T05:34:45.000Z",
             "description": null,
@@ -25800,16 +25781,14 @@
             "instructions": null,
             "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
             "name": "Shantilal Jain",
-            "phone1": 294491150,
+            "phone1": 2942491150,
             "phone2": null,
             "sourceLink": null,
             "sourceName": null,
             "state": "Rajasthan",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -26081,18 +26060,18 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Out of Stock\n",
             "companyName": "Kalyan gas",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
             "district": "Coimbatore",
-            "emailId": "Ravi Nachiapan",
+            "emailId": null,
             "homeDeliveryAvailable": null,
             "id": "recwEPrcJ74tgoK3e",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T09:56:55.000Z",
             "name": "Jayesh Bhai, Ankur Bhai",
-            "phone1": 98204448159004380000,
+            "phone1": 9820444815,
             "phone2": null,
             "sourceLink": "https://twitter.com/intent/tweet?url=https%3A%2F%2Findiacovidresources.in%2F&text=",
             "sourceName": null,
@@ -26100,10 +26079,8 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unavailable but verified",
+            "verifiedBy": "Varun Kumar"
         },
         {
             "availability": null,
@@ -27325,9 +27302,7 @@
                 "Concentrator"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -27743,7 +27718,7 @@
             "homeDeliveryAvailable": null,
             "id": "reczdBUCNt22hmKzG",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-28T14:43:41.000Z",
             "name": "RK Oxygen Refilling",
             "phone1": null,
             "phone2": null,
@@ -27751,10 +27726,8 @@
             "sourceName": null,
             "state": "Uttar Pradesh",
             "type": null,
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "surya teja Kollipara"
         },
         {
             "availability": null,

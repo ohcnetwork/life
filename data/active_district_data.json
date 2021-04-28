@@ -5205,7 +5205,7 @@
             "hospitals": true,
             "id": "reci9xKnkR5ag8W9s",
             "medicine": true,
-            "oxygen": false,
+            "oxygen": true,
             "state": "Maharashtra"
         },
         {
@@ -6894,7 +6894,7 @@
             "district": "Ahmedabad",
             "doctor": false,
             "helpline": false,
-            "hospitals": false,
+            "hospitals": true,
             "id": "recvKD483saWMuMqq",
             "medicine": false,
             "oxygen": true,

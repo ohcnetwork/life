@@ -876,6 +876,29 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-28T12:08:17.000Z",
+            "district": "Jabalpur",
+            "email1": null,
+            "email2": null,
+            "id": "rec7Jy0KJIDTgVzny",
+            "lastVerifiedOn": null,
+            "name": "Sukh Sagar Medical College & Hospital, Jabalpur",
+            "phone1": 7024166099,
+            "phone2": 8517005023,
+            "pointOfContact": "Reception (Balram)",
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": "Not Available",
             "comment": "Beds not available. Oxygen not available",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -1606,6 +1629,29 @@
         },
         {
             "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-25T17:16:30.000Z",
+            "district": "Almora",
+            "email1": "https://twitter.com/intent/tweet?url=https%3A%2F%2Findiacovidresources.in%2F&text=",
+            "email2": null,
+            "id": "recDp8VxwUD4HBF1m",
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
+            "name": "Goverdhan Tiwari Govt. Hospital",
+            "phone1": 9412315001,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Uttarakhand",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Pending",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
             "comment": "FULL",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Shamali (Prabuddh Nagar)",
@@ -1645,6 +1691,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Available and verified",
             "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-28T12:15:59.000Z",
+            "district": "Jabalpur",
+            "email1": null,
+            "email2": null,
+            "id": "recEKtBOUhex3jiWZ",
+            "lastVerifiedOn": null,
+            "name": "Central India Kidney Hospital, Jabalpur\n",
+            "phone1": 9407349816,
+            "phone2": null,
+            "pointOfContact": "KAMLESHWAR MEHTO",
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": "Not Available",
@@ -3904,6 +3973,31 @@
             ]
         },
         {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-28T14:12:24.000Z",
+            "district": "Ahmedabad",
+            "email1": null,
+            "email2": null,
+            "id": "recY4BLPhBtBWslaH",
+            "lastVerifiedOn": "2021-04-28T14:16:58.000Z",
+            "name": "D.K.PATEL Hall",
+            "phone1": 7926403333,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Gujarat",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "ICU bed",
+                "Bed with oxygen",
+                "Bed without oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Diya Dashiwal"
+        },
+        {
             "availability": null,
             "comment": "Didn't pick up the call\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -4466,6 +4560,29 @@
         },
         {
             "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-28T12:04:47.000Z",
+            "district": "Jabalpur",
+            "email1": null,
+            "email2": null,
+            "id": "recaZ9TH6r5SwXGhb",
+            "lastVerifiedOn": null,
+            "name": "District Hospital Jabalpur",
+            "phone1": 9425863999,
+            "phone2": null,
+            "pointOfContact": "DR. SANJAY JAIN",
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
             "comment": "beds are available. NO ICU.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kollam",
@@ -4526,6 +4643,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-28T14:22:52.000Z",
+            "district": "Ahmedabad",
+            "email1": null,
+            "email2": null,
+            "id": "recamPhHyluQnxYtL",
+            "lastVerifiedOn": "2021-04-28T14:25:00.000Z",
+            "name": "Lifeline Group of Hospitals",
+            "phone1": 9898122262,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Gujarat",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "Bed with oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Diya Dashiwal"
         },
         {
             "availability": "Available",
@@ -5016,6 +5156,29 @@
         },
         {
             "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-28T12:06:23.000Z",
+            "district": "Jabalpur",
+            "email1": null,
+            "email2": null,
+            "id": "recdbxPG1vO5DQuNt",
+            "lastVerifiedOn": null,
+            "name": "Medical Collage Jabalpur",
+            "phone1": 9584262358,
+            "phone2": null,
+            "pointOfContact": "DR. SANJAY BHARTI ",
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
             "comment": "no contact details\n",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Hoshiarpur",
@@ -5456,6 +5619,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-28T12:14:02.000Z",
+            "district": "Jabalpur",
+            "email1": null,
+            "email2": null,
+            "id": "recgtPVTbIQL5bsGj",
+            "lastVerifiedOn": null,
+            "name": "Sindhi DharamShala Behind Omti",
+            "phone1": 9406924235,
+            "phone2": 7987192053,
+            "pointOfContact": "Surbhit agrawal",
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -6760,6 +6946,29 @@
         },
         {
             "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-28T12:10:25.000Z",
+            "district": "Jabalpur",
+            "email1": null,
+            "email2": null,
+            "id": "recobM5iaj24ANjkv",
+            "lastVerifiedOn": null,
+            "name": "Man Mohan Nagar Hospital",
+            "phone1": 9425387372,
+            "phone2": null,
+            "pointOfContact": "DR. SP SINGH ",
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
             "comment": "Didn't pick up the call.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
@@ -7066,6 +7275,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Jasseerat Kaur"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-28T12:12:23.000Z",
+            "district": "Jabalpur",
+            "email1": null,
+            "email2": null,
+            "id": "recqXK3dFTiWsruh8",
+            "lastVerifiedOn": null,
+            "name": "Government Autonomous Ayurvedic College And Hospital, Jabalpur",
+            "phone1": 8959934990,
+            "phone2": null,
+            "pointOfContact": "DR JYOTI THAKUR",
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
