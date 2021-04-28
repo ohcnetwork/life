@@ -17,6 +17,7 @@ import { parametreize } from '@lib/utils';
 import SearchResult from '@components/SearchResult';
 import Link from 'next/link';
 import StartSearching from '@components/StartSearching';
+import TwitterContainer from '@components/TwitterContainer';
 
 export default function Home({ state, district, type }) {
     const { locale } = useLocaleContext();
@@ -33,6 +34,7 @@ export default function Home({ state, district, type }) {
     district = districts.find((e) => e.toLowerCase() === district?.toLowerCase());
 
     const [districtChoosen, setDistrictChoosen] = useState(district || districts[0]);
+    console.log(districtChoosen);
 
     const [resourceChoosen, setResourceChoosen] = useState(type || 'Oxygen');
 
@@ -168,7 +170,10 @@ export default function Home({ state, district, type }) {
                 </section>
 
                 {type ? (
-                    <SearchResult type={type} resources={resources[type]} />
+                    <>
+                        <TwitterContainer searchStr={districtChoosen} />
+                        <SearchResult type={type} resources={resources[type]} />
+                    </>
                 ) : (
                     <StartSearching />
                 )}
