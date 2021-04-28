@@ -137,7 +137,8 @@ export default function Home() {
                         {
                             hospitalCareCenterData.data.filter((value) =>
                                 value.verificationStatus
-                                    ? value.verificationStatus.toLocaleLowerCase() == 'verified'
+                                    ? value.verificationStatus.toLocaleLowerCase() ===
+                                      'available and verified'
                                     : ''
                             ).length
                         }
@@ -146,7 +147,9 @@ export default function Home() {
                         {
                             ambulanceData.data.filter((value) =>
                                 value.verificationStatus
-                                    ? value.verificationStatus.toLocaleLowerCase() == 'verified'
+                                    ? value.verificationStatus
+                                          .toLocaleLowerCase()
+                                          .includes('verified')
                                     : ''
                             ).length
                         }
