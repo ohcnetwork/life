@@ -104,7 +104,7 @@ const renderLanguageElement = (data) => (
 
 const Learn = () => {
     return (
-        <div className="py-10 dark:text-gray-500 text-gray-900 dark font-bold px-2 md:mx-10">
+        <div className="py-10 dark:text-gray-500 text-gray-900 font-bold px-2 md:mx-10">
             <h2 class="text-3xl md:text-4xl xl:text-5xl tracking-tight font-bold leading-tight dark:text-white">
                 Learn
             </h2>
