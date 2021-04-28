@@ -35,7 +35,7 @@ const NavBar = () => {
         {
             icon: faHandsHelping,
             title: `${t.partnerWithUs}`,
-            link: '/about#partner'
+            link: '/partners'
         },
         {
             icon: faDatabase,
