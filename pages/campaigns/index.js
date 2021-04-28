@@ -35,7 +35,7 @@ const Campaigns = () => {
                         <Breadcumb list={[{ href: null, name: 'Campaigns' }]} />
                         <div className="pt-3 mx-auto w-min flex flex-col items-center">
                             <FontAwesomeIcon
-                                className="dark:text-white fa-3x min-w-5"
+                                className="dark:text-white fa-3x w-3/4 min-w-5"
                                 title="Support"
                                 icon={faHandHoldingHeart}
                             />
