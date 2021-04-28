@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faAngleDown, faMedkit } from '@fortawesome/free-solid-svg-icons';
 import useLocale from '@hooks/use-locale';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import PulseSvg from '@components/PulseSvg';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { useLocaleContext } from '@hooks/use-locale-context';
 import {
     getAmbulances,
@@ -173,12 +175,17 @@ export default function Home({ state, district, type }) {
                 </section>
                 {type ? (
                     <>
-                        <div className="dark:text-gray-200 mx-auto w-1/6 flex font-bold justify-around my-5 cursor-pointer">
+                        <div className="dark:text-gray-200 mx-auto max-w-md text-lg flex font-bold justify-around my-5 cursor-pointer">
                             <div
                                 className={`${
                                     tabVal === 'result' ? `border-b-2 border-gray-500` : ``
                                 }`}
                                 onClick={() => changeTabs('result')}>
+                                <FontAwesomeIcon
+                                    className="text-gray-500 mr-2"
+                                    title="Supplies"
+                                    icon={faMedkit}
+                                />
                                 Results
                             </div>
                             <div
@@ -186,6 +193,11 @@ export default function Home({ state, district, type }) {
                                     tabVal === 'twitter' ? `border-b-2 border-gray-500` : ``
                                 }`}
                                 onClick={() => changeTabs('twitter')}>
+                                <FontAwesomeIcon
+                                    className="text-blue-500 mr-2"
+                                    title="Share on Twitter"
+                                    icon={faTwitter}
+                                />
                                 Twitter Results
                             </div>
                         </div>
