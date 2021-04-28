@@ -6,8 +6,7 @@ import { parametreize, humanize, activeStates } from '@lib/utils';
 import TwitterResultCard from '@components/TwitterResult';
 
 function useFetch(searchStr, resourceType = 'supply', maxResults = 25) {
-    const url = `/api/CovidConnect?city=${searchStr}&resource_type=${resourceType}&max_results=${maxResults}`;
-
+    const url = `https://covidconnect-git-fork-deep-codes-open-cors-viksit.vercel.app/api/data?city=${searchStr}&resource_type=${resourceType}&max_results=${maxResults}`;
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -16,13 +15,11 @@ function useFetch(searchStr, resourceType = 'supply', maxResults = 25) {
             if (!searchStr.length) {
                 return;
             }
-            const response = await fetch('https://api-test-omega.vercel.app/api/data');
-            // const response = await fetch('http://localhost:3005/api/data');
-            const json = await response.json();
-            console.log(json);
-            console.log('****************************');
-            console.log('******* KAM KARA HAI ******');
-            console.log('****************************');
+            const response = await fetch(url);
+            const temp = await response.json();
+            const json = {
+                res: temp
+            };
             if (
                 !json ||
                 !json.res ||
