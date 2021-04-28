@@ -5,6 +5,7 @@ import useLocale from '@hooks/use-locale';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { useLocaleContext } from '@hooks/use-locale-context';
+import { useRouter } from 'next/router';
 import {
     getAmbulances,
     getOxygen,
@@ -24,6 +25,7 @@ import districtMapCity from '@data/map_dis_to_city';
 export default function Home({ state, district, type }) {
     const { locale } = useLocaleContext();
     const t = useLocale(locale, 'home');
+    const router = useRouter();
 
     const statesWithDistricts = statesAndDistrict();
     const [tabVal, setTabVal] = useState('result');
@@ -78,6 +80,13 @@ export default function Home({ state, district, type }) {
         setStateChoosen(value);
         const newDistrict = statesWithDistricts[value][0];
         setDistrictChoosen(newDistrict);
+    };
+
+    const handleResourceChange = (v) => {
+        router.push(
+            `/${parametreize(stateChoosen)}/${parametreize(districtChoosen)}/${parametreize(v)}`
+        );
+        setResourceChoosen(v);
     };
 
     return (
@@ -142,7 +151,7 @@ export default function Home({ state, district, type }) {
                             <select
                                 id="resource"
                                 value={resourceChoosen}
-                                onChange={({ target: { value } }) => setResourceChoosen(value)}
+                                onChange={({ target: { value } }) => handleResourceChange(value)}
                                 className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer z-10">
                                 {Object.keys(resources).map((s, id) => (
                                     <option className="dark:text-gray-900" key={id} value={s}>
