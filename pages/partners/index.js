@@ -1,7 +1,7 @@
 import Breadcumb from '@components/Breadcumb';
 import PartnerCard from '@components/PartnerCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload, faFileDownload } from '@fortawesome/free-solid-svg-icons';
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 
 const partners = [
@@ -83,7 +83,7 @@ const Partners = () => {
                             <FontAwesomeIcon
                                 className="text-white-400 w-4 mr-2"
                                 title="Covid 19 Statistics"
-                                icon={faDownload}
+                                icon={faFileDownload}
                             />
                             Unified backend partnership
                         </button>
