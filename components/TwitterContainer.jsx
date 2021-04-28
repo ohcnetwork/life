@@ -42,25 +42,13 @@ export { useFetch };
 const Selector = ({ searchStr }) => {
     const [covidConnectResults, loading] = useFetch(searchStr);
 
-    useEffect(() => {
-        let curriedFn = () => {
-            setEditing(false);
-        };
-        window.addEventListener('click', curriedFn, true);
-        return () => {
-            window.removeEventListener('click', curriedFn, true);
-        };
-    }, []);
-
     return (
         <>
             <div className="mb-2 shadow-lg max-w-3xl mx-auto">
                 {loading ? (
                     <></>
                 ) : (
-                    (searchStr || editing) && (
-                        <TwitterResultCard covidConnectResults={covidConnectResults} />
-                    )
+                    searchStr && <TwitterResultCard covidConnectResults={covidConnectResults} />
                 )}
             </div>
         </>

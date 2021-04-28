@@ -24,6 +24,9 @@ export default function Home({ state, district, type }) {
     const t = useLocale(locale, 'home');
 
     const statesWithDistricts = statesAndDistrict();
+    const [tabVal, setTabVal] = useState('result');
+    const activeTabClass = `border-b-2 border-gray-500`;
+    const changeTabs = (v) => setTabVal(v);
 
     const states = Object.keys(statesWithDistricts);
     state = states.find((e) => e.toLowerCase() === state?.toLowerCase());
@@ -168,7 +171,18 @@ export default function Home({ state, district, type }) {
                         </Link>
                     </div>
                 </section>
-
+                <div className="dark:text-gray-200 mx-auto w-1/6 flex font-bold justify-around my-5 cursor-pointer">
+                    <div
+                        className={`${tabVal === 'result' ? `border-b-2 border-gray-500` : ``}`}
+                        onClick={() => changeTabs('result')}>
+                        Results
+                    </div>
+                    <div
+                        className={`${tabVal === 'twitter' ? `border-b-2 border-gray-500` : ``}`}
+                        onClick={() => changeTabs('twitter')}>
+                        Twitter Results
+                    </div>
+                </div>
                 {type ? (
                     <>
                         <TwitterContainer searchStr={districtChoosen} />
