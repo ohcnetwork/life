@@ -6,7 +6,7 @@ import { parametreize, humanize, activeStates } from '@lib/utils';
 import TwitterResultCard from '@components/TwitterResult';
 
 function useFetch(searchStr, resourceType = 'supply', maxResults = 25) {
-    const url = `https://covidconnect-git-fork-deep-codes-open-cors-viksit.vercel.app/api/data?city=${searchStr}&resource_type=${resourceType}&max_results=${maxResults}`;
+    const url = `https://covidconnect.vercel.app/api/data?city=${searchStr}&resource_type=${resourceType}&max_results=${maxResults}`;
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
 
