@@ -1,17 +1,4 @@
-import {
-    faAmbulance,
-    faCapsules,
-    faHandsHelping,
-    faHospital,
-    faLandmark,
-    faLungsVirus,
-    faPhoneAlt,
-    faUserEdit,
-    faUserMd,
-    faUsers
-} from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Logo from '@components/Logo';
+import Breadcumb from '@components/Breadcumb';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 
@@ -22,63 +9,57 @@ export default function DataForm() {
     const formsInfo = [
         {
             name: `${th.oxygen}`,
-            icon: faLungsVirus,
             description: `${t.sourceType}`,
             link: 'https://airtable.com/shrjYwvwPhPY6h6Hw'
         },
         {
             name: `${t.medicineInjection}`,
             description: `${t.medicineDes}`,
-            icon: faCapsules,
             link: 'https://airtable.com/shrCNfkEdSTxeWAGg'
         },
         {
             name: `${th.hospital}`,
             description: `${t.hospitalDes}`,
-            icon: faHospital,
             link: 'https://airtable.com/shrfZV2enmY9wge0F'
         },
         {
             name: `${th.ambulance}`,
             description: `${t.hospitalDes}`,
-            icon: faAmbulance,
             link: 'https://airtable.com/shrAO7oA9qwh1OABJ'
         },
         {
             name: `${th.helpline}`,
             description: `${t.helplineDes}`,
-            icon: faPhoneAlt,
             link: 'https://airtable.com/shruCmaVNNXt1q1Uj'
         },
         {
             name: `${t.doctorTele}`,
-            icon: faUserMd,
             description: `${t.doctorDes}`,
             link: 'https://airtable.com/shrg0KEI0qRfLRPRP'
         },
         {
             name: `${t.supportGroup}`,
-            icon: faUsers,
             description: `${t.supportDes}`,
             link: 'https://airtable.com/shrf64QSuwSrzWPxo'
         },
         {
             name: `${t.applyVol}`,
             description: `${t.applyDes}`,
-            icon: faHandsHelping,
             link: 'https://airtable.com/shrDiUIg7e1IWj6mz'
         },
         {
             name: `${t.govtContact}`,
             description: `${t.govtDes}`,
-            icon: faLandmark,
             link: 'https://airtable.com/shr5IdHRDcFrOKLcg'
         }
     ];
 
     return (
         <div>
-            <section className="w-full max-w-sm mx-auto text-center text-2xl font-bold my-3 pt-10 dark:text-gray-400">{t.question}</section>
+            <div className="pt-10">
+                <Breadcumb list={[{ href: null, name: 'Contribute Data' }]} />
+            </div>
+            <section className="w-full max-w-sm mx-auto text-center text-2xl font-bold my-3 pt-10 pb-3 dark:text-gray-400">{t.question}</section>
             <section className="w-full max-w-xl mx-auto">
                 <ul className="space-y-4">
                     {formsInfo.map((form, id) => {
