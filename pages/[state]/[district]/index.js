@@ -5,11 +5,11 @@ import Home from 'pages';
 
 export default function State({ state, district }) {
     const SEO = {
-        title: `${humanize(district.district)} , ${humanize(state)} | Coronasafe network`,
-        description: `Covid19 Resources for ${humanize(district.district)} , ${humanize(state)} `,
+        title: `${humanize(district)} , ${humanize(state)} | Coronasafe network`,
+        description: `Covid19 Resources for ${humanize(district)} , ${humanize(state)} `,
         openGraph: {
-            title: `${humanize(district.district)} , ${humanize(state)} | Coronasafe network`,
-            description: `Covid19 Resources for ${humanize(district.district)} , ${humanize(
+            title: `${humanize(district)} , ${humanize(state)} | Coronasafe network`,
+            description: `Covid19 Resources for ${humanize(district)} , ${humanize(
                 state
             )} `
         },
@@ -17,7 +17,7 @@ export default function State({ state, district }) {
             {
                 property: 'keywords',
                 content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
-                    district.district
+                    district
                 )},hospital,ambulance,helpline,oxygen,medicine`
             }
         ]
@@ -25,7 +25,7 @@ export default function State({ state, district }) {
     return (
         <>
             <NextSeo {...SEO} />
-            <Home state={humanize(state)} district={humanize(district.district)} />
+            <Home state={humanize(state)} district={humanize(district)} />
         </>
     );
 }
@@ -34,11 +34,7 @@ export async function getStaticProps({ params }) {
     return {
         props: {
             state: params.state,
-            district: activeDistricts().find(
-                ({ district, state }) =>
-                    parametreize(state) === params.state &&
-                    parametreize(district) === params.district
-            )
+            district: params.district
         }
     };
 }
