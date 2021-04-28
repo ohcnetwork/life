@@ -19,6 +19,7 @@ import SearchResult from '@components/SearchResult';
 import Link from 'next/link';
 import StartSearching from '@components/StartSearching';
 import TwitterContainer from '@components/TwitterContainer';
+import districtMapCity from '@data/map_dis_to_city';
 
 export default function Home({ state, district, type }) {
     const { locale } = useLocaleContext();
@@ -37,6 +38,18 @@ export default function Home({ state, district, type }) {
     district = districts.find((e) => e.toLowerCase() === district?.toLowerCase());
 
     const [districtChoosen, setDistrictChoosen] = useState(district || districts[0]);
+
+    const mapDisToCity = (s) => {
+        // checks if it exists
+        // maps "North Delhi" -> "Delhi"
+        const temp = districtMapCity[s];
+
+        if (temp === undefined) {
+            return s;
+        } else {
+            return temp;
+        }
+    };
 
     const [resourceChoosen, setResourceChoosen] = useState(type || 'Oxygen');
 
@@ -205,7 +218,9 @@ export default function Home({ state, district, type }) {
                         {tabVal === 'result' && (
                             <SearchResult type={type} resources={resources[type]} />
                         )}
-                        {tabVal === 'twitter' && <TwitterContainer searchStr={districtChoosen} />}
+                        {tabVal === 'twitter' && (
+                            <TwitterContainer searchStr={mapDisToCity(districtChoosen)} />
+                        )}
                     </>
                 ) : (
                     <StartSearching />

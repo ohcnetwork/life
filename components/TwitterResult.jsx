@@ -1,5 +1,4 @@
 import { parseDateString } from '@lib/utils';
-import PulseSvg from '@components/PulseSvg';
 
 function TwitterResultCard({ covidConnectResults, searchStr }) {
     return (
