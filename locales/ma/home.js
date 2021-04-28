@@ -25,5 +25,6 @@ export default {
     poweredBy: 'അധികാരപ്പെടുത്തിയത്',
     github: 'ഗിറ്റ്ഹബ്',
     database: 'ഡാറ്റാബേസ്',
-    about: 'സംബന്ധിച്ച്'
+    about: 'സംബന്ധിച്ച്',
+    infoOnCovid: `COVID-19 നെക്കുറിച്ചുള്ള വിവരങ്ങൾ`
 };

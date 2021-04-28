@@ -27,5 +27,6 @@ export default {
     poweredBy: 'Powered By',
     github: 'Github',
     database: 'Database',
-    about: 'About'
+    about: 'About',
+    infoOnCovid: 'Info on COVID-19'
 };

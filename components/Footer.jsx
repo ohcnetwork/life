@@ -21,7 +21,7 @@ const Footer = () => {
             link: '/about'
         },
         {
-            text: `Videos`,
+            text: `${t.infoOnCovid}`,
             link: '/videos'
         }
     ];
