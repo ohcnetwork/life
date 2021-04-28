@@ -14,7 +14,7 @@ export const getStaticProps = async () => {
 
 const Video = ({ videoData }) => {
     return (
-        <section>
+        <section className="max-w-5xl mx-auto px-2">
             <Breadcumb list={[{ href: null, name: 'Videos' }]} />
             <Header title="Info on COVID-19" />
             <div className="flex flex-col mx-2 md:mx-6 pt-2">

@@ -100,7 +100,7 @@ export default function Home({ state, district, type }) {
     };
 
     return (
-        <section className="w-full">
+        <section className="max-w-7xl mx-auto px-2">
             <div className="bg-gray-200 dark:bg-gray-1200 text-center pt-5 pb-20">
                 <h1 className="font-semibold text-xl dark:text-gray-300">{t.description}</h1>
             </div>

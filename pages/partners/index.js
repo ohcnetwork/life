@@ -78,7 +78,7 @@ const Partners = () => {
     };
 
     return (
-        <section>
+        <section className="max-w-5xl mx-auto px-2">
             <NextSeo {...SEO} />
             <Breadcumb list={[{ href: null, name: 'Partner with us' }]} />
             <Header title="Partner with Us" />
@@ -118,7 +118,7 @@ const Partners = () => {
                 </div>
             </section>
 
-            <section className="pb-10 dark:text-gray-500 text-gray-900 px-2 md:mx-10" id = "partner">
+            <section className="pb-10 dark:text-gray-500 text-gray-900 px-2 md:mx-10" id="partner">
                 <div className="flex flex-row">
                     <div>
                         <h1 className="text-gray-900 dark:text-gray-200 mr-4 text-4xl font-bold">

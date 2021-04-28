@@ -25,20 +25,18 @@ export const getStaticPaths = async () => {
 
 const VideoSingle = ({ video }) => {
     return (
-        <div>
-            <section>
-                <Breadcumb
-                    list={[
-                        { href: `/videos`, name: `Videos` },
-                        { href: null, name: `${video['Title']}` }
-                    ]}
-                />
-                <Header title={video["Title"]} />
-                <div className="mx-2">
-                    <VideoCard dt={video} link={video['Content Link']} />
-                </div>
-            </section>
-        </div>
+        <section className="max-w-5xl mx-auto px-2">
+            <Breadcumb
+                list={[
+                    { href: `/videos`, name: `Videos` },
+                    { href: null, name: `${video['Title']}` }
+                ]}
+            />
+            <Header title={video['Title']} />
+            <div className="mx-2">
+                <VideoCard dt={video} link={video['Content Link']} />
+            </div>
+        </section>
     );
 };
 

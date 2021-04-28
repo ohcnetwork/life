@@ -13,7 +13,7 @@ const About = () => {
     const pClass = `dark:text-gray-600 mt-2 text-md`;
     const aClass = `underline text-primary-600 hover:text-primary-800 visited:text-purple-600`;
     return (
-        <>
+        <section className="max-w-5xl mx-auto px-2">
             <Breadcumb list={[{ href: null, name: 'About' }]} />
             <Header title="About" />
             <div className="py-10 dark:text-gray-500 text-gray-900 dark font-bold px-2 md:mx-10">
@@ -106,7 +106,7 @@ const About = () => {
                     />
                 </div>
             </div>
-        </>
+        </section>
     );
 };
 

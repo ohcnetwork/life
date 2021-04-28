@@ -106,10 +106,10 @@ const renderLanguageElement = (data) => (
 const Learn = () => {
     return (
         <React.Fragment>
-            <div className="font-bold">
+            <div className="font-bold max-w-5xl mx-auto px-2">
                 <Breadcumb list={[{ href: null, name: 'Learn' }]} />
                 <Header title="Learn" />
-                <div className="flex flex-col  items-center justify-center space-y-4 w-full my-4">
+                <div className="flex flex-wrap  items-center justify-center space-y-4 w-full my-4">
                     {languages.map((l) => renderLanguageElement(l))}
                 </div>
             </div>

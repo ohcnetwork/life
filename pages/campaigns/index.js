@@ -29,7 +29,7 @@ const Campaigns = () => {
     const { locale } = useLocaleContext();
     const t = useLocale(locale, 'campaigns');
     return (
-        <section>
+        <section className="max-w-5xl mx-auto px-2">
             <Breadcumb list={[{ href: null, name: 'Campaigns' }]} />
             <Header title="Campaigns" />
             <section className="flex flex-col items-center">
