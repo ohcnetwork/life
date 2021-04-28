@@ -91,12 +91,12 @@ export default function Home({ state, district, type }) {
                         <label htmlFor="state" className="text-sm">
                             {t.select} {t.state}{' '}
                         </label>
-                        <div className="flex items-center">
+                        <div className="flex items-center relative">
                             <select
                                 id="state"
                                 value={stateChoosen}
                                 onChange={handleChooseState}
-                                className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer">
+                                className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer z-10">
                                 {states.map((s, id) => (
                                     <option
                                         className="dark:text-gray-900 overflow-ellipsis"
@@ -106,12 +106,8 @@ export default function Home({ state, district, type }) {
                                     </option>
                                 ))}
                             </select>
-                            <div>
-                                <FontAwesomeIcon
-                                    className="inline"
-                                    icon={faAngleDown}
-                                    className="w-5"
-                                />
+                            <div className="absolute right-1.5">
+                                <FontAwesomeIcon icon={faAngleDown} className="w-5" />
                             </div>
                         </div>
                     </div>
@@ -120,24 +116,20 @@ export default function Home({ state, district, type }) {
                         <label htmlFor="district" className="text-sm">
                             {t.select} {t.district}{' '}
                         </label>
-                        <div className="flex items-center">
+                        <div className="flex items-center relative">
                             <select
                                 id="district"
                                 value={districtChoosen}
                                 onChange={({ target: { value } }) => setDistrictChoosen(value)}
-                                className="py-2  w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer">
+                                className="py-2  w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer z-10">
                                 {districts.map((s, id) => (
                                     <option className="dark:text-gray-900" key={id} value={s}>
                                         {s}
                                     </option>
                                 ))}
                             </select>
-                            <div>
-                                <FontAwesomeIcon
-                                    className="inline"
-                                    icon={faAngleDown}
-                                    className="w-5"
-                                />
+                            <div className="absolute right-1.5">
+                                <FontAwesomeIcon icon={faAngleDown} className="w-5" />
                             </div>
                         </div>
                     </div>
@@ -146,24 +138,20 @@ export default function Home({ state, district, type }) {
                         <label htmlFor="resource" className="text-sm">
                             {t.selectResource}
                         </label>
-                        <div className="flex items-center ">
+                        <div className="flex items-center relative">
                             <select
                                 id="resource"
                                 value={resourceChoosen}
                                 onChange={({ target: { value } }) => setResourceChoosen(value)}
-                                className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer">
+                                className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer z-10">
                                 {Object.keys(resources).map((s, id) => (
                                     <option className="dark:text-gray-900" key={id} value={s}>
                                         {s}
                                     </option>
                                 ))}
                             </select>
-                            <div>
-                                <FontAwesomeIcon
-                                    className="inline"
-                                    icon={faAngleDown}
-                                    className="w-5"
-                                />
+                            <div className="absolute right-1.5">
+                                <FontAwesomeIcon icon={faAngleDown} className="w-5" />
                             </div>
                         </div>
                     </div>
