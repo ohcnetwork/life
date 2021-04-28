@@ -77,25 +77,25 @@ const languages = [
 ];
 
 const renderLanguageElement = (data) => (
-    <a href={data.link} target="_blank" class="w-full md:w-1/2 py-4 md:p-4">
+    <a href={data.link} target="_blank" className="w-full md:w-1/2 py-4 md:p-4">
         <div
-            class={
+            className={
                 'flex border-2 rounded-lg px-4 py-6 md:p-4 shadow-md hover:shadow-xl hover:bg-white h-64 md:h-64 lg:h-64 ' +
                 data.color
             }>
-            <div class="w-1/4 md:w-1.8/6 flex h-full">
+            <div className="w-1/4 md:w-1.8/6 flex h-full">
                 <img
                     src={data.logoUrl}
-                    class="lg:w-full mt-auto mb-auto pt-auto pb-auto"
+                    className="lg:w-full mt-auto mb-auto pt-auto pb-auto"
                     title={data.name}
                     alt={data.name}></img>
             </div>
-            <div class="w-3/4 md:w-4/6 pl-2 flex">
-                <div class="mb-auto mt-auto">
-                    <h3 class="font-semibold text-2xl md:text-2xl lg:text-2xl xl:text-3xl pb-1 md:pb-2 leading-tight">
+            <div className="w-3/4 md:w-4/6 pl-2 flex">
+                <div className="mb-auto mt-auto">
+                    <h3 className="font-semibold text-2xl md:text-2xl lg:text-2xl xl:text-3xl pb-1 md:pb-2 leading-tight">
                         {data.name}
                     </h3>
-                    <p class="text-base md:text-lg">{data.description}</p>
+                    <p className="text-base md:text-lg">{data.description}</p>
                 </div>
             </div>
         </div>
@@ -108,10 +108,10 @@ const Learn = () => {
             <div>
                 <Breadcumb list={[{ href: null, name: 'Learn' }]} />
             </div>
-            <h2 class="text-3xl md:text-4xl xl:text-5xl tracking-tight font-bold leading-tight dark:text-white">
+            <h2 className="text-3xl md:text-4xl xl:text-5xl tracking-tight font-bold leading-tight dark:text-white">
                 Learn
             </h2>
-            <div class="flex flex-wrap md:-mx-6 pt-2 text-gray-900 dark ">
+            <div className="flex flex-wrap md:-mx-6 pt-2 text-gray-900 dark ">
                 {languages.map((l) => renderLanguageElement(l))}
             </div>
         </section>
