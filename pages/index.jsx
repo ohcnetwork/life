@@ -39,6 +39,12 @@ export default function Home({ state, district, type }) {
         "Vaccine": getVaccine(parametreize(stateChoosen), parametreize(districtChoosen), true),
     }
 
+    const handleChooseState = ({ target: { value } }) => {
+        setStateChoosen(value);
+        const newDistrict = statesWithDistricts[value][0]
+        setDistrictChoosen(newDistrict);
+    }
+
     return (
         <section className="w-full">
             <div className="bg-gray-200 dark:bg-gray-1200 text-center pt-5 pb-20">
@@ -49,7 +55,7 @@ export default function Home({ state, district, type }) {
                     <div className="flex flex-col flex-1 my-2 md:my-0 dark:text-gray-200">
                         <label htmlFor="state" className="text-sm">Select State </label>
                         <select id="state"
-                            value={stateChoosen} onChange={({ target: { value } }) => setStateChoosen(value)}
+                            value={stateChoosen} onChange={handleChooseState}
                             className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2">
                             {
                                 states.map((s, id) =>
