@@ -23,7 +23,7 @@ const SocialSharing = ({ url, copyText }) => {
             </span>
             <span>
                 <a
-                    href={`https://api.whatsapp.com/send?&text=${twitterText}`}
+                    href={`https://api.whatsapp.com/send?&text=${copyText}`}
                     rel="noopener"
                     target="_blank">
                     <FontAwesomeIcon
