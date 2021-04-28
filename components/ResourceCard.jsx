@@ -31,7 +31,7 @@ const ResourceCard = ({ data, type }) => {
                     }
                 </div>
                 <div className="my-2 md:my-0 md:ml-auto">
-                    <SocialSharing copyText={copyText} />
+                    <SocialSharing copyText={copyText} url={pageUrl} />
                 </div>
             </div>
             {/* Body 1 */}
