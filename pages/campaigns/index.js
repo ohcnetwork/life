@@ -28,7 +28,7 @@ const Campaigns = () => {
     const { locale } = useLocaleContext();
     const t = useLocale(locale, 'campaigns');
     return (
-        <section className="mt-10 md:pt-10 bg-gray-200 dark:bg-gray-1200">
+        <section className="md:pt-10 bg-gray-200 dark:bg-gray-1200">
             <section className="flex flex-col items-center">
                 <div className=" w-full ">
                     <div className="pt-5 w-3/4 mx-auto md:px-10">
