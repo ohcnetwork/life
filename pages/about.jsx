@@ -101,7 +101,7 @@ const About = () => {
                         question={t.q10}
                         answer={[
                             <p className={pClass}>{t.a10}</p>,
-                            <a className={aClass} href="/partners">
+                            <a className={aClass} href="/partners#partner">
                                 Current Partners
                             </a>
                         ]}
