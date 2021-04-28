@@ -18,7 +18,7 @@ const VideoCard = ({ dt, link }) => {
             <NextSeo {...SEO} />
             <Link href={link || `/videos/${parametreize(dt['Title'])}`}>
                 <a>
-                    <div className="my-2 p-4 border-gray-900 border rounded">
+                    <div className="my-2 p-4 border-gray-500 dark:border-gray-900 border rounded">
                         <h2 className="text-2xl tracking-tight font-bold leading-tight text-gray-1200 dark:text-white">
                             {dt.Title}
                         </h2>
