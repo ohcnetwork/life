@@ -83,15 +83,13 @@ export default function Home({ state, district, type }) {
     return (
         <section className="w-full">
             <div className="bg-gray-200 dark:bg-gray-1200 text-center pt-5 pb-20">
-                <h1 className="font-semibold text-xl dark:text-gray-300">
-                    Verified Crowd Sourced Emergency Services Directory
-                </h1>
+                <h1 className="font-semibold text-xl dark:text-gray-300">{t.description}</h1>
             </div>
             <div className="-mt-12">
                 <section className="bg-white dark:bg-gray-1300 rounded-lg mx-12 p-5 shadow-lg flex flex-col md:flex-row md:items-center">
                     <div className="flex flex-col flex-1 my-2 md:my-0 dark:text-gray-200">
                         <label htmlFor="state" className="text-sm">
-                            Select State{' '}
+                            {t.select} {t.state}{' '}
                         </label>
                         <div className="flex items-center">
                             <select
@@ -120,7 +118,7 @@ export default function Home({ state, district, type }) {
                     <div className="bg-gray-100 dark:bg-gray-1000 h-1 transform rotate-90 w-12 my-2 hidden md:block" />
                     <div className="flex flex-col flex-1 my-2 md:my-0 dark:text-gray-200">
                         <label htmlFor="district" className="text-sm">
-                            Select District
+                            {t.select} {t.district}{' '}
                         </label>
                         <div className="flex items-center">
                             <select
@@ -146,7 +144,7 @@ export default function Home({ state, district, type }) {
                     <div className="bg-gray-100 dark:bg-gray-1000 h-1 transform rotate-90 w-12 my-2 hidden md:block " />
                     <div className="flex flex-col flex-1 my-2 md:my-0 dark:text-gray-200 ">
                         <label htmlFor="resource" className="text-sm">
-                            Select Resource{' '}
+                            {t.selectResource}
                         </label>
                         <div className="flex items-center ">
                             <select
@@ -223,7 +221,7 @@ export default function Home({ state, district, type }) {
                         )}
                     </>
                 ) : (
-                    <StartSearching />
+                    <StartSearching text={t.startSearchingAmong} res={t.resources} />
                 )}
             </div>
         </section>
