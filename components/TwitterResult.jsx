@@ -1,13 +1,17 @@
 import { parseDateString } from '@lib/utils';
+import PulseSvg from '@components/PulseSvg';
 
 function TwitterResultCard({ covidConnectResults }) {
     return (
         <div className="w-full mx-auto" key="TwitterResultCard">
-            <div className="flex justify-center pt-10">
+            <div className="flex justify-center ">
                 <div className="w-full">
                     <div className="bg-white dark:bg-gray-1200 shadow-md rounded-lg px-1 py-2 mb-4">
-                        <div className="block text-gray-700 dark:text-primary-400 text-lg font-semibold py-2 px-3">
-                            Live Twitter Results
+                        <div className=" text-blue-600  text-lg font-semibold py-2 px-3">
+                            <span>Live Twitter Results</span>
+                            <span>
+                                <PulseSvg className="inline stroke-current ml-2 " width={25} />
+                            </span>
                         </div>
                         <div className="py-3 text-sm">
                             {covidConnectResults.map((result) => (
