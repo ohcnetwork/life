@@ -24,9 +24,9 @@ const VideoCard = ({ dt, link }) => {
                         </h2>
                         <p className="text-gray-1200 dark:text-white my-2">{dt['Key Message']}</p>
                         <div className="mt-1">
-                            <span class={badgeClass}>{dt['Primary Category']}</span>
-                            <span class={badgeClass}>{dt['Secondary Category']}</span>
-                            <span class={badgeClass}>{dt['Source of content']}</span>
+                            <span className={badgeClass}>{dt['Primary Category']}</span>
+                            <span className={badgeClass}>{dt['Secondary Category']}</span>
+                            <span className={badgeClass}>{dt['Source of content']}</span>
                         </div>
                         <div className="mt-2 text-sm">
                             <span className=" dark:text-gray-300 text-gray-1200">
