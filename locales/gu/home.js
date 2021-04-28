@@ -25,5 +25,6 @@ export default {
     poweredBy: 'દ્વારા પૂરા પાડવામાં આવેલ',
     github: 'ગિથબ',
     database: 'ડેટાબેઝ',
-    about: 'અમારા વિશે જાણો'
+    about: 'અમારા વિશે જાણો',
+    infoOnCovid: `COVID-19 'પર માહિતી`
 };

@@ -25,5 +25,6 @@ export default {
     poweredBy: 'இயக்குபவர்',
     github: 'கிட்ஹப்',
     database: 'தரவுத்தளம்',
-    about: 'பற்றி'
+    about: 'பற்றி',
+    infoOnCovid: `COVID-19 பற்றிய தகவல்`
 };

@@ -6777,6 +6777,31 @@
             ]
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "verified",
+            "companyName": "individual",
+            "createdTime": "2021-04-28T05:39:31.000Z",
+            "description": "cylinders on rent available",
+            "district": "New Delhi",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recEdOU1GMdYp4Vl6",
+            "instructions": "cylinders will be available after 2p.m today",
+            "lastVerifiedOn": "2021-04-28T05:42:22.000Z",
+            "name": null,
+            "phone1": 9027875400,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "through friend",
+            "state": "Delhi (NCT)",
+            "type": [
+                "Oxygen Cylinders"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": "Diya Dashiwal"
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "unreachable",

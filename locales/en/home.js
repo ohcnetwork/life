@@ -17,6 +17,7 @@ export default {
     verified: 'Verified',
     totalAmbulace: 'Total Ambulance',
     oxygenRequirements: 'Oxygen Concentration Requirements',
+    fdaOfficerContact: 'FDA Officers Contact',
     contributeData: 'Contribute Verified Data',
     campaigns: 'Donate Now',
     learn: 'Learn',
@@ -26,5 +27,6 @@ export default {
     poweredBy: 'Powered By',
     github: 'Github',
     database: 'Database',
-    about: 'About'
+    about: 'About',
+    infoOnCovid: 'Info on COVID-19'
 };

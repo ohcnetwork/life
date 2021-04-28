@@ -1,11 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-    faDatabase,
-    faHandsHelping,
-    faHeart,
-    faBookOpen,
-} from '@fortawesome/free-solid-svg-icons';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 
@@ -24,6 +17,10 @@ const Footer = () => {
         {
             text: `${t.about}`,
             link: '/about'
+        },
+        {
+            text: `${t.infoOnCovid}`,
+            link: '/videos'
         }
     ];
     return (
