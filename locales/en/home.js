@@ -1,6 +1,7 @@
 export default {
     title: 'Life',
     description: 'Verified Crowd Sourced Emergency Services Directory',
+    all: 'All',
     oxygen: 'Oxygen',
     medicine: 'Medicine',
     hospital: 'Hospital',
@@ -16,8 +17,9 @@ export default {
     verified: 'Verified',
     totalAmbulace: 'Total Ambulance',
     oxygenRequirements: 'Oxygen Concentration Requirements',
+    fdaOfficerContact: 'FDA Officers Contact',
     contributeData: 'Contribute Verified Data',
-    campaigns: 'Campaigns',
+    campaigns: 'Donate Now',
     learn: 'Learn',
     partnerWithUs: 'Partner With Us',
     curatedBy: 'Curated By',
@@ -25,5 +27,6 @@ export default {
     poweredBy: 'Powered By',
     github: 'Github',
     database: 'Database',
-    about: 'About'
+    about: 'About',
+    infoOnCovid: 'Info on COVID-19'
 };

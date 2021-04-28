@@ -29,13 +29,13 @@
             "district": "Amritsar",
             "emailId": "swamimedicalhallamritsar@gmail.com",
             "id": "rec03uW8qVI99J5ck",
-            "lastVerifiedOn": "2021-04-24T06:36:53.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:54.000Z",
             "name": "SWAMI MEDICAL HALL",
             "phone1": "0183-5069915 9872066608",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "MANISH NAYYAR"
         },
         {
@@ -48,13 +48,13 @@
             "district": "Pune",
             "emailId": "greatindiadistributors@gmail.com",
             "id": "rec04AUG2cZKm1ZzR",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "GREAT INDIA PHARMACEUTICALS",
             "phone1": "020-27426343",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -88,13 +88,13 @@
             "district": "Sangli",
             "emailId": "rajendradistributor@gmail.com",
             "id": "rec0EKazfOjm4TObk",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "RAJENDRA DISTRIBUTORS",
             "phone1": "0233-2331997/973",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -109,13 +109,13 @@
             "district": "Bathinda",
             "emailId": "smdist@rediffmail.com",
             "id": "rec0nHYxZK4iAmZzd",
-            "lastVerifiedOn": "2021-04-24T14:26:31.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:58.000Z",
             "name": "S M MEDICAL AGENCIES",
             "phone1": "9814870373",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Sangharsh Sapre"
         },
         {
@@ -147,13 +147,13 @@
             "district": "Kheda (Nadiad)",
             "emailId": "sanjivanimedicines@yahoo.co.in",
             "id": "rec16kfTqPmXqFclZ",
-            "lastVerifiedOn": "2021-04-24T07:04:31.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:00.000Z",
             "name": "Sanjivani Medicines Pvt. Ltd.",
             "phone1": "919925026371",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
         {
@@ -166,13 +166,13 @@
             "district": "Thane",
             "emailId": "laxmienterpriseskalyan@gmail.com",
             "id": "rec1EmNRRB6pjbGfh",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "LAXMI ENTERPRISES",
             "phone1": "2,20,78,57,22,00,090",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -206,13 +206,13 @@
             "district": "Sangli",
             "emailId": "shreechaitanyagencies@gmail.com",
             "id": "rec1b9b22z38rRO0d",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SHREE CHAITANYA AGENCIES(CHQ)",
             "phone1": "0233-2212130/942",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -227,13 +227,13 @@
             "district": "Aurangabad",
             "emailId": "distributorsbhagirath@gmail.com",
             "id": "rec1h9q8BSu2NKPiU",
-            "lastVerifiedOn": "2021-04-24T12:04:37.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:01.000Z",
             "name": "BHAGIRATH DISTRIBUTORS ( AURANGABAD",
             "phone1": "0240-2339020",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -284,13 +284,13 @@
             "district": "Durg",
             "emailId": "rathimedical@yahoo.com",
             "id": "rec2HQ4CBpCNOKvqZ",
-            "lastVerifiedOn": "2021-04-24T10:09:11.000Z",
+            "lastVerifiedOn": "2021-04-27T13:00:10.000Z",
             "name": "RATHI MEDICAL AGENCIES",
             "phone1": "9425552481",
             "priceCheck": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -322,13 +322,13 @@
             "district": "Thanjavur",
             "emailId": "ctctn@yahoo.com",
             "id": "rec2tTkuLaEA37MWX",
-            "lastVerifiedOn": "2021-04-23T15:16:43.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:02.000Z",
             "name": "SIVAGAMI MEDICAL",
             "phone1": "9443412456",
             "priceCheck": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -360,13 +360,13 @@
             "district": "Nashik",
             "emailId": "ratnakarwani502@gmail.com",
             "id": "rec3AnQTxQQsNUr13",
-            "lastVerifiedOn": "2021-04-23T14:50:12.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:05.000Z",
             "name": "SHRI SWAMI SAMARTH AGENCIES",
             "phone1": "9371544000",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Mohita Kotkar"
         },
         {
@@ -379,13 +379,13 @@
             "district": "Mumbai City",
             "emailId": "kkpharma.andheri@gmail.com",
             "id": "rec3GvuDbQxUz6oti",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "K. K. PHARMA",
             "phone1": "9892869090",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -438,13 +438,13 @@
             "district": "Sahibzada Ajit Singh Nagar (Mohali)",
             "emailId": "kulenterprises1@gmail.com",
             "id": "rec49K5UWcIV12NyL",
-            "lastVerifiedOn": "2021-04-24T06:54:01.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:22.000Z",
             "name": "KUL ENTERPRISES (ASR)",
             "phone1": "9888041014",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "MANISH NAYYAR"
         },
         {
@@ -457,13 +457,13 @@
             "district": "Solapur",
             "emailId": "shahbrothers56@gmail.com",
             "id": "rec4KtFWjkm5QLJU2",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SHAH BROTHERS (CHQ)",
             "phone1": "0217-2725576",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -497,13 +497,13 @@
             "district": "Beed",
             "emailId": "anandbothra24@gmail.com",
             "id": "rec4iSuvse0nBjsTb",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MAHAVIR AGENCIES",
             "phone1": "02442-222012",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -537,13 +537,13 @@
             "district": "Sahibzada Ajit Singh Nagar (Mohali)",
             "emailId": "kulenterprises1@gmail.com",
             "id": "rec4uFsBQalEm9Uzy",
-            "lastVerifiedOn": "2021-04-24T06:55:49.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:23.000Z",
             "name": "KUL ENTERPRISES(LDH)",
             "phone1": "9888041014",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "MANISH NAYYAR"
         },
         {
@@ -556,13 +556,13 @@
             "district": "Kolkata",
             "emailId": null,
             "id": "rec4yySXl3xmcZILv",
-            "lastVerifiedOn": "2021-04-25T11:09:20.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:45.000Z",
             "name": "Saurabh Surana",
             "phone1": "6291049491",
             "priceCheck": "Market Priced",
             "source": "https://www.theuncutteam.com/resources",
             "state": "West Bengal",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -575,13 +575,13 @@
             "district": "Surat",
             "emailId": "shreejayambemedical@yahoo.com",
             "id": "rec4z7OTS5TNsUJ9p",
-            "lastVerifiedOn": "2021-04-24T12:52:00.000Z",
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SHREE JAY AMBE MEDICAL AGENCY",
             "phone1": "0261-2451775",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -589,20 +589,20 @@
         {
             "address": "59/32, BIRHANA ROADKANPURKANPUR,KANPUR,208001",
             "city": "Kanpur",
-            "comment": "If this call is regarding Remdevisir/Tamiflu/Tocilizumab, then I am sorry because it has been take over by DM. Contact COVID hosiptals for its availibility.\nStocked out, contact COVID hospitals for availability",
+            "comment": "If this call is regarding Remdevisir/Tamiflu/Tocilizumab, then I am sorry because it has been take over by DM. Contact COVID hosiptals for its availability. Stocked out, contact COVID hospitals for availability",
             "contactName": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": "Remdesivir distribution list",
             "district": "Kanpur Dehat",
             "emailId": "talatibrothers@reddifmail.com",
             "id": "rec5BFU5yMLccxPSg",
-            "lastVerifiedOn": "2021-04-23T13:39:33.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:42.000Z",
             "name": "TALATI BROS",
             "phone1": "9415042016",
             "priceCheck": null,
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -672,13 +672,13 @@
             "district": "Ludhiana",
             "emailId": "apd0161@rediffmail.com",
             "id": "rec69YulwERuvmGJZ",
-            "lastVerifiedOn": "2021-04-24T11:25:56.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:44.000Z",
             "name": "ARMAAN PHARMA DISTRIBUTORS",
             "phone1": "0161-2726110 9815963631",
             "priceCheck": null,
             "source": "Phone",
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Sangharsh Sapre"
         },
         {
@@ -729,13 +729,13 @@
             "district": "Pune",
             "emailId": "santosh2285@gmail.com",
             "id": "rec6pPvaaCzhztndJ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MS GANDHI MEDICO",
             "phone1": "9421005075",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -769,13 +769,13 @@
             "district": "Nandurbar",
             "emailId": "jaiprakash.medicaltg@gmail.com",
             "id": "rec7D9fq8Aq8Qtowh",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "JAIPRAKASH MEDICAL AND GENERAL",
             "phone1": "02564 -221980",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -790,13 +790,13 @@
             "district": "Junagadh",
             "emailId": "pharmakem1992@gmail.com",
             "id": "rec7TD2bbHhdLjYQB",
-            "lastVerifiedOn": "2021-04-24T06:57:03.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:48.000Z",
             "name": "PHARMAKEM",
             "phone1": "9825222370",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
         {
@@ -809,13 +809,13 @@
             "district": "Patiala",
             "emailId": "punjab.surgical@yahoo.in",
             "id": "rec7VJEugClTLVDGf",
-            "lastVerifiedOn": "2021-04-24T14:25:05.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:47.000Z",
             "name": "PUNJAB SURGICAL & MEDICINE CENTRE",
             "phone1": "9855468600",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Sangharsh Sapre"
         },
         {
@@ -828,13 +828,13 @@
             "district": "Satara",
             "emailId": "sataradistributors@gmail.com",
             "id": "rec7aAzA3x6Zxfjdo",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SATARA DISTRIBUTORS (CHQ)",
             "phone1": "02162-229433/229",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -849,13 +849,13 @@
             "district": "Jalna",
             "emailId": "sudhirmantri2010@gmail.com",
             "id": "rec7h3owdDPMLTaUd",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MS SUDHIR AGENCIES",
             "phone1": "2,48,22,37,337",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -889,13 +889,13 @@
             "district": "Nashik",
             "emailId": "sheetalpharma@ymail.com",
             "id": "rec7n0R7F5EadrCos",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SHEETAL PHARMA (CHQ)",
             "phone1": "0253-576506/9822",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -910,13 +910,13 @@
             "district": "Ludhiana",
             "emailId": null,
             "id": "rec8NG1Qo2zuEuDat",
-            "lastVerifiedOn": "2021-04-23T08:18:35.000Z",
+            "lastVerifiedOn": "2021-04-27T12:59:03.000Z",
             "name": "Astha Medical",
             "phone1": "9879034431",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
         {
@@ -929,13 +929,13 @@
             "district": "Jabalpur",
             "emailId": "mgtjbp11@gmail.com",
             "id": "rec8NgKlbqQ7SaVz6",
-            "lastVerifiedOn": "2021-04-24T05:51:59.000Z",
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MEDICAL AND GENERAL TRADERS(JABALPU",
             "phone1": "0761-4003399 4066179",
             "priceCheck": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -950,13 +950,13 @@
             "district": "Amravati",
             "emailId": "deshmukhpravin76@gmail.com",
             "id": "rec8Oj72NDusuPisT",
-            "lastVerifiedOn": "2021-04-24T12:03:18.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:54.000Z",
             "name": "SANJAY PHARMA",
             "phone1": "0721-2564460",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -969,13 +969,13 @@
             "district": "Gondia",
             "emailId": "golu.sind@gmail.com",
             "id": "rec8TvcqrmQQUEG8t",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SIND MEDICAL STORES (NEW)",
             "phone1": "7182665444",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -990,13 +990,13 @@
             "district": "Ludhiana",
             "emailId": null,
             "id": "rec8YvzFr6s4Tj2DF",
-            "lastVerifiedOn": "2021-04-23T08:17:06.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:49.000Z",
             "name": "Arihant Medicines",
             "phone1": "9601268124\n079-26880281",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
         {
@@ -1009,13 +1009,13 @@
             "district": "Ernakulam",
             "emailId": "avighnacoc@gmail.com",
             "id": "rec8dzIK7k58kiJTj",
-            "lastVerifiedOn": "2021-04-23T15:49:20.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:56.000Z",
             "name": "AVIGHNA ASSOCIATES TRIVANDRUM",
             "phone1": null,
             "priceCheck": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -1028,13 +1028,13 @@
             "district": "Hyderabad",
             "emailId": null,
             "id": "rec8hnkCY5KK5J7Av",
-            "lastVerifiedOn": "2021-04-25T07:16:56.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:57.000Z",
             "name": "Gaudev & Co, Hyderabad",
             "phone1": "9963107800",
             "priceCheck": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "MANISH NAYYAR"
         },
         {
@@ -1066,13 +1066,13 @@
             "district": "Nanded",
             "emailId": "shriniwas.nanded@gmail.com",
             "id": "rec9CEKTXEEAgqLiT",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SHRINIWAS AGENCIES",
             "phone1": "9423135965",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1087,13 +1087,13 @@
             "district": "Udaipur",
             "emailId": "modidistributors20@gmail.com",
             "id": "rec9WuVI10hNRWgCG",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MODI DISTRIBUTORS",
             "phone1": "0294- 2411876",
             "priceCheck": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1127,13 +1127,13 @@
             "district": "Jalandhar",
             "emailId": "krishnaandsons@yahoo.com",
             "id": "rec9hhKQ2jtWM96qd",
-            "lastVerifiedOn": "2021-04-24T12:07:26.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:58.000Z",
             "name": "KRISHNA & SONS",
             "phone1": "9888504242\n0181-2224586 (invalid)\n",
             "priceCheck": null,
             "source": "Phone &  Web(justDial)",
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Sangharsh Sapre"
         },
         {
@@ -1146,13 +1146,13 @@
             "district": "Ludhiana",
             "emailId": null,
             "id": "rec9p3hPu7vqg2q3X",
-            "lastVerifiedOn": "2021-04-24T10:10:27.000Z",
+            "lastVerifiedOn": "2021-04-27T13:18:59.000Z",
             "name": "Ambika Medicals",
             "phone1": "9998921554",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -1165,13 +1165,13 @@
             "district": "Jaipur",
             "emailId": "aushadhdistributors15@gmail.com",
             "id": "rec9qymbzOin3Ugn4",
-            "lastVerifiedOn": "2021-04-24T14:59:50.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:00.000Z",
             "name": "AUSHADH DISTRIBUTORS (UDAIPUR)",
             "phone1": "9819072338",
             "priceCheck": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -1184,13 +1184,13 @@
             "district": "Visakhapatnam",
             "emailId": "vardhmanvizag@gmail.com",
             "id": "recA3X4pA4XcPCZjD",
-            "lastVerifiedOn": "2021-04-23T12:49:23.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:29.000Z",
             "name": "VARDHMAN SPECIALITIES",
             "phone1": "9849185987",
             "priceCheck": null,
             "source": null,
             "state": "Andhra Pradesh",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Dr. Pallabi Roy"
         },
         {
@@ -1203,13 +1203,13 @@
             "district": "Udaipur",
             "emailId": "indian_drug@rediffmail.com",
             "id": "recA8g8dcuYclDyoH",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "INDIAN DRUG DISTRIBUTORS",
             "phone1": "0294 - 2429036",
             "priceCheck": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1243,13 +1243,13 @@
             "district": "Ludhiana",
             "emailId": null,
             "id": "recAaJc1oauxCSGA0",
-            "lastVerifiedOn": "2021-04-23T13:39:24.000Z",
+            "lastVerifiedOn": "2021-04-27T12:59:03.000Z",
             "name": "Sai Pharmacy",
             "phone1": "9428480631",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
         {
@@ -1262,13 +1262,13 @@
             "district": "Pune",
             "emailId": "rohitkarpe9@gmail.com",
             "id": "recAeEzZOV892Nbou",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "ROHIT ENTERPRISES",
             "phone1": "9822192558",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1283,13 +1283,13 @@
             "district": "Solapur",
             "emailId": "janataakluj@gmail.com",
             "id": "recAnOiZevd8HJZby",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "JANATA MEDICAL STORES",
             "phone1": "02185-223824/942",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1323,13 +1323,13 @@
             "district": "Surat",
             "emailId": "svk_royal@yahoo.in",
             "id": "recBTiW1dIO8o9OnI",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "ROYAL DISTRIBUTORS",
             "phone1": "9825956301",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1344,13 +1344,13 @@
             "district": "Mumbai City",
             "emailId": null,
             "id": "recBUAIiuaviDZ3Ik",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "VARDHMAN HEALTH SPECIALITIES PVT.",
             "phone1": "9867867440",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1422,13 +1422,13 @@
             "district": "Ernakulam",
             "emailId": "avighnacoc@gmail.com",
             "id": "recC4iEhsczOA8ABJ",
-            "lastVerifiedOn": "2021-04-23T15:49:18.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:31.000Z",
             "name": "AVIGHNA ASSOCIATES MAVELIKKARA",
             "phone1": null,
             "priceCheck": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -1441,13 +1441,13 @@
             "district": "West Delhi",
             "emailId": null,
             "id": "recCApkbjn7AlSPRT",
-            "lastVerifiedOn": "2021-04-22T08:23:47.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:27.000Z",
             "name": "Evergreen chemist",
             "phone1": "9818222450",
             "priceCheck": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Hamzah Jamal"
         },
         {
@@ -1460,13 +1460,13 @@
             "district": "Betul",
             "emailId": "sssahnibetul@gmail.com",
             "id": "recCKMsdvK3bYOBhh",
-            "lastVerifiedOn": "2021-04-23T06:19:09.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:32.000Z",
             "name": "SOBEG SINGH SAHNI & SONS(BETUL)",
             "phone1": "07141-230722, 9425002620",
             "priceCheck": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
         {
@@ -1498,13 +1498,13 @@
             "district": "Nashik",
             "emailId": "ho@dvijaypharma.com",
             "id": "recCWV0nbv0U7rZEZ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "D VIJAY PHARMA LTD (NASIK ROAD)",
             "phone1": "0253-2463484/85/",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1519,13 +1519,13 @@
             "district": "Indore",
             "emailId": null,
             "id": "recCXK87IMQgZxU52",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "P P ENTERPRISES",
             "phone1": null,
             "priceCheck": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1540,13 +1540,13 @@
             "district": "Ahmednagar",
             "emailId": null,
             "id": "recCuI5pqfZSvmACX",
-            "lastVerifiedOn": "2021-04-24T11:45:05.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:34.000Z",
             "name": "Shree Balaji Medicals",
             "phone1": "8087645229",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -1559,13 +1559,13 @@
             "district": "Pune",
             "emailId": "laxmimedical@gmail.com",
             "id": "recDNvjwSkI7Si998",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "LAXMI MEDICAL (PUNE)",
             "phone1": "9822072975/27034",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1580,13 +1580,13 @@
             "district": "Patna",
             "emailId": "rkeshri69@gmail.com",
             "id": "recDU8W45L1eugoG1",
-            "lastVerifiedOn": "2021-04-23T13:05:20.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:36.000Z",
             "name": "KESAR VACCINE DISTRIBUTORS (ONCO)",
             "phone1": "2301463",
             "priceCheck": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Dr. Pallabi Roy"
         },
         {
@@ -1599,13 +1599,13 @@
             "district": "Kamrup Metropolitan",
             "emailId": "aspharmaghy@gmail.com",
             "id": "recDUEqDZBwtNwxED",
-            "lastVerifiedOn": "2021-04-23T12:55:57.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:35.000Z",
             "name": "A.S. PHARMA PRIVATE LIMITED (T)",
             "phone1": "9971399708",
             "priceCheck": null,
             "source": null,
             "state": "Assam",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Dr. Pallabi Roy"
         },
         {
@@ -1618,13 +1618,13 @@
             "district": "Beed",
             "emailId": "venkateshbeed@gmail.com",
             "id": "recDnbqgOm3m9ilFS",
-            "lastVerifiedOn": "2021-04-22T10:27:26.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:37.000Z",
             "name": "MS VENKATESH MEDICALS (BEED)",
             "phone1": "02442 - 224153",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Mohita Kotkar"
         },
         {
@@ -1637,13 +1637,13 @@
             "district": "Nashik",
             "emailId": "sureshpatil2206@gmail.com",
             "id": "recE5BQPuZSFFi3KC",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "POONAM ENTERPRISES (CHQ)",
             "phone1": "0253-312115",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1658,13 +1658,13 @@
             "district": "Dhule",
             "emailId": "rajadhule@gmail.com",
             "id": "recEEEmmhMplrAElC",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "RAJA ENTERPRISES",
             "phone1": "02562 - 241847",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1717,13 +1717,13 @@
             "district": "Surendranagar",
             "emailId": "doshinilesh99@gmail.com",
             "id": "recEnW2sQYHkGJZIu",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "PARIKH MEDICAL AGENCIES",
             "phone1": "02752-220010",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1776,13 +1776,13 @@
             "district": "Pune",
             "emailId": null,
             "id": "recFONnaAfgIRiecW",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "Collector and Drug inspectors",
             "phone1": "1800222365",
             "priceCheck": null,
             "source": "Twitter",
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1797,13 +1797,13 @@
             "district": "Nagpur",
             "emailId": "sobti.bro@gmail.com",
             "id": "recFYOIjb4eaKDqJ6",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SOBTI BROTHERS",
             "phone1": "0712-27761842762",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1818,13 +1818,13 @@
             "district": "Nagpur",
             "emailId": "itwarims@gmail.com",
             "id": "recFluZYFG7bJozXu",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "ITWARI MEDICAL STORES",
             "phone1": "0712-27625152768544",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1858,13 +1858,13 @@
             "district": "Ratnagiri",
             "emailId": "bridgemedisales@gmail.com",
             "id": "recG4tW9sVTcPaF9M",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "BRIDGE MEDISALES Pvt. LTD.",
             "phone1": "9403080021",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1879,13 +1879,13 @@
             "district": "Nagpur",
             "emailId": "neetangp2@gmail.com",
             "id": "recGCcty06JUHD1vo",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "NEETA AGENCIES",
             "phone1": "9823260070",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1919,13 +1919,13 @@
             "district": "Mumbai City",
             "emailId": "parikhpharma@gmail.com",
             "id": "recGTrHLl6mTgmIVy",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "S PARIKH PHARMA",
             "phone1": "022-42460100",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -1940,13 +1940,13 @@
             "district": "New Delhi",
             "emailId": "info@aaraarhealthcare.com",
             "id": "recGa7rKXyqYkdEpr",
-            "lastVerifiedOn": "2021-04-22T07:54:03.000Z",
+            "lastVerifiedOn": "2021-04-27T12:59:03.000Z",
             "name": "AAR AAR Healthcare (South)",
             "phone1": "8826929090",
             "priceCheck": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Dr. Pallabi Roy"
         },
         {
@@ -1959,13 +1959,13 @@
             "district": "Patan",
             "emailId": "bmpharmapatan@gmail.com",
             "id": "recH4AE4PbARMuVxU",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "B M PHARMA",
             "phone1": "02766-233624",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2037,13 +2037,13 @@
             "district": "Latur",
             "emailId": "waraddeepak@gmail.com",
             "id": "recI2rWZBYm87OhQi",
-            "lastVerifiedOn": "2021-04-22T14:32:50.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:12.000Z",
             "name": "WARAD DISTRIBUTORS",
             "phone1": "02382 -258455",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Dr. Pallabi Roy"
         },
         {
@@ -2056,13 +2056,13 @@
             "district": "Gondia",
             "emailId": "pratapamgaon@gmail.com",
             "id": "recI8wLqOK5u9eJjr",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "PRATAP MEDICAL STORES",
             "phone1": "07189-2542625201",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2096,13 +2096,13 @@
             "district": "Nashik",
             "emailId": null,
             "id": "recIT3BWNI3Z0tjbB",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "Shree Surya Surgi Pharma Pvt Ltd",
             "phone1": "9,86,00,42,06,499",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2136,13 +2136,13 @@
             "district": "Bharuch",
             "emailId": "narmadamedicalagency@gmail.com",
             "id": "recJCiFOd7Emu5ItF",
-            "lastVerifiedOn": "2021-04-23T06:16:40.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:20.000Z",
             "name": "NARMADA MEDICAL AGENCY",
             "phone1": "02642-222541, 9879454187",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
         {
@@ -2155,13 +2155,13 @@
             "district": "Rajkot",
             "emailId": null,
             "id": "recJGHx0IGArlzsjb",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SURBHI MEDICAL AGENCY",
             "phone1": "2812460522",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2176,13 +2176,13 @@
             "district": "Mumbai Suburban",
             "emailId": "purchase.mum@novacare.in",
             "id": "recJUa22PUmp5czcD",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "NOVACARE HEALTHCARE SOLN Pvt.LTD (T",
             "phone1": "022-40776433",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2216,13 +2216,13 @@
             "district": "Osmanabad",
             "emailId": "tirupatiagenciesomerga@gmail.com",
             "id": "recJaQ6I1HNeEt780",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "M/S TIRUPATI AGENCIES",
             "phone1": "02475-250761",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2237,13 +2237,13 @@
             "district": "Kozhikode",
             "emailId": "alfariyas@yahoo.co.in",
             "id": "recJpWLhs72LLcknT",
-            "lastVerifiedOn": "2021-04-23T16:02:48.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:21.000Z",
             "name": "ALFA AGENCIES",
             "phone1": "9847142642",
             "priceCheck": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -2256,13 +2256,13 @@
             "district": "Ludhiana",
             "emailId": "mehta.purav18@gmail.com",
             "id": "recJwWUJuTYC2jYTQ",
-            "lastVerifiedOn": "2021-04-23T13:02:35.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:16.000Z",
             "name": "UMIYA PHARMA DIST.",
             "phone1": "9327198989,9662905494",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Urja Khandhediya"
         },
         {
@@ -2313,13 +2313,13 @@
             "district": "Pune",
             "emailId": null,
             "id": "recKMRGZqTm8HjseA",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MILTON HEALTHCARE LLP, PUNE",
             "phone1": "2024461665",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2334,13 +2334,13 @@
             "district": "Ahmednagar",
             "emailId": "bafnamedico@gmail.com",
             "id": "recKPttTmTctLOlGX",
-            "lastVerifiedOn": "2021-04-22T09:54:08.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:22.000Z",
             "name": "BAFNA MEDICO",
             "phone1": "9011871111",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Mohita Kotkar"
         },
         {
@@ -2353,13 +2353,13 @@
             "district": "Mumbai City",
             "emailId": "cipla@meherdistributors.com",
             "id": "recKRYpt0xWo7ZajX",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MEHER DISTRIBUTORS PVT.LTD. ( TC-NH",
             "phone1": "2,26,13,12,000",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2374,13 +2374,13 @@
             "district": "Bhandara",
             "emailId": "shrisai_bhandara@rediffmail.com",
             "id": "recKU01Cz3aKacYm4",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SHREE SAI MEDICAL AGENCIES",
             "phone1": "07184 -251861",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2395,13 +2395,13 @@
             "district": "Surat",
             "emailId": "foramdistributor@yahoo.com",
             "id": "recKUtbMBvjZBPwrs",
-            "lastVerifiedOn": "2021-04-24T06:39:54.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:23.000Z",
             "name": "FORAM DISTRIBUTOR",
             "phone1": "0261-2437887",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -2433,13 +2433,13 @@
             "district": "Parbhani",
             "emailId": "wmgpbn@gmail.com",
             "id": "recKky19YTBmFrDJh",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "WATTAMWAR MED & GEN STORES (CHQ)",
             "phone1": "9422876816",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2483,6 +2483,25 @@
             "verifiedBy": "Disha Jariwala"
         },
         {
+            "address": "Noida",
+            "city": "Noida",
+            "comment": null,
+            "contactName": null,
+            "createdTime": "2021-04-27T13:05:49.000Z",
+            "description": null,
+            "district": "Sangli",
+            "emailId": null,
+            "id": "recL8oTOcH3TaLhce",
+            "lastVerifiedOn": "2021-04-27T13:09:43.000Z",
+            "name": "Sachindra Dixit",
+            "phone1": "8826998888",
+            "priceCheck": null,
+            "source": null,
+            "state": "Uttar Pradesh",
+            "verificationStatus": "Available and verified",
+            "verifiedBy": "Diya Dashiwal"
+        },
+        {
             "address": "SOC- 35, 2nd Floor,Sector 16 D,Chandigarh,160023",
             "city": "Chandigarh",
             "comment": null,
@@ -2511,13 +2530,13 @@
             "district": "Solapur",
             "emailId": "pdhpandharpur@gmail.com",
             "id": "recLHkkUqRvKioJIY",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "PANDHARPUR DRUG HOUSE",
             "phone1": "9421064713",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2532,13 +2551,13 @@
             "district": "Ernakulam",
             "emailId": "avighnacoc@gmail.com",
             "id": "recLS8dk9xTheRJuo",
-            "lastVerifiedOn": "2021-04-23T15:49:05.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:24.000Z",
             "name": "AVIGHNA ASSOCIATES ERNAKULAM",
             "phone1": "9747550880",
             "priceCheck": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -2551,13 +2570,13 @@
             "district": "Pune",
             "emailId": "info@miltonlifecare.co.in",
             "id": "recLUsSSR6IPKBJyS",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MILTON LIFECARE PVT LTD",
             "phone1": "022 22062944/ 45",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2572,13 +2591,13 @@
             "district": "Pune",
             "emailId": "c.t.distributors@gmail.com",
             "id": "recLe4pZoA9j1Tglb",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "C.T.DISTRIBUTORS",
             "phone1": "020-24479685/244",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2593,13 +2612,13 @@
             "district": "Chennai",
             "emailId": "rkpdistributors@gmail.com",
             "id": "recLf5jrphlgPWFax",
-            "lastVerifiedOn": "2021-04-23T15:34:43.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:26.000Z",
             "name": "R.K.PHARMA DISTRIBUTORS",
             "phone1": "42654569",
             "priceCheck": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -2631,13 +2650,13 @@
             "district": "Nashik",
             "emailId": "kacholiya1008@gmail.com",
             "id": "recLu0QKXP5tYUXcE",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "M/s.Kacholiya Medical Agencies",
             "phone1": "2532574311",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2652,13 +2671,13 @@
             "district": "Pune",
             "emailId": "kundanag@gmail.com",
             "id": "recMAtxP2Z7SIOfdR",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "KUNDAN AGENCY",
             "phone1": "9890023634",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2692,13 +2711,13 @@
             "district": "Kozhikode",
             "emailId": "alfariyas@yahoo.co.in",
             "id": "recML7xReFdyOYmSU",
-            "lastVerifiedOn": "2021-04-23T16:02:50.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:27.000Z",
             "name": "Alfa Agencies",
             "phone1": "0495-2701899",
             "priceCheck": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -2730,13 +2749,13 @@
             "district": "Dhar",
             "emailId": "goudpharmadhar@gmail.com",
             "id": "recMnYvn5QBJoZqBi",
-            "lastVerifiedOn": "2021-04-24T05:56:08.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:28.000Z",
             "name": "GOUD PHARMA DHAR",
             "phone1": "07292-411186 98260-69522",
             "priceCheck": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -2768,13 +2787,13 @@
             "district": "Latur",
             "emailId": "kotalwaragencies@gmail.com",
             "id": "recN8KG2cxZnm4tTO",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "KOTALWAR AGENCIES",
             "phone1": "9890049169",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2808,13 +2827,13 @@
             "district": "Pune",
             "emailId": "info@kundandistributors.com",
             "id": "recNlQJmQpM7f4uzA",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "KUNDAN DISTRIBUTORS PVT LTD",
             "phone1": "9763604055",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2848,13 +2867,13 @@
             "district": "Vadodara",
             "emailId": "rmplvadodara@gmail.com",
             "id": "recNvU91utN2ib4bo",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "RELIANCE MEDICAPS",
             "phone1": "9825034579",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -2869,13 +2888,13 @@
             "district": "Hyderabad",
             "emailId": "gaudevcompany@yahoo.com",
             "id": "recNvntpHEULbfa8J",
-            "lastVerifiedOn": "2021-04-25T07:16:09.000Z",
+            "lastVerifiedOn": "2021-04-27T13:00:10.000Z",
             "name": "GAUDEV & CO",
             "phone1": "040-65916729/9963107800",
             "priceCheck": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -2926,13 +2945,13 @@
             "district": "Belagavi (Belgaum)",
             "emailId": "harshainchal@gmail.com",
             "id": "recOYNIIEeqtzCXIV",
-            "lastVerifiedOn": "2021-04-23T13:39:42.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:29.000Z",
             "name": "VIVA PHARMA",
             "phone1": "0831-2423133",
             "priceCheck": null,
             "source": null,
             "state": "Karnataka",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -2945,13 +2964,13 @@
             "district": "Nashik",
             "emailId": "sureshbagadmlg@gmail.com",
             "id": "recOh6NlRRNmA63bM",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SAHYADRI DISTRIBUTOR(CHQ)",
             "phone1": "02554-253593/253",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3023,13 +3042,13 @@
             "district": "Surat",
             "emailId": "bhooladistributors9@gmail.com",
             "id": "recPp96SB7wwrIpsm",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "BHOOLA DISTRIBUTORS",
             "phone1": "9824179071",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3044,13 +3063,13 @@
             "district": "Jaipur",
             "emailId": "rohit_bawri@yahoo.com",
             "id": "recQC75AbxOkk9OHf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "ROYAL PHARMA",
             "phone1": "0141-5274210",
             "priceCheck": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3065,13 +3084,13 @@
             "district": "Yavatmal",
             "emailId": "rkassociates.ytl@gmail.com",
             "id": "recQKXqZlbaon4kmi",
-            "lastVerifiedOn": "2021-04-22T10:19:28.000Z",
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "R K ASSOCIATES",
             "phone1": "7,23,22,46,67,19,822",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3086,13 +3105,13 @@
             "district": "Solapur",
             "emailId": "baldawa.enterprises@rediffmail.com",
             "id": "recQVA7hPNUjemPpk",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "BALDAWA ENTERPRISES (CHQ)",
             "phone1": "0217-2624074/262",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3107,13 +3126,13 @@
             "district": "Mehsana",
             "emailId": "bhakticorpo@gmail.com",
             "id": "recQlurjSn5o3EQsr",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "BHAKTI CORPORATION",
             "phone1": "02765-292132",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3147,13 +3166,13 @@
             "district": "Vadodara",
             "emailId": "palakagency@gmail.com",
             "id": "recRMKqpp8ajEJRyn",
-            "lastVerifiedOn": "2021-04-24T12:59:56.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:29.000Z",
             "name": "PALAK MEDICAL AGENCY",
             "phone1": "0265 2432761 2415760",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -3166,13 +3185,13 @@
             "district": "Mumbai City",
             "emailId": "skitespharma@sk1932.com",
             "id": "recRkQhqmQQeav9zA",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SKITES PHARMA Pvt. LTD",
             "phone1": "9619309010",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3187,13 +3206,13 @@
             "district": "Hyderabad",
             "emailId": null,
             "id": "recRs6FxXVFHgFyoR",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "GAUDEV & CO(Hosp)",
             "phone1": null,
             "priceCheck": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3246,13 +3265,13 @@
             "district": "Surat",
             "emailId": "rawalfm@gmail.com",
             "id": "recTEG7ko74ikOMMv",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SHREEJEE DISTRIBUTOR",
             "phone1": "23554553",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3286,13 +3305,13 @@
             "district": "Latur",
             "emailId": "karwapharma@in.com",
             "id": "recTk9JhRegcl2gJ0",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "KARWA PHARMACEUTICALS (CHQ)",
             "phone1": "02382-249476-",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3307,13 +3326,13 @@
             "district": "Surat",
             "emailId": "k.raj.co.surat@gmail.com",
             "id": "recTnNj4foXSSwpXH",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "K RAJ & CO.",
             "phone1": "2612438769",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3328,13 +3347,13 @@
             "district": "Patna",
             "emailId": "rkeshri69@gmail.com",
             "id": "recTukAyPHMV93Jj1",
-            "lastVerifiedOn": "2021-04-23T13:02:35.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:41.000Z",
             "name": "K. V D. AGENCIES",
             "phone1": "0612 - 2301980",
             "priceCheck": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Dr. Pallabi Roy"
         },
         {
@@ -3366,13 +3385,13 @@
             "district": "Dhule",
             "emailId": "sanjaydistributorsdhule@gmail.com",
             "id": "recU0Y4oruBssndgx",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SANJAY DISTRIBUTORS",
             "phone1": "02562-235540",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3425,13 +3444,13 @@
             "district": "Solapur",
             "emailId": "humapharma123@yahoo.in",
             "id": "recUBf8YffwQLBdYa",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "HUMA PHARMA& SURGICALS(CHQ)",
             "phone1": "0217-2315969/9960445558",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3446,13 +3465,13 @@
             "district": "Nanded",
             "emailId": "dwarka.dist.nnd@gmail.com",
             "id": "recUZnw1wLYltRT7e",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "DWARAKA DISTRIBUTORS (CHQ)",
             "phone1": "9422172040",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3467,13 +3486,13 @@
             "district": "Palghar",
             "emailId": null,
             "id": "recUrkJHbgusCzsAZ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "Chaitanya Medical Store",
             "phone1": " 81492 41551",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3488,13 +3507,13 @@
             "district": "Vadodara",
             "emailId": "allied.firoz@gmail.com",
             "id": "recVAELZd0F6OXFfD",
-            "lastVerifiedOn": "2021-04-24T12:57:59.000Z",
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "ATC PHARMA PVT. LTD.",
             "phone1": "265",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Invalid",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3509,13 +3528,13 @@
             "district": "Pune",
             "emailId": null,
             "id": "recVBGaMIkPOt4QUf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "Prakash Medical Centre",
             "phone1": "020-26122264/",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3530,13 +3549,13 @@
             "district": "Pune",
             "emailId": "girish007lunavat@rediffmail.com",
             "id": "recVPfHIfTbE2xWcR",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "PRAKASH MEDICAL CENTRE",
             "phone1": "020-26122264/9890680696",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3551,13 +3570,13 @@
             "district": "Alwar",
             "emailId": "mukeshagarwalalwar@yahoo.com",
             "id": "recVYyxai1MrlKPiV",
-            "lastVerifiedOn": "2021-04-24T14:35:41.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:42.000Z",
             "name": "M K DISTRIBUTORS",
             "phone1": "9252760060",
             "priceCheck": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -3589,13 +3608,13 @@
             "district": "Kurukshetra",
             "emailId": "ajay.radhakishan@gmail.com",
             "id": "recVv8rhTuWO3HBjN",
-            "lastVerifiedOn": "2021-04-24T08:35:18.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:43.000Z",
             "name": "RADHA KISHAN PHARMACEUTICALS",
             "phone1": "9812026380",
             "priceCheck": null,
             "source": null,
             "state": "Haryana",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -3608,13 +3627,13 @@
             "district": "Nashik",
             "emailId": "kunal.medicalagn@gmail.com",
             "id": "recVxABrCttJPmdWk",
-            "lastVerifiedOn": "2021-04-23T09:37:45.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:44.000Z",
             "name": "KUNAL MEDICAL AGENCIES",
             "phone1": "09822610865/0255",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Mohita Kotkar"
         },
         {
@@ -3627,13 +3646,13 @@
             "district": "Aurangabad",
             "emailId": null,
             "id": "recW7Wp9dTstOsaK7",
-            "lastVerifiedOn": "2021-04-24T12:08:47.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:45.000Z",
             "name": "Laxmi Agencies",
             "phone1": "9372327615",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -3646,13 +3665,13 @@
             "district": "New Delhi",
             "emailId": "Medcurispharmacy@gmail.com",
             "id": "recWKWXEa8LDBtylD",
-            "lastVerifiedOn": "2021-04-23T17:55:52.000Z",
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "Medcuris Pharmacy",
             "phone1": "9319411616",
             "priceCheck": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3686,13 +3705,13 @@
             "district": "North 24 Parganas",
             "emailId": "info.availibility@cipla.com",
             "id": "recWRTd8Qvu9QmOzw",
-            "lastVerifiedOn": "2021-04-25T17:22:54.000Z",
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "Cipla",
             "phone1": "8657311088",
             "priceCheck": "Market Priced",
             "source": null,
             "state": "West Bengal",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3764,13 +3783,13 @@
             "district": "Solapur",
             "emailId": "shreemanjushreepharma@gmail.com",
             "id": "recWt7y9tPKMhZsAj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SHREE MANJUSHREE PHARMA(CHQ)",
             "phone1": "9730038395/94233",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3785,13 +3804,13 @@
             "district": "Sahibzada Ajit Singh Nagar (Mohali)",
             "emailId": "kulenterprises1@gmail.com",
             "id": "recX1Kg9ezTwfGyEX",
-            "lastVerifiedOn": "2021-04-24T06:56:16.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:49.000Z",
             "name": "KUL ENTERPRISES(RPR)",
             "phone1": "9888041014",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "MANISH NAYYAR"
         },
         {
@@ -3804,13 +3823,13 @@
             "district": "Wardha",
             "emailId": "maheshagencies98@gmail.com",
             "id": "recXCVP5xZCENXkjy",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MAHESH AGENCIES",
             "phone1": "07152-248451 942",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3825,13 +3844,13 @@
             "district": "Mumbai City",
             "emailId": "cipla@meherdistributors.com",
             "id": "recXDsAatIdzM4Zwv",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MEHER DISTRIBUTORS PVT LTD ( MW-NH",
             "phone1": "2,26,13,12,000",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -3865,13 +3884,13 @@
             "district": "Amravati",
             "emailId": "med.ishwar@gmail.com",
             "id": "recXOuNLrc0JoIYO4",
-            "lastVerifiedOn": "2021-04-23T14:45:26.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:50.000Z",
             "name": "ISHWAR AGENCIES",
             "phone1": "9326865689",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Mohita Kotkar"
         },
         {
@@ -3903,13 +3922,13 @@
             "district": "Aurangabad",
             "emailId": "anilmedical.sahuji@gmail.com",
             "id": "recXV1brYaXGiw2oJ",
-            "lastVerifiedOn": "2021-04-22T09:16:29.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:47.000Z",
             "name": "ANIL MEDICAL STORES",
             "phone1": "9890053040",
             "priceCheck": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Mohita Kotkar"
         },
         {
@@ -3941,13 +3960,13 @@
             "district": "Tiruvarur",
             "emailId": "chellasvidankar@gmail.com",
             "id": "recY945a0agVUrdcI",
-            "lastVerifiedOn": "2021-04-23T15:03:42.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:51.000Z",
             "name": "CHELLAS VIDANKAR PHARMA DISTRIBUTOR",
             "phone1": "7373089090",
             "priceCheck": null,
             "source": null,
             "state": "Tamil Nadu",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -3998,13 +4017,13 @@
             "district": "Vadodara",
             "emailId": "santram_agency@yahoo.com",
             "id": "recYRNa7qby2VDvcb",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SANTRAM MEDICAL AGENCY",
             "phone1": "9429136600",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4095,13 +4114,13 @@
             "district": "Tapi (Vyara)",
             "emailId": "modihinesh8@gmail.com",
             "id": "recZqgiPUQ9raPuID",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "TAPI DRUGS HOUSE",
             "phone1": "9426870319",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4154,13 +4173,13 @@
             "district": "Raigad",
             "emailId": "tirupatidis@gmail.com",
             "id": "recaK4RC5krPpQHbf",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "TIRUPATI DISTRIBUTORS",
             "phone1": "02143-220072 73",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4232,13 +4251,13 @@
             "district": "North 24 Parganas",
             "emailId": null,
             "id": "recat29IQf0yVZAtr",
-            "lastVerifiedOn": "2021-04-25T17:24:50.000Z",
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "Nexus",
             "phone1": "9664400575",
             "priceCheck": "Market Priced",
             "source": null,
             "state": "West Bengal",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4272,13 +4291,13 @@
             "district": "Ratnagiri",
             "emailId": "welcomedistributorschiplun@gmail.com",
             "id": "recb7taY8TeavgeQG",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "WELCOME DISTRIBUTORS",
             "phone1": "02355-261529",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4293,13 +4312,13 @@
             "district": "Mumbai City",
             "emailId": "sdpl_2006@rediffmail.com",
             "id": "recbTLV1GGUhhaTwy",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SHREEJI DISTRIBUTORS PHARMA PVT",
             "phone1": "022-49212020",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4314,13 +4333,13 @@
             "district": "Latur",
             "emailId": "bharatagencieslatur@gmail.com",
             "id": "recbXSwz7nerOnzPP",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "BHARAT AGENCIES (LATUR)(CHQ)",
             "phone1": "2,38,22,48,789",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4354,13 +4373,13 @@
             "district": "Bhopal",
             "emailId": "dishapharma08@gmail.com",
             "id": "recbfvOg2R0fJMsCs",
-            "lastVerifiedOn": "2021-04-23T06:20:46.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:00.000Z",
             "name": "Disha Pharma",
             "phone1": "07554225757/9425193497",
             "priceCheck": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
         {
@@ -4373,13 +4392,13 @@
             "district": "Navsari",
             "emailId": "jivandharapharma@gmail.com",
             "id": "recbkufHc10EFAoJP",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "ARIHANT FINE PHARMA AGENCY",
             "phone1": "9377752557",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4394,13 +4413,13 @@
             "district": "Beed",
             "emailId": "mailme.pioneer@rediffmail.com",
             "id": "recc1o16mcLK8WCGK",
-            "lastVerifiedOn": "2021-04-22T10:32:08.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:02.000Z",
             "name": "PIONEER DISTRIBUTORS",
             "phone1": "9890685890",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Mohita Kotkar"
         },
         {
@@ -4432,13 +4451,13 @@
             "district": "Indore",
             "emailId": null,
             "id": "reccVzDfbIOYIwLBE",
-            "lastVerifiedOn": "2021-04-24T05:46:38.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:01.000Z",
             "name": "P.P.ENTERPRISES",
             "phone1": "0731-4274346",
             "priceCheck": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -4451,13 +4470,13 @@
             "district": "Mumbai City",
             "emailId": null,
             "id": "reccb9glkzLVK56C4",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "Vardhman Health Specialities Pvt.",
             "phone1": "9867867440",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4491,13 +4510,13 @@
             "district": "Aurangabad",
             "emailId": null,
             "id": "reccdkPdvPTqYQWbj",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "FDA Inspector",
             "phone1": "9422496941",
             "priceCheck": null,
             "source": "Newspaper",
             "state": "Bihar",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4550,13 +4569,13 @@
             "district": "Kolhapur",
             "emailId": null,
             "id": "reccoZSC8fy6hdHwZ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SUSHIL PHARMA LLP",
             "phone1": null,
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4571,13 +4590,13 @@
             "district": "Dehradun",
             "emailId": "neeraj@ruchimedical.com",
             "id": "reccvQojBraTApUsY",
-            "lastVerifiedOn": "2021-04-23T13:29:39.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:03.000Z",
             "name": "RUCHI MEDICAL PVT. LTD",
             "phone1": "9634094090",
             "priceCheck": null,
             "source": null,
             "state": "Uttarakhand",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -4609,13 +4628,13 @@
             "district": "Chandigarh",
             "emailId": null,
             "id": "recd33vNIV79gInqV",
-            "lastVerifiedOn": "2021-04-24T06:58:46.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:03.000Z",
             "name": "SEHAJ ENTERPRISES",
             "phone1": "9569690010",
             "priceCheck": null,
             "source": null,
             "state": "Chandigarh (UT)",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "MANISH NAYYAR"
         },
         {
@@ -4628,13 +4647,13 @@
             "district": "Jalgaon",
             "emailId": "dmajalgaon@gmail.com",
             "id": "recdHsqdIb63y1Hj1",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "DHANWANTARI MEDICAL AGENCIES",
             "phone1": "9850193094",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4668,13 +4687,13 @@
             "district": "Nagpur",
             "emailId": "goyalagencykpt@gmail.com",
             "id": "recdLbra5FjAkhKcA",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "GOYAL AGENCIES",
             "phone1": "01709-288987",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4765,13 +4784,13 @@
             "district": "Satara",
             "emailId": "sph333@gmail.com",
             "id": "rece2INacHL1Vhiy7",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SUNNY PHARMA",
             "phone1": "9850266000",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4786,13 +4805,13 @@
             "district": "Nashik",
             "emailId": "prabhatmedical@gmail.com",
             "id": "rece9Tqp47ebL1ivI",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "PRABHAT MEDICAL STORES",
             "phone1": "9850929302",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4845,13 +4864,13 @@
             "district": "Pune",
             "emailId": null,
             "id": "receKrxCstFjdJptJ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MILTON LIFE CARE PVT LTD (TRADE)",
             "phone1": "022-22062944",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4885,13 +4904,13 @@
             "district": "Pune",
             "emailId": "chandanpharmapune@gmail.com",
             "id": "recec0eE5rQWW4TJi",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "CHANDAN PHARMACEUTTICAL (PUNE)",
             "phone1": "8888850912",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4906,13 +4925,13 @@
             "district": "Pune",
             "emailId": "shreeagencies.baramati@gmail.com",
             "id": "receclt8fOdBC9xLU",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SHREE AGENCIES",
             "phone1": "9822294096",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4927,13 +4946,13 @@
             "district": "Nashik",
             "emailId": "jalaramagency2002@gmail.com",
             "id": "recem1sbtGhc4ZFLj",
-            "lastVerifiedOn": "2021-04-23T09:45:40.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:05.000Z",
             "name": "M/S. Jalaram Agencies",
             "phone1": "9970950482",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Mohita Kotkar"
         },
         {
@@ -4946,13 +4965,13 @@
             "district": "Gurgaon",
             "emailId": null,
             "id": "recesFbgGWdXNdyzV",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MGS Hospital Pharmacy Punjabi Bagh",
             "phone1": "9910414142",
             "priceCheck": null,
             "source": null,
             "state": "Haryana",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -4967,13 +4986,13 @@
             "district": "Mumbai City",
             "emailId": "cipla@meherdistributors.com",
             "id": "recf00EZggMsRFoXU",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MEHER DISTRIBUTORS Pvt LTD C H",
             "phone1": "2,26,13,12,000",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5007,13 +5026,13 @@
             "district": "Ahmednagar",
             "emailId": "vishalsh74@gmail.com",
             "id": "recfB4VZSFPMGMROV",
-            "lastVerifiedOn": "2021-04-24T12:00:23.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:05.000Z",
             "name": "M/s. Prasanna Medical & General Sto",
             "phone1": "9420037963",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -5026,13 +5045,13 @@
             "district": "Chandrapur",
             "emailId": "kamalkishor.jajoo@gmail.com",
             "id": "recfDARH5mw56x68e",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SANJIVAN MEDICAL AGENCIES",
             "phone1": "9422136302",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5047,13 +5066,13 @@
             "district": "New Delhi",
             "emailId": "delhi@novacare.in",
             "id": "recfFxFIllrgI2WDl",
-            "lastVerifiedOn": "2021-04-24T08:37:50.000Z",
+            "lastVerifiedOn": "2021-04-27T13:00:27.000Z",
             "name": "NOVACARE HEALTHCARE SOLUTIONS DELHI",
             "phone1": "8860074107",
             "priceCheck": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -5082,16 +5101,16 @@
             "contactName": null,
             "createdTime": "2021-04-24T17:12:45.000Z",
             "description": "Pritampura",
-            "district": "Noida",
+            "district": "Sangli",
             "emailId": null,
             "id": "recfLeZNe1JJ2ok1Z",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "Tarun Medicos",
             "phone1": "8505864713",
             "priceCheck": null,
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5106,13 +5125,13 @@
             "district": "Washim",
             "emailId": "ajayagen@gmail.com",
             "id": "recfNi1GFt2HZtGVQ",
-            "lastVerifiedOn": "2021-04-22T08:15:30.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:18.000Z",
             "name": "AJAY AGENCIES",
             "phone1": "07252 - 234699 2",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Dr. Pallabi Roy"
         },
         {
@@ -5125,13 +5144,13 @@
             "district": "Kota",
             "emailId": "medico@nainanigroup.com",
             "id": "recfSkMEOA7Mn52Wv",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "NAINANI MEDICO,",
             "phone1": "0744-2381346",
             "priceCheck": null,
             "source": null,
             "state": "Rajasthan",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5146,13 +5165,13 @@
             "district": "Jalgaon",
             "emailId": null,
             "id": "recfSpCO9xr9FtED9",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "PALOD DISTRIBUTORS",
             "phone1": "9890032427",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5167,13 +5186,13 @@
             "district": "Sahibzada Ajit Singh Nagar (Mohali)",
             "emailId": "kulenterprises1@gmail.com",
             "id": "recfn616DBkGgjCBI",
-            "lastVerifiedOn": "2021-04-24T06:55:16.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:19.000Z",
             "name": "KUL ENTERPRISES (PTL)",
             "phone1": "9888041014",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "MANISH NAYYAR"
         },
         {
@@ -5224,13 +5243,13 @@
             "district": "Mumbai Suburban",
             "emailId": "saikrishnalifesciences01@gmail.com",
             "id": "recft9VaSZQzt9ukS",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SAI KRISHNA LIFESCIENCES",
             "phone1": "9819584067 / 075",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5245,13 +5264,13 @@
             "district": "Indore",
             "emailId": null,
             "id": "recfw7j1LTm0yKGXK",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SDH Specialty Drug house",
             "phone1": null,
             "priceCheck": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5266,13 +5285,13 @@
             "district": "Ranchi",
             "emailId": "ashish.srpharma@gmail.com",
             "id": "recg2X7kASTqkOZQ3",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "M/S S.R. PHARMA (O) RANCHI",
             "phone1": "0651-2203046",
             "priceCheck": null,
             "source": null,
             "state": "Jharkhand",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5287,13 +5306,13 @@
             "district": "Neemuch",
             "emailId": "rporwal420@gamil.com",
             "id": "recg9RY2wspinhXZ5",
-            "lastVerifiedOn": "2021-04-24T06:02:18.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:20.000Z",
             "name": "PORWAL MEDICAL(NEM)",
             "phone1": "07423-223590",
             "priceCheck": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -5306,13 +5325,13 @@
             "district": "Ranchi",
             "emailId": null,
             "id": "recgBqiSMmyJ9nK6W",
-            "lastVerifiedOn": "2021-04-25T10:58:46.000Z",
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": null,
             "phone1": "9590789313",
             "priceCheck": "Market Priced",
             "source": null,
             "state": "Jharkhand",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5327,13 +5346,13 @@
             "district": "Dhule",
             "emailId": "unique.corporation11042008@gmail.com",
             "id": "recgXfe86pORWrmcp",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "UNIQUE CORPORATION",
             "phone1": "9423979686",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5348,13 +5367,13 @@
             "district": "Nagpur",
             "emailId": "veerbhan.metro@gmail.com",
             "id": "recge4YLVjavYhuve",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "METRO MEDICAL AGENCIES",
             "phone1": "0712-27704662776",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5369,13 +5388,13 @@
             "district": "Kozhikode",
             "emailId": "alfariyas@yahoo.co.in",
             "id": "recglJ80Wh15bkjuJ",
-            "lastVerifiedOn": "2021-04-23T16:02:45.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:20.000Z",
             "name": "ALFA AGENCIES",
             "phone1": "0495-2701899",
             "priceCheck": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -5388,13 +5407,13 @@
             "district": "Jalgaon",
             "emailId": "bharat_distributors@yaho.com",
             "id": "recgnsFobxwJNpRiU",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "BHARAT DISTRIBUTORS(CHQ)",
             "phone1": "9823022391",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5409,13 +5428,13 @@
             "district": "Ratlam",
             "emailId": "spma.rtm@yahoo.com",
             "id": "recgntXuAVnCgTD4B",
-            "lastVerifiedOn": "2021-04-24T05:59:16.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:21.000Z",
             "name": "SHREE PORWAL MEDICAL AGENCIES (RTM)",
             "phone1": "07412-231607",
             "priceCheck": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -5447,13 +5466,13 @@
             "district": "Gondia",
             "emailId": "vmsgondia@gmail.com",
             "id": "rech3ICbt5QtZ04wO",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "VIKAS MEDICAL STORES",
             "phone1": "7182231523",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5506,13 +5525,13 @@
             "district": "Kheda (Nadiad)",
             "emailId": "spphama_nadiad@yahoo.com",
             "id": "rech50UAeAo3rdwrz",
-            "lastVerifiedOn": "2021-04-24T06:59:55.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:22.000Z",
             "name": "S P PHARMA AGENCY",
             "phone1": "0268 2552283",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Apoorva Vajpayee"
         },
         {
@@ -5563,13 +5582,13 @@
             "district": "Cuttack",
             "emailId": "bhartiamedical@gmail.com",
             "id": "rechXhSgexjrBLDkH",
-            "lastVerifiedOn": "2021-04-23T17:36:18.000Z",
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "HealthBuddy Bhartia Medical",
             "phone1": "9040087999",
             "priceCheck": null,
             "source": "Wakein in the store",
             "state": "Odisha",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5584,13 +5603,13 @@
             "district": "Bathinda",
             "emailId": "sehaj.bathinda@gmail.com",
             "id": "rechcSoIxgv9OiUf5",
-            "lastVerifiedOn": "2021-04-24T06:58:24.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:23.000Z",
             "name": "SEHAJ ENTERPRISES",
             "phone1": "9815990010",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "MANISH NAYYAR"
         },
         {
@@ -5622,13 +5641,13 @@
             "district": "Bathinda",
             "emailId": "garg@gargpharma.com",
             "id": "rechlSqJDJo8xTb3m",
-            "lastVerifiedOn": "2021-04-24T08:40:30.000Z",
+            "lastVerifiedOn": "2021-04-27T13:19:23.000Z",
             "name": "Garg Pharmaceuticals",
             "phone1": "0164-2235902",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "MANISH NAYYAR"
         },
         {
@@ -5641,13 +5660,13 @@
             "district": "Kolhapur",
             "emailId": "kundan.hosp.supply@gmail.com",
             "id": "reciA7IGB7GU16bAa",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "KUNDAN DISTRIBUTORS PVT LTD (ASU)",
             "phone1": "9763604055",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5662,13 +5681,13 @@
             "district": "Latur",
             "emailId": "venkateshudgir@gmail.com",
             "id": "reciVR0tMXW058SZT",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "VENKATESH ENTERPRISES(CHQ)",
             "phone1": "02385-256855",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5702,13 +5721,13 @@
             "district": "Mumbai Suburban",
             "emailId": "ab.pharmaceutical@gmail.com",
             "id": "recibJZ5d3BRHtMxP",
-            "lastVerifiedOn": "2021-04-22T07:56:04.000Z",
+            "lastVerifiedOn": "2021-04-27T12:59:03.000Z",
             "name": "A B PHARMA",
             "phone1": "022 2890 0154/28",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Dr. Pallabi Roy"
         },
         {
@@ -5759,13 +5778,13 @@
             "district": "Pune",
             "emailId": "rohitmedico1111@gmail.com",
             "id": "reciiw7EkCVq7wkpZ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "ROHIT MEDICO",
             "phone1": "9822089589",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5799,13 +5818,13 @@
             "district": "Baramulla",
             "emailId": null,
             "id": "recjOfQD85q8NmlBj",
-            "lastVerifiedOn": "2021-04-25T09:59:31.000Z",
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "Shafeeq Medicate",
             "phone1": null,
             "priceCheck": null,
             "source": null,
             "state": "Jammu & Kashmir (UT)",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5820,13 +5839,13 @@
             "district": "Jammu",
             "emailId": "apexjammu@yahoo.com",
             "id": "recjQXsH5Hx7ECUUM",
-            "lastVerifiedOn": "2021-04-23T12:59:31.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:34.000Z",
             "name": "APEX SALES",
             "phone1": "9086587000",
             "priceCheck": null,
             "source": null,
             "state": "Jammu & Kashmir (UT)",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -5839,13 +5858,13 @@
             "district": "Surat",
             "emailId": null,
             "id": "recjTiwJktqzcieEy",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "PAVAN DISTRIBUTORS",
             "phone1": null,
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5857,16 +5876,16 @@
             "contactName": null,
             "createdTime": "2021-04-24T17:12:45.000Z",
             "description": null,
-            "district": "Noida",
+            "district": "Sangli",
             "emailId": null,
             "id": "recjcpZRMlbKa8xqG",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "Cleo county, Aushadhi Pharmacy",
             "phone1": "6396856500",
             "priceCheck": null,
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5897,16 +5916,16 @@
             "contactName": null,
             "createdTime": "2021-04-24T17:12:45.000Z",
             "description": null,
-            "district": "Noida",
+            "district": "Sangli",
             "emailId": null,
             "id": "reckHFj0z8XdwekS4",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "Garg Medical Store",
             "phone1": "8448831776",
             "priceCheck": null,
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -5997,13 +6016,13 @@
             "district": "Ujjain",
             "emailId": "zeeglobal@gmail.com",
             "id": "reckjyENcKzdBTm9U",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "ZEE PHARMA(UJN)",
             "phone1": "2,55,15,82,50,13,582",
             "priceCheck": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6037,13 +6056,13 @@
             "district": "Washim",
             "emailId": "dagdiyadistributor@gmail.com",
             "id": "reclFs6ccHBZV8CYv",
-            "lastVerifiedOn": "2021-04-22T10:24:37.000Z",
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "DAGDIYA DISTRUBUTORS",
             "phone1": "07252-233023",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6058,13 +6077,13 @@
             "district": "Pune",
             "emailId": "a.tapadiya@gmail.com",
             "id": "reclfe8UcZZUJUNcA",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "TAPADIA DISTRIBUTORS",
             "phone1": "9689927263",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6136,13 +6155,13 @@
             "district": "Amravati",
             "emailId": "agencieschanda@gmail.com",
             "id": "recmTp9yIhD2OuwBO",
-            "lastVerifiedOn": "2021-04-24T11:56:24.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:49.000Z",
             "name": "CHANDA AGENCIES",
             "phone1": "0721-26735522591",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -6155,13 +6174,13 @@
             "district": "Sahibzada Ajit Singh Nagar (Mohali)",
             "emailId": "kulenterprises1@gmail.com",
             "id": "recmlBs8ce2lWgXoQ",
-            "lastVerifiedOn": "2021-04-24T06:54:46.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:50.000Z",
             "name": "KUL ENTERPRISES (CHANDIGARH)",
             "phone1": "9888041014/9888066662",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "MANISH NAYYAR"
         },
         {
@@ -6174,13 +6193,13 @@
             "district": "Rajkot",
             "emailId": "rajkotssma@gmail.com",
             "id": "recmmqiwzggoVQ2Fq",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SAURASHTRA SURGICAL MEDICAL AGENCY",
             "phone1": "9825223432",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6195,13 +6214,13 @@
             "district": "Ahmednagar",
             "emailId": "rathod.medical1@gmail.com",
             "id": "recmqXc8CLuMEgbyO",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "M/s. Rathod Medical & General stores",
             "phone1": "8208982265",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6216,13 +6235,13 @@
             "district": "Bhavnagar",
             "emailId": "maharajadistributor@gmail.com",
             "id": "recmvKcbW2Gslb2Y6",
-            "lastVerifiedOn": "2021-04-23T06:57:07.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:35.000Z",
             "name": "MAHARAJA AGENCIES",
             "phone1": "0278 - 2436017",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -6235,13 +6254,13 @@
             "district": "Bilaspur",
             "emailId": "melarambrothers.bsp@gmail.com",
             "id": "recmzWV0A4jBSSjgN",
-            "lastVerifiedOn": "2021-04-24T10:07:47.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:38.000Z",
             "name": "MELARAM & BROTHERS",
             "phone1": "9827165765",
             "priceCheck": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -6254,13 +6273,13 @@
             "district": "Parbhani",
             "emailId": null,
             "id": "recn37CCsna9GyslW",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "KATRUWAR DISTRIBUTORS",
             "phone1": "9923177487",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6275,13 +6294,13 @@
             "district": "Hyderabad",
             "emailId": "akshayamedicalagencies@gmail.com",
             "id": "recnCMZkkGpFqYs5r",
-            "lastVerifiedOn": "2021-04-22T08:35:04.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:56.000Z",
             "name": "AKSHAYA MEDICAL & SURGICAL AGENCIES",
             "phone1": "8897058832",
             "priceCheck": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Dr. Pallabi Roy"
         },
         {
@@ -6294,13 +6313,13 @@
             "district": "Nashik",
             "emailId": "mhdvagencies@gmail.com",
             "id": "recnGgnBzUTZ6FnTn",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MAHADEV AGENCIES (NASIK)",
             "phone1": "0253-2577750",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6315,13 +6334,13 @@
             "district": "Aurangabad",
             "emailId": "mr.maheshsoni@gmail.com",
             "id": "recnTYi3Wa3euRyyq",
-            "lastVerifiedOn": "2021-04-24T13:53:55.000Z",
+            "lastVerifiedOn": "2021-04-27T13:16:59.000Z",
             "name": "MAHESH PHARMACY",
             "phone1": "0240 - 2337156",
             "priceCheck": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -6353,13 +6372,13 @@
             "district": "Pune",
             "emailId": "arihant.chemist@rediffmail.com",
             "id": "recoCAUBiwSHOrt50",
-            "lastVerifiedOn": "2021-04-22T09:47:06.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:00.000Z",
             "name": "ARIHANT CHEMIST LLP, Pune",
             "phone1": "020-24433247",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Mohita Kotkar"
         },
         {
@@ -6372,13 +6391,13 @@
             "district": "Dadra & Nagar Haveli",
             "emailId": "lifeline.silvassa@gmail.com",
             "id": "recoZvcgM65IhTpmv",
-            "lastVerifiedOn": "2021-04-24T08:34:20.000Z",
+            "lastVerifiedOn": "2021-04-27T13:00:10.000Z",
             "name": "LIFE LINE MEDICAL AGENCY",
             "phone1": "9825085033",
             "priceCheck": null,
             "source": null,
             "state": "Dadra and Nagar Haveli and Daman & Diu (UT)",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Aamod Kulkarni"
         },
         {
@@ -6391,13 +6410,13 @@
             "district": "Valsad",
             "emailId": "deepmedical@yahoo.com",
             "id": "recogqfGnIbZnBBfu",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "DEEP DISTRIBUTORS",
             "phone1": "9825127704",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6507,13 +6526,13 @@
             "district": "Rajkot",
             "emailId": "kotechaent@yahoo.com",
             "id": "recpNCUYzuqhIpKaI",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "KOTECHA ENTERPRISE",
             "phone1": "281-2450230/6539330",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6528,13 +6547,13 @@
             "district": "North 24 Parganas",
             "emailId": null,
             "id": "recpUZzt1UdWzbU3Z",
-            "lastVerifiedOn": "2021-04-25T17:23:57.000Z",
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": null,
             "phone1": "9831001951",
             "priceCheck": "Market Priced",
             "source": null,
             "state": "West Bengal",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6568,13 +6587,13 @@
             "district": "Raigad",
             "emailId": "pratik@kamaldistributors.com",
             "id": "recpooyxscOLtNZPS",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "KAMAL DISTRIBUTORS Pvt LTD",
             "phone1": "9870333255",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6646,13 +6665,13 @@
             "district": "Hyderabad",
             "emailId": "yuvaraj_ar@apollopharmacy.org",
             "id": "recqGYnPCiEs8xdJl",
-            "lastVerifiedOn": "2021-04-25T07:23:45.000Z",
+            "lastVerifiedOn": "2021-04-27T13:00:15.000Z",
             "name": "APOLLO HOSPITALS ENTERPRISE LTD",
             "phone1": "9980377553",
             "priceCheck": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -6665,13 +6684,13 @@
             "district": "Nashik",
             "emailId": "mukeshdhage@rathi.com",
             "id": "recqJyTIcogxhQoad",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "S.R.MEDICALS",
             "phone1": "9422770985",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6724,13 +6743,13 @@
             "district": "Valsad",
             "emailId": "jdvapi@gmail.com",
             "id": "recqrc7rSw0tSyrWR",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "JAY DISTRIBUTORS",
             "phone1": "9825129112",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6745,13 +6764,13 @@
             "district": "Jalgaon",
             "emailId": "anandagnbsl@gmail.com",
             "id": "recr8qZcGFVD7IZgt",
-            "lastVerifiedOn": "2021-04-22T09:10:58.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:01.000Z",
             "name": "ANAND AGENCIES (CHQ)",
             "phone1": "02582-225569\n",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Mohita Kotkar"
         },
         {
@@ -6783,13 +6802,13 @@
             "district": "Mumbai City",
             "emailId": "cipla@meherdistributors.com",
             "id": "recrK5PJzfGZhTqq5",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MEHER DISTRIBUTORS PVT. LTD AP PUNE",
             "phone1": "02261312000",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6804,13 +6823,13 @@
             "district": "Sitamarhi",
             "emailId": "aman2489agarwal@gmail.com",
             "id": "recrPcXTWyoITFlIO",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "Sita Medical Hall",
             "phone1": "9611237419",
             "priceCheck": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6825,13 +6844,13 @@
             "district": "Surat",
             "emailId": "abc.sureshramani@gmail.com",
             "id": "recrigrN6AQE5fotD",
-            "lastVerifiedOn": "2021-04-22T07:55:12.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:08.000Z",
             "name": "A.B.C. DISTRIBUTORS",
             "phone1": "9825861920",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Dr. Pallabi Roy"
         },
         {
@@ -6863,13 +6882,13 @@
             "district": "Hyderabad",
             "emailId": "purchase@mrghospitals.org",
             "id": "recrtHSQPrcemFNu8",
-            "lastVerifiedOn": "2021-04-25T10:27:15.000Z",
+            "lastVerifiedOn": "2021-04-27T13:00:17.000Z",
             "name": "MALLAREDDY NARAYANA MULTISPECIALITY",
             "phone1": "8886289944",
             "priceCheck": null,
             "source": null,
             "state": "Telangana",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -6920,13 +6939,13 @@
             "district": "Sabarkantha (Himmatnagar)",
             "emailId": "jasmine245404@gmail.com",
             "id": "recsWD21hIOFGHhSM",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "JASMINE CORPORATION",
             "phone1": "02772-245404/244273",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6938,16 +6957,16 @@
             "contactName": null,
             "createdTime": "2021-04-24T17:12:45.000Z",
             "description": null,
-            "district": "Noida",
+            "district": "Sangli",
             "emailId": null,
             "id": "recsgSMpR2quN3KFC",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "Vansh Medicos, Shiv-Park",
             "phone1": "1204336588",
             "priceCheck": null,
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -6981,13 +7000,13 @@
             "district": "Ludhiana",
             "emailId": null,
             "id": "recswewJwwV1IMfOJ",
-            "lastVerifiedOn": "2021-04-23T09:39:55.000Z",
+            "lastVerifiedOn": "2021-04-27T12:59:03.000Z",
             "name": "Gandhi Medical Store",
             "phone1": "7405673733",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
         {
@@ -7000,13 +7019,13 @@
             "district": "Pune",
             "emailId": "narayan_tapadiya@yahoo.co.in",
             "id": "recszaG0THOcu1QRl",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "TAPADIA DISTRIBUTORS (PUNE)",
             "phone1": "020-24478599/244",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7021,13 +7040,13 @@
             "district": "Patan",
             "emailId": "gujrat.vinod@gmail.com",
             "id": "rect0juz6bgsiyPK4",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "GUJARAT MEDICINES",
             "phone1": "9925150320",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7042,13 +7061,13 @@
             "district": "Bilaspur",
             "emailId": "shyamsonsbsp@gmail.com",
             "id": "rect39cQru3RDoiFy",
-            "lastVerifiedOn": "2021-04-24T06:35:31.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:10.000Z",
             "name": "SHYAM & SONS",
             "phone1": "07752403968 4209799425",
             "priceCheck": null,
             "source": null,
             "state": "Chhattisgarh",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Disha Jariwala"
         },
         {
@@ -7061,13 +7080,13 @@
             "district": "Surat",
             "emailId": "shreeambica30@rocketmail.com",
             "id": "rect64ZNmSKlf391n",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SHREE AMBICA MEDICAL STORE",
             "phone1": "9374711850",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7082,13 +7101,13 @@
             "district": "Ludhiana",
             "emailId": "info@avonmedicos.com",
             "id": "rectQGv1C2zX5df5f",
-            "lastVerifiedOn": "2021-04-24T06:41:23.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:11.000Z",
             "name": "AVON MEDICOS",
             "phone1": "8288888212",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "MANISH NAYYAR"
         },
         {
@@ -7120,13 +7139,13 @@
             "district": "Ernakulam",
             "emailId": "avighnacoc@gmail.com",
             "id": "rectczzKYf4bnAknq",
-            "lastVerifiedOn": "2021-04-23T15:49:02.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:12.000Z",
             "name": "AVIGHNA ASSOCIATES CANANNORE",
             "phone1": "9895276724",
             "priceCheck": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -7139,13 +7158,13 @@
             "district": "Indore",
             "emailId": null,
             "id": "rectofsublb8SHJvz",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SDH Specialty Drug house",
             "phone1": null,
             "priceCheck": null,
             "source": null,
             "state": "Madhya Pradesh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7198,13 +7217,13 @@
             "district": "Rajkot",
             "emailId": null,
             "id": "recuGtjTCtjXRYo3a",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SURBHI MEDICAL AGENCY",
             "phone1": "2812460522",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7219,13 +7238,13 @@
             "district": "Jalna",
             "emailId": "pradip.mantri19@gmail.com",
             "id": "recuJSLUv17R2JvDY",
-            "lastVerifiedOn": "2021-04-22T10:19:39.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:19.000Z",
             "name": "BHAGIRATH AGENCY(CHQ)",
             "phone1": "02482-231470",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Mohita Kotkar"
         },
         {
@@ -7238,13 +7257,13 @@
             "district": "Parbhani",
             "emailId": "vipulpharmapsj@gmail.com",
             "id": "recuPUGkLDraTnazP",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "VIPUL PHARMA",
             "phone1": "9422876846",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7259,13 +7278,13 @@
             "district": "Solapur",
             "emailId": "amit@apteagencies.com",
             "id": "recuYgChZxPWwWLKH",
-            "lastVerifiedOn": "2021-04-22T09:24:36.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:13.000Z",
             "name": "APTE AGENCIES, (CHQ)",
             "phone1": "02184-222543/ 90",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Mohita Kotkar"
         },
         {
@@ -7297,13 +7316,13 @@
             "district": "Yavatmal",
             "emailId": null,
             "id": "recurP37VKO8NaIRr",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "HINDUSTAN AGENCIES",
             "phone1": null,
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7318,13 +7337,13 @@
             "district": "Aurangabad",
             "emailId": "lalit_vardhaman@yahoo.com",
             "id": "recuxvDkEUwjep0IA",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "VARDHAMAN DISTRIBUTORS",
             "phone1": "9890032119",
             "priceCheck": null,
             "source": null,
             "state": "Bihar",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7377,13 +7396,13 @@
             "district": "Ludhiana",
             "emailId": "sanjivani.medicos@yahoo.com",
             "id": "recvKWCBDfnofmsjN",
-            "lastVerifiedOn": "2021-04-24T11:45:23.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:21.000Z",
             "name": "SANJIVANI MEDICOS",
             "phone1": "9855400087 \n161-2773745(invalid)\n",
             "priceCheck": null,
             "source": "Phone",
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Sangharsh Sapre"
         },
         {
@@ -7453,13 +7472,13 @@
             "district": "Sabarkantha (Himmatnagar)",
             "emailId": "trustpharma.idar@gmail.com",
             "id": "recw0FDoeBCfxtmox",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "TRUST PHARMA DISTRIBUTION",
             "phone1": "02778 - 253515",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7474,13 +7493,13 @@
             "district": "Chandrapur",
             "emailId": "shrimanolaxmiagencies@gmail.com",
             "id": "recw32nHGF22dPmvQ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SHREE MANOLAXMI AGENCIES",
             "phone1": "07172-2534942521",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7514,13 +7533,13 @@
             "district": "Ernakulam",
             "emailId": "avighnacoc@gmail.com",
             "id": "recwYNryPpanWdDqk",
-            "lastVerifiedOn": "2021-04-23T15:48:59.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:24.000Z",
             "name": "AVIGHNA ASSOCIATES CALICUT",
             "phone1": "9747550880",
             "priceCheck": null,
             "source": null,
             "state": "Kerala",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         },
         {
@@ -7533,13 +7552,13 @@
             "district": "Kolhapur",
             "emailId": "diprakop@gmail.com",
             "id": "recwYtQSAqxikbSoQ",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "DIPRA AND COMPANY",
             "phone1": "9545555300",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7554,13 +7573,13 @@
             "district": "Pune",
             "emailId": "mm.pharma@rediffmail.com",
             "id": "recx13uTXxHw6rX83",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "M M PHARMA",
             "phone1": "9823116736",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7575,13 +7594,13 @@
             "district": "Ludhiana",
             "emailId": "info@avonmedicos.com",
             "id": "recxPPNmHDnRPSjso",
-            "lastVerifiedOn": "2021-04-24T06:43:22.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:25.000Z",
             "name": "AVON MEDICOS",
             "phone1": "8288888212",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "MANISH NAYYAR"
         },
         {
@@ -7594,13 +7613,13 @@
             "district": "Nagpur",
             "emailId": "vasantlal.bros@gmail.com",
             "id": "recxSJDUNjRfRyNjK",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "VASANTLAL & BROS",
             "phone1": "9373103152",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7615,13 +7634,13 @@
             "district": "Mumbai City",
             "emailId": "sainathagencies13@gmail.com",
             "id": "recxz8h66DlCvYk45",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SAINATH AGENCIES PHARMA PVT LTD",
             "phone1": "022-23534646 / 23534647/ 23534",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7633,16 +7652,16 @@
             "contactName": null,
             "createdTime": "2021-04-24T17:12:45.000Z",
             "description": null,
-            "district": "Noida",
+            "district": "Sangli",
             "emailId": null,
             "id": "recy4PTwOl8W9fYoq",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "The Medicure Chemists",
             "phone1": "0120-4340306",
             "priceCheck": null,
             "source": null,
             "state": "Uttar Pradesh",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7676,13 +7695,13 @@
             "district": "Rajkot",
             "emailId": "surajent.rajkot@gmail.com",
             "id": "recyAl0arnpOym1Z5",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "SURAJ ENTERPRISE",
             "phone1": "281-2449826",
             "priceCheck": null,
             "source": null,
             "state": "Gujarat",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7735,13 +7754,13 @@
             "district": "New Delhi",
             "emailId": "info@aaraarhealthcare.com",
             "id": "recygkFr8Z0Tk3LO1",
-            "lastVerifiedOn": "2021-04-22T07:54:14.000Z",
+            "lastVerifiedOn": "2021-04-27T12:59:03.000Z",
             "name": "AAR AAR Healthcare",
             "phone1": "8826929090",
             "priceCheck": null,
             "source": null,
             "state": "Delhi (NCT)",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Dr. Pallabi Roy"
         },
         {
@@ -7754,13 +7773,13 @@
             "district": "Ludhiana",
             "emailId": "angi.agency@gmail.com",
             "id": "recylkkSRu2tUfABf",
-            "lastVerifiedOn": "2021-04-23T08:16:02.000Z",
+            "lastVerifiedOn": "2021-04-27T12:59:03.000Z",
             "name": "ANGI AGENCY",
             "phone1": "9825931530",
             "priceCheck": null,
             "source": null,
             "state": "Punjab",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Apoorva Vajpayee"
         },
         {
@@ -7792,13 +7811,13 @@
             "district": "Osmanabad",
             "emailId": "rms.rajmane@gmail.com",
             "id": "recywS44uCC8LJR7c",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "RAJMANE MEDICAL STORES",
             "phone1": "9422069948",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7813,13 +7832,13 @@
             "district": "Nanded",
             "emailId": "prashantdeshmukh3125@gmail.com",
             "id": "recz5j9x4WWem0KNC",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "VIVEK MEDICAL STORES(CHQ)",
             "phone1": "9421766182",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7834,13 +7853,13 @@
             "district": "Mumbai City",
             "emailId": "purchase@meherdistributors.com",
             "id": "reczPn7EyCvX1RjYt",
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": "MEHER DISTRIBUTORS PVT.LTD. (BYCULL",
             "phone1": "2,26,13,12,000",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Unresponsive",
+            "verificationStatus": "Pending",
             "verifiedBy": [
                 {}
             ]
@@ -7855,13 +7874,13 @@
             "district": "Chandigarh",
             "emailId": null,
             "id": "reczUWdTwx7IXiR3T",
-            "lastVerifiedOn": "2021-04-22T16:10:37.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:27.000Z",
             "name": "FAMILY CHEMISTS",
             "phone1": "5055455",
             "priceCheck": null,
             "source": null,
             "state": "Chandigarh (UT)",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Dr. Pallabi Roy"
         },
         {
@@ -7931,13 +7950,13 @@
             "district": "Akola",
             "emailId": "prashant.bhartiya123@gmail.com",
             "id": "recznCUE9TQN1N8Qi",
-            "lastVerifiedOn": "2021-04-24T11:48:27.000Z",
+            "lastVerifiedOn": "2021-04-27T13:17:28.000Z",
             "name": "BHARTIYA AGENCIES",
             "phone1": "0724-2414943 94",
             "priceCheck": null,
             "source": null,
             "state": "Maharashtra",
-            "verificationStatus": "Verified",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Karthik Yadhati"
         }
     ]

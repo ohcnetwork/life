@@ -3,10 +3,46 @@ import React, { useEffect, useState } from 'react';
 
 import { districtWithState } from '@lib/api';
 import { parametreize, humanize, activeStates } from '@lib/utils';
+import TwitterResultCard from '@components/TwitterResult';
+
+function useFetch(searchStr, resourceType = 'supply', maxResults = 25) {
+    const url = `https://covidconnect.vercel.app/api/data?city=${searchStr}&resource_type=${resourceType}&max_results=${maxResults}`;
+    const [data, setData] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        async function fetchUrl() {
+            if (!searchStr.length) {
+                return;
+            }
+            const response = await fetch(url);
+            const temp = await response.json();
+            const json = {
+                res: temp
+            };
+            if (
+                !json ||
+                !json.res ||
+                !json.res.response ||
+                !json.res.response.api_response ||
+                !json.res.response.api_response.data
+            ) {
+                setData([]);
+            } else {
+                setData(json.res.response.api_response.data);
+            }
+            setLoading(false);
+        }
+        fetchUrl();
+    }, [url]);
+    return [data, loading];
+}
+export { useFetch };
 
 const Selector = ({ data, page, placeholder, localeState, localeDistrict }) => {
     const [searchStr, setSearchStr] = useState('');
     const [editing, setEditing] = useState(false);
+    const [covidConnectResults, loading] = useFetch(searchStr);
 
     const filterTests = (_data, field = null) => {
         return _data
@@ -30,6 +66,7 @@ const Selector = ({ data, page, placeholder, localeState, localeDistrict }) => {
             window.removeEventListener('click', curriedFn, true);
         };
     }, []);
+
     return (
         <>
             <input
@@ -73,7 +110,7 @@ const Selector = ({ data, page, placeholder, localeState, localeDistrict }) => {
                             {filterTests(districtWithState(page), 'district').map((i) => {
                                 const url = `/${parametreize(i.state)}/${parametreize(
                                     i.district
-                                )}/${page}`;
+                                )}/${page === 'all' ? '' : page}`;
                                 return (
                                     <div key={i.district} className="md">
                                         <Link href={url}>{humanize(i.district)}</Link>
@@ -83,6 +120,13 @@ const Selector = ({ data, page, placeholder, localeState, localeDistrict }) => {
                         </div>
                     )}
                 </div>
+            )}
+            {loading ? (
+                <></>
+            ) : (
+                (searchStr || editing) && (
+                    <TwitterResultCard covidConnectResults={covidConnectResults} />
+                )
             )}
         </>
     );

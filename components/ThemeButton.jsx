@@ -27,8 +27,8 @@ const ThemeButton = () => {
     return (
         <span
             onClick={toggleTheme}
-            className="cursor-pointer fixed top-3 right-3 flex items-center justify-center h-10 w-10 bg-gray-200 text-gray-800 dark:bg-gray-1000 z-50 rounded-full">
-            <FontAwesomeIcon icon={isDarkModeEnabled ? faSun : faMoon} className="w-6" />
+            className="cursor-pointer flex items-center justify-center h-10 w-10 bg-gray-300 text-gray-900 dark:bg-gray-1000 z-50 rounded-full">
+            <FontAwesomeIcon icon={isDarkModeEnabled ? faSun : faMoon} className="w-6 dark:text-gray-300" />
         </span>
     );
 };

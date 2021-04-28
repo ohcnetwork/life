@@ -52,7 +52,7 @@ export default {
     a10: `Run by your company, friends, college, on social media that have similar data.
   Reach out to them, talk about us. Earnest request to get other initiatives to
   collaborate as consolidation is important in the problem that we are solving. We
-  don&#39;t seek credits, we just want this information to reach. Our goal is to
+  don't seek credits, we just want this information to reach. Our goal is to
   provide the right information to the right people at the right time in the right
   manner.`,
     q11: `Disclaimer`,
