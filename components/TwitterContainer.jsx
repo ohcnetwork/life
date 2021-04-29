@@ -41,7 +41,7 @@ const Selector = ({ searchStr, noRes, noResText }) => {
     return (
         <div className="mb-2 h-full shadow-lg max-w-3xl mx-auto">
             {noRes && (
-                <div className="my-6 pl-4 dark:text-gray-600">
+                <div className="my-6 pl-4 dark:text-gray-600 font-medium">
                     <p>No Results Found For "{noResText}"</p>
                     <p>Trying to Search Via Twitter</p>
                 </div>
