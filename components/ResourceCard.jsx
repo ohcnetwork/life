@@ -24,7 +24,7 @@ const ResourceCard = ({ data, type: filterType }) => {
 
     return (
         <div id={id} className="max-w-3xl bg-white dark:bg-gray-1200 dark:text-gray-300 shadow-md rounded-md mx-2 md:mx-auto my-5 px-3 py-4">
-            {isAll && <div className="mx-auto text-xs mb-2 md:ml-5 py-1 px-2 bg-gray-400 w-min rounded-full">{resourceType}</div>}
+            {isAll && <div className="mx-auto text-xs mb-2 md:ml-5 py-1 px-2 bg-gray-400 dark:bg-gray-900 w-min rounded-full">{resourceType}</div>}
             {/* Header */}
             <div className="flex items-center md:justify-between justify-around px-5 flex-wrap">
                 <div className="flex items-center flex-wrap justify-around">
