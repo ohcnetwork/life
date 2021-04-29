@@ -1,11 +1,9 @@
 import React from 'react';
-import { getAmbulances } from '@lib/api';
 import { humanize, statePaths } from '@lib/utils';
-import EntityCard from '@components/EntityCard';
-import Breadcumb from '@components/Breadcumb';
 import { NextSeo } from 'next-seo';
+import DetailedHome from '@components/DetailedHome';
 
-export default function Ambulance({ state, district, ambulancesListing }) {
+export default function Ambulance({ state, district }) {
     const SEO = {
         title: `Ambulance in ${humanize(district)} , ${humanize(state)}`,
         description: `Covid19 Resources for Ambulance in ${humanize(district)} , ${humanize(
@@ -27,32 +25,14 @@ export default function Ambulance({ state, district, ambulancesListing }) {
         ]
     };
     return (
-        <div className="pt-10">
+        <>
             <NextSeo {...SEO} />
-            <Breadcumb
-                list={[
-                    { href: `/${state}`, name: humanize(state) },
-                    { href: `/${state}/${district}`, name: humanize(district) },
-                    { href: null, name: 'Ambulance' }
-                ]}
+            <DetailedHome
+                state={humanize(state)}
+                district={humanize(district)}
+                type="Ambulance"
             />
-            <div className="w-full space-y-4 mt-4 mb-4">
-                {ambulancesListing.map((a) => (
-                    <EntityCard
-                        key={a.id}
-                        id={a.id}
-                        name={a.name || 'Ambulance'}
-                        phone1={a.phone1}
-                        phone2={a.phone2}
-                        area={a.area}
-                        source={a.source}
-                        createdTime={a.createdTime}
-                        verificationStatus={a.verificationStatus}
-                        lastVerifiedOn={a.lastVerifiedOn}
-                    />
-                ))}
-            </div>
-        </div>
+        </>
     );
 }
 
@@ -61,7 +41,6 @@ export async function getStaticProps({ params }) {
         props: {
             state: params.state,
             district: params.district,
-            ambulancesListing: getAmbulances(params.state, params.district, true)
         }
     };
 }

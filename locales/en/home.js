@@ -28,5 +28,12 @@ export default {
     github: 'Github',
     database: 'Database',
     about: 'About',
+    select: 'Select',
+    selectResource: 'Select Resource',
+    startSearchingAmong: 'Start Searching among',
+    resources: 'Resources',
+    disclaimer: 'Disclaimer',
+    dataNotOwned: 'Data is not owned or created by us',
+    knowMore: 'Know More',
     infoOnCovid: 'Info on COVID-19'
 };

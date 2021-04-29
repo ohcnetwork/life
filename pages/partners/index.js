@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import { NextSeo } from 'next-seo';
 import React from 'react';
+import Header from '@components/Header';
 
 const partners = [
     {
@@ -77,15 +78,11 @@ const Partners = () => {
     };
 
     return (
-        <section className="md:pt-10">
+        <section className="max-w-5xl mx-auto px-2">
             <NextSeo {...SEO} />
             <Breadcumb list={[{ href: null, name: 'Partner with us' }]} />
-
+            <Header title="Partner with Us" />
             <section className="py-10 dark:text-gray-500 text-gray-900 px-2 md:mx-10">
-                <h1 className="mt-4 text-gray-900 dark:text-gray-200 mr-4 text-4xl font-bold">
-                    Partner with us
-                </h1>
-
                 <div className="flex justify-between items-center w-full">
                     <div className="space-y-4 w-full my-4 dark:text-white">
                         Citizen's groups and civil society organisations providing Covid Relief have
@@ -121,7 +118,7 @@ const Partners = () => {
                 </div>
             </section>
 
-            <section className="pb-10 dark:text-gray-500 text-gray-900 px-2 md:mx-10" id = "partner">
+            <section className="pb-10 dark:text-gray-500 text-gray-900 px-2 md:mx-10" id="partner">
                 <div className="flex flex-row">
                     <div>
                         <h1 className="text-gray-900 dark:text-gray-200 mr-4 text-4xl font-bold">

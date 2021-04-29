@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Breadcumb from '@components/Breadcumb';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
+import Header from '@components/Header';
 
 const campaign = {
     id: 1,
@@ -47,7 +48,9 @@ const Campaigns = () => {
     const { locale } = useLocaleContext();
     const t = useLocale(locale, 'campaigns');
     return (
-        <section className="mt-10 md:pt-10 bg-gray-200 dark:bg-gray-1200">
+        <section className="max-w-5xl mx-auto px-2">
+            <Breadcumb list={[{ href: null, name: 'Campaigns' }]} />
+            <Header title="Campaigns" />
             <section className="flex flex-col items-center">
                 <div className=" w-full ">
                     <div className="pt-5 w-3/4 mx-auto md:px-10">

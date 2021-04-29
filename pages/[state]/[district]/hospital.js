@@ -3,15 +3,15 @@ import { statePaths, humanize } from '@lib/utils';
 import { NextSeo } from 'next-seo';
 import DetailedHome from '@components/DetailedHome';
 
-export default function Helpline({ state, district }) {
+export default function Hospitals({ state, district }) {
     const SEO = {
-        title: `Helpline in ${humanize(district)} , ${humanize(state)}`,
-        description: `Covid19 Resources for Helpline in ${humanize(district)} , ${humanize(
+        title: `Hospitals in ${humanize(district)} , ${humanize(state)}`,
+        description: `Covid19 Resources for Hospitals in ${humanize(district)} , ${humanize(
             state
         )} `,
         openGraph: {
-            title: `Helpline in ${humanize(district)} , ${humanize(state)}`,
-            description: `Covid19 Resources for Helpline in ${humanize(district)} , ${humanize(
+            title: `Hospitals in ${humanize(district)} , ${humanize(state)}`,
+            description: `Covid19 Resources for Hospitals in ${humanize(district)} , ${humanize(
                 state
             )} `
         },
@@ -20,7 +20,7 @@ export default function Helpline({ state, district }) {
                 property: 'keywords',
                 content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
                     district
-                )},${humanize(state)},helpline`
+                )},${humanize(state)},hospitals`
             }
         ]
     };
@@ -30,7 +30,7 @@ export default function Helpline({ state, district }) {
             <DetailedHome
                 state={humanize(state)}
                 district={humanize(district)}
-                type="Helpline"
+                type="Hospital"
             />
         </>
     );
@@ -47,7 +47,7 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
     return {
-        paths: statePaths('helpline'),
+        paths: statePaths('hospitals'),
         fallback: false
     };
 }

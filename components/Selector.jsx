@@ -4,10 +4,6 @@ import React, { useEffect, useState } from 'react';
 import { districtWithState } from '@lib/api';
 import { parametreize, humanize, activeStates } from '@lib/utils';
 import TwitterResultCard from '@components/TwitterResult';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import '@fortawesome/fontawesome-svg-core/styles.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import PulseSvg from '@components/PulseSvg';
 
 function useFetch(searchStr, resourceType = 'supply', maxResults = 25) {
     const url = `https://covidconnect.vercel.app/api/data?city=${searchStr}&resource_type=${resourceType}&max_results=${maxResults}`;
@@ -73,39 +69,25 @@ const Selector = ({ data, page, placeholder, localeState, localeDistrict }) => {
 
     return (
         <>
-            <div className="mb-2 shadow-lg">
-                <input
-                    key="search-bar"
-                    type="text"
-                    className="mt-6 w-full h-12 rounded-t  focus:outline-none focus:shadow-outline text-xl px-8  dark:bg-gray-1200  dark:placeholder-gray-500 dark:text-gray-200"
-                    placeholder={placeholder}
-                    value={searchStr}
-                    onChange={(e) => {
-                        setEditing(false);
-                        setSearchStr(e.target.value);
-                    }}
-                    onClick={(e) => {
-                        setEditing(true);
-                        e.stopPropagation();
-                    }}
-                />
-                <div className="px-8 py-2  text-gray-500 bg-gray-100 dark:bg-gray-1200 opacity-80 rounded-b text">
-                    <FontAwesomeIcon
-                        className="text-blue-500 mr-2"
-                        title="Share on Twitter"
-                        icon={faTwitter}
-                    />
-                    <span>Searching Would Also Display Real Time Tweets Below</span>
-                    <span className="ml-2">
-                        <PulseSvg className="inline stroke-current text-blue-600" width={25} />
-                    </span>
-                </div>
-            </div>
-
+            <input
+                key="search-bar"
+                type="text"
+                className="mt-6 w-full h-12 rounded mb-2 focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg dark:bg-gray-1200 dark:placeholder-gray-500 dark:text-gray-200"
+                placeholder={placeholder}
+                value={searchStr}
+                onChange={(e) => {
+                    setEditing(false);
+                    setSearchStr(e.target.value);
+                }}
+                onClick={(e) => {
+                    setEditing(true);
+                    e.stopPropagation();
+                }}
+            />
             {(searchStr || editing) && (
                 <div
                     key="result"
-                    className="p-4 bg-white  dark:bg-gray-1200 dark:text-gray-400 mt-1 rounded-lg shadow-lg flex">
+                    className="p-4 bg-white  dark:bg-gray-1200 dark:text-gray-400 mt-1 rounded-lg rounded-b-none shadow-lg flex">
                     {filterTests(activeStates(districtWithState(page))).length !== 0 && (
                         <div className="w-1/2 p-4">
                             <h1 className="font-semibold text-lg dark:text-gray-200">
@@ -143,7 +125,10 @@ const Selector = ({ data, page, placeholder, localeState, localeDistrict }) => {
                 <></>
             ) : (
                 (searchStr || editing) && (
-                    <TwitterResultCard covidConnectResults={covidConnectResults} />
+                    <TwitterResultCard
+                        searchStr={searchStr}
+                        covidConnectResults={covidConnectResults}
+                    />
                 )
             )}
         </>

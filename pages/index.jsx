@@ -35,7 +35,7 @@ export default function Home() {
     const [selectedFilter, setSelectedFilter] = useState('all');
     return (
         <div>
-            <section className="flex flex-col items-center mt-12">
+            <section className="flex max-w-5xl mx-auto flex-col items-center mt-12">
                 <Logo width={100} />
                 <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">
                     {t.title}
@@ -58,7 +58,7 @@ export default function Home() {
                         page={selectedFilter}
                     />
                 </div>
-                <div className="flex flex-wrap items-center justify-evenly mt-6 ">
+                <div className="flex flex-wrap items-center  justify-evenly mt-6 ">
                     {selectedFilter === 'vaccine' ? (
                         <div className="inline-flex items-center px-4 py-3 border border-transparent shadow-sm text-lg leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white mb-4">
                             Coming Soon!
@@ -88,19 +88,7 @@ export default function Home() {
                             {t.covid19Stats}
                         </button>
                     </a>
-                    {/* <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS7nP0QvIvm5VDEbVDG0ELECYS446P-MgLwdX_elDrYbkN39g_o90wmJIMcazmcLH38Snn7rSqwAS_y/pubhtml?gid=972869835&single=true">
-                        <button
-                            type="button"
-                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
-                            <FontAwesomeIcon
-                                className="text-white-400 w-4 mr-4"
-                                title="Covid 19 Statistics"
-                                icon={faMedkit}
-                            />
-                            {t.oxygenRequirements}
-                        </button>
-                    </a> */}
-                    <a href="/oxygen_requirements">
+                    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS7nP0QvIvm5VDEbVDG0ELECYS446P-MgLwdX_elDrYbkN39g_o90wmJIMcazmcLH38Snn7rSqwAS_y/pubhtml?gid=972869835&single=true">
                         <button
                             type="button"
                             className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
@@ -112,6 +100,30 @@ export default function Home() {
                             {t.oxygenRequirements}
                         </button>
                     </a>
+                    <a href="https://docs.google.com/spreadsheets/d/1BEXdf68gxsYsp3Hsc0gUEPbH_wx0kSbu/edit#gid=438108583">
+                        <button
+                            type="button"
+                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                            <FontAwesomeIcon
+                                className="text-white-400 w-4 mr-4"
+                                title="FDA Officers Contact"
+                                icon={faBuilding}
+                            />
+                            {t.fdaOfficerContact}
+                        </button>
+                    </a>
+                    {/* <a href="/oxygen_requirements">
+                        <button
+                            type="button"
+                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                            <FontAwesomeIcon
+                                className="text-white-400 w-4 mr-4"
+                                title="Covid 19 Statistics"
+                                icon={faMedkit}
+                            />
+                            {t.oxygenRequirements}
+                        </button>
+                    </a> */}
                 </div>
                 <div className="flex space-x-3">
                     <div className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white  mt-6">

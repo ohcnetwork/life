@@ -45,8 +45,8 @@ const NavBar = () => {
     ];
 
     return (
-        <section className="mb-20">
-            <nav className="flex bg-gray-200 dark:bg-gray-1200 items-center justify-between px-5 py-2 fixed top-0 left-0 w-full z-50 md:shadow-sm">
+        <section className="mb-20 mx-auto">
+            <nav className="flex bg-gray-200 dark:bg-gray-1200 items-center justify-between px-5 py-2 fixed top-0 left-0  w-full  z-50">
                 <div
                     onClick={() => setIsOpen((prev) => !prev)}
                     className="flex items-center m-3 cursor-pointer md:hidden">
@@ -79,7 +79,7 @@ const NavBar = () => {
                 </div>
             </nav>
             {isOpen && (
-                <div className="flex bg-gray-200 dark:bg-gray-1200 py-2 flex-col items-center justify-center md:hidden px-4 mt-20">
+                <div className="flex bg-gray-200 dark:bg-gray-1200 py-2 flex-col items-center justify-center md:hidden px-4 fixed top-20 left-0 w-full z-50">
                     {navLinks.map(({ icon, title, link }, id) => (
                         <NavLink key={id} title={title} link={link} icon={icon} />
                     ))}
