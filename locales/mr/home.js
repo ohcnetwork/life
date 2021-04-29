@@ -25,7 +25,7 @@ export default {
     poweredBy: 'द्वारा समर्थित',
     github: 'गीथब',
     database: 'डेटाबेस',
-    about: 'बद्दल',
+    about: 'आमच्याबद्दल',
     infoOnCovid: `COVID-19 वर माहिती`,
     select: 'निवडा',
     selectResource: 'स्त्रोत निवडा',
