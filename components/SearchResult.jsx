@@ -39,9 +39,8 @@ const SearchResult = ({ resources, type, district, state }) => {
                             />
                         ) :
                         <NoResultFound
-                            type={type}
-                            district={district}
-                            state={state}
+                            type="Tweets"
+                            text={`${type} in ${district}, ${state}`}
                         />
                 }
             </main>
