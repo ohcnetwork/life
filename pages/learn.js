@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Breadcumb from '@components/Breadcumb';
+import Header from '@components/Header';
 
 const languages = [
     {
@@ -104,19 +105,15 @@ const renderLanguageElement = (data) => (
 
 const Learn = () => {
     return (
-        <div className="py-10 text-gray-900 font-bold px-2 md:mx-10">
-            <h2 className="text-3xl md:text-4xl xl:text-5xl tracking-tight font-bold leading-tight dark:text-white">
-                Learn
-            </h2>
-            <div>
+        <React.Fragment>
+            <div className="font-bold max-w-5xl mx-auto px-2">
                 <Breadcumb list={[{ href: null, name: 'Learn' }]} />
-            </div>
-            <div className="flex flex-col  items-center justify-center space-y-4 w-full my-4">
-                <div className="flex flex-col items-center justify-center space-y-4 w-full my-4">
+                <Header title="Learn" />
+                <div className="flex flex-wrap  items-center justify-center space-y-4 w-full my-4">
                     {languages.map((l) => renderLanguageElement(l))}
                 </div>
             </div>
-        </div>
+        </React.Fragment>
     );
 };
 

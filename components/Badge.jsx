@@ -1,49 +1,31 @@
 import React from 'react';
 import {
     faCheckCircle,
-    faExclamationTriangle
+    faExclamationCircle
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-const badgeData = {
-    'verified': {
-        icon: faCheckCircle,
-        title: 'Verified',
-        className: "text-green-600 w-6",
-        textClassName: 'text-lg'
-    },
-    'unresponsive': {
-        icon: faExclamationTriangle,
-        title: 'Not Verified',
-        className: 'text-yellow-400 w-6',
-        textClassName: 'text-lg'
-    },
-    'unverified': {
-        icon: faExclamationTriangle,
-        title: 'Not Verified',
-        className: 'text-yellow-400 w-6',
-        textClassName: 'text-lg'
-    }
-};
+import { isVerified } from '@lib/utils';
 
 const Badge = ({
-    badgeType,
+    verificationStatus,
 }) => {
-    if (!badgeType || (badgeType && !badgeData[badgeType.toLowerCase()])) {
-        return null;
+
+    if (isVerified(verificationStatus)) {
+        return (
+            <span className="text-green-600 dark:bg-gray-900 flex items-center text-xs mx-2 bg-gray-100 py-1 px-2 rounded-full mt-1 md:mt-0">
+                <FontAwesomeIcon icon={faCheckCircle} className="w-5" />
+                <span className="ml-1 dark:text-gray-400">Verified</span>
+            </span>
+        )
     }
-    const badge = badgeData[badgeType.toLowerCase()];
+
+    verificationStatus = `${verificationStatus}`.toLowerCase().includes("unresponsive") ? "Unresponsive" : "Not Verified";
+
     return (
-        <div
-            className="flex items-center"
-        >
-            <FontAwesomeIcon
-                className={badge.className}
-                title={badge.title}
-                icon={badge.icon}
-            />
-            <span className={`ml-2 ${badge.textClassName}`}>{badge.title}</span>
-        </div>
+        <span className="text-red-600 dark:bg-gray-900 dark:text-primary-500 flex items-center text-xs mx-2 bg-gray-100 py-1 px-2 rounded-full mt-1 md:mt-0">
+            <FontAwesomeIcon icon={faExclamationCircle} className="w-5" />
+            <span className="ml-1 dark:text-gray-400">{verificationStatus}</span>
+        </span>
     );
 }
 

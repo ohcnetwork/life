@@ -3,22 +3,24 @@ import { statePaths, humanize } from '@lib/utils';
 import { NextSeo } from 'next-seo';
 import Home from 'pages';
 
-export default function Oxygen({ state, district }) {
+export default function Hospitals({ state, district }) {
     const SEO = {
-        title: `Oxygen in ${humanize(district)} , ${humanize(state)}`,
-        description: `Covid19 Resources for Oxygen in ${humanize(district)} , ${humanize(state)}`,
+        title: `Hospitals in ${humanize(district)} , ${humanize(state)}`,
+        description: `Covid19 Resources for Hospitals in ${humanize(district)} , ${humanize(
+            state
+        )} `,
         openGraph: {
-            title: `Oxygen in ${humanize(district)} , ${humanize(state)}`,
-            description: `Covid19 Resources for Oxygen in ${humanize(district)} , ${humanize(
+            title: `Hospitals in ${humanize(district)} , ${humanize(state)}`,
+            description: `Covid19 Resources for Hospitals in ${humanize(district)} , ${humanize(
                 state
-            )}`
+            )} `
         },
         additionalMetaTags: [
             {
                 property: 'keywords',
                 content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
                     district
-                )},${humanize(state)},oxygen`
+                )},${humanize(state)},hospitals`
             }
         ]
     };
@@ -28,7 +30,7 @@ export default function Oxygen({ state, district }) {
             <Home
                 state={humanize(state)}
                 district={humanize(district)}
-                type="Oxygen"
+                type="Hospital"
             />
         </>
     );
@@ -45,7 +47,7 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
     return {
-        paths: statePaths('oxygen'),
+        paths: statePaths('hospitals'),
         fallback: false
     };
 }

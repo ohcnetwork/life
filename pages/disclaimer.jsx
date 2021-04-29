@@ -7,7 +7,7 @@ const Disclaimer = () => {
     const t = useLocale(locale, 'about');
 
     return (
-        <section className="dark:text-gray-100 text-gray-1000">
+        <section className="max-w-5xl mx-auto px-2 dark:text-gray-100 text-gray-1000">
             <div className="pt-10">
                 <Breadcumb list={[{ href: null, name: t.q11 }]} />
             </div>
@@ -15,6 +15,7 @@ const Disclaimer = () => {
             <section className="py-3 flex flex-col space-y-2">
                 <p>
                     {t.a112}
+                    {` `}
                     {
                         <a
                             className="text-indigo-500 font-semibold mt-2 text-md"
@@ -23,6 +24,7 @@ const Disclaimer = () => {
                             https://liferesources.in/
                         </a>
                     }
+                    {` `}
                     {t.a113}
                 </p>
                 <p>{t.a114}</p>
