@@ -74,7 +74,7 @@ export default function Home({ state, district, type }) {
     };
 
     return (
-        <section className="w-full mx-auto px-2">
+        <section className="max-w-7xl mx-auto px-2">
             <div className="bg-gray-200 dark:bg-gray-1200 text-center pt-5 pb-20">
                 <h1 className="font-semibold text-xl dark:text-gray-300">{t.description}</h1>
             </div>
@@ -85,15 +85,15 @@ export default function Home({ state, district, type }) {
                         optionsList={states}
                         handleChange={handleChooseState}
                         label={`${t.select} ${t.state}`}
+                        divider
                     />
-                    <div className="bg-gray-100 dark:bg-gray-1000 h-1 transform rotate-90 w-12 my-2 hidden md:block" />
                     <HomeSelector
                         val={districtChoosen}
                         optionsList={districts}
                         handleChange={handleDistrictChange}
                         label={`${t.select} ${t.district}`}
+                        divider
                     />
-                    <div className="bg-gray-100 dark:bg-gray-1000 h-1 transform rotate-90 w-12 my-2 hidden md:block " />
                     <HomeSelector
                         val={resourceChoosen}
                         optionsList={Object.keys(resources)}
