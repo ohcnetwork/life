@@ -1,0 +1,44 @@
+#campaign a {
+    @apply truncate text-indigo-900 dark:text-primary-500 font-semibold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-bold pt-6 pb-2;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.875rem;
+}
+
+#campaign li {
+    @apply list-disc ml-8;
+}
+
+#campaign p {
+    @apply pb-2;
+}
