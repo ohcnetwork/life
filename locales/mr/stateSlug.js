@@ -1,5 +1,5 @@
 export default {
     share: `शेयर`,
-    searchResFor: `Search Result For`,
-    searchPlaceholder: `Search Districts For`
+    searchResFor: `यासाठी शोध निकाल`,
+    searchPlaceholder: `यासाठी जिल्हे शोधा`
 };
