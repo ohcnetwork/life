@@ -41,15 +41,12 @@ const Selector = ({ searchStr }) => {
     return (
         <>
             <div className="mb-2 shadow-lg max-w-3xl mx-auto">
-                {loading ? (
-                    <></>
-                ) : (
-                    searchStr && (
-                        <TwitterResultCard
-                            searchStr={searchStr}
-                            covidConnectResults={covidConnectResults}
-                        />
-                    )
+                {searchStr && (
+                    <TwitterResultCard
+                        searchStr={searchStr}
+                        loading={loading}
+                        covidConnectResults={covidConnectResults}
+                    />
                 )}
             </div>
         </>
