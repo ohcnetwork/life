@@ -62,7 +62,7 @@ const Footer = () => {
 
                 <p className="mb-5 sm:mb-0 text-center text-base text-gray-500">
                     {`${t.poweredBy} `}
-                    <a href="https://coronasafe.network/">
+                    <a onClick={() => {  throw Error("Sample Error for Testing in Production") }} href="https://coronasafe.network/">
                         <span className="underline cursor-pointer text-indigo-600 dark:text-primary-500">
                             CoronaSafe Network
                         </span>
