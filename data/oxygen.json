@@ -127,9 +127,7 @@
                 "Oxygen Cylinders"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "MUTHARASI S K"
         },
         {
             "availability": null,
@@ -3284,9 +3282,7 @@
                 "Oxygen Cylinders For Home Use"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "MUTHARASI S K"
         },
         {
             "availability": null,
@@ -4627,9 +4623,7 @@
             "state": "West Bengal",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "MUTHARASI S K"
         },
         {
             "availability": null,
@@ -5675,9 +5669,7 @@
             "state": "Uttar Pradesh",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "MUTHARASI S K"
         },
         {
             "availability": null,
@@ -7552,9 +7544,7 @@
             "state": "West Bengal",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "MUTHARASI S K"
         },
         {
             "availability": null,
@@ -9406,8 +9396,8 @@
             "emailId": "Landed on indiamart, seller not responding",
             "homeDeliveryAvailable": null,
             "id": "recKGGjvJqHTsHxXO",
-            "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "instructions": "wrong number",
+            "lastVerifiedOn": "2021-04-29T14:59:59.000Z",
             "name": "Raigad Carbides",
             "phone1": 9850756388,
             "phone2": null,
@@ -9417,7 +9407,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Ashish Mathew"
         },
         {
@@ -9569,9 +9559,7 @@
             "state": "Jharkhand",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "MUTHARASI S K"
         },
         {
             "availability": "Available",
@@ -9830,7 +9818,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Unreachable, Not answering anything,,, Wrong number.",
             "companyName": "Mithilesh",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -9839,7 +9827,7 @@
             "homeDeliveryAvailable": null,
             "id": "recKvgf5SVImMZynX",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-29T15:05:28.000Z",
             "name": "Fahat",
             "phone1": 9334101941,
             "phone2": null,
@@ -9849,7 +9837,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Ashish Mathew"
         },
         {
@@ -11286,9 +11274,7 @@
                 "Others"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "MUTHARASI S K"
         },
         {
             "availability": null,
@@ -11474,9 +11460,7 @@
                 "Oxygen Cylinders - Empty"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "MUTHARASI S K"
         },
         {
             "availability": null,
@@ -17655,9 +17639,7 @@
             "state": "West Bengal",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "MUTHARASI S K"
         },
         {
             "availability": null,
@@ -19666,8 +19648,8 @@
             "instructions": null,
             "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
             "name": "SAMRAT ASHOK WALKESHWAR",
-            "phone1": 797723996909820800000,
-            "phone2": null,
+            "phone1": 7977239969,
+            "phone2": 9820800000,
             "sourceLink": null,
             "sourceName": null,
             "state": "Rajasthan",
@@ -20168,9 +20150,7 @@
                 "Refil"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "MUTHARASI S K"
         },
         {
             "availability": null,
@@ -21724,9 +21704,7 @@
                 "Oxygen Cylinders For Home Use"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "MUTHARASI S K"
         },
         {
             "availability": null,
@@ -25620,9 +25598,7 @@
             "state": "Delhi (NCT)",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "MUTHARASI S K"
         },
         {
             "availability": "Available",
