@@ -31,9 +31,9 @@ const SearchResult = ({ resources, type, district, state }) => {
             <main className="pb-16">
                 {
                     resourcesListing.length > 0 ?
-                        resourcesListing.map(resource =>
+                        resourcesListing.map((resource, id) =>
                             <ResourceCard
-                                key={resource.id}
+                                key={resource.id + id}
                                 type={type}
                                 data={resource}
                             />
