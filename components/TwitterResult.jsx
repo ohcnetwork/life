@@ -15,7 +15,7 @@ function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
                         <div className="py-3 text-sm">
                             {covidConnectResults.length > 0 ? (
                                 <>
-                                    <p className="ml-3">
+                                    <p className="ml-3 text-gray-700">
                                         Showing {covidConnectResults.length} Results
                                     </p>
                                     {covidConnectResults.map((result) => (
@@ -24,7 +24,7 @@ function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             key={result.id}>
-                                            <div className="flex justify-start cursor-pointer text-gray-700  hover:bg-gray-200 dark:hover:bg-gray-1100 rounded-md px-2 py-2 my-2">
+                                            <div className="flex justify-start cursor-pointer text-gray-700  bg-gray-200 dark:bg-gray-1100 whitespace-pre-wrap  rounded-md px-2 py-2 my-2">
                                                 <div className="px-2">
                                                     <div className="text-sm dark:text-primary-400 font-normal text-black-500 tracking-wide">
                                                         {parseDateString(result.created_at)}
