@@ -13,23 +13,23 @@ const CampaignCard = ({ name, text, logoUrl, donate, open }) => {
                 <ReactMarkdown
                     components={{
                         h2: ({ node, ...props }) => (
-                            <p className="mt-3 text-2xl font-bold" {...props} />
+                            <p className="mt-5 text-2xl font-bold" {...props} />
                         ),
                         h3: ({ node, ...props }) => (
-                            <p className="mt-2 text-xl font-bold" {...props} />
+                            <p className="mt-3 text-xl font-bold" {...props} />
                         ),
                         p: ({ node, ...props }) => <p className="p-1" {...props} />,
                         em: ({ node, ...props }) => <span className="font-semibold" {...props} />,
                         a: ({ node, ...props }) => (
                             <a
-                                className="underline text-primary-600 hover:text-primary-800 visited:text-purple-600"
+                                className=" text-indigo-900 dark:text-primary-500 font-semibold"
                                 {...props}
                             />
                         ),
                         li: ({ node, ...props }) => (
-                            <div className="flex">
+                            <div className="ml-5 flex items-baseline mb-2">
                                 <FontAwesomeIcon className="w-3 mr-2" icon={faCircle} />
-                                <p type="disc" className="ml-5" {...props} />
+                                <p type="disc" className="" {...props} />
                             </div>
                         )
                     }}
