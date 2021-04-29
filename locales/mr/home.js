@@ -25,5 +25,13 @@ export default {
     poweredBy: 'द्वारा समर्थित',
     github: 'गीथब',
     database: 'डेटाबेस',
-    about: 'आमच्याबद्दल'
+    about: 'आमच्याबद्दल',
+    infoOnCovid: `COVID-19 वर माहिती`,
+    select: 'निवडा',
+    selectResource: 'स्त्रोत निवडा',
+    startSearchingAmong: 'आपापसांत शोध सुरू करा',
+    resources: 'संसाधने',
+    disclaimer: 'अस्वीकरण',
+    dataNotOwned: 'डेटा आमच्या मालकीचा किंवा तयार केलेला नाही',
+    knowMore: 'अधिक जाणून घ्या'
 };

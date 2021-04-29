@@ -16,7 +16,7 @@ export default {
     verified: 'சரிபார்க்கப்பட்டது',
     totalAmbulace: 'மொத்த அவசர ஊர்தி',
     oxygenRequirements: 'ஆக்ஸிஜன் செறிவு தேவைகள்',
-    contributeData: 'சரிபார்க்கப்பட்ட தரவை பங்களிக்க',
+    contributeData: 'தரவை பங்களிக்க',
     campaigns: 'பிரச்சாரங்கள்',
     learn: 'அறிய',
     partnerWithUs: 'எங்களுடன் சேர',
@@ -25,5 +25,6 @@ export default {
     poweredBy: 'இயக்குபவர்',
     github: 'கிட்ஹப்',
     database: 'தரவுத்தளம்',
-    about: 'பற்றி'
+    about: 'பற்றி',
+    infoOnCovid: `COVID-19 பற்றிய தகவல்`
 };

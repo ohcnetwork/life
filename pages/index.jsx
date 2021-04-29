@@ -8,7 +8,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import Selector from '@components/Selector';
 import { tabsInfo } from '@lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartBar, faMedkit } from '@fortawesome/free-solid-svg-icons';
+import { faChartBar, faMedkit, faBuilding } from '@fortawesome/free-solid-svg-icons';
 import hospitalCareCenterData from '@data/hospital_clinic_centre.json';
 import ambulanceData from '@data/ambulance.json';
 import useLocale from '@hooks/use-locale';
@@ -18,7 +18,7 @@ let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection
 
 export default function Home() {
     const { locale } = useLocaleContext();
-    const t = useLocale(locale).home;
+    const t = useLocale(locale, 'home');
 
     let tabsInfoNew = [];
     tabsInfo.forEach((tab) => {
@@ -32,10 +32,10 @@ export default function Home() {
         });
     });
 
-    const [selectedFilter, setSelectedFilter] = useState('oxygen');
+    const [selectedFilter, setSelectedFilter] = useState('all');
     return (
         <div>
-            <section className="flex flex-col items-center mt-12">
+            <section className="flex max-w-5xl mx-auto flex-col items-center mt-12">
                 <Logo width={100} />
                 <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">
                     {t.title}
@@ -58,7 +58,7 @@ export default function Home() {
                         page={selectedFilter}
                     />
                 </div>
-                <div className="flex flex-wrap items-center justify-evenly mt-6 ">
+                <div className="flex flex-wrap items-center  justify-evenly mt-6 ">
                     {selectedFilter === 'vaccine' ? (
                         <div className="inline-flex items-center px-4 py-3 border border-transparent shadow-sm text-lg leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white mb-4">
                             Coming Soon!
@@ -100,6 +100,18 @@ export default function Home() {
                             {t.oxygenRequirements}
                         </button>
                     </a>
+                    <a href="https://docs.google.com/spreadsheets/d/1BEXdf68gxsYsp3Hsc0gUEPbH_wx0kSbu/edit#gid=438108583">
+                        <button
+                            type="button"
+                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                            <FontAwesomeIcon
+                                className="text-white-400 w-4 mr-4"
+                                title="FDA Officers Contact"
+                                icon={faBuilding}
+                            />
+                            {t.fdaOfficerContact}
+                        </button>
+                    </a>
                     {/* <a href="/oxygen_requirements">
                         <button
                             type="button"
@@ -125,7 +137,8 @@ export default function Home() {
                         {
                             hospitalCareCenterData.data.filter((value) =>
                                 value.verificationStatus
-                                    ? value.verificationStatus.toLocaleLowerCase() == 'verified'
+                                    ? value.verificationStatus.toLocaleLowerCase() ===
+                                      'available and verified'
                                     : ''
                             ).length
                         }
@@ -134,7 +147,9 @@ export default function Home() {
                         {
                             ambulanceData.data.filter((value) =>
                                 value.verificationStatus
-                                    ? value.verificationStatus.toLocaleLowerCase() == 'verified'
+                                    ? value.verificationStatus
+                                          .toLocaleLowerCase()
+                                          .includes('verified')
                                     : ''
                             ).length
                         }
