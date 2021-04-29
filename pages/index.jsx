@@ -1,11 +1,9 @@
 import { useState } from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import { faSearch, faAngleDown, faMedkit } from '@fortawesome/free-solid-svg-icons';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import useLocale from '@hooks/use-locale';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { useLocaleContext } from '@hooks/use-locale-context';
-import { useRouter } from 'next/router';
 import {
     getAmbulances,
     getOxygen,
@@ -22,6 +20,7 @@ import StartSearching from '@components/StartSearching';
 import TwitterContainer from '@components/TwitterContainer';
 import districtMapCity from '@data/map_dis_to_city';
 import HomeSelector from '@components/HomeSelector';
+import HomeTabs from '@components/HomeTabs';
 
 export default function Home({ state, district, type }) {
     const { locale } = useLocaleContext();
@@ -115,36 +114,7 @@ export default function Home({ state, district, type }) {
                 </section>
                 {type ? (
                     <>
-                        <div className="dark:text-gray-200 mx-auto max-w-xs text-base flex font-bold justify-around my-5 cursor-pointer">
-                            <div
-                                className={`w-3/6 flex justify-center items-center pb-2  ${
-                                    tabVal === 'result'
-                                        ? `border-b-2 border-gray-900 dark:border-gray-300`
-                                        : ``
-                                }`}
-                                onClick={() => changeTabs('result')}>
-                                <FontAwesomeIcon
-                                    className="text-gray-900 dark:text-gray-300 mr-2"
-                                    title="Supplies"
-                                    icon={faMedkit}
-                                />
-                                Results
-                            </div>
-                            <div
-                                className={`w-3/6 flex justify-center items-center pb-2  ${
-                                    tabVal === 'twitter'
-                                        ? `border-b-2 border-gray-900 dark:border-gray-300`
-                                        : ``
-                                }`}
-                                onClick={() => changeTabs('twitter')}>
-                                <FontAwesomeIcon
-                                    className="text-blue-500 mr-2"
-                                    title="Share on Twitter"
-                                    icon={faTwitter}
-                                />
-                                Twitter Results
-                            </div>
-                        </div>
+                        <HomeTabs tabVal={tabVal} onChange={changeTabs} />
                         {tabVal === 'result' && (
                             <SearchResult
                                 type={type}
