@@ -5,8 +5,6 @@ import SEO from '../next-seo.config';
 import { DefaultSeo } from 'next-seo';
 import * as Sentry from "@sentry/react";
 
-Sentry.init({ dsn: process.env.SENTRY_DSN });
-
 function MyApp({ Component, pageProps }) {
     return (
         <MainLayout>
