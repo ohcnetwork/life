@@ -1,7 +1,7 @@
 import React from 'react';
 import { statePaths, humanize } from '@lib/utils';
 import { NextSeo } from 'next-seo';
-import Home from 'pages';
+import DetailedHome from '@components/DetailedHome';
 
 export default function Medicine({ state, district }) {
     const SEO = {
@@ -27,7 +27,7 @@ export default function Medicine({ state, district }) {
     return (
         <>
             <NextSeo {...SEO} />
-            <Home
+            <DetailedHome
                 state={humanize(state)}
                 district={humanize(district)}
                 type="Medicine"
