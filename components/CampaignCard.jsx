@@ -4,9 +4,8 @@ import gfm from 'remark-gfm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
-const CampaignCard = ({ name, text, logoUrl, donate, open }) => {
+const CampaignCard = ({ text, open }) => {
     const [isReadMore, setIsReadMore] = useState(open);
-
     return (
         <div className="w-3/4 mx-auto">
             <div id="campaign" className="w-full">

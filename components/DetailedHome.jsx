@@ -13,7 +13,7 @@ import {
     medicineByDistrict,
     statesAndDistrict
 } from '@lib/api';
-import { isVerified, parametreize } from '@lib/utils';
+import { parametreize } from '@lib/utils';
 import SearchResult from '@components/SearchResult';
 import Link from 'next/link';
 import StartSearching from '@components/StartSearching';
@@ -52,14 +52,13 @@ export default function DetailedHome({ state, district, type }) {
 
     const resources = {
         get All() {
-            return (
-                [].concat(this.Oxygen)
-                    .concat(this.Medicine)
-                    .concat(this.Hospital)
-                    .concat(this.Ambulance)
-                    .concat(this.Helpline)
-                    .concat(this.Vaccine)
-            )
+            return []
+                .concat(this.Oxygen)
+                .concat(this.Medicine)
+                .concat(this.Hospital)
+                .concat(this.Ambulance)
+                .concat(this.Helpline)
+                .concat(this.Vaccine);
         },
         Oxygen: getOxygen(parametreize(stateChoosen), parametreize(districtChoosen), true),
         Medicine: medicineByDistrict(
