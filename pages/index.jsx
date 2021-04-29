@@ -79,7 +79,7 @@ export default function Home({ state, district, type }) {
                 <h1 className="font-semibold text-xl dark:text-gray-300">{t.description}</h1>
             </div>
             <div className="-mt-12">
-                <section className="bg-white dark:bg-gray-1300 rounded-lg mx-8 md:mx-10 p-5 shadow-lg flex flex-col md:flex-row md:items-center">
+                <section className="bg-white max-w-7xl dark:bg-gray-1300 rounded-lg mx-auto p-5 shadow-lg flex flex-col md:flex-row md:items-center">
                     <HomeSelector
                         val={stateChoosen}
                         optionsList={states}
