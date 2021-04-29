@@ -58,7 +58,7 @@ export default function Home() {
                         page={selectedFilter}
                     />
                 </div>
-                <div className="flex flex-wrap items-center justify-evenly mt-6 ">
+                <div className="flex flex-wrap items-center  justify-evenly mt-6 ">
                     {selectedFilter === 'vaccine' ? (
                         <div className="inline-flex items-center px-4 py-3 border border-transparent shadow-sm text-lg leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white mb-4">
                             Coming Soon!

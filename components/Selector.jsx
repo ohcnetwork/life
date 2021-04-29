@@ -87,7 +87,7 @@ const Selector = ({ data, page, placeholder, localeState, localeDistrict }) => {
             {(searchStr || editing) && (
                 <div
                     key="result"
-                    className="p-4 bg-white  dark:bg-gray-1200 dark:text-gray-400 mt-1 rounded-lg shadow-lg flex">
+                    className="p-4 bg-white  dark:bg-gray-1200 dark:text-gray-400 mt-1 rounded-lg rounded-b-none shadow-lg flex">
                     {filterTests(activeStates(districtWithState(page))).length !== 0 && (
                         <div className="w-1/2 p-4">
                             <h1 className="font-semibold text-lg dark:text-gray-200">
@@ -125,7 +125,10 @@ const Selector = ({ data, page, placeholder, localeState, localeDistrict }) => {
                 <></>
             ) : (
                 (searchStr || editing) && (
-                    <TwitterResultCard covidConnectResults={covidConnectResults} />
+                    <TwitterResultCard
+                        searchStr={searchStr}
+                        covidConnectResults={covidConnectResults}
+                    />
                 )
             )}
         </>
