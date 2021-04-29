@@ -9844,7 +9844,7 @@
             ]
         },
         {
-            "availability": null,
+            "availability": "Available",
             "city": null,
             "comment": "Unreachable",
             "companyName": "Mithilesh",
