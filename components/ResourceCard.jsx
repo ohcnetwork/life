@@ -1,31 +1,34 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SocialSharing from '@components/SocialSharing';
-import { faCheckCircle, faEnvelope, faExclamationCircle, faLink, faMapMarkerAlt, faPhoneAlt, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faLink, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { copyTextGenerator, isVerified, parseDateString } from '@lib/utils';
 import { useRouter } from 'next/router';
 import Badge from './Badge';
 
-const ResourceCard = ({ data, type }) => {
+const ResourceCard = ({ data, type: filterType }) => {
 
     const { id, name, district, comment, description, address } = data;
     const { lastVerifiedOn, verificationStatus } = data;
     const { phone1, phone2 } = data;
+    const { resourceType } = data;
     const { availability, totalBedsAvailable, typeOfBedAvailable } = data;
     const source = data.source || data.sourceUrl || data.sourceLink;
     const email = data.emailId || data.email1 || data.email2;
 
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
-    const copyText = copyTextGenerator({ name, id, phone: (phone1 || phone2 || "No Phone"), type }, pageUrl);
+    const copyText = copyTextGenerator({ name, id, phone: (phone1 || phone2 || "No Phone"), type: resourceType }, pageUrl);
 
+    const isAll = filterType === "All";
 
     return (
         <div id={id} className="max-w-3xl bg-white dark:bg-gray-1200 dark:text-gray-300 shadow-md rounded-md mx-2 md:mx-auto my-5 px-3 py-4">
+            {isAll && <div className="mx-auto text-xs mb-2 md:ml-5 py-1 px-2 bg-gray-400 w-min rounded-full">{resourceType}</div>}
             {/* Header */}
             <div className="flex items-center md:justify-between justify-around px-5 flex-wrap">
                 <div className="flex items-center flex-wrap justify-around">
-                    <h1 className="font-bold text-xl uppercase text-center">{name || type}</h1>
+                    <h1 className="font-bold text-xl uppercase text-center">{name || resourceType}</h1>
                     {
                         <Badge verificationStatus={verificationStatus} />
                     }
