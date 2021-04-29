@@ -3,7 +3,6 @@ import '@styles/globals.css';
 import Head from 'next/head';
 import SEO from '../next-seo.config';
 import { DefaultSeo } from 'next-seo';
-import * as Sentry from "@sentry/react";
 
 function MyApp({ Component, pageProps }) {
     return (
@@ -53,9 +52,7 @@ function MyApp({ Component, pageProps }) {
                     }}
                 />
             </Head>
-            <Sentry.ErrorBoundary fallback={"An error has occurred"}>
-                <Component {...pageProps}></Component>
-            </Sentry.ErrorBoundary>;
+            <Component {...pageProps}></Component>
         </MainLayout>
     );
 }
