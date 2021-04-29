@@ -1,12 +1,13 @@
 import { parseDateString } from '@lib/utils';
-import PulseIcon from "@components/PulseSvg";
+import PulseIcon from '@components/PulseSvg';
 import NoResultFound from './NoResultFound';
 
 function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
+    console.log(searchStr);
     return (
         <div className="w-full mx-auto" key="TwitterResultCard">
             <div className="flex justify-center ">
-                <div className="w-full bg-white dark:bg-gray-1200 shadow-md rounded-lg ">
+                <div className="w-full bg-white dark:bg-gray-1200 shadow-md  ">
                     <div className="px-1 py-2 mb-4">
                         <div className="block text-gray-700 dark:text-primary-400 text-lg font-semibold py-2 px-3">
                             Live Twitter Results for "{searchStr}"
@@ -45,8 +46,7 @@ function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
                                 <div className="pl-3 text-lg dark:text-gray-500">
                                     <NoResultFound type="Tweets" text={searchStr} />
                                 </div>
-                            )
-                            }
+                            )}
                         </div>
                     </div>
                 </div>

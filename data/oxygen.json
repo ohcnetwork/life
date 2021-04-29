@@ -7811,7 +7811,7 @@
             "verifiedBy": "sucharu asri"
         },
         {
-            "availability": "Available",
+            "availability": null,
             "city": null,
             "comment": "Free oxygen refill in Manesar \nCan confirm availability on whatsapp if they don't pick up ",
             "companyName": null,
@@ -7822,7 +7822,7 @@
             "homeDeliveryAvailable": "No",
             "id": "recGuQsuC9DF5k4ya",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-29T12:12:29.000Z",
             "name": "Star special air gases private limited ",
             "phone1": 9899930828,
             "phone2": 7703940131,
@@ -7833,7 +7833,7 @@
                 "Refil",
                 "Cylinder"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Samyak Chaudhary"
         },
         {
@@ -9844,7 +9844,7 @@
             ]
         },
         {
-            "availability": "Available",
+            "availability": null,
             "city": null,
             "comment": "Unreachable",
             "companyName": "Mithilesh",
