@@ -1,136 +1,162 @@
-import { useState } from 'react';
-import '@fortawesome/fontawesome-svg-core/styles.css';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import useLocale from '@hooks/use-locale';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useLocaleContext } from '@hooks/use-locale-context';
-import {
-    getAmbulances,
-    getOxygen,
-    getVaccine,
-    helplineByDistrict,
-    hospitalByDistrict,
-    medicineByDistrict,
-    statesAndDistrict
-} from '@lib/api';
-import { parametreize } from '@lib/utils';
-import SearchResult from '@components/SearchResult';
 import Link from 'next/link';
-import StartSearching from '@components/StartSearching';
-import TwitterContainer from '@components/TwitterContainer';
-import districtMapCity from '@data/map_dis_to_city';
-import HomeSelector from '@components/HomeSelector';
-import HomeTabs from '@components/HomeTabs';
+import { useState } from 'react';
+import { getStates } from '@lib/api';
+import { humanize, parametreize } from '@lib/utils';
+import Tabs from '@components/Tabs';
+import Logo from '@components/Logo';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import Selector from '@components/Selector';
+import { tabsInfo } from '@lib/tabs';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChartBar, faMedkit, faBuilding } from '@fortawesome/free-solid-svg-icons';
+import hospitalCareCenterData from '@data/hospital_clinic_centre.json';
+import ambulanceData from '@data/ambulance.json';
+import useLocale from '@hooks/use-locale';
+import { useLocaleContext } from '@hooks/use-locale-context';
 
-export default function Home({ state, district, type }) {
+let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
+
+export default function Home() {
     const { locale } = useLocaleContext();
     const t = useLocale(locale, 'home');
 
-    const statesWithDistricts = statesAndDistrict();
-    const [tabVal, setTabVal] = useState('result');
-    const changeTabs = (v) => setTabVal(v);
+    let tabsInfoNew = [];
+    tabsInfo.forEach((tab) => {
+        const { icon, link, color, value } = tab;
+        tabsInfoNew.push({
+            color,
+            link,
+            value,
+            icon,
+            name: t[tab.name.toLowerCase()]
+        });
+    });
 
-    const states = Object.keys(statesWithDistricts);
-    state = states.find((e) => e.toLowerCase() === state?.toLowerCase()) || '';
-
-    const [stateChoosen, setStateChoosen] = useState(state || states[0]);
-
-    const districts = statesWithDistricts[stateChoosen];
-    district = districts.find((e) => e.toLowerCase() === district?.toLowerCase()) || '';
-
-    const [districtChoosen, setDistrictChoosen] = useState(district || districts[0]);
-
-    const generatePageURL = (_state, _district, _resource) =>
-        `/${parametreize(_state)}/${parametreize(_district)}/${parametreize(_resource)}`;
-
-    const mapDistrictToCity = (s) => {
-        // checks if it exists maps "North Delhi" -> "Delhi"
-        return districtMapCity[s] || s;
-    };
-
-    const [resourceChoosen, setResourceChoosen] = useState(type || 'Oxygen');
-
-    const resources = {
-        Oxygen: getOxygen(parametreize(state), parametreize(district), true),
-        Medicine: medicineByDistrict(parametreize(state), parametreize(district), true),
-        Hospital: hospitalByDistrict(parametreize(state), parametreize(district), true),
-        Ambulance: getAmbulances(parametreize(state), parametreize(district), true),
-        Helpline: helplineByDistrict(parametreize(state), parametreize(district), true),
-        Vaccine: getVaccine(parametreize(state), parametreize(district), true)
-    };
-
-    const handleChooseState = ({ target: { value } }) => {
-        setStateChoosen(value);
-        const newDistrict = statesWithDistricts[value][0];
-        setDistrictChoosen(newDistrict);
-    };
-
-    const handleDistrictChange = ({ target: { value } }) => {
-        setDistrictChoosen(value);
-    };
-
-    const handleResourceChange = ({ target: { value } }) => {
-        setResourceChoosen(value);
-    };
-
+    const [selectedFilter, setSelectedFilter] = useState('all');
     return (
-        <section className="w-full">
-            <div className="bg-gray-200 dark:bg-gray-1200 text-center pt-5 pb-20">
-                <h1 className="font-semibold text-xl dark:text-gray-300">{t.description}</h1>
-            </div>
-            <div className="-mt-12">
-                <section className="bg-white max-w-7xl dark:bg-gray-1300 rounded-lg mx-auto p-5 shadow-lg flex flex-col md:flex-row md:items-center">
-                    <HomeSelector
-                        val={stateChoosen}
-                        optionsList={states}
-                        handleChange={handleChooseState}
-                        label={`${t.select} ${t.state}`}
-                        divider
+        <div>
+            <section className="flex max-w-5xl mx-auto flex-col items-center mt-12">
+                <Logo width={100} />
+                <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">
+                    {t.title}
+                </h1>
+                <h2 className="mt-4 font-semibold text-xl text-gray-900 dark:text-gray-100 text-center">
+                    {t.description}
+                </h2>
+                <div className="mt-4 ">
+                    <Tabs
+                        tabsInfo={tabsInfoNew}
+                        selectedFilter={selectedFilter}
+                        updateFilterCB={(e) => updateFilter(setSelectedFilter, e)}
                     />
-                    <HomeSelector
-                        val={districtChoosen}
-                        optionsList={districts}
-                        handleChange={handleDistrictChange}
-                        label={`${t.select} ${t.district}`}
-                        divider
+                </div>
+                <div className="w-full md:w-3/4 px-2">
+                    <Selector
+                        localeState={t.state}
+                        localeDistrict={t.district}
+                        placeholder={t.searchPlaceholder}
+                        page={selectedFilter}
                     />
-                    <HomeSelector
-                        val={resourceChoosen}
-                        optionsList={Object.keys(resources)}
-                        handleChange={handleResourceChange}
-                        label={t.selectResource}
-                    />
-                    <div className="flex flex-col ml-0 md:ml-6 w-full md:w-min">
-                        <Link
-                            href={generatePageURL(stateChoosen, districtChoosen, resourceChoosen)}>
-                            <button className="bg-indigo-600 hover:bg-indigo-700 w-full md:w-14 h-16 rounded-md cursor-pointer text-gray-200 flex justify-center items-center">
-                                <span>
-                                    <FontAwesomeIcon icon={faSearch} className="w-5" />
-                                </span>
-                                <span className="md:hidden ml-2">Search</span>
-                            </button>
-                        </Link>
-                    </div>
-                </section>
-                {type ? (
-                    <>
-                        <HomeTabs tabVal={tabVal} onChange={changeTabs} />
-                        {tabVal === 'result' && (
-                            <SearchResult
-                                type={type}
-                                district={district}
-                                state={state}
-                                resources={resources[type]}
+                </div>
+                <div className="flex flex-wrap items-center justify-evenly mt-6 ">
+                    {selectedFilter === 'vaccine' ? (
+                        <div className="inline-flex items-center px-4 py-3 border border-transparent shadow-sm text-lg leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white mb-4">
+                            Coming Soon!
+                        </div>
+                    ) : (
+                        getStates(selectedFilter).map((s) => {
+                            return (
+                                <Link key={s} href={`[state]`} as={`${parametreize(s)}`}>
+                                    <span className="p-2 text-sm md:text-md font-normal cursor-pointer hover:text-gray-900 text-gray-600 dark:hover:text-gray-50">
+                                        {humanize(s)}
+                                    </span>
+                                </Link>
+                            );
+                        })
+                    )}
+                </div>
+                <div className="flex space-x-3">
+                    <a href="https://www.covid19india.org/">
+                        <button
+                            type="button"
+                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                            <FontAwesomeIcon
+                                className="text-white-400 w-4 mr-4"
+                                title="Covid 19 Statistics"
+                                icon={faChartBar}
                             />
-                        )}
-                        {tabVal === 'twitter' && (
-                            <TwitterContainer searchStr={mapDistrictToCity(districtChoosen)} />
-                        )}
-                    </>
-                ) : (
-                    <StartSearching text={t.startSearchingAmong} res={t.resources} />
-                )}
-            </div>
-        </section>
+                            {t.covid19Stats}
+                        </button>
+                    </a>
+                    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS7nP0QvIvm5VDEbVDG0ELECYS446P-MgLwdX_elDrYbkN39g_o90wmJIMcazmcLH38Snn7rSqwAS_y/pubhtml?gid=972869835&single=true">
+                        <button
+                            type="button"
+                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                            <FontAwesomeIcon
+                                className="text-white-400 w-4 mr-4"
+                                title="Covid 19 Statistics"
+                                icon={faMedkit}
+                            />
+                            {t.oxygenRequirements}
+                        </button>
+                    </a>
+                    <a href="https://docs.google.com/spreadsheets/d/1BEXdf68gxsYsp3Hsc0gUEPbH_wx0kSbu/edit#gid=438108583">
+                        <button
+                            type="button"
+                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                            <FontAwesomeIcon
+                                className="text-white-400 w-4 mr-4"
+                                title="FDA Officers Contact"
+                                icon={faBuilding}
+                            />
+                            {t.fdaOfficerContact}
+                        </button>
+                    </a>
+                    {/* <a href="/oxygen_requirements">
+                        <button
+                            type="button"
+                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                            <FontAwesomeIcon
+                                className="text-white-400 w-4 mr-4"
+                                title="Covid 19 Statistics"
+                                icon={faMedkit}
+                            />
+                            {t.oxygenRequirements}
+                        </button>
+                    </a> */}
+                </div>
+                <div className="flex space-x-3">
+                    <div className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white  mt-6">
+                        <FontAwesomeIcon
+                            className="text-white-400 w-4 mr-4"
+                            title="Covid 19 Statistics"
+                            icon={faMedkit}
+                        />
+                        {t.totalHospitals} : {Object.keys(hospitalCareCenterData.data).length} ({' '}
+                        {t.verified} :
+                        {
+                            hospitalCareCenterData.data.filter((value) =>
+                                value.verificationStatus
+                                    ? value.verificationStatus.toLocaleLowerCase() ===
+                                      'available and verified'
+                                    : ''
+                            ).length
+                        }
+                        ) | {t.totalAmbulace} : {Object.keys(ambulanceData.data).length} ({' '}
+                        {t.verified} :
+                        {
+                            ambulanceData.data.filter((value) =>
+                                value.verificationStatus
+                                    ? value.verificationStatus
+                                          .toLocaleLowerCase()
+                                          .includes('verified')
+                                    : ''
+                            ).length
+                        }
+                        )
+                    </div>
+                </div>
+            </section>
+        </div>
     );
 }
