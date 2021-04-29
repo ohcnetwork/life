@@ -21,6 +21,7 @@ import Link from 'next/link';
 import StartSearching from '@components/StartSearching';
 import TwitterContainer from '@components/TwitterContainer';
 import districtMapCity from '@data/map_dis_to_city';
+import HomeSelector from '@components/HomeSelector';
 
 export default function Home({ state, district, type }) {
     const { locale } = useLocaleContext();
@@ -31,17 +32,17 @@ export default function Home({ state, district, type }) {
     const changeTabs = (v) => setTabVal(v);
 
     const states = Object.keys(statesWithDistricts);
-    state = states.find((e) => e.toLowerCase() === state?.toLowerCase()) || "";
+    state = states.find((e) => e.toLowerCase() === state?.toLowerCase()) || '';
 
     const [stateChoosen, setStateChoosen] = useState(state || states[0]);
 
     const districts = statesWithDistricts[stateChoosen];
-    district = districts.find((e) => e.toLowerCase() === district?.toLowerCase()) || "";
+    district = districts.find((e) => e.toLowerCase() === district?.toLowerCase()) || '';
 
     const [districtChoosen, setDistrictChoosen] = useState(district || districts[0]);
 
     const generatePageURL = (_state, _district, _resource) =>
-        `/${parametreize(_state)}/${parametreize(_district)}/${parametreize(_resource)}`
+        `/${parametreize(_state)}/${parametreize(_district)}/${parametreize(_resource)}`;
 
     const mapDistrictToCity = (s) => {
         // checks if it exists maps "North Delhi" -> "Delhi"
@@ -51,24 +52,12 @@ export default function Home({ state, district, type }) {
     const [resourceChoosen, setResourceChoosen] = useState(type || 'Oxygen');
 
     const resources = {
-        Oxygen: getOxygen(
-            parametreize(state), parametreize(district), true
-        ),
-        Medicine: medicineByDistrict(
-            parametreize(state), parametreize(district), true
-        ),
-        Hospital: hospitalByDistrict(
-            parametreize(state), parametreize(district), true
-        ),
-        Ambulance: getAmbulances(
-            parametreize(state), parametreize(district), true
-        ),
-        Helpline: helplineByDistrict(
-            parametreize(state), parametreize(district), true
-        ),
-        Vaccine: getVaccine(
-            parametreize(state), parametreize(district), true
-        )
+        Oxygen: getOxygen(parametreize(state), parametreize(district), true),
+        Medicine: medicineByDistrict(parametreize(state), parametreize(district), true),
+        Hospital: hospitalByDistrict(parametreize(state), parametreize(district), true),
+        Ambulance: getAmbulances(parametreize(state), parametreize(district), true),
+        Helpline: helplineByDistrict(parametreize(state), parametreize(district), true),
+        Vaccine: getVaccine(parametreize(state), parametreize(district), true)
     };
 
     const handleChooseState = ({ target: { value } }) => {
@@ -92,71 +81,26 @@ export default function Home({ state, district, type }) {
             </div>
             <div className="-mt-12">
                 <section className="bg-white dark:bg-gray-1300 rounded-lg mx-8 md:mx-10 p-5 shadow-lg flex flex-col md:flex-row md:items-center">
-                    <div className="flex flex-col flex-1 my-2 md:my-0 dark:text-gray-200">
-                        <label htmlFor="state" className="text-sm">
-                            {t.select} {t.state}
-                        </label>
-                        <div className="flex items-center relative">
-                            <select
-                                id="state"
-                                value={stateChoosen}
-                                onChange={handleChooseState}
-                                className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer z-10">
-                                {states.map((s, id) => (
-                                    <option className="dark:text-gray-900" key={id} value={s}>
-                                        {s}
-                                    </option>
-                                ))}
-                            </select>
-                            <div className="absolute right-0">
-                                <FontAwesomeIcon icon={faAngleDown} className="w-5" />
-                            </div>
-                        </div>
-                    </div>
+                    <HomeSelector
+                        val={stateChoosen}
+                        optionsList={states}
+                        handleChange={handleChooseState}
+                        label={`${t.select} ${t.state}`}
+                    />
                     <div className="bg-gray-100 dark:bg-gray-1000 h-1 transform rotate-90 w-12 my-2 hidden md:block" />
-                    <div className="flex flex-col flex-1 my-2 md:my-0 dark:text-gray-200">
-                        <label htmlFor="district" className="text-sm">
-                            {t.select} {t.district}
-                        </label>
-                        <div className="flex items-center relative">
-                            <select
-                                id="district"
-                                value={districtChoosen}
-                                onChange={handleDistrictChange}
-                                className="py-2  w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer z-10">
-                                {districts.map((s, id) => (
-                                    <option className="dark:text-gray-900" key={id} value={s}>
-                                        {s}
-                                    </option>
-                                ))}
-                            </select>
-                            <div className="absolute right-1.5">
-                                <FontAwesomeIcon icon={faAngleDown} className="w-5" />
-                            </div>
-                        </div>
-                    </div>
+                    <HomeSelector
+                        val={districtChoosen}
+                        optionsList={districts}
+                        handleChange={handleDistrictChange}
+                        label={`${t.select} ${t.district}`}
+                    />
                     <div className="bg-gray-100 dark:bg-gray-1000 h-1 transform rotate-90 w-12 my-2 hidden md:block " />
-                    <div className="flex flex-col flex-1 my-2 md:my-0 dark:text-gray-200 ">
-                        <label htmlFor="resource" className="text-sm">
-                            {t.selectResource}
-                        </label>
-                        <div className="flex items-center relative">
-                            <select
-                                id="resource"
-                                value={resourceChoosen}
-                                onChange={handleResourceChange}
-                                className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer z-10">
-                                {Object.keys(resources).map((s, id) => (
-                                    <option className="dark:text-gray-900" key={id} value={s}>
-                                        {s}
-                                    </option>
-                                ))}
-                            </select>
-                            <div className="absolute right-1.5">
-                                <FontAwesomeIcon icon={faAngleDown} className="w-5" />
-                            </div>
-                        </div>
-                    </div>
+                    <HomeSelector
+                        val={resourceChoosen}
+                        optionsList={Object.keys(resources)}
+                        handleChange={handleResourceChange}
+                        label={t.selectResource}
+                    />
                     <div className="flex flex-col ml-0 md:ml-6 w-full md:w-min">
                         <Link
                             href={generatePageURL(stateChoosen, districtChoosen, resourceChoosen)}>
@@ -173,10 +117,11 @@ export default function Home({ state, district, type }) {
                     <>
                         <div className="dark:text-gray-200 mx-auto max-w-xs text-base flex font-bold justify-around my-5 cursor-pointer">
                             <div
-                                className={`w-3/6 flex justify-center items-center pb-2  ${tabVal === 'result'
-                                    ? `border-b-2 border-gray-900 dark:border-gray-300`
-                                    : ``
-                                    }`}
+                                className={`w-3/6 flex justify-center items-center pb-2  ${
+                                    tabVal === 'result'
+                                        ? `border-b-2 border-gray-900 dark:border-gray-300`
+                                        : ``
+                                }`}
                                 onClick={() => changeTabs('result')}>
                                 <FontAwesomeIcon
                                     className="text-gray-900 dark:text-gray-300 mr-2"
@@ -186,10 +131,11 @@ export default function Home({ state, district, type }) {
                                 Results
                             </div>
                             <div
-                                className={`w-3/6 flex justify-center items-center pb-2  ${tabVal === 'twitter'
-                                    ? `border-b-2 border-gray-900 dark:border-gray-300`
-                                    : ``
-                                    }`}
+                                className={`w-3/6 flex justify-center items-center pb-2  ${
+                                    tabVal === 'twitter'
+                                        ? `border-b-2 border-gray-900 dark:border-gray-300`
+                                        : ``
+                                }`}
                                 onClick={() => changeTabs('twitter')}>
                                 <FontAwesomeIcon
                                     className="text-blue-500 mr-2"
