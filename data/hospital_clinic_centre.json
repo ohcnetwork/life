@@ -1067,6 +1067,31 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "availability": "Available",
+            "comment": "The hospital board line is manned from 9 -5 pm , the mobile # mentioned belongs to Dr  yoti Thakur ",
+            "createdTime": "2021-04-29T15:31:16.000Z",
+            "district": "Jabalpur",
+            "email1": "pri.ayurvedajbp@gmail.com",
+            "email2": null,
+            "id": "rec8U8KNeh6EK7Rc9",
+            "lastVerifiedOn": null,
+            "name": "Government Ayurveda Hospital, Gwarighat Road, Near Gwarighat Rly Station",
+            "phone1": 8959934990,
+            "phone2": 7612970733,
+            "pointOfContact": "Dr Jyoti Thakur",
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": 10,
+            "typeOfBedAvailable": [
+                "Bed with oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": "Not Available",
             "comment": "Fully Occupied",
             "createdTime": "2021-04-19T07:48:08.000Z",
