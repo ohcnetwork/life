@@ -3,72 +3,39 @@ export default {
     q1: 'શું તમે અધિકારી કર્મચારી છો?',
     a1: 'ના',
     q2: 'તમારા સ્રોત(sources) શું છે? આ પ્રોજેક્ટ માટે ડેટા કેવી રીતે એકત્રિત કરવામાં આવે છે?',
-    a21: 'અમે ડેટા મેળવવા માટે ઘણા સ્રોતોનો ઉપયોગ કરી રહ્યા છીએ. અમારી સ્વયંસેવકો ની  ટીમ પરિપત્રો, સૂચનાઓ, ટ્વીટ્સ, અન્ય ડેટાબેસેસ, વેબસાઇટ્સના ડેટા ને સતત શોધે છે. અમે સામાન્ય લોકો દ્વારા સબમિટ કરેલ નોંધપાત્ર ડેટા પણ મેળવીએ છી(crowd source channels  ). સમાન નિર્માણમાં રોકાયેલા ભાગીદારોએ પહેલેથી ચકાસણી કરેલી માહિતીને એકરૂપ પણ કરવામાં આવે છે.',
+    a21: 'અમે ડેટા મેળવવા માટે ઘણા સ્રોતોનો ઉપયોગ કરી રહ્યા છીએ. અમારી સ્વયંસેવકો ની ટીમ પરિપત્રો, સૂચનાઓ, ટ્વીટ્સ, અન્ય ડેટાબેસેસ, વેબસાઇટ્સના ડેટા ને સતત શોધે છે. અમે સામાન્ય લોકો દ્વારા સબમિટ કરેલ નોંધપાત્ર ડેટા પણ મેળવીએ છી(crowd source channels  ). સમાન નિર્માણમાં રોકાયેલા ભાગીદારોએ પહેલેથી ચકાસણી કરેલી માહિતીને એકરૂપ પણ કરવામાં આવે છે.',
     a22: 'ડેટા સ્વયંસેવકોના જૂથ દ્વારા માન્ય કરવામાં આવે છે અને એરટેબલ શીટ અને એક API માં પ્રકાશિત થાય છે. API બધા માટે ઉપલબ્ધ છે.',
     a23: 'જો તમે આ વાયરસ સામેની લડતમાં આ ડેટાનો ઉપયોગ કરી શકો તો અમને ખુબ પસંદ આવશે.',
-    q3: `Where can I find the data for this?`,
-    a31: `All the data is available through an`,
-    a32: `Do file an issue at `,
-    a33: `if you have feedbacks / want to report a bug.`,
-    q4: `Who are you?`,
-    a4: `We are a group of dedicated volunteers who curate and verify the data coming
-  from several sources. CovidFYI - aggregates covid resources in the form of a
-  directory repository to help people looking for information. We never collect or
-  expose any personally identifiable data regarding the patients. We do not do
-  1-on-1 handling of cases. This is a product of collaboration - Covidfyi, a
-  Swasth initiative, backed by Coronasafe, with Stepone volunteers, PIIndia,
-  medical support group, Indian helpline, IIM-K community support (many more).`,
-    q5: `How often do you verify your information?`,
-    a5: `We verify information periodically, however, due to the size of data, please
-  accept our apologies in case you do not find what you were looking for. We will
-  continue to add, verify, clean the data. Since we are only as good as the data
-  hope we are able to save lives. Look forward to your support. Thanks to
-  everyone, wouldn't have been possible without you all.`,
-    q6: `Why are you guys putting in time and resources to do this while not gaining a
-  single penny from it?`,
-    a6: `We believe in the true spirit of collaboration, crowdsourcing, the
-  democratization of data, and volunteering. Please support us to save lives! Join
-  us.`,
-    q7: `How can you volunteer with us?`,
-    a7: ` Add verified data (that doesn't already exist) Verify existing data and
-  update verification status Help people 1-1 on other platforms by sharing
-  contact/links from covidfyi Innovate on product related ideas Handle social
-  media &amp; marketing Manage operations, volunteers, onboarding Decide which
-  team you want to join or just stick around to pitch in whenever there is call
-  for help!.`,
-    q8: `What to do if you have verified data and want to add to Covidfyi Database?`,
-    a8: `Recommend you to read this before adding data Tips on how to share COVID
-  resources online`,
-    q9: `Have bulk verified data?`,
-    a9: `In case you want to add data in bulk, in excel format, and you are not
-  comfortable with airtable, send it to us in google sheet or excel format on`,
-    a91: `or reach out to us anywhere. Join our team to add information.`,
-    q10: `Are you a similar initiative like ours? Or know one?`,
-    a10: `Run by your company, friends, college, on social media that have similar data.
-  Reach out to them, talk about us. Earnest request to get other initiatives to
-  collaborate as consolidation is important in the problem that we are solving. We
-  don&#39;t seek credits, we just want this information to reach. Our goal is to
-  provide the right information to the right people at the right time in the right
-  manner.`,
-    q11: `Disclaimer`,
-    a112: `COVID Information Platform `,
-    a113: ` is a platform created by Swasth Digital Health Foundation (“Swasth”), CovidFYI
-  and Coronasafe Network for providing verified crowd sourced emergency services
-  for COVID-19 emergencies across India.`,
-    a114: `All data and information provided in the COVID Information Platform are verified
-  by a group of volunteers to the best of their abilities and the Organizations
-  disclaim all responsibility for any data/information provided on the COVID
-  Information Platform. Organizations shall under no circumstances be held liable
-  for any direct, indirect, incidental, consequential, special, punitive,
-  exemplary, or any other damages arising out of the use of the COVID Information
-  Platform. There is no assurance by the Organizations of any specified outcomes
-  of the use of the COVID Information Platform. The users understand that by using
-  any data or information provided on the COVID Information Platform shall be at
-  their own risk and violation and that the Organizations are not responsible for
-  any consequences for offering such data/information. COVID Informational
-  Platform may provide, for informational purposes, links to websites operated by
-  other entities and persons, but does not endorse or accept any responsibility
-  for such content, or the use of such websites. No warranty of any kind including
+    q3: 'હું આ માટે ડેટા ક્યાંથી શોધી શકું?',
+    a31: 'બધા ડેટા એક દ્વારા અહીં ઉપલબ્ધ છે. :',
+    a32: 'ભૂલ અહીંયા દાખલ કરો',
+    a33: 'ફીડબેક્સ / બગ ફાઇલ અહીં કરવું',
+    q4: 'તમે કોણ છો?',
+    a4: 'અમે સમર્પિત સ્વયંસેવકોનું એક જૂથ છીએ જે આવતા ડેટાને ક્યુરેટ કરે છે અને તેની ચકાસણી કરે છે કેટલાક સ્રોતોમાંથી. CovidFYI - ડિરેક્ટરી રીપોઝીટરી સ્વરૂપમાં કોવિડ સંસાધનોને એકઠા કરે છે માહિતીની શોધમાં રહેલા લોકોને મદદ કરવા માટેથી  . દર્દીઓ સંબંધિત કોઈપણ વ્યક્તિગત રૂપે ઓળખી શકાય તેવા ડેટાને અમે ક્યારેય એકત્રિત કરતા નથી અથવા બહાર કાઢતા નથી. અમે 1-ઓન -1 કેસ નથી સંભાળતા. CovidFYI એક સહયોગનું ઉત્પાદન છે - , એમાં કોરોનાસાફે સમર્થિત સ્વેસ્ટ પહેલ, સ્ટેપન સ્વયંસેવકો, પીઆઈ ઇન્ડિયા, તબીબી સહાય જૂથ, ભારતીય હેલ્પલાઇન, આઇઆઇએમ-કે સમુદાય સપોર્ટ (ઘણા વધુ) જોડાયેલા છે.',
+    q5: 'તમે તમારી માહિતીને કેટલી વખતોવખત ચકાસો છો?',
+    a5: 'અમે માહિતીની સમયાંતરે ચકાસણી કરીએ છીએ પરંતુ માહિતી ની વિશાળતા ને લીધે તમે જે શોધી રહ્યા હતા તે જો તમને ન મળે તો અમારી ક્ષમા સ્વીકારો. અમે માહિતી ઉમેરવા, ચકાસવા, સાફ કરવાનું ચાલુ રાખિશુ. અમારી કોશિશ સારી માહિતી આપવાની છે. અમે તમારી મદદ ની અપેક્ષા રાખીએ છીએ . આ માટે દરેકનો આભાર, તમારા બધા વિના આ શક્ય ન હોત.',
+    q6: 'તમે આ કરવા માટે સમય અને સંસાધનો શા માટે મૂકી રહ્યાં છો જ્યારે તમે તેમાંથી એક પૈસો પણ નથી મેળવવાના?',
+    a6: 'અમે સહયોગની સાચી ભાવના, crowdsourcing, માહિતીનું લોકશાહીકરણ અને સ્વયંસેવા માં વિશ્વાસ કરીએ છીએ. જીવન બચાવવા માટે અમને સપોર્ટ કરો! અમને જોડાઓ.',
+    q7: 'તમે અમારી સાથે સ્વયંસેવક કેવી રીતે બની શકો?',
+    a7: ` ચકાસેલી માહિતી ઉમેરો (જે પહેલાથી અસ્તિત્વમાં નથી), અસ્તિત્વમાં છે તે ડેટાની ચકાસણી કરો અને
+  અપડેટ વેરિફિકેશન સ્ટેટસ શેર કરીને બીજા પ્લેટફોર્મ પર લોકોને 1-1 ની મદદ કરો
+  CovidFYI ના સંપર્ક / લિંક્સ, ઉત્પાદન સંબંધિત વિચારો પર નવીનતા લાવો, હેન્ડલ સામાજિક
+  મીડિયા & amp; માર્કેટિંગ ઓપરેશન, સ્વયંસેવકો, ઓનબોર્ડિંગ, તમે જે ટીમમાં જોડાવા માંગો છો તે નક્કી કરોઅથવા જ્યારે પણ મદદનો વારો આવે ત્યાં પીચ પર વળગી રહેવું!.`,
+    q8: `જો તમારી પાસે ચકાસેલ માહિતી હોય અને કોવિડ્ફાઇ ડેટાબેસને ઉમેરવા માંગતા હોય તો શું કરવું?`,
+    a8: `COVID સંસાધનો કેવી રીતે શેર કરવું તે અંગે ડેટા ટિપ્સ ઉમેરતા પહેલા આ વાંચવાની ભલામણ કરીશું `,
+    q9: `શું તમારી પાસે જથ્થા માં ચકાસેલી માહિતી છે?`,
+    a9: `જો તમે માહિતીને જથ્થામાં, એક્સેલ ફોર્મેટમાં ઉમેરવા માંગો છો, અને તમે એરટેબલથી આરામદાયક નથી, તો અમને Google શીટ અથવા એક્સેલ ફોર્મેટમાં મોકલો`,
+    a91: `અથવા અમને ગમે ત્યાં પહોંચો. માહિતી ઉમેરવા માટે અમારી ટીમમાં જોડાઓ.`,
+    q10: `શું તમે પણ અમારા જેવી જ પહેલ કરો છો? અથવા કોઈને જાણો છો?`,
+    a10: `સમાન ડેટા ધરાવતા સોશિયલ મીડિયા પર કે તમારી કંપની, મિત્રો, કે શિક્ષણ સંસ્થા દ્વારા ચલાવતા અભિયાન સુધી પહોંચો અને એમને અમારા વિશે માહિતી આપો. આ માટે અન્યને સહયોગની પહેલ કરવા વિનંતી કરીએ છીએ કારણ કે આપણે જે સમસ્યા હલ કરી રહ્યા છીએ તેમાં એકીકરણ મહત્વપૂર્ણ છે. અમે
+  શ્રેય લેવા નહીં પરંતુ ફક્ત આ માહિતી જરૂરિયાતો સુધી પહોંચવા માંગીએ છીએ. અમારું લક્ષ્ય યોગ્ય લોકોને યોગ્ય માહિતિ યોગ્ય સમયે સરળતાથી પૂરી પાડવાનું છે.`,
+    q11: 'ડિસ્ક્લેમર',
+    a112: `COVID માહિતી પ્લેટફોર્મ`,
+    a113: ` એક સ્વાસ્થ ડિજિટલ હેલ્થ ફાઉન્ડેશન ("સ્વાસ્થ"), CovidFYI, Coronasafe નેટવર્ક દ્વારા બનાવેલું પ્લેટફોર્મ છે જે ભારતભરમાં COVID-19 કટોકટી માટે ચકાસાયેલ crowdsourced કટોકટી સેવાઓ પ્રદાન કરે છે`,
+    a114: `COVID માહિતી પ્લેટફોર્મમાં પૂરા પાડવામાં આવેલ તમામ માહિતીની સ્વયંસેવકોના જૂથ દ્વારા તેમની શ્રેષ્ઠ ક્ષમતાઓથી ચકાસણી કરવામાં આવી છે
+   અને સંસ્થાઓ દ્વારા COVID પર પૂરા પાડવામાં આવેલ કોઈપણ ડેટા / માહિતી માટેની તમામ જવાબદારીનો અસ્વીકાર કરીએ છીએ. COVID માહિતીના ઉપયોગથી ઉદ્ભવતા કોઈપણ સીધા, પરોક્ષ, આકસ્મિક, પરિણામલક્ષી, વિશેષ, શિક્ષાત્મક, અનુકરણીય, અથવા કોઈ પણ અન્ય નુકસાનની 
+  પ્લેટફોર્મ સંસ્થાઓ કોઈ પણ સંજોગોમાં જવાબદાર રહેશે નહીં. COVID માહિતી પ્લેટફોર્મના ઉપયોગથી કોઈપણ નિર્ધારિત પરિણામોની સંસ્થાઓ દ્વારા કોઈ ખાતરી આપવામાં આવતી નથી. COVID માહિતી પ્લેટફોર્મ પર પૂરા પાડવામાં આવેલ કોઈપણ માહિતી વપરાશકર્તાનું વ્યક્તિગત જોખમ પર કરે અને તે માટે સંસ્થાઓ જવાબદાર નથી. આવા ડેટા / માહિતી પ્રદાન કરવા માટેના કોઈપણ પરિણામો વપરાશકર્તાઓ ઉપયોગ કરીને તે સમજે છે. કોવિડ માહિતીપ્રદ
+  પ્લેટફોર્મ માહિતીના હેતુ માટે, અન્ય સંસ્થાઓ અને વ્યક્તિઓ દ્વારા સંચાલિત વેબસાઇટ્સની લિંક્સ પ્રદાન કરી શકે છે, પરંતુ આવી સામગ્રી માટે અથવા આવી વેબસાઇટ્સના ઉપયોગ માટે કોઈપણ જવાબદારીનું સમર્થન કરતી અથવા સ્વીકારતી નથી.No warranty of any kind including
   but not limited to the warranties of non-infringement of third party rights,
   title, merchantability, fitness for a particular purpose is given with respect
   to the contents of this website or its hyperlinks to other internet resources.`

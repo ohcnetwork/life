@@ -24,7 +24,7 @@ const Breadcumb = ({ list }) => {
         );
     };
     return (
-        <nav className="py-4 " aria-label="Breadcrumb">
+        <nav className="py-6 pl-10 md:py-8 w-full " aria-label="Breadcrumb">
             <ol className="flex items-center space-x-4">
                 <li>
                     <div>

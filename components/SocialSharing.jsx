@@ -1,18 +1,17 @@
 import React, { useState } from 'react';
-import { faTwitter, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faFacebookSquare, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faCopy } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { copyToClipboard } from '@lib/utils';
 
-const SocialSharing = ({ twitterText, url, copyText, shareText }) => {
+const SocialSharing = ({ url, copyText }) => {
     const [copiedSuccess, setCopiesSuccess] = useState(false);
     return (
-        <div className="text-gray-700 dark:text-gray-400 text-lg pr-4  w-full flex ">
-            {shareText}
+        <div className="text-gray-700 dark:text-gray-400 text-lg w-full flex ">
             <span>
                 <a
-                    href={`https://twitter.com/intent/tweet?text=${twitterText}`}
+                    href={`https://twitter.com/intent/tweet?text=${copyText}`}
                     rel="noopener"
                     target="_blank">
                     <FontAwesomeIcon
@@ -24,20 +23,32 @@ const SocialSharing = ({ twitterText, url, copyText, shareText }) => {
             </span>
             <span>
                 <a
+                    href={`https://api.whatsapp.com/send?&text=${copyText}`}
+                    rel="noopener"
+                    target="_blank">
+                    <FontAwesomeIcon
+                        className="text-blue-500 ml-4"
+                        title="Share on Whatsapp"
+                        icon={faWhatsapp}
+                    />
+                </a>
+            </span>
+            <span>
+                <a
                     href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
                     rel="noopener"
                     target="_blank">
                     <FontAwesomeIcon
                         className="text-blue-500 ml-4"
                         title="Share on Facebook"
-                        icon={faFacebook}
+                        icon={faFacebookSquare}
                     />
                 </a>
             </span>
             <span
                 className="relative cursor-pointer"
                 onClick={() => {
-                    copyToClipboard(twitterText);
+                    copyToClipboard(copyText);
                     setCopiesSuccess(true);
                     setTimeout(() => setCopiesSuccess(false), 2000);
                 }}>

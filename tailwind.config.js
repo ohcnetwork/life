@@ -6,8 +6,7 @@ module.exports = {
         './pages/**/*.{js,jsx,ts,tsx}',
         './lib/**/*.{js,jsx,ts,tsx}',
         './layouts/**/*.{js,jsx,ts,tsx}',
-        './components/*.{js,jsx,ts,tsx}',
-        './public/index.html'
+        './components/*.{js,jsx,ts,tsx}'
     ],
     darkMode: 'class',
     theme: {
@@ -57,7 +56,8 @@ module.exports = {
                     900: '#453C52',
                     1000: '#1F2937',
                     1100: '#111827',
-                    1200: '#192030'
+                    1200: '#192030',
+                    1300: '#131a29'
                 }
             }
         }
