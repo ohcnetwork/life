@@ -91,7 +91,7 @@ export default function Home({ state, district, type }) {
                 <h1 className="font-semibold text-xl dark:text-gray-300">{t.description}</h1>
             </div>
             <div className="-mt-12">
-                <section className="bg-white dark:bg-gray-1300 rounded-lg mx-12 p-5 shadow-lg flex flex-col md:flex-row md:items-center">
+                <section className="bg-white dark:bg-gray-1300 rounded-lg mx-8 md:mx-10 p-5 shadow-lg flex flex-col md:flex-row md:items-center">
                     <div className="flex flex-col flex-1 my-2 md:my-0 dark:text-gray-200">
                         <label htmlFor="state" className="text-sm">
                             {t.select} {t.state}
@@ -103,10 +103,7 @@ export default function Home({ state, district, type }) {
                                 onChange={handleChooseState}
                                 className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-3 cursor-pointer z-10">
                                 {states.map((s, id) => (
-                                    <option
-                                        className="dark:text-gray-900 overflow-ellipsis"
-                                        key={id}
-                                        value={s}>
+                                    <option className="dark:text-gray-900" key={id} value={s}>
                                         {s}
                                     </option>
                                 ))}
@@ -119,7 +116,7 @@ export default function Home({ state, district, type }) {
                     <div className="bg-gray-100 dark:bg-gray-1000 h-1 transform rotate-90 w-12 my-2 hidden md:block" />
                     <div className="flex flex-col flex-1 my-2 md:my-0 dark:text-gray-200">
                         <label htmlFor="district" className="text-sm">
-                            {t.select} {t.district}{' '}
+                            {t.select} {t.district}
                         </label>
                         <div className="flex items-center relative">
                             <select
@@ -203,7 +200,12 @@ export default function Home({ state, district, type }) {
                             </div>
                         </div>
                         {tabVal === 'result' && (
-                            <SearchResult type={type} resources={resources[type]} />
+                            <SearchResult
+                                type={type}
+                                district={district}
+                                state={state}
+                                resources={resources[type]}
+                            />
                         )}
                         {tabVal === 'twitter' && (
                             <TwitterContainer searchStr={mapDistrictToCity(districtChoosen)} />

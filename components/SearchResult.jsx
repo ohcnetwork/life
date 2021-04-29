@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import NoResultFound from './NoResultFound';
 import ResourceCard from './ResourceCard';
 
-const SearchResult = ({ resources, type }) => {
+const SearchResult = ({ resources, type, district, state }) => {
 
     const [selectedFilter, setSelectedFilter] = useState('show_all');
 
@@ -38,7 +38,11 @@ const SearchResult = ({ resources, type }) => {
                                 data={resource}
                             />
                         ) :
-                        <NoResultFound />
+                        <NoResultFound
+                            type={type}
+                            district={district}
+                            state={state}
+                        />
                 }
             </main>
         </section>
