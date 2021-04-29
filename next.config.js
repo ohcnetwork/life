@@ -9,6 +9,9 @@ module.exports = withPWA({
     future: {
         webpack5: true,
     },
+    env: {
+        sentryDSN: process.env.SENTRY_DSN
+    },
     poweredByHeader: false,
     generateEtags: false,
     async headers() {
