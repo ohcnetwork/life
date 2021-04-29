@@ -6,8 +6,7 @@ import Breadcumb from '@components/Breadcumb';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 
-const campaign =
-{
+const campaign = {
     id: 1,
     name: 'Campaign',
     text: `As of today, India is undergoing a severe second wave of COVID-19 with the world’s highest daily new cases. Hospitals and healthcare providers are running out of resources in the fight against COVID-19 and the situation on the ground is dire. Oxygen is critically required to treat patients affected with COVID-19, many of whom require hospitalization. However, there is a severe shortage of oxygen across hospitals in India.
@@ -18,7 +17,7 @@ We are raising funds to help procure and distribute oxygen concentrators across 
 
 Please donate at the links below.
 
-#### Individuals in India:
+### Individuals in India:
 
 These contributions are eligible for tax benefits for Indian citizens under Sec 80G
 
@@ -26,16 +25,16 @@ These contributions are eligible for tax benefits for Indian citizens under Sec 
 
 - *Donate on Milaap:* https://milaap.org/fundraisers/Donate-for-Oxygen
 
-#### Individuals in other countries:
+### Individuals in other countries:
 
 US citizens contributing >$1000 can avail tax exemptions for donations made on Milaap
 
 - *Donate on Milaap:* https://milaap.org/fundraisers/Donate-for-Oxygen.
 
 
-##### Create a supporting sub-campaign: https://www.ketto.org/fundraiser/Donateforoxygen
+#### Create a supporting sub-campaign: https://www.ketto.org/fundraiser/Donateforoxygen
 
-#### Organisations / CSR Funding
+### Organisations / CSR Funding
 
 **Individual large grants from India or other countries:** For grants > Rs.7,50,000 or $10000, please write to us directly at shubha@swasthapp.org
 
@@ -65,13 +64,12 @@ const Campaigns = () => {
                         </div>
                     </div>
                 </div>
-                <div className="py-10 px-0 space-y-4 md:px-10 bg-gray-100 dark:text-white mt-6 w-full  dark:bg-gray-1100" >
+                <div className="py-10 px-0 space-y-4 md:px-10 bg-gray-100 dark:text-white mt-6 w-full  dark:bg-gray-1100">
                     <CampaignCard
                         key={campaign.id}
                         text={campaign.text}
                         open={campaign.length === 1}
                     />
-
                 </div>
             </section>
         </section>

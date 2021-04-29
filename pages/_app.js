@@ -3,7 +3,6 @@ import '@styles/globals.css';
 import Head from 'next/head';
 import SEO from '../next-seo.config';
 import { DefaultSeo } from 'next-seo';
-import '@styles/markdown.css';
 
 function MyApp({ Component, pageProps }) {
     return (
