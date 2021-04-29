@@ -5647,7 +5647,7 @@
             "homeDeliveryAvailable": null,
             "id": "recCNCXUMFWBnUcq8",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-29T07:42:45.000Z",
             "name": "Anil Bhai",
             "phone1": 9829025500,
             "phone2": null,
@@ -5655,7 +5655,7 @@
             "sourceName": "Verified by a friend over there",
             "state": "Rajasthan",
             "type": null,
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Sam Ar"
         },
         {
@@ -22837,14 +22837,14 @@
             "comment": "Whatsapp only ",
             "companyName": null,
             "createdTime": "2021-04-24T12:59:59.000Z",
-            "description": "Cylinder available ",
+            "description": "Cylinder out of stock",
             "district": "New Delhi",
             "emailId": null,
-            "homeDeliveryAvailable": null,
+            "homeDeliveryAvailable": "No",
             "id": "recp3AnO0E6mecbgw",
             "instructions": "Whatsapp only; Have to provide aadhar card, prescription, pulse oxymeter video ",
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
-            "name": "-",
+            "lastVerifiedOn": "2021-04-29T07:55:48.000Z",
+            "name": "Brig Premjit Singh Panesa",
             "phone1": 8860328112,
             "phone2": null,
             "sourceLink": null,
@@ -22853,7 +22853,7 @@
             "type": [
                 "Cylinder"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Samyak Chaudhary"
         },
         {
