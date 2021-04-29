@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import gfm from 'remark-gfm';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
 const CampaignCard = ({ name, text, logoUrl, donate, open }) => {
     const [isReadMore, setIsReadMore] = useState(open);
@@ -23,6 +25,12 @@ const CampaignCard = ({ name, text, logoUrl, donate, open }) => {
                                 className="underline text-primary-600 hover:text-primary-800 visited:text-purple-600"
                                 {...props}
                             />
+                        ),
+                        li: ({ node, ...props }) => (
+                            <div className="flex">
+                                <FontAwesomeIcon className="w-3 mr-2" icon={faCircle} />
+                                <p type="disc" className="ml-5" {...props} />
+                            </div>
                         )
                     }}
                     remarkPlugins={[gfm]}
