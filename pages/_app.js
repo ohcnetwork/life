@@ -3,8 +3,14 @@ import '@styles/globals.css';
 import Head from 'next/head';
 import SEO from '../next-seo.config';
 import { DefaultSeo } from 'next-seo';
+import { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }) {
+
+    useEffect(() => {
+        throw new Error("Some Error in Production")
+    }, [])
+
     return (
         <MainLayout>
             <DefaultSeo {...SEO} />
