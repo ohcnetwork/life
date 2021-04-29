@@ -6,12 +6,12 @@ import DetailedHome from '@components/DetailedHome';
 export default function All({ state, district }) {
     const SEO = {
         title: `All Resources in ${humanize(district)} , ${humanize(state)}`,
-        description: `Covid19 Resources for All Resources in ${humanize(district)} , ${humanize(
+        description: `All COVID-19 Resources in ${humanize(district)} , ${humanize(
             state
         )} `,
         openGraph: {
             title: `All Resources in ${humanize(district)} , ${humanize(state)}`,
-            description: `Covid19 Resources for All Resources in ${humanize(district)} , ${humanize(
+            description: `All COVID-19 Resources in ${humanize(district)} , ${humanize(
                 state
             )}  `
         },
@@ -20,7 +20,7 @@ export default function All({ state, district }) {
                 property: 'keywords',
                 content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,${humanize(
                     district
-                )},${humanize(state)},all,resources`
+                )},${humanize(state)},all,resources,oxygen,medicine,hospital,helpline`
             }
         ]
     };
