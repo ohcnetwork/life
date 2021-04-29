@@ -154,6 +154,7 @@ export default function DetailedHome({ state, district, type }) {
                                     type={resourceChoosen}
                                     district={districtChoosen}
                                     state={stateChoosen}
+                                    searchStr={mapDistrictToCity(districtChoosen)}
                                     resources={resources[resourceChoosen]}
                                 />
                             )}
