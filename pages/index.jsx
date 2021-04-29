@@ -25,19 +25,18 @@ import districtMapCity from '@data/map_dis_to_city';
 export default function Home({ state, district, type }) {
     const { locale } = useLocaleContext();
     const t = useLocale(locale, 'home');
-    const router = useRouter();
 
     const statesWithDistricts = statesAndDistrict();
     const [tabVal, setTabVal] = useState('result');
     const changeTabs = (v) => setTabVal(v);
 
     const states = Object.keys(statesWithDistricts);
-    state = states.find((e) => e.toLowerCase() === state?.toLowerCase());
+    state = states.find((e) => e.toLowerCase() === state?.toLowerCase()) || "";
 
     const [stateChoosen, setStateChoosen] = useState(state || states[0]);
 
     const districts = statesWithDistricts[stateChoosen];
-    district = districts.find((e) => e.toLowerCase() === district?.toLowerCase());
+    district = districts.find((e) => e.toLowerCase() === district?.toLowerCase()) || "";
 
     const [districtChoosen, setDistrictChoosen] = useState(district || districts[0]);
 
@@ -52,47 +51,38 @@ export default function Home({ state, district, type }) {
     const [resourceChoosen, setResourceChoosen] = useState(type || 'Oxygen');
 
     const resources = {
-        Oxygen: getOxygen(parametreize(stateChoosen), parametreize(districtChoosen), true),
+        Oxygen: getOxygen(
+            parametreize(state), parametreize(district), true
+        ),
         Medicine: medicineByDistrict(
-            parametreize(stateChoosen),
-            parametreize(districtChoosen),
-            true
+            parametreize(state), parametreize(district), true
         ),
         Hospital: hospitalByDistrict(
-            parametreize(stateChoosen),
-            parametreize(districtChoosen),
-            true
+            parametreize(state), parametreize(district), true
         ),
-        Ambulance: getAmbulances(parametreize(stateChoosen), parametreize(districtChoosen), true),
+        Ambulance: getAmbulances(
+            parametreize(state), parametreize(district), true
+        ),
         Helpline: helplineByDistrict(
-            parametreize(stateChoosen),
-            parametreize(districtChoosen),
-            true
+            parametreize(state), parametreize(district), true
         ),
-        Vaccine: getVaccine(parametreize(stateChoosen), parametreize(districtChoosen), true)
+        Vaccine: getVaccine(
+            parametreize(state), parametreize(district), true
+        )
     };
 
     const handleChooseState = ({ target: { value } }) => {
         setStateChoosen(value);
         const newDistrict = statesWithDistricts[value][0];
         setDistrictChoosen(newDistrict);
-        router.push(
-            generatePageURL(value, newDistrict, resourceChoosen)
-        );
     };
 
     const handleDistrictChange = ({ target: { value } }) => {
         setDistrictChoosen(value);
-        router.push(
-            generatePageURL(stateChoosen, value, resourceChoosen)
-        );
     };
 
     const handleResourceChange = ({ target: { value } }) => {
         setResourceChoosen(value);
-        router.push(
-            generatePageURL(stateChoosen, districtChoosen, value)
-        );
     };
 
     return (
