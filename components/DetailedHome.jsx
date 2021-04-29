@@ -62,10 +62,22 @@ export default function DetailedHome({ state, district, type }) {
             )
         },
         Oxygen: getOxygen(parametreize(stateChoosen), parametreize(districtChoosen), true),
-        Medicine: medicineByDistrict(parametreize(stateChoosen), parametreize(districtChoosen), true),
-        Hospital: hospitalByDistrict(parametreize(stateChoosen), parametreize(districtChoosen), true),
+        Medicine: medicineByDistrict(
+            parametreize(stateChoosen),
+            parametreize(districtChoosen),
+            true
+        ),
+        Hospital: hospitalByDistrict(
+            parametreize(stateChoosen),
+            parametreize(districtChoosen),
+            true
+        ),
         Ambulance: getAmbulances(parametreize(stateChoosen), parametreize(districtChoosen), true),
-        Helpline: helplineByDistrict(parametreize(stateChoosen), parametreize(districtChoosen), true),
+        Helpline: helplineByDistrict(
+            parametreize(stateChoosen),
+            parametreize(districtChoosen),
+            true
+        ),
         Vaccine: getVaccine(parametreize(stateChoosen), parametreize(districtChoosen), true)
     };
 
@@ -125,17 +137,19 @@ export default function DetailedHome({ state, district, type }) {
                 {resourceChoosen ? (
                     <>
                         <HomeTabs tabVal={tabVal} onChange={changeTabs} />
-                        {tabVal === 'result' && (
-                            <SearchResult
-                                type={resourceChoosen}
-                                district={districtChoosen}
-                                state={stateChoosen}
-                                resources={resources[resourceChoosen]}
-                            />
-                        )}
-                        {tabVal === 'twitter' && (
-                            <TwitterContainer searchStr={mapDistrictToCity(districtChoosen)} />
-                        )}
+                        <div style={{ minHeight: '315px' }}>
+                            {tabVal === 'result' && (
+                                <SearchResult
+                                    type={resourceChoosen}
+                                    district={districtChoosen}
+                                    state={stateChoosen}
+                                    resources={resources[resourceChoosen]}
+                                />
+                            )}
+                            {tabVal === 'twitter' && (
+                                <TwitterContainer searchStr={mapDistrictToCity(districtChoosen)} />
+                            )}
+                        </div>
                     </>
                 ) : (
                     <StartSearching text={t.startSearchingAmong} res={t.resources} />

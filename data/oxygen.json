@@ -2546,9 +2546,7 @@
                 "Cylinder"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -4708,9 +4706,7 @@
             "state": "West Bengal",
             "type": null,
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -7811,7 +7807,7 @@
             "verifiedBy": "sucharu asri"
         },
         {
-            "availability": "Available",
+            "availability": null,
             "city": null,
             "comment": "Free oxygen refill in Manesar \nCan confirm availability on whatsapp if they don't pick up ",
             "companyName": null,
@@ -7822,7 +7818,7 @@
             "homeDeliveryAvailable": "No",
             "id": "recGuQsuC9DF5k4ya",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-29T12:12:29.000Z",
             "name": "Star special air gases private limited ",
             "phone1": 9899930828,
             "phone2": 7703940131,
@@ -7833,7 +7829,7 @@
                 "Refil",
                 "Cylinder"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Samyak Chaudhary"
         },
         {
@@ -8741,7 +8737,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Available",
+            "comment": "did not answer the call",
             "companyName": "Nameless",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -8750,7 +8746,7 @@
             "homeDeliveryAvailable": null,
             "id": "recJ3K6tioZwV0t8z",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-29T13:35:57.000Z",
             "name": "Oxygen",
             "phone1": 9824058898,
             "phone2": null,
@@ -8760,7 +8756,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Soumya Pochiaju"
         },
         {
@@ -8791,7 +8787,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "07:13 pm, 29 April - Busy",
             "companyName": "QE Healthcare",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -8800,7 +8796,7 @@
             "homeDeliveryAvailable": null,
             "id": "recJ5wfoAUoY1Tabm",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-29T13:41:00.000Z",
             "name": "Sahni Gases",
             "phone1": 8999242424,
             "phone2": null,
@@ -8810,7 +8806,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Ankit J"
         },
         {
@@ -8862,7 +8858,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "07:14 pm, 29 April - Busy",
             "companyName": "Sunil Patel",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -8871,7 +8867,7 @@
             "homeDeliveryAvailable": null,
             "id": "recJ9k5xuberrdhtw",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-29T13:41:02.000Z",
             "name": "Multan Air Products",
             "phone1": 8826674242,
             "phone2": null,
@@ -8881,7 +8877,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Ankit J"
         },
         {
@@ -9052,7 +9048,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "switched off",
             "companyName": "Ketan",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -9061,7 +9057,7 @@
             "homeDeliveryAvailable": null,
             "id": "recJMBL0RgvHJoB9r",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-29T13:31:12.000Z",
             "name": "Emergency Medical Devices",
             "phone1": 9930803080,
             "phone2": null,
@@ -9071,7 +9067,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Soumya Pochiaju"
         },
         {
@@ -9086,7 +9082,7 @@
             "homeDeliveryAvailable": null,
             "id": "recJOHdV5jncTgclf",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-29T13:30:28.000Z",
             "name": "Ajay Tiwari",
             "phone1": 7257804224,
             "phone2": null,
@@ -9096,13 +9092,13 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Soumya Pochiaju"
         },
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Did not answer the call",
             "companyName": "Jay Gayatri",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -9111,7 +9107,7 @@
             "homeDeliveryAvailable": null,
             "id": "recJOjc7cndutf0X4",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-29T13:29:07.000Z",
             "name": null,
             "phone1": 8882264290,
             "phone2": null,
@@ -9121,13 +9117,13 @@
             "type": [
                 "Oxygen Cylinders"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Soumya Pochiaju"
         },
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "07:11 pm, 29 April -  Busy",
             "companyName": "Jay Gayatri",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -9136,7 +9132,7 @@
             "homeDeliveryAvailable": null,
             "id": "recJQdbQFvOTUGg0P",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-29T13:40:55.000Z",
             "name": "Assam Air Products Pvt. Ltd.",
             "phone1": 9706301778,
             "phone2": null,
@@ -9146,13 +9142,13 @@
             "type": [
                 "Oxygen Cylinders For Home Use"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Ankit J"
         },
         {
             "availability": null,
             "city": null,
-            "comment": "Be Human",
+            "comment": "07:12 pm, 29 April - Switched Off",
             "companyName": "Be Human",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -9161,7 +9157,7 @@
             "homeDeliveryAvailable": null,
             "id": "recJflX8fcuLxN3sI",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-29T13:40:59.000Z",
             "name": "Radha manohar gases",
             "phone1": 9319107621,
             "phone2": null,
@@ -9171,13 +9167,13 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Ankit J"
         },
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "07:10 pm, 29 April - Unreachable ; call got cut automatically",
             "companyName": "Sawaab Samaj Foundation",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -9186,7 +9182,7 @@
             "homeDeliveryAvailable": null,
             "id": "recJiUEJVfL0lDFik",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-29T13:40:00.000Z",
             "name": "Zalak Vasavada",
             "phone1": 7600233746,
             "phone2": null,
@@ -9196,7 +9192,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Ankit J"
         },
         {
@@ -9286,7 +9282,7 @@
             "homeDeliveryAvailable": null,
             "id": "recK244yxR4ox1FsL",
             "instructions": null,
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-29T13:53:30.000Z",
             "name": "Dipak",
             "phone1": 9378297049,
             "phone2": null,
@@ -9296,10 +9292,8 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Unresponsive",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Pending",
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -9324,9 +9318,7 @@
                 "Oxygen"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": "Available",
@@ -9476,9 +9468,7 @@
                 "Oxygen - Refill"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": "Available",
@@ -9531,9 +9521,7 @@
                 "Oxygen Cylinders For Home Use"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -9558,9 +9546,7 @@
                 "Oxygen"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -9685,9 +9671,7 @@
                 "Oxygen"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -9844,7 +9828,7 @@
             ]
         },
         {
-            "availability": "Available",
+            "availability": null,
             "city": null,
             "comment": "Unreachable",
             "companyName": "Mithilesh",
@@ -10053,9 +10037,7 @@
                 "Oxygen"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -10103,9 +10085,7 @@
                 "Oxygen"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -10130,9 +10110,7 @@
                 "Oxygen - Refill"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -10157,9 +10135,7 @@
                 "Oxygen"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -10184,9 +10160,7 @@
                 "Oxygen"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -22107,7 +22081,7 @@
             "homeDeliveryAvailable": null,
             "id": "recnnAgBkv0iUTZLV",
             "instructions": null,
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-29T13:53:33.000Z",
             "name": "Babul da",
             "phone1": 9434133521,
             "phone2": null,
@@ -22115,10 +22089,8 @@
             "sourceName": null,
             "state": "West Bengal",
             "type": null,
-            "verificationStatus": "Unresponsive",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Pending",
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,
@@ -22263,7 +22235,7 @@
             "homeDeliveryAvailable": null,
             "id": "reco8XmyFqInTFikP",
             "instructions": null,
-            "lastVerifiedOn": null,
+            "lastVerifiedOn": "2021-04-29T13:53:33.000Z",
             "name": "Pharma Co",
             "phone1": 9800055678,
             "phone2": 7980352250,
@@ -22273,10 +22245,8 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Unresponsive",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Pending",
+            "verifiedBy": "Sam Ar"
         },
         {
             "availability": null,

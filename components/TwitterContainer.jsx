@@ -39,17 +39,15 @@ const Selector = ({ searchStr }) => {
     const [covidConnectResults, loading] = useFetch(searchStr);
 
     return (
-        <>
-            <div className="mb-2 shadow-lg max-w-3xl mx-auto">
-                {searchStr && (
-                    <TwitterResultCard
-                        searchStr={searchStr}
-                        loading={loading}
-                        covidConnectResults={covidConnectResults}
-                    />
-                )}
-            </div>
-        </>
+        <div className="mb-2 h-full shadow-lg max-w-3xl mx-auto">
+            {searchStr && (
+                <TwitterResultCard
+                    searchStr={searchStr}
+                    loading={loading}
+                    covidConnectResults={covidConnectResults}
+                />
+            )}
+        </div>
     );
 };
 
