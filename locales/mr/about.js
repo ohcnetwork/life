@@ -60,21 +60,21 @@ export default {
     a113: `कोविडएफवायआय, स्वास्थ डिजिटल हेल्थ फाउंडेशन (“स्वास्थ”) यांनी बनविलेले व्यासपीठ आहे
     आणि कोरोनासेफ नेटवर्कला सत्यापित जनसमुदाय आणीबाणी सेवा प्रदान करण्यासाठी
     भारतभरातील कोविड -१ emerge आपत्कालीन परिस्थितीसाठी.`,
-    a114: `All data and information provided in the COVID Information Platform are verified
-by a group of volunteers to the best of their abilities and the Organizations
-disclaim all responsibility for any data/information provided on the COVID
-Information Platform. Organizations shall under no circumstances be held liable
-for any direct, indirect, incidental, consequential, special, punitive,
-exemplary, or any other damages arising out of the use of the COVID Information
-Platform. There is no assurance by the Organizations of any specified outcomes
-of the use of the COVID Information Platform. The users understand that by using
-any data or information provided on the COVID Information Platform shall be at
-their own risk and violation and that the Organizations are not responsible for
-any consequences for offering such data/information. COVID Informational
-Platform may provide, for informational purposes, links to websites operated by
-other entities and persons, but does not endorse or accept any responsibility
-for such content, or the use of such websites. No warranty of any kind including
-but not limited to the warranties of non-infringement of third party rights,
-title, merchantability, fitness for a particular purpose is given with respect
-to the contents of this website or its hyperlinks to other internet resources.`
+    a114: `कोविड माहिती प्लॅटफॉर्ममध्ये प्रदान केलेला सर्व डेटा आणि माहिती सत्यापित केली गेली आहे
+               स्वयंसेवकांच्या गटाद्वारे त्यांच्या क्षमता आणि संघटना यांच्या सर्वोत्कृष्ट कार्येद्वारे
+               COVID वर प्रदान केलेल्या कोणत्याही डेटा / माहितीसाठी सर्व जबाबदारी अस्वीकृत करा
+               माहिती प्लॅटफॉर्म. संस्था कोणत्याही परिस्थितीत जबाबदार राहणार नाहीत
+               कोणत्याही प्रत्यक्ष, अप्रत्यक्ष, प्रासंगिक, परिणामी, विशेष, दंड,
+               अनुकरणीय किंवा कोविड माहितीच्या वापरामुळे उद्भवणारी कोणतीही इतर हानी
+               प्लॅटफॉर्म. कोणत्याही विशिष्ट निकालांच्या संघटनांचे कोणतेही आश्वासन नाही
+               कोविड माहिती प्लॅटफॉर्मच्या वापराचा. वापरकर्त्यांना हे समजून घेत आहे
+               कोविड माहिती प्लॅटफॉर्मवर प्रदान केलेला कोणताही डेटा किंवा माहिती येथे असेल
+               त्यांचे स्वतःचे जोखीम आणि उल्लंघन आणि त्या संघटना जबाबदार नाहीत
+               असा डेटा / माहिती ऑफर करण्यासाठी कोणतेही परिणाम. कोविड माहितीपूर्ण
+               प्लॅटफॉर्म माहितीच्या उद्देशाने, द्वारा संचालित वेबसाइटचे दुवे प्रदान करू शकेल
+               इतर संस्था आणि व्यक्ती, परंतु कोणतीही जबाबदारी मान्य करीत नाहीत किंवा स्वीकारत नाहीत
+               अशा सामग्रीसाठी किंवा अशा वेबसाइट्सच्या वापरासाठी. यासह कोणत्याही प्रकारची हमी नाही
+               परंतु तृतीय पक्षाच्या हक्कांचे उल्लंघन न करण्याची हमी मर्यादित नाही,
+               शीर्षक, व्यापारक्षमता, विशिष्ट हेतूसाठी फिटनेस सन्मानाने दिले जाते
+               या वेबसाइटच्या सामग्रीवर किंवा इतर इंटरनेट स्त्रोतांकरिता त्याच्या हायपरलिंक्सवर.`
 };
