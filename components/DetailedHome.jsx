@@ -127,7 +127,7 @@ export default function DetailedHome({ state, district, type }) {
                 {resourceChoosen ? (
                     <>
                         <HomeTabs tabVal={tabVal} onChange={changeTabs} />
-                        <div className="min-h-full">
+                        <div style={{ minHeight: '315px', height: '400px' }}>
                             {tabVal === 'result' && (
                                 <SearchResult
                                     type={resourceChoosen}
