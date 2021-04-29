@@ -50,16 +50,16 @@ export default {
     a91: `किंवा आमच्याकडे कोठेही पोहोचू. माहिती जोडण्यासाठी आमच्या कार्यसंघामध्ये सामील व्हा.`,
     q10: `आपणही आमच्यासारखा असा उपक्रम आहात का? किंवा एक माहित आहे?`,
     a10: `समान कंपनी असलेल्या सोशल मीडियावर आपली कंपनी, मित्रांद्वारे, कॉलेजद्वारे चालवा.
-    त्यांच्यापर्यंत पोहोचा, आमच्याबद्दल बोला. Earnest request to get other initiatives to
-collaborate as consolidation is important in the problem that we are solving. We
-don&#39;t seek credits, we just want this information to reach. Our goal is to
-provide the right information to the right people at the right time in the right
-manner.`,
-    q11: `Disclaimer`,
-    a112: `COVID Information Platform`,
-    a113: `is a platform created by Swasth Digital Health Foundation (“Swasth”), CovidFYI
-and Coronasafe Network for providing verified crowd sourced emergency services
-for COVID-19 emergencies across India.`,
+    त्यांच्यापर्यंत पोहोचा, आमच्याबद्दल बोला. यांना इतर उपक्रम मिळण्यासाठी प्रामाणिक विनंती
+    आम्ही सोडवत असलेल्या समस्येमध्ये एकत्रीकरण महत्त्वपूर्ण आहे म्हणून सहयोग करणे. आम्ही
+    क्रेडिट शोधू नका, आम्हाला फक्त ही माहिती पोहोचावी अशी इच्छा आहे. आमचे ध्येय आहे
+    योग्य लोकांना योग्य वेळी योग्य माहिती प्रदान करा
+    रीतीने.`,
+    q11: `अस्वीकरण`,
+    a112: `कोविड माहिती प्लॅटफॉर्म`,
+    a113: `कोविडएफवायआय, स्वास्थ डिजिटल हेल्थ फाउंडेशन (“स्वास्थ”) यांनी बनविलेले व्यासपीठ आहे
+    आणि कोरोनासेफ नेटवर्कला सत्यापित जनसमुदाय आणीबाणी सेवा प्रदान करण्यासाठी
+    भारतभरातील कोविड -१ emerge आपत्कालीन परिस्थितीसाठी.`,
     a114: `All data and information provided in the COVID Information Platform are verified
 by a group of volunteers to the best of their abilities and the Organizations
 disclaim all responsibility for any data/information provided on the COVID
