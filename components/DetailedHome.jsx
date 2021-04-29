@@ -13,7 +13,7 @@ import {
     medicineByDistrict,
     statesAndDistrict
 } from '@lib/api';
-import { parametreize } from '@lib/utils';
+import { isVerified, parametreize } from '@lib/utils';
 import SearchResult from '@components/SearchResult';
 import Link from 'next/link';
 import StartSearching from '@components/StartSearching';
@@ -48,9 +48,19 @@ export default function DetailedHome({ state, district, type }) {
         return districtMapCity[s] || s;
     };
 
-    const [resourceChoosen, setResourceChoosen] = useState(type || 'Oxygen');
+    const [resourceChoosen, setResourceChoosen] = useState(type || 'All');
 
     const resources = {
+        get All() {
+            return (
+                [].concat(this.Oxygen)
+                    .concat(this.Medicine)
+                    .concat(this.Hospital)
+                    .concat(this.Ambulance)
+                    .concat(this.Helpline)
+                    .concat(this.Vaccine)
+            )
+        },
         Oxygen: getOxygen(parametreize(stateChoosen), parametreize(districtChoosen), true),
         Medicine: medicineByDistrict(parametreize(stateChoosen), parametreize(districtChoosen), true),
         Hospital: hospitalByDistrict(parametreize(stateChoosen), parametreize(districtChoosen), true),
@@ -79,7 +89,7 @@ export default function DetailedHome({ state, district, type }) {
                 <h1 className="font-semibold text-xl dark:text-gray-300">{t.description}</h1>
             </div>
             <div className="-mt-12">
-                <section className="bg-white max-w-7xl dark:bg-gray-1300 rounded-lg mx-auto p-5 shadow-lg flex flex-col md:flex-row md:items-center">
+                <section className="bg-white max-w-7xl dark:bg-gray-1300 rounded-lg mx-3 md:mx-auto p-5 shadow-lg flex flex-col md:flex-row md:items-center">
                     <HomeSelector
                         val={stateChoosen}
                         optionsList={states}
