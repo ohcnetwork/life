@@ -4842,6 +4842,34 @@
             ]
         },
         {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-30T02:17:02.000Z",
+            "district": "Jaipur",
+            "email1": null,
+            "email2": null,
+            "id": "recbUfpO7B2BVbIWe",
+            "lastVerifiedOn": null,
+            "name": "RHUS",
+            "phone1": null,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Rajasthan",
+            "subCategory": null,
+            "totalBedsAvailable": 9,
+            "typeOfBedAvailable": [
+                "Bed without oxygen",
+                "Bed with oxygen",
+                "Bed with ventilator",
+                "ICU bed"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "comment": "6 beds available",
             "createdTime": "2021-04-19T07:48:08.000Z",
