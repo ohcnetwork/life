@@ -2,6 +2,7 @@ import urllib.request
 import json
 import os
 import ssl
+import uuid
 
 active_district_data_v2_data = {
     "data": []
@@ -22,7 +23,7 @@ def generate_v2_file(url, data, name=""):
 def parseInfo(info_type, data):
     s = set()
     json_array = json.loads(data)
-    active_district_json = dict(ambulance=False, contact=False, district="", doctor=False, helpline=False,
+    active_district_json = dict(id= uuid.uuid4().hex, ambulance=False, contact=False, district="", doctor=False, helpline=False,
                                 hospitals=False, medicine=False, oxygen=False, state="")
 
     if len(active_district_data_v2_data["data"]) == 0:
