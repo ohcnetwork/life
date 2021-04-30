@@ -42,9 +42,6 @@ def fetch_coordinates(address):
     return coordinates
 
 
-def generate_url(address):
-    return "https://maps.googleapis.com/maps/api/geocode/json?address="+ address +"&key=" + os.environ["GEOCODE_KEY"]
-
 def extract_coordinates(result):
     if ("results" in result and len(result["results"]) > 0 and "geometry" in result["results"][0]):
         coordinates = result["results"][0]["geometry"]["location"]
