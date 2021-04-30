@@ -109,7 +109,7 @@ const Partners = () => {
                                 title="Covid 19 Statistics"
                                 icon={faFileDownload}
                             />
-                            Unified backend partnership
+                            Unified Backend Partnership
                         </button>
                     </a>
                 </div>
