@@ -59,6 +59,54 @@ module.exports = {
                     1200: '#192030',
                     1300: '#131a29'
                 }
+            },
+            typography: {
+                DEFAULT: {
+                    css: {
+                        color: 'colors.gray.900',
+                        h2: {
+                            color: 'colors.blue.500',
+                            '&:hover': {
+                                color: 'colors.blue.700'
+                            }
+                        },
+                        h3: {
+                            color: 'colors.blue.500',
+                            '&:hover': {
+                                color: 'colors.blue.700'
+                            }
+                        },
+                        strong: {
+                            color: 'colors.blue.500',
+                            '&:hover': {
+                                color: 'colors.blue.700'
+                            }
+                        }
+                    }
+                },
+                DARK: {
+                    css: {
+                        color: 'colors.gray.100',
+                        h2: {
+                            color: 'colors.blue.100',
+                            '&:hover': {
+                                color: 'colors.blue.100'
+                            }
+                        },
+                        h3: {
+                            color: 'colors.blue.100',
+                            '&:hover': {
+                                color: 'colors.blue.100'
+                            }
+                        },
+                        strong: {
+                            color: 'colors.blue.500',
+                            '&:hover': {
+                                color: 'colors.blue.700'
+                            }
+                        }
+                    }
+                }
             }
         }
     },
