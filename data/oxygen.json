@@ -9197,7 +9197,7 @@
             "homeDeliveryAvailable": null,
             "id": "recJmRWxbGYbkH8yj",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T07:06:35.000Z",
             "name": "Imperial Gases Ltd.",
             "phone1": 941523903008726700000,
             "phone2": null,
@@ -9207,7 +9207,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Ananya Palivela"
         },
         {
@@ -9222,7 +9222,7 @@
             "homeDeliveryAvailable": null,
             "id": "recJmZRnw4ebhAtk1",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T07:03:49.000Z",
             "name": "Kalinga Gases",
             "phone1": 9214979302,
             "phone2": null,
@@ -9232,7 +9232,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Ananya Palivela"
         },
         {
@@ -9598,7 +9598,7 @@
             "homeDeliveryAvailable": null,
             "id": "recKXfoY516q60Lfu",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T07:08:25.000Z",
             "name": "Belgaum Oxygen Pvt. Ltd.",
             "phone1": 9844053348,
             "phone2": null,
@@ -9608,7 +9608,7 @@
             "type": [
                 "Oxygen Cylinders For Home Use"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Ananya Palivela"
         },
         {
