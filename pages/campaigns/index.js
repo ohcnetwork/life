@@ -1,7 +1,5 @@
 import React from 'react';
 import CampaignCard from '@components/CampaignCard';
-import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Breadcumb from '@components/Breadcumb';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
@@ -55,15 +53,13 @@ const Campaigns = () => {
             <Header title="Campaigns" />
             <section className="flex flex-col items-center">
                 <div className="py-10 px-0 space-y-4 md:px-10 bg-gray-100 dark:text-white mt-6 w-full  dark:bg-gray-1100">
-                    {
-                        campaigns.map(campaign =>
-                            <CampaignCard
-                                key={campaign.id}
-                                text={campaign.text}
-                                open={campaigns.length === 1}
-                            />
-                        )
-                    }
+                    {campaigns.map((campaign) => (
+                        <CampaignCard
+                            key={campaign.id}
+                            text={campaign.text}
+                            open={campaigns.length === 1}
+                        />
+                    ))}
                 </div>
             </section>
         </section>
