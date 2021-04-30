@@ -31,7 +31,11 @@ def transform_data(data):
     return data
 
 def fetch_coordinates(address):
-    url = generate_url(address)
+    url = "https://maps.googleapis.com/maps/api/geocode/json"
+    params= {
+        'address': address,
+        'key': os.environ["GEOCODE_KEY"],
+    }
     response = requests.get(url)
     formatted_response = response.json()
     coordinates = extract_coordinates(formatted_response)
