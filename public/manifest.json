@@ -1,7 +1,7 @@
 {
     "name": "Coronasafe Life",
     "short_name": "life",
-    "description": "Coronasafe Life Verified Crowd Sourced Emergency Services Directory",
+    "description": "Coronasafe Life - Verified Crowd Sourced Emergency Services Directory",
     "icons": [
         {
             "src": "https://cdn.coronasafe.network/life/maskable_icon_x192.png",
@@ -29,7 +29,8 @@
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone",
-    "Scope": "/",
-    "start_url": ".",
+    "scope": "/",
+    "start_url": "/",
+    "categories": ["covid19", "pandemic", "resources", "information", "emergency"],
     "orientation": "portrait"
 }
