@@ -43,7 +43,7 @@ const Selector = ({ searchStr, noRes, noResText }) => {
             {noRes && (
                 <div className="my-6 pl-4 dark:text-gray-600 font-medium">
                     <p>No Results Found For "{noResText}"</p>
-                    <p>Trying to Search Via Twitter</p>
+                    <p>Showing the results from twitter</p>
                 </div>
             )}
             {searchStr && (
