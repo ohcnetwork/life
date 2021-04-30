@@ -51,7 +51,7 @@ const NavBar = () => {
     return (
         <section className="mb-20 mx-auto">
             <nav className="flex bg-gray-200 dark:bg-gray-1200 items-center justify-between px-5 py-2 fixed top-0 left-0  w-full  z-50">
-                <div className="flex items-center m-3 cursor-pointer md:hidden">
+                <div ref={menuNode} className="flex items-center m-3 cursor-pointer md:hidden">
                     <div className="w-5 h-5">
                         {isOpen ? (
                             <FontAwesomeIcon
@@ -67,6 +67,13 @@ const NavBar = () => {
                             />
                         )}
                     </div>
+                    {isOpen && (
+                        <div className="flex bg-gray-200 dark:bg-gray-1200 py-2 flex-col items-center justify-center md:hidden px-4 fixed top-20 left-0 w-full z-50">
+                            {navLinks.map(({ icon, title, link }, id) => (
+                                <NavLink key={id} title={title} link={link} icon={icon} />
+                            ))}
+                        </div>
+                    )}
                 </div>
                 <a href="/" className="flex items-center m-3">
                     <Logo height={40} />
@@ -88,15 +95,6 @@ const NavBar = () => {
                     </div>
                 </div>
             </nav>
-            {isOpen && (
-                <div
-                    ref={menuNode}
-                    className="flex bg-gray-200 dark:bg-gray-1200 py-2 flex-col items-center justify-center md:hidden px-4 fixed top-20 left-0 w-full z-50">
-                    {navLinks.map(({ icon, title, link }, id) => (
-                        <NavLink key={id} title={title} link={link} icon={icon} />
-                    ))}
-                </div>
-            )}
         </section>
     );
 };
