@@ -1,13 +1,10 @@
 import { filterResourcesBy } from '@lib/utils';
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import NoResultFound from './NoResultFound';
 import ResourceCard from './ResourceCard';
 import TwitterContainer from '@components/TwitterContainer';
-
 const SearchResult = ({ resources, type, district, state, searchStr }) => {
     const [selectedFilter, setSelectedFilter] = useState('show_all');
-
-    const menuNode = useRef();
 
     const resourcesListing = filterResourcesBy(resources, selectedFilter);
     const noData = resourcesListing.length === 0 && selectedFilter === 'show_all';

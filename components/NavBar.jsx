@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { useLocaleContext } from '@hooks/use-locale-context';
 import Logo from './Logo';
 import NavLink from './NavLink';
@@ -14,12 +14,16 @@ import {
     faTimes
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import useOnClickOutside from '@hooks/useOnClickOutside';
 
 const NavBar = () => {
     const { locale } = useLocaleContext();
     const t = useLocale(locale, 'home');
 
     const [isOpen, setIsOpen] = useState(false);
+
+    const menuNode = useRef();
+    useOnClickOutside(menuNode, () => setIs);
 
     const navLinks = [
         {
