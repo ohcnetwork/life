@@ -18,18 +18,18 @@ Please donate at the links below.
 
 These contributions are eligible for tax benefits for Indian citizens under Sec 80G
 
-- *Donate on Impactguru:* https://www.impactguru.com/fundraiser/oxygen
+1. [Donate on Impactguru](https://www.impactguru.com/fundraiser/oxygen)
 
-- *Donate on Milaap:* https://milaap.org/fundraisers/Donate-for-Oxygen
+2. [Donate on Milaap](https://milaap.org/fundraisers/Donate-for-Oxygen)
 
 ### Individuals in other countries:
 
 US citizens contributing >$1000 can avail tax exemptions for donations made on Milaap
 
-- *Donate on Milaap:* https://milaap.org/fundraisers/Donate-for-Oxygen.
+1. [Donate on Milaap](https://milaap.org/fundraisers/Donate-for-Oxygen)
 
 
-#### Create a supporting sub-campaign: https://www.ketto.org/fundraiser/Donateforoxygen
+#### [Create a supporting sub-campaign](https://www.ketto.org/fundraiser/Donateforoxygen)
 
 ### Organisations / CSR Funding
 
@@ -51,11 +51,11 @@ const Campaigns = () => {
         <section className="max-w-5xl mx-auto px-2">
             <Breadcumb list={[{ href: null, name: 'Campaigns' }]} />
             <Header title="Campaigns" />
-            <article class="prose lg:prose-xl prose-indigo">
-                <div
-                    className="dark:text-gray-300 text-gray-1000"
-                    dangerouslySetInnerHTML={{ __html: htmlStr }}></div>
-            </article>
+            <section className="flex flex-col mx-2 md:mx-6 pt-2 pl-4">
+                <article className="prose lg:prose-xl dark:text-gray-100 text-gray-1000 prose-indigo">
+                    <div dangerouslySetInnerHTML={{ __html: htmlStr }}></div>
+                </article>
+            </section>
         </section>
     );
 };

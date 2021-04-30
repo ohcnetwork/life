@@ -59,37 +59,11 @@ module.exports = {
                     1200: '#192030',
                     1300: '#131a29'
                 }
-            },
-            typography: (theme) => ({
-                default: {
-                    css: {
-                        color: theme('colors.gray.900'),
-
-                        a: {
-                            color: theme('colors.blue.500'),
-                            '&:hover': {
-                                color: theme('colors.blue.700')
-                            }
-                        }
-                    }
-                },
-                dark: {
-                    css: {
-                        color: theme('colors.gray.100'),
-
-                        a: {
-                            color: theme('colors.blue.100'),
-                            '&:hover': {
-                                color: theme('colors.blue.100')
-                            }
-                        }
-                    }
-                }
-            })
+            }
         }
     },
     variants: {
         extend: {}
     },
-    plugins: [require('@tailwindcss/typography')]
+    plugins: [require('@tailwindcss/typography')()]
 };
