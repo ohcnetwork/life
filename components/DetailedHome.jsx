@@ -13,7 +13,7 @@ import {
     medicineByDistrict,
     statesAndDistrict
 } from '@lib/api';
-import { isVerified, parametreize } from '@lib/utils';
+import { parametreize } from '@lib/utils';
 import SearchResult from '@components/SearchResult';
 import Link from 'next/link';
 import StartSearching from '@components/StartSearching';
@@ -21,10 +21,12 @@ import TwitterContainer from '@components/TwitterContainer';
 import districtMapCity from '@data/map_dis_to_city';
 import HomeSelector from '@components/HomeSelector';
 import HomeTabs from '@components/HomeTabs';
+import { useRouter } from 'next/router';
 
 export default function DetailedHome({ state, district, type }) {
     const { locale } = useLocaleContext();
     const t = useLocale(locale, 'home');
+    const router = useRouter();
 
     const statesWithDistricts = statesAndDistrict();
     const [tabVal, setTabVal] = useState('result');
@@ -52,14 +54,13 @@ export default function DetailedHome({ state, district, type }) {
 
     const resources = {
         get All() {
-            return (
-                [].concat(this.Oxygen)
-                    .concat(this.Medicine)
-                    .concat(this.Hospital)
-                    .concat(this.Ambulance)
-                    .concat(this.Helpline)
-                    .concat(this.Vaccine)
-            )
+            return []
+                .concat(this.Oxygen)
+                .concat(this.Medicine)
+                .concat(this.Hospital)
+                .concat(this.Ambulance)
+                .concat(this.Helpline)
+                .concat(this.Vaccine);
         },
         Oxygen: getOxygen(parametreize(stateChoosen), parametreize(districtChoosen), true),
         Medicine: medicineByDistrict(
@@ -85,14 +86,23 @@ export default function DetailedHome({ state, district, type }) {
         setStateChoosen(value);
         const newDistrict = statesWithDistricts[value][0];
         setDistrictChoosen(newDistrict);
+        router.push(
+            `/${parametreize(value)}/${parametreize(newDistrict)}/${resourceChoosen.toLowerCase()}`
+        );
     };
 
     const handleDistrictChange = ({ target: { value } }) => {
         setDistrictChoosen(value);
+        router.push(
+            `/${parametreize(stateChoosen)}/${parametreize(value)}/${resourceChoosen.toLowerCase()}`
+        );
     };
 
     const handleResourceChange = ({ target: { value } }) => {
         setResourceChoosen(value);
+        router.push(
+            `/${parametreize(stateChoosen)}/${parametreize(districtChoosen)}/${value.toLowerCase()}`
+        );
     };
 
     return (
@@ -140,9 +150,11 @@ export default function DetailedHome({ state, district, type }) {
                         <div style={{ minHeight: '315px' }}>
                             {tabVal === 'result' && (
                                 <SearchResult
+                                    changeTabs={changeTabs}
                                     type={resourceChoosen}
                                     district={districtChoosen}
                                     state={stateChoosen}
+                                    searchStr={mapDistrictToCity(districtChoosen)}
                                     resources={resources[resourceChoosen]}
                                 />
                             )}

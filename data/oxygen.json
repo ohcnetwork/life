@@ -51,18 +51,18 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
-            "availability": "Available",
+            "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "Lines Busy, Heavy traffic on organization's phone lines",
             "companyName": "Loknath Sheva Sadan",
             "createdTime": "2021-04-24T18:06:13.000Z",
-            "description": null,
+            "description": "An organization, credibility and stock levels still unknown",
             "district": "Dakshin Dinajpur (South Dinajpur)",
             "emailId": null,
             "homeDeliveryAvailable": null,
             "id": "rec08jlvPI66gZ7Z8",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T11:21:19.000Z",
             "name": null,
             "phone1": 7947433015,
             "phone2": null,
@@ -73,7 +73,7 @@
                 "Cylinder",
                 "Refil"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Samyak Chaudhary"
         },
         {
@@ -734,7 +734,32 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Business Account. Contact through whatsapp only. Kay Tee Welding Gases \nDeva Road, B.R.Dubey Enclay opp side of Kuwar Global School Gate, Chinhat, Lucknow.\nAadhar and dr prescription mandatory",
+            "companyName": "Kay Tee Welding Gases",
+            "createdTime": "2021-04-24T12:52:51.000Z",
+            "description": "Refill",
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "rec1iZUwQ3LlhNr3V",
+            "instructions": "Contact through whatsapp only ",
+            "lastVerifiedOn": "2021-04-30T11:03:21.000Z",
+            "name": "Kay Tee Welding Gases",
+            "phone1": 9889556666,
+            "phone2": null,
+            "sourceLink": "https://twitter.com/SixPointerGuy/status/1385889689777836033",
+            "sourceName": "Twitter",
+            "state": "Uttar Pradesh",
+            "type": [
+                "Refil"
+            ],
+            "verificationStatus": "Unavailable but verified",
+            "verifiedBy": "Samyak Chaudhary"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "Busy\n",
             "companyName": null,
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -743,7 +768,7 @@
             "homeDeliveryAvailable": null,
             "id": "rec1jMK2AqxGlNI7s",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T10:05:09.000Z",
             "name": "Oxygen Suppliers",
             "phone1": 9925246679,
             "phone2": null,
@@ -753,10 +778,8 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -2010,8 +2033,8 @@
             "instructions": null,
             "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
             "name": "Swasti Healthcare",
-            "phone1": 805002441607947200000,
-            "phone2": null,
+            "phone1": 80500244160,
+            "phone2": 7947200000,
             "sourceLink": null,
             "sourceName": null,
             "state": "Delhi (NCT)",
@@ -2933,8 +2956,8 @@
             "instructions": null,
             "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
             "name": "Sports 365",
-            "phone1": 99869669096304500000,
-            "phone2": null,
+            "phone1": 998696690,
+            "phone2": 9630450000,
             "sourceLink": null,
             "sourceName": null,
             "state": "Delhi (NCT)",
@@ -3603,7 +3626,7 @@
             ]
         },
         {
-            "availability": null,
+            "availability": "Available",
             "city": null,
             "comment": "Third Party Verified",
             "companyName": "Rasik Bhai / Damji Bhai, Veer Foundation",
@@ -3613,8 +3636,8 @@
             "emailId": "Security deposits cheques to be submitted while the cylinder",
             "homeDeliveryAvailable": null,
             "id": "rec7lXsCCR5v4hLwQ",
-            "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "instructions": "WhatsApp Response\n",
+            "lastVerifiedOn": "2021-04-30T13:30:11.000Z",
             "name": "Ramesh Mandola Groups:",
             "phone1": 9827233147,
             "phone2": null,
@@ -3624,10 +3647,8 @@
             "type": [
                 "Oxygen - Refill"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Available and verified",
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -4409,9 +4430,7 @@
                 "Oxygen"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -4578,7 +4597,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Unresponsive\n",
             "companyName": "Rajasthan Air Products",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -4587,7 +4606,7 @@
             "homeDeliveryAvailable": null,
             "id": "recAQNdMvulyB40uD",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T11:13:09.000Z",
             "name": "Near Nirwana Hotel",
             "phone1": 9755502300,
             "phone2": null,
@@ -4597,10 +4616,8 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -9197,17 +9214,17 @@
             "homeDeliveryAvailable": null,
             "id": "recJmRWxbGYbkH8yj",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T07:06:35.000Z",
             "name": "Imperial Gases Ltd.",
-            "phone1": 941523903008726700000,
-            "phone2": null,
+            "phone1": 9415239030,
+            "phone2": 8726700000,
             "sourceLink": "https://twitter.com/intent/tweet?url=https%3A%2F%2Findiacovidresources.in%2F&text=",
             "sourceName": null,
             "state": "Delhi (NCT)",
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Ananya Palivela"
         },
         {
@@ -9222,7 +9239,7 @@
             "homeDeliveryAvailable": null,
             "id": "recJmZRnw4ebhAtk1",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T07:03:49.000Z",
             "name": "Kalinga Gases",
             "phone1": 9214979302,
             "phone2": null,
@@ -9232,22 +9249,22 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Ananya Palivela"
         },
         {
-            "availability": null,
+            "availability": "Available",
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Available",
             "companyName": "Nameless",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": "Janakpuri",
             "district": "New Delhi",
-            "emailId": "Switched off",
-            "homeDeliveryAvailable": null,
+            "emailId": "Unavailable",
+            "homeDeliveryAvailable": "No",
             "id": "recK0OnOUDLiTZp3K",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T07:11:21.000Z",
             "name": "Irfan Bhai Oxygen",
             "phone1": 7680805522,
             "phone2": null,
@@ -9257,7 +9274,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Ananya Palivela"
         },
         {
@@ -9338,7 +9355,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Bogus Numbers",
+            "comment": "Bogus Numbers - wrong number",
             "companyName": "Nameless",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -9347,7 +9364,7 @@
             "homeDeliveryAvailable": null,
             "id": "recKDLPTGfNFeg5dz",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T09:22:36.000Z",
             "name": "Goyal MG Gases Pvt Ltd",
             "phone1": 8586982821,
             "phone2": null,
@@ -9357,22 +9374,22 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Ashish Mathew"
         },
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Wrong number",
             "companyName": "Nameless",
             "createdTime": "2021-04-25T13:54:34.000Z",
-            "description": null,
+            "description": "Wrong number",
             "district": "New Delhi",
             "emailId": "Switched off",
             "homeDeliveryAvailable": null,
             "id": "recKEqKJoN0Dbuv6q",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T09:21:41.000Z",
             "name": "100 Bed Hospital",
             "phone1": 9898068540,
             "phone2": null,
@@ -9382,7 +9399,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Ashish Mathew"
         },
         {
@@ -9598,7 +9615,7 @@
             "homeDeliveryAvailable": null,
             "id": "recKXfoY516q60Lfu",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T07:08:25.000Z",
             "name": "Belgaum Oxygen Pvt. Ltd.",
             "phone1": 9844053348,
             "phone2": null,
@@ -9608,7 +9625,7 @@
             "type": [
                 "Oxygen Cylinders For Home Use"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Ananya Palivela"
         },
         {
@@ -9622,8 +9639,8 @@
             "emailId": "No response",
             "homeDeliveryAvailable": null,
             "id": "recKZERN7sAnDUwpV",
-            "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "instructions": "Contact other centres ",
+            "lastVerifiedOn": "2021-04-30T07:10:10.000Z",
             "name": "KNEW ELECTRIC LOHAR CHAWL",
             "phone1": 9820132853,
             "phone2": null,
@@ -9633,7 +9650,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Ananya Palivela"
         },
         {
@@ -9863,9 +9880,7 @@
                 "Oxygen Cylinders For Home Use"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Ankit J"
         },
         {
             "availability": null,
@@ -9890,9 +9905,7 @@
                 "Oxygen Cylinders For Home Use"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Ankit J"
         },
         {
             "availability": "Available",
@@ -9945,9 +9958,7 @@
                 "Oxygen"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Ankit J"
         },
         {
             "availability": null,
@@ -10381,9 +10392,7 @@
                 "Oxygen Cylinders"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Ankit J"
         },
         {
             "availability": null,
@@ -11437,6 +11446,35 @@
         {
             "availability": "Available",
             "city": null,
+            "comment": "They have cylinder but no flow regulator or mask.",
+            "companyName": "Siga Gases \nAddress: 3rd Street, Chamarajapete, Near Jain Temple.",
+            "createdTime": "2021-04-30T12:31:46.000Z",
+            "description": "45L oxygen cylinder\nNo Home delivery",
+            "district": "Bengaluru (Bangalore) Urban",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recOLrtGnStiBetzw",
+            "instructions": "There are no flow regulators or mask with them.",
+            "lastVerifiedOn": "2021-04-30T12:31:46.000Z",
+            "name": "Gopal - 7406841226",
+            "phone1": 7406841226,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Verified via someone who got oxygen there.",
+            "state": "Karnataka",
+            "type": [
+                "Cylinder",
+                "Oxygen Cylinders",
+                "Oxygen cylinders"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
+            "city": null,
             "comment": null,
             "companyName": null,
             "createdTime": "2021-04-25T17:17:25.000Z",
@@ -11942,9 +11980,9 @@
             ]
         },
         {
-            "availability": "Available",
+            "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "Busy",
             "companyName": "Bravo foundation",
             "createdTime": "2021-04-24T18:45:59.000Z",
             "description": "Home delivery available\nPatients hv to show their oximeter reading and medical prescription for getting free oxygen",
@@ -11953,7 +11991,7 @@
             "homeDeliveryAvailable": "Yes",
             "id": "recP5FzAAHVUbK5Yo",
             "instructions": "Oxymetre readings for viewing spo2 level and medical prescription",
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T11:16:28.000Z",
             "name": "Bravo foundation",
             "phone1": 7004493764,
             "phone2": null,
@@ -11964,7 +12002,7 @@
                 "Refil",
                 "Cylinder"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Samyak Chaudhary"
         },
         {
@@ -12255,7 +12293,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Switched off\n",
             "companyName": "Satyavadi Raja Harsihchandra Hospital, Near Singhu Border, Narela",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -12264,7 +12302,7 @@
             "homeDeliveryAvailable": null,
             "id": "recQ7xG61PBpuLS9n",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T10:04:57.000Z",
             "name": "Vidya Ji",
             "phone1": 9835420734,
             "phone2": null,
@@ -12274,10 +12312,8 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -14280,8 +14316,8 @@
             "instructions": null,
             "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
             "name": "CHINTAMANI DERASAR GHATKOPAR WEST",
-            "phone1": 98210102109768060000,
-            "phone2": null,
+            "phone1": 9821010210,
+            "phone2": 9768060000,
             "sourceLink": "https://twitter.com/intent/tweet?url=https%3A%2F%2Findiacovidresources.in%2F&text=",
             "sourceName": null,
             "state": "Delhi (NCT)",
@@ -14373,29 +14409,27 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Response on WhatsApp, Oxygen concentrators, no supply currently",
             "companyName": "Swastic Traders",
             "createdTime": "2021-04-25T13:54:34.000Z",
-            "description": null,
+            "description": "Currently unavailable\n",
             "district": "New Delhi",
-            "emailId": "Not picking up",
-            "homeDeliveryAvailable": null,
+            "emailId": "Call not picking, response on Whatsapp",
+            "homeDeliveryAvailable": "No",
             "id": "recVVPQ3EFkNO2Uab",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T13:14:23.000Z",
             "name": "Emergency Medical Devices",
             "phone1": 9830056776,
             "phone2": null,
             "sourceLink": "https://twitter.com/intent/tweet?url=https%3A%2F%2Findiacovidresources.in%2F&text=",
-            "sourceName": null,
+            "sourceName": "Unosupply",
             "state": "Delhi (NCT)",
             "type": [
-                "Oxygen"
+                "Oxygen Concentrator"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unavailable but verified",
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -17792,6 +17826,33 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "OXYGEN CAN AVAILABLE\n",
+            "companyName": null,
+            "createdTime": "2021-04-30T10:39:55.000Z",
+            "description": "oxygen can available",
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "reccl4o7A5PqpfXHZ",
+            "instructions": "bring photocopies of covid report pand adhar card of the patient",
+            "lastVerifiedOn": "2021-04-30T10:39:55.000Z",
+            "name": "Mohit Kapoor",
+            "phone1": 8960002222,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Available with me",
+            "state": "Uttar Pradesh",
+            "type": [
+                "Cans"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "Unreachable",
@@ -20479,10 +20540,10 @@
             "description": null,
             "district": "Kolkata",
             "emailId": null,
-            "homeDeliveryAvailable": null,
+            "homeDeliveryAvailable": "No",
             "id": "recjoJHk6gXEK5odr",
-            "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "instructions": "Out of stock\n",
+            "lastVerifiedOn": "2021-04-30T11:15:23.000Z",
             "name": "Pradip samanta",
             "phone1": 9830328166,
             "phone2": null,
@@ -20490,7 +20551,7 @@
             "sourceName": null,
             "state": "West Bengal",
             "type": null,
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Samyak Chaudhary"
         },
         {
@@ -22170,6 +22231,33 @@
                 "Oxygen - Refill"
             ],
             "verificationStatus": "Pending",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": "Only Oxygen CAN available",
+            "companyName": null,
+            "createdTime": "2021-04-30T11:35:32.000Z",
+            "description": "Only oxygen can available",
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "reco0CBoa3bhgHA0Z",
+            "instructions": "bring photocopy of covid report and adhar card of patient",
+            "lastVerifiedOn": "2021-04-30T11:35:32.000Z",
+            "name": "Dev",
+            "phone1": 9235666633,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "self",
+            "state": "Uttar Pradesh",
+            "type": [
+                "Cans"
+            ],
+            "verificationStatus": "Available and verified",
             "verifiedBy": [
                 {}
             ]
@@ -27177,7 +27265,7 @@
             "homeDeliveryAvailable": "No",
             "id": "recyR50gPaUVe82l1",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T11:13:57.000Z",
             "name": "Oxygen concentrator Tarun",
             "phone1": 9667221130,
             "phone2": null,
@@ -27187,7 +27275,7 @@
             "type": [
                 "Concentrator"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Samyak Chaudhary"
         },
         {

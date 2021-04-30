@@ -43,3 +43,4 @@ __pycache__
 # pwa
 workbox-*
 sw.*
+.env

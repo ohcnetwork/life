@@ -1,9 +1,9 @@
-import { parseDateString } from '@lib/utils';
+import TimeAgo from 'timeago-react';
 import PulseIcon from '@components/PulseSvg';
 import NoResultFound from './NoResultFound';
 
 function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
-    console.log(searchStr);
+
     return (
         <div className="w-full mx-auto" key="TwitterResultCard">
             <div className="flex justify-center ">
@@ -12,10 +12,10 @@ function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
                         <div className="block text-gray-700 dark:text-primary-400 text-lg font-semibold py-2 px-3">
                             Live Twitter Results for "{searchStr}"
                         </div>
-                        <div className="py-3 text-sm">
+                        <div className="py-3 text-sm px-2">
                             {covidConnectResults.length > 0 ? (
                                 <>
-                                    <p className="ml-3 text-gray-700">
+                                    <p className="ml-2 text-gray-700">
                                         Showing {covidConnectResults.length} Results
                                     </p>
                                     {covidConnectResults.map((result) => (
@@ -27,7 +27,9 @@ function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
                                             <div className="flex justify-start cursor-pointer text-gray-700  bg-gray-200 dark:bg-gray-1100 whitespace-pre-wrap  rounded-md px-2 py-2 my-2">
                                                 <div className="px-2">
                                                     <div className="text-sm dark:text-primary-400 font-normal text-black-500 tracking-wide">
-                                                        {parseDateString(result.created_at)}
+                                                        <TimeAgo
+                                                            datetime={result.created_at}
+                                                        />
                                                     </div>
                                                     <div className="flex-grow text-black dark:text-white font-semibold">
                                                         {result.text}
