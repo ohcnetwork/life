@@ -3,7 +3,7 @@ import PulseIcon from '@components/PulseSvg';
 import NoResultFound from './NoResultFound';
 
 function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
-    console.log(searchStr);
+
     return (
         <div className="w-full mx-auto" key="TwitterResultCard">
             <div className="flex justify-center ">
