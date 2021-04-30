@@ -1771,9 +1771,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Pritika B"
         },
         {
             "area": null,
@@ -1848,9 +1846,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Pritika B"
         },
         {
             "area": null,
@@ -1880,9 +1876,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Pritika B"
         },
         {
             "area": null,
@@ -1897,9 +1891,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Pritika B"
         },
         {
             "area": null,
@@ -1944,9 +1936,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Pritika B"
         },
         {
             "area": null,
@@ -1982,7 +1972,7 @@
             "area": null,
             "comment": null,
             "createdTime": "2021-04-27T13:05:49.000Z",
-            "district": "Noida",
+            "district": "Sangli",
             "id": "recL8oTOcH3TaLhce",
             "lastVerifiedOn": "2021-04-27T13:09:43.000Z",
             "name": null,
@@ -2021,9 +2011,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Pritika B"
         },
         {
             "area": null,
@@ -2053,9 +2041,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Pritika B"
         },
         {
             "area": null,
@@ -2070,9 +2056,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Pritika B"
         },
         {
             "area": null,
@@ -2117,9 +2101,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Pritika B"
         },
         {
             "area": null,
@@ -2134,9 +2116,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Pritika B"
         },
         {
             "area": null,
@@ -2226,9 +2206,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Pritika B"
         },
         {
             "area": null,
@@ -2258,9 +2236,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Pritika B"
         },
         {
             "area": null,
@@ -2290,9 +2266,7 @@
             "source": null,
             "state": "Gujarat",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Pritika B"
         },
         {
             "area": null,
@@ -2367,9 +2341,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -2429,9 +2401,7 @@
             "source": null,
             "state": "Gujarat",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -2446,9 +2416,7 @@
             "source": null,
             "state": "Rajasthan",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -2463,9 +2431,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -2480,9 +2446,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -2497,9 +2461,7 @@
             "source": null,
             "state": "Gujarat",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -2544,9 +2506,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -2561,9 +2521,7 @@
             "source": null,
             "state": "Telangana",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -4066,7 +4024,7 @@
             "area": null,
             "comment": "Available, Sufficient stock, But doctor's prescription mandatory and in store purchase only",
             "createdTime": "2021-04-24T17:12:45.000Z",
-            "district": "Noida",
+            "district": "Sangli",
             "id": "recfLeZNe1JJ2ok1Z",
             "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": null,
@@ -4519,9 +4477,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -4536,9 +4492,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -4613,9 +4567,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -4677,15 +4629,13 @@
             "source": null,
             "state": "Gujarat",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
             "comment": "Will be available in 1 hour",
             "createdTime": "2021-04-24T17:12:45.000Z",
-            "district": "Noida",
+            "district": "Sangli",
             "id": "recjcpZRMlbKa8xqG",
             "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": null,
@@ -4717,7 +4667,7 @@
             "area": null,
             "comment": "Available till 5:00PM today.",
             "createdTime": "2021-04-24T17:12:45.000Z",
-            "district": "Noida",
+            "district": "Sangli",
             "id": "reckHFj0z8XdwekS4",
             "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": null,
@@ -4803,9 +4753,7 @@
             "source": null,
             "state": "Madhya Pradesh",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -4835,9 +4783,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -4852,9 +4798,7 @@
             "source": null,
             "state": "Maharashtra",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -4944,9 +4888,7 @@
             "source": null,
             "state": "Gujarat",
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "VIVEK S R"
         },
         {
             "area": null,
@@ -5546,7 +5488,7 @@
             "area": null,
             "comment": "Available, free home delivery",
             "createdTime": "2021-04-24T17:12:45.000Z",
-            "district": "Noida",
+            "district": "Sangli",
             "id": "recsgSMpR2quN3KFC",
             "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": null,
@@ -6101,7 +6043,7 @@
             "area": null,
             "comment": "Available",
             "createdTime": "2021-04-24T17:12:45.000Z",
-            "district": "Noida",
+            "district": "Sangli",
             "id": "recy4PTwOl8W9fYoq",
             "lastVerifiedOn": "2021-04-27T12:58:09.000Z",
             "name": null,

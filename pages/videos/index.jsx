@@ -2,6 +2,7 @@ import React from 'react';
 import { videoData } from '@data/video';
 import VideoCard from '@components/VideoCard';
 import Breadcumb from '@components/Breadcumb';
+import Header from '@components/Header';
 
 export const getStaticProps = async () => {
     return {
@@ -13,14 +14,10 @@ export const getStaticProps = async () => {
 
 const Video = ({ videoData }) => {
     return (
-        <section className="pt-10 ">
-            <div>
-                <Breadcumb list={[{ href: null, name: 'Videos' }]} />
-            </div>
-            <h2 class="text-3xl md:text-4xl xl:text-5xl tracking-tight mt-4 font-bold leading-tight  dark:text-white text-gray-1200">
-                Videos
-            </h2>
-            <div class="flex flex-col md:-mx-6 pt-2  ">
+        <section className="max-w-5xl mx-auto px-2">
+            <Breadcumb list={[{ href: null, name: 'Videos' }]} />
+            <Header title="Info on COVID-19" />
+            <div className="flex flex-col mx-2 md:mx-6 pt-2">
                 {videoData.map((el) => (
                     <VideoCard key={el.id} dt={el} />
                 ))}

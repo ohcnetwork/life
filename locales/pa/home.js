@@ -25,5 +25,6 @@ export default {
     poweredBy: 'ਦੁਆਰਾ ਸਹਿਯੋਗੀ',
     github: 'ਗਿਠਬ',
     database: 'ਡਾਟਾਬੇਸ',
-    about: 'ਸਾਡੇ ਬਾਰੇ ਜਾਣੋ'
+    about: 'ਸਾਡੇ ਬਾਰੇ ਜਾਣੋ',
+    infoOnCovid: `COVID-19 'ਤੇ ਜਾਣਕਾਰੀ`
 };

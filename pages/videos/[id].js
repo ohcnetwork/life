@@ -1,9 +1,13 @@
 import Breadcumb from '@components/Breadcumb';
+import Header from '@components/Header';
 import VideoCard from '@components/VideoCard';
 import { videoData } from '@data/video';
+import { parametreize } from '@lib/utils';
 
 export const getStaticProps = async ({ params }) => {
-    const videoList = videoData.filter((v) => v['Title'].toString() === params['id']);
+    const videoList = videoData.filter(
+        (v) => parametreize(v['Title']) === parametreize(params['id'])
+    );
     return {
         props: {
             video: videoList[0]
@@ -13,7 +17,7 @@ export const getStaticProps = async ({ params }) => {
 
 export const getStaticPaths = async () => {
     const paths = videoData.map((v) => ({
-        params: { id: v['Title'].toString() }
+        params: { id: parametreize(v['Title']) }
     }));
 
     return { paths, fallback: false };
@@ -21,17 +25,18 @@ export const getStaticPaths = async () => {
 
 const VideoSingle = ({ video }) => {
     return (
-        <div>
-            <section className="pt-10">
-                <div>
-                    <Breadcumb list={[{ href: null, name: `${video['Title']}` }]} />
-                </div>
-                <h2 className="text-3xl mb-5 md:text-4xl xl:text-5xl tracking-tight mt-4 font-bold leading-tight dark:text-white text-gray-1200 ">
-                    Videos
-                </h2>
-                <VideoCard dt={video} />
-            </section>
-        </div>
+        <section className="max-w-5xl mx-auto px-2">
+            <Breadcumb
+                list={[
+                    { href: `/videos`, name: `Videos` },
+                    { href: null, name: `${video['Title']}` }
+                ]}
+            />
+            <Header title={video['Title']} />
+            <div className="mx-2">
+                <VideoCard dt={video} link={video['Content Link']} />
+            </div>
+        </section>
     );
 };
 

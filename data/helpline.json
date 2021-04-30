@@ -1668,6 +1668,25 @@
             "verifiedBy": "Covid FYI"
         },
         {
+            "category": [
+                "Helpline"
+            ],
+            "comment": null,
+            "createdTime": "2021-04-29T19:23:11.000Z",
+            "description": "Works for all districts, please use for all.",
+            "district": "Burdwan (Bardhaman)",
+            "id": "rec5UudUfmC44hvhJ",
+            "lastVerifiedOn": null,
+            "name": "State Government Helpline",
+            "phone1": 1800313444222,
+            "phone2": 3323412600,
+            "source": "Twitter",
+            "sourceUrl": "https://twitter.com/wbdhfw/status/1247894115171225606",
+            "state": "West Bengal",
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": null
+        },
+        {
             "category": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -8699,7 +8718,7 @@
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "description": null,
-            "district": "Noida",
+            "district": "Sangli",
             "id": "recV0GcnPdqORvdRr",
             "lastVerifiedOn": "2021-04-27T14:48:11.000Z",
             "name": "Helplines",
@@ -13744,6 +13763,25 @@
             "verifiedBy": "Covid FYI"
         },
         {
+            "category": [
+                "Control Room For Beds"
+            ],
+            "comment": null,
+            "createdTime": "2021-04-29T19:24:48.000Z",
+            "description": "Use for all districts",
+            "district": "Burdwan (Bardhaman)",
+            "id": "recme552QGr7hButV",
+            "lastVerifiedOn": null,
+            "name": "State Control Room",
+            "phone1": 3323571075,
+            "phone2": 3323571083,
+            "source": "Twitter",
+            "sourceUrl": "https://twitter.com/wbdhfw/status/1247894115171225606",
+            "state": "West Bengal",
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": null
+        },
+        {
             "category": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
@@ -17407,7 +17445,7 @@
             "comment": null,
             "createdTime": "2021-04-23T17:42:34.000Z",
             "description": null,
-            "district": "Noida",
+            "district": "Sangli",
             "id": "recztPVDNCzsB0Fvu",
             "lastVerifiedOn": "2021-04-27T14:48:11.000Z",
             "name": "Noida Integrated Covid Helpline",

@@ -25,5 +25,6 @@ export default {
     poweredBy: 'తయారీ',
     github: 'గిట్ హబ్',
     database: 'డాటాబేస్',
-    about: 'మా గురించి'
+    about: 'మా గురించి',
+    infoOnCovid: `COVID-19 పై సమాచారం`
 };

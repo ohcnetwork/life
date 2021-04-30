@@ -1,11 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-    faDatabase,
-    faHandsHelping,
-    faHeart,
-    faBookOpen,
-} from '@fortawesome/free-solid-svg-icons';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 
@@ -24,18 +17,22 @@ const Footer = () => {
         {
             text: `${t.about}`,
             link: '/about'
+        },
+        {
+            text: `${t.infoOnCovid}`,
+            link: '/videos'
         }
     ];
     return (
         <footer className="bg-gray-200 dark:bg-gray-1200 w-full flex-shrink-0 pt-6 pb-2">
             <section className="flex flex-wrap justify-center my-3 text-sm">
                 <div className="flex items-center mr-2 text-gray-900 dark:text-gray-500">
-                    <span className="font-semibold mr-2">Disclaimer: </span>
-                    <span className="">Data is not owned or created by us.</span>
+                    <span className="font-semibold mr-2">{t.disclaimer}: </span>
+                    <span className="">{t.dataNotOwned}</span>
                 </div>
                 <div>
                     <a href="/disclaimer" className="font-semibold text-indigo-500 underline">
-                        Know More
+                        {t.knowMore}
                     </a>
                 </div>
             </section>

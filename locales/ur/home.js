@@ -26,5 +26,6 @@ export default {
     poweredBy: 'چلتا ہے',
     github: 'گیتھب',
     database: 'ڈیٹا بیس',
-    about: 'کس کے بارے میں'
+    about: 'کس کے بارے میں',
+    infoOnCovid: `COVID-19 پر معلومات`
 };
