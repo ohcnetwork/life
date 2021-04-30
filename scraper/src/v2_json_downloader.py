@@ -19,6 +19,7 @@ def parseInfo(info_type, data):
     active_district_data_v2_data = {
         "data": []
     }
+    s = set()
     json_array = json.loads(data)
     for info_type_json in json_array:
         active_district_json = dict(ambulance="false", contact="false", district="", doctor="false", helpline="false",
@@ -30,7 +31,10 @@ def parseInfo(info_type, data):
         #if(info_type == "ambulance" && TODO_LOGIC_FOR_AMBULENCE_TRUE):  #Update the logic for ambulance to be true based on values in ambulance.json
             #active_district_json["ambulance"] = "true"
 
-        active_district_data_v2_data["data"].append(active_district_json)
+        if str(active_district_json) not in s:
+            s.add(str(active_district_json))
+    for i in s:
+        active_district_data_v2_data["data"] .append(eval(i))
     generate_v2_file("active_district_data", active_district_data_v2_data)
 
 # SSL certification issue was happening and 403 forbidden issue, these two solves it
