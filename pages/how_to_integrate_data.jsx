@@ -7,7 +7,8 @@ const Index = () => {
     const spanClass = `font-medium`;
     const data = [
         {
-            link: 'https://github.com/coronasafe/life/wiki/Life-Data-Structure',
+            link:
+                'https://github.com/coronasafe/life/wiki/Life-Data-Structure#sample-output-from-the-master-database',
             text: 'Sample data'
         },
         {
