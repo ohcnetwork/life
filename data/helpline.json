@@ -4962,6 +4962,25 @@
         },
         {
             "category": [
+                "Covid19 Helpline"
+            ],
+            "comment": null,
+            "createdTime": "2021-04-30T10:52:24.000Z",
+            "description": "OFFICIAL NUMBERS OF COVID HELPLINE RATLAM",
+            "district": "Ratlam",
+            "id": "recIE5l1DjWjwB0dY",
+            "lastVerifiedOn": null,
+            "name": null,
+            "phone1": 8349070151,
+            "phone2": 8815829070,
+            "source": "THEY CALLED ME",
+            "sourceUrl": "THEY CALLED ME WHEN I WAS POSITIVE",
+            "state": "Madhya Pradesh",
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": null
+        },
+        {
+            "category": [
                 "Groccery Supplies & Essential Commodities"
             ],
             "comment": null,
