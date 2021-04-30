@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useLocaleContext } from '@hooks/use-locale-context';
 import Logo from './Logo';
 import NavLink from './NavLink';
@@ -43,12 +43,6 @@ const NavBar = () => {
             link: '/data'
         }
     ];
-
-    useEffect(() => {
-        if (open) {
-            document.addEventListener('mousedown', () => setIsOpen(false));
-        }
-    }, [isOpen]);
 
     return (
         <section className="mb-20 mx-auto">
