@@ -43,7 +43,7 @@ const HowToIntegrateData = () => {
                     </a>
                 ))}
             </div>
-            <section>
+            <section className="dark:text-gray-300">
                 <div className="mt-6 px-2">
                     <span className="font-bold">For all collaboration related enquiries: </span>
                     <span>If you are another initiative wanting to join hands, we are a part of Covid India Relief alliance, where 10+ initiatives have agreed to work on ONE backend - consolidation of database to prevent redundancy and duplicacy of volunteer efforts in data addition, verification, updation.</span>
