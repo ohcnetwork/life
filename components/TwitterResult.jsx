@@ -1,4 +1,4 @@
-import { parseDateString } from '@lib/utils';
+import TimeAgo from 'timeago-react';
 import PulseIcon from '@components/PulseSvg';
 import NoResultFound from './NoResultFound';
 
@@ -27,7 +27,9 @@ function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
                                             <div className="flex justify-start cursor-pointer text-gray-700  bg-gray-200 dark:bg-gray-1100 whitespace-pre-wrap  rounded-md px-2 py-2 my-2">
                                                 <div className="px-2">
                                                     <div className="text-sm dark:text-primary-400 font-normal text-black-500 tracking-wide">
-                                                        {parseDateString(result.created_at)}
+                                                        <TimeAgo
+                                                            datetime={result.created_at}
+                                                        />
                                                     </div>
                                                     <div className="flex-grow text-black dark:text-white font-semibold">
                                                         {result.text}
