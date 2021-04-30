@@ -78,7 +78,7 @@ const languages = [
 ];
 
 const renderLanguageElement = (data) => (
-    <a href={data.link} target="_blank" className="w-full md:w-1/2 py-4 md:p-4">
+    <a href={data.link} target="_blank" className="w-full md:w-1/2 py-4 md:p-4" key={data.name}>
         <div
             className={
                 'flex border-2 rounded-lg px-4 py-6 md:p-4 shadow-md hover:shadow-xl hover:bg-white h-64 md:h-64 lg:h-64 ' +
