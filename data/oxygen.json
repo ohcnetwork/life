@@ -4409,9 +4409,7 @@
                 "Oxygen"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -4598,9 +4596,7 @@
                 "Oxygen"
             ],
             "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -9236,18 +9232,18 @@
             "verifiedBy": "Ananya Palivela"
         },
         {
-            "availability": null,
+            "availability": "Available",
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Available",
             "companyName": "Nameless",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": "Janakpuri",
             "district": "New Delhi",
-            "emailId": "Switched off",
-            "homeDeliveryAvailable": null,
+            "emailId": "Unavailable",
+            "homeDeliveryAvailable": "No",
             "id": "recK0OnOUDLiTZp3K",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T07:11:21.000Z",
             "name": "Irfan Bhai Oxygen",
             "phone1": 7680805522,
             "phone2": null,
@@ -9257,7 +9253,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Available and verified",
             "verifiedBy": "Ananya Palivela"
         },
         {
@@ -9622,8 +9618,8 @@
             "emailId": "No response",
             "homeDeliveryAvailable": null,
             "id": "recKZERN7sAnDUwpV",
-            "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "instructions": "Contact other centres ",
+            "lastVerifiedOn": "2021-04-30T07:10:10.000Z",
             "name": "KNEW ELECTRIC LOHAR CHAWL",
             "phone1": 9820132853,
             "phone2": null,
@@ -9633,7 +9629,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Ananya Palivela"
         },
         {

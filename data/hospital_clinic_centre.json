@@ -2807,18 +2807,18 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
-            "availability": "Available",
+            "availability": "Not Available",
             "comment": null,
             "createdTime": "2021-04-24T15:34:17.000Z",
             "district": "Gorakhpur",
             "email1": null,
             "email2": null,
             "id": "recPcCheQ2xIFuR8C",
-            "lastVerifiedOn": "2021-04-27T09:05:38.000Z",
-            "name": "PS Hospital",
+            "lastVerifiedOn": "2021-04-30T07:30:02.000Z",
+            "name": "PC Hospital",
             "phone1": 9415339267,
             "phone2": null,
-            "pointOfContact": null,
+            "pointOfContact": "Call",
             "state": "Uttar Pradesh",
             "subCategory": null,
             "totalBedsAvailable": null,
@@ -2829,7 +2829,7 @@
                 "ICU bed"
             ],
             "typeOfHospital": null,
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": [
                 {}
             ]
