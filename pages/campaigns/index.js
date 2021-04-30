@@ -42,17 +42,20 @@ US citizens contributing >$1000 can avail tax exemptions for donations made on M
 const Campaigns = () => {
     const [htmlStr, setHtmlStr] = useState('');
     const { locale } = useLocaleContext();
-    const htmlString = remark()
+    remark()
         .use(html)
         .process(markdownText)
         .then((t) => setHtmlStr(t.contents));
-    console.log(htmlString);
     const t = useLocale(locale, 'campaigns');
     return (
         <section className="max-w-5xl mx-auto px-2">
             <Breadcumb list={[{ href: null, name: 'Campaigns' }]} />
             <Header title="Campaigns" />
-            {htmlStr}
+            <article class="prose lg:prose-xl prose-indigo">
+                <div
+                    className="dark:text-gray-300 text-gray-1000"
+                    dangerouslySetInnerHTML={{ __html: htmlStr }}></div>
+            </article>
         </section>
     );
 };
