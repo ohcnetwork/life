@@ -45,7 +45,9 @@ const NavBar = () => {
     ];
 
     useEffect(() => {
-        console.log(isOpen);
+        if (open) {
+            document.addEventListener('mousedown', () => setIsOpen(false));
+        }
     }, [isOpen]);
 
     return (
