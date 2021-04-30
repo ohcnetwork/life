@@ -17776,6 +17776,33 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
+            "availability": "Available",
+            "city": null,
+            "comment": "OXYGEN CAN AVAILABLE\n",
+            "companyName": null,
+            "createdTime": "2021-04-30T10:39:55.000Z",
+            "description": "oxygen can available",
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "reccl4o7A5PqpfXHZ",
+            "instructions": "bring photocopies of covid report pand adhar card of the patient",
+            "lastVerifiedOn": "2021-04-30T10:39:55.000Z",
+            "name": "Mohit Kapoor",
+            "phone1": 8960002222,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Available with me",
+            "state": "Uttar Pradesh",
+            "type": [
+                "Cans"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "city": null,
             "comment": "Unreachable",
