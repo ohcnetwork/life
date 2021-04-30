@@ -1,7 +1,8 @@
 const withPWA = require('next-pwa')
 const { createSecureHeaders } = require('next-secure-headers');
+const { withSentryConfig } = require("@sentry/nextjs");
 
-module.exports = withPWA({
+const moduleExports = withPWA({
     pwa: {
         disable: process.env.NODE_ENV === 'development',
         dest: 'public'
@@ -25,3 +26,8 @@ module.exports = withPWA({
         }];
     },
 })
+
+const SentryWebpackPluginOptions = {
+};
+
+module.exports = withSentryConfig(moduleExports, SentryWebpackPluginOptions);
