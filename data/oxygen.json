@@ -743,7 +743,7 @@
             "homeDeliveryAvailable": null,
             "id": "rec1jMK2AqxGlNI7s",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T10:05:09.000Z",
             "name": "Oxygen Suppliers",
             "phone1": 9925246679,
             "phone2": null,
@@ -753,10 +753,8 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -2010,8 +2008,8 @@
             "instructions": null,
             "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
             "name": "Swasti Healthcare",
-            "phone1": 805002441607947200000,
-            "phone2": null,
+            "phone1": 80500244160,
+            "phone2": 7947200000,
             "sourceLink": null,
             "sourceName": null,
             "state": "Delhi (NCT)",
@@ -2933,8 +2931,8 @@
             "instructions": null,
             "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
             "name": "Sports 365",
-            "phone1": 99869669096304500000,
-            "phone2": null,
+            "phone1": 998696690,
+            "phone2": 9630450000,
             "sourceLink": null,
             "sourceName": null,
             "state": "Delhi (NCT)",
@@ -9195,8 +9193,8 @@
             "instructions": null,
             "lastVerifiedOn": "2021-04-30T07:06:35.000Z",
             "name": "Imperial Gases Ltd.",
-            "phone1": 941523903008726700000,
-            "phone2": null,
+            "phone1": 9415239030,
+            "phone2": 8726700000,
             "sourceLink": "https://twitter.com/intent/tweet?url=https%3A%2F%2Findiacovidresources.in%2F&text=",
             "sourceName": null,
             "state": "Delhi (NCT)",
@@ -9334,7 +9332,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Bogus Numbers",
+            "comment": "Bogus Numbers - wrong number",
             "companyName": "Nameless",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -9343,7 +9341,7 @@
             "homeDeliveryAvailable": null,
             "id": "recKDLPTGfNFeg5dz",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T09:22:36.000Z",
             "name": "Goyal MG Gases Pvt Ltd",
             "phone1": 8586982821,
             "phone2": null,
@@ -9353,22 +9351,22 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Ashish Mathew"
         },
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Wrong number",
             "companyName": "Nameless",
             "createdTime": "2021-04-25T13:54:34.000Z",
-            "description": null,
+            "description": "Wrong number",
             "district": "New Delhi",
             "emailId": "Switched off",
             "homeDeliveryAvailable": null,
             "id": "recKEqKJoN0Dbuv6q",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T09:21:41.000Z",
             "name": "100 Bed Hospital",
             "phone1": 9898068540,
             "phone2": null,
@@ -9378,7 +9376,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Invalid",
             "verifiedBy": "Ashish Mathew"
         },
         {
@@ -12252,7 +12250,7 @@
             "homeDeliveryAvailable": null,
             "id": "recQ7xG61PBpuLS9n",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T10:04:57.000Z",
             "name": "Vidya Ji",
             "phone1": 9835420734,
             "phone2": null,
@@ -12262,10 +12260,8 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,
@@ -14268,8 +14264,8 @@
             "instructions": null,
             "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
             "name": "CHINTAMANI DERASAR GHATKOPAR WEST",
-            "phone1": 98210102109768060000,
-            "phone2": null,
+            "phone1": 9821010210,
+            "phone2": 9768060000,
             "sourceLink": "https://twitter.com/intent/tweet?url=https%3A%2F%2Findiacovidresources.in%2F&text=",
             "sourceName": null,
             "state": "Delhi (NCT)",
