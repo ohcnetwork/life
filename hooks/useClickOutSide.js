@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffec } from 'react';
 
 // takes a ref to the menu and a handler function
 export const useOnClickOutside = (ref, handler) => {
