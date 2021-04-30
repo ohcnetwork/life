@@ -31,6 +31,8 @@ A database and API for life-fe
 
 # Development Docs
 
+[Detailed Contributing Guide](https://life.coronasafe.network/how_to_contribute)
+
 ## Getting Started
 
 First, run the development server:
