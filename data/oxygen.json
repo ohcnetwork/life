@@ -11448,6 +11448,35 @@
         {
             "availability": "Available",
             "city": null,
+            "comment": "They have cylinder but no flow regulator or mask.",
+            "companyName": "Siga Gases \nAddress: 3rd Street, Chamarajapete, Near Jain Temple.",
+            "createdTime": "2021-04-30T12:31:46.000Z",
+            "description": "45L oxygen cylinder\nNo Home delivery",
+            "district": "Bengaluru (Bangalore) Urban",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "recOLrtGnStiBetzw",
+            "instructions": "There are no flow regulators or mask with them.",
+            "lastVerifiedOn": "2021-04-30T12:31:46.000Z",
+            "name": "Gopal - 7406841226",
+            "phone1": 7406841226,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "Verified via someone who got oxygen there.",
+            "state": "Karnataka",
+            "type": [
+                "Cylinder",
+                "Oxygen Cylinders",
+                "Oxygen cylinders"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
+            "city": null,
             "comment": null,
             "companyName": null,
             "createdTime": "2021-04-25T17:17:25.000Z",
@@ -14382,29 +14411,27 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Response on WhatsApp, Oxygen concentrators, no supply currently",
             "companyName": "Swastic Traders",
             "createdTime": "2021-04-25T13:54:34.000Z",
-            "description": null,
+            "description": "Currently unavailable\n",
             "district": "New Delhi",
-            "emailId": "Not picking up",
-            "homeDeliveryAvailable": null,
+            "emailId": "Call not picking, response on Whatsapp",
+            "homeDeliveryAvailable": "No",
             "id": "recVVPQ3EFkNO2Uab",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T13:14:23.000Z",
             "name": "Emergency Medical Devices",
             "phone1": 9830056776,
             "phone2": null,
             "sourceLink": "https://twitter.com/intent/tweet?url=https%3A%2F%2Findiacovidresources.in%2F&text=",
-            "sourceName": null,
+            "sourceName": "Unosupply",
             "state": "Delhi (NCT)",
             "type": [
-                "Oxygen"
+                "Oxygen Concentrator"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Unavailable but verified",
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,

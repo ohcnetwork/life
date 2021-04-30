@@ -47,13 +47,13 @@ const ResourceCard = ({ data, type: filterType }) => {
                     <div className="flex flex-col items-start justify-items-center mt-2">
                         <span>{address || description || comment}</span>
                         {availability && (
-                            <span>Availability: {availability}</span>
+                            <span><span className="font-bold">Availability:</span> {availability}</span>
                         )}
                         {totalBedsAvailable && (
-                            <span>Total Available Beds: {totalBedsAvailable}</span>
+                            <span><span className="font-bold">Total Available Beds:</span> {totalBedsAvailable}</span>
                         )}
                         {typeOfBedAvailable && (
-                            <span>Available bed type: {typeOfBedAvailable.join(', ')} </span>
+                            <span><span className="font-bold">Available bed type:</span> {typeOfBedAvailable.join(', ')} </span>
                         )}
                     </div>
                 </div>

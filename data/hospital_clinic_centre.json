@@ -1525,6 +1525,31 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-04-30T12:16:53.000Z",
+            "district": "Bengaluru (Bangalore) Urban",
+            "email1": null,
+            "email2": null,
+            "id": "recDESFnF4QnPEix6",
+            "lastVerifiedOn": "2021-04-30T12:16:53.000Z",
+            "name": "Cura Hospital ",
+            "phone1": 8431241400,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Karnataka",
+            "subCategory": null,
+            "totalBedsAvailable": 2,
+            "typeOfBedAvailable": [
+                "Bed with oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Available and verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "comment": "Fully Occupied!",
             "createdTime": "2021-04-19T07:48:08.000Z",
