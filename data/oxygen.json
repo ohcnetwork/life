@@ -51,18 +51,18 @@
             "verifiedBy": "Nidhi Rungta"
         },
         {
-            "availability": "Available",
+            "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "Lines Busy, Heavy traffic on organization's phone lines",
             "companyName": "Loknath Sheva Sadan",
             "createdTime": "2021-04-24T18:06:13.000Z",
-            "description": null,
+            "description": "An organization, credibility and stock levels still unknown",
             "district": "Dakshin Dinajpur (South Dinajpur)",
             "emailId": null,
             "homeDeliveryAvailable": null,
             "id": "rec08jlvPI66gZ7Z8",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T11:21:19.000Z",
             "name": null,
             "phone1": 7947433015,
             "phone2": null,
@@ -73,7 +73,7 @@
                 "Cylinder",
                 "Refil"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Samyak Chaudhary"
         },
         {
@@ -734,7 +734,32 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Business Account. Contact through whatsapp only. Kay Tee Welding Gases \nDeva Road, B.R.Dubey Enclay opp side of Kuwar Global School Gate, Chinhat, Lucknow.\nAadhar and dr prescription mandatory",
+            "companyName": "Kay Tee Welding Gases",
+            "createdTime": "2021-04-24T12:52:51.000Z",
+            "description": "Refill",
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "rec1iZUwQ3LlhNr3V",
+            "instructions": "Contact through whatsapp only ",
+            "lastVerifiedOn": "2021-04-30T11:03:21.000Z",
+            "name": "Kay Tee Welding Gases",
+            "phone1": 9889556666,
+            "phone2": null,
+            "sourceLink": "https://twitter.com/SixPointerGuy/status/1385889689777836033",
+            "sourceName": "Twitter",
+            "state": "Uttar Pradesh",
+            "type": [
+                "Refil"
+            ],
+            "verificationStatus": "Unavailable but verified",
+            "verifiedBy": "Samyak Chaudhary"
+        },
+        {
+            "availability": null,
+            "city": null,
+            "comment": "Busy\n",
             "companyName": null,
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -4574,7 +4599,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Unresponsive\n",
             "companyName": "Rajasthan Air Products",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -4583,7 +4608,7 @@
             "homeDeliveryAvailable": null,
             "id": "recAQNdMvulyB40uD",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T11:13:09.000Z",
             "name": "Near Nirwana Hotel",
             "phone1": 9755502300,
             "phone2": null,
@@ -4593,7 +4618,7 @@
             "type": [
                 "Oxygen"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Samyak Chaudhary"
         },
         {
@@ -11928,9 +11953,9 @@
             ]
         },
         {
-            "availability": "Available",
+            "availability": null,
             "city": null,
-            "comment": null,
+            "comment": "Busy",
             "companyName": "Bravo foundation",
             "createdTime": "2021-04-24T18:45:59.000Z",
             "description": "Home delivery available\nPatients hv to show their oximeter reading and medical prescription for getting free oxygen",
@@ -11939,7 +11964,7 @@
             "homeDeliveryAvailable": "Yes",
             "id": "recP5FzAAHVUbK5Yo",
             "instructions": "Oxymetre readings for viewing spo2 level and medical prescription",
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T11:16:28.000Z",
             "name": "Bravo foundation",
             "phone1": 7004493764,
             "phone2": null,
@@ -11950,7 +11975,7 @@
                 "Refil",
                 "Cylinder"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Samyak Chaudhary"
         },
         {
@@ -12241,7 +12266,7 @@
         {
             "availability": null,
             "city": null,
-            "comment": "Unreachable",
+            "comment": "Switched off\n",
             "companyName": "Satyavadi Raja Harsihchandra Hospital, Near Singhu Border, Narela",
             "createdTime": "2021-04-25T13:54:34.000Z",
             "description": null,
@@ -20490,10 +20515,10 @@
             "description": null,
             "district": "Kolkata",
             "emailId": null,
-            "homeDeliveryAvailable": null,
+            "homeDeliveryAvailable": "No",
             "id": "recjoJHk6gXEK5odr",
-            "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "instructions": "Out of stock\n",
+            "lastVerifiedOn": "2021-04-30T11:15:23.000Z",
             "name": "Pradip samanta",
             "phone1": 9830328166,
             "phone2": null,
@@ -20501,7 +20526,7 @@
             "sourceName": null,
             "state": "West Bengal",
             "type": null,
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unavailable but verified",
             "verifiedBy": "Samyak Chaudhary"
         },
         {
@@ -22181,6 +22206,33 @@
                 "Oxygen - Refill"
             ],
             "verificationStatus": "Pending",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
+            "city": null,
+            "comment": "Only Oxygen CAN available",
+            "companyName": null,
+            "createdTime": "2021-04-30T11:35:32.000Z",
+            "description": "Only oxygen can available",
+            "district": "Lucknow",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "reco0CBoa3bhgHA0Z",
+            "instructions": "bring photocopy of covid report and adhar card of patient",
+            "lastVerifiedOn": "2021-04-30T11:35:32.000Z",
+            "name": "Dev",
+            "phone1": 9235666633,
+            "phone2": null,
+            "sourceLink": null,
+            "sourceName": "self",
+            "state": "Uttar Pradesh",
+            "type": [
+                "Cans"
+            ],
+            "verificationStatus": "Available and verified",
             "verifiedBy": [
                 {}
             ]
@@ -27188,7 +27240,7 @@
             "homeDeliveryAvailable": "No",
             "id": "recyR50gPaUVe82l1",
             "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "lastVerifiedOn": "2021-04-30T11:13:57.000Z",
             "name": "Oxygen concentrator Tarun",
             "phone1": 9667221130,
             "phone2": null,
@@ -27198,7 +27250,7 @@
             "type": [
                 "Concentrator"
             ],
-            "verificationStatus": "Pending",
+            "verificationStatus": "Unresponsive",
             "verifiedBy": "Samyak Chaudhary"
         },
         {
