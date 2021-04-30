@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocaleContext } from '@hooks/use-locale-context';
 import Logo from './Logo';
 import NavLink from './NavLink';
@@ -43,6 +43,10 @@ const NavBar = () => {
             link: '/data'
         }
     ];
+
+    useEffect(() => {
+        console.log(open);
+    }, [open]);
 
     return (
         <section className="mb-20 mx-auto">
