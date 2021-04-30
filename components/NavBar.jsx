@@ -45,8 +45,8 @@ const NavBar = () => {
     ];
 
     useEffect(() => {
-        console.log(open);
-    }, [open]);
+        console.log(isOpen);
+    }, [isOpen]);
 
     return (
         <section className="mb-20 mx-auto">
