@@ -15,6 +15,10 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useOnClickOutside } from '@hooks/useOnClickOutside';
+import LearnIcon from './icons/LearnIcon';
+import DonateIcon from './icons/DonateIcon';
+import ContribIcon from './icons/ContribIcon';
+import PartnerIcon from './icons/PartnerIcon';
 
 const NavBar = () => {
     const { locale } = useLocaleContext();
@@ -27,22 +31,22 @@ const NavBar = () => {
 
     const navLinks = [
         {
-            icon: faBookOpen,
+            icon: <LearnIcon />,
             title: `${t.learn}`,
             link: '/learn'
         },
         {
-            icon: faHeart,
+            icon: <DonateIcon />,
             title: `${t.campaigns}`,
             link: '/campaigns'
         },
         {
-            icon: faHandsHelping,
+            icon: <PartnerIcon />,
             title: `${t.partnerWithUs}`,
             link: '/partners'
         },
         {
-            icon: faDatabase,
+            icon: <ContribIcon />,
             title: `${t.contributeData}`,
             link: '/data'
         }

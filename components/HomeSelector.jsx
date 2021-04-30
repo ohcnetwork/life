@@ -14,10 +14,10 @@ const HomeSelector = ({ val, optionsList, handleChange, label, divider }) => {
                         id={label}
                         value={val}
                         onChange={(e) => handleChange(e)}
-                        className="py-2 px-4 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 rounded-md my-2 appearance-none pr-5 cursor-pointer z-10">
+                        className="py-2 px-4 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 dark:bg-gray-1000 rounded-md my-2 appearance-none pr-5 cursor-pointer z-10">
                         {optionsList.map((s, id) => (
                             <option
-                                className="dark:text-gray-900 overflow-ellipsis"
+                                className="dark:text-white overflow-ellipsis"
                                 key={id}
                                 value={s}>
                                 {s}
