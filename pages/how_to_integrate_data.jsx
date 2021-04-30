@@ -21,7 +21,7 @@ const HowToIntegrateData = () => {
         },
         {
             icon: faPaperPlane,
-            link: 'https://github.com/coronasafe/life ',
+            link: 'https://life-api.coronasafe.network/',
             title: 'Data APIs',
             description: 'for people making front-ends'
         }
