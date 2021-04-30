@@ -1,15 +1,12 @@
-import React from 'react';
-import CampaignCard from '@components/CampaignCard';
+import React, { useState } from 'react';
 import Breadcumb from '@components/Breadcumb';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 import Header from '@components/Header';
+import remark from 'remark';
+import html from 'remark-html';
 
-const campaigns = [
-    {
-        id: 1,
-        name: 'Campaign',
-        text: `As of today, India is undergoing a severe second wave of COVID-19 with the world’s highest daily new cases. Hospitals and healthcare providers are running out of resources in the fight against COVID-19 and the situation on the ground is dire. Oxygen is critically required to treat patients affected with COVID-19, many of whom require hospitalization. However, there is a severe shortage of oxygen across hospitals in India.
+const markdownText = `As of today, India is undergoing a severe second wave of COVID-19 with the world’s highest daily new cases. Hospitals and healthcare providers are running out of resources in the fight against COVID-19 and the situation on the ground is dire. Oxygen is critically required to treat patients affected with COVID-19, many of whom require hospitalization. However, there is a severe shortage of oxygen across hospitals in India.
 
 We are raising funds to help procure and distribute oxygen concentrators across hospitals in need. These oxygen concentrators can save many thousands of lives and bolster much-needed resources for hospitals. They can also be used to treat outpatients, reducing the load on hospital beds and easing the stress faced by patients.
 
@@ -40,28 +37,22 @@ US citizens contributing >$1000 can avail tax exemptions for donations made on M
 
 **Organization based or CSR Funding:** To contribute as an organization from India or other countries, please write to us directly at shubha@swasthapp.org
 
-**Long term partners:** You can also partner with Swasth.app on its longer term mission in accelerating digital health tool adoption across India through open source products. Please write to shubha@swasthapp.org to learn more.`
-    }
-];
+**Long term partners:** You can also partner with Swasth.app on its longer term mission in accelerating digital health tool adoption across India through open source products. Please write to shubha@swasthapp.org to learn more.`;
 
 const Campaigns = () => {
+    const [htmlStr, setHtmlStr] = useState('');
     const { locale } = useLocaleContext();
+    const htmlString = remark()
+        .use(html)
+        .process(markdownText)
+        .then((t) => setHtmlStr(t.contents));
+    console.log(htmlString);
     const t = useLocale(locale, 'campaigns');
     return (
         <section className="max-w-5xl mx-auto px-2">
             <Breadcumb list={[{ href: null, name: 'Campaigns' }]} />
             <Header title="Campaigns" />
-            <section className="flex flex-col items-center">
-                <div className="py-10 px-0 space-y-4 md:px-10 bg-gray-100 dark:text-white mt-6 w-full  dark:bg-gray-1100">
-                    {campaigns.map((campaign) => (
-                        <CampaignCard
-                            key={campaign.id}
-                            text={campaign.text}
-                            open={campaigns.length === 1}
-                        />
-                    ))}
-                </div>
-            </section>
+            {htmlStr}
         </section>
     );
 };
