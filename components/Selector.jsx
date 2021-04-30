@@ -5,6 +5,11 @@ import { districtWithState } from '@lib/api';
 import { parametreize, humanize, activeStates } from '@lib/utils';
 import TwitterResultCard from '@components/TwitterResult';
 
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import PulseSvg from '@components/PulseSvg';
+
 function useFetch(searchStr, resourceType = 'supply', maxResults = 25) {
     const url = `https://covidconnect.vercel.app/api/data?city=${searchStr}&resource_type=${resourceType}&max_results=${maxResults}`;
     const [data, setData] = useState([]);
@@ -69,21 +74,34 @@ const Selector = ({ data, page, placeholder, localeState, localeDistrict }) => {
 
     return (
         <>
-            <input
-                key="search-bar"
-                type="text"
-                className="mt-6 w-full h-12 rounded mb-2 focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg dark:bg-gray-1200 dark:placeholder-gray-500 dark:text-gray-200"
-                placeholder={placeholder}
-                value={searchStr}
-                onChange={(e) => {
-                    setEditing(false);
-                    setSearchStr(e.target.value);
-                }}
-                onClick={(e) => {
-                    setEditing(true);
-                    e.stopPropagation();
-                }}
-            />
+            <div className="mb-2 shadow-lg">
+                <input
+                    key="search-bar"
+                    type="text"
+                    className="mt-6 w-full h-12 rounded-t  focus:outline-none focus:shadow-outline text-xl px-8  dark:bg-gray-1200  dark:placeholder-gray-500 dark:text-gray-200"
+                    placeholder={placeholder}
+                    value={searchStr}
+                    onChange={(e) => {
+                        setEditing(false);
+                        setSearchStr(e.target.value);
+                    }}
+                    onClick={(e) => {
+                        setEditing(true);
+                        e.stopPropagation();
+                    }}
+                />
+                <div className="px-8 py-2  text-gray-500 bg-gray-100 dark:bg-gray-1200 opacity-80 rounded-b text">
+                    <FontAwesomeIcon
+                        className="text-blue-500 mr-2"
+                        title="Share on Twitter"
+                        icon={faTwitter}
+                    />
+                    <span>Searching Would Also Display Real Time Tweets Below</span>
+                    <span className="ml-2">
+                        <PulseSvg className="inline stroke-current text-blue-600" width={25} />
+                    </span>
+                </div>
+            </div>
             {(searchStr || editing) && (
                 <div
                     key="result"
