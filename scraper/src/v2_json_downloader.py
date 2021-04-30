@@ -22,15 +22,14 @@ def generate_v2_file(url, data, name=""):
 def parseInfo(info_type, data):
     s = set()
     json_array = json.loads(data)
+    active_district_json = dict(ambulance=False, contact=False, district="", doctor=False, helpline=False,
+                                hospitals=False, medicine=False, oxygen=False, state="")
+
     if len(active_district_data_v2_data["data"]) == 0:
         for info_type_json in json_array:
-            active_district_json = dict(ambulance="false", contact="false", district="", doctor="false", helpline="false",
-                                        hospitals="false", medicine="false", oxygen="false", state="")
-            active_district_json["state"] = info_type_json["state_name"]
-            active_district_json["district"] = info_type_json["district_name"]
-            active_district_json[info_type] = "true"
-            #if(info_type == "ambulance" && TODO_LOGIC_FOR_AMBULENCE_TRUE):  #Update the logic for ambulance to be true based on values in ambulance.json
-                #active_district_json["ambulance"] = "true"
+            active_district_json["state"] = info_type_json["state"]
+            active_district_json["district"] = info_type_json["district"]
+            active_district_json[info_type] = True
 
             if str(active_district_json) not in s:
                 s.add(str(active_district_json))
@@ -39,21 +38,19 @@ def parseInfo(info_type, data):
     else:
         updated_set = set()
         existing_data_json_arr = active_district_data_v2_data["data"]
-        existing_data_json_arr_updated = []
         for info_type_json in json_array:
             for existing_data_json in existing_data_json_arr:
                 existing_data_json_updated = existing_data_json
-                if existing_data_json["state"] == info_type_json["state_name"] and existing_data_json["district"] == info_type_json["district_name"]:
-                    existing_data_json_updated[info_type] = "true"
+                if existing_data_json["state"] == info_type_json["state"] \
+                        and existing_data_json["district"] == info_type_json["district"]:
+                    existing_data_json_updated[info_type] = True
                     if str(existing_data_json_updated) not in updated_set:
                         updated_set.add(str(existing_data_json_updated))
             else:
-                active_district_json = dict(ambulance="false", contact="false", district="", doctor="false", helpline="false",
-                                            hospitals="false", medicine="false", oxygen="false", state="")
-                active_district_json["state"] = info_type_json["state_name"]
-                active_district_json["district"] = info_type_json["district_name"]
-                active_district_json[info_type] = "true"
-                updated_set.add(str(existing_data_json_updated))
+                active_district_json["state"] = info_type_json["state"]
+                active_district_json["district"] = info_type_json["district"]
+                active_district_json[info_type] = True
+                updated_set.add(str(active_district_json))
         for i in updated_set:
             active_district_data_v2_data["data"].append(eval(i))
 
@@ -72,10 +69,6 @@ list_of_life_files = {
     "hospitals": {
         "url": "https://life_data.coronasafe.network/hospital.json"
     }
-    # Idea is there will be more keys for vaccine, ambulance ...
-    #,"ambulance": {
-    #    "url": "https://life_data.coronasafe.network/ambulance.json"
-    #}
 }
 
 for life_file_key in list_of_life_files:
