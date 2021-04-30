@@ -12,10 +12,10 @@ function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
                         <div className="block text-gray-700 dark:text-primary-400 text-lg font-semibold py-2 px-3">
                             Live Twitter Results for "{searchStr}"
                         </div>
-                        <div className="py-3 text-sm">
+                        <div className="py-3 text-sm px-2">
                             {covidConnectResults.length > 0 ? (
                                 <>
-                                    <p className="ml-3 text-gray-700">
+                                    <p className="ml-2 text-gray-700">
                                         Showing {covidConnectResults.length} Results
                                     </p>
                                     {covidConnectResults.map((result) => (
