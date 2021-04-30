@@ -8,6 +8,7 @@ const SearchResult = ({ resources, type, district, state, searchStr }) => {
     const [selectedFilter, setSelectedFilter] = useState('show_all');
 
     const resourcesListing = filterResourcesBy(resources, selectedFilter);
+    const disableRadio = resourcesListing.length === 0;
 
     return (
         <section>
@@ -24,6 +25,7 @@ const SearchResult = ({ resources, type, district, state, searchStr }) => {
                             checked={selectedFilter === 'show_all'}
                             name="status"
                             id="show_all"
+                            disabled={disableRadio}
                         />
                         <label className="ml-2" htmlFor="show_all">
                             Show All
@@ -37,6 +39,7 @@ const SearchResult = ({ resources, type, district, state, searchStr }) => {
                             checked={selectedFilter === 'verified'}
                             name="status"
                             id="verified"
+                            disabled={disableRadio}
                         />
                         <label className="ml-2" htmlFor="verified">
                             Verified
@@ -50,6 +53,7 @@ const SearchResult = ({ resources, type, district, state, searchStr }) => {
                             checked={selectedFilter === 'not_verified'}
                             name="status"
                             id="not_verified"
+                            disabled={disableRadio}
                         />
                         <label className="ml-2" htmlFor="not_verified">
                             Not Verified
