@@ -19,6 +19,7 @@ const About = () => {
                     <AboutQA question={t.q1} answer={[t.a1]} />
                     <AboutQA
                         question={t.q2}
+                        // question: string, answer: Array of elements and strings
                         answer={[
                             t.a21,
                             <p className={pClass}>
@@ -30,6 +31,7 @@ const About = () => {
                             </p>
                         ]}
                     />
+
                     <AboutQA
                         question={t.q3}
                         answer={[

@@ -2,6 +2,7 @@ import Breadcumb from '@components/Breadcumb';
 import Header from '@components/Header';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
+import { NextSeo } from 'next-seo';
 
 export default function DataForm() {
     const { locale } = useLocaleContext();
@@ -55,11 +56,27 @@ export default function DataForm() {
         }
     ];
 
+    const SEO = {
+        title: `Contribute Verified Data | Coronasafe network`,
+        description: `Contribute Verified Data to Coronasafe Life`,
+        openGraph: {
+            title: `Contribute Verified Data | Coronasafe network`,
+            description: `Contribute Verified Data to Coronasafe Life`
+        },
+        additionalMetaTags: [
+            {
+                property: 'keywords',
+                content: `covid19,india,resources,coronasafe,swasth alliance,covidfyi,hospital,ambulance,helpline,oxygen,medicine`
+            }
+        ]
+    };
+
     return (
         <div className="max-w-5xl mx-auto px-2">
+            <NextSeo {...SEO} />
             <Breadcumb list={[{ href: null, name: 'Contribute Data' }]} />
             <Header title="Contribute Verified Data" />
-            <section className="w-full max-w-sm mx-auto text-center text-2xl font-bold my-3 pt-10 pb-3 dark:text-gray-400">
+            <section className="w-full max-w-sm mx-auto text-center text-2xl font-bold my-3 pb-3 dark:text-gray-400">
                 {t.question}
             </section>
             <section className="w-full max-w-xl mx-auto">
@@ -68,11 +85,11 @@ export default function DataForm() {
                         return (
                             <li
                                 key={id}
-                                className="group relative bg-white rounded-lg shadow-sm cursor-pointer focus:outline-none focus:ring-1 focus:ring-offset-2 focus:ring-indigo-500">
+                                className="group relative bg-white rounded-lg shadow-sm focus:outline-none focus:ring-1 focus:ring-offset-2 focus:ring-indigo-500">
                                 <div className="rounded-lg border dark:bg-gray-1200 border-gray-300 bg-white px-6 py-4 hover:border-gray-400 sm:flex sm:justify-between">
                                     <div className="flex items-center">
                                         <div className="text-sm">
-                                            <p className="font-medium text-gray-900 dark:text-gray-200">
+                                            <p className="font-medium text-base text-gray-900 dark:text-gray-200">
                                                 {form.name}
                                             </p>
                                             <div className="text-gray-500">

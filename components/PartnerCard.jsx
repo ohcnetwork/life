@@ -4,16 +4,11 @@ const PartnerCard = ({ name, logoURL, url }) => {
     return (
         <div className="inline-block overflow:hidden">
             <a href={url} target="_blank">
-                <div
-                    className=" max-w-md shadow my-3 mx-2 border rounded border-gray-300 dark:border-gray-900 cursor-pointer px-2 py-2">
-                    <div className="bg-white w-36 h-36">
-                        <img
-                            src={logoURL}
-                            alt={`${name} Logo`}
-                            className="object-contain h-36 py-4"
-                        />
+                <div className="w-44 max-w-md shadow my-3 mx-4 border rounded border-gray-300 dark:border-gray-900 cursor-pointer">
+                    <div className="bg-white w-full h-40 p-2">
+                        <img src={logoURL} alt={`${name} Logo`} className="h-36 object-contain" />
                     </div>
-                    <div className="text-center text-md py-2 border-t-2 w-full border-gray-300 dark:border-gray-900">
+                    <div className="text-center text-md px-2 py-2 border-t-2 w-full border-gray-300 dark:border-gray-900">
                         {name}
                     </div>
                 </div>

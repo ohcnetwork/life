@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import NoResultFound from './NoResultFound';
 import ResourceCard from './ResourceCard';
 import TwitterContainer from '@components/TwitterContainer';
-
 const SearchResult = ({ resources, type, district, state, searchStr }) => {
     const [selectedFilter, setSelectedFilter] = useState('show_all');
 
