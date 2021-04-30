@@ -14,7 +14,7 @@ import {
     faTimes
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import useOnClickOutside from '@hooks/useOnClickOutside';
+import { useOnClickOutside } from '@hooks/useOnClickOutside';
 
 const NavBar = () => {
     const { locale } = useLocaleContext();
@@ -23,7 +23,7 @@ const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const menuNode = useRef();
-    useOnClickOutside(menuNode, () => setIs);
+    useOnClickOutside(menuNode, () => setIsOpen(false));
 
     const navLinks = [
         {
@@ -83,7 +83,9 @@ const NavBar = () => {
                 </div>
             </nav>
             {isOpen && (
-                <div className="flex bg-gray-200 dark:bg-gray-1200 py-2 flex-col items-center justify-center md:hidden px-4 fixed top-20 left-0 w-full z-50">
+                <div
+                    ref={menuNode}
+                    className="flex bg-gray-200 dark:bg-gray-1200 py-2 flex-col items-center justify-center md:hidden px-4 fixed top-20 left-0 w-full z-50">
                     {navLinks.map(({ icon, title, link }, id) => (
                         <NavLink key={id} title={title} link={link} icon={icon} />
                     ))}
