@@ -51,14 +51,20 @@ const NavBar = () => {
     return (
         <section className="mb-20 mx-auto">
             <nav className="flex bg-gray-200 dark:bg-gray-1200 items-center justify-between px-5 py-2 fixed top-0 left-0  w-full  z-50">
-                <div
-                    onClick={() => setIsOpen((prev) => !prev)}
-                    className="flex items-center m-3 cursor-pointer md:hidden">
+                <div className="flex items-center m-3 cursor-pointer md:hidden">
                     <div className="w-5 h-5">
                         {isOpen ? (
-                            <FontAwesomeIcon icon={faTimes} className="w-3 text-gray-600" />
+                            <FontAwesomeIcon
+                                onClick={() => setIsOpen(false)}
+                                icon={faTimes}
+                                className="w-3 text-gray-600"
+                            />
                         ) : (
-                            <FontAwesomeIcon icon={faBars} className="w-3 text-gray-600" />
+                            <FontAwesomeIcon
+                                onClick={() => setIsOpen(true)}
+                                icon={faBars}
+                                className="w-3 text-gray-600"
+                            />
                         )}
                     </div>
                 </div>
