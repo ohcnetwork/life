@@ -2403,6 +2403,29 @@
         },
         {
             "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-30T11:10:02.000Z",
+            "district": "Ratlam",
+            "email1": null,
+            "email2": null,
+            "id": "recKeiq8a9bTAU0yl",
+            "lastVerifiedOn": null,
+            "name": "Astha Hospital",
+            "phone1": 741231735,
+            "phone2": null,
+            "pointOfContact": "Astha Hospital",
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
             "comment": "Incoming call not available on this number for now.\nWill call him/her later.",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Bengaluru (Bangalore) Urban",
@@ -2654,6 +2677,32 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Diya Dashiwal"
+        },
+        {
+            "availability": null,
+            "comment": "I CALLED TODAY AT THIS NUMBER",
+            "createdTime": "2021-04-30T11:08:10.000Z",
+            "district": "Ratlam",
+            "email1": null,
+            "email2": null,
+            "id": "recOaL3eR7bPt90TW",
+            "lastVerifiedOn": "2021-04-30T11:08:10.000Z",
+            "name": "Ratlam Hospital",
+            "phone1": 7412221919,
+            "phone2": null,
+            "pointOfContact": "Ratlam Hospital ",
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "ICU bed",
+                "Bed with ventilator"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Available and verified",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -3822,6 +3871,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-30T11:09:19.000Z",
+            "district": "Ratlam",
+            "email1": null,
+            "email2": null,
+            "id": "recWhB5HqwWvHr2Lk",
+            "lastVerifiedOn": null,
+            "name": "Agrawal Nursing Home",
+            "phone1": 741236837,
+            "phone2": null,
+            "pointOfContact": "Agrawal Nursing Home",
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -5355,6 +5427,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-30T11:11:31.000Z",
+            "district": "Ratlam",
+            "email1": null,
+            "email2": null,
+            "id": "receJsBqwnUi4yCPs",
+            "lastVerifiedOn": null,
+            "name": "CHL Jain Diwakar Hospital",
+            "phone1": 7412244881,
+            "phone2": null,
+            "pointOfContact": "CHL Jain Diwakar Hospital",
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -8200,6 +8295,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Nidhi Rungta"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-30T11:10:52.000Z",
+            "district": "Ratlam",
+            "email1": null,
+            "email2": null,
+            "id": "recwF68JJCzowidp4",
+            "lastVerifiedOn": null,
+            "name": "Maheshwari Hospital",
+            "phone1": 7412235759,
+            "phone2": null,
+            "pointOfContact": "Maheshwari Hospital",
+            "state": "Madhya Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": "Available",
