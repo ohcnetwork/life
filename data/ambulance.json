@@ -3390,6 +3390,23 @@
         },
         {
             "area": null,
+            "comment": "Can deliver medicines in Palam Vihar,Gurgaon.\nFor far areas, use Swiggy Genie...",
+            "createdTime": "2021-04-30T13:52:55.000Z",
+            "district": "Gurgaon",
+            "id": "recbK4kJuwzTHsUSo",
+            "lastVerifiedOn": "2021-04-30T13:52:55.000Z",
+            "name": null,
+            "phone1": "98711 83265",
+            "phone2": null,
+            "source": "Using myself",
+            "state": "Haryana",
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "area": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Mumbai City",

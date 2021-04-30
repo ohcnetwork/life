@@ -3626,7 +3626,7 @@
             ]
         },
         {
-            "availability": null,
+            "availability": "Available",
             "city": null,
             "comment": "Third Party Verified",
             "companyName": "Rasik Bhai / Damji Bhai, Veer Foundation",
@@ -3636,8 +3636,8 @@
             "emailId": "Security deposits cheques to be submitted while the cylinder",
             "homeDeliveryAvailable": null,
             "id": "rec7lXsCCR5v4hLwQ",
-            "instructions": null,
-            "lastVerifiedOn": "2021-04-27T08:55:07.000Z",
+            "instructions": "WhatsApp Response\n",
+            "lastVerifiedOn": "2021-04-30T13:30:11.000Z",
             "name": "Ramesh Mandola Groups:",
             "phone1": 9827233147,
             "phone2": null,
@@ -3647,10 +3647,8 @@
             "type": [
                 "Oxygen - Refill"
             ],
-            "verificationStatus": "Pending",
-            "verifiedBy": [
-                {}
-            ]
+            "verificationStatus": "Available and verified",
+            "verifiedBy": "Samyak Chaudhary"
         },
         {
             "availability": null,

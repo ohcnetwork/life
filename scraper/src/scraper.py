@@ -302,18 +302,37 @@ def get_vaccine_data():
     return ambulance_data
 
 
+def filter_verified_data(data):
+    is_verified = lambda x: "verified" in x["verificationStatus"].lower()
+    filtered_data = {
+       "data": list(filter(is_verified, data["data"]))
+    }
+    return filtered_data
+
 if __name__ == "__main__":
     active_district_data = get_active_district_data()
     dump_data("active_district_data.json", active_district_data)
+    
     hospital_data = get_hospital_clinic_centre()
     dump_data("hospital_clinic_centre.json", hospital_data)
+    dump_data("hospital_clinic_centre_verified.json", filter_verified_data(hospital_data))
+    
     oxygen_data = get_oxygen_data()
     dump_data("oxygen.json", oxygen_data)
+    dump_data("oxygen_verified.json", filter_verified_data(oxygen_data))
+    
     helpline_data = get_helpline_data()
     dump_data("helpline.json", helpline_data)
+    dump_data("helpline_verified.json", filter_verified_data(helpline_data))
+    
     medicine_data = get_medicine_data()
     dump_data("medicine.json", medicine_data)
+    dump_data("medicine_verified.json", filter_verified_data(medicine_data))
+    
     ambulance_data = get_ambulance_data()
     dump_data("ambulance.json", ambulance_data)
+    dump_data("ambulance_verified.json", filter_verified_data(ambulance_data))
+
     vaccine_data = get_vaccine_data()
     dump_data("vaccine.json", vaccine_data)
+    dump_data("vaccine_verified.json", filter_verified_data(vaccine_data))
