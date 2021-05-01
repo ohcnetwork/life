@@ -17,7 +17,7 @@ def fetch_data() -> list:
 
 def transform_data(data):
     for record in data:
-        if (record):
+        if (record and "lat" not in record and "lng" not in record):
             address = ""
             if "address" in record:
                 address += record["address"]
