@@ -32,7 +32,7 @@ function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
                                                         />
                                                     </div>
                                                     <div className="flex-grow text-black dark:text-white font-semibold">
-                                                        {result.text}
+                                                        {result.full_text}
                                                     </div>
                                                 </div>
                                             </div>
