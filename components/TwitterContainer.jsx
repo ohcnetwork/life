@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import TwitterResultCard from '@components/TwitterResult';
 import { useFetch } from '@components/Selector'
 
