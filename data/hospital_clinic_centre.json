@@ -298,6 +298,29 @@
         },
         {
             "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-25T17:16:30.000Z",
+            "district": "Patna",
+            "email1": null,
+            "email2": null,
+            "id": "rec3GHKBNJKnjtMh3",
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
+            "name": "Hotel ambassador, model colony",
+            "phone1": 9716400000,
+            "phone2": 9422514659,
+            "pointOfContact": null,
+            "state": "Bihar",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Pending",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
             "comment": "not answering",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Darjeeling",
@@ -832,6 +855,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-25T17:16:30.000Z",
+            "district": "Patna",
+            "email1": "https://twitter.com/intent/tweet?url=https%3A%2F%2Findiacovidresources.in%2F&text=",
+            "email2": null,
+            "id": "rec6QeIowzziuohVI",
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
+            "name": "Saras Hospital",
+            "phone1": 8340302165,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Bihar",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Pending",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": "Available",
@@ -1723,6 +1769,29 @@
         },
         {
             "availability": null,
+            "comment": "Oxygen beds available after 2:00PM",
+            "createdTime": "2021-04-25T17:16:30.000Z",
+            "district": "Patna",
+            "email1": null,
+            "email2": null,
+            "id": "recDp9ZYFxIAv4DX1",
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
+            "name": "Buddha Cancer Hospital",
+            "phone1": 9934107121,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Bihar",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Pending",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
             "comment": "FULL",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Shamali (Prabuddh Nagar)",
@@ -2165,6 +2234,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Disha Jariwala"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-25T17:16:30.000Z",
+            "district": "Patna",
+            "email1": null,
+            "email2": null,
+            "id": "recHzDweoGiNq7Lm0",
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
+            "name": "Raman hospital",
+            "phone1": 8294878472,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Bihar",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Pending",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -2991,6 +3083,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Available and verified",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-25T17:16:30.000Z",
+            "district": "Patna",
+            "email1": "https://twitter.com/intent/tweet?url=https%3A%2F%2Findiacovidresources.in%2F&text=",
+            "email2": null,
+            "id": "recQ4LM2tCohMAdwU",
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
+            "name": "Green City Hospital, Patna",
+            "phone1": 8709253652,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Bihar",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Pending",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -4112,6 +4227,29 @@
             "verifiedBy": "Jasseerat Kaur"
         },
         {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-25T17:16:30.000Z",
+            "district": "Patna",
+            "email1": "https://twitter.com/intent/tweet?url=https%3A%2F%2Findiacovidresources.in%2F&text=",
+            "email2": null,
+            "id": "recY1Sh7YMSH5FCdD",
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
+            "name": "Saras Hospital",
+            "phone1": 8340302165,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Bihar",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Pending",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": "Available",
             "comment": "Beds without Oxygen",
             "createdTime": "2021-04-24T13:20:42.000Z",
@@ -5177,6 +5315,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-25T17:16:30.000Z",
+            "district": "Patna",
+            "email1": "https://twitter.com/intent/tweet?url=https%3A%2F%2Findiacovidresources.in%2F&text=",
+            "email2": null,
+            "id": "reccp4gHfHawozF1I",
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
+            "name": "Saras Hospital",
+            "phone1": 8340302165,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Bihar",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Pending",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
@@ -6815,6 +6976,29 @@
         },
         {
             "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-25T17:16:30.000Z",
+            "district": "Patna",
+            "email1": null,
+            "email2": null,
+            "id": "reclxuukZrPl4wZmc",
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
+            "name": "Guru gobind singh hospital",
+            "phone1": 7004067854,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Bihar",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Pending",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": null,
             "comment": "not responding",
             "createdTime": "2021-04-19T07:48:08.000Z",
             "district": "Kolkata",
@@ -6938,6 +7122,29 @@
             "typeOfHospital": null,
             "verificationStatus": "Unresponsive",
             "verifiedBy": "Varun Kumar"
+        },
+        {
+            "availability": null,
+            "comment": null,
+            "createdTime": "2021-04-25T17:16:30.000Z",
+            "district": "Patna",
+            "email1": "https://twitter.com/intent/tweet?url=https%3A%2F%2Findiacovidresources.in%2F&text=",
+            "email2": null,
+            "id": "recmmDqcNEblC13VD",
+            "lastVerifiedOn": "2021-04-27T09:05:41.000Z",
+            "name": "Buddha Hospital and Research Centre",
+            "phone1": 7762919191,
+            "phone2": null,
+            "pointOfContact": null,
+            "state": "Bihar",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": null,
+            "typeOfHospital": null,
+            "verificationStatus": "Pending",
+            "verifiedBy": [
+                {}
+            ]
         },
         {
             "availability": null,
