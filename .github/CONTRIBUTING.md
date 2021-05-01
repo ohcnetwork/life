@@ -1,3 +1,9 @@
+## Types of Contributions:
+
+1. Code (Front-End)
+2. [Manpower (volunteers for verification)](https://docs.google.com/forms/d/e/1FAIpQLSe7pykUkolIHZiZYYacPqAEoWxVxCGTH5noJOyw9q-e21aaWw/viewform)
+3. Amplification - Help spread the word on social media
+
 ## LIFE - React/NextJS Contributing Guide
 
 ### Ready to start
