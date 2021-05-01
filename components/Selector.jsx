@@ -90,13 +90,13 @@ const Selector = ({ data, page, placeholder, localeState, localeDistrict }) => {
                         e.stopPropagation();
                     }}
                 />
-                <div className="px-8 py-2  text-gray-500 bg-gray-100 dark:bg-gray-1200 opacity-80 rounded-b text">
+                <div className="px-8 py-2  text-black-500 bg-gray-100 dark:bg-gray-1200 opacity-80 rounded-b text">
                     <FontAwesomeIcon
                         className="text-blue-500 mr-2"
                         title="Share on Twitter"
                         icon={faTwitter}
                     />
-                    <span>Type a city name to see Real Time Tweets Below</span>
+                  <span>Type a city name to see Real Time Tweets Below</span>
                     <span className="ml-2">
                         <PulseSvg className="inline stroke-current text-blue-600" width={25} />
                     </span>
