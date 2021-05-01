@@ -11,7 +11,7 @@ A database and API for life-fe
 | List of districts with Data       | <https://life-api.coronasafe.network/data/active_district_data_v2.json>         |
 | Ambulance availability            | <https://life-api.coronasafe.network/data/ambulance_v2.json>                       |
 | Helpline Numbers                  | <https://life-api.coronasafe.network/data/helpline_v2.json>                        |
-| Hospitals and Beds                | <https://life-api.coronasafe.network/data/hospitals_v2.json>          |
+| Hospitals and Beds                | <https://life-api.coronasafe.network/data/hospital_v2.json>          |
 | Medicine availability             | <https://life-api.coronasafe.network/data/medicine_v2.json>                        |
 | Oxygen availability               | <https://life-api.coronasafe.network/data/oxygen_v2.json>                          |
 
