@@ -69,6 +69,15 @@ list_of_life_files = {
     },
     "hospitals": {
         "url": "https://life_data.coronasafe.network/hospital.json"
+    },
+    "medicine": {
+        "url": "https://life_data.coronasafe.network/medicine.json"
+    },
+     "helpline": {
+        "url": "https://life_data.coronasafe.network/helpline.json"
+    },
+     "ambulance": {
+        "url": "https://life_data.coronasafe.network/ambulance.json"
     }
 }
 
