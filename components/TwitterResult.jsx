@@ -1,6 +1,8 @@
 import TimeAgo from 'timeago-react';
 import PulseIcon from '@components/PulseSvg';
 import NoResultFound from './NoResultFound';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
 
@@ -28,6 +30,7 @@ function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
                                                       datetime={result.created_at}
                                                     />
                                                     <span className="px-3 pb-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                                                      <FontAwesomeIcon icon={faTwitter} />
                                                       <a
                                                         href={`https://twitter.com/i/web/status/${result.id_str}`}
                                                         target="_blank"
