@@ -5,14 +5,7 @@ import NavLink from './NavLink';
 import LanguageSelector from './LanguageSelector';
 import ThemeButton from './ThemeButton';
 import useLocale from '@hooks/use-locale';
-import {
-    faDatabase,
-    faHandsHelping,
-    faHeart,
-    faBookOpen,
-    faBars,
-    faTimes
-} from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useOnClickOutside } from '@hooks/useOnClickOutside';
 import LearnIcon from './icons/LearnIcon';
