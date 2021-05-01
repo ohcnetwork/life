@@ -15,6 +15,16 @@ A database and API for life-fe
 | Medicine availability             | <https://life-api.coronasafe.network/data/medicine_v2.json>                        |
 | Oxygen availability               | <https://life-api.coronasafe.network/data/oxygen_v2.json>                          |
 
+## API V2 CSV 
+ 
+| Data                              | URL                                                                             |
+| --------------------------------- | ------------------------------------------------------------------------------- |
+| Ambulance availability            | <https://life_data.coronasafe.network/ambulance.csv>                       |
+| Helpline Numbers                  | <https://life_data.coronasafe.network/helpline.csv>                        |
+| Hospitals and Beds                | <https://life_data.coronasafe.network/hospital.csv>          |
+| Medicine availability             | <https://life_data.coronasafe.network/medicine.csv>                        |
+| Oxygen availability               | <https://life_data.coronasafe.network/oxygen.csv>                         |
+
 
 
 
