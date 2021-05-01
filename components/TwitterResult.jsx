@@ -35,7 +35,8 @@ function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
                                                         href={`https://twitter.com/i/web/status/${result.id_str}`}
                                                         target="_blank"
                                                         rel="noopener noreferrer"
-                                                        key={result.id_str}>
+                                                        key={result.id_str}
+                                                        className="pl-2">
                                                       Open in Twitter
                                                       </a>
                                                     </span>
