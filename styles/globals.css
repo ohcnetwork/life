@@ -113,4 +113,12 @@ button:focus {
         transform: rotate(360deg);
     }
 }
+pre {
+    background: none !important;
+    @apply border border-indigo-300;
+}
+code {
+    @apply text-indigo-500 !important;
+}
+
 /* ---- 404 Page CSS End ---- */

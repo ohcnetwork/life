@@ -14,7 +14,7 @@ const HomeSelector = ({ val, optionsList, handleChange, label, divider }) => {
                         id={label}
                         value={val}
                         onChange={(e) => handleChange(e)}
-                        className="py-2 px-4 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 dark:bg-gray-1000 rounded-md my-2 appearance-none pr-5 cursor-pointer z-10">
+                        className="py-2 w-full font-bold text-xl outline-none bg-transparent dark:text-gray-400 dark:bg-gray-1000 rounded-md my-2 appearance-none pl-2 cursor-pointer z-0">
                         {optionsList.map((s, id) => (
                             <option
                                 className="dark:text-white overflow-ellipsis"
@@ -24,7 +24,7 @@ const HomeSelector = ({ val, optionsList, handleChange, label, divider }) => {
                             </option>
                         ))}
                     </select>
-                    <div className="absolute right-0">
+                    <div className="absolute right-0 mr-1 dark:text-white z-10">
                         <FontAwesomeIcon icon={faAngleDown} className="w-5" />
                     </div>
                 </div>

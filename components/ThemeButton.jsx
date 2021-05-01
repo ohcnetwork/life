@@ -5,7 +5,6 @@ import { isDarkMode } from '@lib/utils';
 
 const ThemeButton = () => {
     const [isDarkModeEnabled, setIsDarkModeEnabled] = useState(isDarkMode());
-
     const toggleTheme = (_) => {
         if (typeof window !== 'undefined') {
             if (
@@ -28,7 +27,10 @@ const ThemeButton = () => {
         <span
             onClick={toggleTheme}
             className="cursor-pointer flex items-center justify-center h-10 w-10 bg-gray-300 text-gray-900 dark:bg-gray-1000 z-50 rounded-full">
-            <FontAwesomeIcon icon={isDarkModeEnabled ? faSun : faMoon} className="w-6 dark:text-gray-300" />
+            <FontAwesomeIcon
+                icon={isDarkModeEnabled ? faMoon : faSun}
+                className="w-6 dark:text-gray-300"
+            />
         </span>
     );
 };

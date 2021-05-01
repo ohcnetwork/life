@@ -4,23 +4,48 @@
 
 A database and API for life-fe
 
-## API
+## API V2 
+ 
+| Data                              | URL                                                                             |
+| --------------------------------- | ------------------------------------------------------------------------------- |
+| List of districts with Data       | <https://life-api.coronasafe.network/data/active_district_data_v2.json>         |
+| Ambulance availability            | <https://life-api.coronasafe.network/data/ambulance_v2.json>                       |
+| Helpline Numbers                  | <https://life-api.coronasafe.network/data/helpline_v2.json>                        |
+| Hospitals and Beds                | <https://life-api.coronasafe.network/data/hospital_v2.json>          |
+| Medicine availability             | <https://life-api.coronasafe.network/data/medicine_v2.json>                        |
+| Oxygen availability               | <https://life-api.coronasafe.network/data/oxygen_v2.json>                          |
 
-| Data                        | URL                                                                  |
-| --------------------------- | -------------------------------------------------------------------- |
-| List of districts with Data | <https://life-api.coronasafe.network/data/active_district_data.json>   |
-| Ambulance availability      | <https://life-api.coronasafe.network/data/ambulance.json>              |
-| Ambulance availability (verified)      | <https://life-api.coronasafe.network/data/ambulance_verified.json>              |
-| Helpline Numbers            | <https://life-api.coronasafe.network/data/helpline.json>               |
-| Helpline Numbers (verified)           | <https://life-api.coronasafe.network/data/helpline_verified.json>               |
-| Hospitals and Beds          | <https://life-api.coronasafe.network/data/hospital_clinic_centre.json> |
-| Hospitals and Beds (verified)          | <https://life-api.coronasafe.network/data/hospital_clinic_centre_verified.json> |
-| Medicine availability       | <https://life-api.coronasafe.network/data/medicine.json>               |
-| Medicine availability (verified)       | <https://life-api.coronasafe.network/data/medicine_verified.json>               |
-| Oxygen availability         | <https://life-api.coronasafe.network/data/oxygen.json>                 |
-| Oxygen availability (verified)         | <https://life-api.coronasafe.network/data/oxygen_verified.json>                 |
+## API V2 CSV 
+ 
+| Data                              | URL                                                                             |
+| --------------------------------- | ------------------------------------------------------------------------------- |
+| Ambulance availability            | <https://life_data.coronasafe.network/ambulance.csv>                       |
+| Helpline Numbers                  | <https://life_data.coronasafe.network/helpline.csv>                        |
+| Hospitals and Beds                | <https://life_data.coronasafe.network/hospital.csv>          |
+| Medicine availability             | <https://life_data.coronasafe.network/medicine.csv>                        |
+| Oxygen availability               | <https://life_data.coronasafe.network/oxygen.csv>                         |
+
+
+
+
+## API V1 (deprecated)
+ 
+| Data                              | URL                                                                             |
+| --------------------------------- | ------------------------------------------------------------------------------- |
+| List of districts with Data       | <https://life-api.coronasafe.network/data/active_district_data.json>            |
+| Ambulance availability            | <https://life-api.coronasafe.network/data/ambulance.json>                       |
+| Ambulance availability (verified) | <https://life-api.coronasafe.network/data/ambulance_verified.json>              |
+| Helpline Numbers                  | <https://life-api.coronasafe.network/data/helpline.json>                        |
+| Helpline Numbers (verified)       | <https://life-api.coronasafe.network/data/helpline_verified.json>               |
+| Hospitals and Beds                | <https://life-api.coronasafe.network/data/hospital_clinic_centre.json>          |
+| Hospitals and Beds (verified)     | <https://life-api.coronasafe.network/data/hospital_clinic_centre_verified.json> |
+| Medicine availability             | <https://life-api.coronasafe.network/data/medicine.json>                        |
+| Medicine availability (verified)  | <https://life-api.coronasafe.network/data/medicine_verified.json>               |
+| Oxygen availability               | <https://life-api.coronasafe.network/data/oxygen.json>                          |
+| Oxygen availability (verified)    | <https://life-api.coronasafe.network/data/oxygen_verified.json>                 |
 
 ## Want to help with coding?
+
 -   [Open issues](https://github.com/coronasafe/life/issues)
 
 [<img src="https://i.imgur.com/V7jxjak.png">](http://slack.coronasafe.in/)
@@ -29,13 +54,16 @@ A database and API for life-fe
 
 -   [Covidfyi data store](https://airtable.com/shrIlOoS6PyhIIVEv)
 
-# Development Docs
+# Contributions Docs
+
+[Detailed Contributing Guide](https://life.coronasafe.network/how_to_contribute)
 
 ## Getting Started
 
 First, run the development server:
 
 ```
+npm install
 npm run dev
 # or
 yarn dev

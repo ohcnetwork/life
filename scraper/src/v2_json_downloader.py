@@ -2,7 +2,11 @@ import urllib.request
 import json
 import os
 import ssl
+import uuid
 
+active_district_data_v2_data = {
+    "data": []
+}
 
 def generate_v2_file(url, data, name=""):
     life_file_name_v2 = url.split("/")[-1].split(".")[0] + "_v2.json"  # generating new file name from
@@ -11,26 +15,46 @@ def generate_v2_file(url, data, name=""):
 
     f = open("data/" + life_file_name_v2, 'w')
     print("Adding file: "+life_file_name_v2)
+    print(len(data["data"]))
     f.write(json.dumps(data))
     f.close()
 
 
 def parseInfo(info_type, data):
-    active_district_data_v2_data = {
-        "data": []
-    }
+    s = set()
     json_array = json.loads(data)
-    for info_type_json in json_array:
-        active_district_json = dict(ambulance="false", contact="false", district="", doctor="false", helpline="false",
-                                    hospitals="false", medicine="false", oxygen="false", state="")
-        active_district_json["state"] = info_type_json["state_name"]
-        active_district_json["district"] = info_type_json["district_name"]
-        if(info_type == "oxygen"): #Update the logic for oxygen to be true based on values in oxygen.json
-            active_district_json["oxygen"] = "true"
-        #if(info_type == "ambulance" && TODO_LOGIC_FOR_AMBULENCE_TRUE):  #Update the logic for ambulance to be true based on values in ambulance.json
-            #active_district_json["ambulance"] = "true"
+    active_district_json = dict(id= uuid.uuid4().hex, ambulance=False, contact=False, district="", doctor=False, helpline=False,
+                                hospitals=False, medicine=False, oxygen=False, state="")
 
-        active_district_data_v2_data["data"].append(active_district_json)
+    if len(active_district_data_v2_data["data"]) == 0:
+        for info_type_json in json_array:
+            active_district_json["state"] = info_type_json["state"]
+            active_district_json["district"] = info_type_json["district"]
+            active_district_json[info_type] = True
+
+            if str(active_district_json) not in s:
+                s.add(str(active_district_json))
+        for i in s:
+            active_district_data_v2_data["data"] .append(eval(i))
+    else:
+        updated_set = set()
+        existing_data_json_arr = active_district_data_v2_data["data"]
+        for info_type_json in json_array:
+            for existing_data_json in existing_data_json_arr:
+                existing_data_json_updated = existing_data_json
+                if existing_data_json["state"] == info_type_json["state"] \
+                        and existing_data_json["district"] == info_type_json["district"]:
+                    existing_data_json_updated[info_type] = True
+                    if str(existing_data_json_updated) not in updated_set:
+                        updated_set.add(str(existing_data_json_updated))
+            else:
+                active_district_json["state"] = info_type_json["state"]
+                active_district_json["district"] = info_type_json["district"]
+                active_district_json[info_type] = True
+                updated_set.add(str(active_district_json))
+        for i in updated_set:
+            active_district_data_v2_data["data"].append(eval(i))
+
     generate_v2_file("active_district_data", active_district_data_v2_data)
 
 # SSL certification issue was happening and 403 forbidden issue, these two solves it
@@ -42,11 +66,19 @@ headers = {'User-Agent': user_agent, }
 list_of_life_files = {
     "oxygen": {
         "url": "https://life_data.coronasafe.network/oxygen.json"
+    },
+    "hospitals": {
+        "url": "https://life_data.coronasafe.network/hospital.json"
+    },
+    "medicine": {
+        "url": "https://life_data.coronasafe.network/medicine.json"
+    },
+     "helpline": {
+        "url": "https://life_data.coronasafe.network/helpline.json"
+    },
+     "ambulance": {
+        "url": "https://life_data.coronasafe.network/ambulance.json"
     }
-    # Idea is there will be more keys for vaccine, ambulance ...
-    #,"ambulance": {
-    #    "url": "https://life_data.coronasafe.network/ambulance.json"
-    #}
 }
 
 for life_file_key in list_of_life_files:
@@ -55,5 +87,5 @@ for life_file_key in list_of_life_files:
     response = urllib.request.urlopen(request)
     data = response.read()
     generate_v2_file(url=life_file, data={"data" : json.loads(data.decode())})
-    parseInfo(data.decode().split("/")[-1].split(".")[0], data)
+    parseInfo(life_file_key, data)
     #list_of_life_files[life_file_key]["parseFunction"](data)

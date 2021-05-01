@@ -86,7 +86,7 @@ export default function DataForm() {
                             <li
                                 key={id}
                                 className="group relative bg-white rounded-lg shadow-sm focus:outline-none focus:ring-1 focus:ring-offset-2 focus:ring-indigo-500">
-                                <div className="rounded-lg border dark:bg-gray-1200 border-gray-300 bg-white px-6 py-4 hover:border-gray-400 sm:flex sm:justify-between">
+                                <div className="rounded-lg border dark:bg-gray-1200 border-gray-300 bg-white px-6 py-4 hover:border-gray-400 flex justify-between">
                                     <div className="flex items-center">
                                         <div className="text-sm">
                                             <p className="font-medium text-base text-gray-900 dark:text-gray-200">
@@ -103,8 +103,7 @@ export default function DataForm() {
                                         <a
                                             href={form.link}
                                             target="_blank"
-                                            type="button"
-                                            className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-800 dark:bg-indigo-800 dark:hover:bg-indigo-600">
+                                            className=" inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-800 dark:bg-indigo-800 dark:hover:bg-indigo-600">
                                             <svg
                                                 className="mr-1"
                                                 width="20"

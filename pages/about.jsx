@@ -4,14 +4,22 @@ import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 import AboutQA from '@components/AboutQA';
 import Header from '@components/Header';
+import { NextSeo } from 'next-seo';
 
 const About = () => {
     const { locale } = useLocaleContext();
     const t = useLocale(locale, 'about');
     const pClass = `dark:text-gray-600 mt-2 text-md`;
     const aClass = `underline text-primary-600 hover:text-primary-800 visited:text-purple-600`;
+    const SEO = {
+        title: `About Us`,
+        openGraph: {
+            title: `About Us`
+        }
+    };
     return (
         <section className="max-w-5xl mx-auto px-2">
+            <NextSeo {...SEO} />
             <Breadcumb list={[{ href: null, name: 'About' }]} />
             <Header title="About" />
             <div className="py-10 ext-2xl font-medium px-2 md:mx-10">
