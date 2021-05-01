@@ -30,15 +30,15 @@ const HowToIntegrateData = () => {
         <section className="max-w-5xl mx-auto px-2">
             <Breadcumb list={[{ href: null, name: 'How to Integrate Data' }]} />
             <Header title="How to Integrate Data" />
-            <div class="flex justify-around flex-wrap">
+            <div className="flex justify-around flex-wrap">
                 {data.map((e, i) => (
-                    <a href={e.link} key={i} target="_blank" class="w-full mx-2 mt-2 md:w-auto shadow-lg rounded-md bg-white dark:bg-gray-1000 dark:text-gray-200 dark:hover:bg-gray-1200 dark:hover:text-primary-500 hover:bg-gray-100 hover:text-secondary-600 cursor-pointer py-5 px-3 flex items-center flex-row">
-                        <div class="bg-gray-200 dark:bg-gray-1200 w-15 h-15 p-5 rounded-full">
+                    <a href={e.link} key={i} target="_blank" className="w-full mx-2 mt-2 md:w-auto shadow-lg rounded-md bg-white dark:bg-gray-1000 dark:text-gray-200 dark:hover:bg-gray-1200 dark:hover:text-primary-500 hover:bg-gray-100 hover:text-secondary-600 cursor-pointer py-5 px-3 flex items-center flex-row">
+                        <div className="bg-gray-200 dark:bg-gray-1200 w-15 h-15 p-5 rounded-full">
                             <FontAwesomeIcon icon={e.icon} className="w-5 h-5" />
                         </div>
-                        <div class="flex flex-col px-5 mx-auto mt-3 md:mt-0 items-center">
-                            <span class="font-semibold text-lg md:mr-auto">{e.title}</span>
-                            <span class="text-sm font-extralight">{e.description}</span>
+                        <div className="flex flex-col px-5 mx-auto mt-3 md:mt-0 items-center">
+                            <span className="font-semibold text-lg md:mr-auto">{e.title}</span>
+                            <span className="text-sm font-extralight">{e.description}</span>
                         </div>
                     </a>
                 ))}
