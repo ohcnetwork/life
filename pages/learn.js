@@ -2,6 +2,7 @@ import React from 'react';
 
 import Breadcumb from '@components/Breadcumb';
 import Header from '@components/Header';
+import { NextSeo } from 'next-seo';
 
 const languages = [
     {
@@ -104,8 +105,15 @@ const renderLanguageElement = (data) => (
 );
 
 const Learn = () => {
+    const SEO = {
+        title: `Learn | Coronsafe Network`,
+        openGraph: {
+            title: `Learn | Coronsafe Network`
+        }
+    };
     return (
         <React.Fragment>
+            <NextSeo {...SEO} />
             <div className="font-bold max-w-5xl mx-auto px-2">
                 <Breadcumb list={[{ href: null, name: 'Learn' }]} />
                 <Header title="Learn" />

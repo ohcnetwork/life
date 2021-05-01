@@ -3,6 +3,7 @@ import Breadcumb from '@components/Breadcumb';
 import Header from '@components/Header';
 import remark from 'remark';
 import html from 'remark-html';
+import { NextSeo } from 'next-seo';
 
 const markdownText = `
 
@@ -83,8 +84,15 @@ const Campaigns = () => {
         .use(html)
         .process(markdownText)
         .then((t) => setHtmlStr(t.contents));
+    const SEO = {
+        title: `How to Contribute ? `,
+        openGraph: {
+            title: `How to Contribute ? `
+        }
+    };
     return (
         <section className="max-w-5xl mx-auto px-2">
+            <NextSeo {...SEO} />
             <Breadcumb list={[{ href: null, name: 'How to Contribute' }]} />
             <Header title="How to Contribute" />
             <section className="flex flex-col mx-2 md:mx-6 pt-2 pl-4">
