@@ -79,7 +79,7 @@ const Partners = () => {
             <NextSeo {...SEO} />
             <Breadcumb list={[{ href: null, name: 'Partner with us' }]} />
             <Header title="Partner with Us" />
-            <section className="py-10 dark:text-gray-500 text-gray-900 px-2 md:mx-10">
+            <section className="dark:text-gray-500 text-gray-900 px-2 md:mx-10">
                 <div className="flex flex-col justify-between items-center w-full">
                     <div className="w-full my-4 dark:text-white">
                         Citizen's groups and civil society organisations providing Covid Relief have
