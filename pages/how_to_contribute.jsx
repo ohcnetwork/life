@@ -6,6 +6,12 @@ import html from 'remark-html';
 
 const markdownText = `
 
+## Types of Contributions:
+
+1. Code (Front-End) 
+2. [Manpower (volunteers for verification)](https://docs.google.com/forms/d/e/1FAIpQLSe7pykUkolIHZiZYYacPqAEoWxVxCGTH5noJOyw9q-e21aaWw/viewform)
+3. Amplification - Help spread the word on social media
+
 ## LIFE - React/NextJS Contributing Guide
 
 ### Ready to start
@@ -21,7 +27,7 @@ Any kind of Contributions is Accepted.
 
 ### Contributing
 
--   [Fork this repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) to your own account and then clone it.
+-   [Fork this repository](https://github.com/coronasafe/life) to your own account and then clone it.
 -   Create a new branch for your changes: \`git checkout -b {BRANCH_NAME}\`.
 -   You can either use \`npm or yarn\` as your package manager.
 
