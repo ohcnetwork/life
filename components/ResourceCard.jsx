@@ -7,6 +7,7 @@ import { useRouter } from 'next/router';
 import Badge from './Badge';
 import Description from './Description';
 import TimeAgo from 'timeago-react';
+import FeedbackCounter from './FeedbackCounter';
 
 const ResourceCard = ({ data, type: filterType }) => {
 
@@ -169,14 +170,7 @@ const ResourceCard = ({ data, type: filterType }) => {
                     }
                 </span>
                 <div className="flex items-center mx-1 mt-2 xs:my-0 xs:space-x-2">
-                    <div className="px-2 py-1 md:px-3 md:py-2 mr-2 rounded-full cursor-pointer flex items-center bg-gray-100 dark:bg-gray-900 dark:text-gray-200">
-                        <FontAwesomeIcon icon={faThumbsUp} className="w-2 h-2 dark:text-primary-500" />
-                        <span className="text-xs ml-2">{upvotes}</span>
-                    </div>
-                    <div className="px-2 py-1 md:px-3 md:py-2 rounded-full cursor-pointer flex items-center bg-gray-100 dark:bg-gray-900 dark:text-gray-200">
-                        <FontAwesomeIcon icon={faThumbsDown} className="w-2 h-2 dark:text-primary-500" />
-                        <span className="text-xs ml-2">{downvotes}</span>
-                    </div>
+                    <FeedbackCounter upvotes={upvotes} downvotes={downvotes} />
                 </div>
             </div>
         </div>
