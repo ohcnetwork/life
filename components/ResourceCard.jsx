@@ -5,6 +5,7 @@ import { faBed, faEnvelope, faHeartbeat, faLink, faMapMarkerAlt, faMedkit, faMob
 import { copyTextGenerator, isVerified, parseDateString } from '@lib/utils';
 import { useRouter } from 'next/router';
 import Badge from './Badge';
+import Description from './Description';
 
 const ResourceCard = ({ data, type: filterType }) => {
 
@@ -60,6 +61,9 @@ const ResourceCard = ({ data, type: filterType }) => {
                     <div className="flex flex-col items-start justify-center my-2 text-sm xs:text-base space-y-1">
                         <span className="text-sm xs:text-base font-normal">{address || comment}</span>
                         {
+                            description && <Description text={description} />
+                        }
+                        {
                             type === "Oxygen" &&
                             <div className="flex flex-col">
                                 <div>
@@ -89,28 +93,28 @@ const ResourceCard = ({ data, type: filterType }) => {
                             <div className="grid grid-cols-2 w-full py-2">
                                 <div className="text-sm xs:text-base font-medium flex items-center">
                                     <FontAwesomeIcon icon={faBed} className="w-5 dark:text-primary-500" />
-                                    <span className="mx-1">Normal Beds: </span>
+                                    <span className="mx-2">Normal Beds: </span>
                                     <span className="dark:text-gray-300">
                                         {hospital_available_normal_beds || "NA"}
                                     </span>
                                 </div>
                                 <div className="text-sm xs:text-base font-medium flex items-center ml-auto">
                                     <FontAwesomeIcon icon={faHeartbeat} className="w-5 dark:text-primary-500" />
-                                    <span className="mx-1">Oxygen Beds: </span>
+                                    <span className="mx-2">Oxygen Beds: </span>
                                     <span className="dark:text-gray-300">
                                         {hospital_available_oxygen_beds || "NA"}
                                     </span>
                                 </div>
                                 <div className="text-sm xs:text-base font-medium flex items-center">
                                     <FontAwesomeIcon icon={faMedkit} className="w-5 dark:text-primary-500" />
-                                    <span className="mx-1">ICU Beds: </span>
+                                    <span className="mx-2">ICU Beds: </span>
                                     <span className="dark:text-gray-300">
                                         {hospital_available_icu_beds || "NA"}
                                     </span>
                                 </div>
                                 <div className="text-sm xs:text-base font-medium flex items-center ml-auto">
                                     <FontAwesomeIcon icon={faProcedures} className="w-5 dark:text-primary-500" />
-                                    <span className="mx-1">Ventilator Beds: </span>
+                                    <span className="mx-2">Ventilator Beds: </span>
                                     <span className="dark:text-gray-300">
                                         {hospital_available_ventilator_beds || "NA"}
                                     </span>
