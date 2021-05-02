@@ -166,7 +166,8 @@ const ResourceCard = ({ data, type: filterType }) => {
                     </span>
                 </span>
                 <div className="flex items-center mx-1 mt-2 xs:my-0 xs:space-x-2">
-                    <FeedbackCounter upvotes={upvotes} downvotes={downvotes} />
+                    {/* TODO: Waiting for Endpoint from Backend */}
+                    {/* <FeedbackCounter upvotes={upvotes} downvotes={downvotes} /> */}
                 </div>
             </div>
         </div>
