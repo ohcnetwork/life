@@ -39,6 +39,7 @@ A database and API for life-fe
 First, run the development server:
 
 ```
+npm install
 npm run dev
 # or
 yarn dev

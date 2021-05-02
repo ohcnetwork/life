@@ -61,8 +61,8 @@ const Campaigns = () => {
             <NextSeo {...SEO} />
             <Breadcumb list={[{ href: null, name: 'Campaigns' }]} />
             <Header title="Campaigns" />
-            <section className="flex flex-col mx-2 md:mx-6 pt-2 pl-4">
-                <article className="prose lg:prose-xl dark:text-gray-100 text-gray-1000 prose-indigo">
+            <section className="flex flex-col mx-2 md:mx-10 pt-2 px-2">
+                <article className="lg:prose-xl dark:text-gray-100 text-gray-900 prose-indigo">
                     <div dangerouslySetInnerHTML={{ __html: htmlStr }}></div>
                 </article>
             </section>
