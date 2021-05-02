@@ -164,6 +164,9 @@ export default function DetailedHome({ state, district, type }) {
                             {tabVal === 'twitter' && (
                                 <TwitterContainer searchStr={mapDistrictToCity(districtChoosen)} />
                             )}
+                            {tabVal === 'twitter_on_no_data' && (
+                                <TwitterContainer noRes noResText={districtChoosen} searchStr={mapDistrictToCity(districtChoosen)} />
+                            )}
                         </div>
                     </>
                 ) : (
