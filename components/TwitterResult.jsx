@@ -20,12 +20,12 @@ function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
                                     <p className="ml-2 text-gray-700">
                                         Showing {covidConnectResults.length} Results
                                     </p>
-                                    {covidConnectResults.map((result) => (
+                                    {covidConnectResults.map((result, id) => (
 
-                                          <div className="flex justify-start cursor-pointer text-gray-700  bg-gray-200 dark:bg-gray-1100 whitespace-pre-wrap  rounded-md px-2 py-2 my-2">
+                                          <div key={id} className="flex justify-start text-gray-700  bg-gray-200 dark:bg-gray-1100 whitespace-pre-wrap  rounded-md px-2 py-2 my-2">
 
-                                                <div className="px-2">
-                                                  <div className="flex flex-row text-sm dark:text-primary-400 font-normal text-black-500 tracking-wide">
+                                                <div className="px-2 w-full">
+                                                  <div className="flex flex-row justify-between text-sm dark:text-primary-400 font-normal text-black-500 tracking-wide">
                                                     <TimeAgo
                                                       datetime={result.created_at}
                                                     />
