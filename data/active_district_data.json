@@ -5213,7 +5213,7 @@
             "contact": false,
             "district": "Khordha",
             "doctor": false,
-            "helpline": false,
+            "helpline": true,
             "hospitals": false,
             "id": "reciC09mh14Gmeb8s",
             "medicine": false,
