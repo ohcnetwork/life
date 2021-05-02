@@ -1,6 +1,5 @@
 import { filterResourcesBy } from '@lib/utils';
 import React, { useState } from 'react';
-import NoResultFound from './NoResultFound';
 import ResourceCard from './ResourceCard';
 import TwitterContainer from '@components/TwitterContainer';
 const SearchResult = ({ resources, type, district, state, searchStr, changeTabs }) => {

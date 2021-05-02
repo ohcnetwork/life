@@ -130,7 +130,7 @@ const Partners = () => {
                 <div
                     className="flex flex-warp justify-center space-y-6 dark:text-white mt-6 w-full"
                     align="center">
-                    <ul className="flex flex-wrap justify-around md:justify-center">
+                    <div className="flex flex-wrap justify-around md:justify-center">
                         {partners.map((p) => {
                             return (
                                 <PartnerCard
@@ -141,7 +141,7 @@ const Partners = () => {
                                 />
                             );
                         })}
-                    </ul>
+                    </div>
                 </div>
             </section>
         </section>
