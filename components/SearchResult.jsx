@@ -63,9 +63,11 @@ const SearchResult = ({ resources, type, district, state, searchStr, changeTabs 
             </div>
             <main className="pb-16">
                 {resourcesListing.length > 0 ? (
-                    resourcesListing.map((resource, id) => (
-                        <ResourceCard key={resource.id + id} type={type} data={resource} />
-                    ))
+                    resourcesListing.map((resource, id) => {
+                        return (
+                            <ResourceCard key={resource.external_id} type={type} data={resource} />
+                        )
+                    })
                 ) : (
                     <div className="my-5">
                         {changeTabs('twitter')}
