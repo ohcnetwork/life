@@ -1,8 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SocialSharing from '@components/SocialSharing';
-import { faBed, faEnvelope, faHeartbeat, faLink, faMapMarkerAlt, faMedkit, faMobileAlt, faPhoneAlt, faProcedures, faThumbsDown, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
-import { copyTextGenerator, isVerified, parseDateString } from '@lib/utils';
+import { faBed, faEnvelope, faHeartbeat, faLink, faMapMarkerAlt, faMedkit, faMobileAlt, faPhoneAlt, faProcedures } from '@fortawesome/free-solid-svg-icons';
+import { copyTextGenerator } from '@lib/utils';
 import { useRouter } from 'next/router';
 import Badge from './Badge';
 import Description from './Description';
@@ -37,8 +37,6 @@ const ResourceCard = ({ data, type: filterType }) => {
     const copyText = copyTextGenerator({ name: title, id, phone: (phone_1 || phone_2 || "No Phone"), type: type }, pageUrl);
 
     const category = `${type}` + (resource_type ? ` - ${resource_type}` : '')
-
-    const isAll = filterType === "All";
 
     return (
         <div id={id} className="max-w-3xl bg-white hover:bg-gray-100 dark:hover:bg-gray-1000 dark:bg-gray-1200 dark:text-gray-300 shadow-md rounded-md mx-2 md:mx-auto my-5 px-3 py-4">
