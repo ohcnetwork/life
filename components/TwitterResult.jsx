@@ -25,18 +25,18 @@ function TwitterResultCard({ covidConnectResults, searchStr, loading }) {
                                           <div key={id} className="flex justify-start text-gray-700  bg-gray-200 dark:bg-gray-1100 whitespace-pre-wrap  rounded-md px-2 py-2 my-2">
 
                                                 <div className="px-2 w-full">
-                                                  <div className="flex flex-row justify-between text-sm dark:text-primary-400 font-normal text-black-500 tracking-wide">
+                                                  <div className="flex flex-row justify-between text-sm my-1 dark:text-primary-400 font-normal text-black-500 tracking-wide">
                                                     <TimeAgo
                                                       datetime={result.created_at}
                                                     />
-                                                    <span className="px-3 pb-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                                                    <span className="pb-1 text-sm font-semibold text-gray-700 mb-2">
                                                       <FontAwesomeIcon icon={faTwitter} />
                                                       <a
                                                         href={`https://twitter.com/i/web/status/${result.id_str}`}
                                                         target="_blank"
                                                         rel="noopener noreferrer"
                                                         key={result.id_str}
-                                                        className="pl-2">
+                                                        className="ml-2">
                                                       Open in Twitter
                                                       </a>
                                                     </span>
