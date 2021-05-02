@@ -1,7 +1,7 @@
 import { filterResourcesBy } from '@lib/utils';
 import React, { useState } from 'react';
 import ResourceCard from './ResourceCard';
-import TwitterContainer from '@components/TwitterContainer';
+import NoResultFound from './NoResultFound';
 const SearchResult = ({ resources, type, district, state, searchStr, changeTabs }) => {
     const [selectedFilter, setSelectedFilter] = useState('show_all');
 
@@ -11,7 +11,7 @@ const SearchResult = ({ resources, type, district, state, searchStr, changeTabs 
     return (
         <section>
             <div className="mt-8 px-5 flex flex-wrap justify-around items-center dark:text-gray-300">
-                {noData || (
+                {(noData && changeTabs("twitter")) || (
                     <>
                         <h1 className="font-semibold">
                             Search Results:{' '}
@@ -70,12 +70,7 @@ const SearchResult = ({ resources, type, district, state, searchStr, changeTabs 
                     })
                 ) : (
                     <div className="my-5">
-                        {changeTabs('twitter')}
-                        <TwitterContainer
-                            noRes
-                            noResText={`${type} in ${district}`}
-                            searchStr={searchStr}
-                        />
+                        <NoResultFound type={type} text={district} />
                     </div>
                 )}
             </main>
