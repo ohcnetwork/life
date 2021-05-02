@@ -2,7 +2,7 @@ import { filterResourcesBy } from '@lib/utils';
 import React, { useState } from 'react';
 import ResourceCard from './ResourceCard';
 import NoResultFound from './NoResultFound';
-const SearchResult = ({ resources, type, district, state, searchStr, changeTabs }) => {
+const SearchResult = ({ resources, type, district, changeTabs }) => {
     const [selectedFilter, setSelectedFilter] = useState('show_all');
 
     const resourcesListing = filterResourcesBy(resources, selectedFilter);
@@ -11,7 +11,7 @@ const SearchResult = ({ resources, type, district, state, searchStr, changeTabs 
     return (
         <section>
             <div className="mt-8 px-5 flex flex-wrap justify-around items-center dark:text-gray-300">
-                {(noData && changeTabs("twitter")) || (
+                {(noData && changeTabs("twitter_on_no_data")) || (
                     <>
                         <h1 className="font-semibold">
                             Search Results:{' '}
@@ -63,7 +63,7 @@ const SearchResult = ({ resources, type, district, state, searchStr, changeTabs 
             </div>
             <main className="pb-16">
                 {resourcesListing.length > 0 ? (
-                    resourcesListing.map((resource, id) => {
+                    resourcesListing.map((resource) => {
                         return (
                             <ResourceCard key={resource.external_id} type={type} data={resource} />
                         )
