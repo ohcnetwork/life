@@ -62,19 +62,8 @@ export default function DetailedHome({ state, district, type }) {
                 .concat(this.Ambulance)
                 .concat(this.Helpline)
                 .concat(this.Vaccine)
-                .sort((record1, record2) => {
-                    if (
-                        isVerified(record1.verificationStatus) &&
-                        !isVerified(record2.verificationStatus)
-                    )
-                        return -1;
-                    if (
-                        isVerified(record2.verificationStatus) &&
-                        !isVerified(record1.verificationStatus)
-                    )
-                        return 1;
-                    return 0;
-                });
+                .sort(record => isVerified(record.verificationStatus) ? -1 : 1)
+                    
         },
         Oxygen: getOxygen(parametreize(stateChoosen), parametreize(districtChoosen), true),
         Medicine: medicineByDistrict(
