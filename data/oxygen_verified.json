@@ -77,6 +77,33 @@
         {
             "availability": "Available",
             "city": null,
+            "comment": "Oxygen refils are available, person needs to go with empty cylender.",
+            "companyName": "Bake bihari gas godown",
+            "createdTime": "2021-05-02T06:52:43.000Z",
+            "description": "Only oxygen refils available",
+            "district": "Agra",
+            "emailId": null,
+            "homeDeliveryAvailable": "No",
+            "id": "rec2r7vacAQ5IbVF4",
+            "instructions": null,
+            "lastVerifiedOn": "2021-05-02T06:52:43.000Z",
+            "name": "Bake bihari gas godown",
+            "phone1": 7983491584,
+            "phone2": null,
+            "sourceLink": "CovidResources.in",
+            "sourceName": "CovidResources.in",
+            "state": "Uttar Pradesh",
+            "type": [
+                "Refil"
+            ],
+            "verificationStatus": "Available and verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
+            "availability": "Available",
+            "city": null,
             "comment": "verified",
             "companyName": "individual",
             "createdTime": "2021-04-27T15:00:28.000Z",
