@@ -48,7 +48,7 @@ const ResourceCard = ({ data, type: filterType }) => {
             </div>
             <div className="flex items-center justify-around xs:justify-between px-2 flex-wrap">
                 <div className="flex items-center flex-wrap justify-around">
-                    <h1 className="font-bold text-lg md:text-xl capitalize text-center">{title.toLowerCase() || type}</h1>
+                    <h1 className="font-bold text-lg md:text-xl capitalize text-center">{(title && title.toLowerCase()) || type}</h1>
                 </div>
                 <div className="my-2 md:my-0 md:ml-auto">
                     <SocialSharing copyText={copyText} />
@@ -61,7 +61,7 @@ const ResourceCard = ({ data, type: filterType }) => {
                         <span className="ml-2 text-base xs:text-lg font-semibold">{district}</span>
                     </div>
                     <div className="flex flex-col items-start justify-center my-2 text-sm xs:text-base space-y-1">
-                        <span className="text-sm xs:text-base font-normal">{address || comment}</span>
+                        <span className="text-sm xs:text-base font-normal capitalize">{(address && address.toLowerCase()) || comment}</span>
                         {
                             description && <Description text={description} />
                         }
