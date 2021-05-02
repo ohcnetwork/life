@@ -6,6 +6,7 @@ import { copyTextGenerator, isVerified, parseDateString } from '@lib/utils';
 import { useRouter } from 'next/router';
 import Badge from './Badge';
 import Description from './Description';
+import TimeAgo from 'timeago-react';
 
 const ResourceCard = ({ data, type: filterType }) => {
 
@@ -157,11 +158,11 @@ const ResourceCard = ({ data, type: filterType }) => {
             <div className="flex items-center justify-between py-1 px-3 flex-wrap text-secondary-500 dark:text-primary-500">
                 <span className="text-xs mt-2 xs:my-0">
                     {
-                        parseDateString(last_verified_on) ?
+                        Date.parse(last_verified_on) ?
                             <>
                                 <span className="text-secondary-400 dark:text-primary-300">Checked on: </span>
                                 <span className="font-bold">
-                                    {parseDateString(last_verified_on)}
+                                    <TimeAgo datetime={(new Date(last_verified_on))} />
                                 </span>
                             </>
                             : <span>{!address && comment}</span>
