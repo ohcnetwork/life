@@ -103,6 +103,7 @@ export default function DataForm() {
                                         <a
                                             href={form.link}
                                             target="_blank"
+                                            rel="noopener"
                                             className=" inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-800 dark:bg-indigo-800 dark:hover:bg-indigo-600">
                                             <svg
                                                 className="mr-1"
