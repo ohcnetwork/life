@@ -1,0 +1,565 @@
+id,area,total_beds_allocated_to_covid,available_icu_beds_with_ventilator,pincode,district,total_beds_without_oxygen,available_beds_without_oxygen,total_icu_beds_without_ventilator,total_beds_with_oxygen,hospital_name,available_icu_beds_without_ventilator,total_icu_beds_with_ventilator,available_beds_with_oxygen,hospital_address,last_updated_on
+0,Ariyalur,25,2,621704,Ariyalur,12,1,5,8,A.S Hospital,5,2,0,"27 E, Pattunoolkara Theru, Ethraj Nagar, Ariyalur, Tamil Nadu 621704, India",1619943431000
+1,Ariyalur,31,5,621704,Ariyalur,3,3,5,23,Golden Hospital,2,5,17,"Ariyalur - Sendurai Rd, Periyar Nagar, Vila Ngara, Ariyalur, Tamil Nadu 621704, India",1619894717000
+2,Chengalpattu,40,0,600063,Chengalpattu,5,0,5,30,Annai Arul Hospital,0,3,0,"No: 270, Mudichur Rd, Kumaran Nagar, Bharathi Nagar, Tambaram, Old Perungalathur, Tamil Nadu 600063, India",1619928858000
+3,Chengalpattu,15,0,600075,Chengalpattu,4,0,0,11,Chennai Emergency care Centre Pammal,0,0,0,"VOC Nagar, Pammal, Chennai, Tamil Nadu 600075, India",1619862320000
+4,Chengalpattu,190,0,600044,Chengalpattu,0,0,20,170,Dr. Rela Institute,0,6,0,"#7, CLC Works Rd, Nagappa Nagar, Chromepet, Chennai, Tamil Nadu 600044, India",1619946176000
+5,Chengalpattu,41,0,600044,Chengalpattu,0,0,9,32,"Sudar Hospitals, Hasthinapuram",0,6,0,"Tambaram East, Tambaram, Chennai, Tamil Nadu 600044, India",1619930551000
+6,Chengalpattu,50,0,600044,Chengalpattu,0,0,2,48,"Sugam Hospital, Chromepet",0,2,0,"No.107, Grand Southern Trunk Rd, Sunnambu Colony, Chromepet, Chennai, Tamil Nadu 600044, India",1619938795000
+7,Chengalpattu,42,0,600045,Chengalpattu,36,0,0,6,"Deepam Hospitals, West Tambaram",0,0,0,"327, Muthuranga Road, Tambaram West, Tambaram, Chennai, Tamil Nadu 600045, India",1619926832000
+8,Chennai,124,0,600006,Chennai,35,0,45,44,"Apollo Hospital, Greams Road",0,45,0,"21 Greams Lane, Off, Greams Road, Thousand Lights West, Thousand Lights, Chennai, Tamil Nadu 600006, India",1619922440000
+9,Chennai,100,0,600095,Chennai,0,0,14,86,"Apollo Hospitals, Vanagaram",0,10,0,"Plot No, 64, Vanagaram-Ambattur Rd, Ayanambakkam, Ambattur Industrial Estate, Chennai, Tamil Nadu 600095, India",1619941675000
+10,Chennai,73,0,600106,Chennai,0,0,5,68,Appasamy Hospital,0,4,0,"No. 1 and 2, 1st St, near Arumbakkam, SBI Officers Colony, Arumbakkam, Chennai, Tamil Nadu 600106, India",1619943745000
+11,Chennai,21,2,600078,Chennai,9,0,6,6,"ArunVijaya Hospitals, KK Nagar",0,2,0,"old no.1059/1 New, no.64, Munusamy Salai, KK Nagar West, K. K. Nagar, Chennai, Tamil Nadu 600078, India",1619923187000
+12,Chennai,20,0,600042,Chennai,3,0,4,18,Astra Ortho N Spine Care Hospital,0,2,0,"9, Radha, Sankaran Avenue, Mohan St, Periyar Nagar, Velachery, Chennai, Tamil Nadu 600042, India",1619155985000
+13,Chennai,41,0,600010,Chennai,6,0,11,24,Aysha Hospital,0,0,0,"91-A, Millers Road, Hussain Complex, Pava Puri Colony, Kilpauk, Chennai, Tamil Nadu 600010, India",1619763473000
+14,Chennai,25,0,600017,Chennai,20,0,3,2,Be Well Hospital Anna nagar,0,2,0,"5A, Vijaya Raghava Rd, Drivers Colony, T. Nagar, Chennai, Tamil Nadu 600017, India",1619924772000
+15,Chennai,150,0,600073,Chennai,85,0,35,30,Bhaarath medical college and hospital,0,7,0,"173, Agaram Main Rd, Selaiyur, Chennai, Tamil Nadu 600073, India",1619930457000
+16,Chennai,100,0,600017,Chennai,20,0,10,70,Bharathiraja Hospital & Research Centre Pvt Ltd,0,2,0,"Bharathirajaa Hospital, 20, Gopathi Narayanaswami Chetty Rd, Satyamurthy Nagar, T. Nagar, Chennai, Tamil Nadu 600017, India",1619924336000
+17,Chennai,176,5,600030,Chennai,26,0,20,130,"Billroth Hospitals Shenoy Nagar, Chennai TN.",0,5,0,"43, Lakshmi Talkies Rd, Shenoy Nagar, Chennai, Tamil Nadu 600030, India",1619860732000
+18,Chennai,33,0,600042,Chennai,25,0,0,8,"Bloom Fertility and Healthcare, Velachery",0,0,0,"32, Taramani Link Rd, VGP Seetapathi Street, Baby Nagar, Velachery, Chennai, Tamil Nadu 600042, India",1619924677000
+19,Chennai,12,0,600021,Chennai,0,0,2,10,C.s.i Rainy Multi Speciality Hospital Tondaiarpet,0,1,0,"NO 45, Gollavar Agraharam Rd, Pan Rajarathnam Nagar, Washermanpet, Chennai, Tamil Nadu 600021, India",1619927253000
+20,Chennai,24,0,600095,Chennai,0,0,0,24,Chennai Orthopedic Centre -ER,0,0,0,"Ramakrishna Nagar Ext, Fathima Nagar, Ramakrishna Nagar, Valasaravakkam, Chennai, Tamil Nadu 600095, India",1619928263000
+21,Chennai,400,0,600119,Chennai,240,1,20,140,Chettinad Hospital,0,10,0,"Rajiv Gandhi Salai, Old Mahabalipuram Road, Kelambakkam, Kanchipuram District, Elcot Sez, Sholinganallur, Chennai, Tamil Nadu 600119, India",1619926728000
+22,Chennai,60,0,600004,Chennai,5,0,5,50,CSI Kalyani General Hospital,0,5,0,"# 15, Dr Radha Krishnan Salai, Loganathan Colony, Mylapore, Chennai, Tamil Nadu 600004, India",1619760322000
+23,Chennai,200,0,600020,Chennai,0,0,20,180,Dr.Kamakshi Memorial Hospital,0,10,0,"6, 13, Kasturba Nagar 3rd Cross St, Adyar, Chennai, Tamil Nadu 600020, India",1619855201000
+24,Chennai,41,0,600020,Chennai,0,0,8,33,Fortis Malar Hospital,0,10,0,"No. 52, 1st Main Rd, Gandhi Nagar, Adyar, Chennai, Tamil Nadu 600020, India",1619351561000
+25,Chennai,0,0,600101,Chennai,0,0,0,0,Frontier Lifeline Hospital,0,0,0,"R 30 C, Ambattur Industrial Estate Rd, TS Krishna Nagar, J J Nagar, Mogappair, Chennai, Tamil Nadu 600101, India",1619600607000
+26,Chennai,41,0,600018,Chennai,0,0,4,37,Girishwari Hospital Alwarpet,0,0,0,"No 19, KB Dasan Rd, Seetammal Colony, MIG Colony, Alwarpet, Chennai, Tamil Nadu 600018, India",1619927817000
+27,Chennai,50,0,600087,Chennai,4,2,11,35,GKM Hospital Pvt Ltd,0,4,0,"113, P.B Road, Vepery, Purasaiwakkam, Chennai, Tamil Nadu 600087, India",1619922395000
+28,Chennai,0,1,600040,Chennai,0,0,1,4,GLB Hospital,1,1,4,"New No: Ah 15, Old No: Ah 81, AH Block, Shanthi Colony, Anna Nagar, Chennai, Tamil Nadu 600040, India",1615294322000
+29,Chennai,60,0,600100,Chennai,20,0,15,25,Gleneagles Global Health City,0,10,0,"439, Embassy Residency Rd, Cheran Nagar, Perumbakkam, Chennai, Tamil Nadu 600100, India",1619926157000
+30,Chennai,22,0,600017,Chennai,8,0,4,10,Gunasekaran Hospitals Pvt Ltd,0,1,0,"No. 1, Cres Park St, Parthasarathi Puram, T. Nagar, Chennai, Tamil Nadu 600017, India",1619855526000
+31,Chennai,50,0,600106,Chennai,10,0,5,35,Hycare Super Speciality Hospital,0,3,0,"No-37, Razzak Garden Main Rd, MMDA Colony, Arumbakkam, Chennai, Tamil Nadu 600106, India",1619943585000
+32,Chennai,10,0,600088,Chennai,0,0,0,10,"K.P Hospital, Adambakkam",0,0,1,"NO:3, Medavakkam Main Rd, Parthasarathy Nagar, Adambakkam, Chennai, Tamil Nadu 600088, India",1619855160000
+33,Chennai,14,0,600034,Chennai,0,0,3,11,Kanchi Kamakoti Child Trust Hospital,0,2,0,"12 A, Nageswara Rd, Tirumurthy Nagar, Nungambakkam, Chennai, Tamil Nadu 600034, India",1619928392000
+34,Chennai,275,2,600024,Chennai,205,173,4,66,Karpaga Vinayaga Medical Science & Ri,3,2,17,"4, Dr Ambedkar Rd, Dr.Subbaraya Nagar, Kodambakkam, Chennai, Tamil Nadu 600024, India",1619504032000
+35,Chennai,75,0,600018,Chennai,35,0,8,32,Kauvery Hospital,0,6,0,"81, TTK Road, Junction, CIT Colony, Alwarpet, Chennai, Tamil Nadu 600018, India",1619842977000
+36,Chennai,77,0,600010,Chennai,0,0,13,64,Kumaran Hospital Pvt ltd,0,6,0,"214, E.V.R Periyar Salai, Poonamallee High Rd, Kilpauk, Chennai, Tamil Nadu 600010, India",1619935509000
+37,Chennai,33,0,600118,Chennai,0,0,7,26,"KVT Speciality Hospital, Erukanchery",0,3,0,"Plot No. 1, 2,3, Ethiraj Samy Salai Rd, Erukkancheri, Kodungaiyur, Chennai, Tamil Nadu 600118, India",1619931764000
+38,Chennai,48,0,600014,Chennai,25,0,9,14,Laksha Hospital Royapettah,0,2,0,"No 18, Lalithapuram St, Srilalithapuram, Royapettah, Chennai, Tamil Nadu 600014, India",1619840528000
+39,Chennai,17,2,600002,Chennai,4,0,3,10,Life Care Hospital,0,2,0,"No 77, Adithanar Rd, Pudupet, Komaleeswaranpet, Egmore, Chennai, Tamil Nadu 600002, India",1619927761000
+40,Chennai,30,1,600010,Chennai,20,0,0,10,Lifeline Hospitals,0,1,0,"47/3, New Avadi Rd, Alagappa Nagar, Kilpauk, Chennai, Tamil Nadu 600010, India",1619247669000
+41,Chennai,110,0,600029,Chennai,88,0,22,0,M G M Health Care Pvt Ltd,0,22,0,"No. 126, BNT Connections Building, 4th Floor Chennai, Nelson Manickam Rd, Railway Colony, Aminjikarai, Chennai, Tamil Nadu 600029, India",1619937278000
+42,Chennai,17,0,600029,Chennai,0,0,4,13,M.R Hospital,0,2,0,"Old No 20, New No 12, Govindan Road, Ayyavoo Colony, Aminjikarai, Ayyavoo Colony, Aminjikarai, Chennai, Tamil Nadu 600029, India",1619924425000
+43,Chennai,40,0,600083,Chennai,20,0,5,15,Maya Nursing Home,0,4,0,"B- 225, 15th Avenue, Ashok Nagar, Jawaharlal Nehru Road, Mettuppalayam, Ashok Nagar, Chennai, Tamil Nadu 600083, India",1619921877000
+44,Chennai,0,0,600024,Chennai,0,0,0,0,Medway Hospital,0,0,0,"2, 26, 1st Main Rd, United India Colony, Kodambakkam, Chennai, Tamil Nadu 600024, India",1619940885000
+45,Kancheepuram,80,7,600078,Chennai,42,38,7,31,Meenakshi Medical College,7,7,31,"No 12, Vembuliamman Koil St, Annaji Nagar, KK Nagar West, K. K. Nagar, Chennai, Tamil Nadu 600078, India",1619847706000
+46,Chennai,375,0,603319,Chennai,155,118,65,155,Melmaruvathur Aadhiparasakthi Medical College,0,16,32,"Melmaruvathur, Tamil Nadu 603319, India",1619941282000
+47,Chennai,30,1,600020,Chennai,4,0,4,22,Mint Hospital,0,2,0,"19/1, 1st Ave, Shastri Nagar, Adyar, Chennai, Tamil Nadu 600020, India",1619845938000
+48,Chennai,300,0,600089,Chennai,197,119,33,70,Miot Hospital,0,10,0,"4/112, Mount Poonamallee Rd, Sathya Nagar, Manapakkam, Chennai, Tamil Nadu 600089, India",1619927053000
+49,Chennai,50,0,600037,Chennai,0,0,30,20,MMRV Hospital,0,4,0,"No.5/PC 2, Bharathi Salai, Mogappair West, Ambattur Industrial Estate, Chennai, Tamil Nadu 600037, India",1619839407000
+50,Chennai,35,2,600012,Chennai,10,0,10,15,Muthu hospital,0,2,0,"Pulianthope High Road, Pattalam, Pulianthope, Chennai, Tamil Nadu 600012, India",1619845296000
+51,Chennai,100,0,600001,Chennai,0,0,10,90,National Hospital,0,4,0,"12, Jaffar Sarang St, Parrys, George Town, Chennai, Tamil Nadu 600001, India",1619833909000
+52,Chennai,20,0,600010,Chennai,0,0,0,20,"New Hope Multi Speciality Hospital, Kilpauk",0,0,0,"No. 814, Poonamallee High Rd, Kilpauk, Opposite to, KMC, Chennai, Tamil Nadu 600010, India",1619918387000
+53,Chennai,30,0,,Chennai,0,0,4,26,"Medway Hospital,Mugappair",0,2,0,,1619940829000
+54,Chennai,45,1,600086,Chennai,26,0,4,15,New Lifemed Hospital,0,1,0,"Gopalapuram, Chennai, Tamil Nadu 600086, India",1619929324000
+55,Chennai,70,0,600084,Chennai,4,0,6,60,Noble Hospital,0,2,0,"No.4(44, M.Ct.M. School Basket Ball Court, Audiappa St, near Lauders Gate, Opposite. Lady, Purasaiwakkam, Chennai, Tamil Nadu 600084, India",1619932100000
+56,Chennai,70,1,600014,Chennai,0,0,15,55,Orthomed Hospital,4,3,7,"New, 83, 43, Royapettah High Rd, Near ajantha bus stop, Jagadambal Colony, Sripuram, Durgapuram, Royapettah, Chennai, Tamil Nadu 600014, India",1619931511000
+57,Chennai,40,0,600031,Chennai,0,0,5,35,Padmini Nursing Home Chetpet,0,1,0,"9, Pachaiyappas College, Hostel Road, Chetpet, Chetpet, Chennai, Tamil Nadu 600031, India",1619840107000
+58,Chennai,75,0,600123,Chennai,3,0,10,62,Panimalar Medical College & Hospital,0,3,0,"Varadharajapuram, Poonamallee, Chennai, Tamil Nadu 600123, India",1619931413000
+59,Chennai,100,0,600042,Chennai,0,0,20,80,Prashanth Hospital,0,10,0,"No.36 & 36A, Velachery Rd, Dhandeeswaram, Velachery, Chennai, Tamil Nadu 600042, India",1619929971000
+60,Chennai,19,0,600010,Chennai,0,0,0,19,"Rama Rau Polyclinc, Kilpauk",0,0,0,"829/2, Poonamallee High Rd, Kilpauk, Chennai, Tamil Nadu 600010, India",1619918408000
+61,Chennai,30,0,600099,Chennai,0,0,0,30,"Retteri Sri Kumaran Health Centre (P) Ltd, Kolathur",0,2,0,"Retteri Junction, No.1419-A, 200 Feet Ring Rd, Kolathur, Chennai, Tamil Nadu 600099, India",1619921855000
+62,Chennai,25,0,600076,Chennai,10,0,2,13,RPS hospital pvt ltd,0,2,0,"65/2, Water Canal Rd, TVS Nagar, Korattur, Chennai, Tamil Nadu 600076, India",1619929103000
+63,Chennai,11,0,600106,Chennai,0,0,2,9,"Sai Speed Hospital, Arumbakkam",0,2,0,"No.527, Poonamallee High Rd, Amaravathi Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",1619928673000
+64,Chennai,69,0,600005,Chennai,33,0,6,30,Sakthi Hospital Research Centre Triplicane,0,1,0,"175, Big St, Police Quarters, Triplicane, Chennai, Tamil Nadu 600005, India",1619844731000
+65,Chennai,450,0,600077,Chennai,150,36,50,250,Saveetha Medical College,0,30,3,"Maccana Industrial Estate, Velappanchavadi, Poonamallee, Chennai, Tamil Nadu 600077, India",1619840830000
+66,Chennai,200,0,600026,Chennai,50,0,10,140,SIMS Hospital Vadapalani,0,6,0,"Metro Station, No.1, Jawaharlal Nehru Rd, next to Vadapalani, Landmark:, Vadapalani, Chennai, Tamil Nadu 600026, India",1619923982000
+67,Chennai,25,0,600091,Chennai,10,0,5,10,"Sivam Hospitals, Ullagaram",0,3,0,"Plot No:3,, Srinivasan Street, Jagadambal colony, Ullagaram, Madipakkam, Chennai, Tamil Nadu 600091, India",1619943923000
+68,Chennai,70,0,600093,Chennai,0,0,10,60,Sooriya Hospital,0,5,0,"No.1, Arunachalam Rd, Velayutham Colony, Saligramam, Chennai, Tamil Nadu 600093, India",1619849420000
+69,Chennai,200,0,600044,Chennai,130,97,10,60,Sree Balaji Medical College & Hospital,0,7,0,"7 Works, Road, Shankar Nagar, Chromepet, Chennai, Tamil Nadu 600044, India",1619929394000
+70,Chennai,18,1,600017,Chennai,0,0,4,14,Sree Lakshmi Clinic and Maternity Centre,0,2,0,"33, Sarojini St, Postal Colony, Parthasarathi Puram, T. Nagar, Chennai, Tamil Nadu 600017, India",1619850214000
+71,Chennai,270,0,600116,Chennai,0,0,10,260,"Sri Ramachandra Medical College Hospital, Porur",0,6,101,"No.1, Ramachandra Nagar, Sri Ramachandra Nagar, Porur, Chennai, Tamil Nadu 600116, India",1619926684000
+72,Chennai,244,0,603108,Chennai,200,192,20,24,Sri Sathya Sai Medical College & Research Institue,0,10,0,"Tiruporur-Guduvancherry Main Road, Ammapettai, Chengalpet Taluk, Kancheepuram District, Nellikuppam, Tamil Nadu 603108, India",1619929812000
+73,Chennai,25,0,600011,Chennai,0,0,5,20,Srinivas Priya Hospital Perambur,0,1,0,"106, Patel Rd, Perambur, Chennai, Tamil Nadu 600011, India",1619931187000
+74,Chennai,36,0,600061,Chennai,3,0,6,27,Srinivasan Rajalakshmi Memorial Hospital,0,3,0,"11/77, 6th St, Lakshmi Nagar IV Stage, Voltas Colony, Nanganallur, Chennai, Tamil Nadu 600061, India",1619923954000
+75,Chennai,206,0,600033,Chennai,150,10,6,50,Srm Medical College & Hospital,0,7,0,"68, Thambiah Road, Duraiswamy Subway, Gokulam Colony, Ramakrishnapuram, West Mambalam, Chennai, Tamil Nadu 600033, India",1619926482000
+76,Chennai,95,0,600016,Chennai,70,0,10,15,St. Thomas Hospital,0,6,0,"5, 105, Defence Colony 1st Ave, Seven Wells, St.Thomas Mount, Tamil Nadu 600016, India",1619931502000
+77,Chennai,33,0,600040,Chennai,0,0,9,24,Sundaram Medical Foundation,0,5,0,"9C, 4th Ave, AA Block, Shanthi Colony, Anna Nagar, Chennai, Tamil Nadu 600040, India",1619942293000
+78,Chennai,254,0,600127,Chennai,162,132,12,80,Tagore Medical College & Hospital,0,7,54,"Rathinamangalam, Melakottaiyur, Chennai, Tamil Nadu 600127, India",1619934306000
+79,Chennai,40,0,600010,Chennai,15,0,2,23,"The Guest Hospital, Kilpauk",0,1,0,"372, Poonamallee High Rd, Kilpauk, Chennai, Tamil Nadu 600010, India",1619926637000
+80,Chennai,43,1,600010,Chennai,9,8,5,29,Tosh Hospitals Pvt Ltd,0,1,0,"72, Ormes Rd, Davidpuram, Kilpauk, Chennai, Tamil Nadu 600010, India",1619933972000
+81,Chennai,24,0,600004,Chennai,0,0,4,20,Trinity Acute care Hospital,0,4,0,"1, Desika Rd, CIT Colony, Mylapore, Chennai, Tamil Nadu 600004, India",1619843404000
+82,Chennai,49,0,600031,Chennai,10,0,6,33,"Vasantha Subramanian Hospitals Pvt Ltd, Chetpet",0,6,0,"#13, E Spur Tank Rd, Chetpet, Chennai, Tamil Nadu 600031, India",1619843030000
+83,Chennai,120,0,600035,Chennai,0,0,20,100,Venkateswara Hospital,0,10,0,"36 - A, Pasumpon Muthuramalinga Thevar Rd, Nandanam Extension, Nandanam, Chennai, Tamil Nadu 600035, India",1619943467000
+84,Chennai,70,0,600113,Chennai,0,0,24,46,"Vhs, Adayar",0,11,0,"SH 49A, Pallipattu, Tharamani, Chennai, Tamil Nadu 600113, India",1619922189000
+85,Chennai,24,0,600102,Chennai,0,0,0,24,Vihaa Hospital Anna Nagar,0,2,0,"3rd Ave, Block E, Annanagar East, Chennai, Tamil Nadu 600102, India",1619920445000
+86,Chennai,90,0,600026,Chennai,0,0,10,80,Vijaya Group Of Hospital,0,6,0,"New No:434, Old No:180, NSK Salai Rd, Vadapalani, Chennai, Tamil Nadu 600026, India",1619928580000
+87,Chennai,75,0,600034,Chennai,0,0,8,67,Sims (Srm Institutes For Medical Science Hospital) Nungumbakkam,0,6,2,"21, Dr Thirumoorthy Nagar Main Rd, Tirumurthy Nagar, Nungambakkam, Chennai, Tamil Nadu 600034, India",1619924157000
+88,Chennai,30,0,600059,Chennai,0,0,3,27,"KMS Health Centre Pvt Ltd,Selaiyur",1,2,1,"Door. No, 6, Kamarajar Salai, Tambaram East, Selaiyur, Chennai, Tamil Nadu 600059, India",1619868030000
+89,Chennai,0,0,600013,Chennai,0,0,0,0,Nichani Hospital,0,0,0,"10, Arathoon Rd, Pudumanaikuppam, Royapuram, Chennai, Tamil Nadu 600013, India",1619937773000
+90,Chennai,70,0,600031,Chennai,0,0,6,64,Dr.Metha hospital Chetpet,0,2,0,"No.2, Mc Nichols Rd, Chetpet, Chennai, Tamil Nadu 600031, India",1619938206000
+91,Coimbatore,258,0,641037,Coimbatore,108,98,10,140,G. Kuppusamy Naidu Hospital,0,2,10,"Netaji Rd, P N Palayam, Tamil Nadu 641037, India",1619940301000
+92,Coimbatore,70,0,641028,Coimbatore,20,20,4,46,"Hindusthan Hospital, Udaiyampalayam",0,0,0,"522/3, Udayampalayam Rd, behind EB Substation, Peelamedu, Coimbatore, Tamil Nadu 641028, India",1619932412000
+93,Coimbatore,250,3,641032,Coimbatore,217,143,6,27,Karpagam Faculty Medical College And Hospital,3,6,13,"Coimbatore, Tamil Nadu 641032, India",1619931041000
+94,Coimbatore,127,0,641018,Coimbatore,0,0,25,102,KG Hospital,0,26,0,"5, Government Arts College Rd, Opposite Court, Gopalapuram, Coimbatore, Tamil Nadu 641018, India",1619930908000
+95,Coimbatore,200,0,641012,Coimbatore,20,2,15,165,Kongunad Hospital,0,15,0,"11th Street, Opp:, E Power House Rd, Tatabad, Coimbatore, Tamil Nadu 641012, India",1619928546000
+96,Coimbatore,461,0,641014,Coimbatore,241,0,28,192,Kovai Medical College Hospital,0,16,0,"99, Avinashi Rd, behind KMCH Main Center, Indira Nagar, Civil Aerodrome Post, Nehru Nagar West, Coimbatore, Tamil Nadu 641014, India",1619923349000
+97,Coimbatore,38,0,641011,Coimbatore,0,0,6,32,One Care Medical Centre,0,3,0,"61, NSR Rd, Near Pulimaram Bus Stop, Nesavaalar Colony, Saibaba Colony, Coimbatore, Tamil Nadu 641011, India",1619929424000
+98,Coimbatore,420,1,641004,Coimbatore,220,0,30,170,"PSG Institute Of Medical Sciences and Research, Coimbatore",0,15,0,"Off, Avinashi Rd, Peelamedu, Coimbatore, Tamil Nadu 641004, India",1619940553000
+99,Coimbatore,90,0,641062,Coimbatore,0,0,6,84,Royal Care Super Speciality Hospital,0,3,0,"1/520, L & T Bye Pass Road, Coimbatore, Tamil Nadu 641062, India",1619918993000
+100,Coimbatore,4,0,641062,Coimbatore,0,0,0,4,Royal Care Super Speciality Hospital Gandhipuram,0,0,0,"1/520, L & T Bye Pass Road, Coimbatore, Tamil Nadu 641062, India",1619919023000
+101,Coimbatore,252,1,641044,Coimbatore,153,49,5,94,Sri Ramakrishna Hospital,0,5,0,"395, Sarojini Naidu Rd, Siddhapudur, Balasundaram Layout, B.K.R Nagar, Coimbatore, Tamil Nadu 641044, India",1619922526000
+102,Coimbatore,50,0,641107,Coimbatore,0,0,0,50,"KMCH Kovilampalayam Hospital, Sathy Road",0,0,0,"No 87 C, Sathy Rd, Revenue Nagar, Saravanampatti, Sarcarsamakulam, Tamil Nadu 641107, India",1619922306000
+103,Cuddalore,226,2,607803,Cuddalore,124,18,10,92,"NLCIL Hospital,Neyveli",9,2,74,"Neyveli Twp Block-6, Neyveli T.S, Tamil Nadu 607803, India",1619923582000
+104,Dindigul,50,0,624612,Dindigul,47,47,0,3,Christian Fellow Community Centre,0,0,3,"SANTHIPURAM, AMBILIKKAI, DINDIGUL, Tamil Nadu 624612, India",1619940959000
+105,Dindigul,50,0,624619,Dindigul,26,0,0,24,Christian Fellowship Hospital,0,0,16,"Dindigul - Palani Main Road, Oddanchatram, Tamil Nadu 624619, India",1619941158000
+106,Dindigul,50,0,624202,Dindigul,40,20,0,10,Leonard Hospital,0,0,5,"SH155, Arunachalapurum, Arunachalapuram, Batlagundu, Tamil Nadu 624202, India",1619939901000
+107,Dindigul,80,1,624001,Dindigul,0,0,0,80,St.Joseph Hospital,0,1,6,"15, Trichy - Dindugal Rd, Nehruji Nagar, Dindigul, Tamil Nadu 624001, India",1619940759000
+108,Dindigul,50,0,624001,Dindigul,28,1,2,20,Vel Multispeciality Hospital,0,2,0,"No: 53, Dindigul - Palani Rd, opposite Sornam Honda, New Agraharam, west, Dindigul, Tamil Nadu 624001, India",1619920681000
+109,Erode,50,2,638011,Erode,20,0,4,26,Erode Medical Centre,4,2,7,"R.S, No.374/2, 3, & 5, Perundurai Rd, Pari Nagar, Kumalan Kuttai, Erode, Tamil Nadu 638011, India",1619944783000
+110,Erode,10,1,638001,Erode,3,3,3,4,Maaruthi Medical Centre And Hospital,3,1,4,"MMCH, 564, Perundurai Rd, Edayankattuvalasu, Erode, Tamil Nadu 638001, India",1619919848000
+111,Erode,65,0,638001,Erode,18,0,7,40,Sudha Hospital,0,12,0,"#181, Perundurai Rd, Edayankattuvalasu, Erode, Tamil Nadu 638001, India",1619946038000
+112,Kallakurichi,25,4,606202,Kallakurichi,0,0,4,21,Annai Medical Centre,4,4,0,"Durugam Road, Annamalai towers, Kottaimedu, Kallakkurichi, Tamil Nadu 606202, India",1619926171000
+113,Kallakurichi,25,6,606202,Kallakurichi,9,9,10,6,E.S. Hospital,10,6,6,"48, Kallakurichi - Kachirapalayam Rd, Raja Nagar, Kallakkurichi, Tamil Nadu 606202, India",1619928430000
+114,Kallakurichi,22,1,606202,Kallakurichi,0,0,2,20,I Med Super Speciality Hospital,2,1,1,"27K, 2, Gandhi Rd, Kallakurichi, Raja Nagar, Kallakkurichi, Tamil Nadu 606202, India",1619930113000
+115,Kallakurichi,7,0,606202,Kallakurichi,0,0,7,0,Lotus Paediatric Emergency Centre,7,0,0,"Tamil Nadu 606202, India",1619921598000
+116,Kallakurichi,15,1,606202,Kallakurichi,7,7,2,6,Maragadam Hospital,2,1,6,"48, Kallakurichi - Kachirapalayam Rd, Raja Nagar, Kallakkurichi, Tamil Nadu 606202, India",1619915672000
+117,Kallakurichi,5,1,606208,Kallakurichi,2,2,0,3,S A Hospital,0,1,3,"Moorarpalayam, Tamil Nadu 606208, India",1619922073000
+118,Kallakurichi,80,0,606202,Kallakurichi,13,0,15,52,Sri Sanjeevi Hospital,0,9,0,"Durugam Rd, Raja Nagar, Kallakkurichi, Tamil Nadu 606202, India",1619926740000
+119,Kancheepuram,30,0,602106,Kancheepuram,25,25,0,5,Bon Secuors Hospital,0,0,5,"Sunguvarchatram, Tamil Nadu 602106, India",1619929077000
+120,Kancheepuram,40,0,600096,Kancheepuram,0,0,5,35,Chennai Urology & Robotics Institute Hospital Thoraippakkam,0,2,2,"No.148, Old Mahabalipuram Rd, Seevaram, Thoraipakkam, Tamil Nadu 600096, India",1619944159000
+121,Kancheepuram,200,0,600122,Kancheepuram,174,96,6,20,Madha Medical College&Research Institute,1,2,12,"Kundrathur Main Road, Kovur, Kovur, Thandalam, Tamil Nadu 600122, India",1619930155000
+122,Kancheepuram,380,2,600069,Kancheepuram,314,308,16,50,Sri Muthukumaran Medical College,9,6,46,"Chikkarayapuram, Kunrathur Road, near Mangadu, Kovur, Srinivasa Nagar, Chennai, Tamil Nadu 600069, India",1619932272000
+123,Kancheepuram,0,0,600097,Kancheepuram,0,0,0,0,Apollo Medical Centre Karapakkam,0,0,0,"#2/319, OMR Karapakkam Landmark Aravind theatre, Karapakkam, Chennai, Tamil Nadu 600097, India",1619922741000
+124,Kanyakumari,65,1,629003,Kanyakumari,20,12,1,44,Bensam Hospital,1,1,14,"National Highway 66, MS Rd, Near Kaliankadu Church, Asirwatham Nagar, Nagercoil, Tamil Nadu 629003, India",1619942362000
+125,Kanyakumari,113,0,629001,Kanyakumari,68,34,5,40,C.S.I.MISSION HOSPITAL,2,3,40,"Joshua St, Vettunimadam, Tamil Nadu 629001, India",1619937692000
+126,Kanyakumari,110,0,629003,Kanyakumari,65,0,11,34,Dr. Jayasekaran Medical Trust Hospital,0,4,0,"Kottar-Parvathipuram Rd, Weavers Colony, Nagercoil, Tamil Nadu 629003, India",1619937746000
+127,Kanyakumari,180,10,629161,Kanyakumari,95,75,10,75,Sree Mookambika Institute of Medical Sciences,10,10,74,"Padanilam, Kulasekharam, Tamil Nadu 629161, India",1619939815000
+128,Kanyakumari,125,0,629001,Kanyakumari,43,0,17,65,Vasantham Health Centre,0,6,0,"36, A 3, Dennison Rd, Puthukudierupu, Nagercoil, Tamil Nadu 629001, India",1619942793000
+129,Karur,38,2,639002,Karur,21,0,7,10,Amaravathi Hospital,0,2,0,"74, Ramanujam Nagar, Karur, Tamil Nadu 639002, India",1619920276000
+130,Karur,20,0,639002,Karur,6,0,2,12,"Apollo Logo Hospital,Karur",0,2,0,"163 A- E, Allwyn Nagar, 30, LGB Nagar, Kovai Main Rd, Vaiyapuri Nagar, Ramanujam Nagar, Karur, Tamil Nadu 639002, India",1619939882000
+131,Krishnagiri,45,0,635109,Krishnagiri,0,0,0,45,Chandrasekara Hospital,0,0,0,"SF No: 749, Avalapalli Housing Board, Bagalur Rd, Teachers Colony, Hosur, Tamil Nadu 635109, India",1619933205000
+132,Krishnagiri,25,0,635109,Krishnagiri,0,0,0,25,"Kauvery Hospital, Hosur",0,0,0,"35, Shanthi Nagar, Opp. CSI Church, Shanthi Nagar West, Hosur, Tamil Nadu 635109, India",1619931393000
+133,Madurai,86,0,625020,Madurai,0,0,6,80,Apollo Hospital,0,4,0,"80 Feet Rd, KK Nagar, Tamil Nadu 625020, India",1619919495000
+134,Madurai,20,0,625007,Madurai,10,0,5,5,Bharathi Hospital,0,3,0,"115, Alagar Kovil Main Rd, K.Pudur, Tamil Nadu 625007, India",1619922241000
+135,Madurai,45,0,625007,Madurai,10,0,10,25,Devadoss Multispeciality Hospital,0,3,0,"75/1, Alagar Kovil Main Rd, Surveyor Colony, Madurai, Tamil Nadu 625007, India",1619924707000
+136,Madurai,85,2,625107,Madurai,33,3,16,36,Guru Multispeciality Hospital,0,3,2,"4 /120-F, Pandikovil Ring Road, Mattuthavani Airport High way, Madurai, Tamil Nadu 625107, India",1619923314000
+137,Madurai,40,0,625014,Madurai,10,7,0,30,"Harshini Hospital,Sathamangalam",0,0,10,"2/1114, Ezhil Nagar, Iyer Bungalow, Madurai, Tamil Nadu 625014, India",1619925256000
+138,Madurai,75,0,625012,Madurai,10,6,10,55,"Harshitha Hospital, Avaniyapuram",0,2,0,"Avaniyapuram, Tamil Nadu 625012, India",1619930038000
+139,Madurai,50,0,625004,Madurai,10,10,15,25,Lakshmana Multispeciality Hospital,0,2,0,"Lakshmana Hospital, Madurai, Tamil Nadu 625004, India",1619918473000
+140,Madurai,214,0,625107,Madurai,106,60,40,68,Meenakshi Mission Hospital and Research Centre,0,6,0,"Lake Area, Melur Main Rd, Madurai, Tamil Nadu 625107, India",1619924006000
+141,Madurai,45,0,625009,Madurai,28,2,9,8,Rahavendhar Hospital,0,2,0,"Madurai, Tamil Nadu 625009, India",1619920901000
+142,Madurai,50,4,625002,Madurai,10,3,16,24,Saravana Hospital,1,4,9,"7-A, Maruthupandiar, Nagar, Fourth Main Rd, Narimedu, Madurai, Tamil Nadu 625002, India",1619937488000
+143,Madurai,40,3,625020,Madurai,0,0,4,36,Shenbagam Hospitals Pvt Ltd.,2,3,10,"Anna Nagar, Sathamangalam, Tamil Nadu 625020, India",1619920863000
+144,Madurai,18,1,625020,Madurai,1,0,2,15,"Sumathi Hospital & Fertility Center,Anna Nagar",0,1,0,"Anna Nagar, Sathamangalam Address: 334-A, Anna Nagar, Madurai, Tamil Nadu 625020, India",1619926084000
+145,Madurai,20,1,625016,Madurai,14,0,3,3,"Thembavani Hospital,Gnanaolipuram",0,1,0,"15, AA Rd, Gnanaolivupuram, Arappalayam, Madurai, Tamil Nadu 625016, India",1619927914000
+146,Madurai,91,0,624001,Dindigul,0,0,7,84,Vadamalayan Hospital,0,4,0,"649/ A2, Chettinaikanpatti village Road, Angu Bharathi Nagar, J.J. Nagar, Dindigul, Tamil Nadu 624001, India",1619937709000
+147,Madurai,250,9,625009,Madurai,150,20,30,70,Velammal Medical College Hospital and Research Institute,0,15,0,"Madurai-Tuticorin Ring Road, Velammal, Anuppanadi Near Chinthamani, Toll Gate, Madurai, Tamil Nadu 625009, India",1619923722000
+148,Mayiladuthurai,12,0,609001,Mayiladuthurai,5,5,0,7,Cahoj Hospital,0,0,5,"4, Narayana Pillai St, Kamarajar Salai, Mayiladuthurai, Tamil Nadu 609001, India",1619945885000
+149,Mayiladuthurai,0,0,609001,Mayiladuthurai,0,0,0,0,Ram Bone And Joint Hospial,0,0,0,"No 66, Mahadhana St, Kamarajar Salai, Mayiladuthurai, Tamil Nadu 609001, India",1618974735000
+150,Mayiladuthurai,0,0,609001,Mayiladuthurai,0,0,0,0,Shanthi Nursing Home,0,0,0,"4, Narayana Pillai St, Kamarajar Salai, Mayiladuthurai, Tamil Nadu 609001, India",1618974316000
+151,Namakkal,38,4,637001,Namakkal,22,16,4,12,Aravinth Hospital,4,4,12,"17, rengar sannathi st, Senthamangalam Road, Namakkal, Tamil Nadu 637001, India",1619919025000
+152,Namakkal,75,4,637001,Namakkal,4,0,5,66,M.M.Hospital,5,4,36,"6/288, Trichy Main Rd, Andavar Nagar, Namakkal, Tamil Nadu 637001, India",1619919757000
+153,Namakkal,35,2,637001,Namakkal,5,0,4,26,Maharaja Speciality Hospital,0,2,0,"Door No, 78-C, Mohanur - Namakkal Rd, K K Nagar, Namakkal, Tamil Nadu 637001, India",1619918306000
+154,Namakkal,50,0,637001,Namakkal,16,3,10,24,Thangam Hospital,7,1,7,"No.54, Dr.Sankaran Rd, K K Nagar, Namakkal, Tamil Nadu 637001, India",1619944199000
+155,Namakkal,100,4,637205,Namakkal,75,13,5,20,Vivekanandha Medical Care Hospital,0,5,17,"Tiruchengode - Namakkal - Trichy Rd, Elaiyampalayam, Tamil Nadu 637205, India",1619920828000
+156,TheNilgiris,12,0,643212,TheNilgiris,8,8,0,4,Ashwini Gudalur Tribal Hospital,0,0,4,"10/147 G2,G3 Kothervayal Gudalur, The, Gudalur, Tamil Nadu 643212, India",1619927814000
+157,TheNilgiris,15,2,643101,TheNilgiris,5,0,5,5,Nankam Hospital,0,2,0,"Near, YWCA Rd, Bedford, Coonoor, Tamil Nadu 643101, India",1619927145000
+158,TheNilgiris,10,0,643102,TheNilgiris,8,8,0,2,Sagayamatha Hospital,0,0,2,"Balaclava, Coonoor, Tamil Nadu 643102, India",1619925835000
+159,Perambalur,0,0,621212,Perambalur,0,0,0,0,Amma Hospital Thuraimangalam,0,0,0,"Sungu Pettai, Perambalur, Tamil Nadu 621212, India",1619933340000
+160,Perambalur,7,0,621212,Perambalur,7,7,0,0,Aruptha Multispeciality Hospital,0,0,0,"#482 /2B, Venkatesapuram,Near New Bus Stand, SH 142, Sungu Pettai, Perambalur, Tamil Nadu 621212, India",1619933578000
+161,Perambalur,0,0,621212,Perambalur,0,0,0,0,Devi Hospital Elambalur,0,0,0,"Devi hospital four road, Sungu Pettai, Tamil Nadu 621212, India",1619933606000
+162,Perambalur,180,0,621212,Perambalur,110,35,10,60,Dhanalakshmisrinivasan Medical College And Hospital,0,10,28,"Keelakanavai - Siruvachur Rd, Perambalur, Tamil Nadu 621212, India",1619923060000
+163,Perambalur,0,0,621212,Perambalur,0,0,0,0,Dr. Venkatesan Hospital,0,0,0,"121,Venkatesapuram,Trichy Main Road, Sungu Pettai, Perambalur, Tamil Nadu 621212, India",1619933801000
+164,Perambalur,10,2,621212,Perambalur,3,1,3,4,Lakshmi Nursing Home,3,2,4,"No: 7A/44-1D, MG Puram, Rover School Road, Sungu Pettai, Perambalur, Tamil Nadu 621212, India",1619926771000
+165,Perambalur,0,0,621220,Perambalur,0,0,0,0,Madhu Hospital,0,0,0,"Ariyalur Bypass Road, SH 142, M M Nagar, Thuraimangalam, Perambalur, Tamil Nadu 621220, India",1619933630000
+166,Perambalur,0,0,621212,Perambalur,0,0,0,0,Niranjan Nursing Home,0,0,0,"#229-A/19, Mettu St,, Renga Nagar, Renga Nagar, Perambalur, Tamil Nadu 621212, India",1619933832000
+167,Perambalur,0,0,621212,Perambalur,0,0,0,0,Pedro Nursing Home,0,0,0,"154, Mettu St, Super Nagar, Perambalur, Tamil Nadu 621212, India",1619933662000
+168,Perambalur,0,0,621212,Perambalur,0,0,0,0,Ramasamy Hospital,0,0,0,"SH 142, Sungu Pettai, Perambalur, Tamil Nadu 621212, India",1619933368000
+169,Perambalur,0,0,621212,Perambalur,0,0,0,0,Siva Hospital,0,0,0,"#154, Sungu Pettai, Venketwasapuram, Tamil Nadu 621212, India",1619933702000
+170,Perambalur,0,0,621212,Perambalur,0,0,0,0,SPT Hospital,0,0,0,"Attur - Perambalur Rd, Sungu Pettai, Perambalur, Tamil Nadu 621212, India",1619933397000
+171,Pudukkottai,60,3,622001,Pudukkottai,20,0,15,25,Muthu Meenakshi Hospitals,15,3,21,"South 4th Street, Marthandapuram, near Anna Statue, Marthandapuram, Pudukkottai, Tamil Nadu 622001, India",1619939415000
+172,Ramanathapuram,40,1,623503,Ramanathapuram,0,0,4,36,Aasi Multi Speciality Hospital,4,1,2,"No:6/1155-1,D'block opp to RTO office,Rameswaram Road,Ramanathapuram., Kadampa Nagar, Ramanathapuram, Tamil Nadu 623503, India",1619926719000
+173,Ramanathapuram,0,0,623501,Ramanathapuram,0,0,0,0,Kanagamani Hospital,0,0,0,"Chalai Bazar, Ramanathapuram, Tamil Nadu 623501, India",1619408395000
+174,Ramanathapuram,45,2,623504,Ramanathapuram,0,0,15,30,Vel Hospital Ramanathapuram,15,2,0,"D.D. Vinayagar, Ramanathapuram, Tamil Nadu 623504, India",1619923830000
+175,Salem,120,3,636308,Salem,90,73,5,25,Annapoorna Medical College and Hospital,2,5,22,"Sankari Main Road (NH- 544), Veerapandi Union, Salem, Tamil Nadu 636308, India",1619928916000
+176,Salem,169,0,636201,Salem,72,0,8,89,Dharan Hospital,0,2,0,"14, byepass, Selva Nagar, Chinnusamy Nagar, Seelanaickenpatti, Salem, Tamil Nadu 636201, India",1619934138000
+177,Salem,50,3,636201,Salem,0,0,10,40,"Kauvery Hospital, Salem",0,5,0,"9/50, Trichy Main Rd, Opp.to Chandra Mahal, M G R Nagar, Seelanaickenpatti, Salem, Tamil Nadu 636201, India",1619845466000
+178,Salem,125,0,636016,Salem,20,0,30,75,Kurinji Hospital,0,10,0,"Teejay Road, Five Roads, near gujarathi kalyana mandapam, SIDCO Industrial Estate, Salem, Tamil Nadu 636016, India",1619924067000
+179,Salem,48,2,636012,Salem,7,0,5,36,Manipal Hospital,0,2,0,"Dalmia Board, Salem - Bangalore Highway, Vellakalpatti, Salem, Tamil Nadu 636012, India",1619930801000
+180,Salem,100,5,636010,Salem,0,0,20,80,Priyam Speciality Hospitals,0,7,0,"Bangalore Bypass Road, Asian Highway 43, Kondalampatti, Sandaipet, Kondalampatti, Salem, Tamil Nadu 636010, India",1619928821000
+181,Salem,75,0,636007,Salem,20,7,25,30,Shanmuga Hospital Cancer Institute,5,2,2,"No 24, Sarada College Rd, Hasthampatti, Salem, Tamil Nadu 636007, India",1619931835000
+182,Salem,110,20,636016,Salem,40,0,20,50,SKS Hospital,0,20,0,"SKS Hospital Rd, Salem, Tamil Nadu 636016, India",1619927360000
+183,Salem,110,0,636004,Salem,77,6,4,29,Sri Gokulam Hospital,0,2,0,"3, 60, Meyyanur Main Rd, Pallapatti, Salem, Tamil Nadu 636004, India",1619936467000
+184,Salem,80,2,636001,Salem,47,0,9,24,Vinayaka Mission Super Specialty Hospitals Pvt Ltd,5,2,0,"147, 2nd Agraharam, Salem, Tamil Nadu 636001, India",1619925574000
+185,Salem,145,0,636308,Salem,90,0,10,45,Vinyaga Mission Kirubanandha Variyar Medical College Hospital,0,5,0,"NH-47, Sankari Main Rd, Annathanapatti, Chinnasiragapadi, Tamil Nadu 636308, India",1619927119000
+186,Sivagangai,65,4,630001,Sivagangai,0,0,10,55,Kauvery Hospital Karaikudi,5,4,7,"42/1, Mudiyarasan Salai Rd, near New Bus Stand, Arumugamnagar, Maruthupandiyar Nagar, Karaikudi, Tamil Nadu 630001, India",1619937703000
+187,Thanjavur,75,12,613007,Thanjavur,0,0,25,50,KG Multi Speciality Hospital,2,12,14,"No.3048, 3049, 2nd St, VOC Nagar, Parisutham Nagar, Thanjavur, Tamil Nadu 613007, India",1619939436000
+188,Thanjavur,122,1,613005,Thanjavur,53,3,30,39,Meenakshi Multispeciality Hospital,0,1,0,"244/2, Trichy Main Road, Near New Bus Stand, Nilagiri, Therkku Thottam, Thanjavur, Tamil Nadu 613005, India",1619939498000
+189,Tiruvallur,70,2,600019,Tiruvallur,0,0,6,64,Aakash Hospital,0,3,5,"393, Bus Depot, 1, Thiruvottiyur High Rd, near Thiruvotriyur, Periyar Nagar, Tiruvottiyur, Chennai, Tamil Nadu 600019, India",1619933155000
+190,Tiruvallur,60,0,600077,Tiruvallur,45,19,5,10,ACS Medical College And Hospital,0,2,0,"Poonamallee High Rd, Velappanchavadi, Chennai, Tamil Nadu 600077, India",1619920748000
+191,Tiruvallur,43,0,631209,Tiruvallur,5,1,6,32,Peacock Hospitals Private Limited,1,1,0,"5, Arakkonam Rd, JJ Nagar, Steward Pet, Thiruttani, Tamil Nadu 631209, India",1619925177000
+192,Tiruvallur,32,2,600037,Tiruvallur,3,0,7,22,Raj Nursing Home Mogappair East,0,7,0,"1/234, MMDA, Block 1, J J Nagar, Mogappair East, Chennai, Tamil Nadu 600037, India",1619928381000
+193,Tiruvallur,38,0,600095,Tiruvallur,8,0,8,22,Ravina Health Care Pvt Ltd,0,1,0,"Kamakshi Nagar, Anakaputhur, Chennai, Tamil Nadu 600095, India",1619929978000
+194,Tiruvallur,0,0,600053,Tiruvallur,0,0,0,0,Sri Ivan Stedeford Hospital,0,0,0,"7, Madras Thiruvallur High Rd, Shobha Nagar, Ambattur OT, Chennai, Tamil Nadu 600053, India",1619942897000
+195,Tiruvallur,47,0,600019,Tiruvallur,0,0,2,45,Sugam Hospital,0,2,0,"349, Thiruvottiyur High Rd, Tiruvottiyur, Chennai, Tamil Nadu 600019, India",1619924183000
+196,Tiruvannamalai,100,2,606601,Tiruvannamalai,55,15,20,25,Ramana Maharishi Hospital,0,2,0,"51C, Somavarakula Street, Pavazhakundur, Tiruvannamalai, Tamil Nadu 606601, India",1619927016000
+197,Thoothukudi,35,1,628002,Thoothukudi,5,0,2,28,Sacred Heart Hospital,0,1,0,"Kandhasamy Puram, Thoothukudi, Tamil Nadu 628002, India",1619942538000
+198,Thoothukudi,25,1,628501,Thoothukudi,0,0,4,21,Sri Hospital,1,1,8,"57, Ettayapuram Rd, Jothi Nagar, Kovilpatti, Tamil Nadu 628501, India",1619940130000
+199,Tirunelveli,44,0,627002,Tirunelveli,15,0,4,25,"Annai Velankanni Multi Speciality Hospital, Palayamkottai",0,2,0,"1/111, Somasinayanar Street, Murugankurichi, Tirunelveli-2, Palayamkottai, Tirunelveli, Tamil Nadu 627002, India",1619923368000
+200,Tirunelveli,25,2,627005,Tirunelveli,0,0,0,25,Ponra Multispeciality Hospital,0,2,1,"Door No. 66G/3, Trivandrum Road, Vasanth Nagar, Tirunelveli, Tamil Nadu 627005, India",1619931872000
+201,Tirunelveli,40,0,627003,Tirunelveli,12,0,0,28,Rosemary mission hospital and research centre,0,0,0,"No 10, 3, S Bypass Rd, Xavier Colony, Vannarpettai, Tirunelveli, Tamil Nadu 627003, India",1619920951000
+202,Dindigul,46,0,627001,Tirunelveli,10,0,6,30,Shifa Hospital,0,0,3,"82, Near Junction Flyover, Kailasapuram, Middle Street, Tirunelveli Junction, Meenakshipuram, Tirunelveli, Tamil Nadu 627001, India",1619939599000
+203,Tiruppur,60,3,641603,Tiruppur,12,3,10,38,Revathi Medical Centre,0,4,0,"No 10, Valayangadu North Main Rd, Kumar Nagar, Valayankadu South, Valagan, Tiruppur, Tamil Nadu 641603, India",1619928028000
+204,Thiruvarur,30,1,610004,Thiruvarur,0,0,10,20,Navajeevan Hospital,0,1,0,"Vilamal, Thiruvarur, Tamil Nadu 610004, India",1619923959000
+205,Thiruvarur,40,1,610001,Thiruvarur,0,0,0,40,Thiruvarur Medical Centre,0,1,7,"Javulikkara Street, near temple tank, Suriyan Kulam Then Kari, Vasan Nagar, Madappuram, Thiruvarur, Tamil Nadu 610001, India",1619919302000
+206,Thiruchirappalli,30,6,620002,Thiruchirappalli,13,0,6,11,"Neuro One Hospital, Karur Bye Pass Road",0,6,0,"55, 1, Karur Bypass Rd, Melachinthamani, Tiruchirappalli, Tamil Nadu 620002, India",1619934676000
+207,Thiruchirappalli,80,1,620010,Thiruchirappalli,28,2,12,40,Apollo Speciality Hospital,0,2,0,"Ariyamangalam, Ariyamangalam Area, Tiruchirappalli, Tamil Nadu 620010, India",1619940947000
+208,Thiruchirappalli,26,2,620008,Thiruchirappalli,22,22,2,2,G V N Hospital Pvt Ltd,2,2,2,"No 46, near Super Bazaar, Singarathope, Tharanallur, Tiruchirappalli, Tamil Nadu 620008, India",1619942886000
+209,Thiruchirappalli,110,0,620005,Thiruchirappalli,45,17,25,40,"Kavery Medical Centre And Hospital, Trichy",0,8,0,"Sannathi St, Srirangam, Thiruvanaikoil, Tiruchirappalli, Tamil Nadu 620005, India",1619941963000
+210,Thiruchirappalli,51,2,620017,Thiruchirappalli,10,0,10,31,Maruti Hospital,0,4,0,"95, Pattabiraman Salai, Anna Nagar, Tennur, Tiruchirappalli, Tamil Nadu 620017, India",1619938665000
+211,Thiruchirappalli,80,7,621306,Thiruchirappalli,35,0,19,26,Sinduja Hospital,0,7,0,"Sinduja Hospital, SH 71A, Manapparai, Tamil Nadu 621306, India",1619940272000
+212,Thiruchirappalli,200,7,621105,Thiruchirappalli,140,50,20,40,"SRM Medical College Hospital And Research Centre, Trichy",17,10,7,"Irungalur Village, Manachannallur, Taluk, near Toll Booth, Tiruchirappalli, Tamil Nadu 621105, India",1619926182000
+213,Thiruchirappalli,35,4,620005,Thiruchirappalli,7,0,5,23,Dr.G.Viswanathan Hospital Mambalasalai,0,4,0,"No-25 A1/A2, Trichy Chennai Trunk Rd, Near Jaipur Bhavan Function Hall, Srirangam, Mambazhasalai, Tiruchirappalli, Tamil Nadu 620005, India",1619938876000
+214,Thiruchirappalli,33,2,620006,Thiruchirappalli,0,0,4,29,Pankajam Sitaram Nursing Home (A Unit Of GVN Hospital),0,2,6,"Srirangam, Tiruchirappalli, Tamil Nadu 620006, India",1619941701000
+215,Thiruchirappalli,56,2,620017,Thiruchirappalli,10,3,10,36,"Sundaram Hospital, Pudhur",0,2,0,"No 20, EVR Main Road, Aruna Nagar, Puthur, Thillai Nagar, Tiruchirappalli, Tamil Nadu 620017, India",1619939709000
+216,Thoothukudi,21,1,628502,Thoothukudi,4,0,3,14,"Kamala Speciality Hospitals Pvt Ltd, Kovilpatti",0,1,0,"No : 46 & 48, Santhai Pettai Street, Thirumangai Nagar, Kovilpatti, Tamil Nadu 628502, India",1619942322000
+217,Vellore,18,0,632509,Vellore,8,1,0,10,Apollo KH Hospital Ranipet,0,0,0,"Ranipet, Vellore - Chennai Rd, Melvisharam, Tamil Nadu 632509, India",1619927452000
+218,Vellore,475,0,632004,Vellore,0,0,85,390,Christian Medical College,3,74,52,"IDA Scudder Rd, Vellore, Tamil Nadu 632004, India",1619844786000
+219,Vellore,56,0,632004,Vellore,0,0,0,56,Christian Medical College Kannigipuram campus,0,0,51,"IDA Scudder Rd, Vellore, Tamil Nadu 632004, India",1604369098000
+220,Vellore,94,6,632055,Vellore,0,0,15,79,Sri Narayani Hospital and Research Centre,0,15,0,"Azad Rd, Thirumalaikodi, Vellore, Tamil Nadu 632055, India",1619934410000
+221,Virudhunagar,20,0,626117,Virudhunagar,5,0,5,10,Meenakshi Memorial Hospital,0,2,0,"164, PAC Ramasamy Raja Salai, Thoppupatti, Rajapalayam, Tamil Nadu 626117, India",1619920026000
+222,Virudhunagar,30,2,626117,Virudhunagar,0,0,5,25,Sri Krishna Hospital,5,2,5,"117, RJPM Chatrapati Rd, PSK Nagar, Srirengapalayam, Rajapalayam, Tamil Nadu 626117, India",1619922851000
+223,Chengalpattu,10,1,603001,Chengalpattu,4,0,1,5,"Sai Fertility Centre & Hospital, Vedhachalam Nagar",0,1,0,"New no. 43, Old, no. 21, Devarajanar St, behind new bus stand, Vedachalam Nagar, Chengalpattu, Tamil Nadu 603001, India",1619937645000
+224,Dindigul,40,1,624004,Dindigul,5,3,3,32,City Hospital Gandhi Nagar,0,1,2,"Gandhiji Nagar, Cooperative Nagar, Dindigul, Tamil Nadu 624004, India",1619941139000
+225,Dindigul,30,1,624003,Dindigul,0,0,0,30,"Raja Rajeswari Hospital, Spence Nagar",0,1,0,"46, Thiruvalluvar Salai, Spencer Compound, Dindigul, Tamil Nadu 624003, India",1619940772000
+226,Madurai,25,1,625016,Madurai,5,5,6,14,"Santhya Speciality Hospital, Arappalaiyam Main Road",6,2,4,"146, 147, Arappalayam Main Rd, near Naicker Statue, Puttuthoppu, Arappalayam, Madurai, Tamil Nadu 625016, India",1619939365000
+227,Ramanathapuram,45,1,623501,Ramanathapuram,0,0,5,40,"Arogya Hospital, Kenikarai",3,1,0,"Kenikarai, Ramanathapuram, Tamil Nadu 623501, India",1619923885000
+228,Salem,42,0,636001,Salem,0,0,6,36,Saravana Hospital Ponnamapet,0,3,0,"No - 14, 1st Cross, opp. to IIHT, Thillai Nagar, Ponnammapet, Salem, Tamil Nadu 636001, India",1619921013000
+229,Thiruchirappalli,20,0,620005,Thiruchirappalli,0,0,0,20,Sri Venkateswara Hospital T.V Koil,0,0,3,"Trunk Road, T.V. Kovil, Srirangam, Tiruchirappalli, Tamil Nadu 620005, India",1619939183000
+230,Madurai,25,0,625010,Madurai,5,0,2,18,Aristo Speciality Hospital Ponmeni,0,0,0,"50B, Bypass Rd, Opp. Aparna Tower, Ponmeni, Madurai, Tamil Nadu 625010, India",1619924653000
+231,Madurai,20,2,625020,Madurai,15,15,2,3,"Asirvatham Speciality Hospital, Gandhi Nagar",2,2,3,"22, Rajaji St, Gandhi Nagar, Shenoy Nagar, Madurai, Tamil Nadu 625020, India",1619924940000
+232,Madurai,25,2,625532,Madurai,0,0,10,15,Bala Hospital Usilampatti,0,2,0,"Usilampatti, Tamil Nadu 625532, India",1619924039000
+233,Madurai,20,1,625007,Madurai,10,10,6,4,"KJS Speciality Hospital,K.Pudur",0,1,2,"8th St, opp. Ayyapan Temple, Muthuramalingapuram, Karpaga Nagar, K.Pudur, Tamil Nadu 625007, India",1619922598000
+234,Madurai,15,2,625003,Madurai,5,0,0,10,Nithilaa Nursing Home Palanganatham,0,2,0,"72, Tirupparankunram Rd, Thiruvalluvar Nagar, Palangantham, Tamil Nadu 625003, India",1619942243000
+235,Madurai,30,0,625018,Madurai,0,0,25,5,NTC Hospitals Vaithiyanathapuram,0,2,0,"No: 187, Thathaneri Main Rd, near ESI Hospital, Vaithiyanathapuram, Madurai, Tamil Nadu 625018, India",1619918892000
+236,Madurai,25,5,625020,Madurai,0,0,4,21,Raks Hospital Anna Nagar,0,5,6,"12/59, Kuruvikaran Salai, 1st Cross St, Behind Cinepriya theatre, Anna Nagar, Shenoy Nagar, Madurai, Tamil Nadu 625020, India",1619925973000
+237,Chennai,52,0,600031,Chennai,3,2,5,44,Pon Malligai Hospital Adambakkam,0,2,0,"1, Kakkan Nagar Main Rd, Ask Nagar, Adambakkam, Chennai, Tamil Nadu 600031, India",1619927881000
+238,Chennai,2,1,600010,Chennai,2,2,2,2,Iswarya Fertility Centre Kilpauk,2,1,2,"119, New Avadi Rd, Alagappa Nagar, Kilpauk, Chennai, Tamil Nadu 600010, India",1619158367000
+239,Chennai,10,1,600020,Chennai,5,5,2,3,Iswarya Fertility Centre Adyar,2,1,3,"No. 13, 1st Main Road, Kasturbai Nagar, Opposite Sangeetha Hotel, Kasturba Nagar, Adyar, Chennai, Tamil Nadu 600020, India",1619839388000
+240,Chennai,5,2,600053,Chennai,2,2,1,2,Iswarya Fertility Centre Ambattur,1,2,2,"No-1, 233/77, Vijaya Complex, Madras Tiruvallur High Road, Venkatapuram, Ram Nagar, Ambattur, Chennai, Tamil Nadu 600053, India",1619839354000
+241,Chengalpattu,45,2,600044,Chengalpattu,15,2,18,12,"Parvathy Hospital Chrompet,",0,3,0,"241, GST Road Chromepet, Near MIT Bridge, Kamakshi Colony, Chromepet, Chennai, Tamil Nadu 600044, India",1619923295000
+242,Chennai,12,0,600079,Chennai,0,0,4,8,"Shaarave Multi Speciality Hospital, Sowcorpet",0,2,0,"NO 134, Mint St, opp. RAMAR KOIL, Sowcarpet, Perumal Koil Garden, George Town, Chennai, Tamil Nadu 600079, India",1619942939000
+243,Chennai,10,0,600013,Chennai,0,0,0,10,Shanmugam Multi Speciality Hospital Royapuram,0,1,0,"14, East Madha Church Street, Pudumanaikuppam, Royapuram, Chennai, Tamil Nadu 600013, India",1619923631000
+244,Coimbatore,40,0,641028,Coimbatore,38,23,0,2,Atlas Pain Care Sowripalayam,0,0,2,"2nd floor, 181, Peelamedu, G.V. Residency, Coimbatore, Tamil Nadu 641028, India",1619931102000
+245,Dindigul,40,2,624001,Dindigul,0,0,2,38,"JCB Hospitals Palani Road,",0,2,0,"No.1, VEEPPAANTHOPPU STREET, Palani Rd, New Agraharam, Dindigul, Tamil Nadu 624001, India",1619942104000
+246,Dindigul,60,3,624001,Dindigul,0,0,3,57,"Shree SathyaSubha Hospital, New Agaraharam",3,3,3,"No: 53, Dindigul - Palani Rd, opposite Sornam Honda, New Agraharam, west, Dindigul, Tamil Nadu 624001, India",1619921366000
+247,Dindigul,8,1,624101,Dindigul,1,1,1,6,"Van Allen Hospital, Kodaikanal",1,1,4,"St Mary`s road, Near, Coaker's Walk, Kodaikanal, Tamil Nadu 624101, India",1619942264000
+248,Kanyakumari,40,0,629158,Kanyakumari,16,0,9,15,Swamiyarmadam Rathna Memorial Hospital,0,0,0,"11-208 Swamiyar Madam, Kattathurai, Tamil Nadu 629158, India",1619937664000
+249,Krishnagiri,51,0,635109,Krishnagiri,0,0,0,51,Vijay Sai Health Care Pvt Ltd,0,0,0,"70R, Denkanikotta Rd, Anna Nagar, Tamil Nadu 635109, India",1619931850000
+250,Madurai,35,4,625020,Madurai,8,8,4,23,Rio Hospital Vandiyur,4,4,7,"40/4-C,2, BL, Masthanpatti Rd, Madurai, Tamil Nadu 625020, India",1619921693000
+251,Salem,37,2,636010,Salem,20,0,2,15,"Universal Cancer Hospital, Kondalampatty",2,2,1,"Kondalampatti, Salem, Tamil Nadu 636010, India",1619925256000
+252,Sivagangai,29,1,630561,Sivagangai,0,0,6,23,Devaki Multi Speciality Hospital,6,1,13,"96, SH 33, Aranmanai Vaasal, Sivaganga, Tamil Nadu 630561, India",1619930864000
+253,Sivagangai,17,1,630561,Sivagangai,6,6,1,10,Karthick Multi Speciality Hospital,1,1,10,"96, SH 33, Aranmanai Vaasal, Sivaganga, Tamil Nadu 630561, India",1619940899000
+254,Thiruchirappalli,25,0,620020,Thiruchirappalli,0,0,3,22,"Velan Speciality Hospital, Highways Colony",0,0,0,"No-1, Jail Corner, Highways Colony, Sundarraj Nagar, Subramaniyapuram, Sangillyandapuram, Tiruchirappalli, Tamil Nadu 620020, India",1619939770000
+255,Thoothukudi,18,1,628501,Thoothukudi,0,0,1,17,Public Welfare Hospital Kovilpatti,1,1,9,"32A, Ettayapuram Rd, Iluppaiyurani, Kovilpatti, Tamil Nadu 628501, India",1619939717000
+256,Chennai,30,0,600024,Chennai,0,0,4,26,"Medway Women Centre, Kodambakkam",0,4,0,"4th Cross St, Trustpuram, Kodambakkam, Chennai, Tamil Nadu 600024, India",1619940793000
+257,Dindigul,80,5,624001,Dindigul,10,0,20,50,"K T Hospitals, Palani Bye pass Junction",0,5,6,"222, Near, Palani Rd, Indira Nagar, byepass, Dindigul, Tamil Nadu 624001, India",1619940717000
+258,Madurai,10,0,625020,Madurai,4,4,4,2,"Raksha Hospital, Anna Nagar",4,0,2,"No.130, East, Third Cross St, Anna Nagar, Madurai, Tamil Nadu 625020, India",1619926049000
+259,Madurai,10,1,625012,Madurai,6,6,2,2,Thirusenthilandavar Multispeciality Hospital,2,1,2,"No.43, Villapuram Main Road Opp Anna Statue, Villapuram, Tamil Nadu 625012, India",1619922740000
+260,Sivagangai,50,1,630606,Sivagangai,30,20,10,10,"Madha Hospital, Manamadurai",10,1,6,"Manamadurai, Tamil Nadu 630606, India",1619927352000
+261,Madurai,45,0,625020,Madurai,0,0,1,44,"Ahana Hospital,11,Subramanian st,Annanagar,Madurai",0,1,0,"No: 11, Subburaman Street, Gandhi Nagar, Shenoy Nagar, Madurai, Tamil Nadu 625020, India",1619919200000
+262,Chennai,20,0,600096,Chennai,0,0,10,10,"Apollo Hospital, OMR, Perungudi",0,4,0,"5/639, Old Mahabalipuram Rd, Tirumalai Nagar, Perungudi, Chennai, Tamil Nadu 600096, India",1619760712000
+263,Chennai,20,2,600050,Chennai,0,0,5,20,"K.G.J Hospitals, Korattur",5,2,0,"No. 129, 14, South Railway Station Road, near Radha Theater, Korattur, Chennai, Tamil Nadu 600050, India",1619150463000
+264,Chennai,5,0,600020,Chennai,2,2,0,3,"Padmapriya Hospital, Adyar",0,0,0,"28, 1st Ave, Indira Nagar, Adyar, Chennai, Tamil Nadu 600020, India",1619928120000
+265,Chennai,40,0,600021,Chennai,24,0,6,10,"Priya Nursing Home, Old Washermenpet",0,0,1,"No. 6,(Old No. 82), Kappal Polu Street, Old Washermenpet, Sanjeevarayanpet, Tondiarpet, Chennai, Tamil Nadu 600021, India",1619938207000
+266,Chennai,85,0,600091,Chennai,20,10,35,30,"Saraswathy Multi Speciality Hospitals, Madipakkam",0,6,2,"92/A, Bazaar Main Rd, Sastri Nagar, Madipakkam, Chennai, Tamil Nadu 600091, India",1619920663000
+267,Chennai,15,2,600019,Chennai,0,0,0,15,"Suman Hospital, Thiruvotriyur",0,2,1,"No.40, Sattangadu High Rd, Thangal, Rajakadai, Tiruvottiyur, Chennai, Tamil Nadu 600019, India",1619415182000
+268,Chennai,25,2,600037,Chennai,4,0,5,16,"The Madras Medical Mission, Mogappair",0,2,0,"4-A, Dr, J J Nagar, Mogappair, Chennai, Tamil Nadu 600037, India",1619927376000
+269,Coimbatore,65,1,641024,Coimbatore,30,0,5,30,Abinand Hospital,2,3,0,"237, f, 7, Pollachi Main Rd, Sundarapuram, Tamil Nadu 641024, India",1619926847000
+270,Coimbatore,60,0,641024,Coimbatore,10,0,10,40,"Sree Abirami Hospital, Coimbatore TN.",0,3,0,"No. 33, Madukkarai Main Rd, Sundarapuram, Tamil Nadu 641024, India",1619923839000
+271,Erode,50,0,638011,Erode,25,25,0,20,"Kovai Medical Centre,Erode TN.",0,0,20,"02/2, Erode - Perundurai Rd, Gandhi Nagar, Colony, Erode, Tamil Nadu 638011, India",1615795748000
+272,Kancheepuram,30,0,603103,Kancheepuram,30,10,0,0,"TCS, Sirucherry",0,0,0,"1/G1, SIPCOT IT Park Navalur, Siruseri, Tamil Nadu 603103, India",1619926144000
+273,Kanyakumari,40,2,629001,Kanyakumari,9,0,7,24,"Bethesda Hospital, Nagercoil",7,2,0,"35,Distillary Road, Opposite to State Bank of India, Puthukudierupu, Nagercoil, Tamil Nadu 629001, India",1619937548000
+274,Kanyakumari,50,3,629002,Kanyakumari,25,0,5,20,"Siva Hospital, Nagercoil",3,3,6,"Eathamozhi Rd, Chenthooran Nagar, Nagercoil, Tamil Nadu 629002, India",1619937511000
+275,Karur,60,3,639005,Karur,0,0,20,40,"ABS Hospital, Thanthonimalai",6,3,3,"Plot No 161 Vangalaman Dept, near Sivasakthi Nagar, Gandhi Nagar, Karur, Tamil Nadu 639005, India",1619938186000
+276,Krishnagiri,80,0,635109,Krishnagiri,0,0,0,80,"Sri Chandrasekaran Hospital unit -2, Hosur",0,0,0,"SF No: 749, Avalapalli Housing Board, Bagalur Rd, Teachers Colony, Hosur, Tamil Nadu 635109, India",1619930480000
+277,Madurai,16,1,625014,Madurai,8,0,3,5,"BGM Hospital, Iyer Bungalow",0,1,0,"249, Vishwanathapuram, New Natham Connection Road, Iyer Bungalow, Ezhil Nagar, Iyer Bungalow, Madurai, Tamil Nadu 625014, India",1619925115000
+278,Madurai,15,0,625011,Madurai,0,0,0,15,"Dr.Chidambaram Memorial Hospital, Jai Hind puram",0,0,0,"Jaihindpuram 2nd Main Rd, Rathinapuram, Jaihindpuram, Tamil Nadu 625011, India",1619924722000
+279,Madurai,27,0,625011,Madurai,12,12,0,15,"Gowri Nursing Home, Jeeva Nagar",0,0,3,"39/11/3A, 1st St, Sundarajapuram, Rathinapuram, Jeeva Nagar, Tamil Nadu 625011, India",1619933834000
+280,Madurai,15,1,625016,Madurai,0,0,5,10,"Grace Kennett Foundation Hospital, Kennett Road",1,3,4,"Grace Kennett Foundation, 8 Kennett Road, Vaithiyanathapuram, Madurai, Tamil Nadu 625016, India",1619927519000
+281,Madurai,33,6,625706,Madurai,5,5,23,5,"Swarnakamalam (SKG) Multispeciality Hospital Pvt Ltd, Thirumanagalam",9,8,3,"Tirumangalam, Tamil Nadu 625706, India",1619933953000
+282,Nagapattinam,0,0,609001,Nagapattinam,0,0,0,0,"Arun Priya Nursing Home, Nagapattinam TN.",0,0,0,"No: 3 & 4, Pattamangalam Street, Kamarajar Salai, Mayiladuthurai, Tamil Nadu 609001, India",1618971349000
+283,Ramanathapuram,16,2,623536,Ramanathapuram,10,0,0,6,Meera Clinic,0,2,0,"Bus Stop, Ramanathapuram, Tamil Nadu 623536, India",1619923977000
+284,Salem,40,2,636102,Salem,0,0,4,36,"Geeth Raghunath Hospital, Attur",4,2,7,"No.2, Gandhi Nagar, Pungavadiputhur, Attur, Tamil Nadu 636102, India",1619930890000
+285,Salem,22,1,637101,Salem,6,4,0,16,"Karthik Medical Centre, Idappadi",0,1,0,"Idappadi, Tamil Nadu 637101, India",1619927914000
+286,Salem,30,0,636007,Salem,15,10,0,15,"Shivasurya Polyclinic, Salem",0,0,0,"250, Omalur Main Rd, Near KFC, Salem, Tamil Nadu 636007, India",1619895300000
+287,Salem,25,3,636006,Salem,12,0,5,8,"Sree Vasantham Hospital, Gugai",0,3,0,"No. 52/1, opposite City Police Commissioner Office, Linemedu, Gugai, Salem, Tamil Nadu 636006, India",1619929093000
+288,Tenkasi,43,1,627811,Tenkasi,1,0,4,38,"Meeran Hospital, Tenkasi",0,1,0,"Door-No-327, Melagaram, Courtallam Road Tirunelveli Palayamkottai Ambasamudram, Tenkasi, Tamil Nadu 627811, India",1619940905000
+289,Tenkasi,40,1,627814,Tenkasi,15,2,5,20,"Santhi Hospital, Vaikkalpalam, Tenkasi",3,2,4,"SH 40, Tenkasi, Tamil Nadu 627814, India",1619939781000
+290,Thanjavur,59,2,613007,Thanjavur,30,1,9,20,Our Lady Hospital,3,2,0,"3, Arulanandha Nagar Main Rd, Quide Milleth Nagar, Arulananda Nagar West Extension, Thanjavur, Tamil Nadu 613007, India",1619939902000
+291,Thanjavur,40,1,614602,Thanjavur,10,3,5,25,"Sri Naadi Hospital, Pattukottai",3,3,7,"121 & 122, Mayil Palayam Street, Naatyampaalpuram, Nadimuthu Nagar, Pattukkottai, Tamil Nadu 614602, India",1619939030000
+292,Thanjavur,30,0,612001,Thanjavur,10,1,2,18,"Vijay Poly Clinic, Kumbakonam",0,1,1,"21-A, Ayekulam Road, Anna Nagar, Kumbakonam, Tamil Nadu 612001, India",1619940143000
+293,Theni,23,0,625531,Theni,10,10,3,10,Arun Hospital,3,0,10,"379c/ Bungalowmedu 5, DSP Office Rd, NRT Nagar, Theni Allinagaram, Tamil Nadu 625531, India",1619921516000
+294,Theni,15,0,625531,Theni,3,0,0,12,"Nalam Hospital, Allinagaram",0,0,2,"63/2, Lake Road, Sri Ram Nagar, Theni Allinagaram, Tamil Nadu 625531, India",1619921325000
+295,Theni,15,1,625531,Theni,11,10,2,2,"Ramapadyan Hospital, A.Pudur Vilakku",1,1,2,"338/1c priyanka gandhi nagar aranmanaipudur road, Aranmanai Pudhur, Theni Allinagaram, Tamil Nadu 625531, India",1619946281000
+296,Theni,25,0,625531,Theni,0,0,0,25,"Theni Medical Centre, Nehruji Road",0,0,0,"356, North Main Road, Aranmanai Pudhur, Theni Allinagaram, Tamil Nadu 625531, India",1619921718000
+297,Tirunelveli,14,0,627007,Tirunelveli,0,0,3,11,"Royal Hospital, NGO Colony",0,3,0,"Royal Hospital 2nd Sharon Street, Kamarajar Rd, Vasantha Nager, Tirunelveli, Tamil Nadu 627007, India",1619921069000
+298,Tirunelveli,57,3,627003,Tirunelveli,17,7,11,29,"Sudharson Platinum Hospitals, Vannarpettai",0,3,0,"4/A, Puthumaipithan Veethi, Kailash Nagar, Vannarpettai, Tirunelveli, Tamil Nadu 627003, India",1619924528000
+299,Thiruchirappalli,15,1,620018,Thiruchirappalli,8,2,1,6,"Athma Hospitals, Thillai Nagar",0,1,1,"No-12 B&C, 10th Cross St, Thillai Nagar East, East, Thillai Nagar, Tiruchirappalli, Tamil Nadu 620018, India",1619939670000
+300,Thiruchirappalli,30,2,620001,Thiruchirappalli,4,0,2,24,Kavi Hospital & Neuro Foundation,2,2,1,"205/1, Kumaran Rd, Sangliandapuram, Sangillyandapuram, Tiruchirappalli, Tamil Nadu 620001, India",1619940477000
+301,Thiruchirappalli,14,0,620018,Thiruchirappalli,3,0,0,11,Mangalam Hospital,0,0,0,"Thillai Nagar East, West Thillai Nagar, Tennur, Tiruchirappalli, Tamil Nadu 620018, India",1619940327000
+302,Thiruchirappalli,20,1,620002,Thiruchirappalli,2,2,0,18,MMM Multi Speciality Hospital,0,1,18,"No 39, Karur Bypass Rd, near Kalaingar Arivalayam, Killa Chinthamani, Tiruchirappalli, Tamil Nadu 620002, India",1619940178000
+303,Thiruchirappalli,51,1,620017,Thiruchirappalli,10,0,11,30,"Retna Global Hospital, Tennur",0,4,0,"No 95, 1, Pattabiraman Salai, beside maruti hospital, Anna Nagar, Tennur, Tiruchirappalli, Tamil Nadu 620017, India",1619938740000
+304,Thiruchirappalli,40,6,620018,Thiruchirappalli,0,0,8,32,"Star KIMS Hospital, Thillai Nagar",0,6,2,"D-6, 6th Cross, West Extension, Thillai Nagar, Tiruchirappalli, Tamil Nadu 620018, India",1619940915000
+305,Thiruchirappalli,32,2,620018,Thiruchirappalli,0,0,5,27,"Trichy Medical Centre and Hospital, Thillai Nagar",0,2,0,"B-17, 11th B Cross Rd, West Thillai Nagar, Thillai Nagar, Tiruchirappalli, Tamil Nadu 620018, India",1619938792000
+306,Thoothukudi,22,1,628502,Thoothukudi,3,0,4,15,"Aarthi Hospital, Kovilpatti",0,1,0,"No. 60, Santhai Pettai Street, V.O.C. Nagar, Kadershan Koil, Kovilpatti, Tamil Nadu 628502, India",1619941868000
+307,Thoothukudi,0,0,628008,Thoothukudi,0,0,0,0,"City Hospital, Tuticorin",0,0,0,"106, G/8, Palayamkottai Rd, Millerpuram, Sinnamani Nagar, Thoothukudi, Tamil Nadu 628008, India",1618975938000
+308,Thoothukudi,22,1,628204,Thoothukudi,11,2,5,6,"K.M.T Hospital, Kayalpatnam",5,1,2,"KTM Street, Wavoo Nagar, Odakkarai, Kayalpattinam, Tamil Nadu 628204, India",1619944956000
+309,Thoothukudi,16,0,,Thoothukudi,0,0,3,13,"Sree Chendur Multispeciality Hospital, Kovilpatti",3,0,1,,1619944785000
+310,Thoothukudi,15,3,628002,Thoothukudi,0,0,3,12,Suganthi Nursing Home (Unit of Sundaram Arulrhaj Hospitals),0,3,0,"#145, 5B, Jeyaraj Rd, Toovipuram, Thoothukudi, Tamil Nadu 628002, India",1619942595000
+311,Virudhunagar,40,1,626002,Virudhunagar,0,0,20,20,"VVVNC, Chatrarediapatti",12,1,14,"Chatrareddiapatti, Virudhunagar, Tamil Nadu 626002, India",1619923493000
+312,Chennai,102,0,600031,Chennai,10,0,10,82,Dr. Mehtas Hospital,0,4,0,"Chetpet, Chennai, Tamil Nadu 600031, India",1619925151000
+313,Tirunelveli,90,0,627001,Tirunelveli,20,4,12,58,Shifa Hospital,0,5,8,"82, Near Junction Flyover, Kailasapuram, Middle Street, Tirunelveli Junction, Meenakshipuram, Tirunelveli, Tamil Nadu 627001, India",1619912675000
+314,Chennai,25,0,600092,Chennai,7,2,8,10,Annai Multispeciality Hospital,0,4,2,"121/60, Kaliamman Koil Street, Ganapath Raj Nagar Main Rd, L & T Colony Phase II, Virugambakkam, Chennai, Tamil Nadu 600092, India",1619920019000
+315,Thiruchirappalli,15,5,620018,Thiruchirappalli,3,3,2,10,Royal Pearl Hospital,2,5,10,"C-12, 3rd Cross Rd, Thillai Nagar East, West Thillai Nagar, Tennur, Tiruchirappalli, Tamil Nadu 620018, India",1619924666000
+316,Mayiladuthurai,15,1,609001,Mayiladuthurai,6,1,3,6,Vishnu hospital,3,1,1,"Nagapattinam, SH-64, Kullumangudi Thiuvarur Road, Mayiladuthurai, Kamarajar Salai, Mayiladuthurai, Tamil Nadu 609001, India",1619922145000
+317,Sivagangai,50,0,630561,Sivagangai,0,0,5,45,Apollo,0,0,0,"Vijayaganesh dental hospital campus 21/11, New street Landmark - Sivan temple south / Dhanapalan, Marakadai, backside, Sivaganga, Tamil Nadu 630561, India",1619938944000
+318,Sivagangai,60,3,630302,Sivagangai,13,2,12,35,Senthil hospital,3,4,0,"9 MANTHOPPU STREET Devakottai, Ramanathapuram, Tamil Nadu 630302, India",1619930153000
+319,Chengalpet,25,1,603001,Chengalpet,7,1,3,15,KMS Health Centre,0,1,1,"Varadharaja Nagar, Chengalpattu, Tamil Nadu 603001, India",1619835491000
+320,Salem,60,0,636001,Salem,33,2,10,17,"Kamala Hospital,Agraharam",1,2,0,"No. 256, Sree Krishna Complex, 2nd Agraharam, Salem, Tamil Nadu 636001, India",1619941519000
+321,Coimbatore,30,0,641046,Coimbatore,0,0,1,29,"Coimbatore Diabetic Foundation,maruthamalai road",1,0,16,"No 357, 2 A, Marudhamalai Rd, IOB Colony, Bharathiyar University, Coimbatore, Tamil Nadu 641046, India",1619932812000
+322,Kanyakumari,35,2,629901,Kanyakumari,10,0,5,20,"Manuel Orthopedic Hospital, therekaalputhoor",2,2,0,"NH 47B, Therekalputhur, Thieuppathisaram, P.O, Nagercoil, Tamil Nadu 629901, India",1619937804000
+323,Kanyakumari,68,4,629001,Kanyakumari,31,25,6,31,"Joseph Sahayam Speciality Hospital, Nagerkoil",6,4,30,"179 A2, Ganesapuram road, Chidambara Nagar, Kottar, Tamil Nadu 629001, India",1619937773000
+324,Kanyakumari,30,2,629165,Kanyakumari,7,0,10,13,"Thasiah Medical centre, Marthandam",10,2,10,"Marthandam, Tamil Nadu 629165, India",1619943598000
+325,Thanjavur,30,2,613009,Thanjavur,5,0,15,10,"MVK Hospital, Thanjavur",0,2,3,"2771, opposite to Thilagar Thidal, Rajakrisnapuram, South Rampart, Thanjavur, Tamil Nadu 613009, India",1619939734000
+326,Thanjavur,55,2,613007,Thanjavur,30,0,5,20,Vinodhagan Memorial Hospital,0,2,1,"No.3120 & 3121, Trichy Rd, VOC Nagar, Parisutham Nagar, Thanjavur, Tamil Nadu 613007, India",1619941619000
+327,Coimbatore,37,0,641012,Coimbatore,0,0,7,37,"Chennai Hospitals Pvt Ltd, Gandhipuram",7,0,37,"932A, Sathy Rd, Raju Naidu Layout, Gandhipuram, Tamil Nadu 641012, India",1607571526000
+328,Coimbatore,41,1,641012,Coimbatore,26,0,1,14,"CSR Nursing Home, Gandhipuram",1,1,0,"272, 7th St Ext, 7th St Extension, Gandhipuram, Tamil Nadu 641012, India",1619921257000
+329,Coimbatore,120,0,641035,Coimbatore,0,0,40,80,"Dr.Muthus Hospital, Saravanampatti",0,29,0,"Nisha Complex, 3-B, Sathy Rd, near Fedaral Bank, Kalapatti Pirivu, Ramanandha Nagar, Saravanampatti, Coimbatore, Tamil Nadu 641035, India",1619925408000
+330,Coimbatore,50,0,641024,Coimbatore,0,0,4,46,"FIMS Hospital, Sundarapuram",0,4,1,"193, 145, Pollachi Main Rd, Sundarapuram, Tamil Nadu 641024, India",1619933153000
+331,Coimbatore,148,0,641035,Coimbatore,0,0,3,145,"K.Govindhasamy Memorial Annex Hospital, Saravanampatti",0,4,0,"No: 103, Sathy Road, Near Kalapatti Pirivu, Poonthottam Nagar, Ramanandha Nagar, Saravanampatti, Coimbatore, Tamil Nadu 641035, India",1619930800000
+332,Coimbatore,40,2,641030,Coimbatore,0,0,2,38,"Kalpana Medical Centre Pvt Ltd, Kavundampalayam",0,2,0,"Mettupalayam Rd, Jayanthi Nagar, Koundampalayam, Coimbatore, Tamil Nadu 641030, India",1619928482000
+333,Coimbatore,50,1,641107,Coimbatore,15,0,5,30,"Kumaran Medical Centre, Kurumbapalayam",0,3,0,"499/500 Sathy Road Kurumbapalayam, S S kulam, Coimbatore, Tamil Nadu 641107, India",1619926030000
+334,Coimbatore,93,0,641005,Coimbatore,28,0,3,62,"NG Hospital Pvt Ltd & Research Centre, Singanallur",0,2,0,"577, Trichy Rd, Near B-5 Police Station, Agraharam, Singanallur, Tamil Nadu 641005, India",1619928020000
+335,Coimbatore,30,0,641012,Coimbatore,10,0,5,15,"Sathya Medical Centre and Hospital, Sivanandha Colony",0,4,0,"1st St, Sivananda Colony, Tatabad, Coimbatore, Tamil Nadu 641012, India",1619918927000
+336,Salem,43,2,636005,Salem,0,0,3,40,Aishwaryam Speciality Hospital,3,2,40,"114/1 Salem - Bangalore, Bypass Rd, Nedunchalai Nagar, Salem, Tamil Nadu 636005, India",1619925429000
+337,Salem,100,3,636115,Salem,57,34,13,30,"Deepam Speciality Hospital, Vazhapady",13,3,20,"2/1 Ganapathy Nagar, Cuddalore Main Rd, Vazhapadi, Tamil Nadu 636115, India",1619920178000
+338,Salem,30,0,636004,Salem,6,0,6,18,"GL Hospital, Swarnapuri",4,1,14,"26, Kalaimagal St, Swarnapuri, Salem, Tamil Nadu 636004, India",1619928497000
+339,Salem,70,0,,Salem,0,0,10,60,Mohanraj Children's Hospital,10,0,60,,1619930244000
+340,Salem,52,2,636016,Salem,17,17,12,23,"Nathan Super Speciaty Hosptial, Salem",5,2,7,"7, Advaitha Ashram Rd, Sinthampalayam, Fairlands, Salem, Tamil Nadu 636016, India",1619935296000
+341,Salem,70,6,636007,Salem,32,9,3,35,"Sri Shellapha Hospital, Salem",3,6,10,"239, Rajaram Nagar Rd, Sankar Nagar, Salem, Tamil Nadu 636007, India",1619924072000
+342,Salem,56,0,636014,Salem,11,1,10,35,Thiru Neuro And MultiSpecility Salem,1,2,0,"Kamarajar Nagar Colony, Ammapet, Salem, Tamil Nadu 636014, India",1619923103000
+343,Erode,25,2,638012,Erode,20,0,3,2,"Erode multispeciality Hospital, Erode",0,2,0,"34, Perundurai Rd, Paari Nagar, Kumalan Kuttai, Thindal, Tamil Nadu 638012, India",1619932018000
+344,Madurai,60,0,625009,Madurai,56,50,0,4,"Vetri Siddha Hospital, Thaniciyam (Siddha)",0,0,4,"24/1,Thirumagal nagar, devarayan street, Kamarajar Salai, Pankajam Colony, Madurai, Tamil Nadu 625009, India",1619924065000
+345,Karur,15,0,639002,Karur,5,2,0,10,"Abishek Hospital, Karur Tn.",0,0,0,"Karur, Tamil Nadu 639002, India",1619920619000
+346,Namakkal,40,2,637001,Namakkal,11,4,8,21,"Shree Akhshaya Hospital Namakkal, TN.",0,5,0,"S P Pudur, Thillaipuram, Namakkal, Tamil Nadu 637001, India",1619919028000
+347,Namakkal,30,0,637001,Namakkal,0,0,2,28,"Soorya Multispechiality Hospitals, Namakkal TN.",2,0,18,"S P Pudur, Thillaipuram, Namakkal, Tamil Nadu 637001, India",1619325782000
+348,Karur,15,1,639001,Karur,4,3,1,10,"GC Hospital, Karur Tn.",1,1,7,"No 31, Dr.G.C.HOSPITAL North, W pradhakshanam Rd, Madavilagam, Karur, Tamil Nadu 639001, India",1619941366000
+349,Chennai,30,2,600004,Chennai,10,0,0,20,"Vivekananda Hospital,mylapore",0,2,0,"No15, PS Sivasamy Salai, Kattukoil Garden, Mylapore, Chennai, Tamil Nadu 600004, India",1619936652000
+350,Chengalpattu,14,0,600044,Chengalpattu,0,0,2,12,"DAISY HOSPITAL,CHROMPET",0,2,0,"No:3, Rangasamy Street, Adaiyar, Ananda Bhavan Back side, Kothandam Nagar, Chromepet, Chennai, Tamil Nadu 600044, India",1619918913000
+351,Chengalpattu,30,0,600044,Chengalpattu,25,0,0,5,AAYUSHMAAN HOLISTIC HEALTH CENTRE,0,0,0,"No 72 Sriperumbudur ,Puduper 600069, Tiruneermalai High Way, Kundrathur, Chennai, Tamil Nadu 600044, India",1619159379000
+352,Kanyakumari,44,1,629001,Kanyakumari,17,14,6,21,"Catherinebooth hospital,Nagercoil",6,1,20,"Balamore Rd, Vadasery, Tamil Nadu 629001, India",1619937866000
+353,Tenkasi,8,1,627859,Tenkasi,4,4,0,4,"Mathura Hospital, Surandai",0,1,4,"Surandai, Tamil Nadu 627859, India",1619939792000
+354,Chennai,22,0,600078,Chennai,13,0,0,9,"K.M Speciality Hospital, K.K Nagar",0,0,0,"No. 453, 454, RK Shanmugam Salai, Sector 6, K. K. Nagar, Chennai, Tamil Nadu 600078, India",1619932512000
+355,Tiruvallur,15,1,600101,Tiruvallur,0,0,3,12,SKS HOSPITAL,0,1,0,"959, TVS Ave Main Rd, TVS Colony, Anna Nagar West Extension, Chennai, Tamil Nadu 600101, India",1619922090000
+356,Thiruvarur,15,0,614713,Thiruvarur,0,0,4,15,"P.K.T Nursing Home, Thiruthuraipoondi",4,0,15,"Thiruvarur, SH-63, East Coast Road, Thiruthuraipoondi, Thruthuraipoondi, Tamil Nadu 614713, India",1619440925000
+357,Dindigul,37,5,624001,Dindigul,0,0,5,32,Vadamalayan Hospital,1,5,0,"649/ A2, Chettinaikanpatti village Road, Angu Bharathi Nagar, J.J. Nagar, Dindigul, Tamil Nadu 624001, India",1619925604000
+358,Chennai,8,0,600049,Chennai,4,4,0,4,"MOHAN NURSING HOME, VILLIVAKKAM",0,0,4,"# 165, MTH Road, Villivaakkam, Villivakkam, Chennai, Tamil Nadu 600049, India",1619662809000
+359,Chennai,40,2,600024,Chennai,28,8,2,10,"Best Hospitals,Kodambakkam",0,2,2,"Kodambakkam-Sriperumbudur Road, Kamarajar Colony, Thalaiyari Palaiyam, Kodambakkam, Chennai, Tamil Nadu 600024, India",1619926100000
+360,Thiruvarur,20,0,614001,Thiruvarur,10,2,0,10,"Raj Hospital, Mannargudi",0,0,0,"No 10, Mannargudi HO, near Balakrishna Nagar, Mannargudi, Tamil Nadu 614001, India",1619924001000
+361,Chengalpattu,32,2,600045,Chengalpattu,0,0,3,29,"Kasthuri Hospital , Thambaram",0,3,2,"119, Shanmugam Road, West Tambaram, Tambaram West, Tambaram, Chennai, Tamil Nadu 600045, India",1619941629000
+362,Chennai,20,0,600007,Chennai,5,0,0,15,"Sri Singhvi Health Centre, Purasaivakkam",0,0,0,"127, Brickklin Rd, Lumbini Square, Purasaiwakkam, Chennai, Tamil Nadu 600007, India",1619928779000
+363,Namakkal,55,1,638008,Namakkal,40,21,1,14,Visaalam Hospital,1,1,5,"No.9A, Pallipalayam - Sankari Rd, Pallipalayam, Tamil Nadu 638008, India",1619922864000
+364,Krishnagiri,70,0,635109,Krishnagiri,58,0,0,12,"Gunam super speciality hospital,Hosur",0,0,0,"#35, Tank street, (survey No: 120/2B2 Opp to Government Hospital, Denkanikottai Road, Dt, Shanthi Nagar West, Hosur, Tamil Nadu 635109, India",1619933946000
+365,Salem,58,0,636203,Salem,21,0,11,26,Sree jeyam ortho & multispeciality Hospital,0,0,0,"Mallur, Tamil Nadu 636203, India",1619932424000
+366,Krishnagiri,40,0,635001,Krishnagiri,0,0,0,40,St.Louis Hospital,0,0,37,"Krishnagiri, Tamil Nadu 635001, India",1607311429000
+367,Vellore,190,19,632004,Vellore,0,0,27,163,Naruvi Hospitals(A Unit of m/s.Sanco ),3,27,0,"Chennai - Bengaluru Highway, 72, Collector's Office Rd, NH 48, Samuel Nagar, Thottapalayam, Vellore, Tamil Nadu 632004, India",1619935925000
+368,Krishnagiri,30,0,635001,Krishnagiri,10,1,0,20,Nathan’s Speciality Hospital,0,1,1,"Co-Operative Colony Road, Co-operative Colony, Thiruvalluvar Nagar, Krishnagiri, Tamil Nadu 635001, India",1619931532000
+369,Chennai,8,0,600013,Chennai,0,0,2,6,"Sudha Hospital, Royapuram",0,1,0,"Pumping Station St, Somu Nagar, Old Washermanpet, Chennai, Tamil Nadu 600013, India",1619943593000
+370,Tirunelveli,24,0,627005,Tirunelveli,7,0,6,11,Peace Health Centre,0,2,0,"48H, 5, S Bypass Rd, Road, Tirunelveli, Tamil Nadu 627005, India",1619940963000
+371,Chennai,15,0,600073,Chennai,10,2,2,3,Jolen Hospital,0,0,0,"Velachery Rd, Sembakkam, Chennai, Tamil Nadu 600073, India",1619931163000
+372,Chennai,25,2,600011,Chennai,0,0,6,19,Sen Hospital,0,2,0,"New No. 51, Old, No. 18, Bunder Garden St, opp. Lourdes School, Bunder Garden, Perambur, Chennai, Tamil Nadu 600011, India",1619866075000
+373,Chennai,34,0,600004,Chennai,15,0,0,19,"st. Isabels hospital, Maylapore",0,2,0,"No: 49, Oliver Rd, next to Luz Church, Kattukoil Garden, Mylapore, Chennai, Tamil Nadu 600004, India",1619921879000
+374,Chennai,7,0,600032,Chennai,0,0,3,4,"Sri Balaji Hospital, guindy",0,0,1,"No.1, Lawyer Jaganathan St, Guindy, Chennai, Tamil Nadu 600032, India",1619676947000
+375,Chennai,12,0,600016,Chennai,0,0,0,12,"Radha Rajendran Hospital, Alandur",0,0,0,"No. 7, 10, Vembuli Amman Koil St, Mela Ilandaikulam, Alandur, Chennai, Tamil Nadu 600016, India",1619242790000
+376,Chennai,25,0,603202,Chennai,0,0,10,15,"One health hospital, Vandalur",0,4,0,"174, Grand Southern Trunk Rd, Kilambakkam, Urapakkam, Vandalur, Tamil Nadu 603202, India",1619868945000
+377,Chennai,54,1,600024,Chennai,13,0,10,31,"Srinivasa Hospital, Kodampakkam",0,2,0,"47, Railway Border Rd, Taylor Estate, Kodambakkam, Chennai, Tamil Nadu 600024, India",1619850385000
+378,Kanyakumari,29,2,629165,Kanyakumari,4,4,7,18,"PPK hospital, Marthandam",7,3,12,"NH 47, Opp to C.S.I Church, Marthandam, Tamil Nadu 629165, India",1619937894000
+379,Salem,15,2,636004,Salem,3,0,2,10,RK hospital,0,2,0,"Meyyanur Road, Meyyanur, Meyyanur, Salem, Tamil Nadu 636004, India",1619940856000
+380,Karur,20,1,639001,Karur,0,0,4,16,Nachimuthu hospital,4,1,3,"Thirugampuliur, Karur, Tamil Nadu 639001, India",1619938252000
+381,Virudhunagar,41,2,626101,Virudhunagar,0,0,5,36,Amar hospital,5,2,10,"opp. New Bus Stand, Vellai Kottai, Aruppukkottai, Tamil Nadu 626101, India",1619922820000
+382,Krishnagiri,30,0,635109,Krishnagiri,30,25,0,0,"Uma Kumar Hospital, Hosur",0,0,0,"Bangalore Bye Pass Road, Hamumanthapuram, Anna Nagar, Tamil Nadu 635109, India",1619444953000
+383,Tirunelveli,28,0,627007,Tirunelveli,8,0,5,15,VJ Hospital,0,5,0,"2-12/1,STC Collage Road, to, New Bus Stand Road, Perumalpuram, Vasantha Nager, Tirunelveli, Tamil Nadu 627007, India",1619916765000
+384,Thiruchirappalli,20,1,620002,Thiruchirappalli,2,0,6,12,Atlas Hospital,0,1,0,"34/1-First Cross Karur Road, Bus Stand, near Chathiram, V N Nagar, Tiruchirappalli, Tamil Nadu 620002, India",1619936191000
+385,Tiruppur,30,3,641652,Tiruppur,4,1,8,18,Velan Hospital,0,3,2,"32, A-1, Gandhi road, anupparpalayam pudur, Periyar Colony, Velampalayam, Tiruppur, Tamil Nadu 641652, India",1619924630000
+386,Dindigul,28,3,624703,Dindigul,14,13,10,4,"Sakthi Vinayagar Multispeciality Hospital, Guziliamparai",8,5,3,"Gujiliamparai, Tamil Nadu 624703, India",1619943461000
+387,Chennai,19,0,600017,Chennai,0,0,0,19,Be well hospital T.Nagar,0,0,1,"5A, Vijaya Raghava Rd, Drivers Colony, T. Nagar, Chennai, Tamil Nadu 600017, India",1619517034000
+388,Chennai,25,0,,Chennai,5,0,5,15,Vijai's Nursing home,0,0,0,,1619509845000
+389,Chennai,19,0,600106,Chennai,7,0,2,10,Prime Indian Hospitals,0,0,0,"No. 1051, Poonamalle High Road, Amaravathi Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",1619583958000
+390,Thanjavur,30,1,614601,Thanjavur,0,0,2,28,Dravidian Hospital,1,1,0,"No 4, Samumudali street, Neela Theatre Road, Mainckam Colony, Pattukkottai, Tamil Nadu 614601, India",1619939005000
+391,Coimbatore,55,0,641045,Coimbatore,20,15,0,35,Gem Hospital and Research centre,0,0,0,"45, Pankaja Mills Rd, Palaniappa Nagar, Sowripalayam Pirivu, Ramanathapuram, Tamil Nadu 641045, India",1619933087000
+392,Coimbatore,50,0,641653,Coimbatore,6,4,8,36,"N.M. Hospital, Annur",0,2,2,"Annur, Coimbatore, NH-209, Dindigul to Bangalore Highway, Coimbatore, Coimbatore, Tamil Nadu 641653, India",1619934107000
+393,Namakkal,100,10,637205,Namakkal,50,50,10,40,Swamy Vivekanandha Medical College Hospital and Research Institute,10,10,40,"Unjanai, Elayampalayam, DT, Tiruchengode, Tamil Nadu 637205, India",1619920642000
+394,Tiruvallur,35,0,600056,Tiruvallur,20,0,0,15,"Be well , Ponamallee",0,0,0,"186, Trunk Rd, Kamatchi Nagar, Mahalakshmi Nagar, Poonamallee, Chennai, Tamil Nadu 600056, India",1619869276000
+395,Thanjavur,27,3,613004,Thanjavur,0,0,10,17,National pharma,0,3,0,"National Pharma Hospital and Research Institute, 111, Medical College - Vallam Road, (Sundaram Paints Busstop), THANJAVUR - 613 004. Tamil Nadu. India., Medical College Rd, Krishna Nagar, Jayalakshmi Nagar, Neelagiri, Tamil Nadu 613004, India",1619939574000
+396,Thiruchirappalli,25,0,,Thiruchirappalli,11,7,5,9,"Akshaya Hospital,Thottiyam",2,2,0,,1619922603000
+397,Chennai,20,0,,Chennai,17,4,1,2,"Amrit Medical Centre,Purasawakkam",0,0,0,,1619871300000
+398,Salem,40,0,,Salem,15,4,0,25,AP Medical Centre,0,0,0,,1619934786000
+399,Chennai,20,0,,Chennai,0,0,5,15,Fortis healthcare – Vadapalani,0,1,0,,1619846341000
+400,Chennai,28,0,,Chennai,0,0,6,28,"City Tower Hospital,Anna Nagar",0,1,0,,1619781454000
+401,Tiruppur,25,0,,Tiruppur,10,0,2,13,"CNS Hospitals, Palangarai",0,0,7,,1619939135000
+402,Chengalpattu,10,2,,Chengalpattu,2,0,4,4,"Das Nursing Home,Chengalpattu",4,2,0,,1619874452000
+403,Kanyakumari,32,1,,Kanyakumari,22,22,2,8,"Dr. Kumaraswami Health Centre, Perumalpuram",2,1,8,,1619937925000
+404,Chennai,10,0,,Chennai,3,3,0,7,"Esha Hospital,Old Washermenpet",0,0,0,,1619772365000
+405,Chennai,12,0,,Chennai,4,0,4,4,Faith Multispecialty Hospital,0,4,0,,1619592343000
+406,Chennai,15,0,,Chennai,5,1,0,10,"G.R Hospital,Adambakkam",0,0,1,,1619788090000
+407,Madurai,36,0,,Madurai,0,0,18,18,"Genezen Indus Hopsital,Madurai",15,2,0,,1619942804000
+408,Chennai,50,0,,Chennai,3,0,10,37,"GeriCare, T Nagar",4,2,14,,1619762434000
+409,Chennai,14,0,,Chennai,8,0,0,6,"Hindu Mission Health Services,Nanganallur",0,0,0,,1619779403000
+410,Chennai,0,0,,Chennai,0,0,0,0,"Iyyappa Hospitals and Diabetes Research Centre Pvt Ltd,Perambur",0,0,0,,1619076768000
+411,Kancheepuram,0,0,,Kancheepuram,0,0,0,0,"Jaya Hospital,Sriperumbudhur",0,0,0,,1619076814000
+412,Thoothukudi,15,1,,Thoothukudi,7,0,3,5,"Jayashri Hospital,Tuticorin",0,1,0,,1619940733000
+413,Sivagangai,32,1,,Sivagangai,6,0,0,26,"Jedaiah Steve Hospital,Karaikudi",0,1,0,,1619944930000
+414,Chennai,0,0,,Chennai,0,0,0,0,"Jyoti Hospital,Old Washermenpet",0,0,0,,1619076965000
+415,Thanjavur,30,2,,Thanjavur,0,0,6,24,"Kanakesa Thevar Memorial Hospital,Thanjavur",6,2,6,,1619938979000
+416,Chengalpattu,10,1,,Chengalpattu,0,0,0,10,"Kathir Memorial Hospital,Chengalpattu",0,1,0,,1619865680000
+417,Salem,15,1,,Salem,3,0,2,10,"Kavin Hospital,Omalur",2,1,1,,1619929778000
+418,Chennai,0,0,,Chennai,0,0,0,0,"Kavitha Ortho and Multi Speciality Hospital,Chrompet",0,0,0,,1619077266000
+419,Tiruppur,25,1,,Tiruppur,5,1,8,12,"Kongu Heart Center, Dharapuram",8,2,9,,1619926564000
+420,Chengalpattu,17,1,,Chengalpattu,0,0,0,17,"Lakshmi Nursing Home, Pallavaram",0,1,0,,1619596024000
+421,Chennai,0,0,,Chennai,0,0,0,0,"Leela Specialty Hospital,Tiruvottiyur",0,0,0,,1619077400000
+422,Kancheepuram,46,0,,Kancheepuram,3,0,8,35,Mahalakshmi Multispecialty Hospital,0,2,0,,1619924637000
+423,Chennai,20,0,,Chennai,0,0,0,20,"Nagamani Hospital,Old Washermenpet",0,0,0,,1619928995000
+424,Chennai,0,0,,Chennai,0,0,0,0,Nalam Hospital Pvt Ltd,0,0,0,,1619077534000
+425,Chennai,14,0,,Chennai,0,0,3,11,"Oxymed Hospital,Nandanam",0,0,0,,1619929922000
+426,Chennai,0,0,,Chennai,0,0,0,0,"Pavithra Hospital Pvt Ltd,Teynampet",0,0,0,,1619077623000
+427,Thiruchirappalli,10,0,,Thiruchirappalli,4,0,1,5,"Prabhu Diabetes Specialty Centre,Trichy",0,1,0,,1619924887000
+428,Chennai,0,0,,Chennai,0,0,0,0,"Prasanth Fertility Research Centre,Chetpet",0,0,0,,1619077702000
+429,Pudukkottai,20,3,,Pudukkottai,0,0,10,10,"Pudhugai Star Hospital,Pudukottai",1,3,1,,1619940996000
+430,Chennai,0,0,,Chennai,0,0,0,0,"Ramani Hospital,Ashok Nagar",0,0,0,,1619077915000
+431,Chennai,24,0,,Chennai,3,0,4,17,Right Hospitals Pvt Ltd,0,2,0,,1619931781000
+432,Chengalpattu,22,0,,Chengalpattu,0,0,0,22,"RKP Hospital,Nanmangalam",0,0,0,,1619937554000
+433,Krishnagiri,27,0,,Krishnagiri,0,0,0,27,"S.B.S. Hospital, Hosur",0,0,12,,1619942085000
+434,Namakkal,10,1,,Namakkal,0,0,2,8,"Sakthi Hospital,Namakkal",2,1,1,,1619911435000
+435,Chennai,14,0,,Chennai,0,0,0,14,"Senthil Priya Hospital, Kodungaiyur",0,0,4,,1619770621000
+436,Chennai,0,0,,Chennai,0,0,0,0,"Shens Hospital, Ashok Nagar",0,0,0,,1619078340000
+437,Thiruchirappalli,12,0,,Thiruchirappalli,8,6,0,4,"Sri AuroMa Hospital,Trichy",0,0,4,,1619924984000
+438,Chennai,0,0,,Chennai,0,0,0,0,"Sri Chakra Multispecialty Hospital,Nanganallur",0,0,0,,1619078564000
+439,Chennai,0,0,,Chennai,0,0,0,0,"Sri Hospital, Tondiarpet",0,0,0,,1619078600000
+440,Thanjavur,15,2,,Thanjavur,2,0,3,10,Sri Kumaran Gastro Private Ltd,1,2,2,,1619943900000
+441,Chennai,0,0,,Chennai,0,0,0,0,Sri Ranga Hospital,0,0,0,,1619078676000
+442,Chennai,0,0,,Chennai,0,0,0,0,"Susi Hospital, Thiruvottiyur",0,0,0,,1619078717000
+443,Madurai,15,0,,Madurai,6,0,3,6,"Thavam Hospital, K.Pudhur",1,0,0,,1619921613000
+444,Tiruppur,25,2,,Tiruppur,19,5,2,4,"Vel Hospital, Dharapuram",1,2,4,,1619926363000
+445,Tiruppur,20,2,,Tiruppur,12,2,3,5,"Vel Hospital,Udumalpet",2,2,0,,1619940841000
+446,Madurai,10,1,,Madurai,0,0,3,7,Vijaya Hospital,0,1,2,,1619922270000
+447,Madurai,40,2,,Madurai,9,1,15,16,"Vikram Multispeciality hospital, Madurai",7,2,0,,1619931265000
+448,Chennai,10,0,,Chennai,0,0,2,8,"Westminster HealthCare,Nungambakkam",0,0,0,,1619934175000
+449,Chennai,0,0,,Chennai,0,0,0,0,"Ashwin Fed Specialty Hospital, Anna Nagar",0,0,0,,1619087579000
+450,Tiruppur,34,3,,Tiruppur,6,6,0,28,"Bala Ortho Hospital, Dharapuram",0,3,2,,1619928734000
+451,Madurai,10,0,,Madurai,4,4,3,3,"Iswarya Fertility Services Pvt Ltd,Ellis Nagar",3,0,3,,1619925197000
+452,Chennai,120,0,,Chennai,21,0,8,91,"Hindu Mission Hospital,Tambaram",0,8,0,,1619921490000
+453,Salem,70,0,,Salem,10,8,18,42,"Deepam Hospital,Salem",0,0,24,,1619928463000
+454,Tiruvallur,48,4,,Tiruvallur,0,0,5,43,RIMS Hospital,0,4,2,,1619930171000
+455,Thoothukudi,15,2,,Thoothukudi,0,0,3,12,Arputham Hospital,0,2,0,,1619939491000
+456,Kanyakumari,40,0,,Kanyakumari,26,0,8,6,Morris Mathiys hospital,0,0,0,,1619938012000
+457,Kanyakumari,50,0,,Kanyakumari,30,5,2,18,Holy Cross Hospital,2,0,9,,1619937981000
+458,Theni,30,0,,Theni,5,2,5,20,Krishnammal Memorial hospital.,5,0,0,,1619922564000
+459,Tiruppur,98,2,,Tiruppur,20,0,10,68,Sri Kumaran Hospital,0,2,0,,1619926622000
+460,Theni,50,3,,Theni,20,15,10,20,NRT hospital,2,3,6,,1619946462000
+461,Coimbatore,36,0,,Coimbatore,0,0,4,32,Manu Hospital,4,0,8,,1619931073000
+462,Chennai,15,0,,Chennai,3,1,2,10,"Aditya Kamaraja Hospital Pvt Ltd,Virugambakkam",0,0,2,,1619926933000
+463,Salem,20,0,,Salem,6,6,2,12,"Appu Venkatachalam Medical Research Centre (P) Ltd, Kattur",2,0,5,,1619940879000
+464,Thiruchirappalli,8,0,,Thiruchirappalli,0,0,4,4,Assured Best Care Hospital(P) Ltd (ABC Hospital) Annamalai Nagar,2,0,0,,1619940988000
+465,Chengalpattu,25,2,,Chengalpattu,15,0,2,8,"Christudas Orthopaedic Speciality Hospital,East Tambaram",0,2,0,,1619935265000
+466,Thiruchirappalli,15,1,,Thiruchirappalli,5,1,2,8,"City Medical Center, Thennur",2,1,2,,1619925096000
+467,Coimbatore,25,1,,Coimbatore,14,3,2,9,"Coimbatore Child Trust Hospital,Singanallur",2,1,9,,1619932607000
+468,Cuddalore,25,2,,Cuddalore,6,0,4,15,"Cuddalore Specialty Hospital,Manjakuppam",0,2,0,,1619940983000
+469,Thiruchirappalli,22,1,,Thiruchirappalli,3,0,2,17,"Decca Hospital, Thillai Nagar",0,1,3,,1619922817000
+470,Thanjavur,18,2,,Thanjavur,0,0,3,15,"Dr.Vanchilingam Hospital Pvt Ltd,K.S Nagar",1,2,10,,1619939541000
+471,Chennai,25,0,,Chennai,21,1,0,4,"Ezhil Hospital, Tondiarpet",0,0,0,,1619870095000
+472,Coimbatore,15,0,,Coimbatore,10,7,0,5,"Fathima Hospital,Podanur",0,0,0,,1619931326000
+473,Thiruchirappalli,20,0,,Thiruchirappalli,4,4,2,14,"Jagadha Hospital,Thillai Nagar",2,0,9,,1619939719000
+474,Thiruchirappalli,16,2,,Thiruchirappalli,2,2,6,8,"Kanapathy Memorial Hospital, Musiri",4,2,4,,1619934436000
+475,TheNilgiris,16,1,,TheNilgiris,6,5,2,8,"Kotagiri Medical Fellowship Hospital,Kotagiri",2,1,8,,1619691699000
+476,Ariyalur,32,1,,Ariyalur,0,0,4,28,"KVS Hospital Pvt Ltd,Valaja Nagaram",4,1,14,,1619929810000
+477,Salem,13,1,,Salem,0,0,4,9,"Malar Hospital,Vazhapadi",2,1,2,,1619940748000
+478,Thiruchirappalli,23,1,,Thiruchirappalli,10,0,3,10,"Max Care Hospital, Annamalai Nagar",2,1,4,,1619934462000
+479,Chennai,17,2,,Chennai,0,0,2,15,"Metro Male Clinic a unit of Gunasekaran Hospitals Pvt Ltd,Porur",1,2,4,,1619855596000
+480,Chennai,0,0,,Chennai,0,0,0,0,"Mount Specialty Hospital Pvt Ltd,Adambakkam",0,0,0,,1619520633000
+481,Chennai,0,0,,Chennai,0,0,0,0,"New Ruthran Hospital,Aynavaram",0,0,0,,1619520837000
+482,Perambalur,10,1,,Perambalur,4,4,0,6,"Sanjjeev Hospital,Venkatesapuram",0,1,6,,1619933424000
+483,Thoothukudi,15,1,,Thoothukudi,0,0,4,11,"Sasi Hospital, Kovilpatti",0,1,0,,1619942729000
+484,Salem,47,2,,Salem,0,0,10,37,"Shri Hospitals, Shankar Nagar",0,2,3,,1619928600000
+485,Chengalpattu,0,0,,Chengalpattu,0,0,0,0,Shri Isari Velan Mission Hospital,0,0,0,,1619521115000
+486,Thiruchirappalli,15,0,,Thiruchirappalli,6,1,3,6,"Silverline Speciality Hospital, Thillai Nagar",0,2,0,,1619939143000
+487,Thiruchirappalli,23,2,,Thiruchirappalli,3,0,2,18,"SMS Hospital,Salai Road",0,2,0,,1619940611000
+488,Ariyalur,10,1,,Ariyalur,5,5,5,0,"SR Hospital,Ariyalur",4,1,0,,1619933314000
+489,Thiruchirappalli,18,0,,Thiruchirappalli,7,7,4,7,Sri Kumaran Hospital Manapparai,4,0,7,,1619940395000
+490,Karur,8,0,,Karur,0,0,4,4,"Sri Rathina Hospital,Muthu Nagar",0,0,0,,1619924338000
+491,Salem,15,3,,Salem,0,0,3,12,"Sundaram Multispecialty Hospital,Salem",0,3,0,,1619930016000
+492,Coimbatore,20,0,,Coimbatore,12,0,2,6,"V.G Hospital,Thudiyalur",0,0,0,,1619925427000
+493,TheNilgiris,8,0,,TheNilgiris,0,0,0,8,"Shiva Shakthi Hospital,Udagamandalam",0,0,4,,1619839185000
+494,Chennai,25,2,,Chennai,1,1,8,16,"Be Well Hospitals, Ambattur",3,2,16,,1619783121000
+495,Virudhunagar,7,1,,Virudhunagar,2,0,1,4,"Chennai Hospital, Rajapalayam",0,1,0,,1619943978000
+496,Virudhunagar,12,1,,Virudhunagar,0,0,3,9,MSB Hospital,3,1,4,,1619924968000
+497,Chennai,0,0,,Chennai,0,0,0,0,"New Life Hospital,Rajakilpakkam",0,0,0,,1619778774000
+498,Tiruppur,35,0,,Tiruppur,10,0,3,22,"Sakthi Nursing Home,Tiruppur",0,0,0,,1619928206000
+499,Virudhunagar,7,1,,Virudhunagar,0,0,2,5,"Sri Ram Hospital - Sugasthala,Aruppukottai",2,1,2,,1619862665000
+500,Chennai,0,0,,Chennai,0,0,0,0,"Kasthuri Hospital,West Tambaram",0,0,0,,1619779866000
+501,Tiruppur,40,2,,Tiruppur,22,3,8,10,OMS Hospital Tiruppur,0,2,0,,1619929407000
+502,Tiruppur,25,2,,Tiruppur,12,9,5,8,Malarpriya Hospital,2,3,3,,1619930169000
+503,Erode,50,0,,Erode,10,6,6,34,"Veena hospital, nasiyanur",4,2,8,,1619854247000
+504,Erode,30,0,,Erode,13,2,7,10,"Abirami Kidney Care Dr.Thangavelu Hospital, Brough Road",0,3,0,,1619942612000
+505,Thiruchirappalli,12,0,,Thiruchirappalli,2,2,3,7,"Aiyshwariya Hospital, Woraiyur",3,0,7,,1619924215000
+506,Chennai,0,0,,Chennai,0,0,0,0,"Anand Hospital,Manali",0,0,0,,1619878529000
+507,Chennai,0,0,,Chennai,0,0,0,0,"Anbu Hospital, Velachery",0,0,0,,1619878685000
+508,Chennai,0,0,,Chennai,0,0,0,0,"ARK Hospital, Velachery",0,0,0,,1619878824000
+509,Chennai,0,0,,Chennai,0,0,0,0,"Arokya Hospital, West K.K Nagar",0,0,0,,1619878868000
+510,Tiruvannamalai,0,0,,Tiruvannamalai,0,0,0,0,"Arunai Hospital,Thenmathur",0,0,0,,1619878918000
+511,Chennai,15,0,,Chennai,4,2,5,6,"AVS Cardiac Centre,Triplicane",2,0,1,,1619933536000
+512,Chennai,0,0,,Chennai,0,0,0,0,"B.M Hospital,Nanganallur",0,0,0,,1619878994000
+513,Erode,25,1,,Erode,15,4,2,8,"Bewell Hospitals, Gandhiji Road",1,1,2,,1619944612000
+514,Erode,19,0,,Erode,7,1,2,10,"C.K.Hospital, Balasubbrayalu Street",0,0,1,,1619925574000
+515,Chennai,0,0,,Chennai,0,0,0,0,"Care and Cure Speciality Hospital,Ayanavaram",0,0,0,,1619879152000
+516,Tiruvallur,0,0,,Tiruvallur,0,0,0,0,"Chennai Health Foundation, Ambatur",0,0,0,,1619879446000
+517,Chennai,0,0,,Chennai,0,0,0,0,"Chennai National Hospital,Ernavoor",0,0,0,,1619879522000
+518,Erode,50,0,,Erode,30,0,5,15,"CSI Hospital, Brough Road",5,0,12,,1619936690000
+519,Karur,0,0,,Karur,0,0,0,0,"Deepa Kannan Hospital, Muthu Nagar",0,0,0,,1619879648000
+520,Chennai,0,0,,Chennai,0,0,0,0,"Dr.Shahs Clinic,T.Nagar",0,0,0,,1619879747000
+521,Chennai,0,0,,Chennai,0,0,0,0,"DRJ Hospitals(P) Ltd,Kolathur",0,0,0,,1619879847000
+522,Erode,20,0,,Erode,0,0,0,20,"Erode Emergency Care Hospital, Veerappampalayam",0,0,4,,1619942455000
+523,Chennai,11,2,,Chennai,2,0,2,7,"Eswar Medical Foundation, Kolathur",0,2,1,,1619946396000
+524,Tirunelveli,0,0,,Tirunelveli,0,0,0,0,"Gold Child & Chest Hospital,Vannarpettai",0,0,0,,1619880029000
+525,Chennai,0,0,,Chennai,0,0,0,0,"K.C.Hospital, Avadi",0,0,0,,1619880075000
+526,Salem,20,0,,Salem,8,8,2,10,K.M Natraj's Nursing Home,2,0,10,,1619929857000
+527,Cuddalore,18,0,,Cuddalore,17,17,0,1,"Kalyaan Speciality Hospital, Alpet",0,0,0,,1619940939000
+528,Erode,45,2,,Erode,24,13,2,19,"Kalyani Kidney Care Centre, Sampath Nagar Main Road",2,2,0,,1619943211000
+529,Madurai,20,0,,Madurai,8,0,2,10,"Karunai Multispecialty Hospital, B.B Kulam",0,0,0,,1619928491000
+530,Thiruchirappalli,18,0,,Thiruchirappalli,11,7,3,4,"Kathir Hospital, Woraiyur",2,0,2,,1619940852000
+531,Chennai,0,0,,Chennai,0,0,0,0,"Khm Hospial, Anna Nagar",0,0,0,,1619880347000
+532,Kancheepuram,0,0,,Kancheepuram,0,0,0,0,"KPP Multispeciality Hospital, Sholinganallur",0,0,0,,1619880396000
+533,Chennai,0,0,,Chennai,0,0,0,0,KVT Health Centre,0,0,0,,1619880449000
+534,Krishnagiri,0,0,,Krishnagiri,0,0,0,0,"Lakshmi Hospital,Hosur",0,0,0,,1619880499000
+535,Chennai,0,0,,Chennai,0,0,0,0,M/s Dr.V.BalajiDr.V.Seshiah Diabetes care and R Institute,0,0,0,,1619880537000
+536,Chennai,0,0,,Chennai,0,0,0,0,"M/s K.M. Hospital, Vyarsarpadi",0,0,0,,1619880601000
+537,Thanjavur,21,0,,Thanjavur,10,10,1,10,"Medway Hospital, Kumbakonam",1,2,2,,1619940716000
+538,Tiruvallur,0,0,,Tiruvallur,0,0,0,0,"MMRV Hospital, Azhinjivakkam",0,0,0,,1619880700000
+539,Chennai,0,0,,Chennai,0,0,0,0,"MMRV Hospital, Mogappair West",0,0,0,,1619880780000
+540,Tirunelveli,0,0,,Tirunelveli,0,0,0,0,"Muthu Hospital, Kulavanigarpuram",0,0,0,,1619880849000
+541,Erode,0,0,,Erode,0,0,0,0,"Nandha Medical College and Hospital, Pitchandampalayam",0,0,0,,1619881017000
+542,Karur,0,0,,Karur,0,0,0,0,"Nathan Hospital, Anna Arch",0,0,0,,1619881082000
+543,Chennai,0,0,,Chennai,0,0,0,0,"NRG Speciality Hospitals, Ramapuram",0,0,0,,1619881195000
+544,Erode,20,3,,Erode,6,0,4,10,"Ortho Life Hospital, Anusha Hospital Complex",2,3,0,,1619940052000
+545,Kancheepuram,0,0,,Kancheepuram,0,0,0,0,"PCMC Hospital, Pallavaram",0,0,0,,1619881288000
+546,Chennai,0,0,,Chennai,0,0,0,0,"Pradeep Nursing Home, Puzuthivakkam",0,0,0,,1619881334000
+547,Erode,25,0,,Erode,7,2,3,15,"Senthil Multi Speciality Hospital, Perundurai Road",0,2,3,,1619938277000
+548,Chennai,0,0,,Chennai,0,0,0,0,"SenthilPriya Hospital,Teynampet",0,0,0,,1619881436000
+549,Krishnagiri,0,0,,Krishnagiri,0,0,0,0,"Shree Arunachala Hospital,Krishnagiri",0,0,0,,1619881477000
+550,Chennai,0,0,,Chennai,0,0,0,0,"Sri Pooja Maternity Clinic, Kodungaiyur",0,0,0,,1619881510000
+551,Tiruvallur,0,0,,Tiruvallur,0,0,0,0,"Sri Sundharsanam Hospital, Avadi",0,0,0,,1619881622000
+552,Chennai,0,0,,Chennai,0,0,0,0,"Srushti Hospital, Ramapuram",0,0,0,,1619881663000
+553,Krishnagiri,0,0,,Krishnagiri,0,0,0,0,"St.Peter’s Medical College Hospital & Research Institute, Hosur",0,0,0,,1619881723000
+554,Thiruchirappalli,20,0,,Thiruchirappalli,14,10,2,4,"Sugam Hospital, Manapparai",2,0,4,,1619924536000
+555,Chennai,0,0,,Chennai,0,0,0,0,"Sugan Hospital, Neelangarai",0,0,0,,1619881826000
+556,Krishnagiri,0,0,,Krishnagiri,0,0,0,0,"Surya Multispeciality Hospital, Hosur",0,0,0,,1619881871000
+557,Chennai,0,0,,Chennai,0,0,0,0,"Swaram Medicare &Research Centre Pvt Ltd, Sholinganallur",0,0,0,,1619881911000
+558,Chennai,0,0,,Chennai,0,0,0,0,"Trustlife Medical Centre, Panaiyur",0,0,0,,1619881969000
+559,Namakkal,0,0,,Namakkal,0,0,0,0,"Varun Hospital, Rasipuram",0,0,0,,1619882022000
+560,Chennai,0,0,,Chennai,0,0,0,0,"Vasantha Hospital, Thiruvottiyur",0,0,0,,1619882113000
+561,Kanyakumari,30,0,,Kanyakumari,7,7,3,20,"Vijayakumar Hospital,Swamiyarmadam",3,0,20,,1619938067000
+562,Kanyakumari,25,0,,Kanyakumari,10,10,5,10,"William Hospital,Nagercoil",5,0,10,,1619938105000
+563,Chennai,0,0,,Chennai,0,0,0,0,"Singhvi Health Center, Mint Street",0,0,0,,1619885252000

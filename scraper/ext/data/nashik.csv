@@ -1,0 +1,176 @@
+id,area,total_beds_allocated_to_covid,available_icu_beds_with_ventilator,officer_designation,total_beds_without_oxygen,available_beds_without_oxygen,officer_name,total_icu_beds_without_ventilator,total_beds_with_oxygen,hospital_phone,hospital_name,available_icu_beds_without_ventilator,total_icu_beds_with_ventilator,available_beds_with_oxygen,hospital_address,last_updated_on,hospital_category
+0,East,16,0,,11,9,,0,5,8975042579,24 * 7  Covid Care Center,0,0,0,24* 7 Covid care Center  behind Canta Care Center  bhabha Nagar Nashik,1619947257687,DCHC
+1,Cidco,15,2,,0,0,,3,10,8237094770,Ankur Maternity and Nursing Home,1,2,6,"Plot NO 1, Vrundavan Nagar, Nr. Mauli Lawns, ITI Ambad Link Road, Kamatwade, CIDCO, Nashik",1619947257687,DCHC
+2,Panchavati,30,0,,7,3,,6,15,7768004530,Apex Super Specialty Hospital (Amrutdham ),1,2,8,Near amrutdham Bus stop Mumbai Agra Highy way Nahsik,1619947257687,DCHC
+3,Cidco,67,0,9922414903,27,27,Er. Mr. Quazi,23,11,9850976975,Appex Wellness,9,7,11,"Appex Wellness, Plot no. 187, Govind nagar,Nashik",1619947257687,DCHC
+4,Cidco,20,0,,0,0,,5,14,9307517018,Ashtang Hospital,0,1,0,B Square 3rd Floor infront of  Atul Sweets Upendra Nagar Nashik 10,1619947257687,DCHC
+5,Satpur,25,0,,0,0,,5,15,9225115777,Assure Care plus,0,5,6,4th floor Star Plus Complex  Nashik Road,1619947257687,DCHC
+6,Panchavati,22,0,9689933309,0,0,Er. Kolhe  Dattatray,20,2,9011518175,Ayush,1,0,0,"Aayush Maternity and Nursing Home, Nimai Bus Stand , Panchwati,Nashik",1619947257687,DCHC
+7,Nashik Road,20,6,,0,0,,0,14,8411015465,Care And Cure Covid Center,0,6,14,2nd Floor Hari Bhakti Surana Hospital Datta Mandir Nashik Road,1619947257687,DCHC
+8,Panchavati,20,0,,0,0,,0,16,7892707764,Chopda Hospital,0,4,9,"Nr. Mahalakshmi Theater, Dindori Road, Panchavati, Nashik",1619947257687,DCHC
+9,East,12,0,,0,0,,2,9,7447774789,City Care Hospital,0,1,0,Near Nasardi Bridge Nashik Puna Road Nashik,1619947257687,DCHC
+10,Nashik Road,20,0,,0,0,,2,16,8888328370,Dattakrupa Hospital,0,2,0,Anand Commercial complex Near dhande Jwelers Datta Mandir Nashik Road,1619947257687,DCHC
+11,West,40,0,8788202370,0,0,Er. Vasant Thumse,4,32,9011002115,Deogaonkar Hospital,0,4,0,"Old Pandit Colony, Nashik",1619947257687,DCHC
+12,West,12,0,,0,0,,1,8,7709477729,Deore Hospital,0,3,0,astvinayak app near dholya ganpati ashok sramb,1619947257687,DCHC
+13,West,15,0,,0,0,Er. Mr.Gautam  handge,8,0,9850135999,Dhadiwal Hospital,0,7,0,New CBS Opp Thakkar Bazzar Trambak Road,1619947257687,DCHC
+14,Nashik Road,8,0,7276884261,0,0,Er. Bapte Pankaj Arun,6,0,7768090444,Divyajyot,0,2,0,"Shri Divyajyot Hospital, 2nd Floor, Hari-Bhakti, Artilarry Center Road, Nashik-Road",1619947257687,DCHC
+15,West,80,0,,80,80,,0,0,66767767677,Doc Katkade Hospital and Covid Center,0,0,0,Flat no 9 Near Kulkarni Garden Sharanpur Road Nashik,1619947257687,DCHC
+16,Panchavati,10,0,,0,0,,0,8,7774817915 / 9657483227,Dr Chavan Hospital (Panchavati ),0,2,2,"Shop no 3,4 Eknath Residency Rajlaxmi Bank Samor Damodhar road Hirawadui road Panchavati Nashik 422003",1619947257687,DCHC
+17,Satpur,15,0,7588616331,0,0,Er. Santosh Belgaonkar,3,12,9823222203,Dr karad Hospital,3,0,0,Ghatol Galli Tribak Road Satpur,1619947257687,DCHC
+18,Cidco,11,0,,4,0,,0,6,9011928067,Dr. Gunjal Maternity & Nursing Home,0,1,0,"Bsides ATM SBI, Lekha Nagar,Cidco, Nashik",1619947257687,DCHC
+19,Nashik Road,10,0,,0,0,,1,5,9225114599 / 8975583862,Dr.Bhutada maternity and Nursing home,0,4,0,Anand Park Kala Nagar jail Road Nashik Road,1619947257687,DCHC
+20,Panchavati,15,0,,15,13,,0,0,9822083260,Dr.Erande Hospital,0,0,0,Pranav Banglow Hirawadi Panchavati Nashik,1619947257687,DCHC
+21,West,15,0,9423179194,0,0,Er. Gajul Balaprasad Vittal,14,0,8767490914,Dr.Gangurde Hos.,0,1,0,"Dr. Gangurde Hospital, Grounde+Third Floor, Old Gangapur Naka, Gangapur Road, Nashik.",1619947257687,DCHC
+22,Panchavati,10,0,,0,0,,0,8,9970643439,Dr.Khare Hospital,0,2,7,"Plot No 5, Nr. Samarth Gokuldham, Lete Nagar, Nr Amrutdham, Nashik",1619947257687,DCHC
+23,Nashik Road,15,0,,15,15,,0,0,9850224818,Dr.Nimse Bal Rugnalay,0,0,0,Anand Bazar Behind Sanjay Medical Store Tilak Road Nashik Road,1619947257687,DCHC
+24,Cidco,30,2,8208351520,0,0,Er. Manoj Bairagi,2,22,9822012534,Galaxy Supreme Care hospital,2,6,14,Trimurti Chouk  Cidco,1619947257687,DCHC
+25,Panchavati,70,0,,0,0,,18,20,9850080193 /98223 03015,Ganapati Hospital,18,32,2,"Shri Hari Krishna Plaza, Near Panchavati Bus Depo, Panchavati",1619947257687,DCHC
+26,Cidco,18,3,,0,0,,6,9,9096533985,Ganesh Hospital,6,3,9,Ganesh Hospital Devalali Road Rayba Hotel kadave Nagar Pathrdi Hospital Nashik,1619947257687,DCHC
+27,West,44,0,,0,0,,8,30,"7972662559, 9225221911",Ganga Rushikesh Hospital,0,6,0,Murkute Colony Near Ravsaheb thorat Hall Gangapur Road,1619947257687,DCHC
+28,West,15,0,9421916533,0,0,Er. Sanajay Ohol,7,6,9226896575,Global,0,2,0,"Ambad Link Rd, near Trimurti Chowk, Cidco, Matale Nagar, Abhiyanta Nagar, Nashik",1619947257687,DCHC
+29,Satpur,25,1,,8,5,,0,15,+91 253 2577232 / +91 253 2580470,Godawari Hospital,0,2,6,Flat no 29 Satpur Colony Satpur Nashik,1619947257687,DCHC
+30,Nashik Road,10,0,,0,0,,8,0,8308171781,Gujrathi Hospital,0,2,0,Motwani Road Datta Mandir Nashik Road,1619947257687,DCHC
+31,Cidco,30,3,,0,0,,13,13,8669053946,Harmony Hospital,13,4,12,Plot No.3 B Square in front of Atul Sweet Ambad Uttam Nagar Road Mahajan Nagar Ambad/,1619947257687,DCHC
+32,East,15,0,,0,0,,0,11,9922420150,HCG Manavata Cancer Center ( Unit-2),0,4,2,"Unit-2, Nr. Mylan Circle, Mumbai Naka , Nashik",1619947257687,DCHC
+33,East,10,0,9422252897,9,0,Er. Rakte Samir Arun,0,1,"9922420150, 9075178677",HCG Manavta,0,0,0,"HCG Manavta Cancer Center, Mumbai naka",1619947257687,DCHC
+34,East,10,0,,10,10,,0,0,8625912659,Indorewala Hospital,0,0,0,"Behind Mahamarg Bus Stand, Old Mumbai Naka, Gaikwad Nagar, Nashik, Maharashtra 422002",1619947257687,DCHC
+35,Nashik Road,25,0,7588616331,0,0,Er. Santosh Belgaokar,0,20,7875105999,Jairam Hospital,0,5,0,"Near Bytco Hospital ,Nashik Road",1619947257687,DCHC
+36,Satpur,15,0,,0,0,,2,11,7757992846,Jeevanjyot Accident Hospital and Maternity Home,0,2,0,"Vidhate Bhavan, Opp ESI hospital, Trimbak Road, Satpur , Nashik",1619947257687,DCHC
+37,Panchavati,25,0,,0,0,,1,17,9767716428,Jivak maternity and Nursing Home,0,7,9,"Shivplaza, 4th Floor, Plot no 7, Near Reliance Petrol Pump, Dindori Road, Panchavati, Nashik",1619947257687,DCHC
+38,Cidco,20,0,9822643692,0,0,Er. Patil Suresh Bhikanrao,7,10,8888557337,Jupiter Mat.& Nursing Home,0,3,0,"Jupiter Mat.& Nursing Home, 2nd floor, Tip Top Plaza, Exlopoint Ambad Nashik",1619947257687,DCHC
+39,Cidco,20,0,99224444788,0,0,Er. Mr.Navneet Bhamare,3,15,9049562122,Kalpatru MultiSpecialty Hospital,2,2,0,Roongth Shopping Mall  Burkule  Hall Cidco Nasik,1619947257687,DCHC
+40,West,15,0,7030921898,0,0,Er. Gautam Handge,2,9,8459780886,Krushna Hospital,0,4,5,"Umiya Apprtment, Nr. Canada Corner, Nashik 05",1619947257687,DCHC
+41,West,15,0,,4,0,,4,7,9370144540 9604041901,Leelavati Care Hospital,0,0,6,Near Big Bazzar Collage Road Nashik,1619947257687,DCHC
+42,Cidco,27,0,8698691997,0,0,Er. Thakare Rajendra Murlidhar,0,25,9225669712,Life Care,0,2,0,"Life Care Maiternity, Lekhanagar Cidco",1619947257687,DCHC
+43,Panchavati,15,0,,15,15,,0,0,9373920288,lilavati Hospital,0,0,0,5 A Hari Krushana Society Near T B Sanitarium dindori Road Nashik,1619947257687,DCHC
+44,Panchavati,30,0,9422761493,14,0,Er. Lone Ratan Shankar,12,3,9766828086,Lokamanya,0,1,0,"Lokmanya Hospital Near Water tank, Mumbai Agra Road, panchavti Nashik",1619947257687,DCHC
+45,West,10,0,9822441857,0,0,Er. Thorat Pravin Laxmikant,0,8,"8805028231, 7892707764",Magnum Hospital (Dr. Chopada Hos.),0,2,0,"Chopada Medicare & Resarch Center Pvt. Ltd., & Hospital, Patil Lane No. 1,  Candacorner, Nashik",1619947257687,DCHC
+46,West,42,0,,42,42,,0,0,9881628008,Maheshwari Student Campuse,0,0,0,Old Pandit Colony  sharanpur road Nashik,1619947257687,DCHC
+47,East,60,4,,20,20,,1,34,8655359697,Manas Hospital,1,5,34,"Mahesh Nagar ,near  Tup sakhare Lawns  Mumbai naka",1619947257687,DCHC
+48,Cidco,24,0,,0,0,,3,18,8080159338,Manas Hospital,0,3,0,"35,guru govind singh  college xhyaa mage pandav nagari Nashik",1619947257687,DCHC
+49,Cidco,35,0,,0,0,,0,35,9730730563,Matru Nursing Homes New Nashik covid Hospital,0,1,16,Mag Sector Sundar ban Colony Mumbai agra Highway Nashik,1619947257687,DCHC
+50,Cidco,30,0,,0,0,,0,26,9371149844,Mayur Hospital,0,4,0,"Near Jadhav Sankul, Ambad  - ITI link Road, Kamarwada, Nashik",1619947257687,DCHC
+51,West,22,0,9881375157,0,0,Er. Shirsath Nandkumar,5,14,9850889049,Medicity Hospital,0,3,6,"Near Vidya Vikas Circle, Bhavik Ngr., Gangapur Road, Nashik",1619947257687,DCHC
+52,East,20,0,,0,0,,5,10,7038032499/ 9890337760,Mediliv Hospital,0,5,2,5 th Floor Shriji Bizz World Complez Near Kathe Galli Signal,1619947257687,DCHC
+53,East,30,1,,0,0,,0,25,"8390000385 , 9881158794",Narayani Hospital,0,5,0,Shri Vallabh Nagar Near Chan Hotel Navin Mumbai Naka,1619947257687,DCHC
+54,East,21,0,,0,0,,12,6,8390961706,Nashik Rugnalay,0,3,0,Second Floor  Dr house bhabha Nagar mumbai angra road,1619947257687,DCHC
+55,Nashik Road,20,0,,0,0,,4,13,"7875770978, 7875770979",NashikRoad Multispeciality Hospital,0,3,0,"1st Floor, Shangalila, Near Somani Garden, Nashik Road, Nashik",1619947257687,DCHC
+56,East,40,0,7768800079,10,10,Er. Borse Prashant Atmaram,2,25,9822554797,National Homopathi Medical College and Hospital,0,3,1,"National Homopathi Medical College and Hospital, Dhruv Nagar, Gangapur Road,Nashik",1619947257687,DCHC
+57,West,35,0,,0,0,,12,18,7620665905,NavSanjivani Hospital,0,5,0,"8, Motkari Nagar, Nr Tupsakhare Lawns, Tidke Colony, Nashik",1619947257687,DCHC
+58,West,15,1,9604787067,0,0,Er. Subhash Bahiram,8,5,9823063868,Nerlikar Hospital,1,2,1,"Jehan Circle, Gangapur Rd., Nashik",1619947257687,DCHC
+59,East,25,0,,0,0,,7,18,9359908871,New Aadhar Hospital,1,0,8,First Floor Near Mahila Bank wadala Naka Dwarka Nashik,1619947257687,DCHC
+60,East,45,0,,10,10,,14,11,8975440268,New Matrix Hospital,8,10,5,"Ajij Memon,Near Sainath Ngr Signal, Indira Nagar, Nashik",1619947257687,DCHC
+61,Panchavati,22,0,9823604041,0,0,Er. Mr Sunil Gite,6,16,8668600960,New Parikshit,0,0,3,"New Parikshit Maternity & Nursing Home, Ground & First Floor, 33, Shivaji Nagar, Mahsarul, Dindori Road, Nashik.",1619947257687,DCHC
+62,Panchavati,15,0,,0,0,,0,15,9657563003,Om Hospital,0,0,7,"Nr. Rukhmini Lawns, Nr. Bali Mandir, Aurangabad Link Road, Panchavati",1619947257687,DCHC
+63,Cidco,17,0,9822643692,2,2,Er. Patil Suresh Bhikanrao,9,6,986021112,Panacea Joint Repalasment Narshing Home,9,0,0,"Panasia Joint Repalasment Narshing Home, First Floor, Rajmata Jijau Marga, Govind Nagar, Nashik",1619947257687,DCHC
+64,West,15,1,,0,0,,2,12,8080723838,panchavati Hospital,2,1,12,Vijay Towers Canda Cornar Sharanpur Road,1619947257687,DCHC
+65,Cidco,50,8,,0,0,,0,40,9511609193,Parth Hospital,0,10,37,Parht Covid Center Burkule Hall Uttam Nagar Nashik,1619947257687,DCHC
+66,East,50,0,9923414922,35,0,Er. Gangurde Udhav Sitaram,11,2,9420694499,Pioneer Hospital,0,1,0,"3rd floor, Aryan plaza, Near Sagar sweets, Ashoka Marg, Nashik",1619947257687,DCHC
+67,Satpur,15,0,,0,0,,4,8,8329096250,Prabhavati Hospital,0,3,0,Plot No.7 mahindra Gate Shramik Nagar Bus Stop Satpur,1619947257687,DCHC
+68,Cidco,20,0,9371601020,0,0,Er. Suresh Dhamane,3,13,9422247020,Pratham Hospital,0,4,12,Sai Plazz State Bank Samor Lekha Nagar nashik,1619947257687,DCHC
+69,Panchavati,35,0,9763555189,14,14,Er. Pawar Khemchand,6,10,9371780555,Pushkar (Niramay) Hospital,0,5,4,"Dindori Road, Panchavati. Opp.Market yard",1619947257687,DCHC
+70,East,50,0,9423970253,13,11,Er. Khoje Ajay Madhukar,14,19,8408058955,Radiant,0,4,1,"Bhaba Nagar, Mumbai Naka, Nashik.",1619947257687,DCHC
+71,Nashik Road,30,0,,0,0,,8,17,7030082002,Radiant plus Hospital (Nashik Road),0,5,0,Reddaint Pluse Hospital Star Pluse Mall 5th Floor Lam Road Near Muktidham Temple Nashik Road,1619947257687,DCHC
+72,East,16,0,9422252897,8,8,Er. Rakte Samir Arun,7,0,9975778875,Rajebahadur,2,1,0,"Rajebahadur Hospital, Near Nahru Gardan, Near Namco Bank",1619947257687,DCHC
+73,Panchavati,50,1,9423179209,10,10,Er. Yashwant Bhamare,7,32,9923314460,Ramalayam Hospital,0,1,4,"Panchvati karanja, Malviya chowk, Nashik",1619947257687,DCHC
+74,East,15,0,,0,0,,3,10,9422756831,Riddhi Hospital,0,2,0,"4th Floor, Sai Sqaure, Nr. Tupsalhare Lawns, Tidke Colony, Mumbai Naka, Nashik",1619947257687,DCHC
+75,Panchavati,18,0,,0,0,,2,10,9028477336,Sadguru Hospital,0,6,0,Hari Krushan Plaza 3 & 4 Th Near Floor Panchavati Bus Depo Adgoan Naka Nashik,1619947257687,DCHC
+76,East,12,-1,,0,0,,0,9,9960892928,Saee women's Hospital,0,3,0,"Nr. Sandip Hotel, Next to Gokul Hotel, Kute Marg, Mumbai Naka, Nashik",1619947257687,DCHC
+77,West,15,0,,0,0,,2,10,7888030077,Safalya Hospital,1,3,5,"Pumping Station Corner, Nr. Vidya Vikar Circle, Ganhapur Road, Nashik",1619947257687,DCHC
+78,Nashik Road,20,2,,0,0,,2,11,8275267483,Sahara Hospital,0,7,3,"Nr Orange Tree Hotel, Back Side of Muktidham, Nashik road Nashik",1619947257687,DCHC
+79,Cidco,25,0,9423179183,0,0,Er. Mr.Sanjay Suresh Adsera,2,16,8788149409,Sahjeevan Multi Speciality Hospital,0,7,0,ASI - 57 Sahyadri Nagar Near Cidco Telecome Exchange New Nashik,1619947257687,DCHC
+80,Cidco,30,0,,30,30,,0,0,7020481285,Sai Samarth Hospital (Cidco),0,0,0,Sai Samrath hospial morwadi Cidco Nashik,1619947257687,DCHC
+81,Panchavati,15,0,,0,0,,1,10,8888819183,sai samarth Hospital (Panchavati),0,4,0,Sai Samarath Hospital falt no 44  janata raja Colony  Makhamalabad Road Panchavati,1619947257687,DCHC
+82,Cidco,50,5,8275015392,0,0,Er. Mr.Mohan Vijayrao Gite,4,36,9970766800,Sai Seva Hospital,2,10,10,B  Square  Commercial Complex Near Atual Dairy Uttam Nagar Nashik,1619947257687,DCHC
+83,East,15,0,7768002053,4,5,Er. Rajendra Japtap,3,8,9146001599,Sai Sidhhi Hospital,3,0,8,"Mayur Plaza, Kanda Batata Bhavan, Wadala Naka, Nashik",1619947257687,DCHC
+84,West,15,0,7030921898,0,0,Er. Gautam Eknath Handge,0,8,8691079842,Sai Sparsha Covid Hospital,0,7,0,In Front of kulkarni Garden Sharanpur Road Nashik,1619947257687,DCHC
+85,Satpur,15,0,,0,0,,3,10,9637284099,Sai Swaraj Multispeciality Hospital,0,2,0,Shop no. 1 to 4 Surya Complex Near Ganpati Mandir Jadhav Sankul Satpur Ambad Link road Chunchale Shivar.,1619947257687,DCHC
+86,Satpur,30,1,9766881313,10,15,Er. Mr.Prakash Nikam,3,15,8308169767,SaiNath Multi Specialty Hospital,1,2,8,Infront of Ashok Nagar Police station ashok Nagar Satpur Nashik,1619947257687,DCHC
+87,Panchavati,50,0,8275065713,0,0,Er. Mr.Hemant Pathhe,4,32,7776099910,Samarth Clinic,0,14,12,Ganesh Ganga Apt Datta Nagar Panchavati Nashik 422003,1619947257687,DCHC
+88,Cidco,18,0,,0,0,,0,14,8788721983,Samarth Hospital  (Cidco ),0,4,0,"Nilanjan Complex, Pathardi Road, Pathardi Phata, Nashik 10",1619947257687,DCHC
+89,Panchavati,31,0,,0,0,,5,18,7588829437,Samruddhi Hospital,0,8,0,"Swami Samarth Nagar ,Aurangabad Road Nashik 422003",1619947257687,DCHC
+90,Satpur,38,0,7768002055,15,6,Er. Santosh Jopale,5,16,9823679165,Sankalp Hospital,0,2,2,"Shivaji Nagar, Satpur,Nashik",1619947257687,DCHC
+91,East,20,6,9422414922,3,3,Er. Udhav Sitaram Gangurde,1,10,9422255731,Sanskruti Hospital,1,6,10,"Ram Plaza, Opp.Gaikwad Sabhagruh, Bhaba Ngr. Nashik",1619947257687,DCHC
+92,Cidco,23,0,9922441803,14,13,Er. Darasingh Jadhav,4,4,9096634223,Saptshrungi Hospital,0,1,0,"Surya Aveneu, Above State Bank Of India, Pathardi Phata, Nashik",1619947257687,DCHC
+93,Satpur,35,0,7030942559,0,0,Er. Rakesjh Pawar,16,17,9665420488,Sarthak,0,2,0,"Near Papaya Nursury, Satpur, Nashik",1619947257687,DCHC
+94,Panchavati,15,1,,0,0,,4,10,9545222769,Seva Hospital,3,1,4,Swami Samrath Mandir Dindori Road Mhasrul Nashik,1619947257687,DCHC
+95,East,36,0,9822152321,0,0,Er. Shingade Dattaray Khandu,6,29,9960007777,Shatabdi,0,1,4,"Shatabdi Hospital, Mumbai naka",1619947257687,DCHC
+96,East,10,0,,0,0,,1,7,8788979378,Shatayushi Hospital,0,2,0,Near Bapu Banglow Stop IndiraNagar Nashik,1619947257687,DCHC
+97,Cidco,35,8,,0,0,,8,19,8459840183,Shiv Ashirwad Covid Care Center,8,8,19,Plot no 31 opp to S.S.K World Pathardi Gavlane Road Pathardi Nashik,1619947257687,DCHC
+98,Panchavati,30,0,9423965313,0,0,Er. Mr.Vishal Garud,14,14,9970111564,Shivkrupa Multi Speciality Hospital,8,2,10,"2nd floor , Patel Arcade Dindori Road Panchavati Nashik",1619947257687,DCHC
+99,Cidco,22,0,9403697884,0,0,Er. Mr Khan A.A,8,12,942182138,Shree Ganpati,0,2,0,"Near Divya ad labs ,Trimurti Chowak,Nashik 422008",1619947257687,DCHC
+100,West,25,0,9422225704,3,0,Er. Suryakar Balaji Namdeorao,3,18,8380011030,Shree Guruji,0,1,0,"Shree Guruji Hospital, First & Second Floor,  Gangapur Road, Anandwali Chowk.",1619947257687,DCHC
+101,Panchavati,25,0,,0,0,,2,20,7775030071/ 9822514754,Shree Hospital,0,3,13,"Relaince Petrol Pump , Meri  Nashik",1619947257687,DCHC
+102,Panchavati,20,0,,20,20,,0,0,9422255734,Shree Kachhi Lohana Sahyak Mandal,0,0,0,Jayesh thakkar ani Amit Jobhanpatra Shanti Nagar Dindori road Panchavati Nashik 422003,1619947257687,DCHC
+103,Nashik Road,25,0,,25,25,,0,0,9890057865,Shree Sai Hospital (Nashik Road ),0,0,0,K b N Market  second Floor subhas Road Nashik road Nashik,1619947257687,DCHC
+104,West,22,0,,0,0,,0,18,9892503486,Shree Siddhivinay Hospital(West),0,4,0,"In front of KTHM College, Gangapur Road, Nashik",1619947257687,DCHC
+105,Nashik Road,40,0,7276884261,0,0,Er. Bapte Pankaj Arun,19,19,7028534470,Shree Siddhivinayak Hospital,0,2,0,"Near Durga Garden and Court, Nashik Road",1619947257687,DCHC
+106,East,20,0,,20,20,,0,0,7276155276,Shree Yash Hospital,0,0,0,Prasanna Colony Behind Surya Hotel Indira Nagar Mumbai Agra Highway Nashik,1619947257687,DCHC
+107,Panchavati,15,0,,0,0,,0,14,8805556996,Shreepad Hospital,0,1,4,Hari Krushan Plaza 3rd Near Floor Panchavati Bus Depo Adgoan Naka Nashik,1619947257687,DCHC
+108,Satpur,13,0,,0,0,,5,8,9112253539,Shri Kalavati Hospital,2,0,2,"Nr. Papaya Nursery, Satpur, Nashik",1619947257687,DCHC
+109,Panchavati,45,6,9075064789,10,8,Er. Bahusaheb Aher,8,20,9503212121,Shri Panchavati Hospital,3,7,12,"Kathe Galli, Tapovan Road, Nashik",1619947257687,DCHC
+110,Nashik Road,15,0,,0,0,,0,10,7767882200,Shri Snakalp Hospital,0,5,0,3rd Floor Hari Bhakti Near Jain Mandir Arteliry Center Road Nashik Raod,1619947257687,DCHC
+111,East,17,0,,0,0,,4,9,9890012555,Shriniwas Hospital,3,4,4,Near vaskon  IT Park Vadala Shivar Indira Nagar Nashik,1619947257687,DCHC
+112,Satpur,28,0,,0,0,,0,26,9850767069,Siddhi Hospital,0,2,0,"P-67, MIDC Satpur, Back Side of ITI, Nashik",1619947257687,DCHC
+113,Cidco,50,0,,0,0,,13,34,8237224365,Signus Hospital,0,3,5,5 th Floor Atlanta Shoppers Pathardi Road Pathardi Pata Nashik,1619947257687,DCHC
+114,Panchavati,10,0,,0,0,,1,7,9921009070,Silver Hospital,0,2,0,"Somnath Park, Nr. Bagrech Complex, Dindori Naka, Panchavati, Nashik",1619947257687,DCHC
+115,West,50,0,9422946236,4,4,Er. Mohamad Khaled Mohamd Gaus,12,30,8380895654,Six sigma,0,4,10,"Sigh Sigma Medicare & Resarch Center, Mahatamanagar,Nashik",1619947257687,DCHC
+116,Panchavati,10,2,,0,0,,0,8,9028477332,Soham Hospital (Panchavati),0,2,8,gajpath Stop Behind Bajaj Showroom Dindori Road Mhasrul,1619947257687,DCHC
+117,West,25,0,9922441949,15,2,Er. Sanjay Khule,9,0,9422770544,Soham Hospital (West),0,1,0,"Suyojit Sankul ,Sharanpur Road,Nashik",1619947257687,DCHC
+118,Cidco,10,0,,0,0,,0,9,9324997083,Somani Hospital,0,1,0,"4, MIG Enclave, State Bank Stop, CIDCO, Nashik",1619947257687,DCHC
+119,West,15,2,,0,0,,2,8,8956336151,Spandan Hospital,0,5,4,First Floor Crown Complex In Front of Rajiv Gandhi Bhawan Sharanpur Road Nashik,1619947257687,DCHC
+120,East,45,0,8275016453,0,0,Er. Kiran Pundlik Lone,13,24,9421519636,Sparsh Hospital,0,8,0,Flat no 15 sr no 569/7 mumbai naka near  Rushabha Honda,1619947257687,DCHC
+121,West,40,0,9011014688,28,1,Er. Ghodake Ravindra Krushnarao,9,2,9822457732,Sudarshana,0,1,0,"Gadkari Chow, City Plaza, Near Kalika Mandir,  Old AgraRoad, Nashik.",1619947257687,DCHC
+122,Nashik Road,75,4,9850007067,8,5,Er. Mr. Jayant Raut,50,10,8788004756     /   9423971352,Sujata Birla Hospital & Research center,9,7,7,"Opp. Bytco college, Nashik road, Nashik",1619947257687,DCHC
+123,Cidco,15,0,,15,9,,0,0,9422255126,Sukhkarta Accident & Critical Care Hospital,0,0,0,Khutwad Nagar Cidco Nashik,1619947257687,DCHC
+124,West,35,0,,0,0,,6,24,8888832274,Sunrise Hospital,0,5,0,"3rd Floor, Suyojit Modern Point , Above Kalakruti Sarees, Sharanpur Road, Nashik",1619947257687,DCHC
+125,Panchavati,25,2,,0,0,,6,15,922243493,Super - tech Hospital,3,4,12,Om Nagar Walzade Arcade Pancahvati Nashik,1619947257687,DCHC
+126,West,16,0,,0,0,,3,11,9890712199,Surbhi Hospital,0,2,1,"208, 2nd Floor , Sai Square , Mumbai Naka Nashik",1619947257687,DCHC
+127,Cidco,15,0,,10,7,,0,5,8265008381,Surekha Hospital,0,0,4,Sundarban Colony Mumbai Agra Highway Lekha Nagar Cidco Nashik,1619947257687,DCHC
+128,Panchavati,24,0,9922445330,13,10,Er. Kolhe Dattaray Shrirang,3,8,9881484745,Surya,3,0,5,"Surya Hospital, Nimani Bus Stand, Panchavati,Nashik.",1619947257687,DCHC
+129,West,50,0,9762692167,0,0,Er. Rajendra Thakur,13,27,9423138027,Suryoday Hospital,0,10,6,"2nd Floor, kapote Mehar market, wadala naka, Nashik",1619947257687,DCHC
+130,Satpur,38,0,9850374650,10,10,Er. Shinde Rajesh Eknath,11,16,9011030073,Sushila,8,1,10,"Sushila Hospital, Plot No. 197, 198 First & Second Floor, Behind Carban Company, Shivaji Nagar, Satpur,Nashik.",1619947257687,DCHC
+131,Nashik Road,10,0,9822500490,0,0,Er. Mr.Rajendra Jadhav,1,5,9545222769,Sushrusha Hospital,0,4,4,Mhstrul Nashik 422003,1619947257687,DCHC
+132,West,20,0,8788202370,0,0,Er. Vasant Dhumse,7,12,9763773967,Sushrut Hospital,1,1,1,"New Pandit Colony, Sharanpur Road, Sharanpur, opposite Lion Garden, Nashik, Maharashtra 422002",1619947257687,DCHC
+133,East,20,0,9850064964,0,0,Er. Shaikh Ajaj Maniyar,15,2,9823779898,Suvichar Hospital,0,3,0,"Ganesh baba Nagar, Nasardi Bridge, Nashik",1619947257687,DCHC
+134,Cidco,43,0,,0,0,,0,37,9850857273,Suvidha Hospital,0,6,11,Suyojit Shiva Complex Lekha Nagar Cidco Nashik,1619947257687,DCHC
+135,East,20,0,9403697882,12,6,Er. Prakash More,2,4,9422258670,Suyash Hospital,2,2,2,Suyash Medical Foundation  Suyash Hospital  Mumbai Naka  Nashik,1619947257687,DCHC
+136,West,15,0,,0,0,,2,11,9172800933,Suyog Child Hospital,0,2,9,"Rohini Appt, Groud Floor, Canada Corner, Sharanpur Road, Nashik",1619947257687,DCHC
+137,Panchavati,22,0,8888803335,0,0,Er. Sachin more,5,14,7276040209,Suyog Hospital,0,3,0,"2nd Floor, B-Wing, Krushi Utpanna Bazar, Samiti Sankul, Dindori Rd, Panchavati, Nashik, Maharashtra 422003",1619947257687,DCHC
+138,Cidco,30,4,,0,0,,4,20,9422706911,Swami Hospital,2,6,10,Near Morwadi GYM Vijay Nagar Cidco Nashik,1619947257687,DCHC
+139,East,27,2,,6,6,,2,17,7755974811,Swaraj Hospital,2,2,17,Behind Rajsarthi Soc. 100 Feet Road Indira Nagar Nashik,1619947257687,DCHC
+140,Cidco,18,0,,0,0,,7,11,9552652800,Swaraj Hospital (Atual Dairy Samor Cidco),7,0,10,B square estate second Flower  near atul Swaeet Ambad Shivr cidco,1619947257687,DCHC
+141,Cidco,30,0,9130010563,0,0,Er. Jagtap Dyanesh Baburao,13,13,9588609057,Sykhedakar,2,4,13,"Saikhedkar Hospital, Trimruti Chowk, Cidco,Nashik",1619947257687,DCHC
+142,Panchavati,20,0,,0,0,,2,16,9422265957,Synergy Hospital,0,2,0,Waghulde plaza Gita Nagar Bus stop Mhasrul Nashik,1619947257687,DCHC
+143,Cidco,20,0,,0,0,,2,17,7020201572,Tirupati Hospital,0,1,0,"Uttam Nagar Bus top, New Nashik , Cidco",1619947257687,DCHC
+144,Cidco,9,0,,0,0,,0,8,9922923432,Tirupati multispeciality Hospital (Ambad),0,1,4,1st Floor Deeplakshmi  Plaza back to indian oil Petrol Pump Jadhav Township Chunchale Ambad,1619947257687,DCHC
+145,Cidco,31,0,,0,0,,11,18,9422758059,Trimurti Hospital,0,2,0,"Trimurti  Hsopital  Near Divyaa ad Labs ,trimurti Chauk Nashik",1619947257687,DCHC
+146,Nashik Road,100,5,9922971772,49,49,Er. Arun Vasant Suryanshi,13,21,9657076777,True Care Hospital,3,17,0,"Devalali Gaon , Near  Mhasoba Mandira  Nashik",1619947257687,DCHC
+147,Cidco,12,0,,12,12,,0,0,9119444802,Tulip Hospital,0,0,0,Flat no 5 prashant Nagar  damodhar Chowk  pathardi Phata Nashik,1619947257687,DCHC
+148,Cidco,10,3,,0,0,,0,7,9421410977,TuljaBhavani Hospital,0,3,7,"Plot no 121, Gat no 1, Chunchale Shivar, Ramkrushna Nagar, Nashik",1619947257687,DCHC
+149,Cidco,30,0,942196599,7,0,Er. Jopale Jagan,18,0,9850333002,Uma Hospital,0,5,0,"kamatwade, Abhiyanta Nagar, Suyash Chambers, Cidco,Nashik",1619947257687,DCHC
+150,West,25,0,,0,0,,3,12,9869989315,Upadhye Hospital,1,10,0,S.T Colony Gangapur Road Nashik,1619947257687,DCHC
+151,Cidco,28,0,9922414908,2,0,Er. Quazi Mohamad Ajaz,24,0,9225343890,Vakratund,0,2,0,"Vakratund Multispacality Hospital, Navale Nagar, Pathardi Fhata,Nashik",1619947257687,DCHC
+152,Cidco,70,0,,20,14,,0,36,9284569766,VIGHNAHARTA Hospital,0,14,3,Flat no 149 1st Floor Purb Pachim Plazaaa Divyan Ad Lab Jawal Trimurti Chauk Cidco,1619947257687,DCHC
+153,West,35,1,,0,0,,10,20,9270593571,Vijan Hospital and reseach Center,8,5,14,"Vijan Hospital Marg, College Road, Nashik",1619947257687,DCHC
+154,East,20,0,9458480333,0,0,Er. Pradip Bhamre,4,15,9923206671,Wellcare Hospital,0,1,0,"Wellcare Hospital, Shree Hari Kute Marge, Near Baba Darga, Tidke Colony, Nashik",1619947257687,DCHC
+155,Cidco,16,0,,0,0,,4,10,9225119900,Zenith Hospital,1,2,-1,"Suchita Nagar, Opposite Indira Nagar Jogging Track, Nashik",1619947257687,DCHC
+156,Panchavati,80,0,9850777027,0,0,Er. Thakare Bharat Murlidhar,14,60,8530924466,Apollo,0,6,48,"Apolo Hospital Swami Narayan Nagar, Aurangabad Road Panchavti Nashik",1619947259587,DCH
+157,East,155,0,9881739909,51,0,Er. Gavit Sanjay Arun,10,86,9890807029 / 8408878398,Ashoka,0,8,0,"Sahrudaya Health care Pvt. Ltd., Ashoka Medic over Hospital, 113/2, A Plot No. 2,I.T. Park, Vadala,Nashik-9",1619947259587,DCH
+158,West,200,0,,0,0,,50,80,97657 57524,Civil,0,70,0,Opposite Golf Club Trimbak Road Nashik,1619947259587,DCH(Govt.)
+159,Panchavati,260,0,,130,0,,0,104,9371675700,MVP,0,26,0,"Vasantdada Nagar, Adgaon, NASHIK - 422003, Maharash",1619947259587,DCH(Govt.)
+160,Nashik Road,360,0,,62,1,,0,265,9890058645,New Bytco DCH,0,33,0,"Fire Quarter, DurgaGarden,Nashik-Road.",1619947259587,DCH
+161,East,80,0,9422255062,5,0,Er. Naik Hemant Punja,7,64,7030077869,Sahyadri,0,4,0,"Sayadri Spacality Hospital, WadalaRoad, nashik",1619947259587,DCH
+162,East,64,0,8600476699,0,0,Er. Dhivare Vilas Namdeo,7,53,9130054645,Wockhardt,0,4,0,"Wockhard Hospital, Wani Hauose Mumbai agra Road",1619947259587,DCH
+163,East,150,0,,29,2,,13,94,9607821133 / 9923399283,Zakir Hussain,0,14,0,"Kathada, Nashik",1619947259587,DCH
+164,Satpur,100,0,,100,95,,0,0,9890487623,Amhi Satpurkar,0,0,0,Reshim Gathi  mangal Karalay papya Nursery Satpur Nashik,1619947259707,CCC
+165,Nashik Road,400,0,,400,12,,0,0,9890058645,Bytco CCC,0,0,0,"Fire Quarter, DurgaGarden,Nashik-Road",1619947259707,CCC(Govt.)
+166,Panchavati,65,0,,45,45,,0,20,9607343848  /  9422746256,Crompton Hall CCC,0,0,0,"Cultural center in Nashik, Maharashtra",1619947259707,CCC(Govt.)
+167,Nashik Road,50,0,,50,50,,0,0,admin,Fire Quaters Nashik Road,0,0,0,Behind NMC Devisional Office,1619947259707,CCC
+168,West,50,0,,50,50,,0,0,9823021613,Hotel Emraland Hotel (Jain International Center),0,0,0,Behalf of Jain International hotel Emrland Park old police Commissioner Office Nashik,1619947259707,CCC
+169,Panchavati,300,0,,240,240,,0,60,9607343848  /  9422746256,Meena tai Thakre CCC,0,0,0,"Hirawadi Rd, Mahalaxmi Nagar, Nashik, Maharashtra 422003",1619947259707,CCC(Govt.)
+170,Panchavati,180,0,,180,132,,0,0,9260400427,Meri CCC,0,0,0,"Panjabrao Deshmukh Hostel, Meri, Panchavati",1619947259707,CCC
+171,West,100,0,,100,86,,0,0,"9921437000,7350123403",Nashik City Police पोलिसरुग्णांसाठी,0,0,0,City Police Office West,1619947259707,CCC
+172,East,500,0,,500,260,,0,0,9970293070,SamajKalyan  Covid Care Center,0,0,0,"Samajik Nyay Sankul, Nashik-Pune Road, near Nasardi Bridge, Nashik, Maharashtra 422011",1619947259707,CCC
+173,Cidco,200,0,,180,111,,0,20,9607343848  /  9422746256,Sambhaji Stadium CCC,0,0,0,"Sambhaji Stadium Road, Nashik, Maharashtra, 422009",1619947259707,CCC(Govt.)
+174,West,325,0,,325,152,,0,0,9607343848  /  9422746256,Thakkar dome ccc,0,0,0,Lavate Nagar Trambak Road Nashik,1619947259707,CCC

@@ -1,0 +1,61 @@
+id,area,total_beds_allocated_to_covid,available_icu_beds_with_ventilator,district,hospital_poc_phone,total_beds_without_oxygen,available_beds_without_oxygen,hospital_poc_designation,hospital_poc_name,total_icu_beds_without_ventilator,charges,total_beds_with_oxygen,hospital_name,available_icu_beds_without_ventilator,total_icu_beds_with_ventilator,available_beds_with_oxygen,last_updated_on
+0,Gandhinagar,125,0,Gandhinagar,9898937787,103,95,Nodal Officer,Shashvat Trivedi,0,PRIVATE,22,Aarihant Ayurvedic & Aarihant Homoeopathic,0,0,0,1619757698000
+1,Gandhinagar,20,0,Gandhinagar,9950800590,2,0,Nodal Officer,Devendra sharma,0,PRIVATE,18,Aarna Multispeciality Hospital,0,0,0,1619748957000
+2,Sargasan,100,0,Sargasan,7575007717,0,0,Nodal Officer,Kartik Gajjar,0,PRIVATE,75,"Aashka Hospital,Sargasan (DCH)",0,25,0,1619754890000
+3,tri mandir sankul adlaj,25,0,tri mandir sankul adlaj,9924348881,2,0,Nodal Officer,Jiten Bhai,4,PRIVATE,16,Amba Health Centre & Hospital Adalaj,0,3,0,1619747624000
+4,Plot 1A GIDC Estate Bhat Gandhinagar,80,0,Plot 1A GIDC Estate Bhat Gandhinagar,7698815050,0,0,Nodal Officer,Mr. Prakash Kumar Singh,13,PRIVATE,64,Apollo Hospital (DCH),0,3,0,1619759495000
+5,"Vaishnodevi Circle, Khoraj Ghandhinagar",18,0,"Vaishnodevi Circle, Khoraj Ghandhinagar",9574974961,8,0,Nodal Officer,Ravi Patel,4,PRIVATE,5,Ashirvad Hospital,0,1,0,1619754889000
+6,Dehgam ahmedabad road Near college Dehgam,17,0,Dehgam ahmedabad road Near college Dehgam,9722081295,10,0,Nodal Officer,DR.KANHAI PATEL,0,PRIVATE,7,Ashirvad Hospital Dehgam,0,0,0,1619676061000
+7,Veda Ta.Kalol Di. Ghandhinagar,15,0,Veda Ta.Kalol Di. Ghandhinagar,9106295204,11,11,Nodal Officer,Dr. Dhaval V. Patel,0,PRIVATE,4,B.M.B. Sarvajanik Hospital Veda,0,0,1,1619681697000
+8,Gandhinagar,16,0,Gandhinagar,9825514128,8,0,Nodal Officer,Dr Tushar Jani,0,PRIVATE,8,Bansari Heart & Medical Hospital,0,0,0,1619751264000
+9,Dingucha,30,0,Dingucha,9998695202,30,30,Nodal Officer,Dr Amisha Aacharya,0,GOVERNMENT,0,"CHC Dingucha,Kalol",0,0,0,1619751362000
+10,Kalol,30,0,Kalol,9687630286,30,30,Nodal Officer,Dr Jagdish Tank,0,GOVERNMENT,0,CHC Kalol,0,0,0,1619749986000
+11,Sadra Gandhinagar,30,0,Sadra Gandhinagar,9925350348,30,30,Nodal Officer,Dr Nimesh,0,GOVERNMENT,0,CHC Sadra,0,0,0,1619753045000
+12,Sector 22,17,0,Sector 22,9104870878,2,1,Nodal Officer,Dr Hippal Patel,5,PRIVATE,10,Capital Covid Care Centre Sector 22,5,0,0,1619681599000
+13,Kalol,100,0,Kalol,9924001907,63,59,Nodal Officer,K V Parmar,0,PRIVATE,37,DCH Adarsh Hospital,0,0,0,1619758811000
+14,"Swaminarayan gurukul, Ahmedabad Mehsana Highway, AT&PO-Saij, TA-kalol",80,0,"Swaminarayan gurukul, Ahmedabad Mehsana Highway, AT&PO-Saij, TA-kalol",9638052525,30,0,Nodal Officer,Mr. Vikram Patel,0,PRIVATE,43,DCH PSM Hospital,0,7,0,1619750599000
+15,"Shyam square Randheja,Gandhinagar",7,0,"Shyam square Randheja,Gandhinagar",9558324242,5,4,Nodal Officer,Dr Smitesh Patel,0,PRIVATE,2,"Divine Medical & Surgical Hospital, Randheja",0,0,1,1619760397000
+16,Ghandhinagar,500,0,Ghandhinagar,7069012402,150,100,Nodal Officer,RMO Covid,40,GOVERNMENT,230,"GMERS General Hospital, Gandhinagar (DCH)",0,80,0,1619687985000
+17,SMIAS Kolavada,85,0,SMIAS Kolavada,8200260114,0,0,Nodal Officer,Dr Umesh Vaishnav,0,GOVERNMENT,85,Gmers (Annex) Kolavada,0,0,0,1619750336000
+18,"Pethapur-Mahudi Road,Nr.G.G.S,Piplaj ,Gandhinagar",60,0,"Pethapur-Mahudi Road,Nr.G.G.S,Piplaj ,Gandhinagar",9825380316,0,0,Nodal Officer,Dr. Hina Baria,18,PRIVATE,40,Goenka Hospital (DCH),4,2,21,1619688493000
+19,Sec 3 GH Road Gandhinagar,50,0,Sec 3 GH Road Gandhinagar,9825031929,25,0,Nodal Officer,Dr Mahipatsinh Parmar,9,PRIVATE,15,HiTech Hospital Sec 3,0,1,0,1619726584000
+20,"Shreeji Avenue, Adalaj",16,0,"Shreeji Avenue, Adalaj",9824980123,5,0,Nodal Officer,Dr Hemang Shah,0,PRIVATE,11,Icon Hospital,0,0,0,1619749350000
+21,"Bhat, Gandhinagar",40,0,"Bhat, Gandhinagar",9913092433,2,2,Nodal Officer,Dr. Bhagirath,4,PRIVATE,30,Kanoriya Hospital and Research Center,0,4,5,1619703097000
+22,shivam complex mota chiloda,20,0,shivam complex mota chiloda,9979371872,0,0,Nodal Officer,Dr Tejas Amin,0,PRIVATE,20,Khushi Hospital Mota chiloda,0,0,1,1619755391000
+23,NARODA ROAD MOTA CHILODA,22,0,NARODA ROAD MOTA CHILODA,9879054980,6,0,Nodal Officer,Riken Shah,0,PRIVATE,16,Krishna Hospital Mota Chiloda,0,0,0,1619667597000
+24,3rd 4th floor R J Avenue Dehgam,16,0,3rd 4th floor R J Avenue Dehgam,9879408785,9,7,Nodal Officer,Dr Kishorsinh Rathod,5,PRIVATE,2,Krishna Surgical Hospital Dehgam,0,0,1,1619758151000
+25,managed by Gandhinagar homoeopathic medical college - Mubarakpur,25,0,managed by Gandhinagar homoeopathic medical college - Mubarakpur,7016588815,21,5,Nodal Officer,Hitesh Dobariya,0,PRIVATE,4,L J B Gohil Homoeopathic hospital,0,0,0,1619752453000
+26,new patel chamber station road mansa,13,0,new patel chamber station road mansa,9081216434,8,4,Nodal Officer,Dr Sonal Patel,2,PRIVATE,2,Lilavati Hospital & ICU Mansa,0,1,0,1619751224000
+27,Ishanpur,13,0,Ishanpur,7016998645,10,2,Nodal Officer,Dr. Pokar Arpit P.,0,PRIVATE,3,M B Patel Sarvajanik Hospital,0,0,0,1619756007000
+28,Pimplaj Gandhinagar,100,0,Pimplaj Gandhinagar,7878374848,100,98,Nodal Officer,Dr Haresh soni,0,PRIVATE,0,Manjushree research Institute of Ayurvedic Science,0,0,0,1619687807000
+29,Gandhinagar,40,0,Gandhinagar,9316750453,27,0,Nodal Officer,Jaimin patel,5,PRIVATE,6,Mishika multispeciality hospital,0,2,0,1619749249000
+30,Randeja,16,0,Randeja,9825125576,11,7,Nodal Officer,Tarunbhai Patel,0,PRIVATE,5,N. N. Sarvajanik Hospital,0,0,0,1619756001000
+31,Kolavada,150,0,Kolavada,7990477617,148,148,Nodal Officer,Dr. Kundan,0,GOVERNMENT,2,"NMIAS, Kolavada (CCC)",0,0,2,1619029429000
+32,Bahiyal Dehgam,8,0,Bahiyal Dehgam,9427864294,8,3,Nodal Officer,Dr Anshu Patel,0,PRIVATE,0,New Life Hospital Bahiyal Dehgam,0,0,0,1619759824000
+33,"512/1 Sector 23, Gndhinagar",25,0,"512/1 Sector 23, Gndhinagar",9879235338,15,0,Nodal Officer,Dr Vaibhav Patel,5,PRIVATE,4,Pagarav Hospital and ICU Sec 23,0,1,0,1619685813000
+34,Reliance cross road Kudasan gandhinagar,23,2,Reliance cross road Kudasan gandhinagar,9601944518,4,3,Nodal Officer,Dr Hiren Prajapati,5,PRIVATE,12,Pratham Children Hospital Kudasan,3,2,10,1619753053000
+35,Pethapur,17,0,Pethapur,9099375758,9,2,Nodal Officer,Dr dipen damor,0,PRIVATE,8,Pulse medicure hospital and Rehab centre,0,0,0,1619753037000
+36,Gandhinagar,50,0,Gandhinagar,9825792357,50,38,Nodal Officer,DR.HIMANSHU K TRIVEDI,0,PRIVATE,0,REVABAI GENERAL HOSPITAL SARDHAV,0,0,0,1619753207000
+37,Kalol,30,0,Kalol,9428582523,10,10,Nodal Officer,Raghavdan Gadhavi,1,PRIVATE,19,RMRC Rajesh Hospital Kalol,1,0,-1,1619684559000
+38,Kudasan,73,0,Kudasan,9510541474,35,2,Nodal Officer,Mr. Harshal Patel,8,PRIVATE,28,Radhe Hospital VTC Kudasan,0,2,0,1619749202000
+39,Radhe signature complex Kudasan,17,0,Radhe signature complex Kudasan,9979846910,8,5,Nodal Officer,Dr Prakash Patel,0,PRIVATE,8,"Radhe Hospital,Radhe Signature Kudasan",0,1,0,1619749261000
+40,Kudasan,10,0,Kudasan,7016584653,2,1,Nodal Officer,Ilesh sharma,0,PRIVATE,8,Rainbow Children Hospital Kudasan,0,0,2,1619749473000
+41,Nana chiloda,40,0,Nana chiloda,9067014189,15,2,Nodal Officer,Dr Jay Patel,7,PRIVATE,16,Royal Gujarat General Hospital,0,2,0,1619751917000
+42,Mansa,30,1,Mansa,9725419555,0,0,Nodal Officer,Mr. Tanmay Patel,9,PRIVATE,20,"Ruchi Hospital, Mansa  (DCH)",6,1,14,1619699635000
+43,Paliad,30,0,Paliad,8200866184,22,18,Nodal Officer,Dr.Mahesh Thakor,0,PRIVATE,8,S.J.Patel hospital,0,0,0,1619752735000
+44,Raysan,65,0,Raysan,9408486044,0,0,Nodal Officer,Dr. Parth Pujara,7,PRIVATE,55,"S.M.V.S Hospital, Raysan (DCH)
+",0,3,0,1619761132000
+45,Mansa,0,0,Mansa,9879045015,0,0,Nodal Officer,Dr Kanan Shukla,0,GOVERNMENT,0,SDH Mansa,0,0,0,1619747939000
+46,Jayanti Apartment Modasa road dehgam,12,0,Jayanti Apartment Modasa road dehgam,9978832970,6,0,Nodal Officer,Dr Kavit Kothari,2,PRIVATE,4,Samarpan Hospital Dehgam,0,0,0,1619705838000
+47,Pramukh Arcade Kudasan,20,0,Pramukh Arcade Kudasan,9904852245,0,0,Nodal Officer,Dr Kandarp,0,PRIVATE,20,Shashwat Hospital Kudasan,0,0,0,1619753792000
+48,VTC Kudasan,8,0,VTC Kudasan,9727212085,4,4,Nodal Officer,Dr Chirag Banker,0,PRIVATE,4,Shiven Children Hospital VTC Kudasan,0,0,2,1619753252000
+49,KALOL,38,0,KALOL,9687887007,10,4,Nodal Officer,Mr. Nakul Prajapati,4,PRIVATE,22,"Shradhha Hospital, Kalol",0,2,0,1619757625000
+50,Gandhinagar,10,0,Gandhinagar,9925225799,7,0,Nodal Officer,Dr Arvind Patel,0,PRIVATE,3,Shukan Hospital Dehgam,0,0,0,1619750582000
+51,Station road Dehgam,31,0,Station road Dehgam,7572999108,20,0,Nodal Officer,Dr Lalit Solanki,5,PRIVATE,5,Siddhi Vinayak Multispeciality Hospital Dehgam,0,1,0,1619760435000
+52,Sector-17 Ghandhinagar,50,0,Sector-17 Ghandhinagar,9978897041,50,37,Nodal Officer,Dr. Hema Joshi,0,GOVERNMENT,0,Staff Training College sec 17,0,0,0,1619070392000
+53,"Behind D-Mart, Sector-26, Gandhinagar -382028",32,0,"Behind D-Mart, Sector-26, Gandhinagar -382028",9624401999,11,1,Nodal Officer,Dr Hardik Patel,2,PRIVATE,17,Surmount Hospital,0,2,0,1619662142000
+54,Naroda dehgam road,20,0,Naroda dehgam road,9909043943,13,0,Nodal Officer,Dr Ronak Patel,1,PRIVATE,5,Swarnee Hospital Dehgam,0,1,0,1619752717000
+55,Karnavati Dental college campus uvarsad,120,0,Karnavati Dental college campus uvarsad,9879622517,90,55,Nodal Officer,Dr Urvish,6,PRIVATE,20,United Eduplus Hospital Uvarsad,0,4,0,1619750642000
+56,"SECTOR - 6, Gandhinagar",41,0,"SECTOR - 6, Gandhinagar",9512320014,0,0,Nodal Officer,VIJAY RAVAL,4,PRIVATE,33,Vachhani Hospital,0,4,8,1619753593000
+57,Adalaj Gnr,17,0,Adalaj Gnr,9825989520,5,0,Nodal Officer,Dr Hemant,0,PRIVATE,12,Viva Health Care Adalaj,0,0,0,1619749397000
+58,Itadara road Mansa,16,0,Itadara road Mansa,9825514128,8,3,Nodal Officer,Dr Tushar Jani,0,PRIVATE,8,Yash Hospital Mansa,0,0,2,1619751355000

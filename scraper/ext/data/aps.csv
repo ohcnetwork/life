@@ -1,0 +1,512 @@
+id,area,available_icu_beds_with_ventilator,pincode,district,total_beds_without_oxygen,available_beds_without_oxygen,total_icu_beds_without_ventilator,total_beds_with_oxygen,hospital_phone,hospital_name,available_icu_beds_without_ventilator,total_icu_beds_with_ventilator,available_beds_with_oxygen,hospital_address,last_updated_on
+0,Anantapur,-1,515001,Anantapur,178,60,49,131,9848745923,"Super Speciality Hospital, ATP",8,10,33,"Srinivas Nagar, Anantapur, Andhra Pradesh 515001, India",0
+1,Anantapur,-1,515001,Anantapur,7,0,0,13,08554-231567,"Amaravathi Multi Speciality Hospital, Ananthapuramu",0,1,1,"11-1-234, Aravind Nagar, 3rd Cross Road Govt Hospital Road, Near Satya Sai Bajana Mandiram, Old TDP office, Aravinda Nagar, Maruthi Nagar, Anantapur, Andhra Pradesh 515001, India",0
+2,Anantapur,-1,,Anantapur,16,16,0,4,08554-274322,"Divyasree Hospital, Ananthapuramu",0,0,4,,0
+3,Anantapur,-1,515001,Anantapur,4,0,27,9,08554-220555,Care & Cure Hospital,0,2,3,"# 13-2-392-4, Care & Cure Circle, Near, Rtc Bus Stand Rd, Ntr Marg, Old Town, Anantapur, Andhra Pradesh 515001, India",0
+4,Anantapur,-1,515001,Anantapur,155,144,57,322,08554-275034,"GGH, Anantapuram",40,40,268,"Government Hospital Road, near Arvind Colony, Gulzarpet, Anantapur, Andhra Pradesh 515001, India",0
+5,Anantapur,-1,,Anantapur,105,41,20,100,08556-224255,"DH, Hindupur",13,30,8,,0
+6,Anantapur,-1,,Anantapur,0,0,0,80,08552-222262,"AH, Guntakal",0,20,48,,0
+7,Anantapur,-1,515004,Anantapur,40,2,5,22,08554-234234,"Saveera Hospital, Ananthapuram",0,3,0,"1-1348 Near crescent function Hall Opp. to Sakshi, Office, 80 Feet Rd, Anantapur, Andhra Pradesh 515004, India",0
+8,Anantapur,-1,515002,Anantapur,20,12,7,213,0855-9244267,"RDT Hospital, Ananthapuram",1,0,27,"Lenin Nagar, Anantapur, Andhra Pradesh 515002, India",0
+9,Anantapur,-1,,Anantapur,0,0,5,138,9844188685,"Satya Sai Hospital, Puttaparthi",1,5,112,,0
+10,Anantapur,-1,515001,Anantapur,24,15,0,8,08554-232123,"Chandra Super Speciality Hospital, Ananthapuram",0,0,0,"13-2-390,SHIRDI NAGAR,NEXT TO RTC BUS STAND, Flyover, Srinivas Nagar, Anantapur, Andhra Pradesh 515001, India",0
+11,Anantapur,-1,515001,Anantapur,10,10,5,9,0855424999,"S R Multiple Super Speciality Hospital, Ananthapuramu",4,2,8,"One PAR center, Sangameswar Circle, Sai Nagar, Anantapur, Andhra Pradesh 515001, India",0
+12,Anantapur,-1,515001,Anantapur,82,9,11,148,9849093126,"Govt., Cancer Hospital, Oncology Anantapur",10,5,29,"28-4-792, JNTU Rd, S.B.I colony, Navodaya Colony, Anantapur, Andhra Pradesh 515001, India",0
+13,Anantapur,-1,515001,Anantapur,9,5,6,5,08554222133,"K.K NURSING HOME, ANANTHAPURAMU",0,0,0,"Old Town, Anantapur, Andhra Pradesh 515001, India",0
+14,Anantapur,-1,515001,Anantapur,0,0,0,6,08554-274194,"Asha Hospital, Ananthauramu",0,1,6,"# 7/201, Court Road, Rahamat Nagar, Anantapur, Andhra Pradesh 515001, India",0
+15,Anantapur,-1,515001,Anantapur,15,7,0,5,08554-245333,"Pavani Multi Specility  Hospital, Ananthapuramu",0,0,0,"5th Cross Rd, Sai Nagar, Anantapur, Andhra Pradesh 515001, India",0
+16,Anantapur,-1,515001,Anantapur,19,7,0,8,08554-247365,Dr.YSR memorial hospital,0,0,5,"12-2-878, I Cross, Sai Nagar Ashoknagar, Ashoknagar, Sai Nagar, Anantapur, Andhra Pradesh 515001, India",0
+17,Anantapur,-1,515001,Anantapur,15,15,0,0,08554-274630,"Mythri Hospital,  Anantapuramu",0,0,0,"Munirathnam cross road, near munirathnam transport, Kamalanagar, Anantapur, Andhra Pradesh 515001, India",0
+18,Anantapur,-1,515001,Anantapur,0,0,0,5,08554-221414,"Kranthi Hospital, ATP  (Non Arogyasree)",0,2,5,"Ramachandra Nagar, Anantapur, Andhra Pradesh 515001, India",0
+19,Anantapur,-1,515001,Anantapur,3,3,0,3,08554-221966,"SV Hospital ,  Ananthauramu",0,1,3,"Dr, No.14, 327, Raju Rd, near Mythri Hospital, Kamalanagar, Anantapur, Andhra Pradesh 515001, India",0
+20,Anantapur,-1,,Anantapur,14,4,6,31,08559-226070,Devi Nursing Home Dharmavaram,5,1,8,,0
+21,Anantapur,-1,515001,Anantapur,0,0,20,60,9492490116,"AH, Kadiri",20,0,0,"D.No.6/74, Opp. Rupee Village Gifts Bellary Bypass Road, Janasakthi Nagar, Anantapur, Andhra Pradesh 515001, India",0
+22,Anantapur,-1,515005,Anantapur,12,12,0,13,08554-239123,"K.S.A.R.  Gaffoor Hospital, Ananthapuramu (Non Arogyasree)",0,1,5,"80 Feet Rd, Sangameswar Circle, Old Town, Anantapur, Andhra Pradesh 515005, India",0
+23,Anantapur,-1,515002,Anantapur,13,10,12,17,08554243422,Harshitha Multispeciality Hospital,4,1,6,"#6-3-984, 1st Cross Rd, Maruthi Nagar, Anantapur, Andhra Pradesh 515002, India",0
+24,Anantapur,-1,515003,Anantapur,10,10,0,0,7416746272,"Sree Pragna Hospital, Ananthauramu",0,0,0,"Pangal road ,Near Eenadu office,opposite to TTDC RAPTHADU, Ram Nagar, Anantapur, Andhra Pradesh 515003, India",0
+25,Anantapur,-1,515201,Anantapur,34,34,7,10,9492555195,Teja Nursing Home Hindupuram,7,2,10,"RPGT Rd, Mukkidipeta, Hindupuram, Andhra Pradesh 515201, India",0
+26,Anantapur,-1,515001,Anantapur,0,0,3,7,9440778855,"Sri Anand Hospital,  Ananthapuramu",3,0,7,"Kamalanagar, Anantapur, Andhra Pradesh 515001, India",0
+27,Anantapur,-1,515001,Anantapur,15,14,0,5,9849898698,"Sreenivasa Multi Speciality Hospital, Ananthapuram",0,0,4,"#27-281 near iron bridge, Subash Rd, Sai Nagar, Anantapur, Andhra Pradesh 515001, India",0
+28,Anantapur,-1,515801,Anantapur,30,30,0,10,08552226999,"Sri Padmavathi Sreenivasa Multi Speciality Hospital, Guntakal",0,0,10,"Hanumesh Nagar, Guntakal, Andhra Pradesh 515801, India",0
+29,Anantapur,-1,,Anantapur,10,10,0,5,08554228567,"Sudarshan Hospital, Ananthapuram",0,0,5,,0
+30,Anantapur,-1,515001,Anantapur,10,10,0,0,9100109213,"Sanjeevani Hospital, Ananthapuram",0,0,0,"Subash Rd, Adimurthy Nagar, Gulzarpet, Anantapur, Andhra Pradesh 515001, India",0
+31,Anantapur,-1,515001,Anantapur,0,0,0,10,08554222022,"Ananthapuram Orthopedic Centre, Ananthapuram",0,0,10,"11-909, 1st Main,, Aravindanagar, Gulzarpet, Anantapur, Andhra Pradesh 515001, India",0
+32,Anantapur,-1,,Anantapur,8,8,0,12,08554229900,"Sai Ratna Multi Speciality Hospital, Ananthapuram",0,0,11,,0
+33,Anantapur,-1,,Anantapur,12,12,0,3,08554274564,"Sri Sai Krupa Nursing Home, Ananthapuram",0,0,3,,0
+34,Anantapur,-1,,Anantapur,10,10,0,0,08494223444,"Triveni Hospital, Kadiri",0,0,0,,0
+35,Anantapur,-1,,Anantapur,0,0,0,0,08494220219,"Ameer Nursing Home, Kadiri",0,0,0,,0
+36,Anantapur,-1,,Anantapur,0,0,0,0,9553555143,"Balaji Super Speciality Hospital, Hindupur",0,0,0,,0
+37,Anantapur,-1,,Anantapur,20,20,6,24,08500 234640,Preethi Nursing Home Guntakal,6,0,24,,0
+38,Anantapur,-1,,Anantapur,16,16,0,0,08554241703,"Balaji Eye Care, Laser Centre, Anantapur",0,0,0,,0
+39,Anantapur,-1,,Anantapur,16,16,0,4,08552 223770,"SWAPNA NURSING HOME , Guntakal",0,0,4,,0
+40,Anantapur,-1,,Anantapur,10,10,0,0,08556223224,"Sree Raghavendra Multispeciality Hospital, Hindupur",0,0,0,,0
+41,Anantapur,-1,,Anantapur,4,4,0,11,9642211796,Sri Gayathri Hospitl  Anantapur,0,1,11,,0
+42,Anantapur,-1,,Anantapur,14,14,0,0,9989973565,Sai Krishna Nethralaya,0,0,0,,0
+43,Anantapur,-1,,Anantapur,18,18,0,0,08554 229993,"Apple Eye Care,  Anantapuramu",0,0,0,,0
+44,Anantapur,-1,,Anantapur,14,14,0,6,08554277077,Snehalatha Hospitals Anantapuramu,0,0,6,,0
+45,Anantapur,-1,,Anantapur,5,5,5,10,085542 45755,"AASHA HOSPITAL,TADIPATRI",5,0,8,,0
+46,Anantapur,-1,,Anantapur,0,0,0,0,08552221108,Lifeline Hospital Guntakal,0,0,0,,0
+47,Anantapur,-1,,Anantapur,0,0,13,0,9908980373,Malvina Hospital And Eye Centre  Anantapuramu,13,0,0,,0
+48,Anantapur,-1,,Anantapur,15,15,5,0,8554274244,SIRI HOSPITAL,5,0,0,,0
+49,Anantapur,-1,,Anantapur,11,11,3,6,918554241133,Sree Nethra Ent And Eye Care Hospital Anantapuramu,2,0,1,,0
+50,Anantapur,-1,,Anantapur,11,11,2,0,9999999999,"Medicure Hospitals, Anantapur",2,0,0,,0
+51,Anantapur,-1,,Anantapur,18,18,0,2,9441552500,Sri Prakash Eye Hospital  Anantapuramu,0,0,2,,0
+52,Anantapur,-1,,Anantapur,0,0,0,0,08554 233393,SHANTHI HOSPITAL,0,0,0,,0
+53,Anantapur,-1,,Anantapur,21,21,0,0,08554 270816,CSR Hosptial,0,0,0,,0
+54,Anantapur,-1,,Anantapur,10,10,5,0,08554 239777,PRIYA MULTI SPECIALITY HOSPITAL,5,0,0,,0
+55,Anantapur,-1,,Anantapur,11,11,0,0,7013543702,RAKSHA HOSPITAL,0,0,0,,0
+56,Chittoor,-1,517001,Chittoor,111,3,135,502,8772286002,SVRRGG Hospital,9,0,84,"Church St, Thotapalyam, Chittoor, Andhra Pradesh 517001, India",0
+57,Chittoor,-1,517501,Chittoor,208,2,92,273,8772286388,Sr Padmavathi Hospital Tirupati,0,40,0,"T. Nagar, near Sri raghavendra Swamy Mattam, Srinivasa Nagar, K.B Layout, Tirupati, Andhra Pradesh 517501, India",0
+58,Chittoor,-1,517501,Chittoor,165,67,0,85,08772242501,ESI Hospital Tirupati,0,0,53,"M.R.Pally, Sri Krishna Nagar, Tirupati, Andhra Pradesh 517501, India",0
+59,Chittoor,-1,517001,Chittoor,25,7,10,35,0877-22529,Lotus Hospital,0,5,1,"Nalandha Nagar, BV Reddy Colony, Chittoor, Andhra Pradesh 517001, India",0
+60,Chittoor,-1,517501,Chittoor,14,3,5,23,0877-22522,Madhuri Remdey Hospital,2,2,14,"Isckon Temple Road, Besides Federal Bank, near Anna Rao Circle, Srinivasa Nagar, Varadaraj Nagar, Tirupati, Andhra Pradesh 517501, India",0
+61,Chittoor,-1,517001,Chittoor,0,0,5,25,8577263646,SHUBHASHINIHOSPITAL,1,0,8,"Ponniamman Koil St, Thotapalyam, Chittoor, Andhra Pradesh 517001, India",0
+62,Chittoor,-1,517001,Chittoor,0,0,21,68,8776690000,Amara Hospital,14,8,12,"Kattamanchi Main road Beside LGB tower, Kattamanchi, Chittoor, Andhra Pradesh 517001, India",0
+63,Chittoor,-1,517425,Chittoor,320,189,20,60,08570 277666,PES Institute of Medical Sceinces,0,0,13,"NH 219, Kuppam, Andhra Pradesh 517425, India",0
+64,Chittoor,-1,517001,Chittoor,45,4,40,115,0877-2233449,Narayanadri Hospitals and Research Institute Private Ltd,3,9,3,"Nalandha Nagar, BV Reddy Colony, Chittoor, Andhra Pradesh 517001, India",0
+65,Chittoor,-1,517501,Chittoor,70,8,65,25,9849677970,SREE RAMADEVI MULTI SUPER SPECIALITY HOSPITAL,4,10,2,"T.S 82 Sairam Street, Nehru Nagar, Tirupati, Andhra Pradesh 517501, India",0
+66,Chittoor,-1,517001,Chittoor,12,12,11,0,0877-2223512,DBR,11,1,0,"Church St, Thotapalyam, Chittoor, Andhra Pradesh 517001, India",0
+67,Chittoor,-1,517501,Chittoor,50,0,20,50,8886696040,SANKALPA SUPER SPECIALITY HOSPITAL,2,5,0,"Karakambadi Bazar St, Tata Nagar, Tirupati, Andhra Pradesh 517501, India",0
+68,Chittoor,-1,517127,Chittoor,220,161,50,260,08572-295911,DIST HQ HOSPITAL AIMSR,3,50,6,"Murukambattu, Andhra Pradesh 517127, India",0
+69,Chittoor,-1,,Chittoor,30,5,20,70,08571-222087,DH MADANAPALLI,9,0,3,,0
+70,Chittoor,-1,,Chittoor,10,0,0,40,08578-222530,AH SRI KALAHASTHI,0,10,1,,0
+71,Chittoor,-1,517425,Chittoor,50,7,0,10,08570-255011,AH KUPPAM,0,10,2,"NH 219, Kuppam, Andhra Pradesh 517425, India",0
+72,Chittoor,-1,517520,Chittoor,15,5,0,15,9701374476,"Sub divisional railway hospital,Renigunta",0,2,2,"Renigunta, Andhra Pradesh 517520, India",0
+73,Chittoor,-1,89109,Chittoor,6,5,11,23,7288877300,MGM HOSPITAL,7,2,8,"3799 S Las Vegas Blvd, Las Vegas, NV 89109, USA",0
+74,Chittoor,-1,517001,Chittoor,0,0,17,65,9100086108,ANKURA HOSPITAL,0,1,5,"Church St, Thotapalyam, Chittoor, Andhra Pradesh 517001, India",0
+75,Chittoor,-1,517330,Chittoor,14,7,0,22,08571231500,Mary Lott Lyles Hospital,0,0,9,"Subba Reddy Layout, Vivekanadanagar, MLL Hospital Staff Nurse Residence Quarters, Madanapalle, Andhra Pradesh 517330, India",0
+76,Chittoor,-1,517001,Chittoor,25,20,4,11,08584244552,PRASAD HOSPITAL,0,0,0,"OTK Rd, beside Gurunatha theatre, Thotapalyam, Chittoor, Andhra Pradesh 517001, India",0
+77,Chittoor,-1,517001,Chittoor,0,0,10,45,87722871111,SRI MARUTH SPECIALITY HOSPITAL,0,2,6,"Sundarayyar street, Thotapalyam, Chittoor, Andhra Pradesh 517001, India",0
+78,Chittoor,-1,517127,Chittoor,20,18,23,10,7729991055,RVS Hospital,13,4,9,"RVS Nagar, Chittoor NH-18, Tirupathi, Chittoor Rd, Chittoor, Andhra Pradesh 517127, India",0
+79,Chittoor,-1,517001,Chittoor,20,14,10,25,0877-2970517,SREE HOSPITAL,1,0,3,"Nalandha Nagar, BV Reddy Colony, Chittoor, Andhra Pradesh 517001, India",0
+80,Chittoor,-1,517001,Chittoor,15,0,12,13,9177000231,SRI CHAKRA HOSPITAL,0,2,0,"Nalandha Nagar, BV Reddy Colony, Chittoor, Andhra Pradesh 517001, India",0
+81,Chittoor,-1,517001,Chittoor,0,0,8,32,9346777777,ELITE HOSPITAL,0,0,0,"Church St, Thotapalyam, Chittoor, Andhra Pradesh 517001, India",0
+82,Chittoor,-1,517001,Chittoor,38,24,9,0,0877-2222700,BALAJI ORTHOPAEDIC,2,1,0,"Thotapalyam, Chittoor, Andhra Pradesh 517001, India",0
+83,Chittoor,-1,517501,Chittoor,55,10,29,0,9848386464,RUSSH HOSPITALS PRIVATE LIMITED,1,0,0,"10-14, 576/6, 1st St, Reddy & Reddy's Colony, Reddy and Reddy's Colony, Tirupati, Andhra Pradesh 517501, India",0
+84,Chittoor,-1,517001,Chittoor,15,0,12,18,0877-2280567,SURYA MULTISPECIALITY AND EMERGENCY HOSPITAL,0,3,0,"#10/259, behind Vinayaka temple, Kattamanchi, Chittoor, Andhra Pradesh 517001, India",0
+85,Chittoor,-1,517001,Chittoor,5,0,16,39,9676462233,VISHNU SRI HOSPITAL,4,0,15,"2-39, Guru Nagar Colony, Near Municipal Office, KR Palli, KR Palli, Chittoor, Andhra Pradesh 517001, India",0
+86,Chittoor,-1,517001,Chittoor,0,0,5,23,9966063334,KR HOSPITAL,0,1,2,"Puttur Rd, KR Palli, Chittoor, Andhra Pradesh 517001, India",0
+87,Prakasam,-1,523105,Prakasam,1,1,7,57,9866717702,SURAKSHA HOSPITAL,7,3,57,"pothuraju temple near 523105, DV Nagar, Kandukur, Andhra Pradesh 523105, India",0
+88,Chittoor,-1,517325,Chittoor,9,3,6,13,8571222167,CHANDRAMOHANS NURSING HOME,3,5,5,"Besides Hdfc Bank, 14/2a, CTM Rd, Rama Gopal Naidu Colony, Madanapalle, Andhra Pradesh 517325, India",0
+89,Chittoor,-1,517501,Chittoor,16,16,4,10,08772240888,DR KRISHNAS LIFE HOSPITAL,4,0,10,"516, Reddy & Reddy's Colony, Reddy and Reddy's Colony, Tirupati, Andhra Pradesh 517501, India",0
+90,Chittoor,-1,517001,Chittoor,0,0,3,17,08772224994,OBULAM HOSPITAL,3,0,12,"Church St, Thotapalyam, Chittoor, Andhra Pradesh 517001, India",0
+91,Chittoor,-1,73112,Chittoor,0,0,0,22,7337298999,CITY CARE HOSPITAL,0,0,15,"3524 NW 56th St, Oklahoma City, OK 73112, USA",0
+92,Chittoor,-1,517001,Chittoor,0,0,18,42,08571 796052,MODERN HOSPITAL,7,4,14,"Nalandha Nagar, BV Reddy Colony, Chittoor, Andhra Pradesh 517001, India",0
+93,Chittoor,-1,517001,Chittoor,15,0,10,0,08571220345,SURAKSHA SPECIALITY HOSPITAL,0,1,0,"#2-47, Officer's Lane, Guru Nagar Colony 1st St, KR Palli, Chittoor, Andhra Pradesh 517001, India",0
+94,Chittoor,-1,517507,Chittoor,13,1,0,197,0877 226 4411,S.V.AYURVEDA HOSPITAL,0,0,47,"Sri Padmavati Mahila Visvavidyalayam, Tirupati, Andhra Pradesh 517507, India",0
+95,Chittoor,-1,,Chittoor,0,0,0,0,08572211906,CMC Vellore Chittoor Campus,0,0,0,,0
+96,Chittoor,-1,,Chittoor,0,0,0,0,0877-2248140,SURENDRA HOSPITAL,0,0,0,,0
+97,Chittoor,-1,,Chittoor,0,0,0,0,8500530530,MEDIGO MULTY SPECILITY HOSPITAL,0,0,0,,0
+98,East godavari,-1,533005,East godavari,1,1,15,85,9246691559,HOPE HOSPITAL KAKINADA,2,2,5,"ADB Road, Near, Achampet Junction, Kakinada, Andhra Pradesh 533005, India",0
+99,East godavari,-1,533003,East godavari,0,0,10,20,9951516777,Laxmi Hospital Kakinada,0,2,0,"Venkat Nagar, Kannayya Kapu Nagar, Kakinada, Andhra Pradesh 533003, India",0
+100,East godavari,-1,533001,East godavari,6,4,5,14,8341887888,7 star Hospital Kakinada,2,1,9,"D.No 20-1-61, Main Road, Opposite LIC Building, Rama Rao Peta, Kakinada, Andhra Pradesh 533001, India",0
+101,East godavari,-1,533003,East godavari,0,0,4,18,9963759390,Inodaya Hospital Kakinada,0,2,0,"D.No 70-7-7/11 Vidya Nagar, NFCL Road, Junction, Nagamalli Thota, Ramanayapeta, Kakinada, Andhra Pradesh 533003, India",0
+102,East godavari,-1,533001,East godavari,10,0,5,20,9701481467,Sri Akshara Hospital Kakinada,0,2,0,"beside Old TDP Office, Rama Rao Peta, Kakinada, Andhra Pradesh 533001, India",0
+103,East godavari,-1,533106,East godavari,151,10,53,213,9848050057,District Hospital Rajahmundry,5,10,15,"Police Quarters, Padmavathi Nagar, Rajahmundry, Andhra Pradesh 533106, India",0
+104,East godavari,-1,533103,East godavari,6,0,14,30,0883246131,Raju Neuro Hospital Rajahmundry,0,5,0,"76-4-7, Gandhi Puram 2, Danavai Peta, Rajahmundry, Andhra Pradesh 533103, India",0
+105,East godavari,-1,,East godavari,0,0,4,6,0883255544,Universal Hospital rajahmundry,0,0,0,,0
+106,East godavari,-1,533201,East godavari,10,0,10,40,9177723444,SRINIDHI HOSPITAL,0,2,0,"college road, opp: more market, Amalapuram, Andhra Pradesh 533201, India",0
+107,East godavari,-1,533003,East godavari,0,0,10,40,9177723444,sunrise hospital,1,2,0,"Sunrise Hospital Rd, Srinagar, Kakinada, Andhra Pradesh 533003, India",0
+108,East godavari,-1,533003,East godavari,10,1,20,20,9848124080,TEAM HOSPITAL,0,0,0,"behind Ashram Public school, Nagamalli Thota, Kakinada, Andhra Pradesh 533003, India",0
+109,East godavari,-1,533001,East godavari,494,178,156,645,884230200,GGH KAKINADA,14,40,492,"Kakinada, Andhra Pradesh 533001, India",0
+110,East godavari,-1,533296,East godavari,90,10,30,100,0883669999,GSL MEDICAL COLLEGE,0,5,11,"NH16, Lakshmi Puram, Rajahmundry, Andhra Pradesh 533296, India",0
+111,East godavari,-1,,East godavari,10,10,6,34,9613613613,DELTA HOSPITAL,6,0,23,,0
+112,East godavari,-1,533201,East godavari,400,359,50,200,9963573337,KIMS AMALAPURAM,49,10,71,"Chaitanya Health City, NH216, Amalapuram, Andhra Pradesh 533201, India",0
+113,East godavari,-1,533450,East godavari,10,9,5,10,8832442942,ANNAPURNA HOSPITAL,0,2,1,"Uppada - Pithapuram Rd, Madhava Nagar, Pithapuram, Andhra Pradesh 533450, India",0
+114,East godavari,-1,533103,East godavari,16,4,6,28,8832437199,GANDHI HOSPITAL,1,2,4,"ph no.9394556619, 29,39,49, Gandhi Puram 2, Gandhipuram, Rajahmundry, Andhra Pradesh 533103, India",0
+115,East godavari,-1,533103,East godavari,0,0,0,10,8832474744,RS NEURO HOSPITAL,0,0,2,"Prakasam Nagar, Gandhi Puram 2, Gandhipuram, Rajahmundry, Andhra Pradesh 533103, India",0
+116,East godavari,-1,533001,East godavari,0,0,10,40,8832020555,SUNSTAR HOSPITAL,1,6,6,"26-3-23, kambalpeta, opposite Anand regency, Kambala Peta, Rajahmundry, Andhra Pradesh 533001, India",0
+117,East godavari,-1,533001,East godavari,5,0,5,10,08842368521,Siddartha Hospital KKD,0,1,0,"D.No:34-1, 20, Temple St, Kakinada, Andhra Pradesh 533001, India",0
+118,East godavari,-1,533004,East godavari,28,1,16,16,08842333367,SANJIVI INISTITUTE OF ORTHOPAEDICS AND SUPER SPECIALITIES PVT LTD,0,0,14,"Rama Rao Peta, Kakinada, Andhra Pradesh 533004, India",0
+119,East godavari,-1,533003,East godavari,8,8,13,7,08842352233,DR BRM CAREWELL HOSPITAL,11,0,7,"Bhaskar Nagar Rd, G O Colony, Kakinada, Andhra Pradesh 533003, India",0
+120,East godavari,-1,533005,East godavari,0,0,6,24,08842382381,Trust Hospital A Unit Of Sarvottam Health Care Pvt Ltd,6,4,24,"Door No. 3-29, Sarpavaram Junction, Near, Gaigolupadu Road, Lalitha Nagar, Kakinada, Andhra Pradesh 533005, India",0
+121,East godavari,-1,533003,East godavari,0,0,18,12,08842383366,Safe Emergency Hospital,0,1,10,"Usha Priya Complex, Bhanugudi Junction, Srinagar, Kakinada, Andhra Pradesh 533003, India",0
+122,East godavari,-1,533003,East godavari,0,0,6,24,08842385575,FOUNDATION HOSPITAL,4,3,5,"Near Power Office, Shanti Nagar, Kakinada, Andhra Pradesh 533003, India",0
+123,East godavari,-1,533101,East godavari,0,0,4,16,9866255678,Sri Ravi Hospitals,4,0,16,"D.No 86-08-05 and 86-05, 05 A, Tilak Rd, beside Athidhi Restaurant, Gandhipuram, Rajahmundry, Andhra Pradesh 533101, India",0
+124,East godavari,-1,533106,East godavari,2,2,7,12,7075623517,PRIME HOSPITALS,7,1,12,"Prakash Nagar, East Godavari, Prakasam Nagar, Rajahmundry, Andhra Pradesh 533106, India",0
+125,East godavari,-1,533001,East godavari,25,0,10,20,08842361155,Sai Sudha Hospital,1,0,1,"D.No: 21, 1-24, Jawahar St, Salipeta, Kakinada, Andhra Pradesh 533001, India",0
+126,East godavari,-1,533105,East godavari,5,5,12,13,8099930999,Tholath Memorial Multispeciality Hospital,12,4,13,"Bhaskar Nagar, Rajahmundry, Andhra Pradesh 533105, India",0
+127,East godavari,-1,,East godavari,0,0,3,17,08842375091,Sri Lalitha Hospitals Insitute Of Laparoscopic Surgery And Training,0,1,3,,0
+128,East godavari,-1,,East godavari,6,6,4,0,08832468110,RAJAHMUNDRY ORTHOPEDIC HOSPITAL,4,1,0,,0
+129,East godavari,-1,,East godavari,12,12,0,38,08832417582,CEM HOSPITAL,0,1,38,,0
+130,East godavari,-1,,East godavari,0,0,0,18,9701450455,SAI HOSPITALS,0,0,18,,0
+131,East godavari,-1,,East godavari,0,0,0,0,7730055135,PANDURANGA PRAJA VYDYASALA,0,0,0,,0
+132,East godavari,-1,,East godavari,0,0,0,0,08842363333,CITY HOSPITAL,0,0,0,,0
+133,East godavari,-1,,East godavari,0,0,0,0,088552355568,BHAVANI MULTISPECIALITY,0,0,0,,0
+134,Guntur,-1,522004,Guntur,200,35,22,190,08645-230101,NRI Hospital,0,23,1,"Kanna Vari Thota, Guntur, Andhra Pradesh 522004, India",0
+135,Guntur,-1,522005,Guntur,15,5,5,30,9493056718,AIIMS,2,10,4,"114-13,OPP TO Z.P.HIGH SCHOOL,NALLAPADU, Ankireddy Palem, Andhra Pradesh 522005, India",0
+136,Guntur,-1,522001,Guntur,95,0,221,664,0863-2226007,GGH,3,57,18,"Railpet, Guntur, Andhra Pradesh 522001, India",0
+137,Guntur,-1,522201,Guntur,20,2,8,192,8008553550,District hospital Tenali,0,34,32,"NTR Road Amaravathi, Plots, Chenchupet, Tenali, Andhra Pradesh 522201, India",0
+138,Guntur,-1,522001,Guntur,0,0,0,70,0866-2469700,MANIPAL HOSPITAL,0,11,0,"15-7-139, Guntur Rd, Christian Pet, Old Guntur, Guntur, Andhra Pradesh 522001, India",0
+139,Guntur,-1,522019,Guntur,141,15,30,100,0863-2288555,Katuri medical college,0,5,0,"Katuri Health City, Chinakondrupadu, Andhra Pradesh 522019, India",0
+140,Guntur,-1,522001,Guntur,20,2,8,22,7396182592,"Amrutha Hospitals, Guntur",0,0,5,"Old Club Rd, Coastal Andhra Region, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+141,Guntur,-1,522001,Guntur,31,31,6,4,08632226744,"Ahalya Nursing Home, Guntur",0,2,1,"behind Sivalayam Street, Ganeshrao Peta, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+142,Guntur,-1,522001,Guntur,0,0,13,37,08632268881,"Star Hospital, Guntur",1,1,0,"Old Club Rd, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+143,Guntur,-1,522001,Guntur,20,0,15,15,9440802310,"Lalitha Super Specialty, Guntur",0,1,0,"Kothapet Main Rd, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+144,Guntur,-1,522001,Guntur,0,0,10,65,9133338737,"Vedanta Hospitals,Guntur",4,3,6,"# 15-11-154 Near Best Price Mangalagiri, Road, Agatha Varappadu, Guntur, Andhra Pradesh 522001, India",0
+145,Guntur,-1,522001,Guntur,10,0,5,11,9666645506,"Amma Childrens Hospital, Guntur",0,1,0,"Puvada Vari St, Gunturvari Thota, Pottur Vari Thota, Guntur, Andhra Pradesh 522001, India",0
+146,Guntur,-1,522001,Guntur,0,0,27,24,9100071361,"Viswas Hospital, Kothapet, Guntur",0,0,0,"13-6-98, Old club road, Anandapet 5th Ln, beside Ramachandra children's hospital, Gunturvari Thota, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+147,Guntur,-1,522001,Guntur,15,14,12,13,08632227000,"Aswini Hospitals, Guntur",11,1,7,"Besides Manipuram Fly Over, Bus Stand, near R.T.C, Thamma Ranga Reddy Nagar, Guntur, Andhra Pradesh 522001, India",0
+148,Guntur,-1,522002,Guntur,27,3,5,20,08636638833,"BMR Hospitals, Guntur",0,2,0,"Arundelpet, Guntur, Andhra Pradesh 522002, India",0
+149,Guntur,-1,522001,Guntur,0,0,10,26,0862222279,"Andhra Prime Hospitals, Guntur",0,2,0,"opp. Metro Theater, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+150,Guntur,-1,522001,Guntur,12,0,24,14,7993938080,"People's Trauma Hospital, Guntur",0,4,0,"Old Club Rd, Coastal Andhra Region, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+151,Guntur,-1,522001,Guntur,8,0,5,12,08632353255,"Sree Prathima super Speciality Hospital, Guntur",1,2,6,"1st Line, Ramireddy Thota, Besides Manipuram Bridge, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+152,Guntur,-1,522001,Guntur,10,5,10,37,08632322355,"Sri Balaji Hospitals, Guntur",0,3,2,"#51-22-526, Yadavallivari Street, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+153,Guntur,-1,522001,Guntur,20,7,13,30,9963833581,"Suraksha Hospital, Guntur",1,4,0,"12-12-26, Old Club Rd, Coastal Andhra Region, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+154,Guntur,-1,522413,Guntur,25,25,7,11,08649256060,"Palnadu Hospitals, Piduguralla",0,2,5,"Unnamed Road, Piduguralla, Andhra Pradesh 522413, India",0
+155,Guntur,-1,522001,Guntur,0,0,10,40,9393477759,"Tulasi Multi Speciality Hospital, Kothapeta, Guntur",0,2,0,"5th Lane, GV Thota, Gunturvari Thota, Christian Pet, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+156,Guntur,-1,522007,Guntur,19,0,4,27,0863-2215137,"Sri Rama Hospital, Guntur",0,1,0,"Amaravathi Rd, Babu Jagjivan Ramnagar, Mallikarjunpet, Guntur, Andhra Pradesh 522007, India",0
+157,Guntur,-1,522001,Guntur,0,0,7,43,08632233622,"Sravani Hospital, Guntur",0,0,1,"Puvada Vari St, Pottur Vari Thota, Guntur, Andhra Pradesh 522001, India",0
+158,Guntur,-1,522002,Guntur,10,1,10,30,0863-2234963,Sri Sai Hospital,0,3,10,"5/2, Ankamma Nagar, Sali Pet, Arundelpet, Guntur, Andhra Pradesh 522002, India",0
+159,Guntur,-1,522413,Guntur,10,1,15,25,08649-254001,"Anjireddy Hospital, Piduguralla",2,2,0,"Anjireddy Hospital Rd, Piduguralla, Andhra Pradesh 522413, India",0
+160,Guntur,-1,522601,Guntur,15,15,23,27,9494413157,"Sri Datta Hospital, Narasaraopet",0,2,0,"Prakash Nagar, Narasaraopeta, Andhra Pradesh 522601, India",0
+161,Guntur,-1,522001,Guntur,20,0,10,30,7729988283,GUNTUR KIDNEY,0,3,0,"# 15-11-1/10, Near Padmaja Petrol Bunk, Mangalgiri Road, Sitaram Nagar, Guntur, Andhra Pradesh 522001, India",0
+162,Guntur,-1,522001,Guntur,21,0,28,56,08647-230007,Mahathama Gandhi Hospital,0,0,4,"opp. Sanjeevini Medical Complex, Kakumanu Vari Thota, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+163,Guntur,-1,522001,Guntur,18,1,12,20,8632233377,Coastal Care Hospital,0,3,3,"8th Lane Old Club Road Opp RTC Bus Stand, Gunturvari Thota, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+164,Guntur,-1,522001,Guntur,25,6,10,40,8632237337,Guntur City Hospitals,0,4,12,"D.no:14-01, 64, Old Club Rd, Near Bose Statue, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+165,Guntur,-1,522124,Guntur,0,0,43,0,8179814861,Sajja Chandramouli Hospital,14,1,0,"15-1-71, GBC Rd, Ponnur, Andhra Pradesh 522124, India",0
+166,Guntur,-1,522002,Guntur,13,9,16,27,9848549955,Siri Hospital,12,2,19,"Kakumanu Vari Thota, Vishnu Nagar, Donka Road, Mallikarjunpet, Guntur, Andhra Pradesh 522002, India",0
+167,Guntur,-1,522001,Guntur,0,0,10,40,9505605969,Uday Hospital,0,3,0,"Besides Meharbaba Temple, Kakani Rd, Autonagar, Guntur, Andhra Pradesh 522001, India",0
+168,Guntur,-1,522001,Guntur,0,0,10,40,9393121280,Sri Lakshmi Hospitals,0,3,10,"9-11-147, Donka Rd, Near Kanumuri Hospital, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+169,Guntur,-1,522001,Guntur,12,12,13,15,7794985555,Citizen Super Specialty Hospital,13,3,5,"Sanakkayala Factory Rd, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+170,Guntur,-1,522001,Guntur,3,2,18,9,8632254477,Prof.D.Ramakotaiah Children's Hospital 9063337983 manager ganesh,0,2,0,"Opposite Ganesh Movie Hall, Near Lalita Hospital, Pottur Vari Thota, Guntur, Andhra Pradesh 522001, India",0
+171,Guntur,-1,522001,Guntur,14,0,20,16,08647-254222,Kommineni Super Specialty Hospital,0,2,0,"Old Bank St, GV Thota, Guntur, Andhra Pradesh 522001, India",0
+172,Guntur,-1,522001,Guntur,22,15,10,10,0863-2267333,Raghavendra Hospitals,0,2,3,"Opp.Street to Sivalayam, Kothapet, Old Bank St, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+173,Guntur,-1,522001,Guntur,16,8,5,4,9640241261,Sri Raghavendra Hospital,0,1,1,"Opp.Street to Sivalayam, Kothapet, Old Bank St, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+174,Guntur,-1,522002,Guntur,10,7,0,40,08644-222229,Health Hospitals,0,1,26,"Arundelpet, Guntur, Andhra Pradesh 522002, India",0
+175,Guntur,-1,522002,Guntur,5,5,16,12,9703525848,SHRI Hospital,0,5,0,"Kakumanu Vari Thota, Vishnu Nagar, Donka Road, Mallikarjunpet, Guntur, Andhra Pradesh 522002, India",0
+176,Guntur,-1,522034,Guntur,11,11,12,15,9959812978,Life Hospitals,12,1,15,"Mahatma Gandhi Inner Ring Rd, Mallikarjuna Puram Colony, Guntur, Andhra Pradesh 522034, India",0
+177,Guntur,-1,522001,Guntur,0,0,30,15,756941808,Ammaji Pavani Memorial Hospital,3,4,1,"1st Ln, Coastal Andhra Region, GV Thota, Guntur, Andhra Pradesh 522001, India",0
+178,Guntur,-1,522001,Guntur,36,24,10,4,8074954864,Cherukuri Hospitals,0,0,0,"D.no. 12-24-17 Gadiyaram, Seelam Vari St, behind Doctors Plaza, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+179,Guntur,-1,522007,Guntur,0,0,10,19,9100071400,"Viswas Hospitals, Inner Ring Road",3,0,3,"Vinayak Nagar, Guntur, Andhra Pradesh 522007, India",0
+180,Guntur,-1,522001,Guntur,0,0,4,24,7382100222,Mythri Multi Specialty Hospital,4,0,11,"Thamma Ranga Reddy Nagar, Guntur, Andhra Pradesh 522001, India",0
+181,Guntur,-1,522001,Guntur,9,9,4,12,0863-2359907,Sri Venkateswara Hospital,4,0,12,"Railpet, Guntur, Andhra Pradesh 522001, India",0
+182,Guntur,-1,522001,Guntur,10,4,10,15,8125660266,Jayathi Hospitals,0,1,0,"Coastal Andhra Region, GV Thota, Guntur, Andhra Pradesh 522001, India",0
+183,Guntur,-1,522001,Guntur,13,6,3,9,08646275666,NIMS 24  Hospital,2,2,3,"12/24/1930, Kothapeta, Guntur, Andhra Pradesh 522001, India",0
+184,Guntur,-1,522004,Guntur,16,16,6,3,7799200404,Swathi Institute  of Medical  Science,6,3,3,"Kanna Vari Thota, Guntur, Andhra Pradesh 522004, India",0
+185,Guntur,-1,522001,Guntur,20,11,12,4,08647227070,Mother Theresa  Hospital,12,2,4,"13-3-1, 2nd Line, Gunturvari Thota, Pothurivarithota, Guntur, Andhra Pradesh 522001, India",0
+186,Guntur,-1,522001,Guntur,7,2,8,10,8886104108,GBR Hospital,2,2,7,"Old Bank St, GV Thota, Guntur, Andhra Pradesh 522001, India",0
+187,Guntur,-1,522001,Guntur,5,5,10,10,8309988422,Vunnam  Hospital,10,2,10,"Old Bank St, GV Thota, Guntur, Andhra Pradesh 522001, India",0
+188,Guntur,-1,,Guntur,33,16,16,31,7399668866,Amaravathi  Hospital,13,6,31,,0
+189,Guntur,-1,,Guntur,12,1,6,12,08647258595,RK.Multi Speciality Hospital,0,1,0,,0
+190,Guntur,-1,,Guntur,9,0,6,10,9542432277,Narayana Hospital,0,0,0,,0
+191,Guntur,-1,,Guntur,11,3,3,11,08632269666,Renuuka Hospital,0,2,1,,0
+192,Guntur,-1,,Guntur,10,3,5,10,08647253253,Pragathi Nursing Home,2,2,6,,0
+193,Guntur,-1,,Guntur,12,0,12,6,08647296777,Vivekananda Super Speciality Hospital,6,3,5,,0
+194,Guntur,-1,,Guntur,20,20,5,10,08647220229,Sai Tirumala Super Specialty Hospital,5,2,10,,0
+195,Guntur,-1,,Guntur,16,16,7,2,08647232888,Varababu Hospital,7,1,2,,0
+196,Guntur,-1,,Guntur,16,16,4,5,08647225464,Puvvada Hospital,4,1,5,,0
+197,Guntur,-1,,Guntur,19,19,3,3,08647229900,Likhitha Super Specialty Hospital,3,1,3,,0
+198,Guntur,-1,,Guntur,26,26,8,17,08649254499,"Vikasa Hospital, Piduguralla",8,1,17,,0
+199,Guntur,-1,,Guntur,21,21,0,4,08647226669,Sree Srinivasa Multi Speciality Hospital,0,1,3,,0
+200,Guntur,-1,,Guntur,15,15,20,85,08632220395,Aditya Multi Specialty Hospital,11,7,66,,0
+201,Guntur,-1,,Guntur,20,20,6,4,08649253636,Abhaya Multi Speciality Hospitals,6,3,4,,0
+202,Guntur,-1,,Guntur,0,0,0,0,08632244026,ID Hospital,0,0,0,,0
+203,Guntur,-1,,Guntur,10,10,0,4,08632222335,Blossoms Mother and Child Hospital,0,1,4,,0
+204,Krishna,-1,520008,Krishna,203,89,59,498,0866-2452244,"Govt. General Hospital (GGH), Vijayawada",0,81,110,"NH 16 Service Rd, Beside NTR Health University, Gunadala, Vijayawada, Andhra Pradesh 520008, India",0
+205,Krishna,-1,521286,Krishna,333,84,36,151,"9866656452,988522174","Pinnamaneni Hospital, Gannavaram",0,6,0,"Chinna Avutapalli, Peda Avutapalli, Andhra Pradesh 521286, India",0
+206,Krishna,-1,521456,Krishna,230,168,25,45,8662997545,NIMRA Hospital,0,1,0,"4-90, Nimra Nagar, Ibrahimpatnam, Jupudi, Vijayawada, Andhra Pradesh 521456, India",0
+207,Krishna,-1,520008,Krishna,4,1,7,34,9100069930,"Indo-British Hospital, Vijayawada",0,0,1,"Srinivasa Nagar Bank Colony, Vijayawada, Andhra Pradesh 520008, India",0
+208,Krishna,-1,521225,Krishna,20,0,15,65,0866241757,Andhra Hospitals Bhavanipuram Pvt Ltd,0,2,0,"Moulangar Masjid Rd Opp, ZP High School, Moula Nagar, Bhavanipuram, Gollapudi, Vijayawada, Andhra Pradesh 521225, India",0
+209,Krishna,-1,521001,Krishna,34,16,44,172,08672-2228700,"District Hospital,  Machilipatnam",5,8,108,"Edepalli, Srinivas Nagar Colony, Machilipatnam, Andhra Pradesh 521001, India",0
+210,Krishna,-1,520001,Krishna,88,0,10,72,9701373500,Railway Hospital Vijayawada,1,10,0,"Railway Station Road, Gandhi Nagar, Vijayawada, Andhra Pradesh 520001, India",0
+211,Krishna,-1,520008,Krishna,10,0,10,40,084980 611,Aayush Nri Lepl Healthcare Pvt Ltd,0,3,0,"# 48-13-3 & 3A Ring Road, opp. Siddhartha Medical College, Nagarjuna Nagar, Sri Ramachandra Nagar, Vijayawada, Andhra Pradesh 520008, India",0
+212,Krishna,-1,520010,Krishna,30,0,12,18,0866-24388,Sri Anuhospitals Pvt Ltd,0,3,0,"Anu hospital, New Giri Puram, Suryaraopeta, Vijayawada, Andhra Pradesh 520010, India",0
+213,Krishna,-1,521137,Krishna,20,0,15,15,866246333,"Kamineni Hospital, Vijayawada",0,6,0,"100 Feet New Autonagar Road, Main, Road, Tadigadapa, Vijayawada, Andhra Pradesh 521137, India",0
+214,Krishna,-1,,Krishna,0,0,6,19,8662438588,Heart Care Centre,0,0,0,,0
+215,Krishna,-1,521137,Krishna,17,1,4,4,0866-2583666,Capital Hospital,0,2,0,"15-117/1, Vijayawada Rd, Poranki, Vijayawada, Andhra Pradesh 521137, India",0
+216,Krishna,-1,,Krishna,20,20,50,30,08674245040,"AREA HOSPITAL, GUDIVADA",50,2,30,,0
+217,Krishna,-1,520007,Krishna,11,0,9,15,7654666999,TIME HOSPITALS PVT LTD,0,0,0,"11/150 Vijayawada Road Opp Ashoknagar, Bus Stop, Tulasi Nagar, Sanath Nagar, Vijayawada, Andhra Pradesh 520007, India",0
+218,Krishna,-1,520002,Krishna,12,1,9,10,9985104104,M V S Accident Hospital,4,1,0,"33-18-15, Suryaraopeta, Vijayawada, Andhra Pradesh 520002, India",0
+219,Krishna,-1,521001,Krishna,5,0,0,50,8466996284,Andhra Hospitals Machilipatnam A Unit Of Viswadeep Medical Services Pvt Ltd,0,0,0,"D.NO. 124&125, RAJU PET MACHILIPATNAM, Azad Rd, Municipal Quarters, Machilipatnam, Andhra Pradesh 521001, India",0
+220,Krishna,-1,520007,Krishna,11,6,0,4,9963414242,Nagarjuna Hospital,0,0,1,"Kalyana vedika, NTR Marg, Near Mana, Kamayyathopu, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh 520007, India",0
+221,Krishna,-1,58102,Krishna,6,0,6,10,8367722722,Best Hospital,0,0,0,"801 Broadway N, Fargo, ND 58102, USA",0
+222,Krishna,-1,520002,Krishna,0,0,9,9,9440173344,Harini Hospital,0,0,0,"# 29, 14-51, Prakasam Rd, near Pushpa Hotel Center, Suryaraopeta, Labbipet, Vijayawada, Andhra Pradesh 520002, India",0
+223,Krishna,-1,520002,Krishna,2,1,5,33,9100446620,Latha Super speciality hospitals,0,1,1,"Road no:5, Prakasham Road, Suryaraopeta, Buckinghampeta, Vijayawada, Andhra Pradesh 520002, India",0
+224,Krishna,-1,520002,Krishna,13,2,4,4,9246432328,Gayatri Hospitals,1,1,2,"30-13/1, 23, Dr Achamamba St, Durga Agraharam, Arundalpet, Governor Peta, Vijayawada, Andhra Pradesh 520002, India",0
+225,Krishna,-1,520002,Krishna,0,0,5,15,9010522266,SAI BHASKAR HOSPITALS (A UNIT OF BMR HOSPITALS),0,0,0,"#33-25-33B/1, Pushpa Hotel Center, New Giri Puram, Suryaraopeta, Vijayawada, Andhra Pradesh 520002, India",0
+226,Krishna,-1,520002,Krishna,27,0,15,28,9603611150,ANDHRA HOSPITALS (VIJAYAWADA) PVT LTD,0,1,0,"C.V.R. Complex 29, 14, 61, Sheshadri Sastry St, Near delphi auto works, Governor Peta, Vijayawada, Andhra Pradesh 520002, India",0
+227,Krishna,-1,520002,Krishna,5,0,15,5,9305669999,AIMS for CHILD HEALTH,0,2,0,"29-12 -28, Venkataratnam St, opposite to Suryaraopeta, Suryaraopeta, Governor Peta, Vijayawada, Andhra Pradesh 520002, India",0
+228,Krishna,-1,,Krishna,0,0,4,16,9963588877,SENTINI HOSPITALS PRIVATE LIMITED,0,0,0,,0
+229,Krishna,-1,520002,Krishna,0,0,0,15,8662442070,LIFE LINE TRIMURTY HOSPITAL,0,1,0,"D. No.-29-19 80, Dornakal Road, Suryaraopeta, Vijayawada, Andhra Pradesh 520002, India",0
+230,Krishna,-1,521211,Krishna,2,0,5,18,9052880099,LALITHA LIFE CARE SOLUTIONS,0,1,0,"Thotapalli Village, Agiripalli, Mandal, Andhra Pradesh 521211, India",0
+231,Krishna,-1,520004,Krishna,5,0,11,15,9885585777,ANIL NEURO AND TRAUMA CENTRE,8,1,1,"signal, Eluru Rd, Chuttugunta, Sitharamapuram, Vijayawada, Andhra Pradesh 520004, India",0
+232,Krishna,-1,520015,Krishna,22,0,4,4,6301597779,"SMILE HOSPITAL, VIJAYAWADA",0,0,0,"Azith, Ajit Singh Nagar, PNT Colony, Vijayawada, Andhra Pradesh 520015, India",0
+233,Krishna,-1,520002,Krishna,18,0,2,10,8666633108,VIJAY ORTHO AND ACCIDENTAL CARE,0,0,1,"29-5-7, Cherukupalli vari St, Venkatswara Rao Street, Governor Peta, Vijayawada, Andhra Pradesh 520002, India",0
+234,Krishna,-1,520002,Krishna,12,11,8,25,8662571613,GLOBAL MULTI SPECIALITY HOSPITAL,8,0,7,"D No, 27-39-1, MG Rd, Beside Police control room, Governor Peta, Vijayawada, Andhra Pradesh 520002, India",0
+235,Krishna,-1,520002,Krishna,0,0,4,16,0866 2435300,VIJAYA SUPER SPL HOSPITAL,0,0,0,"29-26-92A, Bolivar Street, Suryaraopeta, Vijayawada, Andhra Pradesh 520002, India",0
+236,Krishna,-1,520008,Krishna,20,0,7,23,8866354354,M/S ASSURE HOSPITAL,0,0,0,"48-13-3 3A Ring Road Opp.Siddhartha Medical College, Nagarjuna Nagar, Sri Ramachandra Nagar, Vijayawada, Andhra Pradesh 520008, India",0
+237,Krishna,-1,520002,Krishna,0,0,0,16,0866 2435664,Arun Kideny Centre,0,0,8,"No. 29-23-9, Nakkala Road, Tadepallivari Street, Suryaraopeta, Governorpet, Governor Peta, Vijayawada, Andhra Pradesh 520002, India",0
+238,Krishna,-1,521157,Krishna,8,5,0,12,08674255144,"Tamma Vinod Reddy Sruthi Hospital, Pamarru",0,0,12,"Pamarru, Andhra Pradesh 521157, India",0
+239,Krishna,-1,520002,Krishna,14,5,22,12,8008615558,Help Hospital,12,4,12,"MG Rd, behind Victoria Museum, Buckinghampeta, Vijayawada, Andhra Pradesh 520002, India",0
+240,Krishna,-1,520002,Krishna,21,21,17,12,8662433325,K V SHINE HOSPITAL,17,0,12,"Moghalrajpuram, Suryaraopeta, Vijayawada, Andhra Pradesh 520002, India",0
+241,Krishna,-1,520002,Krishna,2,2,3,25,M/S SOWJANYA HOSPITA,M/S SOWJANYA HOSPITAL,3,0,25,"no 29, 23-23, Tadepallivari St, Suryaraopeta, Governor Peta, Vijayawada, Andhra Pradesh 520002, India",0
+242,Krishna,-1,520002,Krishna,12,0,2,6,0866 2439999,Krishna Gastro Hospital,0,0,0,"# 29, 14-52, Prakasam Rd, near Pushpa Hotel Center, Suryaraopeta, Labbipet, Vijayawada, Andhra Pradesh 520002, India",0
+243,Krishna,-1,520002,Krishna,13,0,7,10,9246490917,Charitha Sri Hospital,0,0,0,"door no 29-6, 8/1, Ramachandrarao Rd, Rani Gari Thota, Suryaraopeta, Governor Peta, Vijayawada, Andhra Pradesh 520002, India",0
+244,Krishna,-1,521201,Krishna,10,0,5,5,7075785878,Ravi Hospital,0,0,0,"Nuzividu, Andhra Pradesh 521201, India",0
+245,Krishna,-1,521163,Krishna,30,24,10,10,08662402911,CHIKITSAA MULTISPECIALITY HOSPITAL,10,0,7,"Nunna Rd, Payakapuram, Bhadrirajupalem, Andhra Pradesh 521163, India",0
+246,Krishna,-1,521301,Krishna,6,2,8,6,9866531309,"EVR Hospital, Gudivada",0,0,0,"Eluru Rd, Satyanarayana Puram, Gudivada, Andhra Pradesh 521301, India",0
+247,Krishna,-1,520007,Krishna,15,0,6,21,7095123666,"LIBERTY HOSPITALS ,VIJAYAWADA",0,0,0,"King Square Complex,Opp. Auto Nagar Bus Terminal, MG Rd, Old Check Post Centre, Kishore Nagar, Vijayawada, Andhra Pradesh 520007, India",0
+248,Krishna,-1,521108,Krishna,5,5,7,8,0866-2845788,"Sai Madhavi Hospital, Vijayawada",7,0,8,"2-266, Pullayya, Ramavarappadu - Autonagar Rd, Ramavarapadu, Vijayawada, Andhra Pradesh 521108, India",0
+249,Krishna,-1,,Krishna,5,5,10,5,9505722345,Dr. kiran reddys joint care,10,1,5,,0
+250,Krishna,-1,521235,Krishna,11,3,0,13,8804499799,"Hanshu ortho and Ent Hospital, Thiruvuru",0,0,7,"Tiruvuru, Andhra Pradesh 521235, India",0
+251,Krishna,-1,75024,Krishna,6,6,10,4,08659-295044,chaitanya life care hospital,10,1,4,"6800 Preston Rd, Plano, TX 75024, USA",0
+252,Krishna,-1,520010,Krishna,10,3,4,16,0866-6664999,"CITI ORTHOPAEDIC CENTRE,VJA",0,1,1,"32-6-18A, Sikhamani Centre Rd, Praja Shakti Nagar, Kasturibaipet, Labbipet, Vijayawada, Andhra Pradesh 520010, India",0
+253,Krishna,-1,,Krishna,0,0,8,12,0866-2435355,UNION HOSPITAL,8,1,12,,0
+254,Krishna,-1,520002,Krishna,30,30,10,10,0866-2438585,"Sri Santhi Hospitals,Vijayawada",10,1,10,"Chiluku Durgayya Veedhi, Suryaraopeta, Governor Peta, Vijayawada, Andhra Pradesh 520002, India",0
+255,Krishna,-1,520010,Krishna,10,10,4,6,866494930,Svr Neuro Hospital,4,1,6,"40-1/1-14a, Sivananda Street, MG Rd, Mogalrajapuram, Labbipet, Vijayawada, Andhra Pradesh 520010, India",0
+256,Krishna,-1,,Krishna,5,5,5,10,0866-2474445,S.V.D Multispeciality Hospitals,5,1,10,,0
+257,Krishna,-1,,Krishna,20,6,6,16,9666495152,SUNRISE HOSPITAL,0,3,2,,0
+258,Krishna,-1,,Krishna,0,0,6,15,"0866-6812345,7729990",SRIKARAHOSPITAL,4,0,14,,0
+259,Krishna,-1,,Krishna,0,0,25,25,9966246999,SURESH SUPER SPL,25,0,25,,0
+260,Krishna,-1,,Krishna,5,4,5,10,8656232229,"VENKATESWARA HOSPITAL, NUZVID",5,1,10,,0
+261,Krishna,-1,,Krishna,20,20,10,20,8671272242,CHC Avanigadda,10,1,20,,0
+262,Krishna,-1,,Krishna,40,40,20,40,08656-232504,GIFFERD HOSPITAL,20,10,40,,0
+263,Krishna,-1,,Krishna,4,4,4,14,8662519396,MAHESH HOSPITAL,4,0,14,,0
+264,Krishna,-1,,Krishna,3,3,3,5,8374406201,DR.Y.BHARAGAVA KRISHNA,3,1,5,,0
+265,Krishna,-1,,Krishna,3,3,8,9,0866-2434989,"CRANE, Vijayawada",8,2,9,,0
+266,Krishna,-1,,Krishna,3,3,0,7,7416582359,LAHARI HOSPITAL,0,1,7,,0
+267,Krishna,-1,,Krishna,1,1,1,1,7675928752,SAIDEEPU HOSPITAL,1,0,1,,0
+268,Krishna,-1,,Krishna,20,13,0,10,8673251114,Martha Health Care Services  Pvt Ltd,0,1,9,,0
+269,Kurnool,-1,518001,Kurnool,60,0,20,20,8514222444,"Shanthiram Medical College, Nandyal",1,10,3,"NH40, Nandyala, Andhra Pradesh 518001, India",0
+270,Kurnool,-1,518003,Kurnool,217,212,10,65,9059978128,Vishwabharathi Medical College and Hospital,10,2,56,"Plot No. 113, Shop No. 3, P.K.R. Complex, Ulchala - Kurnool Rd, Nehru Auto Nagar, Kurnool, Andhra Pradesh 518003, India",0
+271,Kurnool,-1,518002,Kurnool,0,0,277,628,851829575,Government General Hospital,230,200,92,"Budhwarpet Rd, Budhawara Peta, Alluri Sitarama Raju Nagar, Kurnool, Andhra Pradesh 518002, India",0
+272,Kurnool,-1,518502,Kurnool,0,0,10,50,9440280460,"District Hospital, Nandyal",4,10,6,"Nandyal, Sadiq Nagar, Noonepalli, Andhra Pradesh 518502, India",0
+273,Kurnool,-1,518301,Kurnool,0,0,10,70,851225400,"Area Hospital, Adoni",1,20,15,"Old Town, Adoni, Andhra Pradesh 518301, India",0
+274,Visakhapatanam,-1,530002,Visakhapatanam,10,2,10,30,9100024423,Medicover Hospital,3,3,20,"18-1-3, KGH Down Rd, Besides Lepakshi Handicrafts, Jagadamba Junction, Visakhapatnam, Andhra Pradesh 530002, India",0
+275,Kurnool,-1,518002,Kurnool,0,0,20,40,851827718,Omni Hospitals,0,4,9,"46/679-C, NH40, Budhawara Peta, Alluri Sitarama Raju Nagar, Kurnool, Andhra Pradesh 518002, India",0
+276,Kurnool,-1,518004,Kurnool,10,0,20,11,0851822646,Sanjeevani Hospitals,1,4,6,"Sitaramnagar, Kurnool, Andhra Pradesh 518004, India",0
+277,Kurnool,-1,518004,Kurnool,13,5,10,27,8332844455,VR Multispeciality,3,2,10,"Postal Colony, Kurnool, Andhra Pradesh 518004, India",0
+278,Kurnool,-1,518004,Kurnool,23,18,45,112,851825725,Ameelio Hospitals,0,10,27,"Joharapuram Rd, near New Ayyapa Swamy Temple, Kurnool, Andhra Pradesh 518004, India",0
+279,Kurnool,-1,518002,Kurnool,15,14,11,24,0851827100,Vijaya Hospitals,9,2,21,"C Camp Rd, Revenue Colony, C Camp, Kurnool, Andhra Pradesh 518002, India",0
+280,Kurnool,-1,518502,Kurnool,10,0,20,45,8514295555,"Udayanand Hospital, Nandyal",0,5,8,"Nandyal Railway Station- South Side, Kurnool - Ongole Main Rd, Industrial Area, Nandyala, Andhra Pradesh 518502, India",0
+281,Kurnool,-1,518001,Kurnool,9,3,7,24,08518228158,"Noble Multispecialty Hospital, Kurnool",2,2,4,"Municipal Office Rd, Prakash Nagar, Kurnool, Andhra Pradesh 518001, India",0
+282,Kurnool,-1,518003,Kurnool,35,18,10,10,08518256664,Sri Gayathri Hospital,8,5,9,"Opp. Market Yard, Sampath Nagar, Kurnool, Andhra Pradesh 518003, India",0
+283,Kurnool,-1,518001,Kurnool,20,9,10,15,08518289299,SRG Hospital,0,0,0,"Gypson Colony, Dharma Pet, Kurnool, Andhra Pradesh 518001, India",0
+284,Kurnool,-1,89052,Kurnool,12,12,6,14,08514243585,Seven Hills Hospital,6,2,13,"3021 W Horizon Ridge Pkwy, Henderson, NV 89052, USA",0
+285,Kurnool,-1,518004,Kurnool,24,10,8,8,08514240266,Sai Vani Hospital,0,2,0,"Municipal Office Rd, N R Peta, Kurnool, Andhra Pradesh 518004, India",0
+286,Kurnool,-1,,Kurnool,13,11,8,29,08518254004,AYUSHMAN HOSPITAL,8,4,24,,0
+287,Kurnool,-1,,Kurnool,10,0,3,10,08514220234,KVR hospital,0,2,0,,0
+288,Kurnool,-1,,Kurnool,4,4,4,12,08518233888,MSR MULTI SPECIALITY HOSPITAL,4,2,12,,0
+289,Chittoor,-1,517001,Chittoor,16,16,5,4,7396047903,SRI CHAKRA HOSPITAL,1,4,4,"Nalandha Nagar, BV Reddy Colony, Chittoor, Andhra Pradesh 517001, India",0
+290,Kurnool,-1,,Kurnool,0,0,8,32,08518225414,RR HOSPITAL,8,12,32,,0
+291,Kurnool,-1,,Kurnool,10,10,8,17,9440225091,VIJAY CARE HOSPITAL,8,2,16,,0
+292,Kurnool,-1,,Kurnool,10,10,30,10,8518231666,CBR KURNOOL RAMESH HOSPITAL,27,5,9,,0
+293,Kurnool,-1,,Kurnool,34,32,8,8,6301722599,JEEVAN HOSPITAL,5,2,5,,0
+294,Kurnool,-1,,Kurnool,22,22,8,30,08518220444,SJ HOSPITAL,8,0,30,,0
+295,Kurnool,-1,,Kurnool,0,0,8,10,9989325911,sai balaji nursing home,3,2,1,,0
+296,Kurnool,-1,,Kurnool,0,0,0,0,8974111599,Abhaya hospitals,0,0,0,,0
+297,Prakasam,-1,523157,Prakasam,10,6,0,70,859423700,"Area Hospital, Chirala",0,5,66,"Perala, Chirala, Andhra Pradesh 523157, India",0
+298,Prakasam,-1,523329,Prakasam,0,0,0,120,08596-2230,"DIST HOSPITAL,MARKAPUR",0,0,94,"Markapur, Andhra Pradesh 523329, India",0
+299,Prakasam,-1,523002,Prakasam,25,0,18,20,859266778,KIMS,0,2,0,"behind agricultural market, NH16, Pandaripuram, Ongole, Andhra Pradesh 523002, India",0
+300,Prakasam,-1,523105,Prakasam,14,13,0,20,8008553590,"Area Hospital,kandukur",0,2,17,"Kota Reddy Nagar, Kandukur, Andhra Pradesh 523105, India",0
+301,Prakasam,-1,523001,Prakasam,20,0,15,40,08592 2210,Ramesh Sanghamitra Hospital,0,9,0,"NH 5 Near Nellore Bus Stand, Ambedkar Colony, Ramnagar, Ongole, Andhra Pradesh 523001, India",0
+302,Prakasam,-1,523001,Prakasam,15,0,4,11,859223292,Nalluri nursing home,0,2,1,"Kothapatnam Road, MaratiPalem, Ongole, Andhra Pradesh 523001, India",0
+303,Prakasam,-1,523001,Prakasam,483,95,122,900,08592-226000,GGH ONGOLE,30,254,167,"Gopal Nagar 5th Ln, Bhagyanagar, Ongole, Andhra Pradesh 523001, India",0
+304,Prakasam,-1,523001,Prakasam,5,0,8,6,085922 80417,"Vaatsalya Hospital, Ongole",2,2,0,"south, 5th Cross Road, Venkateswara Nagar, Ramnagar, Ongole, Andhra Pradesh 523001, India",0
+305,Prakasam,-1,523001,Prakasam,10,0,10,20,8592282282,"Prakasam Super Specialty Hospital, Ongole",0,5,0,"bus stand, Kurnool Rd, beside RTC, Pandaripuram, Ongole, Andhra Pradesh 523001, India",0
+306,Prakasam,-1,523001,Prakasam,10,4,6,25,9440211566,Aluri Multi Speciality Hospital,6,2,24,"Kurnool Rd, opp. Mourya Hotel, Pandaripuram, Ongole, Andhra Pradesh 523001, India",0
+307,Prakasam,-1,523001,Prakasam,7,0,5,2,7382299541,Amrutha Heart Hospital,0,1,0,"Sixty Feet Rd, Satyanarayana Puram, Venkateswara Nagar, Ongole, Andhra Pradesh 523001, India",0
+308,Prakasam,-1,523001,Prakasam,15,0,10,25,8861680788,Rambabu Hospital,0,1,0,"Railway Station Road, Santhapet, Ongole, Andhra Pradesh 523001, India",0
+309,Prakasam,-1,523157,Prakasam,14,14,4,26,9000808198,"Sri Kamakshi Care Hospital, Chirala",0,2,3,"Wood Nagar Colony, Chirala, Andhra Pradesh 523157, India",0
+310,Prakasam,-1,523155,Prakasam,0,0,5,20,8594238877,"Gorantla Super Speciality Hospital, Chirala",0,5,2,"Government Hospital Rd, Wood Nagar Colony, Chirala, Andhra Pradesh 523155, India",0
+311,Prakasam,-1,523001,Prakasam,14,14,18,18,08592 227788,AIMS HOSPITAL,18,0,18,"Anjaiah Rd, Brundavan Nagar, Pandaripuram, Ongole, Andhra Pradesh 523001, India",0
+312,Prakasam,-1,523001,Prakasam,31,31,5,14,08592 233546,ZACHARAIAH HOSPITAL,5,2,14,"D.No: 35-3-72, Zachariah Nagar, Jakrama Nagar, Devuni Cheru, Ongole, Andhra Pradesh 523001, India",0
+313,Prakasam,-1,523105,Prakasam,10,10,10,28,08592 222258,SURAKSHA HOSPITAL,10,2,28,"pothuraju temple near 523105, DV Nagar, Kandukur, Andhra Pradesh 523105, India",0
+314,Prakasam,-1,523001,Prakasam,20,3,10,20,08592 233455,JIMS,6,6,2,"Seetha Ram Puram, Devuni Cheru, Ongole, Andhra Pradesh 523001, India",0
+315,Prakasam,-1,523002,Prakasam,12,12,8,20,08592 234015,SAI NURSING HOME,8,2,20,"opp. Sundaraiah Bhavan Road, Brundavan Nagar, Pandaripuram, Ongole, Andhra Pradesh 523002, India",0
+316,Prakasam,-1,523357,Prakasam,17,16,3,10,08405 242233,DGR HOSPITAL,2,0,6,"Kurnool - Ongole Main Rd, Ganesh Nagar, Giddalur, Andhra Pradesh 523357, India",0
+317,Prakasam,-1,523226,Prakasam,25,25,0,0,08592 272131,CHC CHIMAKURTHY,0,0,0,"Chimakurthy, Andhra Pradesh 523226, India",0
+318,Prakasam,-1,523240,Prakasam,20,6,0,0,08499244408,CHC PODILI,0,0,0,"1st Flr, DNo 11/377, Podili, Prakasam, Andhra Pradesh 523240, India",0
+319,Prakasam,-1,523247,Prakasam,30,30,0,0,08074624004,CHC DARSI,0,0,0,"Darsi, Andhra Pradesh 523247, India",0
+320,Prakasam,-1,523169,Prakasam,25,25,0,0,0859483 250111,CHC PARCHUR,0,0,0,"Parchoor, Andhra Pradesh 523169, India",0
+321,Prakasam,-1,523301,Prakasam,20,20,0,0,7981356672,CHC MARTUR,0,0,0,"Martur, Andhra Pradesh 523301, India",0
+322,Prakasam,-1,523327,Prakasam,20,20,0,0,9848394380,CHC Y.PALEM,0,0,0,"Yerragondapalem, Andhra Pradesh 523327, India",0
+323,Prakasam,-1,523230,Prakasam,30,30,0,0,9505147459,CHC KANIGIRI,0,0,0,"Pamuru - Kanigiri Highway Rd, Kanigiri, Andhra Pradesh 523230, India",0
+324,Prakasam,-1,523001,Prakasam,25,25,0,5,08592 220678,ONGOLE CHILDRENS HOSPITAL,0,0,5,"Anjaiah Rd, Brundavan Nagar, Pandaripuram, Ongole, Andhra Pradesh 523001, India",0
+325,Prakasam,-1,523157,Prakasam,20,20,0,10,08594  239239,SKR ICON HOSPITAL,0,0,10,"Masjid Center, Polimera Rd, Wood Nagar Colony, Chirala, Andhra Pradesh 523157, India",0
+326,Prakasam,-1,523002,Prakasam,13,4,10,9,08592 283338,ROYAL MULTI SPECIALITY HOSPITAL,0,2,6,"Sundaraiah Bhavan Rd, Pandaripuram, Ongole, Andhra Pradesh 523002, India",0
+327,Prakasam,-1,523001,Prakasam,17,17,3,10,08592 230655,"SURAKSHA HOSPITAL,ONGOLE",3,1,9,"Besides Joyalukkas, Kurnool Rd, Brundavan Nagar, Pandaripuram, Ongole, Andhra Pradesh 523001, India",0
+328,Prakasam,-1,,Prakasam,0,0,1,24,08592 232002,Prasad multi speciality hospital Ongole,1,0,22,,0
+329,Spsr nellore,-1,524004,Spsr nellore,0,0,18,52,08616667028,APOLLO SPECIALTY HOSPITAL,0,10,0,"16/111/113, Muthukur Rd, Pinakini Avenue, Nagar, park Area, Nellore, Andhra Pradesh 524004, India",0
+330,Spsr nellore,-1,524003,Spsr nellore,370,280,48,124,08612300595,NARAYANA MEDICAL COLLEGE HOSPITAL,0,18,0,"Chintareddy Palem, Nellore, Andhra Pradesh 524003, India",0
+331,Spsr nellore,-1,524004,Spsr nellore,0,0,162,595,08612330026,Govt General Hospital,103,122,396,"GNT Rd, Dargamitta, Nellore, Andhra Pradesh 524004, India",0
+332,Spsr nellore,-1,524003,Spsr nellore,45,0,30,25,80088295454,Medicover,0,0,0,"NH-5, Chinthareddypalem Cross road, Alahari Nagar, Chintareddy Palem, Nellore, Andhra Pradesh 524003, India",0
+333,Spsr nellore,-1,524003,Spsr nellore,26,5,0,14,9492240473,Jaya Bharath Hospitals,0,0,0,"Door No:16/2884, Near VRC, South Railway Station Somasekharapuram, Somasekara Puram, Nellore, Andhra Pradesh 524003, India",0
+334,Spsr nellore,-1,524003,Spsr nellore,20,1,8,59,08612312777,KIMS Nelloore,0,3,7,"Kims, Dargamitta, Nellore, Andhra Pradesh 524003, India",0
+335,Spsr nellore,-1,524001,Spsr nellore,10,0,5,10,08712264222,Vijaya Krishna Hospital,0,0,0,"16 II, 41-A, Raghava Cine Complex Rd, Pogathota, Nellore, Andhra Pradesh 524001, India",0
+336,Spsr nellore,-1,,Spsr nellore,0,0,0,0,9963953382,CHC Podalakur,0,0,0,,0
+337,Spsr nellore,-1,,Spsr nellore,0,0,0,0,9100312552,CHC Rapur,0,0,0,,0
+338,Spsr nellore,-1,524322,Spsr nellore,10,10,0,15,9491611199,"Abhiram Instutions of Medical Sciences,Atmakur",0,0,15,"ABHIRAM NAGAR,OPPOSITE APSRTC BUS STAND ATMAKUR, SPSR, Atmakur, Andhra Pradesh 524322, India",0
+339,Spsr nellore,-1,,Spsr nellore,19,14,0,14,08626242524,AH Kavali,0,0,14,,0
+340,Spsr nellore,-1,524001,Spsr nellore,6,6,0,4,9703622000,Mythili,0,0,4,"Rajendra Nagar, Kapatipalem, Santhapet, Nellore, Andhra Pradesh 524001, India",0
+341,Spsr nellore,-1,524001,Spsr nellore,10,0,7,8,0861-2312455,Rich Hospital,0,1,1,"Pogathota, Gandhinagar, Pogathota, Nellore, Andhra Pradesh 524001, India",0
+342,Spsr nellore,-1,524322,Spsr nellore,10,9,0,6,08627-221870,"Sri Venkateswara Prajavidyasala Hospital,Atmakur",0,0,3,"J R Pet, Atmakur, Andhra Pradesh 524322, India",0
+343,Spsr nellore,-1,524001,Spsr nellore,10,10,6,10,8612313545,St Joseph Hospital,6,0,10,"Near St. Joseph's girls High School, Kapatipalem, Santhapet, Nellore, Andhra Pradesh 524001, India",0
+344,Spsr nellore,-1,524126,Spsr nellore,1,1,1,4,7386101770,Trinity Hospital Naidupeta,1,0,4,"near Mahindra Tractor showroo, Naidupeta, Andhra Pradesh 524126, India",0
+345,Spsr nellore,-1,,Spsr nellore,0,0,0,0,08612323535,"Anasuya Instute of Medical Science ,Nellore",0,0,0,,0
+346,Spsr nellore,-1,,Spsr nellore,0,0,0,0,08612356668,"Padmavathi Hospital ,Nellore",0,0,0,,0
+347,Spsr nellore,-1,,Spsr nellore,0,0,0,0,9100699964,"Dr Vijayakumar Nellore Memorial  Hospital, Nellore",0,0,0,,0
+348,Spsr nellore,-1,,Spsr nellore,0,0,0,0,944057514,"Amaravathi Hospital ,Guduru",0,0,0,,0
+349,Spsr nellore,-1,,Spsr nellore,2,0,8,10,08612354699,Ravi Chest Hospital,8,2,4,,0
+350,Spsr nellore,-1,,Spsr nellore,10,10,0,10,08626250854,"Kandukuri Hospital ,Kavali",0,0,10,,0
+351,Spsr nellore,-1,,Spsr nellore,0,0,0,0,08612351111,"Rainbow super Specialty Hospital,",0,0,0,,0
+352,Spsr nellore,-1,,Spsr nellore,0,0,0,0,7702394666,Vijaya care Multyspecialty,0,0,0,,0
+353,Spsr nellore,-1,,Spsr nellore,0,0,0,0,08626243436,Dr Praveen Hospital,0,0,0,,0
+354,Spsr nellore,-1,,Spsr nellore,20,20,0,10,08626242255,Sri Sai Multyspecility,0,0,10,,0
+355,Spsr nellore,-1,,Spsr nellore,0,0,0,15,0862240424,Sridhar Multispecialty Hospital,0,0,15,,0
+356,Spsr nellore,-1,,Spsr nellore,0,0,0,0,9000321144,District Hospital Atmakur NLR,0,0,0,,0
+357,Spsr nellore,-1,,Spsr nellore,0,0,0,0,98661902902,Area Hospital Gudur,0,0,0,,0
+358,Spsr nellore,-1,,Spsr nellore,12,10,0,5,9591000152,Sri Chakra Multispecialty,0,0,4,,0
+359,Spsr nellore,-1,,Spsr nellore,1,1,1,1,9908446788,"RSR Super Specialty Hospital,",1,0,1,,0
+360,Spsr nellore,-1,,Spsr nellore,2,2,0,1,98666660099,CHC Kovuru,0,0,1,,0
+361,Spsr nellore,-1,,Spsr nellore,0,0,0,0,9849238745,CHC Buchireddy pallem,0,0,0,,0
+362,Spsr nellore,-1,,Spsr nellore,0,0,0,0,9491121570,CHC Udayagiri,0,0,0,,0
+363,Spsr nellore,-1,,Spsr nellore,0,0,0,10,9100312552,CHC Venkatagiri,0,0,9,,0
+364,Spsr nellore,-1,,Spsr nellore,1,0,0,1,9701754428,CHC Allur,0,0,1,,0
+365,Srikakulam,-1,532001,Srikakulam,11,8,0,13,8333832989,Dr.Golivi Hos[pitals,0,0,1,"opp: bharat petrol bunk, Bondilipuram, Balaga, Srikakulam, Andhra Pradesh 532001, India",0
+366,Srikakulam,-1,532001,Srikakulam,0,0,98,416,8019850546,RIMS HOSPITAL,68,87,179,"RIMS Hospital Rd, Balaga, Srikakulam, Andhra Pradesh 532001, India",0
+367,Srikakulam,-1,532484,Srikakulam,179,9,160,468,7680945357,GEMS HOSPITAL,58,55,147,"Gems Medical College Road, Aditya Educational Society Srikakulam, Ragolu, Andhra Pradesh 532484, India",0
+368,Srikakulam,-1,532440,Srikakulam,0,0,0,100,0894126013,AREA HOSPITAL PALAKONDA,0,3,53,"Dist, Palakonda, Andhra Pradesh 532440, India",0
+369,Srikakulam,-1,532201,Srikakulam,3,0,7,65,9490570761,DH Tekkali,0,5,20,"Tekkali, K Kotturu, Andhra Pradesh 532201, India",0
+370,Srikakulam,-1,532005,Srikakulam,40,12,12,50,089422 42456,PVS Rammohan Hospital,9,4,15,"MDR6, Byrivanipeta, Srikakulam, Andhra Pradesh 532005, India",0
+371,Srikakulam,-1,532001,Srikakulam,40,30,10,4,089422 28967,Amrutha Hospital,0,0,0,"D.no 500 Street No 240 Ambedkar Junction, Arts College Rd, RTC Complex Area, Shanti Nagar Colony, Balaga, Srikakulam, Andhra Pradesh 532001, India",0
+372,Srikakulam,-1,532001,Srikakulam,6,2,4,8,9966946111,Life Hospital,1,0,6,"Day & Night Area, Ranasthali, Shanti Nagar Colony, Meher Nager, Day&Night Area, Meher Nager, Srikakulam, Andhra Pradesh 532001, India",0
+373,Srikakulam,-1,532005,Srikakulam,0,0,13,17,9849075510,KIMS Hospital,0,0,0,"P.N.Colony, Junction, Srikakulam Rd, near Datta Temple, Fazulbegpeta, Srikakulam, Andhra Pradesh 532005, India",0
+374,Srikakulam,-1,532005,Srikakulam,12,6,10,35,08942-255299,MEDICOVER  HOSPITALS,8,0,12,"MDR6, Byrivanipeta, Srikakulam, Andhra Pradesh 532005, India",0
+375,Srikakulam,-1,532001,Srikakulam,6,2,7,18,9490904141,Baggu sarojini devi hospital,3,0,13,"2-2-131, Illisipuram Road, Illisipuram, Meher Nager, Srikakulam, Andhra Pradesh 532001, India",0
+376,Visakhapatanam,-1,531001,Visakhapatanam,35,0,0,50,892422334,DISTRICT HOSPITAL ANAKAPALLI,0,11,1,"Poolbagh Rd, Anakapalle, Andhra Pradesh 531001, India",0
+377,Visakhapatanam,-1,,Visakhapatanam,20,0,15,40,08912727272,Apollo Ramnagar,0,2,0,,0
+378,Visakhapatanam,-1,530013,Visakhapatanam,6,0,11,259,8912552525,Govt Hospital For Chest And Communicable Diseases,6,40,166,"Chinna Waltair, Pedda Waltair, Visakhapatnam, Andhra Pradesh 530013, India",0
+379,Visakhapatanam,-1,531149,Visakhapatanam,40,32,0,10,8936249955,AREA HOSPITAL ARAKU VALLEY,0,0,10,"Araku Valley, Andhra Pradesh 531149, India",0
+380,Visakhapatanam,-1,530040,Visakhapatanam,0,0,200,260,08790801234,VIMS,40,100,40,"VIMS Rd, Hanumanthavaka, Visakhapatnam, Andhra Pradesh 530040, India",0
+381,Visakhapatanam,-1,531024,Visakhapatanam,0,0,0,100,8935251010,DISTRICT HOSPITAL PADERU,0,25,50,"Paderu, Andhra Pradesh 531024, India",0
+382,Visakhapatanam,-1,531116,Visakhapatanam,40,4,10,50,8932235109,AREA HOSPITAL NARSHIPATNAM,10,5,29,"Narsipatnam, Andhra Pradesh 531116, India",0
+383,Visakhapatanam,-1,530002,Visakhapatanam,0,0,100,340,0891-2707060,"csr block,kgh",3,200,8,"Jagadamba Junction, Visakhapatnam, Andhra Pradesh 530002, India",0
+384,Visakhapatanam,-1,530013,Visakhapatanam,12,0,18,50,9701004014,Queens NRI Hospital,7,8,0,"d.no, 50-53-14, Gurudwara Rd, Balayya Sastri Layout, Seethammadara, Visakhapatnam, Andhra Pradesh 530013, India",0
+385,Visakhapatanam,-1,530002,Visakhapatanam,5,5,10,15,9848019164,Indus Hospital,10,2,15,"indus hospital, Kgh Down Road, Maharanipeta, Kgh Down Road, KGH Down Rd, Jagadamba Junction, Visakhapatnam, Andhra Pradesh 530002, India",0
+386,Visakhapatanam,-1,530002,Visakhapatanam,16,0,18,16,9949844414,Care hospital Ramnagar,0,6,1,"10-50-11/5, AS Raja Complex, Waltair Main Rd, Ram Nagar, Visakhapatnam, Andhra Pradesh 530002, India",0
+387,Visakhapatanam,-1,531162,Visakhapatanam,70,70,26,91,9966706735,Anil Neerukonda NRI Hospital,25,15,91,"Near Three Temples Bheemunipatnam, Sanghivalasa, Visakhapatnam, Andhra Pradesh 531162, India",0
+388,Visakhapatanam,-1,530016,Visakhapatanam,8,8,0,0,9848190871,Vivekananda Medical Trust,0,0,0,"Sangam office junction, near Dali Raju Supermarket, Akkayyapalem, Visakhapatnam, Andhra Pradesh 530016, India",0
+389,Visakhapatanam,-1,530002,Visakhapatanam,0,0,20,40,9912266332,Seven Hills Hospitals Ltd,0,10,6,"Rockdale Layout, Waltair Main Rd, Ram Nagar, Visakhapatnam, Andhra Pradesh 530002, India",0
+390,Visakhapatanam,-1,530002,Visakhapatanam,26,22,32,17,9949844414,CARE2 Hospital  Maharanipeta,8,10,12,"17-1-1, KGH Down Rd, Opp KGH OP Gate, Maharani Peta, Visakhapatnam, Andhra Pradesh 530002, India",0
+391,Visakhapatanam,-1,530011,Visakhapatanam,53,47,1,20,9505136353,St. Anns Jubilee Memorial Hospita,1,1,12,"62-2-106, opp. Saraswathi school, Malkapuram, Visakhapatnam, Andhra Pradesh 530011, India",0
+392,Visakhapatanam,-1,530026,Visakhapatanam,27,13,13,55,9290658859,KIMS Icon Hospital Pvt. Ltd,13,0,37,"Sheela Nagar, Visakhapatnam, Andhra Pradesh 530026, India",0
+393,Visakhapatanam,-1,530002,Visakhapatanam,47,0,8,10,9398042906,St. Joseph Hospital Mary Land,0,3,0,"Zilla Parishad Juction, Gokhale Rd, Beside Spencer's, Krishnagar, Port Officers Quarters, Maharani Peta, Visakhapatnam, Andhra Pradesh 530002, India",0
+394,Visakhapatanam,-1,530016,Visakhapatanam,8,0,7,20,9246299945,Venkatarama Hospital,0,0,0,"47-7-43, 4th line, Dwarka nagar, Nehru Bazar, Near, Diamond Park Rd, Dondaparthy, Dwaraka Nagar, Visakhapatnam, Andhra Pradesh 530016, India",0
+395,Visakhapatanam,-1,530048,Visakhapatanam,640,610,8,102,9247477577,Gayatri Vidya Parishad Hospital,0,3,0,"6-25 Marikavalasa, Maridi valley, Village, Srinivasa Nagar, Madhurawada, Visakhapatnam, Andhra Pradesh 530048, India",0
+396,Visakhapatanam,-1,530045,Visakhapatanam,480,340,20,106,9848330640,Gitam Institute of Medical Science,0,20,0,"Gandhi Nagar, Rushikonda, Visakhapatnam, Andhra Pradesh 530045, India",0
+397,Visakhapatanam,-1,530009,Visakhapatanam,0,0,0,0,9885877777,Suraksha Health Park Pvt Ltd,0,0,0,"Netaji Colony, NSTL, Visakhapatnam, Andhra Pradesh 530009, India",0
+398,Visakhapatanam,-1,530013,Visakhapatanam,22,17,8,20,8331018934,Smile Care Multi Specialty Hospital India Pvt. Ltd,0,2,0,"TPT COLONY, 50-40-14, NRI Hospital Rd, Coastal Andhra Region, Balayya Sastri Layout, Seethammadara, Visakhapatnam, Andhra Pradesh 530013, India",0
+399,Visakhapatanam,-1,530041,Visakhapatanam,13,13,3,9,9246625454,Ujhwal Hospitals,3,2,9,"6-127/12 Backside of Union Bank, MS Ramaiah City Layout, Chandrampalem, Srinivasa Nagar, Madhurawada, Visakhapatnam, Andhra Pradesh 530041, India",0
+400,Visakhapatanam,-1,530002,Visakhapatanam,15,15,5,10,9246625454,Vijetha Hospital,5,3,10,"# 18-1-15,16, KGH Down, Near KGH Down Road, KGH Down, Maharani Peta, Besides Lepakshi Handicrafts, Jagadamba Junction, Visakhapatnam, Andhra Pradesh 530002, India",0
+401,Visakhapatanam,-1,530002,Visakhapatanam,0,0,36,103,08912867777,Apollo Hospital,0,0,0,"Door No 10, Executive Court, 50-80, Waltair Main Rd, opp. Daspalla, Ram Nagar, Visakhapatnam, Andhra Pradesh 530002, India",0
+402,Visakhapatanam,-1,531001,Visakhapatanam,0,0,4,19,7093334466,Usha Prime Multi Specaility Hospital,4,2,13,"RTC Complex Rd, Sarada Colony, Anakapalle, Andhra Pradesh 531001, India",0
+403,Visakhapatanam,-1,530027,Visakhapatanam,5,5,4,1,9966533999,S.R  Hospital,4,0,1,"S R hospital, Rythu Bazar Rd, Tailors Colony, Gopalapatnam, Simhachalam, Visakhapatnam, Andhra Pradesh 530027, India",0
+404,Visakhapatanam,-1,530040,Visakhapatanam,3,3,9,5,9573888003,Star Pinnacle Heart Center Health City,4,4,2,"Chinna Gadhili, Hanumanthavaka, Visakhapatnam, Andhra Pradesh 530040, India",0
+405,Visakhapatanam,-1,530018,Visakhapatanam,18,18,0,7,0891-2558507,Kamala Nursing Home,0,0,7,"38-40-101, Marripalem Main Rd, Shanti Nagar, Marripalem, Visakhapatnam, Andhra Pradesh 530018, India",0
+406,Visakhapatanam,-1,530017,Visakhapatanam,302,285,114,180,9133444523,Pradhama Multi Speciality Hospital,0,6,44,"1-1-83, NH16, beside Petrol Bunk, Sector- 6, Venkojipalem, Visakhapatnam, Andhra Pradesh 530017, India",0
+407,Visakhapatanam,-1,530040,Visakhapatanam,0,0,0,35,9100128279,Q1 Hospitals,0,0,0,"13A-13B, HealthCity, Ambedkar Nagar, Sundarayya Nagar, Arilova, Visakhapatnam, Andhra Pradesh 530040, India",0
+408,Visakhapatanam,-1,530017,Visakhapatanam,0,0,10,15,9703922143,Tirumala Vijaya Hospital,10,2,11,"MVP Main Rd, Sector 2, MVP Colony, Visakhapatnam, Andhra Pradesh 530017, India",0
+409,Visakhapatanam,-1,530040,Visakhapatanam,0,0,0,0,9849104287,MB Multispeciality Hospitals,0,0,0,"Plot:15B, APIIC Health City, Chinna Gadhili, Arilova, Visakhapatnam, Andhra Pradesh 530040, India",0
+410,Visakhapatanam,-1,530002,Visakhapatanam,0,0,0,0,08912720088,L.G.Hospitals,0,0,0,"17-1-17, Dr.Mangamm Hospital Building ,Opp KGH Outgate, KGH Down Rd, Opposite KGH OP Gate, Maharani Peta, Visakhapatnam, Andhra Pradesh 530002, India",0
+411,Visakhapatanam,-1,530002,Visakhapatanam,0,0,10,25,9441145312,Aayushman Hospital,0,5,0,"Krishnagar, Port Officers Quarters, Maharani Peta, Visakhapatnam, Andhra Pradesh 530002, India",0
+412,Visakhapatanam,-1,530040,Visakhapatanam,10,0,4,11,9441606666,GJ Hospitals,0,2,8,"Chinna Gadhili, Hanumanthavaka, Visakhapatnam, Andhra Pradesh 530040, India",0
+413,Visakhapatanam,-1,530003,Visakhapatanam,0,0,0,10,9949522008,Lancet Laparoscopy Centre,0,0,0,"Ootagadda Road, plot no, 100, Rd Number 1, opp. Mutyala mma gudi, Daspalla Hills, Pandurangapuram, Pandimetta, Andhra Pradesh 530003, India",0
+414,Visakhapatanam,-1,530008,Visakhapatanam,0,0,0,0,08912526896,Sree Sivani Multi Speciality Hospital,0,0,0,"Kotha Vada St, Gavara Kanchara Palem, Kancharapalem, Visakhapatnam, Andhra Pradesh 530008, India",0
+415,Visakhapatanam,-1,530002,Visakhapatanam,17,12,4,4,8125867125,Satyadev Hospitals Pvt Ltd,1,1,0,"Krishna Nagar, 15-6-10a, Krishna Nagar, near Z P Junction, Dondaparthy, Gajuwaka, Visakhapatnam, Andhra Pradesh 530002, India",0
+416,Visakhapatanam,-1,530002,Visakhapatanam,25,0,22,28,08913080308-109,OMNI Hospitals,0,7,0,"Waltair Main Rd, opp. Lions Club Of, Ram Nagar, Visakhapatnam, Andhra Pradesh 530002, India",0
+417,Visakhapatanam,-1,530002,Visakhapatanam,40,40,20,50,9704751999,Medicover Hospital,16,4,50,"18-1-3, KGH Down Rd, Besides Lepakshi Handicrafts, Jagadamba Junction, Visakhapatnam, Andhra Pradesh 530002, India",0
+418,Visakhapatanam,-1,530017,Visakhapatanam,4,1,0,7,9848654466,Daya Hospitals,0,0,0,"MVP Sector 11 Rd, Sector 8, MVP Colony, Visakhapatnam, Andhra Pradesh 530017, India",0
+419,Visakhapatanam,-1,530048,Visakhapatanam,0,0,0,24,9032155555,Mani Hospital,0,0,15,"Revallapalem, Gandhi Nagar, Madhurawada, Visakhapatnam, Andhra Pradesh 530048, India",0
+420,Visakhapatanam,-1,530046,Visakhapatanam,0,0,0,20,7075867323,A Plus Hospital,0,0,14,"31-12-7/14 vayuputra elegant, Sathavahana Nagar, Kurmannapalem, Visakhapatnam, Andhra Pradesh 530046, India",0
+421,Visakhapatanam,-1,530040,Visakhapatanam,10,0,10,30,9133353535,Pinnacle Hospitals,0,2,0,"Chinna Gadhili, Hanumanthavaka, Visakhapatnam, Andhra Pradesh 530040, India",0
+422,Visakhapatanam,-1,530017,Visakhapatanam,0,0,0,96,9440189093,Govt. ENT Hospital,0,0,94,"Pedda Waltair, Visakhapatnam, Andhra Pradesh 530017, India",0
+423,Visakhapatanam,-1,530003,Visakhapatanam,0,0,0,25,98498 33315,Rani Chandramati Devi Hospital,0,0,25,"Shop No. 17, Chinmaya Marg, Pedda Waltair Junction, Lawsons Bay Colony, Pedda Waltair, Visakhapatnam, Andhra Pradesh 530003, India",0
+424,Visakhapatanam,-1,530027,Visakhapatanam,0,0,0,0,885484394,CHC Gopalapatnam,0,0,0,"Main Road, near rythu bazar, Tailors Colony, Gopalapatnam, Simhachalam, Visakhapatnam, Andhra Pradesh 530027, India",0
+425,Visakhapatanam,-1,531085,Visakhapatanam,4,4,0,6,9494709191,Community Health Center Kotauratla,0,0,6,"Kotavuratla, Andhra Pradesh 531085, India",0
+426,Visakhapatanam,-1,,Visakhapatanam,10,10,0,0,7661849963,Community Health Centre V Madugula,0,0,0,,0
+427,Vizianagaram,-1,535217,Vizianagaram,550,408,60,191,892224466,MIMS,3,0,140,"Maharajah’s Institute of Medical Sciences 31-15, near MDO Office, Nellimarla, Andhra Pradesh 535217, India",0
+428,Vizianagaram,-1,535003,Vizianagaram,30,0,70,101,8922276416,DISTRICT HOSPITAL,4,0,16,"Cantonment, Phase 4, Vuda Colony, Vizianagaram Cantonment, Vizianagaram, Andhra Pradesh 535003, India",0
+429,Vizianagaram,-1,535001,Vizianagaram,47,26,6,12,8922225177,QUEENS NRI,0,2,0,"Srinivasa Nagar, Chinna Veedhi, Santha Pet, Vizianagaram, Andhra Pradesh 535001, India",0
+430,Vizianagaram,-1,535002,Vizianagaram,0,0,10,18,8922227070,GAYATRI HOSPITAL,0,0,5,"Subramanyam Peta, Babametta, Vizianagaram, Andhra Pradesh 535002, India",0
+431,Vizianagaram,-1,535001,Vizianagaram,32,9,4,8,8922221234,SRI SAI SUPER SPECIALITY HOSPITAL,1,4,3,"Tirumala Hospital Rd, RTC Complex Area, Siddarth Nagar, Balaji Nagar, Vizianagaram, Andhra Pradesh 535001, India",0
+432,Vizianagaram,-1,535003,Vizianagaram,59,38,9,32,8963221088,AREA HOSPITAL,9,17,32,"Cantonment, Phase 4, Vuda Colony, Vizianagaram Cantonment, Vizianagaram, Andhra Pradesh 535003, India",0
+433,Vizianagaram,-1,535001,Vizianagaram,12,0,3,5,8922236759,VENKATARAMA HOSPITAL,0,4,0,"Balaji Nagar, Opposite R.T.C. Complex, behind Revenue Guest House, Balaji Nagar, Vizianagaram, Andhra Pradesh 535001, India",0
+434,Vizianagaram,-1,535001,Vizianagaram,10,0,5,15,8922225850,TIRUMALA HOSPITAL,2,6,3,"Tirumala Hospital Rd, RTC Complex Area, Siddarth Nagar, Balaji Nagar, Dharmapuri, Andhra Pradesh 535001, India",0
+435,Vizianagaram,-1,,Vizianagaram,0,0,1,2,9494503838,"Sri Vijaya Hospital, CPP",1,1,2,,0
+436,Vizianagaram,-1,535001,Vizianagaram,25,3,5,20,08922224566,P.G.Star Hospital Vizianagaram,0,0,3,"Tankbund Rd, State Bank Main Branch Area, Santha Pet, Vizianagaram, Andhra Pradesh 535001, India",0
+437,Vizianagaram,-1,535591,Vizianagaram,10,10,0,10,08964242320,"Philadelphia Community Hospital, Saluru",0,0,10,"Vizianagaram Rd, Kota Veedhi, Salur, Andhra Pradesh 535591, India",0
+438,Vizianagaram,-1,535501,Vizianagaram,14,1,10,26,08963221182,"Karshaka Maharshi Hospita, Parvathipuram",0,1,1,"Kmh hospital street Besides, ajay homeio clenic, Parvathipuram, Andhra Pradesh 535501, India",0
+439,Vizianagaram,-1,535128,Vizianagaram,9,6,0,6,9440990440,CHC Cheepurupalli,0,0,6,"SH 6, Godavari Devi Nagar, Cheepurupalli, Andhra Pradesh 535128, India",0
+440,Vizianagaram,-1,,Vizianagaram,7,7,0,3,9440168552,CHC Bhogapuram,0,0,3,,0
+441,Vizianagaram,-1,535002,Vizianagaram,10,10,0,10,08966265104,CHC S.Kota,0,0,6,"Guracharivari Street, Kota Junction, Vizianagaram, Andhra Pradesh 535002, India",0
+442,Vizianagaram,-1,535002,Vizianagaram,0,0,3,47,08966 295203,Kolaparthi Multi Specialty Hospital,2,1,13,"Vizianagaram, SH-36, Rajam Vijayanagaram Road, Vijayanagaram, Ambati Satram Area, Vizianagaram, Andhra Pradesh 535002, India",0
+443,Vizianagaram,-1,,Vizianagaram,33,32,6,4,08966-266066,"Abhinav Nurshing Home, S.Kota",5,2,4,,0
+444,Vizianagaram,-1,,Vizianagaram,40,40,5,5,08922 276235,Andhra Hospitals,5,0,5,,0
+445,Vizianagaram,-1,,Vizianagaram,0,0,0,0,08922-223225,Sri Sai PVR Hospitals,0,0,0,,0
+446,Vizianagaram,-1,535002,Vizianagaram,36,19,10,6,08922-227131,Venkata Padma Hospital,1,0,0,"SH-36, Rajam, Vizianagaram Rd, Three Lamps Area, Park Gate Area, Vizianagaram, Andhra Pradesh 535002, India",0
+447,Vizianagaram,-1,,Vizianagaram,1,1,0,1,8333000357,"CHC, Gajapathinagaram",0,0,1,,0
+448,Vizianagaram,-1,,Vizianagaram,5,3,0,5,6281809038,"CHC, Badangi",0,0,5,,0
+449,Vizianagaram,-1,,Vizianagaram,0,0,0,2,9441957569,"CHC, Kurupam",0,0,2,,0
+450,Vizianagaram,-1,,Vizianagaram,0,0,0,0,8985626191,"CHC, Bhadragiri",0,0,0,,0
+451,Vizianagaram,-1,,Vizianagaram,0,0,5,10,08922-229917,MUVVA GOPALA HOSPITALS PVT LTD,0,0,6,,0
+452,West godavari,-1,534211,West godavari,16,5,2,22,0881422005,New Life Hospital,0,0,13,"Venkatarayapuram, Tanuku, Andhra Pradesh 534211, India",0
+453,West godavari,-1,534411,West godavari,179,69,100,697,881228828,Ashram,74,50,218,"West Godavari, Ambedkar Nagar, Tadepalligudem, Andhra Pradesh 534411, India",0
+454,West godavari,-1,534211,West godavari,0,0,0,117,08818-2211,Area Hospital Tadepalligudem,0,30,23,"Rastrapathi Road, Dist, near ZPHS High School, Venkatarayapuram, Tanuku, Andhra Pradesh 534211, India",0
+455,West godavari,-1,,West godavari,0,0,2,28,881422290,CHC Palacole,0,15,2,,0
+456,West godavari,-1,534101,West godavari,71,63,0,9,0881824495,Mother Vannini,0,0,6,"Kadakatla, Mahalaksmi Nagar, Ambedkar Nagar, Tadepalligudem, Andhra Pradesh 534101, India",0
+457,West godavari,-1,534202,West godavari,0,0,4,46,881623366,CHC BHIMAVARAM,0,0,1,"Gandhinagar, Bhimavaram, Andhra Pradesh 534202, India",0
+458,West godavari,-1,534006,West godavari,30,0,21,266,881222129,DISTRICT HOSPITAL ELURU,6,130,3,"Islampet, Eluru, Andhra Pradesh 534006, India",0
+459,West godavari,-1,534211,West godavari,120,120,0,30,0881922490,SRI MULLAPUDI VENKATARAMANAMMA MEMORIAL HOSPITAL TANUKU,0,0,30,"Venkatarayapuram, Tanuku, Andhra Pradesh 534211, India",0
+460,West godavari,-1,534002,West godavari,10,0,9,10,0881223453,CHAITRA HOSPITAL,0,0,0,"Ashok Nagar Rd, Opp. KPDT High School, Ashok Nagar, Eluru, Andhra Pradesh 534002, India",0
+461,West godavari,-1,,West godavari,0,0,0,50,881922217,TANUKU,0,30,7,,0
+462,West godavari,-1,534211,West godavari,0,0,2,28,08821-225205,"AREA HOSPITAL, JANGAREDDIGUDEM",2,2,12,"Rastrapathi Road, Dist, near ZPHS High School, Venkatarayapuram, Tanuku, Andhra Pradesh 534211, India",0
+463,West godavari,-1,534112,West godavari,18,18,5,17,08821224777,Jabilli Critical Care and Multispeciality Hospital,0,2,8,"West Godavari NH-5, Eluru, Rajahmundry Rd, Nallajerla, Andhra Pradesh 534112, India",0
+464,West godavari,-1,534447,West godavari,5,5,10,25,9133756859,CHIRANJEEVI HOSPITAL ORTHO AND MULTI SPECIALITY,2,2,22,"Jangareddigudem Andhra Pradesh 534447 Republic of, Jangareddigudem, Andhra Pradesh 534447, India",0
+465,West godavari,-1,534112,West godavari,27,25,20,0,08818-277377,"Vadlamudi Hospital, Nallajerla",14,1,0,"West Godavari NH-5, Eluru, Rajahmundry Rd, Nallajerla, Andhra Pradesh 534112, India",0
+466,West godavari,-1,534002,West godavari,12,12,4,27,08812-222272,"Andhra Hospital, Eluru",4,0,19,"23A, 8-8, Bendapudi Vari St, Ramachandra Rao Pet, Eluru, Andhra Pradesh 534002, India",0
+467,West godavari,-1,534426,West godavari,51,47,6,0,08829-271177,"VIRRD Hospital, Dwaraka Tirumala",6,0,0,"Bhimadole - Dwaraka Tirumala Rd, Timmapuram, Andhra Pradesh 534426, India",0
+468,West godavari,-1,534002,West godavari,44,44,0,6,08812-240301,"Mahalakshmi Hospital, Eluru",0,0,6,"Kasturivari Street (Ramamahal Ladies Gate Street), R.R.Pet Main Road, Ramachandra Rao Pet, Eluru, Andhra Pradesh 534002, India",0
+469,West godavari,-1,534003,West godavari,45,45,4,0,08812-277583,St Joseph Dental College,4,0,0,"Duggirala, Andhra Pradesh 534003, India",0
+470,West godavari,-1,534204,West godavari,96,83,28,0,08816-221111,"Bhimavaram Hospitals, Bhimavarm",0,5,0,"J.P. Road, opposite SRKR Engineering College, Chinnamiram, Bhimavaram, Andhra Pradesh 534204, India",0
+471,West godavari,-1,534202,West godavari,15,0,30,10,08816-279999,"Imperial Hospital A Unit of Mukunda Health Care Pvt. Ltd., Bhimavaram",0,0,0,"Sivaraopeta, Balusumoodi, Bhimavaram, Andhra Pradesh 534202, India",0
+472,West godavari,-1,534202,West godavari,26,26,4,0,08816-222211,"Avinash Ortho, Bhimavaram",4,0,0,"MR NAGAR UNDI ROAD, Narasimhapuram, Bhimavaram, Andhra Pradesh 534202, India",0
+473,West godavari,-1,534112,West godavari,2,2,13,0,08821-227043,Vadlamudi Multi Speciality Hospital,10,0,0,"West Godavari NH-5, Eluru, Rajahmundry Rd, Nallajerla, Andhra Pradesh 534112, India",0
+474,West godavari,-1,534211,West godavari,20,17,15,15,08819-221115,"Apple Hospital, Tanuku",9,0,11,"Railway, Sthri Samajam Rd, Venkatarayapuram, Tanuku, Andhra Pradesh 534211, India",0
+475,West godavari,-1,534201,West godavari,3,0,10,16,08816-233889,Sai Prajna Hospital Bhimavaram,2,0,6,"Somavaram, Gandhinagar, Bhimavaram, Andhra Pradesh 534201, India",0
+476,West godavari,-1,534447,West godavari,20,19,6,25,08821-224343,PVR HOSPITALS,0,2,16,"Jangareddigudem, Andhra Pradesh 534447, India",0
+477,West godavari,-1,534301,West godavari,15,15,5,0,9504916916,Seshagiri Hospitals  Nidadavole,1,0,0,"Nidadavole, Andhra Pradesh 534301, India",0
+478,West godavari,-1,534211,West godavari,0,0,5,5,08819-224246,"Geetha Hospitals, Tanuku",4,1,5,"D.No:22-7, 2/1, Vinnakotavari St, Sajjapuram, Tanuku, Andhra Pradesh 534211, India",0
+479,West godavari,-1,534211,West godavari,12,12,8,0,08819-229222,"Sai Swetha Super Specialty, Tanuku",0,1,0,"Door No. 16-18-2, Vinoukondavari Street, Opp. Women's College D-2 Electrical Sub-Station, Venkatarayapuram, Tanuku, Andhra Pradesh 534211, India",0
+480,West godavari,-1,534211,West godavari,8,7,0,2,08819-227422,"Surya Teja Orthopedic Hospitals, Tanuku",0,0,0,"D NO 34, 1-11, Doddipatla vari veedhi, Venkatarayapuram, Tanuku, Andhra Pradesh 534211, India",0
+481,West godavari,-1,534211,West godavari,2,0,3,8,08819-224230,"Sudha Hospitals, Tanuku",3,0,7,"No.21-1-4, Society Road, Opp Co-operative Stores, Venkatarayapuram, Tanuku, Andhra Pradesh 534211, India",0
+482,West godavari,-1,534211,West godavari,0,0,10,4,08819-222696,"Vamsi Hitech Super Speciality Hospital , Tanuku",8,0,3,"Railway Station Rd, Venkatarayapuram, Tanuku, Andhra Pradesh 534211, India",0
+483,West godavari,-1,534006,West godavari,3,3,0,25,08812-230500,"Vijaya Hospital , Eluru",0,0,25,"Sankara Matam St, Powerpet, Eluru, Andhra Pradesh 534006, India",0
+484,West godavari,-1,534260,West godavari,44,44,6,0,08814-225451,Sri Surya Nursing Home,6,0,0,"12-2-31, 2nd St, Palakollu, Andhra Pradesh 534260, India",0
+485,West godavari,-1,534211,West godavari,15,0,10,0,08814275211,SRI VIJAYA HOSPITAL,0,2,0,"Venkatarayapuram, Tanuku, Andhra Pradesh 534211, India",0
+486,West godavari,-1,534211,West godavari,35,32,3,10,08814274948,SRI JANAKI HOSPITAL NSP,0,2,0,"Venkatarayapuram, Tanuku, Andhra Pradesh 534211, India",0
+487,West godavari,-1,534275,West godavari,5,5,0,25,08814273456,SRI SURYA HOSPITAL NSP,0,0,19,"Mission High School Rd, Roypeta, Narsapur, Andhra Pradesh 534275, India",0
+488,West godavari,-1,534211,West godavari,4,3,10,0,9346754100,"Sri Sai Hospital, Tanuku",10,0,0,"12-69-5, Silver Jubilee Rd, Timmarajupuram, Tanuku, Andhra Pradesh 534211, India",0
+489,Y.s.r.,-1,516003,Y.s.r.,155,9,45,250,9290743006,Fathima Inistitute of Medical Sciences,45,12,33,"Kadapa - Pulivendula Rd, Ramarajupalli, Kadapa, Andhra Pradesh 516003, India",0
+490,Y.s.r.,-1,,Y.s.r.,0,0,60,440,8562225663,GGH Kadapa,0,89,3,,0
+491,Y.s.r.,-1,516360,Y.s.r.,0,0,20,159,08564245255,DH Proddutur,20,25,49,"YMR Colony, Proddatur, Andhra Pradesh 516360, India",0
+492,Y.s.r.,-1,,Y.s.r.,0,0,0,40,9948878902,AH- PULIVENDULA,0,75,17,,0
+493,Y.s.r.,-1,516001,Y.s.r.,0,0,3,15,9704766618,"Rama Sreekara Hospital, Kadapa",0,2,1,"4/110, Nagaraj Pet, Maria Puram, Kadapa, Andhra Pradesh 516001, India",0
+494,Y.s.r.,-1,,Y.s.r.,0,0,2,8,8562244478,AMEEN MULTI SPECIALITY HOSPITAL,0,1,1,,0
+495,Y.s.r.,-1,,Y.s.r.,10,7,4,6,8560228453,CSI CAMPBELL HOSPITAL,0,2,0,,0
+496,Y.s.r.,-1,,Y.s.r.,8,5,4,8,8885663272,"SRI SRINIVASA HOSPITAL, KADAPA",0,0,0,,0
+497,Y.s.r.,-1,,Y.s.r.,5,5,4,11,9381807887,AMARAVATHY HOSPITAL,4,0,10,,0
+498,Y.s.r.,-1,,Y.s.r.,0,0,5,15,08562242242,Palla Hospital,3,2,11,,0
+499,Y.s.r.,-1,,Y.s.r.,7,4,2,11,08562221005,City Care Hospital,2,0,0,,0
+500,Y.s.r.,-1,,Y.s.r.,0,0,5,15,8688429536,KADAPA HOSPITAL,5,3,15,,0
+501,Y.s.r.,-1,,Y.s.r.,16,0,3,11,7207295388,Shreyan Hospital proddatur,3,2,0,,0
+502,Y.s.r.,-1,,Y.s.r.,0,0,6,24,7207155004,KVR MULTI SPECIALITY HOSPITAL,1,3,3,,0
+503,Y.s.r.,-1,,Y.s.r.,5,5,2,8,9701244009,Sravanthi Multi Speciality Proddatur,0,2,2,,0
+504,Y.s.r.,-1,,Y.s.r.,0,0,3,13,08562222711,Medicare Hospital Kadapa,0,2,1,,0
+505,Y.s.r.,-1,,Y.s.r.,4,0,2,9,08562244435,Veerabhadra Hospitals Kadapa,2,0,1,,0
+506,Y.s.r.,-1,,Y.s.r.,5,5,5,10,7032173455,shri madan multi speciality hospital,2,5,0,,0
+507,Y.s.r.,-1,,Y.s.r.,0,0,10,16,8564256644,HARSHA HOSPITAL PRODDATUR,2,3,9,,0
+508,Y.s.r.,-1,,Y.s.r.,6,1,0,14,08562246171,shri mohan hospital,0,0,3,,0
+509,Y.s.r.,-1,,Y.s.r.,0,0,2,14,08562222140,Tirumala Hospital Kadapa,0,2,0,,0
+510,Y.s.r.,-1,,Y.s.r.,0,0,13,27,8562256233,Komma Hospital Kadapa,3,0,17,,0

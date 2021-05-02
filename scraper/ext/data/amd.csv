@@ -1,0 +1,216 @@
+id,available_icu_beds_with_ventilator,total_beds_allocated_to_covid,pincode,total_beds_without_oxygen,occupied_beds_without_oxygen,hospital_phone,hospital_name,available_icu_beds_without_ventilator,total_icu_beds_with_ventilator,occupied_beds_with_oxygen,hospital_address,district,total_beds_with_oxygen,available_beds_with_oxygen,area,occupied_icu_beds_with_ventilator,available_beds_without_oxygen,total_icu_beds_without_ventilator,occupied_icu_beds_without_ventilator
+0,0,240,382424,172,51,,SMS HOSPITAL,0,10,30,"Near Tapovan Circle, Visat - Gandhinagar Hwy, Nigam Nagar, Chandkheda, Ahmedabad, Gujarat 382424, India",Ahmedabad,30,0,Chandkheda,10,121,28,28
+1,0,154,380025,38,38,,"Gujarat Cancer Society Medical College Hospital, Naroda",0,5,108,"Opp. D.R.M. Office, Naroda Rd, nr. Chamunda Bridge, Saraspur, Ahmedabad, Gujarat 380025, India",Ahmedabad,108,0,India Colony,5,0,3,3
+2,0,53,380006,39,39,,"HCG Hospital, Mithakali",0,5,0,"Mithakhali Six Rd, kalyan Society, Maharashtra Society, Ellisbridge, Ahmedabad, Gujarat 380006, India",Ahmedabad,0,0,Navrangpura,5,0,9,9
+3,0,17,380013,8,8,,Guru Prem,0,1,2,"D2, First Floor, Sahjanand Complex, Nr. Jaymangal BRTS Stop, 132 Feet Ring Rd, AEC Char Rasta, Naranpura, Ahmedabad, Gujarat 380013, India",Ahmedabad,2,0,NARANPURA,1,0,6,6
+4,0,32,380061,4,4,,Care Plus,0,2,23,"6, Yash sagar Society, Near Satyanarayan Temple, Hari Nagar, Ghatlodiya, Ahmedabad, Gujarat 380061, India",Ahmedabad,23,0,Nava Wadaj,2,0,3,3
+5,0,69,380006,30,30,,Turning Point Hriday Se,0,8,17,"501, BLOCK 554 NR. AGARWAL CHAMBERS, opp. TOWNHALL, Madalpur Gam, Ellisbridge, Ahmedabad, Gujarat 380006, India",Ahmedabad,17,0,paldi,8,0,14,14
+6,0,21,382424,1,1,,Rajdeep children hospital,0,1,14,"1st/2nd laxmi complex, opp old ONGC, Besides acher depot, adani cng pump sabarmati BRTS road, sabarmti, Sheetalkunj Society, Sabarmati, Ahmedabad, Gujarat 382424, India",Ahmedabad,14,0,Chandkheda,1,0,5,5
+7,0,12,380013,6,6,,Mansarovar hospital,0,0,6,"Kheteswar Bhawan, Kirti Colony, Usmanpura Under Bridge, Near Vitthal Bhawan, 76/B/2, Ravjikaka Rd, Panchshil Society, Shanti Nagar, Usmanpura, Ahmedabad, Gujarat 380013, India",Ahmedabad,6,0,USMANPURA,0,0,0,0
+8,0,40,382424,17,15,,Ansh multi. Spe. hospital,0,5,16,"1811, subhashnagar, 276, IOC Rd, Shradhapark Society, Laxmi Nagar, Gujarat Housing Board, Chandkheda, Ahmedabad, Gujarat 382424, India",Ahmedabad,16,0,Chankheda,5,2,2,2
+9,0,20,380013,4,4,,Atharva hospital,0,2,8,"Bhimjipura Road, SKD Sunbeam, Vijay Cross Rd, Mevavala Nagar, Nava Vadaj, Ahmedabad, Gujarat 380013, India",Ahmedabad,8,0,NAVA VADAJ,2,0,6,6
+10,0,39,382424,8,8,,Satyamev,0,2,19,"Satyamev Arcade, Bus Stop, State Highway, near Chandkheda, Chandkheda, Ahmedabad, Gujarat 382424, India",Ahmedabad,19,0,Chandkheda,2,0,10,10
+11,0,66,380007,0,0,,Parth hospital,0,3,46,"Opposite anjali brts, Chandranagar Six Rd, Damubhai colony, Bansidhar Society, anjali, Ahmedabad, Gujarat 380007, India",Ahmedabad,56,10,VASNA,3,0,7,7
+12,0,31,382424,4,4,,SENTARA HOSPITAL,0,3,19,"45, Karnavati Society, Bus Stand, near ShivShakti BRTS, Shradhapark Society, Gujarat Housing Board, Chandkheda, Ahmedabad, Gujarat 382424, India",Ahmedabad,19,0,Chandkheda,3,0,5,5
+13,0,27,380009,10,10,,"Shalby, Navrangpura",0,0,0,"Mithakhali, Navrangpura, Ahmedabad, Gujarat 380009, India",Ahmedabad,0,0,Navrangpura,0,0,17,17
+14,0,24,380013,16,16,,Mansi hospital,0,0,8,"Akhbar Nagar Cir, Krushikunj Society, Nava Vadaj, Ahmedabad, Gujarat 380013, India",Ahmedabad,8,0,Nava Vadaj,0,0,0,0
+15,0,22,382424,2,2,,LOTUS,0,2,13,"2nd Floor, # 382424, 33, Gujarat State Highway 41, Chandkheda, Ahmedabad, Gujarat 382424, India",Ahmedabad,13,0,Motera,2,0,5,5
+16,0,40,380013,26,26,,"Trisha multi speciality, Nirnay nagar",0,0,14,"6-7 th floor, Dream Square Complex, Akhbar Nagar, Nirnay Nagar, Ahmedabad, Gujarat 380013, India",Ahmedabad,14,0,Nava Wadaj,0,0,0,0
+17,0,30,382424,5,5,,TLGH,0,3,15,"18/H ,karnavatisociety,Nr.maruti furniture, opp. sharda petrol pump, Shradhapark Society, Laxmi Nagar, Gujarat Housing Board, Chandkheda, Ahmedabad, Gujarat 382424, India",Ahmedabad,15,0,Chandkheda,3,0,7,7
+18,0,32,380009,6,4,079 2657 5151,"Saviour Annexe Hospital, Ashram road",0,2,20,"Ashram Road, Shreyas Colony, Navrangpura, near Kandoi Bhogilal Mulchand, Shreyas Colony, Navrangpura, Ahmedabad, Gujarat 380009, India",Ahmedabad,20,0,Navrangpura,2,2,4,4
+19,0,71,380009,8,8,,"Sushrusha, Navrangpura",0,7,47,"CG Road Opposite Navrangpura Tel Exchange, Sardar Patel Samaj, Mithakhali, Navrangpura, Ahmedabad, Gujarat 380009, India",Ahmedabad,47,0,Navrangpura,7,0,9,9
+20,0,80,380007,3,3,,Bodyline Hospital,0,2,65,"Opp Annapurna Hall, Besides, Dev Status, New Vikas Gruh Rd, Prabhat Society, Paldi, Ahmedabad, Gujarat 380007, India",Ahmedabad,65,0,paldi,2,0,10,10
+21,0,13,382424,2,2,,Navjivan,0,3,2,"GF-14, Trishala Apartments, New CG Rd, opposite Sakar English School, Nigam Nagar, Chandkheda, Ahmedabad, Gujarat 382424, India",Ahmedabad,2,0,Chandkheda,3,0,6,6
+22,0,100,382424,70,18,,SMS HOSPITAL,0,10,0,"Near Tapovan Circle, Visat - Gandhinagar Hwy, Nigam Nagar, Chandkheda, Ahmedabad, Gujarat 382424, India",Ahmedabad,0,0,Chandkheda,10,52,20,20
+23,0,104,380015,61,61,,"Aartham Hospital, Ambawadi,",0,6,27,"Opp. Government Polytechnic College, near Panjrapole Cross Road, L Colony, Ambawadi, Ahmedabad, Gujarat 380015, India",Ahmedabad,27,0,Navarangpura,6,0,10,10
+24,0,25,380014,4,4,,Shailya,0,1,14,"Sardar Patel Stadium Rd, Mahadevnagar Society, Navrangpura, Ahmedabad, Gujarat 380014, India",Ahmedabad,14,0,stadium,1,0,6,6
+25,0,26,380013,10,10,,"Solar Hospital, Naranpura,",0,3,6,"Binali Complex B-block, Opposite Torrent Power Office, Near AEC Cross Road, Naranpura, Naranpura, Ahmedabad, Gujarat 380013, India",Ahmedabad,6,0,Naranpura,3,0,7,7
+26,0,16,380013,2,2,,Arham ICU & Troma,0,3,5,"412, Dream Square, Opp. Ramdevpir Temple, Nr. Nirnay Nagar Underbridge, Akhbar Nagar, Nava Vadaj, Ahmedabad, Gujarat 380013, India",Ahmedabad,5,0,NAVA VADAJ,3,0,6,6
+27,0,40,380009,25,25,,Kidney Health,0,4,3,"50, near Lakhudi Cross Road, beside Bank of India, Nathalal Colony, Naranpura, Ahmedabad, Gujarat 380009, India",Ahmedabad,3,0,NARANPURA,4,0,8,8
+28,0,60,380009,0,0,,"Nidhi Hospital, Navrangpura",0,4,51,"Shree Kunj Building Stadium Commerce College Road, Commerce Six Rd, Nr Azad Sweets, Hindu Colony, Navrangpura, Ahmedabad, Gujarat 380009, India",Ahmedabad,51,0,Navrangpura,4,0,5,5
+29,0,39,380009,33,33,,PUSHYA HOSPITAL,0,1,3,"32, Sardar Patel Nagar, Opp. ABC-1, near Wagh Bakri Tea Lounge, Vasant Vihar, Navrangpura, Ahmedabad, Gujarat 380009, India",Ahmedabad,3,0,Navrangpura,1,0,2,2
+30,0,22,382424,5,4,,UNITY HOSPITAL,0,4,10,"51, Shripal Nagar Soceity, New C.G. Road Corner, Opp. Pebble Bay, Near BRTS Stand, Janta Nagar, Nigam Nagar, Chandkheda, Ahmedabad, Gujarat 382424, India",Ahmedabad,10,0,Chandkheda,4,1,3,3
+31,0,14,380009,3,3,,Samved orthopedic,0,0,11,"3rd Floor, Samved Hospital, Near Sopan Flats, Stadium, to, Commerce Six Roads, Girivar Society, Navrangpura, Ahmedabad, Gujarat 380009, India",Ahmedabad,11,0,Navarangpura,0,0,0,0
+32,0,28,380063,16,8,,PHOENIX EME. & CRI. CARE,0,3,3,"78, Naranpura, Ahmedabad, Gujarat 380063, India",Ahmedabad,3,0,NARANPURA,3,8,6,6
+33,0,17,380013,8,8,,Krishna hospital,0,1,6,"Suryarani Complex, Akhabarnagar Cross Road, 132 Feet Ring Rd, Nava Vadaj, Ahmedabad, Gujarat 380013, India",Ahmedabad,6,0,Nava Vadaj,1,0,2,2
+34,0,54,,20,20,,Dr. Jivraj Mehta Vasna,0,2,26,"Dr Jivraj Mehta Marg, Vasna, Ahmedabad, Gujarat, India",Ahmedabad,26,0,Vasna,2,0,6,6
+35,0,22,380005,0,0,,Panchshil,0,2,9,"Acher, Ahmedabad, Gujarat 380005, India",Ahmedabad,9,0,Sabarmati,2,0,11,11
+36,0,40,380009,0,0,,HEALTHY MIND,0,0,34,"5/A, Commerce Six Rd, Swastik Society, Navrangpura, Ahmedabad, Gujarat 380009, India",Ahmedabad,34,0,NAVARANGPURA,0,0,6,6
+37,0,9,380013,7,7,,Dev hospital,0,0,2,"A/207-8-9, Swaminarayan Avenue 132' Ring Road A.E.C. Cross, Road, AEC Char Rasta, Naranpura, Ahmedabad, Gujarat 380013, India",Ahmedabad,2,0,NARANPURA,0,0,0,0
+38,0,8,380063,5,4,,Shruti met. & surgi. Hospital,0,1,1,"D-2/D-3, Medical Complex, Chandni Apartment, Sola Road, BRTS, near Parasnagar, Paras Nagar, Naranpura, Ahmedabad, Gujarat 380063, India",Ahmedabad,1,0,NARANPURA,1,1,1,1
+39,0,20,380013,6,6,,Gayatri heart & med. Hospital,0,2,6,"G-6/7, Chakrawaty Complex, Bhimjipura Road, Bhimjipura, Nava Vadaj, near Vijay Co Op Bank Ltd, Bhimjipura, Nava Vadaj, Ahmedabad, Gujarat 380013, India",Ahmedabad,6,0,Nava Vadaj,2,0,6,6
+40,0,17,380013,9,9,,PULSE ICCU,0,2,2,"Ananddham Society, Bhimjipura Rd, Mevavala Nagar, Sardar Colony, Ahmedabad, Gujarat 380013, India",Ahmedabad,2,0,Nava Vadaj,2,0,4,4
+41,0,30,380005,20,20,,PUKHRAJ,0,0,10,"Bulakhidas Rd, Ramnagar, Abu Street Society, Sabarmati, Ahmedabad, Gujarat 380005, India",Ahmedabad,10,0,SABARMATI,0,0,0,0
+42,0,20,380013,1,1,,Asian sup. Spe. Hospital,0,2,10,"Binali Complex B-block, Opposite Torrent Power Office, Near AEC Cross Road, Naranpura, Naranpura, Ahmedabad, Gujarat 380013, India",Ahmedabad,10,0,NARANPURA,2,0,7,7
+43,0,19,380013,4,4,,Spandan Eme. & Critical Care,0,3,6,"4th floor , mansarovar avenue , above syndicate bank , opp tulsishyam flate, Mahesana Society, Nava Vadaj, Ahmedabad, Gujarat 380013, India",Ahmedabad,6,0,Nava Vadaj,3,0,6,6
+44,0,30,380005,9,9,,shreeji Hospital,0,3,7,"Nr. Visat petrol pump, ONGC Avani bhavan, Sunrise Nagar, Ram Nagar, Sabarmati, Ahmedabad, Gujarat 380005, India",Ahmedabad,7,0,SABARMATI,3,0,11,11
+45,0,56,380015,0,0,,"Medilink Hospital, sabarmati",0,0,46,"132 ft Ring Road, Opp. Someshwara Jain Temple, Satellite, Swinagar Society, Nehru Nagar, Ambawadi, Ahmedabad, Gujarat 380015, India",Ahmedabad,46,0,SABARMATI,0,0,10,10
+46,0,35,380014,2,2,,saviour (lakhudi tadav),0,3,19,"Sardar Patel Stadium Rd, Near Bharat Petrol Pump, Chaitanya Nagar, Navrangpura, Ahmedabad, Gujarat 380014, India",Ahmedabad,19,0,NAVARANGPURA,3,0,11,11
+47,0,17,380013,4,4,,AVION KIDNEY,0,1,6,"604,605 copper leaf, Sola Rd, opposite Solaris Complex, Chitrakut Society, Bhuyang Dev, Memnagar, Ahmedabad, Gujarat 380013, India",Ahmedabad,6,0,NARANPURA,1,0,6,6
+48,0,19,,8,7,,Athen Hospital,0,0,8,,Ahmedabad,8,0,SABARMATI,0,1,3,3
+49,0,20,380009,0,0,,Noble Gastro Hospital,0,2,17,"Shaival Imperia 5th & 6th Floor, Mithakhali Six Rd, opp. Nalanda Hotel, Mithakhali, Ellisbridge, Ahmedabad, Gujarat 380009, India",Ahmedabad,17,0,Navrangpura,2,0,1,1
+50,0,14,,3,3,,Lifeline group of hospital,0,1,4,,Ahmedabad,4,0,Chandkheda,1,0,6,6
+51,0,39,,32,32,,JAYDIP HOSPITAL,0,1,3,,Ahmedabad,3,0,stadium,1,0,3,3
+52,0,96,,28,26,,D.K.PATEL Hall op. by Devasya Sup. Spe.Hospi.,0,1,18,,Ahmedabad,64,46,Navarangpura,1,2,3,3
+53,0,20,,2,2,,Shilp Surgical,0,0,15,,Ahmedabad,15,0,SABARMATI,0,0,3,3
+54,0,8,380059,2,2,,Devasya Hospital,0,0,0,"2nd Floor, Samarpan Complex S.P Ring Road, nr. Ambli-bopal Circle, Ambli, Ahmedabad, Gujarat 380059, India",Ahmedabad,0,0,BOPAL,0,0,6,6
+55,0,67,382345,37,37,,Sunrise,0,6,14,"City Centre Arcade, near SRP Campus, Naroda Patiya, Naroda, Ahmedabad, Gujarat 382345, India",Ahmedabad,14,0,NARODA,6,0,10,10
+56,0,33,380018,14,14,,Shreeji icu & multi. Spe. Hospital,0,5,5,"SAHAJANAND ARCADE, EVEREST MILAN CINEMA, Cross Rd, Krishna Nagar, Saraspur, Ahmedabad, Gujarat 380018, India",Ahmedabad,5,0,SARASPUR,5,0,9,9
+57,0,15,380024,7,7,,Aarna medical hospital,0,0,8,"107, Devraj Mall, India Colony Rd, Thakkarbapanagar, Bapunagar, Ahmedabad, Gujarat 380024, India",Ahmedabad,8,0,BAPUNAGAR,0,0,0,0
+58,0,38,380024,5,5,,"Star Hospital, Bapunagar,",0,5,25,"near Indica Laboratories, Vadilal Park, Bapunagar, Ahmedabad, Gujarat 380024, India",Ahmedabad,25,0,India colony,5,0,3,3
+59,0,44,382346,10,10,,Rugved Hospital,0,3,26,"Shreeram Complex, Opp Nilkanth Mahadev Temple, Sardar Chowk, Krishnanagar, Ahmedabad, Gujarat 382346, India",Ahmedabad,26,0,India colony,3,0,5,5
+60,0,173,382350,112,109,,"Kothiya Hospital, Nikol,",0,11,21,"Cross Road, nr torrent power, Nikol Gam Rd, Uttamnagar, Thakkarbapanagar, Ahmedabad, Gujarat 382350, India",Ahmedabad,21,0,Thakkar bapanagar,11,3,29,29
+61,0,112,380025,58,42,,"Gujarat Cancer Society Medical College Hospital, Naroda",0,6,42,"Opp. D.R.M. Office, Naroda Rd, nr. Chamunda Bridge, Saraspur, Ahmedabad, Gujarat 380025, India",Ahmedabad,42,0,India Colony,6,16,6,6
+62,0,23,380024,12,8,,METALIYA HOSPITAL,0,1,8,"9/99, Vallabh flat, Near Diamond market and Dhanvantari, Hospital, Bapunagar, Bapunagar, Ahmedabad, Gujarat 380024, India",Ahmedabad,8,0,BAPUNAGAR,1,4,2,2
+63,0,134,382345,56,50,094092 54092,ANAND SURGICAL HOSPITAL,0,6,67,"Anand Surgical Hospital, Near Memco Cross road, Naroda Road., Ambika Nagar, Om Nagar, Saijpur Bogha, Ahmedabad, Gujarat 382345, India",Ahmedabad,67,0,SAIJPUR BOGHA,6,6,5,5
+64,0,14,380013,4,4,,RYTHAM HOSPITAL,0,1,5,"1st Floor, Shashwat Complex, Char Rasta, Savita Society, Sundar Nagar, Naranpura, Ahmedabad, Gujarat 380013, India",Ahmedabad,5,0,Ahmedabad,1,0,4,4
+65,0,22,380024,9,8,,Tapan Hospital bapunagar,0,2,6,"7/75, Vallabh Flat, Cross Rd, Bapunagar, Ahmedabad, Gujarat 380024, India",Ahmedabad,6,0,RAKHIYAL,2,1,5,5
+66,0,0,380024,0,0,,Apollo Prime hospital,0,0,0,"210, 2nd floor, Pushkar Business Park, Bapunagar, Ahmedabad, Gujarat 380024, India",Ahmedabad,0,0,BAPUNAGAR,0,0,0,0
+67,0,42,382340,13,4,,"Sindhu Hospital, Kubernagar",0,2,19,"Maya Cinema Rd, Kuber Nagar, Ahmedabad, Gujarat 382340, India",Ahmedabad,19,0,Sardarnagar,2,9,8,8
+68,0,45,382345,25,20,,Chaudhry hospital,0,1,15,"A-19, Naroda Rd, Krishna Nagar, Kuber Nagar, Ahmedabad, Gujarat 382345, India",Ahmedabad,15,0,NARODA,1,5,4,4
+69,0,34,380024,10,10,,Shree Dhanvantari,0,0,17,"Dhanvantari General Hospital, Vijay Chowk, Bapu Nagar, Bapu Nagar, Bapunagar, Ahmedabad, Gujarat 380024, India",Ahmedabad,17,0,BAPUNAGAR,0,0,7,7
+70,0,28,382330,14,14,,"Nims hospital, naroda",0,1,9,"National Highway 8, Medicon Arcade, National Highway 8, Anjaney Krupa Society, Naroda, Ahmedabad, Gujarat 382330, India",Ahmedabad,9,0,NARODA,1,0,4,4
+71,0,39,380023,0,0,,Narayana,0,5,10,"Nr. Chakudiya Mahadev, Police Station, Cross Rd, opp. Rakhial, Rakhial, Ahmedabad, Gujarat 380023, India",Ahmedabad,10,0,RAKHIYAL,5,0,24,24
+72,0,22,382330,3,3,,"Parth hospital, Naroda",0,1,15,"E/408-11, 4th, Galaxy Arcade, Galaxy Rd, Near Galaxy Cinema, Chandresh Society, Makarpura, GIDC Naroda, Ahmedabad, Gujarat 382330, India",Ahmedabad,15,0,Ahmedabad,1,0,3,3
+73,0,43,382345,6,0,,Venus,0,3,14,"313-315City centre arcade,3rd floor, Krishnanagar, near SRP ground, Naroda Patiya, Naroda, Ahmedabad, Gujarat 382345, India",Ahmedabad,14,0,NARODA,3,6,20,20
+74,0,30,380025,7,7,,Shaiva children Hospital,0,6,15,"2nd and 3rd Floor, Pushpak Arcade, Hirawadi Corner, No.8, National Highway, Hirawadi, Bapunagar, Ahmedabad, Gujarat 380025, India",Ahmedabad,15,0,HIRAWADI,6,0,2,2
+75,0,73,,10,10,,Kakadiya Hospital,0,6,21,,Ahmedabad,21,0,BAPUNAGAR,6,0,36,36
+76,0,72,382350,36,29,,Rabadia Multi Spe. Hospital Nikol,0,5,26,"201, Angan Complex, nr. Deepak School, Nikol, Ahmedabad, Gujarat 382350, India",Ahmedabad,26,0,Nikol,5,7,5,5
+77,0,19,382418,5,5,,Jyoti multi. Spe. Hospital,0,2,9,"Second floor, Rudra business park, Vastral Road, Mahadev Nagar Tekra, Ahmedabad, Gujarat 382418, India",Ahmedabad,9,0,VASTRAL,2,0,3,3
+78,0,16,380038,10,10,,SARTHAK,0,0,6,"Nikol, Ahmedabad, Gujarat 380038, India",Ahmedabad,6,0,NIKOL,0,0,0,0
+79,0,34,382350,13,13,,PARIKH,0,2,13,"parikh superspeciality hospital, police station, Sardar Patel Ring Rd, opp. nikol, beside criket ground, Nikol, Ahmedabad, Gujarat 382350, India",Ahmedabad,13,0,NIKOL,2,0,6,6
+80,0,35,382418,26,26,,Narayan medical hospital,0,0,9,"A/16, Vastral Road, Mahadev Nagar Tekra, Ahmedabad, Gujarat 382418, India",Ahmedabad,9,0,VASTRAL,0,0,0,0
+81,0,48,382415,11,11,,"CUH, Central United hospital, Odhav",0,1,28,"Mangalam Arcade,, Opp.Odhav talav B.R.T.S Bus stop, Odhav, G I D C Ahmedabad, G I D C Industrial Area, Odhav, Ahmedabad, Gujarat 382415, India",Ahmedabad,28,0,Odhav,1,0,8,8
+82,0,25,380026,10,10,,"Tapan Hospital, Khokhra",0,3,6,"4th Floor, Radhe Mall, Khokhra, Khokhra Cir, Maninagar East, Khokhra, Ahmedabad, Gujarat 380026, India",Ahmedabad,6,0,Amaraiwadi,3,0,6,6
+83,0,62,382418,18,18,,Avadh Hospital,0,1,24,"2nd Floor, Avadh Pride,Opp- Metro Pillar No: 139, Nirant Cross Rd, Vastral, Ahmedabad, Gujarat 382418, India",Ahmedabad,24,0,VASTRAL,1,0,19,19
+84,0,100,382325,58,52,,"Shalby, Nikol",0,5,29,"Haridarshan Cross Road, Kathwada Rd, New India Colony, Naroda, Ahmedabad, Gujarat 382325, India",Ahmedabad,29,0,Nikol,5,6,8,8
+85,0,60,382350,16,16,,"Kanba Hospital, Nikol, Viratnagar",0,6,32,"33/4, Opposite Abjibapa green Avenue Anjana Chowk highway, Virat Nagar Rd, near कृष एक्सोटिका, Nikol, Ahmedabad, Gujarat 382350, India",Ahmedabad,32,0,Nikol,6,0,6,6
+86,0,80,380038,12,12,,Health1 Hospital,0,6,46,"Vastral Cross Road, RAF Camp, Sardar Patel Ring Rd, Vastral, Ahmedabad, Gujarat 380038, India",Ahmedabad,46,0,VASTRAL,6,0,16,16
+87,0,31,380038,3,3,,SARDAR,0,1,23,"Sardar Patel Rd, Nikol, Ahmedabad, Gujarat 380038, India",Ahmedabad,23,0,NIKOL,1,0,4,4
+88,0,14,380026,5,2,,Devasyam Children Hospital,0,0,9,"Opp. CTM BRTS stand, near Nexa show room, C.T.M, Amraiwadi, Ahmedabad, Gujarat 380026, India",Ahmedabad,9,0,Ahmedabad,0,3,0,0
+89,0,23,382350,10,10,,Swastik mult. Spe. Hospital,0,0,13,"2nd floor, Shreedhar Flora Amar Jawan Circle, near, Sardar Patel Ring Rd, Nikol, Ahmedabad, Gujarat 382350, India",Ahmedabad,13,0,NIKOL,0,0,0,0
+90,0,38,382415,16,6,,Shivalik Multi Specia.,0,2,14,"6/7, National Highway 8, Sattadhar Society, Sattadhar Nagar, Virat Nagar, Khodiar Nagar, Ahmedabad, Gujarat 382415, India",Ahmedabad,14,0,Ahmedabad,2,10,6,6
+91,0,13,382350,6,6,,Nikol multi spe.,0,1,4,"1 st, OPP KHODIYAR TEMPLE, Maruti Complex, B/H, Nikol, Ahmedabad, Gujarat 382350, India",Ahmedabad,4,0,NIKOL,1,0,2,2
+92,0,18,382345,11,10,,Safal Medical hospital,0,0,7,"11, 3rd floor, Palm Arcade, Nikol - Naroda Rd, New India Colony, Nikol, Ahmedabad, Gujarat 382345, India",Ahmedabad,7,0,NIKOL,0,1,0,0
+93,0,28,382415,10,9,,RANGAM,0,1,14,"Arbuda Nagar Cir, opp. Panchdev Mandir, Jayjoghesvari Society Part 1, Arbudanagar, Mahadev Nagar Tekra, Ahmedabad, Gujarat 382415, India",Ahmedabad,14,0,ODHAV,1,1,3,3
+94,0,10,382415,5,5,,Pancham,0,0,5,"B/6 Shivdarshan Society Near Manmohan Cross Road, Nikol - Odhav Rd, Odhav, Ahmedabad, Gujarat 382415, India",Ahmedabad,5,0,ODHAV,0,0,0,0
+95,0,16,382350,4,1,,Kanba ICU & Trauma,0,3,4,"33/4, Opposite Abjibapa green Avenue Anjana Chowk highway, Virat Nagar Rd, near कृष एक्सोटिका, Nikol, Ahmedabad, Gujarat 382350, India",Ahmedabad,4,0,VASTRAL,3,3,5,5
+96,0,41,380038,16,16,,"Spandan Hospital, Vastral,",0,3,16,"Shiv Shanti Society, Pranami Nagar, Vastral, Ahmedabad, Gujarat 380038, India",Ahmedabad,16,0,Vastral,3,0,6,6
+97,0,9,382418,5,5,,OM Family Care,0,0,4,"208, metro mall, Bapa Sitaram Chowk Road, near swaymbhu hospital, Vastral, Ahmedabad, Gujarat 382418, India",Ahmedabad,4,0,Vastral,0,0,0,0
+98,0,14,380023,4,2,,Shree Gurukrupa multi. Spe. Hospital,0,0,10,"Krishna Chambers, Rajendra Park Rd, Soni ni chali, Ramrajya Nagar, Odhav, Ahmedabad, Gujarat 380023, India",Ahmedabad,10,0,ODHAV,0,2,0,0
+99,0,21,382350,4,4,,Palm multi. Spe. Hospital,0,2,13,"3rd FLOOR, PALM ARCADE, SHUKAN CROSS ROAD, Nikol - Naroda Rd, New India Colony, Nikol, Ahmedabad, Gujarat 382350, India",Ahmedabad,13,0,NIKOL,2,0,2,2
+100,0,19,382330,2,2,,Vedant Mult. Spe. Hospital,0,1,12,"3rd floor, Capital Corporates Commercial Complex, Vasant Vihar Road, Opp. Eknath Complex, Vasant Vihar 2, Naroda, Vasant Vihar 2, Nava Naroda, Ahmedabad, Gujarat 382330, India",Ahmedabad,12,0,NIKOL,1,0,4,4
+101,0,13,,4,1,,Shree Khodiyar,0,1,6,,Ahmedabad,6,0,NIKOL,1,3,2,2
+102,0,0,382210,0,0,,"Shiv hospital, bakrol",0,0,0,"Kujad, Suvarnabhumi Business Hub, Bakrol Cir, Ahmedabad, Gujarat 382210, India",Ahmedabad,0,0,Ahmedabad,0,0,0,0
+103,0,47,382443,23,23,,RATAN Multi Speciality Hospital,0,4,12,"Surgeon Triangle, opposite Govindwadi, Vishalnagar, Isanpur, Ahmedabad, Gujarat 382443, India",Ahmedabad,12,0,Isanpur,4,0,8,8
+104,0,40,380008,22,22,,Little Flower Super Spe.,0,3,2,"Narayana Banglows, Uttamnagar Garden Rd, nr. Jay hind char rasta, Daxini Society, Maninagar, Ahmedabad, Gujarat 380008, India",Ahmedabad,2,0,MANINAGAR,3,0,13,13
+105,0,23,380028,7,7,,URO CURE ASSO. AARNA HOSPI.,0,2,0,"60,, 43, Bhairavnath Rd, Archana Society, Bhairavnath, Maninagar, Ahmedabad, Gujarat 380028, India",Ahmedabad,0,0,MANINAGAR,2,0,14,14
+106,0,34,380008,8,8,,Laxmi hospital,0,1,20,"Shivani Complex, javahar chok, Balvatika, Archana Society, Bhairavnath, Maninagar, Ahmedabad, Gujarat 380008, India",Ahmedabad,20,0,MANINAGAR,1,0,5,5
+107,0,17,380008,6,5,,PALLAV HOSPITAL,0,2,5,"Alankar Complex, Near, Pallav Railway Crossing, Maninagar East, Khokhra, Ahmedabad, Gujarat 380008, India",Ahmedabad,5,0,KHOKHARA,2,1,4,4
+108,0,34,380050,10,10,,"SARTHAK HOSPITAL,GHODASAR",0,0,24,"15, 16, Swamibapa Smruti Mandir Rd, Ghodasar, Ahmedabad, Gujarat 380050, India",Ahmedabad,24,0,Ghodasar,0,0,0,0
+109,0,16,382345,4,4,,AVISHKAR,0,2,4,"Ashok Mill Compound, Next to Arvind Megaestate Opposite Ashok Mills BRTS stand, D Colony, Ahmedabad, Gujarat 382345, India",Ahmedabad,4,0,KHOKHRA,2,0,6,6
+110,0,25,380008,10,8,,Jankalyan hospital,0,4,9,"5, Swaminarayan College Rd, Shahalam, Pushpkunj, Maninagar, Ahmedabad, Gujarat 380008, India",Ahmedabad,9,0,MANINAGAR,4,2,2,2
+111,0,34,382445,11,11,,Narol ICU,0,3,18,"Narol - Vatva Rd, Phase IV, Phase 4, GIDC Vatwa, Ahmedabad, Gujarat 382445, India",Ahmedabad,18,0,NAROL,3,0,2,2
+112,0,20,382405,0,0,,Shakti hospital,0,1,7,"A-117, 1st Floor, Krishna Complex B/h.Shahwadi Bus Stand Nr.Krishna Petrol Pump, Narolgam, Ahmedabad, Gujarat 382405, India",Ahmedabad,7,0,NAROL,1,0,12,12
+113,0,21,380043,12,9,,Shraddha medical nursing & heart hospital,0,0,9,"14, opp. Swaminarayan Vadi, Harihar Society, Daxini Society, Maninagar, Ahmedabad, Gujarat 380043, India",Ahmedabad,9,0,MANINAGAR,0,3,0,0
+114,0,26,380022,5,4,,"Shifa hospitals, Jamalpur",0,3,10,"Bagmar Plaza, Opp APMC Market, Jamalpur Char Rasta, Jamalpur, Calico Mills, Behrampura, Ahmedabad, Gujarat 380022, India",Ahmedabad,10,0,Behrampura,3,1,8,8
+115,0,15,382405,8,6,,"Jankalyan hospital, Narol",1,1,3,"5, Service Rd, Dharti Colony, Narolgam, Ahmedabad, Gujarat 382405, India",Ahmedabad,3,0,NAROL,1,2,3,2
+116,0,15,382440,3,2,,Sparsh multi. Spe. Hospital,0,0,10,"Vatva Gopinath industrial hub ,ambica tube mill compound, bus stand, opp. durga nagar, Vatva, Ahmedabad, Gujarat 382440, India",Ahmedabad,10,0,VATVA,0,1,2,2
+117,0,36,380008,6,6,,SHREE SARDAR PATEL,0,5,19,"Natvarlal Raval Marg, Near, Vasantnagar Twp, Basant Nagar, Maninagar, Ahmedabad, Gujarat 380008, India",Ahmedabad,19,0,MANINAGAR,5,0,6,6
+118,0,24,380008,0,0,,Siddhi Vinayak Hospital,0,2,17,"Maninagar Rd, near Jaldhara Water World, Balvatika, Tulsibag, Kankaria, Maninagar, Ahmedabad, Gujarat 380008, India",Ahmedabad,17,0,MANINAGAR,2,0,5,5
+119,0,19,382405,5,5,,Riyana Multi. Spe. Hospital,0,0,10,"10, 10, Lambha, Ahmedabad, Gujarat 382405, India",Ahmedabad,10,0,LAMBHA,0,0,4,4
+120,0,127,,101,88,,Rajasthan Hospital-Shahibaug,0,15,0,,Ahmedabad,0,0,Shahibaug,15,13,11,11
+121,0,27,380004,8,8,,Chandramani Hospital,0,2,11,"Sahibaug, Narmadashanker Rd, near Post Office, Gunvant Colony, Girdhar Nagar, Ahmedabad, Gujarat 380004, India",Ahmedabad,11,0,Shahibaug,2,0,6,6
+122,0,30,380001,12,11,,"Life care hospital, Khanpur",0,1,10,"Borsali Apartment Road, near Shree Naminath Jain Derasar, Old City, Khanpur, Ahmedabad, Gujarat 380001, India",Ahmedabad,10,0,Shahpur,1,1,7,7
+123,0,42,380004,36,30,,BAPS Yogiji Maharaj,0,3,0,"Shahibaug Road, Shahibaug, near BAPS Shri Swaminarayan Mandir, Dudheshwar, Ahmedabad, Gujarat 380004, India",Ahmedabad,0,0,Shahibaug,3,6,3,3
+124,0,14,380016,10,8,,PRIME,0,0,4,"3rd Floor, Sparsh Complex, Near IOC petrol pump, Opp, no. 4, Civil Hospital Rd, Patel Society, Asarwa, Ahmedabad, Gujarat 380016, India",Ahmedabad,4,0,Asarwa,0,2,0,0
+125,0,38,380004,18,17,,ANAND MULTI. HOSPITAL,0,2,10,"white house, opp. Rajasthan Hospital, Arihant Nagar, Shahibag, Ahmedabad, Gujarat 380004, India",Ahmedabad,10,0,Shahibaug,2,1,8,8
+126,0,22,380001,12,1,,LOKHANDWALA HOSPITAL,0,0,10,"Jordan Road Limdi Chowk, Dariapur, Inside Prem Darwaja, Dariapur, Old City, Dariyapur, Ahmedabad, Gujarat 380001, India",Ahmedabad,10,0,DARIAPUR,0,11,0,0
+127,0,28,380004,0,0,,Shree Bharati Vallabh,0,4,23,"Railway Crossing Rd, near Shahibag, Bhavna Society, Mahavir Kutir Society, Jain Colony, Shahibag, Ahmedabad, Gujarat 380004, India",Ahmedabad,23,0,Shahibaug,4,0,1,1
+128,0,94,380060,65,65,,"CIMS Hospital, Sola,",0,9,17,"Science City Rd, Science City, Panchamrut Bunglows II, Sola, Ahmedabad, Gujarat 380060, India",Ahmedabad,17,0,Gota,9,0,3,3
+129,0,43,380054,22,22,,"Sterling Cancer Hospital, Pakwan Char Rasta",0,4,13,"B/h, Sindhu Bhavan Marg, Off S G Highway, Bodakdev, Ahmedabad, Gujarat 380054, India",Ahmedabad,13,0,Bodekdev,4,0,4,4
+130,0,66,382481,54,54,,"Sgvp hospital, SG road",0,2,8,"SGVP Campus, Sarkhej - Gandhinagar Hwy, Ahmedabad, Gujarat 382481, India",Ahmedabad,8,0,Gota,2,0,2,2
+131,0,16,382481,4,4,,City Plus,0,2,5,"GF-18, B/H Vandematram Arcade, New SG Rd, nr. Shayona Tilak, Vandematram Arcade, Gota, Ahmedabad, Gujarat 382481, India",Ahmedabad,5,0,GOTA,2,0,5,5
+132,0,27,380060,9,8,,Shaleen,0,3,12,"4th & 5th Floor, Shaleen Plaza, Science City Rd, nr. Mangaldeep Party Plot, Sola, Ahmedabad, Gujarat 380060, India",Ahmedabad,12,0,SOLA,3,1,3,3
+133,0,27,382481,15,15,,V CARE,0,0,12,"Viswas city-5, Eulogia Hotel Rd, Gota, Ahmedabad, Gujarat 382481, India",Ahmedabad,12,0,GOTA,0,0,0,0
+134,0,11,380058,11,9,,SHREE RAJ,0,0,0,"GF 8 gala Magnus, Safal Parisar Rd, South Bopal, Bopal, Ahmedabad, Gujarat 380058, India",Ahmedabad,0,0,BOPAL,0,2,0,0
+135,0,21,380058,5,5,,ADITI,0,1,12,"1st floor Jaymaadi Shanti Smriti complex Besides little wing's BRT bus stop Near, Bopal - Ghuma Rd, Abhishek Society, India Colony, Bopal, Ahmedabad, Gujarat 380058, India",Ahmedabad,12,0,BOPAL,1,0,3,3
+136,0,78,380054,30,30,,GLOBAL HOSPITAL,0,4,23,"Nr. Bodakdev Garden, Pakwan Cross Road, Off. S.G. Highway, Bodakdev, Ahmedabad, Gujarat 380054, India",Ahmedabad,23,0,Bodakdev,4,0,21,21
+137,0,42,380059,12,12,,"DHS Multispecialty Hospital, Vastrapur",0,3,24,"Society, 18, Sunrise Park Road, Sunrise Park, Gurukul, Ahmedabad, Gujarat 380059, India",Ahmedabad,24,0,Thalte],3,0,3,3
+138,0,57,380052,34,34,,"Sanjivani hospital, Vastrapur",0,6,9,"15, Sunrise Park Road, Sunrise Park, Vastrapur, Ahmedabad, Gujarat 380052, India",Ahmedabad,9,0,Bodakdev,6,0,8,8
+139,0,168,380054,0,0,,Sal Hospital,0,3,156,"SAL Hospital Cross roads Opposite, Doordarshan Tower, Drive In Rd, Nilmani Society, Thaltej, Ahmedabad, Gujarat 380054, India",Ahmedabad,156,0,Thaltej,3,0,9,9
+140,0,12,380061,0,0,,PARAM,0,0,12,"5-6, Jayshakti Society,Janta Nagar Rd, Ghatlodiya, Ahmedabad, Gujarat 380061, India",Ahmedabad,12,0,Ghatlodia,0,0,0,0
+141,0,63,382481,24,24,,LIFELINE,0,3,22,"Shayona Tilak, Near Vandematram Arcade Behind Vishwakarma Temple, New S G Road, Chandlodia Rd, Gota, Ahmedabad, Gujarat 382481, India",Ahmedabad,22,0,chandlodia,3,0,14,14
+142,0,47,380058,35,27,,"Bopal Icu & Trauma Center, Ambli,",0,2,0,"17-26, 3rd floor, Amrapali Axiom, junction, Ambli - Bopal Rd, Ambli, Ahmedabad, Gujarat 380058, India",Ahmedabad,0,0,Bodakdev,2,8,10,10
+143,0,17,380058,2,2,,ADWAIT,0,2,11,"DPS Bopal Rd, Bopal, Ahmedabad, Gujarat 380058, India",Ahmedabad,11,0,BOPAL,2,0,2,2
+144,0,42,380015,16,15,,ICON,0,2,18,"Ground Floor 2, Sheel Apartment, Nehrupark, Vastrapur, Vastrapur, Mahavir Nagar society, Vastrapur, Ahmedabad, Gujarat 380015, India",Ahmedabad,18,0,Vastrapur,2,1,6,6
+145,0,21,380081,7,7,,SILVERSTAR,0,2,5,"Silver Star Mall Rd, Gota, Ahmedabad, Gujarat 380081, India",Ahmedabad,5,0,GOTA,2,0,7,7
+146,0,13,380052,0,0,,AASHWI,0,1,11,"Celler, Harvy Complex, Subhash Chowk, Near A-One School, Memnagar, Tarun Nagar Part 2, Memnagar, Ahmedabad, Gujarat 380052, India",Ahmedabad,11,0,THALTEJ,1,0,1,1
+147,0,12,380061,11,3,,HETVI,0,0,1,"11, Varsha State Bank Staff Society, below Chanakyapuri, Overbridge, Ghatlodiya, Chanakyapuri, Ahmedabad, Gujarat 380061, India",Ahmedabad,1,0,Ghatlodia,0,8,0,0
+148,0,15,380061,13,13,,MODI,0,0,1,"Janta Nagar Kakoldiya Rd, Laxmangadh Nagar, Umedpark Society, Ghatlodiya, Ahmedabad, Gujarat 380061, India",Ahmedabad,2,1,Ghatlodia,0,0,0,0
+149,0,9,382470,4,4,,Aum sai hospital,0,0,5,"1,2 Samyak Galaxy Nr. Umabhavani Railway Crossing Jagatpur, Godrej Garden City Rd, Krishnadham Tenement, Chandkheda, Ahmedabad, Gujarat 382470, India",Ahmedabad,5,0,GOTA,0,0,0,0
+150,0,11,380061,7,7,,Ohm Hospital,0,0,2,"18-19, Ghatlodia Rd, Karmachari Nagar Part-1, Ghatlodiya, Ahmedabad, Gujarat 380061, India",Ahmedabad,2,0,Ghatlodia,0,0,2,2
+151,0,75,380058,51,48,,Zydus Hospital,0,6,12,"Zydus Hospital, Zydus Hospital Rd, Sola, Ahmedabad, Gujarat 380058, India",Ahmedabad,12,0,THALTEJ,6,3,6,6
+152,0,48,380052,0,0,,Sterling Hospital Memnagar,0,4,40,"Sterling Hospital Road near Maharaja Agrasen Vidhyalaya, L.K Society, Nilmani Society, Memnagar, Ahmedabad, Gujarat 380052, India",Ahmedabad,40,0,THALTEJ,4,0,4,4
+153,0,127,382421,101,101,,KD Hospital,0,8,0,"Sardar Patel Ring Rd, Ahmedabad, Gujarat 382421, India",Ahmedabad,0,0,GOTA,8,0,18,18
+154,0,10,380054,0,0,,Asian Bariatrics,0,4,0,"Unnamed Road, Bodakdev, Ahmedabad, Gujarat 380054, India",Ahmedabad,0,0,Bodakdev,4,0,6,6
+155,0,20,,0,0,,"Devasya Hospital, bopal",0,2,17,,Ahmedabad,17,0,BOPAL,2,0,1,1
+156,0,18,382481,7,7,,Ananta multi. Spe. Hospi.,0,0,8,"Shayona Tilak, Near Vandematram Arcade Behind Vishwakarma Temple, New S G Road, Chandlodia Rd, Gota, Ahmedabad, Gujarat 382481, India",Ahmedabad,8,0,Gota,0,0,3,3
+157,0,14,,8,8,,Guru krupa,0,1,2,,Ahmedabad,2,0,Ghatlodia,1,0,3,3
+158,0,20,,0,0,,RICN Hospital,0,2,13,,Ahmedabad,13,0,THALTEJ,2,0,5,5
+159,0,150,382421,150,35,,V CARE GYNEC SURENDRANAGAR PATIDAR COVID CARE CENTER,0,0,0,"SPCT Sankul, Opp. Balaji wind park, Nr. Vaishnodevi circle, Khoraj, Ahmedabad - 382421",Ahmedabad,0,0,Ahmedabad,0,115,0,0
+160,0,44,,44,27,,LIFELINE(GINGER) Covid Care Centre,0,0,0,"Ahmedabad, Gujarat, India",Ahmedabad,0,0,Ahmedabad,0,17,0,0
+161,0,50,380006,50,50,,CIMS SOLA TULIP INN HOTEL COVID CARE CENTER,0,0,0,"3rd Floor, Parimal Garden, Dev Complex, Vijay Cross Rd, Shanti Sadan Society, Ellisbridge, Ahmedabad, Gujarat 380006, India",Ahmedabad,0,0,Ahmedabad,0,0,0,0
+162,0,40,380054,40,32,,DHS HOSPI. SUBA STAR HOTEL COVID CARE CENTER,0,0,0,"Judges Bungalow Rd, next to Aakash Tower, Bodakdev, Ahmedabad, Gujarat 380054, India",Ahmedabad,0,0,Ahmedabad,0,8,0,0
+163,0,60,380058,60,16,,BOPAL ICU GRAND 07 HOTEL,0,0,0,"Near Bopal 444, Off S. P. Ring Road, Ahmedabad, Gujarat 380058, India",Ahmedabad,0,0,Ahmedabad,0,44,0,0
+164,0,100,380015,100,63,,Asian Bariatrics HOTEL PRIDE PLAZA Covid care centre,0,0,0,"S/n. 235/2 Opp, Rajpath Club Road, Sarkhej - Gandhinagar Hwy, Bodakdev, Ahmedabad, Gujarat 380015, India",Ahmedabad,0,0,Ahmedabad,0,37,0,0
+165,0,25,,25,0,,CONFEDERATION OF REAL ESTATE DEV. ASSO. OF INDIA(CREDAI),0,0,0,,Ahmedabad,0,0,Ahmedabad,0,25,0,0
+166,0,80,,80,3,,"SRM HEALTH CARE, SG ROAD, THALTEJ",0,0,0,,Ahmedabad,0,0,Ahmedabad,0,77,0,0
+167,0,63,,63,29,,"SANAND JANTA MULT.SPE.AVALON HOTEL, SG ROAD",0,0,0,,Ahmedabad,0,0,Ahmedabad,0,34,0,0
+168,0,58,,58,0,,MEDILINK RAJPATH CLUB HOTEL,0,0,0,,Ahmedabad,0,0,Ahmedabad,0,58,0,0
+169,0,175,,175,0,,"ICON FAIRFIELD BY MARRIOTT, ASHRAM ROAD",0,0,0,,Ahmedabad,0,0,Ahmedabad,0,175,0,0
+170,0,15,,15,15,,DR. POOJA PATEL & TEAM SANKALP CCC,0,0,0,,Ahmedabad,0,0,Ahmedabad,0,0,0,0
+171,0,30,,30,0,,"ARHAM YUVA SEVA GROUP, SATELLITE",0,0,0,,Ahmedabad,0,0,Ahmedabad,0,30,0,0
+172,0,30,,30,0,,SHAKTI GENERAL SILVER LEAF HOTEL,0,0,0,,Ahmedabad,0,0,Ahmedabad,0,30,0,0
+173,0,31,,31,0,,JINCY ERRAZZO SUITES HOTEL,0,0,0,,Ahmedabad,0,0,Ahmedabad,0,31,0,0
+174,0,41,380015,6,4,,"Medilink hospital, Shyamal char rasta",0,3,24,"132 ft Ring Road, Opp. Someshwara Jain Temple, Satellite, Swinagar Society, Nehru Nagar, Ambawadi, Ahmedabad, Gujarat 380015, India",Ahmedabad,24,0,Jodhpur,3,2,8,8
+175,0,24,380058,16,16,,"Shivam, Bopal",0,1,3,"Nandanpark Internal Road, Nandanpark Society, Bopal, Ahmedabad, Gujarat 380058, India",Ahmedabad,3,0,Bopal,1,0,4,4
+176,0,137,380058,65,65,,krishna shalby,0,12,40,"319, Green City, Ghuma, Via, Bopal, Ahmedabad, Gujarat 380058, India",Ahmedabad,40,0,Sarkhej,12,0,20,20
+177,0,22,380051,8,8,,Samkit hospital,0,1,8,"Bhagyoday Society, 2nd floor, Surganga Complex, Jivraj Park Vejalpur Rd, Bhagyoday Society, Vibhavari Society, Juhapura, Ahmedabad, Gujarat 380051, India",Ahmedabad,8,0,Vejalpur,1,0,5,5
+178,0,65,,12,1,,lora Hospital (Amena Khatun Multi Speciality Hospital),0,7,41,,Ahmedabad,41,0,Sarkhej,7,11,5,5
+179,0,48,380015,8,8,,"Tapan Hospital, Satellite",0,5,24,"Anandnagar Cross Road, Near Platinium Hall, opp. Shell Petrol Pump, Satellite, Ahmedabad, Gujarat 380015, India",Ahmedabad,24,0,Jodhpur,5,0,11,11
+180,0,40,380058,13,13,,"Saraswati Hospital, Sp Ring Road",0,0,27,"Nr. Shivalik Satyamev, Vakil Saheb Bridge Ambli Bopal T Junction, Sardar Patel Ring Rd, South Bopal, Bopal, Ahmedabad, Gujarat 380058, India",Ahmedabad,27,0,Jodhpur,0,0,0,0
+181,0,21,380051,2,2,,FAITH HOSPI. & ICU,0,2,10,"201 to 204, 301 to 304, SEVENTH HEAVEN, Sarkhej Makarba Rd, opp. Al Burooj, Quresh Nagar Society, Makarba, Ahmedabad, Gujarat 380051, India",Ahmedabad,10,0,MAKARBA,2,0,7,7
+182,0,22,382210,12,12,,Sahyog hospital,0,0,10,"Sanand - Sarkhej Road, RING ROAD CIRCLE, Shantipura, Ahmedabad, Gujarat 382210, India",Ahmedabad,10,0,Sarkhej,0,0,0,0
+183,0,16,380055,11,1,,Jeevandeep,0,0,5,"Sarkhej, Ahmedabad, Gujarat 380055, India",Ahmedabad,5,0,Sarkhej,0,10,0,0
+184,0,32,380015,0,0,,"Parekh hospital, satellite",0,2,25,"Shyamal Cross Road, 132 Feet Ring Road Shyamal, Satellite, Ahmedabad, Gujarat 380015, India",Ahmedabad,25,0,Jodhpur,2,0,5,5
+185,0,61,380015,0,0,,"Shalby Hospital, SG highway",0,9,47,"Sarkhej - Gandhinagar Hwy, opp. Karnavati Club, Gota, Ahmedabad, Gujarat 380015, India",Ahmedabad,47,0,Sarkhej,9,0,5,5
+186,0,20,380015,4,4,079 2673 0253,"Concept neuro & spine care, Shivranjani",0,1,7,"402-404 , Shital Varsha mall, Satellite Rd, Suryapooja Block B, Satellite, Ahmedabad, Gujarat 380015, India",Ahmedabad,11,4,Jodhpur,1,0,4,4
+187,0,12,,0,0,,"Orchids ICU & Hospi., satellite",0,2,4,,Ahmedabad,4,0,Jodhpur,2,0,6,6
+188,0,57,380059,57,24,,TAPAN SATELLITE PRAGATI HOTEL COVID CARE CENTER,0,0,0,"Near Zydus Hospital, Hebatpur Road, Sarkhej - Gandhinagar Hwy, Thaltej, Ahmedabad, Gujarat 380059, India",Ahmedabad,0,0,Ahmedabad,0,33,0,0
+189,0,75,380015,75,59,,TAPAN RAJDEEP HOTEL,0,0,0,"100 Feet Anand Nagar Rd, near Shell Petrol Pump, Prahlad Nagar, Ahmedabad, Gujarat 380015, India",Ahmedabad,0,0,Ahmedabad,0,16,0,0
+190,0,80,380015,80,16,,MEDILINK RAMADA HOTEL,0,0,0,"132 ft Ring Road, Opp. Someshwara Jain Temple, Satellite, Swinagar Society, Nehru Nagar, Ambawadi, Ahmedabad, Gujarat 380015, India",Ahmedabad,0,0,Ahmedabad,0,64,0,0
+191,0,30,,30,9,,"SHALBY, SG HIGHWAY RAMADA HOTEL",0,0,0,,Ahmedabad,0,0,Ahmedabad,0,21,0,0
+192,0,100,,100,0,,SNEH HOSPITAL MANTRA ONE,0,0,0,,Ahmedabad,0,0,Ahmedabad,0,100,0,0
+193,0,50,,50,0,,Tapan satellite Rezaa's Hotel,0,0,0,,Ahmedabad,0,0,Ahmedabad,0,50,0,0
+194,0,40,,40,0,,TAPAN SATELLITE GRAND ELEGANCE HOTEL,0,0,0,,Ahmedabad,0,0,Ahmedabad,0,40,0,0
+195,0,14,,14,3,,TAPAN KHOKHRA RAJ PALACE HOTEL COVID CARE CENTER,0,0,0,"Ahmedabad, Gujarat, India",Ahmedabad,0,0,Ahmedabad,0,11,0,0
+196,0,30,,30,0,,"UTTAR BHARATIYA VIKAS PARISHAD KABIR ASHRAM CCC, SARASPUR",0,0,0,,Ahmedabad,0,0,Ahmedabad,0,30,0,0
+197,0,40,,40,6,,JANKALYAN SHAHALAM PLEASANT LAKE HOTEL,0,0,0,,Ahmedabad,0,0,Ahmedabad,0,34,0,0
+198,0,20,,20,0,,RAJ HOSPI. ATITHI HOTEL COVID CARE CENTER,0,0,0,"Ahmedabad, Gujarat, India",Ahmedabad,0,0,Ahmedabad,0,20,0,0
+199,0,50,380015,50,0,,GUJARAT CHAMBER FOUN. NAMI RESY. HOTEL,0,0,0,"S. G. Road Near Shapath - V, Prahlad Nagar, Ahmedabad, Gujarat 380015, India",Ahmedabad,0,0,Ahmedabad,0,50,0,0
+200,0,20,,20,8,,JAIN INTER.TRAD ORG. NAMI RESIDENCY COVID CARE CENTER,0,0,0,,Ahmedabad,0,0,Ahmedabad,0,12,0,0
+201,0,50,380006,50,38,,THAKERSHY CHARI. TRUST URBUN INN HOTEL COVID CARE CENTER,0,0,0,"3rd Floor, Parimal Garden, Dev Complex, Vijay Cross Rd, Shanti Sadan Society, Ellisbridge, Ahmedabad, Gujarat 380006, India",Ahmedabad,0,0,Ahmedabad,0,12,0,0
+202,0,64,380006,64,0,,HRIDAY SE THE LOTUS HOTEL CCC,0,0,0,"Opp. Kothawala flat, Ellisbridge, Pritam Nagar, Paldi, Ahmedabad, Gujarat 380006, India",Ahmedabad,0,0,Ahmedabad,0,64,0,0
+203,0,30,380015,30,16,,AARTHAM NAMI RESI.,0,0,0,"Opp. Government Polytechnic College, near Panjrapole Cross Road, L Colony, Ambawadi, Ahmedabad, Gujarat 380015, India",Ahmedabad,0,0,Ahmedabad,0,14,0,0
+204,0,20,,20,0,,LEMON TREE(HCG) COVID CARE,0,0,0,,Ahmedabad,0,0,Ahmedabad,0,20,0,0
+205,0,35,,0,0,,"SUSHRUSHA THE ORIENT CLUB COVID CARE CENTER, ELLISBRIDGE",0,0,35,,Ahmedabad,35,0,Ahmedabad,0,0,0,0
+206,0,30,380060,30,0,,"PHOENIX EME. PNNACLE GRAND HOTEL, SG HIGHWAY",0,0,0,"Opp. Kargil Petrol Pump Near Doctor House, Sarkhej - Gandhinagar Hwy, Sola, Ahmedabad, Gujarat 380060, India",Ahmedabad,0,0,Ahmedabad,0,30,0,0
+207,0,58,,8,0,,"BODYLINE ACCOLADE HOTEL, ELLISBRIDGE",0,0,24,,Ahmedabad,50,26,Ahmedabad,0,8,0,0
+208,0,100,,100,0,,TLGH TUNE HOTEL(APODIS HOTEL & RESORTS),0,0,0,,Ahmedabad,0,0,Ahmedabad,0,100,0,0
+209,0,5,,5,0,,IOCL INHOUSE CCC FOR IOCL EMPLOYEES,0,0,0,,Ahmedabad,0,0,Ahmedabad,0,5,0,0
+210,0,25,,15,0,,HOTEL KOHINOOR PLAZA,0,0,0,,Ahmedabad,10,10,Ahmedabad,0,15,0,0
+211,0,32,,32,0,,DR. KHYATI JANI & TEAM HOTEL MAHEK,0,0,0,,Ahmedabad,0,0,Ahmedabad,0,32,0,0
+212,0,10,,10,0,,IOCL INHOUSE CCC FOR IOCL EMPLOYEES(SABARMATI TERMINAL),0,0,0,,Ahmedabad,0,0,Ahmedabad,0,10,0,0
+213,0,10,,10,0,,PAIN CARE CLINIC HOTEL SRTC,0,0,0,,Ahmedabad,0,0,Ahmedabad,0,10,0,0
+214,0,25,,25,0,,HELPING HAND GROUP SHREE RUKSHMANIBEN BHAVSAR COMM. HALL (SANVEDNA CCC),0,0,0,,Ahmedabad,0,0,Ahmedabad,0,25,0,0

@@ -1,0 +1,951 @@
+id,area,available_icu_beds_with_ventilator,pincode,district,hospital_poc_phone,total_beds_without_oxygen,available_beds_without_oxygen,hospital_poc_name,total_icu_beds_without_ventilator,total_beds_with_oxygen,hospital_phone,hospital_name,available_icu_beds_without_ventilator,total_icu_beds_with_ventilator,available_beds_with_oxygen,hospital_address,last_updated_on,hospital_category
+0,Agar Malwa,-1,452006,Agar Malwa,9644190018,186,135,DR.KABEER BAGGA,0,0,"7223007898, 9644190018",Pichda warg Boys Post matric Hostel Malikhedi road Agar Malwa,0,-1,0,"Ujjain - Indore Rd, Mahal Kacheri, Indore, Madhya Pradesh 452006, India",1619941776000,Government
+1,Agar Malwa,-1,465441,Agar Malwa,9425985071,0,0,DR. J C PARMAR,10,140,"9425429051, 7879466266",DH Agar Malwa - DCHC,0,-1,0,"Agar, Madhya Pradesh 465441, India",1619923686000,Government
+2,Alirajpur,-1,457887,Alirajpur,9926838121,17,0,Dr. Santosh Solanki,10,58,"7898659339, 6266578398",DH Alirajpur - DCHC,10,-1,2,"Alirajpur-Dahod Rd, Alirajpur, Madhya Pradesh 457887, India",1619928881000,Government
+3,Alirajpur,-1,461111,Alirajpur,8305937601,160,155,Dr Rahul Dawar,0,0,07395 272 869,Eklavya Hostel Umrali,0,-1,0,"Village & Sondwa, Teh, &, Distt, Umrali, Madhya Pradesh 461111, India",1619928921000,Government
+4,Alirajpur,-1,457882,Alirajpur,7898545837,250,222,Dr Manoj Kumar,0,0,079998 23165,Eklavya Hostel Sejawada,0,-1,0,"Chandrashekhar Azad Nagar, Sejawada, Madhya Pradesh 457882, India",1619928902000,Government
+5,Alirajpur,-1,457887,Alirajpur,7805057576,160,72,Dr. Jaydeep Jamindar,0,0,"7566646088, 7566027179","BOYS Hostel, Alirajpur",0,-1,0,"Alirajpur-Dahod Rd, Ramsingh Ki Choki, Madhya Pradesh 457887, India",1619928823000,Government
+6,Alirajpur,-1,,Alirajpur,7247694474,100,40,DR Mayuri Rathod,0,0,", ",CCC JOBAT,0,-1,0,,1619928848000,Government
+7,Anuppur,-1,484881,Anuppur,9425344671,0,0,DR  T R CHAURASIYA,0,10,"7974543286, 7067446110",CHC RAJENDRAGRAM,0,-1,8,"Karpa, Madhya Pradesh 484881, India",1619923511000,Government
+8,Anuppur,-1,484224,Anuppur,9893780271,0,0,DR MANOJ GUPTA,0,10,"7566741373, 9617322439",CHC KOTMA,0,-1,0,"Anuppur, Madhya Pradesh 484224, India",1619923425000,Government
+9,Anuppur,-1,484224,Anuppur,9425473164,40,18,Dr. S R P DWIVEDI,10,30,"8889051720, 9993959154",DH Anuppur - DCHC,0,-1,0,"Anuppur, Madhya Pradesh 484224, India",1619923710000,Government
+10,Anuppur,-1,484224,Anuppur,7898584653,50,12,DR  M S SHYAM,0,50,"9425184337, 9300640465",GOVT KANYA SIKSHA PARISHAR ANUPPUR,0,-1,28,"Kusmahai, Madhya Pradesh 484224, India",1619924032000,Government
+11,Anuppur,-1,484334,Anuppur,9893974942,0,0,DR B P SHUKLA,0,10,"9713283654, 8109793352",CHC JAITHARI,0,-1,0,"Kotma, Madhya Pradesh 484334, India",1619923137000,Government
+12,Jabalpur,-1,482002,Jabalpur,9713288548,54,54,Mr. Ajay Singh,0,0,1800 890 6909,ANANT HOSPITAL,0,-1,0,"Madan Mahal Railway Station Rd, Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619933418000,Private
+13,Ashoknagar,-1,473331,Ashoknagar,9981470062,20,18,MR LILESH TOMAR,0,10,"9981470062, 9981470062",LKT HOSPITAL,0,-1,9,"Ashoknagar - Esagarh Rd, Om Colony, Ashoknagar, Madhya Pradesh 473331, India",1619924805000,Private
+14,Ashoknagar,-1,473330,Ashoknagar,9131178433,5,5,DR. SHIVRAJ SINGH BHADOURIYA,0,3,", ",CHC SHADORA,0,-1,2,"Shadora, Madhya Pradesh 473330, India",1619917083000,Government
+15,Ashoknagar,-1,473335,Ashoknagar,9617377767,48,44,KULDEEP MAHATMA JI,0,2,075412 40734,ANANDPUR HOSPITAL,0,-1,0,"P.o. SHRI Anandpur, Sukhpur, Isagarh, Madhya Pradesh 473335, India",1619917051000,Private
+16,Ashoknagar,-1,473331,Ashoknagar,9893015806,40,0,Dr. Manish Choursiya,10,120,"9425798760, 9425798760",DH Ashoknagar - DCHC,0,-1,0,"Ashok Nagar, Chaigara, Hoshangabad, Madhya Pradesh 473331, India",1619941128000,Government
+17,Ashoknagar,-1,473443,Ashoknagar,7389986622,10,7,DR. AMIT PANDEY,0,4,"7389986622, 7389986622",CH MUNGAOLI,0,-1,0,"Mungaoli, Madhya Pradesh 473443, India",1619916920000,Government
+18,Ashoknagar,-1,473331,Ashoknagar,9826547955,5,5,DR SUYASH JAIN,0,0,"9826547955, 9826547955",RAJSHREE NURSING HOME,0,-1,0,"Kher Colony Road, Soni Colony, Yadav Colony, Ashoknagar, Madhya Pradesh 473331, India",1619928372000,Private
+19,Ashoknagar,-1,473446,Ashoknagar,9406500911,10,10,DR. M.L. KHARKA,0,5,", ",CH CHANDERI,0,-1,5,"Chanderi, Madhya Pradesh 473446, India",1619916879000,Government
+20,Ashoknagar,-1,473331,Ashoknagar,9893015806,125,104,Dr. Manish Chourasiya,0,0,"9981819712, 9755678228",TRAINING CENTER,0,-1,0,"near Excellence H. S. School Pathar, Purana Bazar, Ashoknagar, Madhya Pradesh 473331, India",1619941244000,Government
+21,Ashoknagar,-1,473331,Ashoknagar,9406582200,5,5,DR MANGAL SONIK,0,0,"9406582200, 9406582200",AYUSHMAN NURSING HOME,0,-1,0,"Bilala Mill Rd, Subhash Gunj, Ashoknagar, Madhya Pradesh 473331, India",1619916955000,Private
+22,Ashoknagar,-1,473331,Ashoknagar,9516822579,6,6,Mr. Vishnu,0,0,070002 05268,SAMAR HOSPITAL,0,-1,0,"Rampura Mohalla, Tulsi Sarovar Colony, Ashoknagar, Madhya Pradesh 473331, India",1619929291000,Private
+23,Ashoknagar,-1,473335,Ashoknagar,7415752540,4,4,DR. MAHENDRA DHAKAD,0,0,"7415752540, 7415752540",CHC ISAGARH,0,-1,0,"Roopnagar,baheriya, Sukhpur, Isagarh, Madhya Pradesh 473335, India",1619916850000,Government
+24,Ashoknagar,-1,473331,Ashoknagar,7509439048,15,15,MR. RAMESH KORI,0,5,082693 30162,ASHOKA HOSPITAL,0,-1,5,"Shankarpur, Ashoknagar, Madhya Pradesh 473331, India",1619926593000,Private
+25,Balaghat,-1,481222,Balaghat,9425876045,45,12,Dr Pradeep Gedam,0,5,"9425876045, 9425876045",Civil hospital lanji,0,-1,0,"Lanji-Balaghat Rd, Lanji, Madhya Pradesh 481222, India",1619929314000,Government
+26,Balaghat,-1,481001,Balaghat,7389582111,50,44,Dr Pankaj Mahajan,0,0,", ",Patwari Training Center Gaykhuri Balaghat,0,-1,0,"Balaghat, Madhya Pradesh 481001, India",1619925940000,Government
+27,Balaghat,-1,481001,Balaghat,7000250700,0,0,Dr Rohit Gupta,8,27,079995 11697,Arogya Hospital Balaghat,0,-1,0,"Gujri Chowk, Chitragupt Nagar, Balaghat, Madhya Pradesh 481001, India",1619932792000,Private
+28,Balaghat,-1,481001,Balaghat,9907403547,0,0,Dr Avinash Sahare,9,0,099074 03547,Ganpati Memorial Multispecialty Hospital And Critical Care Unit Balaghat,0,-1,0,"Vivekanand Colony, Chitragupt Nagar, Balaghat, Madhya Pradesh 481001, India",1619932122000,Private
+29,Balaghat,-1,,Balaghat,7000427909,0,0,Arvind Bharne,10,4,"7000427909, 7389582111",Nidan Multispecialty Hospital Balaghat,0,-1,0,,1619943009000,Private
+30,Balaghat,-1,481331,Balaghat,9425448164,18,0,Dr Ravindra Tathod,0,34,"7415143309, 7415143309",Civil hospital Waraseoni,0,-1,0,"Waraseoni, Madhya Pradesh 481331, India",1619924734000,Government
+31,Balaghat,-1,481001,Balaghat,7024433538,10,0,Dr. Bhajan Lilhare,15,152,"7389582111, 7999576864",Dist Hospital Balaghat,0,-1,0,"Dheemartola Rd, Budhi, Balaghat, Madhya Pradesh 481001, India",1619925852000,Government
+32,Balaghat,-1,481001,Balaghat,7389582111,0,0,Dr Pankaj Mahajan,0,40,"7389582111, 7389582111",MULNA STADIUM,0,-1,0,"Balaghat, Madhya Pradesh 481001, India",1619926028000,Government
+33,Balaghat,-1,481111,Balaghat,8225067857,45,44,Dr Harish Masram,0,5,"8225067857, 8225067857",Civil hospital  Baihar,0,-1,0,"Baihar, Madhya Pradesh 481111, India",1619929021000,Government
+34,Balaghat,-1,,Balaghat,8224008888,0,0,Dr Abhinav Shrivastav,0,5,"8224008888, 8224008888",Shrivastav Nursing Home Balaghat,0,-1,0,,1619929228000,Private
+35,Balaghat,-1,,Balaghat,9300098851,0,0,Dr Shyam Pichode,0,10,"9425600208, 9560211283",Rani Avanti Covid Hospital,0,-1,0,,1619925676000,Private
+36,Balaghat,-1,,Balaghat,9617354204,10,10,Dr Hitesh Kawde,10,30,"9174422111, 9713226337",Sardar Patel Multispecialty Hospital Balaghat,0,-1,15,,1619929275000,Private
+37,Barwani,-1,451551,Barwani,9131315997,31,2,Dr MS Solanki,0,37,072108 40108,Manorama Hospital Barwani DCHC,0,-1,1,"BUS STAND, Rajghat Rd, opp. DAYABHAI PETROL PUMP, New Barwani, Jumerati Colony, Barwani, Madhya Pradesh 451551, India",1619943075000,Private
+38,Barwani,-1,451551,Barwani,9407478275,190,144,Mo,0,70,"9407478275, 9407478275",MASTER DCHC,0,-1,50,"Barwani, Madhya Pradesh 451551, India",1619941304000,Government
+39,Barwani,-1,451666,Barwani,7977470752,13,5,Dr.Deepika Jhavar,12,15,072812 28003,Shree Narayandas Hospital Sendhwa DCHC,3,-1,11,"6/3, A.B.Road Bypass, Gram Banihar, Barwani District, Sendhawa, Madhya Pradesh 451666, India",1619942926000,Private
+40,Barwani,-1,451666,Barwani,9826508855,110,85,Dr Deepak Gourv,0,40,072812 23232,Jamli Hostel Sendhwa,0,-1,9,"Shiv Colony, Niwali Road, Abhinav Colony, Sendhwa, Madhya Pradesh 451666, India",1619942635000,Government
+41,Barwani,-1,,Barwani,9865200000,28,28,Ayush Doctor,0,12,", ","Kerwa ITI Collage , Thikri",0,-1,0,,1619929019000,Government
+42,Barwani,-1,451551,Barwani,9893474398,40,5,Dr Ashish Yadav,4,6,"9893474398, 9893474398",Maha  Mratyunjan Hospital Barwani DCHC,3,-1,3,"Near Anjad Naka State Highway 26, Khargone - Barwani Hwy, Barwani, Madhya Pradesh 451551, India",1619922952000,Private
+43,Barwani,-1,451551,Barwani,9981270175,0,0,Dr Nitin Rawat,12,147,072902 22125,DH Barwani  DCHC  District Hospital,0,-1,15,"Barwani, Madhya Pradesh 451551, India",1619941812000,Government
+44,Barwani,-1,451551,Barwani,8839381428,20,5,Dr.Mukesh Chouhan,4,56,"9617852685, 9074592829",Asha Gram Hospital Barwani,0,-1,1,"Ashagram Rd, Asha Gram, Barwani, Madhya Pradesh 451551, India",1619942074000,Private
+45,Barwani,-1,451551,Barwani,9893087173,26,1,Dr Rashmi Patidar,8,16,078696 17000,Sanjeevni Hospital Barwani DCHC,2,-1,0,"Rajghat Road, Opposite Krishi Upaj Mandi, Barwani, Madhya Pradesh 451551, India",1619943343000,Private
+46,Barwani,-1,451666,Barwani,9425072963,15,12,Dr.Anand Gupta,0,15,072812 24504,Aandam Hospital Sendhwa DCHC,0,-1,8,"A.B.ROAD,KAMAL NAGAR, Sendhwa, Madhya Pradesh 451666, India",1619929843000,Private
+47,Barwani,-1,451551,Barwani,9981266877,0,0,DR. PANKAJ GUPTA,0,20,"9981266877, 9981266877",Shree Grupad Hospital Barwani DCHC,0,-1,10,"Barwani, Madhya Pradesh 451551, India",1619930705000,Private
+48,Barwani,-1,451551,Barwani,9422780113,32,21,Dr. Nand kishor Senani,7,11,"9422780113, 9422780113",BALAJI HOSPITAL BARWANI DCHC,6,-1,0,"Near Anjad Naka State Highway 26, Khargone - Barwani Hwy, Barwani, Madhya Pradesh 451551, India",1619943642000,Private
+49,Barwani,-1,451666,Barwani,9754735689,11,11,Dr Stella mathew,2,11,072812 23110,Karuna Hospital Sendhwa DCHC,0,-1,3,"Shivpur Road, Pipaldhar, opposite St. जोसफ हॉस्टल, Sendhwa, Madhya Pradesh 451666, India",1619942292000,Private
+50,Barwani,-1,451551,Barwani,9926679088,49,0,Dr Hemant Barche,16,15,078696 17000,Sai Baba Jivan Dhara Hospital DCHC,2,-1,9,"Rajghat Road, Opposite Krishi Upaj Mandi, Barwani, Madhya Pradesh 451551, India",1619932069000,Private
+51,Betul,-1,460001,Betul,8122835535,34,23,dr. brijesh yadav,0,10,07141 230 309,HAMLAPUR CCC,0,-1,0,"Opposite Balaji Vihar, Gada Ghat Road, Agnihotri Colony, Betul, Madhya Pradesh 460001, India",1619929952000,Government
+52,Betul,-1,460330,Betul,7509868509,28,28,DR. PANKAJ BATHAM,0,2,070893 63572,BHIMPUR CCC,0,-1,2,"Bhimpur, Madhya Pradesh 460330, India",1619928232000,Government
+53,Indore,-1,453331,Indore,9425002630,28,6,DR. YOGESH PANDAGRE,4,11,081094 25288,SANJIVANI HOSPITAL,0,-1,0,"Ram Rahim Colony, Indore, Madhya Pradesh 453331, India",1619922758000,Private
+54,Betul,-1,460001,Betul,8109990237,0,0,DR. RAVI KADAM,5,9,093000 01224,LIFE CARE HOSPITAL,0,-1,0,"Life line Medical stores, Athner - Betul Rd, Bajpur, Betul, Madhya Pradesh 460001, India",1619929506000,Private
+55,Betul,-1,460001,Betul,7836903895,26,5,DR. GAJENDRA,0,8,"9425684628, 9424711333",SAHAPUR CCC,0,-1,0,"Kothi Bazar, Betul, Madhya Pradesh 460001, India",1619933185000,Government
+56,Betul,-1,460330,Betul,9424374232,26,19,DR RAJESH ATULKAR,0,4,07145 244 139,CHICHOLI CCC,0,-1,0,"Chicholi, Madhya Pradesh 460330, India",1619930142000,Government
+57,Betul,-1,460005,Betul,9425002131,42,2,DR. RAJIV CHOUDHREY,10,15,097545 18186,PADHAR HOSPITAL,0,-1,0,"Post - Padhar, Dist. Betul, Buzurg, Padhar, Madhya Pradesh 460005, India",1619929616000,Private
+58,Betul,-1,460001,Betul,9425002241,10,4,DR. NAMEETA LASKARE,8,13,07141 231 041,LASHKARE HOSPITAL,0,-1,0,"Civil lines, Ganj, Betul, Madhya Pradesh 460001, India",1619930907000,Private
+59,Betul,-1,460443,Betul,9826215165,26,9,DR SANJEEV SHARMA,0,10,"8319024344, 8871943727",GHODADONGRI CCC,0,-1,0,"Ghoradongri, Ghoda Dongri Ryt, Madhya Pradesh 460443, India",1619929859000,Government
+60,Betul,-1,460001,Betul,9977429722,0,0,DR. RAMESH KAKODIYA,6,14,"7909336271, 9479669468",KAKODIYA HOSPITAL,0,-1,0,"Itarsi Rd, Pratap Ward, Agnihotri Colony, Betul, Madhya Pradesh 460001, India",1619919574000,Private
+61,Betul,-1,,Betul,9009228331,8,8,DR.VNDANA KAPSE,0,12,"9009228331, 9009228331",KARUNA HOSPITAL,0,-1,1,,1619930993000,Private
+62,Betul,-1,460001,Betul,9425002915,0,0,Dr. Ashok Barnga,10,115,07141 261 753,DH - BETUL Warehouse (District Hospital Campus) DCHC Betul,0,-1,0,"Bharat Bharti, Jamthi, NH69, Bhopal road,, Betul, Madhya Pradesh 460001, India",1619944853000,Government
+63,Betul,-1,460001,Betul,9425002195,4,4,DR. ASHOK MULEY,0,11,", ",ASHIRWAD NURSHING HOME,0,-1,0,"New Shivaji Nagar, Betul, Madhya Pradesh 460001, India",1619924781000,Private
+64,Betul,-1,460001,Betul,9285406947,17,1,DR. ASHOK NARVARE,0,8,"9302638609, 9131033108",AMLA CCC,0,-1,1,"Betul, Housing Board Colony, Ganj, Badora, Madhya Pradesh 460001, India",1619930764000,Government
+65,Betul,-1,460001,Betul,8770015896,20,1,DR. LALIT SARLE,0,30,07141 234 522,S D HOSPITAL,0,-1,5,"New Baraskar Colony, Betul, Madhya Pradesh 460001, India",1619918927000,Private
+66,Betul,-1,460004,Betul,7999756883,30,19,DR PALLAV AMRATFULLE,0,31,093007 87332,MULTAI CCC,0,-1,15,"National Highway 19B, Balajipuram, Betul Bazar, Madhya Pradesh 460004, India",1619929877000,Government
+67,Betul,-1,460001,Betul,6261946574,24,14,DR. SUMIT PATTAYA,0,6,"9179406960, 6261946574",ATHNER CCC,0,-1,0,"SH 19B, Rojhada, Betul, Madhya Pradesh 460001, India",1619927110000,Government
+68,Betul,-1,17112,Betul,9407594802,30,3,DR.. ATRE,0,6,(717) 541-4960,PATTAN CCC,0,-1,0,"6340 Flank Dr, Harrisburg, PA 17112, USA",1619933783000,Government
+69,Betul,-1,460001,Betul,8208425640,10,10,DR. MAHENDRA SHINGH CHUHAN,18,18,"8208425640, 8208425640",CHAUHAN HOSPITAL,0,-1,8,"Unnamed Road, Housing Board Colony, Ganj, Betul, Madhya Pradesh 460001, India",1619931602000,Private
+70,Betul,-1,460001,Betul,7000979020,15,0,NUTAN VALLABH RATHI,10,15,"9179058111, 9425870424",SHRI GOVERDHAN CRITICAL CARE MATERNITY TRAUMA  CENTER AND MULTISPACIALITY HOSPITAL BETUL,0,-1,0,"Link Rd, Rojhada, Betul, Madhya Pradesh 460001, India",1619928704000,Private
+71,Betul,-1,460220,Betul,9981873800,27,19,DR ARUN ATAL,0,3,"6265120446, 6265120446",BHAISDEHI CCC,0,-1,0,"Bhainsdehi, Madhya Pradesh 460220, India",1619927325000,Government
+72,Betul,-1,460001,Betul,7000647113,40,30,DR. SANDEEP PAL,0,20,07141 261 753,OM AYURVEDIC,0,-1,0,"Bharat Bharti, Jamthi, NH69, Bhopal road,, Betul, Madhya Pradesh 460001, India",1619933761000,Government
+73,Betul,-1,460001,Betul,8839320052,15,7,DR. SURYA PATEL,5,5,"8080763233, 8767703064",VAISHNAVI HOSPITAL,0,-1,0,"SH 19B, Bajpur, Betul, Madhya Pradesh 460001, India",1619928433000,Private
+74,Betul,-1,,Betul,7389800320,0,0,DR. SHAILENDRA SAHU,0,28,", ",DISTRICT AYURVADIC HOSPITAL,0,-1,0,,1619931055000,Government
+75,Betul,-1,460001,Betul,7000261913,21,15,DR. UDAY TOMAR,0,4,"9425671955, 7869769977",SEHRA CCC,0,-1,0,"Betul, Housing Board Colony, Ganj, Badora, Madhya Pradesh 460001, India",1619928978000,Government
+76,Bhind,-1,,Bhind,9425122792,0,0,Dr Vineet Gupta,15,123,"8319647051, 7000442513",DH Bhind - DCHC,0,-1,2,,1619935428000,Government
+77,Bhind,-1,,Bhind,7987304487,60,51,DR SHARAD JAIN,0,0,"8120929321, 8319647051",DIVYANG PUNARVASH KENDR NIRASHRIT BHAWAN,0,-1,0,,1619935521000,Government
+78,Bhind,-1,,Bhind,7000603291,100,100,DR ARVIND SHARMA,0,0,"9039974606, 7000603291",GOV NO. 1 GIRLS HOSTEL,0,-1,0,,1619935599000,Government
+79,Bhopal,-1,,Bhopal,7974438271,6,0,YOGESH SHARMA,4,4,", ",DK'S HOSPITAL,0,-1,0,,1619945802000,Private
+80,Bhopal,-1,462016,Bhopal,8109090919,0,0,Mr Shreyash,20,20,0755 244 0008,NATIONAL HOSPITAL,0,-1,0,"Habibganj Rd, Opp Cricket Club, E-3, Arera Colony, Bhopal, Madhya Pradesh 462016, India",1619929801000,Private
+81,Bhopal,-1,462021,Bhopal,7987791339,0,0,DR. RASHMI JAIN,14,16,0755 491 0624,Swastik hospital bhopal,8,-1,7,"B-43 Patel Nagar, Raisen Road, Manak Vihar, Patel Nagar, Bhopal, Madhya Pradesh 462021, India",1619918897000,Private
+82,Bhopal,-1,462023,Bhopal,7000051700,6,2,Dr Deepak Chaturvedi,0,7,098273 73915,Divyanka Children Hospital,0,-1,2,"A-262,New Minal Residency,J.K Road Near Minal Gate, No -4, Ayodhya Bypass Rd, New Minal Residency, Minal Residency, Bhopal, Madhya Pradesh 462023, India",1619944413000,Private
+83,Bhopal,-1,462001,Bhopal,8889844423,10,0,Dr Bhupendra Shrivastav,40,50,094253 03790,LBS,0,-1,0,"Near Adarsh Hospital, Badabagh, Shahjahanabad, Bhopal, Madhya Pradesh 462001, India",1619946626000,Private
+84,Bhopal,-1,462016,Bhopal,9826078794,0,0,dr subodh vashneyi,20,10,0755 257 2666,Siddhanta red cross superspeciality,0,-1,0,"Red Cross Campus, Link Rd 1, Shivaji Nagar, Bhopal, Madhya Pradesh 462016, India",1619939612000,Private
+85,Bhopal,-1,462037,Bhopal,9691104376,0,0,Dr. Vipin Tiwari,6,4,"9039894706, 8319847227",Jeevandaan Multi Specialty Hospital,0,-1,1,"लाम्बाखेड़ा (B) | Lambakheda (B, Bhopal, Madhya Pradesh 462037, India",1619946015000,Private
+86,Bhopal,-1,465620,Bhopal,9893193090,2,0,Shri Ravi Kelkar,13,5,0755 425 1112,RAJDEEP Hospital,0,-1,0,"54, 55, Main Rd, near sant kutiya, Housing Board Colony, Bairagarh, Bhopal, Madhya Pradesh 465620, India",1619931521000,Private
+87,Bhopal,-1,,Bhopal,9826422010,0,0,Raja,7,18,"9826422010, 9826422010",Sarvottam Hospital,0,-1,0,,1619919372000,Private
+88,Bhopal,-1,,Bhopal,9893758044,7,0,Ayush Kumar Singh,14,16,"9893758044, 9893758044",CITI HOSPITAL MP NAGAR,0,-1,0,,1619940016000,Private
+89,Indore,-1,452010,Indore,9826837388,17,8,SHREE DILIP PAL,4,6,092292 65630,ASTHA HOSPITAL,0,-1,3,"Main Rd, Rajiv Awas Vihar, Part I, Scheme No 114, Indore, Madhya Pradesh 452010, India",1619937966000,Private
+90,Bhopal,-1,464993,Bhopal,7389938538,3,3,Durgesh Bhatnagar,6,20,"7389938539, 8319597283",Nirmal Prem MUlti H.,0,-1,3,"sahyog petrol pump,11mile tiraha, Hoshangabad Rd, Bhopal, Madhya Pradesh 464993, India",1619939943000,Private
+91,Bhopal,-1,462016,Bhopal,9424443774,4,0,Sister Prasanna,1,9,0755 400 3040,ASHA NIKETAN  HOSPITAL,0,-1,0,"E-6, Arera Colony, Bhopal, Madhya Pradesh 462016, India",1619941914000,Private
+92,Bhopal,-1,,Bhopal,7024832425,0,0,Ajay Joshi,5,11,"9926953574, 8878249458",Samadhan Hospital,0,-1,3,,1619917222000,Private
+93,Bhopal,-1,462039,Bhopal,7000338590,6,3,DR NILESH GAUTAM,5,0,"7000338590, 7000338590",BHAGVATI GAUTAM HOSPITAL,0,-1,0,"D K - 3/229 IPS COLONY, CHOURAHA, Danish Kunj, Kolar Rd, Bhopal, Madhya Pradesh 462039, India",1619938488000,Private
+94,Bhopal,-1,462016,Bhopal,9425004913,4,4,dr deepak chaturvedi,9,10,"9669453573, 9685637785",AKSHAY HOSPITAL,0,-1,0,"No.11, Link Road No.3, Rishi Nagar, opposite Ekant Park, Mannipuram, Char Imli, Bhopal, Madhya Pradesh 462016, India",1619942219000,Private
+95,Bhopal,-1,462026,Bhopal,9300003063,0,0,RUPALI MITRA,19,31,0755 400 7000,BHOPAL FRACTURE HOSPITAL,0,-1,0,"E-3, 10 28A, Link Rd Number 3, E-3, Arera Colony, Bhopal, Madhya Pradesh 462026, India",1619938648000,Private
+96,Bhopal,-1,462003,Bhopal,9981219215,0,0,ChandraMohan Pandey,2,7,094244 39418,R A Stone Surgical Care Hospital,0,-1,0,"7 Bhadbhada Road Kaatjnu Hospital Ary Samaj Market, Jawahar Chowk, North TT Nagar, TT Nagar, Bhopal, Madhya Pradesh 462003, India",1619943124000,Private
+97,Bhopal,-1,,Bhopal,8878666076,15,1,Animesh Mathur,15,10,"8878666076, 8878666076",Miracles Hospital,3,-1,0,,1619915738000,Private
+98,Bhopal,-1,462037,Bhopal,9074824431,3,3,DR JASWANT VISHWAKARMA,6,11,0755 427 7815,AYUSHMAN MULTICARE HOSPITAL BHANPUR,0,-1,10,"Bhanpur, Bhopal, Madhya Pradesh 462037, India",1619940852000,Private
+99,Bhopal,-1,462016,Bhopal,9630335335,142,9,DR Vinod Tiwari,14,84,0755 408 6000,"Bansal Hospital, Bhopal - DCH",0,-1,0,"Chuna Bhatti Rd, Manisha Market, Sector C, Shahpura, Bhopal, Madhya Pradesh 462016, India",1619938403000,Private
+100,Bhopal,-1,462036,Bhopal,9425006560,222,193,Dr Rajesh Kumar Jain,26,2,091091 14000,Mahaveer Institute of medical Science and  Research,0,-1,0,"Near RGPV, Opposite Central Jail, By Pass Road, Adjacent to IT Park, Abbas Nagar, Gandhi Nagar, Bhopal, Madhya Pradesh 462036, India",1619938887000,Private
+101,Bhopal,-1,462001,Bhopal,7554259977,0,0,Raja bhoj hospital,8,5,"7554259977, 7554259977",Rajabhoj Hospital,0,-1,0,"Bilgrami Complex, near madjid yakoob khan, Badabagh, Shahjahanabad, Bhopal, Madhya Pradesh 462001, India",1619939981000,Private
+102,Bhopal,-1,462016,Bhopal,8349920990,0,0,SWATI,2,4,0755 408 6000,RAMSAROJ  HOSPITAL,0,-1,1,"Chuna Bhatti Rd, Manisha Market, Sector C, Shahpura, Bhopal, Madhya Pradesh 462016, India",1619917977000,Private
+103,Bhopal,-1,462016,Bhopal,9806484719,150,52,MR VIVEK RAO,0,0,0755 246 4236,NARMADA CCC NAROHNA ACADEMY,0,-1,0,"Opp, Rcvp Noronha Rd, Shahpura Lake, Arera Colony, Bhopal, Madhya Pradesh 462016, India",1619916496000,Government
+104,Bhopal,-1,,Bhopal,8878286714,15,5,Dr. Narendra Tiwari,8,6,"7470303020, 7440962154",Arnav Hospital,0,-1,0,,1619946236000,Private
+105,Bhopal,-1,462016,Bhopal,9826066364,4,0,Dr. Pankaj Agrwal,9,7,0755 255 6669,Parul Hospital,0,-1,0,"HIG 2, Ankur Colony, Shivaji Nagar, Bhopal, Madhya Pradesh 462016, India",1619924366000,Private
+106,Bhopal,-1,462038,Bhopal,9669866279,70,67,Dr. Aarti Sharma,18,12,123456789,PBGM SUPERSPECILITY,16,-1,5,"Aradhana Nagar, Near Bhopal memorial Hopsital, BMHRC Campus, Karond, Bhopal, Madhya Pradesh 462038, India",1619940111000,Private
+107,Bhopal,-1,462008,Bhopal,9406955057,30,15,Akash Mishra,20,0,0755 400 3210,Chaudhary Hospital,0,-1,0,"Raisen Rd, behind Kartar Arcade, near Capital Petrol Pump, New Subhash Nagar, Gurunanak Pura, Ashoka Garden, Bhopal, Madhya Pradesh 462008, India",1619939548000,Private
+108,Bhopal,-1,,Bhopal,9893343904,2,1,Santosh Gautam,4,9,"9479638139, 7225803905",Srijan Hospital,0,-1,0,,1619931708000,Private
+109,Bhopal,-1,,Bhopal,7697207969,5,3,DR. MANOJ PANDEY,10,5,"8305559898, 9907010055",Vidhata Multispecialty Hospital,2,-1,0,,1619925730000,Private
+110,Bhopal,-1,462001,Bhopal,9993420548,5,5,Dr Akram Khan,8,23,099934 20548,GOODWILL HOSPITAL,0,-1,11,"77, near Police Station, Badabagh, Shahjahanabad, Bhopal, Madhya Pradesh 462001, India",1619945043000,Private
+111,Bhopal,-1,462031,Bhopal,8423860619,60,8,Dr. A.K Niranjan,2,20,0755 264 4984,MILITARY HOSPITAL,0,-1,0,"Bairagarh, Bhopal, Madhya Pradesh 462031, India",1619930489000,Government
+112,Bhopal,-1,462022,Bhopal,9039557645,16,12,Zaid Usmani,8,6,090390 02200,Nagpur Neuro & Trauma Hospital,0,-1,0,"F-58, Raisen Rd, Patel Nagar, Bhopal, Madhya Pradesh 462022, India",1619943703000,Private
+113,Bhopal,-1,462023,Bhopal,9074142260,6,0,Dr Fazal,6,6,095754 88614,Care Multi Speciality,0,-1,0,"80 Feet Rd, Mayur Vihar Colony, Ashoka Garden, Bhopal, Madhya Pradesh 462023, India",1619941496000,Private
+114,Bhopal,-1,462001,Bhopal,7554050707,120,64,GMC helpdesk,320,240,0755 254 0590,GMC Bhopal - DCH,0,-1,0,"Sultania Rd, near Hamidia Hospital, Royal Market, Medical College Campus, Kohefiza, Bhopal, Madhya Pradesh 462001, India",1619944931000,Government
+115,Bhopal,-1,462039,Bhopal,9893496644,10,0,Nishant Jain,12,18,0755 429 3344,Pushpanjali Superspecialty Hospital,0,-1,0,"Zone 13, Ward 52, Aakriti Eco City Rd, opposite of Shubhalaya Vihar, Bawadiya Kalan, Salaiya, Bhopal, Madhya Pradesh 462039, India",1619936508000,Private
+116,Bhopal,-1,,Bhopal,9691104376,4,2,DR. VIPIN TIWARI,4,4,"9691104376, 9691104376",D.H.R.C HOSPITAL,2,-1,2,,1619940194000,Private
+117,Bhopal,-1,462030,Bhopal,7999366790,5,0,DR  PS Chowbey,15,25,"9407825154, 9993419280",Carewell Multispeciality Hospital,0,-1,0,"22, Gufa Mandir Rd, near Nevri Mandir, Vitthal Nagar, Nayapura, Lalghati, Bhopal, Madhya Pradesh 462030, India",1619939294000,Private
+118,Bhopal,-1,462001,Bhopal,8839161356,0,0,Dr Saurabh Meghwani,13,17,0755 404 6401,Apex Hospital,0,-1,0,"117Shindi colony, Berasia Rd, Rusalli, Karond, Bhopal, Madhya Pradesh 462001, India",1619945862000,Private
+119,Bhopal,-1,462026,Bhopal,9479955788,5,3,Dr Sandeep Gupta,5,10,0755 241 7888,Deepshikha Multispecialty Hospital,0,-1,0,"Hoshangabad Rd, Vidya Nagar, Bhopal, Madhya Pradesh 462026, India",1619944109000,Private
+120,Bhopal,-1,462043,Bhopal,7067919843,0,0,SACHIN G CHOUKSEY,3,7,0755 244 6809,DULAR  HOSPITAL,0,-1,2,"A11, Surendra Garden, Police Station, Hoshangabad Rd, near Bagsewaniya, Surendra Garden, Bagmugaliya, Bhopal, Madhya Pradesh 462043, India",1619926931000,Private
+121,Bhopal,-1,462016,Bhopal,8463891433,10,4,Dr virendra saini,7,3,"8463891433, 8463891433",Ayushmaan Bharat Hospital,0,-1,0,"Shivaji Nagar, Bhopal, Madhya Pradesh 462016, India",1619927292000,Private
+122,Bhopal,-1,462038,Bhopal,9753084879,12,6,DR. ANIL AGHAY,5,11,098935 65702,SAI HOSPITAL & TRAUMA CENTRE,0,-1,5,"Karond Bypass Rd, near Vyanjan Hotel, Bhanpur, Bhopal, Madhya Pradesh 462038, India",1619917031000,Private
+123,Bhopal,-1,462001,Bhopal,9893838789,0,0,Amit Dixit,6,3,0755 275 5051,R R HOSPITAL,0,-1,0,"80 Feet Rd, Near petrol pump, Pushpa Nagar, Bhopal, Madhya Pradesh 462001, India",1619941045000,Private
+124,Bhopal,-1,462038,Bhopal,9179157663,21,18,Ritu Pandey,10,6,"9300737688, 9300737688",KAROND MULTI SPECIALTY HOSPITAL,0,-1,3,"Main Road, near Post Office, Radha Krishna Colony, Karond, Bhopal, Madhya Pradesh 462038, India",1619946131000,Private
+125,Bhopal,-1,,Bhopal,9399319037,15,15,Dr. Subhash Richariya,6,9,"9630219065, 7909684743",Vaishno Hospital,1,-1,2,,1619918712000,Private
+126,Bhopal,-1,462030,Bhopal,9425010240,3,3,RAJESH  Katiyar,0,17,0755 266 5328,TRIPTI MULTI SPECIALTY & TRAUMA CENTRE,0,-1,1,"Tripti Hospital, Gufa Mandir Road, Lalghati Chauraha, Lalghati Square, Kollu Kheri, Lalghati, Bhopal, Madhya Pradesh 462030, India",1619917938000,Private
+127,Bhopal,-1,462001,Bhopal,8120401607,17,0,Ravi Saxena,14,19,"8120401607, 8120401607",Chirag Children Hospital,0,-1,0,"Plot No. 11, Sant Kanwar Ram Nagar, Berasia Rd, D-Sector, Firdous Nagar, Bhopal, Madhya Pradesh 462001, India",1619940792000,Private
+128,Bhopal,-1,462022,Bhopal,9826838064,0,0,Rajesh Maithil,13,6,078284 44405,Rudransh Multi Speacility Hospital,0,-1,0,"F-4, Raisen Rd, Patel Nagar, Bhopal, Madhya Pradesh 462022, India",1619943469000,Private
+129,Bhopal,-1,462003,Bhopal,9109101823,0,0,Vijaya Saxena,20,20,091091 01823,Smart City Hospital,0,-1,0,"Near Depot Square, Bharat Scout& Guide Building, Shyamla Hills Rd, Banganga Slums, North TT Nagar, TT Nagar, Bhopal, Madhya Pradesh 462003, India",1619942128000,Private
+130,Bhopal,-1,462001,Bhopal,7089893725,16,0,Shubham Singh Rajput,14,20,081204 01607,Green City Hospital,0,-1,0,"Berasia Rd, Firdous Nagar, Bhopal, Madhya Pradesh 462001, India",1619945159000,Private
+131,Bhopal,-1,462038,Bhopal,9644683746,5,0,Madhulika Saxena,2,0,"9644683746, 9644683746",NAVJEEVAN,0,-1,0,"Navjeevan Colony, Bhanpur, Bhopal, Madhya Pradesh 462038, India",1619936876000,Private
+132,Bhopal,-1,462030,Bhopal,7470898928,3,2,Mr Neelesh warathe,7,3,0755 355 1148,BHOPAL MULTISPECIALITY HOSPITAL,5,-1,2,"Indra Vihar Colony, Tilak Nagar, Lalghati, Bhopal, Madhya Pradesh 462030, India",1619944262000,Private
+133,Bhopal,-1,462030,Bhopal,7987866579,2,0,Ashish Paliwal,8,0,098262 47096,Central Hospital,0,-1,0,"Indira Vihar, B-123, Airport Rd, Tilak Society, Tilak Nagar, Lalghati, Bhopal, Madhya Pradesh 462030, India",1619939429000,Private
+134,Bhopal,-1,462016,Bhopal,9993370611,6,0,Shri DILIP,8,26,0755 404 0000,Narmada Trauma Centre,0,-1,0,"E3/23, E-3, Arera Colony, Bhopal, Madhya Pradesh 462016, India",1619928951000,Private
+135,Bhopal,-1,462023,Bhopal,9926333173,8,0,Ram kumar Deshmukh,8,0,"7554920111, 9926333173",PRABHATSHRI HOSPITAL,0,-1,0,"C-9, Padmanabh Nagar, Ashoka Garden Road, PO, opposite Royal Enfield Showroom, Arun Nagar, New Subhash Nagar, Old Subhash Nagar Colony, Govindpura, Bhopal, Madhya Pradesh 462023, India",1619942972000,Private
+136,Bhopal,-1,462030,Bhopal,9993366621,200,0,Dr. Mangalgiri,200,700,0755 270 9100,Chirayu Medical College,0,-1,0,"Bhopal-Indore Highway Bhainsakhedi, Bairagarh, Bhopal, Madhya Pradesh 462030, India",1619939956000,Private
+137,Bhopal,-1,462022,Bhopal,7049855446,10,1,Dr. Tarun,2,8,"9893128652, 9589895775",APPLE  CHILDREN HOSPITAL,0,-1,0,"Bhawani Dham, Narela, Chhatrapati Nagar, Narela Shankri, Ayodhya Nagar, Bhopal, Madhya Pradesh 462022, India",1619943070000,Private
+138,Bhopal,-1,462001,Bhopal,9425020443,6,0,Dr Athar,0,6,0755 273 1936,SILVER LINE,0,-1,0,"Old Taj Market, 80, Taj-ul-Masjid Rd, Motia Talab, Kali Basti, Peer Gate Area, Bhopal, Madhya Pradesh 462001, India",1619929660000,Private
+139,Bhopal,-1,462024,Bhopal,8839888784,0,0,Akhilesh,8,22,"7049684884, 8819011826",Lotus Hospital,0,-1,7,"No. 03 312, AIIMS Gate, 2 B Saket Nagar, Saket Nagar, Habib Ganj, Bhopal, Madhya Pradesh 462024, India",1619914792000,Private
+140,Bhopal,-1,,Bhopal,7611148888,0,0,Madan,0,25,"9111666100, 9111666100",Mansarovar Ayurvedic Medical College,0,-1,0,,1619915388000,Private
+141,Bhopal,-1,462022,Bhopal,9425437782,10,0,DR G R ADLAK,4,10,0755 275 9622,GAYTRI MULTI SPECIALITY HOSPITAL,0,-1,0,"68, Bhopal Bypass Rd, Bijli Colony, Anandnagar, Bhopal, Madhya Pradesh 462022, India",1619944765000,Private
+142,Bhopal,-1,462038,Bhopal,9340601569,0,0,Dr. DEEPAK,0,6,093406 01569,Promise Children and General Hospital,0,-1,0,"plot no. 8, fiza colony, Berasia Rd, infront of Triveni Heights, Housing Board Colony, Viswakarma Nagar, Karond, Bhopal, Madhya Pradesh 462038, India",1619942283000,Private
+143,Bhopal,-1,462021,Bhopal,9826059857,3,0,DR SANJAY GUPTA,12,18,0755 275 9857,ARADHNA MATERNITY & KIDNEY,0,-1,0,"M-31 Main Road Infront of Petrol Pump, Sector A, Piplani, Sonagiri, Bhopal, Madhya Pradesh 462021, India",1619937151000,Private
+144,Bhopal,-1,462001,Bhopal,9755007592,3,2,DR. MANOJ,7,0,070204 00692,MUSKAN CHILDREN & GENERAL HOSPITAL,1,-1,0,"H No 147, Green Park Colony, Main Road, Dig Bunglow, Berasia Rd, opposite Hero Showroom, DIG Bunglow, Green Park Colony, Jamalpura, Bhopal, Madhya Pradesh 462001, India",1619939527000,Private
+145,Bhopal,-1,462003,Bhopal,9827229113,260,220,DR ANJU GUPTA,0,0,0755 277 0047,AYUSH CCC,0,-1,0,"No.12, Gomantika Parisar, 3rd Floor, Bhadbhada Road, North TT Nagar, TT Nagar, Bhopal, Madhya Pradesh 462003, India",1619942507000,Government
+146,Bhopal,-1,462022,Bhopal,7000390678,5,0,DEEPAK KATIYAR,14,6,092854 31559,HOPE SS HOSPITAL,8,-1,4,"1, Ayodhya Bypass Rd, Mohan Nagar, Prakash Nagar, Mamta Nagar, Bhopal, Madhya Pradesh 462022, India",1619945354000,Private
+147,Bhopal,-1,462016,Bhopal,8305478739,8,0,Dinesh Arya,16,6,"8305478739, 8305478739",Indian Red Cross Society Hospital,0,-1,0,"MP State Branch Red Cross Bhawan, Shivaji Nagar, Bhopal, Madhya Pradesh 462016, India",1619945468000,Private
+148,Bhopal,-1,462038,Bhopal,9826823813,10,7,Ritesh purohit,3,22,0755 274 8309,BMHRC,0,-1,0,"Bhopal Bypass Rd, Bhopal, Madhya Pradesh 462038, India",1619942824000,Government
+149,Bhopal,-1,462001,Bhopal,9425017148,0,0,Deepak Lakhani,16,18,098272 04548,Bhopal Care Hospital,0,-1,0,"86, Motia Talab Rd, in front of Tajul Masjid, Royal Market, area, Kohefiza, Bhopal, Madhya Pradesh 462001, India",1619938594000,Private
+150,Bhopal,-1,462010,Bhopal,6263109171,10,0,Adarsh thakur,9,5,"9340077180, 9174884411",Aadhar hospital,1,-1,0,"Radha Krishna Colony, Karond, Bhopal, Madhya Pradesh 462010, India",1619942333000,Private
+151,Bhopal,-1,462016,Bhopal,7552446139,2,0,Mrs Unnati,3,15,0755 244 6139,ATAL MEMORIAL CANCER CARE HOSPITAL,1,-1,1,"332, E-7, Arera Colony, Bhopal, Madhya Pradesh 462016, India",1619938017000,Private
+152,Bhopal,-1,462016,Bhopal,9630092300,130,0,DR. A. K. CHOUDHARY,50,300,"9993044490, 7999545568",LN JK HOSPITAL,0,-1,0,"Indus Empire, Shahpura, Shirdipuram, Kolar Rd, Bhopal, Madhya Pradesh 462016, India",1619920557000,Private
+153,Bhopal,-1,,Bhopal,9434037373,33,21,DR. MAHESHWARI BHAGAT,2,15,"9434037373, 9434037373",COMPOSITE HOSPITAL BANGRASIYA,0,-1,0,,1619940102000,Government
+154,Bhopal,-1,462001,Bhopal,9993420834,10,0,Akeel Khan,30,20,0480 624 2505,ABM Hospital,0,-1,0,"Thelay wali sadak, Kohefiza, Bhopal, Madhya Pradesh 462001, India",1619943195000,Private
+155,Bhopal,-1,462011,Bhopal,9826525929,0,0,Dr Shagufta,10,30,0755 420 9993,NAVODAYA_COVID_CENTRE,0,-1,0,"41, near The Hotel OASIS, Zone-II, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011, India",1619940888000,Private
+156,Bhopal,-1,,Bhopal,9826099168,9,5,Om Verma,4,0,"9229772290, 8871732096",Balaji Children Hospital,0,-1,0,,1619938351000,Private
+157,Bhopal,-1,462016,Bhopal,8519068275,3,0,R neekanth,0,9,084628 22222,Jainamshree Multispeciality Hospital,0,-1,0,"E5, 47, near Bagheera apartment, E-5, Arera Colony, Bhopal, Madhya Pradesh 462016, India",1619945651000,Private
+158,Bhopal,-1,462003,Bhopal,9424400220,17,9,Mr. Udya Dixit,13,20,0755 276 4407,Peoples General Hospital Pvt. Ltd.,0,-1,4,"opposite Rajbhavan Road, Malviya Nagar, Bhopal, Madhya Pradesh 462003, India",1619924609000,Private
+159,Bhopal,-1,462042,Bhopal,8109676820,16,16,DR.SATYANARAYAN SHUKLA,6,3,087704 44519,MAHAVEER MULTISPECIALITY HOSPITAL,2,-1,1,"H-31, Rajved Colony, Rajharsh Colony, Kolar Rd, Bhopal, Madhya Pradesh 462042, India",1619939569000,Private
+160,Bhopal,-1,,Bhopal,9818921400,160,157,Dr. Razil Akhtar,0,0,"9915942553, 8349673350",3 EME Center CCC,0,-1,0,,1619926778000,Government
+161,Bhopal,-1,462001,Bhopal,9111026956,2,2,DR Satyendra Pathak,10,10,"7898303567, 9111026956",CVS Apollo Hospital,0,-1,3,"Murli Nagar, Karond, Bhopal, Madhya Pradesh 462001, India",1619940146000,Private
+162,Bhopal,-1,,Bhopal,8851414166,500,491,DR. ANUPAM MISHRA,0,0,", ",SAGAR GROUP OF INSTITUTION(SISTEC),0,-1,0,,1619918315000,Government
+163,Bhopal,-1,,Bhopal,8871755464,5,5,J.P Pandey,7,3,"9179123498, 9179123498",Deep Shree Hospital,7,-1,3,,1619943930000,Private
+164,Bhopal,-1,462023,Bhopal,9977683553,120,75,Jitendra Verma,12,30,0755 248 8090,Career Institute of Medical Sciences Bhopal,0,-1,0,"Opp to Dussehra ground, Eastern Rd of BHEL, Sector A, Govindpura, Bhopal, Madhya Pradesh 462023, India",1619939882000,Private
+165,Bhopal,-1,462042,Bhopal,9926508034,4,1,DR RAMKISHAN YADAV,6,3,0755 241 4550,V CARE CHILDREN HOSPITL,0,-1,1,"D K 2, 412, 24, Kolar Rd, Near Mpeb Office, Danish Kunj, Kolar Rd, Bhopal, Madhya Pradesh 462042, India",1619938083000,Private
+166,Bhopal,-1,462039,Bhopal,9009992737,0,0,DR RAJIV DALELA,3,12,090099 92737,JANKI HOSPITAL,0,-1,0,"Plot no 469 Phase, 1, Raghunath Nagar, Rohit Nagar, Bawadiya Kalan, Gulmohar Colony, Bhopal, Madhya Pradesh 462039, India",1619945815000,Private
+167,Bhopal,-1,462047,Bhopal,7879757669,10,0,ATUL CHODHARY,23,7,"9826419790, 9826419790",NIRAMAYA,0,-1,0,"Plot no. 1,2, Rajeshwar Complex, main, Hoshangabad Rd, near IPS School, Misrod, Bhopal, Madhya Pradesh 462047, India",1619939772000,Private
+168,Bhopal,-1,462003,Bhopal,8120030250,0,0,Kushagra Khiwani,5,3,0755 423 2463,A K Hospital,0,-1,0,"7th Block, Sanjay Complex, Main Road 2,, Mata Mandir,, Aradhana Nagar, Bhopal, Madhya Pradesh 462003, India",1619940215000,Private
+169,Bhopal,-1,462043,Bhopal,9981057127,4,4,Dr Narendra pal,13,13,"9981057127, 9981057127",MOUNT HOSPITAL,0,-1,0,"Bagmugaliya, Bhopal, Madhya Pradesh 462043, India",1619941223000,Private
+170,Bhopal,-1,462024,Bhopal,9425009911,0,0,Dr j.p. Paliwal,20,40,094250 09933,PALIWAL,0,-1,0,"Plot No. 26-27 ISBT Commercial Campus, Hoshangabad Rd, Habib Ganj, Bhopal, Madhya Pradesh 462024, India",1619922918000,Private
+171,Bhopal,-1,462042,Bhopal,9131898152,0,0,dR YASHWANT,100,450,097550 80808,LN MEDICAL COLLEGE (CONTRACT),0,-1,0,"J.K. Town Kolar Road Sector, Sarvadharam C Sector, Shirdipuram, Kolar Rd, Bhopal, Madhya Pradesh 462042, India",1619945146000,Government
+172,Bhopal,-1,462038,Bhopal,9752432582,8,8,AAROGYA RECEPTION,22,8,"9752432582, 9752432582",AAROGYA NIDHI HOSPITAL,3,-1,2,"plot no 10 sharda nagar, lambakheda, Berasia Rd, Bhopal, Madhya Pradesh 462038, India",1619942775000,Private
+173,Bhopal,-1,,Bhopal,9827204656,0,0,DR RAJIV SHARDA,4,8,", ",SHARDA HOSPITAL & DIAGNOSTIC CENTRE,0,-1,0,,1619940036000,Private
+174,Bhopal,-1,462001,Bhopal,9425004150,18,5,Dr Rakesh Shrivastava,16,86,0755 255 6812,DH - BHOPAL J. P. Hospital,0,-1,1,"1250, Link Road No.2 Tulsi Nagar, Shivaji Nagar, Bhopal, Madhya Pradesh 462001, India",1619944249000,Government
+175,Bhopal,-1,,Bhopal,8889991136,1,0,AKASH,3,3,"9755189137, 9755189137",SHUBH HOSPITAL,0,-1,0,,1619941716000,Private
+176,Bhopal,-1,462026,Bhopal,9425022297,9,0,Dr Piyush Vyas,5,5,0755 427 0008,SAHARA Hospital,0,-1,0,"near Water Tank, Vidya Nagar, Bhopal, Madhya Pradesh 462026, India",1619939807000,Private
+177,Bhopal,-1,,Bhopal,8989872904,24,0,Kanhaiya Kumar,13,13,", ",Citi Multispecialty Hospital,0,-1,0,,1619941803000,Private
+178,Bhopal,-1,462016,Bhopal,9425606598,3,1,ANKIT SHARMA,8,11,094256 06598,Arera Trauma & Critical Care Hospital,1,-1,1,"240, E-3, E-3, Arera Colony, Bhopal, Madhya Pradesh 462016, India",1619942169000,Private
+179,Ratlam,-1,457001,Ratlam,8305102787,0,0,BHAVISHYA RATHORE,4,46,"8305102787, 8305102787",RAILWAY HOSPITAL,0,-1,0,"M.P.E.B Colony, Ratlam, Madhya Pradesh 457001, India",1619942886000,Government
+180,Bhopal,-1,462039,Bhopal,7999623457,6,0,DR ROHIT,12,12,"7999623457, 7999623457",NEW ERA SUPERSPECIALITY,0,-1,0,"Near Bank of Baroda, India Post, colony, Fortune Pride, Trilanga, Bhopal, Madhya Pradesh 462039, India",1619917289000,Private
+181,Bhopal,-1,462020,Bhopal,7675033335,0,0,Dr. Lakshmi Prasad,200,300,0755 298 2607,All India Institute of Medical Sciences,0,-1,0,"Saket Nagar, AIIMS Campus, Saket Nagar, Bagh Swaniya, Bhopal, Madhya Pradesh 462020, India",1619935720000,Government
+182,Bhopal,-1,462022,Bhopal,9713521930,10,6,Pooja,25,50,0755 426 2151,ANANTSHREE HOSPITAL,0,-1,0,"39 Gate, No-1, 40, Raisen Rd, canara bank Sector A, Shaheed Bhagat Singh Market, Indrapuri A sector, Sector A, Indrapuri, Bhopal, Madhya Pradesh 462022, India",1619946591000,Private
+183,Bhopal,-1,462032,Bhopal,7000904634,8,5,Amit Wankhede,4,4,094251 49633,Maheshwari Hospital,0,-1,0,"Shop No:7, Gufa Mandir Rd, Om Shiv Nagar, Om Shiv Colony, Lalghati, Bhopal, Madhya Pradesh 462032, India",1619924123000,Private
+184,Bhopal,-1,462023,Bhopal,7089203006,10,0,ROSHAN BHATNAGAR,4,16,0755 426 1002,ROSHAN Hospital,0,-1,0,"7, A-B, Raisen Rd, Govind Garden, Govindpura, Bhopal, Madhya Pradesh 462023, India",1619942709000,Private
+185,Bhopal,-1,462001,Bhopal,9977999146,10,0,Dr Chaturvedi,0,18,0755 266 5720,JAWAHARLAL Nehru Cancer  Hospital,0,-1,0,"P.B, No. 32, Cancer Hospital Rd, Idgah Hills, Bhopal, Madhya Pradesh 462001, India",1619945094000,Private
+186,Bhopal,-1,462008,Bhopal,9826075272,4,0,Mr. ANil Bhargava,6,23,0755 257 4158,CHARAK HOSPITAL AND RESEARCH CENTRE A UNIT OF MRITYUNJAY HEALTH CARE PVT LTD,0,-1,0,"Jahangirabad Square, Pratap Nagar, Jahangirabad, Bhopal, Madhya Pradesh 462008, India",1619943027000,Private
+187,Bhopal,-1,462023,Bhopal,8889678633,24,7,Dr RS Roy,6,5,088896 78633,Om Hospital,0,-1,0,"R.K Plaza C-39, near Prabhat Petrol Pump, New Subhash Nagar, Padmanabh Nagar, Govindpura, Bhopal, Madhya Pradesh 462023, India",1619941545000,Private
+188,Bhopal,-1,,Bhopal,9131479780,8,0,Hridesh Mewada,4,8,"9131479780, 7552642960",Kishnani Hospital,0,-1,0,,1619946439000,Private
+189,Bhopal,-1,462039,Bhopal,9926370527,16,10,Sachin Malviya,6,18,"9926370527, 9926370527",Nirvana Multispecialty Hospital,3,-1,0,"E-8/106/23 NAVEEN, Sivoy, Door Sanchar Colony, GULMOHAR, Bhopal, Madhya Pradesh 462039, India",1619938809000,Private
+190,Bhopal,-1,462026,Bhopal,9039002945,0,0,Mahesh MV,6,39,0755 248 8008,Noble Multispecilaity Hospital,0,-1,0,"PlOt no. , 269/1, Police Station, Hoshangabad Rd, opp. Misrod, Misrod, Bhopal, Madhya Pradesh 462026, India",1619941753000,Private
+191,Bhopal,-1,462022,Bhopal,9893368702,2,0,Dr swapnil paliwal,3,3,086020 24879,Sakshi Hospital,0,-1,0,"127 Druga Chowk, Samanvay Nagar, Awadhpuri, Bhopal, Madhya Pradesh 462022, India",1619917122000,Private
+192,Bhopal,-1,462026,Bhopal,7692940261,0,0,Ruchi Chaubey,45,180,0755 671 0300,RKDF Medical College Hospital & Research Centre(CONTRACT),0,-1,16,"NH-12, Behind Vrindavan Garden, Hoshangabad Road, Jatkhedi, Ruchi Lifescape, Jatkhedi, Bhopal, Madhya Pradesh 462026, India",1619941847000,Government
+193,Bhopal,-1,,Bhopal,8305102787,290,273,COVID CONTROL RAILWAY,0,0,"8305102787, 8305102787",RAILWAY COACHES AT BHOPAL RAILWAY,0,-1,0,,1619917658000,Government
+194,Bhopal,-1,,Bhopal,7999794626,2,0,Susheel Sharma,4,6,"8109998999, 9826663511",Vedanta Fracture and General Hospital,0,-1,2,,1619918636000,Private
+195,Bhopal,-1,462037,Bhopal,7773010325,0,0,Peoples Helpdesk,60,240,0755 400 5110,People Medical College (Contract),0,-1,8,"Karond Bypass Rd, Peoples Campus, Bhanpur, Bhopal, Madhya Pradesh 462037, India",1619939465000,Government
+196,Bhopal,-1,462022,Bhopal,8223994296,2,2,PANKAJ SHARMA,4,20,"8223994296, 8223994296",NEURON TRAMA CENTER & MULTISPECIALITY HOSPITAL,0,-1,1,"Service Rd, Sector B, Indrapuri, Bhopal, Madhya Pradesh 462022, India",1619917171000,Private
+197,Bhopal,-1,,Bhopal,7389441528,15,2,ARJUN SINGH,0,0,"7987422997, 9827299178",VIDHYA VIHAR CCC,0,-1,0,,1619936051000,Government
+198,Bhopal,-1,462001,Bhopal,9425010770,4,3,AK JAISWAL,6,4,086020 24389,MAYO HOSPITAL,0,-1,1,"SBI Chouraha, Sultania Rd, opp. S.B.I, S B I Bank Square, Shahid Nagar Colony, Kohefiza, Bhopal, Madhya Pradesh 462001, India",1619915510000,Private
+199,Bhopal,-1,462016,Bhopal,9826426470,0,0,Dr Kapil Lahoti,30,0,0755 409 4306,Lahoti Hospital & Research Center,7,-1,0,"Bharat Nagar Road, Sector No.14, Opposite Sterling Apartment, Sector A, Shahpura, Bhopal, Madhya Pradesh 462016, India",1619941985000,Private
+200,Bhopal,-1,,Bhopal,9993177199,20,19,Ramit Chaddha,0,10,"9039292202, 9039292202",Arihant Kidney and Multispecialty Hospital,0,-1,0,,1619937656000,Private
+201,Bhopal,-1,462024,Bhopal,9406906777,50,10,DR V VINOD KUMAR,14,40,0755 250 2929,Kasturba Hospital,0,-1,0,"Kasturba Market, BHEL, Habib Ganj, opposite Habibganj Station, N-2, Habib Ganj, Bhopal, Madhya Pradesh 462024, India",1619946316000,Government
+202,Bhopal,-1,462023,Bhopal,9893373338,10,8,MR. RISHI MEHTA,6,2,"9893373338, 9893373338",MONA MULTISPECIALITY HOSPITAL,2,-1,0,"Mona Hospital, Punjabi Bagh, Shanshah Garden, Bhopal, Madhya Pradesh 462023, India",1619915875000,Private
+203,Burhanpur,-1,450331,Burhanpur,7879515238,0,0,RAJESH SOLANKI,3,5,"7879515238, 7879515238",Sakshhat hospital,0,-1,2,"Sanjay Nagar, Burhanpur, Madhya Pradesh 450331, India",1619927491000,Private
+204,Burhanpur,-1,450331,Burhanpur,9827216222,6,6,DR G K JAIN,4,15,073252 41724,NIMAD HOSPITAL AND RESERCH CENTER,0,-1,5,"Amravat, Balaji Nagar, Burhanpur, Madhya Pradesh 450331, India",1619925829000,Private
+205,Burhanpur,-1,450331,Burhanpur,9926066888,0,0,Dr. sumit Borale,30,100,076977 44444,All is well Private Hospital,0,-1,0,"Macro Vision Academy, Near, Mohammadpura, Madhya Pradesh 450331, India",1619930617000,Private
+206,Burhanpur,-1,450331,Burhanpur,8770175590,0,0,Dr Rajesh Solanki,10,60,"8770175590, 8770175590",DH Burhanpur - DCHC-(DCHC - District Hospital),0,-1,14,"Badarpur Road, Guru Govind Singh Colony, Burhanpur, Madhya Pradesh 450331, India",1619919708000,Government
+207,Burhanpur,-1,450331,Burhanpur,9425085620,10,2,DR.ANIL JAIN,0,30,070891 11234,APPLE PRIEVATE HOSPITAL,0,-1,1,"Govind Puram Colony, behind collector office, Burhanpur, Madhya Pradesh 450331, India",1619929524000,Private
+208,Burhanpur,-1,450331,Burhanpur,9975374440,0,0,Dr.Sujay chouksey,17,3,"9975374440, 9975374440",KRISHANA LIFE CARE HOSPITAL BURHANPUR,0,-1,0,"Renuka Mata Mandir road, near shikarpura police station, in front of Gayatri mandir, Balaji Nagar, Burhanpur, Madhya Pradesh 450331, India",1619927860000,Private
+209,Burhanpur,-1,450331,Burhanpur,8602802744,0,0,Dr.S.choudhary,5,5,"9179926606, 9179926606",ICON HOSPITAL BURHANPUR,0,-1,0,"Sanjay Nagar, Burhanpur, Madhya Pradesh 450331, India",1619931939000,Private
+210,Burhanpur,-1,450331,Burhanpur,8770288387,50,37,Dr Gaurav Thawani,0,0,093025 11111,ANMTC Burhanpur-(CCC - Hostel),0,-1,0,"Renuka Mata Rd, behind Polytechnic College, Burhanpur, Madhya Pradesh 450331, India",1619919811000,Government
+211,Chhatarpur,-1,471001,Chhatarpur,9981316909,129,32,DR ARVIND SINGH,12,91,"9981316909, 9981316909",DH Chhatarpur - DCHC,0,-1,0,"Mahal Rd, Naya Mohalla, Chhatarpur, Madhya Pradesh 471001, India",1619924675000,Government
+212,Chhatarpur,-1,,Chhatarpur,9424345745,50,40,Dr Pankaj Rastogi,0,0,", ",Shree balaji dharamshala khajuraho,0,-1,0,,1619916048000,Government
+213,Chhatarpur,-1,,Chhatarpur,8518883786,3,0,DR RAIES KHAN,2,13,"8518883786, 8518883786",NARMADA APNA HOSPITAL,0,-1,0,,1619936543000,Private
+214,Chhatarpur,-1,,Chhatarpur,9752180341,8,8,Dr C P Yadav,0,0,", ",Dhadari  CCC,0,-1,0,,1619916126000,Government
+215,Chhatarpur,-1,471001,Chhatarpur,7000125360,75,61,Dr Maharishi Ojha,0,5,"7000125360, 7000125360",Government Boys Hostel,0,-1,1,"Unnamed Road, Vishno Nagar, Chhatarpur, Madhya Pradesh 471001, India",1619915554000,Government
+216,Chhatarpur,-1,,Chhatarpur,9654457178,150,150,Dr Maharashi Ojha,0,0,", ",Government Boys  Hostel Goraiyaa road chhatarpur,0,-1,0,,1619915745000,Government
+217,Chhatarpur,-1,,Chhatarpur,9584332020,44,36,Dr Ravindra Patel,0,6,"9584332020, 9584332020",Extension Training Center Nowgong,0,-1,6,,1619927784000,Government
+218,Chhatarpur,-1,,Chhatarpur,9752513900,50,50,Dr Hemant Mariyya,0,0,", ",Girls Hostel Badamalehra,0,-1,0,,1619915972000,Government
+219,Chhatarpur,-1,,Chhatarpur,8224892498,50,44,Dr Manoj Pal,0,0,", ",Boys Hostel Bijawar,0,-1,0,,1619916368000,Government
+220,Chhatarpur,-1,,Chhatarpur,8889459230,50,47,DR Lalit Upadhyay,0,0,", ",Jaitpura Girls Hostel Buxwaha,0,-1,0,,1619915895000,Government
+221,Chhatarpur,-1,471001,Chhatarpur,9140086814,19,5,Dr Tony Vikas Vishwas,1,30,"9479467979, 9424692046",Mission Hospital,0,-1,0,"NH86A, Vishwanath Colony, Chhatarpur, Madhya Pradesh 471001, India",1619926532000,Private
+222,Chhatarpur,-1,,Chhatarpur,9977624948,50,44,Dr R S Prajapati,0,0,", ",Kasturba Gandhi Girls Hostel Gourihar,0,-1,0,,1619915821000,Government
+223,Chhatarpur,-1,,Chhatarpur,9893091162,50,37,DR S P SHAKYWAR,0,0,", ",Government Boys Hostel Lavkush nagar,0,-1,0,,1619929891000,Government
+224,Chhindwara,-1,480001,Chhindwara,7987757285,10,1,Dr.Pankaj Butda,5,20,"7987757285, 7987757285",Balaji Hospital,2,-1,3,"Unnamed Road, South Civil Lines, Sanchar Colony, Chhindwara, Madhya Pradesh 480001, India",1619917774000,Private
+225,Chhindwara,-1,,Chhindwara,7694019999,0,0,DR. KANHA AGARWAL,9,51,"7694019999, 7694019999",Anand Hospital,0,-1,3,,1619917530000,Private
+226,Chhindwara,-1,480001,Chhindwara,9425896311,40,11,Dr R R Singh,0,0,"9425896321, 9752383786",WCL Hospital -JUNNARDEO,0,-1,0,"Teacher's Colony, Chhindwara, Madhya Pradesh 480001, India",1619918515000,Government
+227,Chhindwara,-1,480001,Chhindwara,9406533632,0,0,Dr. Bhupendra Jain,90,305,"9406533632, 9406533632","CIMS , GMC Chhindwara - DCH",10,-1,30,"Mandhata, Shivam Sundaram Colony, Chhindwara, Madhya Pradesh 480001, India",1619917267000,Government
+228,Chhindwara,-1,480001,Chhindwara,7052344422,7,2,Dr.Swapnil Jain,5,10,091090 66916,Sonare Hospital,2,-1,1,"NH19, Chandangaon, Chhindwara, Madhya Pradesh 480001, India",1619917862000,Private
+229,Chhindwara,-1,,Chhindwara,8839295154,30,26,Dr Swarna Suryawanshi,0,0,"7999040507, 8602389967",Primary Health Center Singodi Block Amarawara,0,-1,0,,1619918565000,Government
+230,Chhindwara,-1,480106,Chhindwara,9300284785,75,40,Dr N K Shashti,0,0,"9424325517, 7974703198",Civil Hospital Sausar,0,-1,0,"Kadhiya No.1, Madhya Pradesh 480106, India",1619918335000,Government
+231,Chhindwara,-1,,Chhindwara,6260298343,0,0,Dr. Babita Raghuwanshi,20,40,"6260298343, 6260298343",Bindra Hospital Covid Care Center,4,-1,4,,1619941833000,Private
+232,Chhindwara,-1,480001,Chhindwara,9425306100,263,243,Dr. P. Gogia,24,98,072250 26102,DH CHHINDWARA - DCHC,3,-1,48,"Private Bus Stand ,Satkar Tiraha, Parasia Road, Chhindwara-480001 (M.P.), Rautha Wada, Chhindwara, Madhya Pradesh 480001, India",1619917361000,Government
+233,Chhindwara,-1,,Chhindwara,9826343579,300,279,Dr S nagwanshi,0,0,"9826343579, 9406834660",Kanya  Parishar Hostal Chhindwara,0,-1,0,,1619918612000,Government
+234,Chhindwara,-1,,Chhindwara,9764004958,0,0,Dr. Balram Meghani,30,35,"9764004958, 9764004958","Satpura Covid Hospital,Chhindwara",4,-1,3,,1619918177000,Private
+235,Chhindwara,-1,480001,Chhindwara,8770507313,4,1,Deepak Khandelwal,28,2,062626 40425,Arogya Hospital Chindwara,4,-1,1,"CITY PRIDE BUILDING, 1ST FLOOR, Parasia Rd, Sinchai Colony, Mohan Nagar, Chhindwara, Madhya Pradesh 480001, India",1619917683000,Private
+236,Chhindwara,-1,480001,Chhindwara,6266804011,25,18,Dr Nilesh Sidam,0,0,"7974832552, 9584162791",Tribal Hostal Block Bichuwa,0,-1,0,"Vivekanand Colony, Chhindwara, Madhya Pradesh 480001, India",1619918389000,Government
+237,Chhindwara,-1,480334,Chhindwara,9630831126,0,0,Dr.Naresh Gonnade,0,100,"9630831126, 9630831126","Civil Hospital Pandhurna ,Dist Chhindwara",0,-1,59,"Pandhurna, Madhya Pradesh 480334, India",1619917964000,Government
+238,Chhindwara,-1,,Chhindwara,9630235675,0,0,Dr Deewan,0,20,"9630235675, 9630235675",Life Line Hospital Sausar,0,-1,10,,1619918264000,Private
+239,Chhindwara,-1,,Chhindwara,9993709444,10,2,MR. TANMAY BHATTCHARYA,12,70,"9993709444, 9993709444",Life  Care  Multi  Speciality Hospital,2,-1,2,,1619917445000,Private
+240,Chhindwara,-1,,Chhindwara,6260565371,70,33,Dr Mathur,0,0,"6260565271, 6260565261",WCL Hospital Badkuhi Block Parasia,0,-1,0,,1619918457000,Government
+241,Chhindwara,-1,480001,Chhindwara,9827117510,0,0,Dr.Bindra,5,15,"9827117510, 9827117510",Bindra Hospital,2,-1,1,"Nai Abadi, Chhindwara, Madhya Pradesh 480001, India",1619917596000,Private
+242,Damoh,-1,,Damoh,9131518871,100,27,Dr Rahul Kurmi,0,0,"9131518871, 9131518871",OBC Post Matric Girls Hostel Vivekanand Nagar Damoh,0,-1,0,,1619917811000,Government
+243,Damoh,-1,470661,Damoh,9425095542,10,0,Dr Priya Jain,0,20,094254 05989,City Hospital Damoh,0,-1,0,"Guardline,Maganj ward no 1, 470661a, Civil Ward, Teen Gulli, Damoh, Madhya Pradesh 470661, India",1619917723000,Private
+244,Damoh,-1,470661,Damoh,9630106639,20,6,Hari Mishra,0,50,"9131463356, 9575059412",MISSION HOSPITAL DAMOH,0,-1,12,"Shrivastav Colony, Neminagar, Damoh, Madhya Pradesh 470661, India",1619917335000,Private
+245,Damoh,-1,470661,Damoh,9425611830,10,0,Dr Sanjeev Singhai,0,20,078122 25110,Sanjeevani Hospital,0,-1,1,"Old, Galla Mandi Raod, More Ganj, Damoh, Madhya Pradesh 470661, India",1619916962000,Private
+246,Damoh,-1,470661,Damoh,9575004587,0,0,Dr. Manish Patel,0,25,"9575004587, 8827833700",Atharwa Nursing Home Damoh,0,-1,0,"Imalia, Damoh, Madhya Pradesh 470661, India",1619933100000,Private
+247,Damoh,-1,470661,Damoh,9826963342,0,0,Dr. Gaurav Nayak,0,15,"8085272143, 9826963342",Paras Hospital Damoh,0,-1,0,"maganj ward no. 3 near pnb bank maganj ward no. 3, near pnb bank, Teen Gulli, Damoh, Madhya Pradesh 470661, India",1619917068000,Private
+248,Damoh,-1,470661,Damoh,9827534897,50,30,DR. DIWAKAR PATEL,14,200,"9827534897, 9827534897",DH Damoh - DCHC,7,-1,11,"Damoh, Station Road, Tidoni, Damoh, Madhya Pradesh 470661, India",1619917220000,Government
+249,Datia,-1,475661,Datia,9926475837,20,20,Dr. S.N.SHAKYA,10,40,07522 234 001,Dh   Datia - DCHC,10,-1,17,"Aman Colony, Datia, Madhya Pradesh 475661, India",1619926411000,Government
+250,Datia,-1,475661,Datia,9410125566,10,4,Dr.K.K. GUPTA,40,90,07522 234 001,GMC Datia - DCH,0,-1,23,"Aman Colony, Datia, Madhya Pradesh 475661, India",1619927674000,Government
+251,Datia,-1,,Datia,9826565777,70,10,JAWAHAR SINGH YADAV,0,0,"8839364235, 9300057408",RAWATPURA NURSING COLLEGE AND ASSOCIATED SHANTIMEMORIAL HOSPITAL JHASHI ROAD,0,-1,0,,1619916287000,Government
+252,Datia,-1,475661,Datia,9575838990,50,50,DR HEMANT MANDELIYA,0,0,"9575838990, 9575838990","GNMTC, Datia",0,-1,0,"Gwalior - Jhansi Rd, Datia, Madhya Pradesh 475661, India",1619924741000,Government
+253,Datia,-1,475661,Datia,7049576298,4,0,RAJKUMAR SIKHARWAR,8,3,07522 234 553,VEDIKA MULTISPECILITY HOSPITAL,0,-1,0,"Aman Colony, Datia, Madhya Pradesh 475661, India",1619918372000,Private
+254,Dewas,-1,455332,Dewas,9826454145,50,32,DR LOKESH MEENA,0,0,072732 22341,CCC KANNOD,0,-1,0,"Nemawar Road, near LIC of India, Kannod, Madhya Pradesh 455332, India",1619931799000,Government
+255,Dewas,-1,455001,Dewas,9977855573,6,0,NITIN KUMAR DOUR,0,14,"9977855573, 9977855573",CITY HOSPITAL,0,-1,0,"4-A, AB Rd, Tarani Colony, Agroha Nagar, Gomti Nagar, Dewas, Madhya Pradesh 455001, India",1619931937000,Private
+256,Dewas,-1,455227,Dewas,9893256739,50,44,DR VISHNU LATA UIKEY,0,0,"9893256739, 9893256739",CCC BAGLI,0,-1,0,"Mangliya Gaon, Bagli, Madhya Pradesh 455227, India",1619931744000,Government
+257,Dewas,-1,455001,Dewas,7000634441,22,13,MAHIMA SHARMA,0,3,072724 01588,APEX CARE  HOSPITAL,0,-1,0,"AB Rd, Kalani Bagh, Opp.District Court, Gomti Nagar, Dewas, Madhya Pradesh 455001, India",1619931720000,Private
+258,Dewas,-1,455001,Dewas,9479808663,16,0,MS SHEETAL,3,16,072724 06030,SANSKAR HOSPITAL,0,-1,0,"A-52-53, AB Rd, Kalani Bagh, Gomti Nagar, Dewas, Madhya Pradesh 455001, India",1619932117000,Private
+259,Dewas,-1,,Dewas,9826336991,100,0,Dr. Atul Kumar Bidwai,10,160,"9826336991, 9826336991",DH Dewas - DCHC,0,-1,0,,1619931968000,Government
+260,Dewas,-1,455223,Dewas,9770770664,50,39,DR JIVAN YADAV,0,0,", ",CCC HATPIPLIYA,0,-1,0,"Newari Bagli Marg, Tilyakhedi, Hatpipliya, Hatpipliya, Madhya Pradesh 455223, India",1619931769000,Government
+261,Seoni,-1,480661,Seoni,9425350710,100,59,SHIVENDRA MISHRA,0,0,", ",GNMTC,0,-1,0,"Old RTO Office Rd, Ekta Colony, Barapatthar, Seoni, Madhya Pradesh 480661, India",1619932023000,Government
+262,Dewas,-1,455336,Dewas,9425969279,50,30,G S BAGHEL,0,0,072742 32532,CCC KHATEGAON,0,-1,0,"Nemawar Road,Khategaon, Dewas, Madhya Pradesh 455336, India",1619931874000,Government
+263,Dewas,-1,455001,Dewas,9131227462,200,200,Ritesh Lapalikar,100,450,072724 26500,Amaltas Institute of Medical Science (Contract),0,-1,17,"Bangar Villega, Ujjain Dewas Rd, Dewas, Madhya Pradesh 455001, India",1619931689000,Private
+264,Dewas,-1,455001,Dewas,9522205843,5,0,PREETI CARPENTER,5,15,072724 00060,PRIME HOSPITAL,0,-1,0,"105-A, Civil Line, Main Road, Pachunkar Colony, Ram Nagar, Dewas, Madhya Pradesh 455001, India",1619932148000,Private
+265,Dewas,-1,455118,Dewas,9131738118,50,47,AADARSH NANERIYA,0,0,1860 120 7777,CCC SONKATCH,0,-1,0,"M.G. Rd, Sonkatch, Madhya Pradesh 455118, India",1619931904000,Government
+266,Dewas,-1,455001,Dewas,9754502543,7,0,Rajesh Choudhary,0,8,"9754502543, 9754502543",Nursing Home Vinayak,0,-1,0,"47, NH 3, Todi Mohalla, Gomti Nagar, Dewas, Madhya Pradesh 455001, India",1619932051000,Private
+267,Dewas,-1,455001,Dewas,7415622535,11,0,ROHIT JAWANIYAL,0,9,072722 20601,DHRC DEWAS,0,-1,0,"231, AB Rd, opposite Power House, Old Town, Gomti Nagar, Dewas, Madhya Pradesh 455001, India",1619931999000,Private
+268,Dhar,-1,454001,Dhar,8085499660,0,0,DR NEERAJ DRUVE,20,100,"9826443871, 9826443871",DH Dhar - DCHC-(DCHC - District Hospital),0,-1,5,"Mandu Rd, D R P LINE, Dhar, Madhya Pradesh 454001, India",1619918659000,Government
+269,Dhar,-1,454001,Dhar,8319686815,50,29,RANJANA,0,0,"9303027827, 9755547621",BOYS HOSTEL TANDA,0,-1,0,"Prakash Nagar, Dhar, Madhya Pradesh 454001, India",1619917776000,Government
+270,Dhar,-1,454001,Dhar,9340950028,50,16,Dr Dev Nigam,0,0,"9826462003, 9826462003",DHARWARA 2,0,-1,0,"Ghoda Chopati, Dhar, Madhya Pradesh 454001, India",1619930250000,Government
+271,Dhar,-1,,Dhar,7000663654,0,0,Dr Gokul Patidar,0,15,"8435762450, 7000663654",Kamla Ben Hospital Dhamnod,0,-1,1,,1619925442000,Private
+272,Dhar,-1,454001,Dhar,9753333168,8,0,Dr Dinesh Rathore,0,12,"7987265819, 7047252072",Sai Ram Hospital Indorma,0,-1,1,"Dhar, Madhya Pradesh 454001, India",1619939262000,Private
+273,Dhar,-1,454001,Dhar,9893557090,5,0,DR ASHOK JAIN,0,10,072922 34535,Patidar Hospital Dhar,0,-1,0,"Indira Colony, Dhar, Madhya Pradesh 454001, India",1619920848000,Private
+274,Dhar,-1,391165,Dhar,8717915267,50,38,MAHENDRA SINGH CHOUHAN,0,0,"8717915267, 8717915267",KASTURBA GANDHI BALIKA AAWASIYA VIDHYALAY KUKSHI,0,-1,0,"Zoz, Gujarat 391165, India",1619918546000,Government
+275,Dhar,-1,454775,Dhar,8871369147,15,15,Dr Santosh Kumar,0,10,097137 73988,"Health Care Hospital & Diagnostic Centre ,Pithampur",0,-1,1,"Pithampur Hospital and Research Centre,, Saif Tower, Near Yashika Palace, sector-1, Pithampur Industrial Area, Sagour Kuti, Pithampur, Madhya Pradesh 454775, India",1619925913000,Private
+276,Dhar,-1,454775,Dhar,8889611181,15,14,DR. MANISH AGRAWAL,5,30,081094 25288,Sanjeewani Hospital Pithampur,0,-1,2,"55/1/1 & 55/1/2, Akoliya, In front of VE Powertrain, Mhow - Neemuch Rd, Pithampur Industrial Area, Pithampur, Madhya Pradesh 454775, India",1619927312000,Private
+277,Dhar,-1,454774,Dhar,9826042261,9,0,Dr Narendra Raj,0,21,"9826004420, 9713773988",Pithampur Hospital & Research Centre,0,-1,0,"Pithampur Industrial Area, Sagour Kuti, Pithampur, Madhya Pradesh 454774, India",1619939185000,Private
+278,Dhar,-1,454116,Dhar,7000130018,0,0,Shashwat Gupta,0,30,091316 44324,"Shri Guru Rajendra Manav Sewa Mandir Chiktsalya Trust,Rajgarh,Sardarpur",0,-1,0,"NH 59, Rajgarh, Madhya Pradesh 454116, India",1619930714000,Private
+279,Dhar,-1,454111,Dhar,9893166624,50,38,Dr Sheela Mujhalda,0,0,"9981044622, 8878672162",Sardarpur CCC,0,-1,0,"Sardarpur, Madhya Pradesh 454111, India",1619918132000,Government
+280,Dhar,-1,,Dhar,9926666393,200,173,Dr Adiyta Shiivastav,0,0,", ",Mohankheda Thirth CCC,0,-1,0,,1619925645000,Government
+281,Dhar,-1,454446,Dhar,9179927315,50,38,Jyoti Jamra,0,0,091796 34444,MAHILA ITI CHHATRWAAS MANAWAR,0,-1,0,"Singhana Rd, Manawar, Madhya Pradesh 454446, India",1619917917000,Government
+282,Dhar,-1,454001,Dhar,9425919540,50,16,Dr Rohit Sharma,0,0,094259 67978,EKLAVYA BALAK CHATRAWAAS MANDAV ROAD (TIRLA),0,-1,0,"Labrawada, Madhya Pradesh 454001, India",1619925747000,Government
+283,Dhar,-1,454001,Dhar,9424525050,50,5,Dr. Sanjay Bhandari,0,0,"7828539528, 7999920646",KASTURBA DHARWRA 1,0,-1,0,"Dhar, Madhya Pradesh 454001, India",1619930337000,Government
+284,Dhar,-1,454660,Dhar,9826381780,50,1,Dr A S Shrivatsav,0,0,"9981744699, 9575885711",Badnawar CCC,0,-1,0,"Nayapura, Kajipura, Badnawar, Madhya Pradesh 454660, India",1619918222000,Government
+285,Dhar,-1,,Dhar,9827200984,50,43,DR VIRENDRA SOLANKI,0,0,"9039381737, 9926507292","Kanya Awashya Parisar,Beganda Road, Dhamnod  (DHARAMPURI)",0,-1,0,,1619918078000,Government
+286,Dhar,-1,454001,Dhar,9425045651,22,0,DR. UMESH MITTAL,0,10,072922 22453,Mittal Hospital,0,-1,0,"Tilak Marg, Pochaupati, Dhar, Madhya Pradesh 454001, India",1619926450000,Private
+287,Dhar,-1,454001,Dhar,9425046076,0,0,DR. M. MAHAJAN,0,31,072924 08330,Mahajan Hospital,0,-1,0,"Indore - Dhar Rd, Sharad Nagar, Tirupati Nagar, Magajpura, Madhya Pradesh 454001, India",1619928433000,Private
+288,Dhar,-1,454116,Dhar,9926045516,0,0,Mehtab Singh Sindal,0,10,072962 42225,"Shri Guru Rajendra Suri Chiksalya Trust evam Netr Anushandhan Kendra Mohankheda Teerth,",0,-1,1,"Rajgarh, Madhya Pradesh 454116, India",1619928255000,Private
+289,Dhar,-1,454001,Dhar,7869449697,10,0,DR ARUN KUMAR,0,10,"9009742299, 8839723248",OM Sai Ram,0,-1,0,"Sunder Ban Colony, Dhar, Madhya Pradesh 454001, India",1619920984000,Private
+290,Dhar,-1,454001,Dhar,9424525050,8,0,DR SANJAY BHANDARI,10,169,"9826443871, 9826443871",OTHER  DCHC PERIPHERY,0,-1,27,"Dhar, Madhya Pradesh 454001, India",1619918791000,Government
+291,Dindori,-1,481990,Dindori,8319602716,0,0,Dr. Balram Uikey,0,20,"9977682121, 7400625361",SHAHPURA DCHC,0,-1,5,"Shahpura, Madhya Pradesh 481990, India",1619940694000,Government
+292,Dindori,-1,481880,Dindori,9617541140,0,0,Dr. Harsh vardhan,10,90,"7566013520, 7999655391",DH Dindori - DCHC,1,-1,36,"Dindori, Madhya Pradesh 481880, India",1619924543000,Government
+293,Dindori,-1,02115,Dindori,9424940380,150,45,Dr. Ajay Raj,0,0,(617) 495-1000,DIET CCC DINDORI,0,-1,0,"677 Huntington Ave, Boston, MA 02115, USA",1619921352000,Government
+294,Guna,-1,473001,Guna,9827016287,15,0,DR  JITENDRA RAGHUWANSHI,0,15,"9827016287, 9827016287",SAHYOG HOSPITAL,0,-1,0,"Laxmi Ganj, Guna, Madhya Pradesh 473001, India",1619937498000,Private
+295,Guna,-1,473001,Guna,9977451515,10,1,DR AMIT JAIN,20,20,075422 50288,SANJEEVINI HOSPITAL DCHC,0,-1,0,"Karnal Ganj, Piproda Khurd, Madhya Pradesh 473001, India",1619927591000,Private
+296,Guna,-1,473001,Guna,9425131021,10,0,DR G K LAHOTI,0,10,075422 25120,AASHIRWAD HOSPITAL,0,-1,0,"Choudharan Colony, Laxmi Ganj, Guna, Madhya Pradesh 473001, India",1619927914000,Private
+297,Guna,-1,473001,Guna,9669016758,14,0,DR SACHIN SONI,0,12,075422 20225,SACHIN HOSPITAL,0,-1,0,"MAIN ROAD, NAYAPURA,GUNA (MADHYA PRADESH NEAR, Kamla Garage, Guna Rd, Soni Colony, Guna, Madhya Pradesh 473001, India",1619940594000,Private
+298,Guna,-1,473001,Guna,9425131419,10,0,DR YS RAGHUWANSHI,10,10,099813 69582,RAM HITECH HOSPITAL,0,-1,0,"Diversion Road, Porwal Colony, Vindhyachal Colony, Model Town Colony, Guna, Madhya Pradesh 473001, India",1619943084000,Private
+299,Guna,-1,,Guna,7000059693,100,91,DR KAPIL SHARMA,0,0,"8839505029, 7974367184",Pawan Shree Manglik Bhawan CCC,0,-1,0,,1619927537000,Private
+300,Guna,-1,473001,Guna,8225084314,50,1,Dr SUNEEL YADAV,10,160,"9131950215, 9669602701",DH Guna - DCHC,10,-1,0,"Maharana Pratap Rd, Subhash Colony, Guna, Madhya Pradesh 473001, India",1619927380000,Government
+301,Guna,-1,473001,Guna,9179957216,28,18,Dr. Laxmi,0,12,084878 38513,Sada Colony Hospital,0,-1,0,"Laxmi Ganj, Guna, Madhya Pradesh 473001, India",1619927441000,Government
+302,Guna,-1,473001,Guna,9685521155,0,0,DR MANOJ GUPTA,12,0,083496 32631,BALAJI HOSPITA,2,-1,0,"Krisnani Nagar, Guna, Madhya Pradesh 473001, India",1619931378000,Private
+303,Gwalior,-1,474002,Gwalior,7773008103,5,0,DR DIPANKAR LAHARIYA,10,25,0751 401 2551,MAHESHWARI HOSPITAL GWALIOR,0,-1,0,"85, New Chandra Nagar, Maharani Laxmi Bai Colony, Lashkar, Gwalior, Madhya Pradesh 474002, India",1619928632000,Private
+304,Gwalior,-1,474002,Gwalior,9826564998,0,0,DR R K MISHRA,10,0,084620 11201,AROGYADHAM HOSPITAL AND RESEARCH CENTER GWALIOR,0,-1,0,"Foot Over Bridge, near AG Office, City Center, Lashkar, Gwalior, Madhya Pradesh 474002, India",1619932559000,Private
+305,Gwalior,-1,474004,Gwalior,9479549225,0,0,DR SHIKHA UPADHYAY,0,28,0751 297 0955,RIMSS HOSPITAL GWALIOR,0,-1,11,"Opp. Indraprasta Garden, Gole ka Mandir, Bhind Rd, Purshottam Vihar, Hanuman Nagar, Morar, Gwalior, Madhya Pradesh 474004, India",1619926460000,Private
+306,Gwalior,-1,474006,Gwalior,7771965000,3,1,SONU BHADORIYA,6,5,"7771965000, 7771965000",HOPE WELL HOSPITAL GWALIOR,5,-1,2,"Kalpi Rd, Kalpana Nagar, Raghavpuram, Morar, Gwalior, Madhya Pradesh 474006, India",1619927936000,Private
+307,Gwalior,-1,474002,Gwalior,9174800954,0,0,DR D V DINKAR,20,0,", ",SHRADDHA NURSING HOME GWALIOR,8,-1,0,"Dr. Deenabandhu Dvivedi M-241, agmp Madhav Nagar, Madhav Nagar, Lashkar, Gwalior, Madhya Pradesh 474002, India",1619928145000,Private
+308,Gwalior,-1,474002,Gwalior,8109492393,13,4,DR GIRISH SHARMA,0,9,", ",CIVIL HAZIRA GWALIOR,0,-1,9,"Fort Rd, Hazira, Gadhaipura, Gwalior, Madhya Pradesh 474002, India",1619927499000,Government
+309,Gwalior,-1,474001,Gwalior,9098443535,6,6,Harish Meena,8,8,"9098443535, 9098443535",SUVIDHA HOSPITAL GWALIOR,0,-1,3,"Jhansi Rd, Tapovan Forest Colony, Paras Vihar Colony, Vijaynagar, Gwalior, Madhya Pradesh 474001, India",1619925697000,Private
+310,Gwalior,-1,,Gwalior,9425705766,25,19,SANDEEP MITTAL,0,0,", ",SHREE RAM HOSPITAL,0,-1,0,,1619928100000,Private
+311,Gwalior,-1,474001,Gwalior,8962123112,0,0,DR SOURABH PARPYANI,6,14,", ",VAISHNAVI HOSPITAL GWALIOR,0,-1,0,"Gudagudi Ka Naka Rd, Kampoo Rd, Lashkar, Gwalior, Madhya Pradesh 474001, India",1619919990000,Private
+312,Gwalior,-1,,Gwalior,9425339772,12,11,DR NARENDRA THAKUR,10,4,", ",SAMBHAV HOSPITAL GWALIOR,3,-1,3,,1619932395000,Private
+313,Gwalior,-1,474001,Gwalior,7693932844,8,8,DR HEMANT KUMAR SHAKYA,12,8,"7693932844, 7693932844",KALPANA HOSPITAL GWALIOR,1,-1,1,"Main Rd, Shinde Ki Chhawani, Gwalior, Madhya Pradesh 474001, India",1619925270000,Private
+314,Gwalior,-1,474001,Gwalior,9827091588,0,0,DR PRADEEP RATHI,0,4,0751 406 6640,RATHI HOSPITAL GWALIOR,0,-1,4,"Nai Sadak, Sakhar Colony, Dana Oli, Gwalior, Madhya Pradesh 474001, India",1619923895000,Private
+315,Gwalior,-1,475001,Gwalior,8959487837,0,0,DR YOGENDRA POUNIKAR,12,50,", ",RAMSINGH DHAKRE MEMORIAL HOSPITAL  GWALIOR,6,-1,44,"Gwalior, Madhya Pradesh 475001, India",1619928741000,Private
+316,Gwalior,-1,474009,Gwalior,7509684469,0,0,DR SANDEEP AGRWAL,4,4,", ",MAA KAILADEVI HOSPITAL,0,-1,2,"Maharana Pratap Nagar, Lashkar, Gwalior, Madhya Pradesh 474009, India",1619928513000,Private
+317,Gwalior,-1,474001,Gwalior,9039939007,0,0,DR ROHIT PRATAP SINGH TOMAR,14,3,0751 262 5185,SHANTA NURSING HOME GWALIOR,0,-1,0,"Patankar Bazaar, Patankar Bazar, Khurjewala Mohalla, Lashkar, Gwalior, Madhya Pradesh 474001, India",1619919829000,Private
+318,Gwalior,-1,,Gwalior,7898485202,100,100,DR DHAMINIYA,0,0,"7898485202, 7898485202",RAM KRISHNA HOSPITAL,0,-1,0,,1619928848000,Government
+319,Gwalior,-1,474005,Gwalior,9425784546,0,0,Dr S L Desai,18,132,0751 240 5617,BIMR Hospital Gwalior,0,-1,0,"Surya Mandir Rd, Residency Rd, Mahaveer, Morar, Gwalior, Madhya Pradesh 474005, India",1619924052000,Private
+320,Gwalior,-1,,Gwalior,8965999786,0,0,DR NITIN JAIN,10,0,", ",KAILASH COVID CARE CENTER,2,-1,0,,1619927048000,Private
+321,Gwalior,-1,474002,Gwalior,9826217672,30,0,Dr Anil Saxena,14,36,0751 408 7244,Kalyan Multispecility Hospital padav,0,-1,0,"Plot no. 34, 35, Padav, Maharani Laxmi Bai Colony, Lashkar, Gwalior, Madhya Pradesh 474002, India",1619945620000,Private
+322,Gwalior,-1,474009,Gwalior,8878772727,100,75,DR SAGAR,0,0,0751 309 1581,FACILITATION CENTRE MELAGROUND,0,-1,0,"F-17, Sanjay Complex, Jayendra Ganj, Jayendraganj, Shinde Ki Chhawani, Gwalior, Madhya Pradesh 474009, India",1619927825000,Government
+323,Gwalior,-1,474009,Gwalior,9425757702,0,0,Dr P D Agrawal,15,6,0484 238 0452,SARAF HOSPITAL GWALIOR,7,-1,2,"Jayendraganj, Lashkar, Gwalior, Madhya Pradesh 474009, India",1619931603000,Private
+324,Gwalior,-1,474012,Gwalior,9522012352,0,0,TARUN SHARMA,8,27,", ",RISHISHWAR MULTISPECIALITY HOSPITAL,4,-1,4,"B-2, Bhind Rd, BSF Colony, Deen Dayal Nagar, Gwalior, Madhya Pradesh 474012, India",1619928688000,Private
+325,Gwalior,-1,474002,Gwalior,7898984555,0,0,Dr Raghvendra Singh,20,25,"7898984555, 7898984555",Paridhi Hospital Gwalior,0,-1,2,"Kailash Vihar Main Rd, City Center, Jiwaji University, Mahalgaon, Gwalior, Madhya Pradesh 474002, India",1619935074000,Private
+326,Gwalior,-1,474011,Gwalior,9425708284,6,5,DR HEMANT GUPTA,7,13,"8357861034, 8357861034",SAHYOG HOSPITAL GWALIOR,0,-1,9,"Hospital Rd, Lalitpur Colony, Lashkar, Gwalior, Madhya Pradesh 474011, India",1619921265000,Private
+327,Gwalior,-1,474020,Gwalior,9009207777,90,90,Sh. Ajay Yadav,0,10,095753 02206,IDEA COLLEGE GWALIOR,0,-1,4,"Near Toll Plaza, Gwalior - Etawah Road, NH-92, Gwalior, Madhya Pradesh 474020, India",1619928957000,Government
+328,Gwalior,-1,474009,Gwalior,7974386855,5,4,KAVIRAJ,1,2,099770 65721,AKASH HOSPITAL GWALIOR,1,-1,2,"Panchwati Vastra Nagar, Roshni Ghar Mohalla, Lashkar, Gwalior, Madhya Pradesh 474009, India",1619926941000,Private
+329,Gwalior,-1,474001,Gwalior,7987558443,35,13,DR ANURAG SIKARWAR,20,15,0751 233 6619,SSIMS Multispecility Hospital,2,-1,0,"Cancer Hospital Rd, Cancer Hill, Gwalior, Madhya Pradesh 474001, India",1619930239000,Private
+330,Gwalior,-1,,Gwalior,9891302811,0,0,DR VARUNESH,0,5,", ",DRASHYA SUPERSPECIALITY HOSPITAL,0,-1,0,,1619929932000,Private
+331,Gwalior,-1,474002,Gwalior,9644614919,0,0,UPENDRA TOMAR,10,5,", ",INDUS HOSPITAL GWALIOR,1,-1,0,"Viivek Vihar, Lashkar, Gwalior, Madhya Pradesh 474002, India",1619925454000,Private
+332,Gwalior,-1,474009,Gwalior,7879680397,5,4,DR Anand lodhi,8,12,0751 292 0999,MAA SHITLA MULTISPECAILITY HOSPITAL GWALIOR,0,-1,0,"Hospital Rd, in front of Madhav Dispensary, Lalitpur Colony, Lashkar, Gwalior, Madhya Pradesh 474009, India",1619933900000,Private
+333,Gwalior,-1,475001,Gwalior,9713700004,0,0,DR J P BAGHEL,0,50,"9713700004, 9713700004",VISM HOSPITAL GWALIOR,0,-1,32,"NH-75, Jhansi Rd, Turari, Gwalior, Madhya Pradesh 475001, India",1619926830000,Private
+334,Gwalior,-1,474011,Gwalior,8103761500,20,12,DR SHAILENDRA SINGH DHAKAD,0,30,091745 19698,CHIRAYU MULTISPECIALITY HOSPITAL GWALIOR,0,-1,22,"245, Kailash Vihar Main Rd, City Center, Tulsi Vihar Colony, Gwalior, Madhya Pradesh 474011, India",1619920920000,Private
+335,Gwalior,-1,474002,Gwalior,9753424610,5,0,RAJESH RAWAT,7,4,", ",SANSKAR HOSPITAL GWALIOR,0,-1,0,"Railway Colony, Gwalior, Madhya Pradesh 474002, India",1619925793000,Private
+336,Gwalior,-1,474009,Gwalior,9926143817,0,0,Dr Dheeraj singh yadav,0,10,"9926143817, 9926143817",KANHA MULTISPECIALITY HOSPITAL,0,-1,1,"Gwalior, Lalitpur Colony, Lashkar, Gwalior, Madhya Pradesh 474009, India",1619924497000,Private
+337,Gwalior,-1,474006,Gwalior,7049877000,10,7,Dr VISHAL YADAV,25,0,"9754514724, 9424397338",Mansarovar Care  Hospital,0,-1,0,"Kalpi Rd, Kalpana Nagar, Raghavpuram, Morar, Gwalior, Madhya Pradesh 474006, India",1619916628000,Private
+338,Gwalior,-1,474007,Gwalior,9425120462,28,0,Dr. ANIL SINGH,0,94,"9425120462, 9425120462",DH Gwalior - DCHC,0,-1,5,"Italian Garden Road, Phool Bagh Rd, Phool Bagh, Lashkar, Gwalior, Madhya Pradesh 474007, India",1619927602000,Government
+339,Gwalior,-1,474009,Gwalior,9826219199,0,0,DR MANOJ GULATI,20,0,0751 404 7000,PARIWAR HOSPITAL GWALIOR,0,-1,0,"Hospital Road, Lalitpur Colony, Lashkar, Gwalior, Madhya Pradesh 474009, India",1619929652000,Private
+340,Gwalior,-1,474006,Gwalior,9039939007,6,2,DR PRATAP SINGH CHAUHAN,9,5,"9039939007, 9039939007",RUDHRAAKSH HOSPITAL GWALIOR,0,-1,0,"Kalpi Rd, Kalpana Nagar, Raghavpuram, Morar, Gwalior, Madhya Pradesh 474006, India",1619925123000,Private
+341,Gwalior,-1,474002,Gwalior,9926390755,0,0,DR RAJESH,40,70,084484 40991,Appolo Hospital,0,-1,0,"18, Road Kila Gate Road, near Sai Baba Mandir, Vikas Nagar, Dwarkapuri, Lashkar, Gwalior, Madhya Pradesh 474002, India",1619923431000,Private
+342,Gwalior,-1,474001,Gwalior,8827415768,0,0,DR ANURUDDH TOMAR,5,5,"8827415768, 8827415768",S S T HOSPITAL GWALIOR,5,-1,2,"S.S.T Hospital, Yadav dhrm kata, Morena Link Rd, Ajay Colony, Gadhaipura, Gwalior, Madhya Pradesh 474001, India",1619928643000,Private
+343,Gwalior,-1,,Gwalior,7581884146,20,14,RUSTAM SINGH PAWAIYA,0,0,", ",VARDAN HOSPITAL GWALIOR,0,-1,0,,1619923254000,Private
+344,Jabalpur,-1,482002,Jabalpur,9425117259,0,0,Dr Harsh Agarwal,10,40,"9425117259, 9425117259",GLOBAL HOSPITAL,0,-1,0,"Plot No 7-8, Shatabdipuram, near Ukhari Crossing, Phase 1, Shatabdipuram Phase 1, Jabalpur, Madhya Pradesh 482002, India",1619924082000,Private
+345,Gwalior,-1,474002,Gwalior,9229125550,70,60,DR MANJEET BHALLA,0,0,084484 40991,SOFIA HOSPITAL GWALIOR,0,-1,0,"18, Road Kila Gate Road, near Sai Baba Mandir, Vikas Nagar, Dwarkapuri, Lashkar, Gwalior, Madhya Pradesh 474002, India",1619923123000,Government
+346,Gwalior,-1,474011,Gwalior,7987736792,6,1,Dr chitranshi,12,4,"7987736792, 7987736792",AROGYAM THE MEDICITY HOSPITAL,1,-1,0,"Thatipur chauraha, behind pnb, vidya vihar, Chambal Colony, Thatipur, Gwalior, Madhya Pradesh 474011, India",1619933047000,Private
+347,Gwalior,-1,474002,Gwalior,7000269949,0,0,SATISH DHAKAD,7,19,044 2555 9997,K M HOSPITAL GWALIOR,4,-1,1,"Basant Vihar Colony, Lashkar, Gwalior, Madhya Pradesh 474002, India",1619927019000,Private
+348,Gwalior,-1,,Gwalior,8109440347,100,90,DR PREETI PARASAR,0,0,", ",LNIPE COVID CARE CENTRE,0,-1,0,,1619945972000,Government
+349,Gwalior,-1,474004,Gwalior,7770858190,20,6,Dr Devendra Arya,10,10,"7770858190, 7770858190",NARAYAN HOSPITAL,0,-1,1,"Gayatri Nagar, Gwalior, Madhya Pradesh 474004, India",1619926636000,Private
+350,Gwalior,-1,474002,Gwalior,9229299688,0,0,DR DEVENDRA GUPTA,7,0,0751 404 3669,ALOK NURSING HOME GWALIOR,0,-1,0,"Shop No 9, AG Office Rd, Sarswati Nagar, Raghavendra Nagar, Mahalgaon, Gwalior, Madhya Pradesh 474002, India",1619929636000,Private
+351,Gwalior,-1,474012,Gwalior,9755367326,10,6,MAHENDRA SINGH,7,7,", ",PRATAP HOSPITAL,3,-1,0,"Shabd Pratap Hospital, Shabd Pratap Ashram-1, Fort Road, Pragati Nagar, Gwalior, Madhya Pradesh 474012, India",1619928948000,Private
+352,Gwalior,-1,474006,Gwalior,7354005008,25,8,dr Bhoopendra singh,15,35,0751 400 6700,Kalyan memorial and kdj HOSPITAL MORAR,0,-1,0,"Mall Rd, Baradari Chauraha, Chik Santar, Sardar Bazar, Morar, Gwalior, Madhya Pradesh 474006, India",1619925390000,Private
+353,Gwalior,-1,474008,Gwalior,9827519047,0,0,DR VIJAY UCHCHDIYA,0,5,", ",SALASAR HOSPITAL GWALIOR,0,-1,1,"Unnamed Road, Sadashiv Nagar, Vinay Nagar, Gwalior, Madhya Pradesh 474008, India",1619922804000,Private
+354,Gwalior,-1,,Gwalior,9302352198,7,3,DR PRADEEP SHARMA,0,7,", ",THATIPUR COVID CENTRE GWALIOR,0,-1,5,,1619927215000,Government
+355,Gwalior,-1,474009,Gwalior,7748979179,5,1,DR DEEPANKAR LAHARIYA,0,10,", ",BALAJI HOSPITAL GWALIOR,0,-1,0,"Lalitpur Colony, Lashkar, Gwalior, Madhya Pradesh 474009, India",1619924274000,Private
+356,Gwalior,-1,474002,Gwalior,8839212609,26,17,DR NEELESH SHARMA,0,10,"8839212609, 8839212609",Aayurbedik Hospital Gwalior,0,-1,1,"City Center, Raksha Vihar, Lashkar, Gwalior, Madhya Pradesh 474002, India",1619926875000,Government
+357,Gwalior,-1,475330,Gwalior,9424561369,38,35,DR KAMLESH MALVIYA,10,2,", ",SR MEMORIAL HOSPITAL GWALIOR,6,-1,2,"Maa Viashno devi Parishar Near Gupteshwar Temple Tighra Road Gwaliorग्वालियर वेस्ट, Gwalior West, Madhya Pradesh 475330, India",1619927472000,Private
+358,Gwalior,-1,474009,Gwalior,9179329121,0,0,DR MANISH GUPTA,6,17,0751 243 3707,JANAK HOSPITAL GWALIOR,0,-1,0,"Jinsi Marg Number 3, Near, Roxy Pul, Nimbalkar Ki Goth No.2, Kampoo, Gwalior, Madhya Pradesh 474009, India",1619926436000,Private
+359,Gwalior,-1,474012,Gwalior,9300999777,6,0,DR SANJAY SAXENA,6,8,0751 406 0295,SMT RAMA DEVI SMARUTI NURSING HOME GWALIOR,4,-1,4,"AB Rd, opposite Bahodapur, Gargaj Colony, Bahodapur, Police Station, Gwalior, Madhya Pradesh 474012, India",1619928932000,Private
+360,Gwalior,-1,474001,Gwalior,9685991529,15,11,DR MINAKSHI SHARMA,17,18,0751 404 8499,PRIME HOSPITAL GWALIOR,0,-1,3,"Plot No C2, C3, Near, New Collectorate Rd, City Center, Kailash Nagar, Mahalgaon, Gwalior, Madhya Pradesh 474001, India",1619927539000,Private
+361,Gwalior,-1,474009,Gwalior,7089098888,10,4,DR GAURAV BHATNAGAR,0,10,", ",DANDARUA DHAM MULTISPECIALITY HOSPITAL,0,-1,4,"A B Road infornt of Mehndi wale sayyad gol pahadhiya, Loha Mandi, Lashkar, Gwalior, Madhya Pradesh 474009, India",1619927543000,Private
+362,Gwalior,-1,474010,Gwalior,9827375852,0,0,Dr K R Mahor,10,10,0751 492 3191,Life Care Hospital Gwalior,0,-1,0,"Reliance Tower, Ramtapura, Tyagi Nagar, Thatipur, Gwalior, Madhya Pradesh 474010, India",1619926480000,Private
+363,Gwalior,-1,474008,Gwalior,7000170842,6,0,DR ANIL BHAVTI,5,4,"7000170842, 7000170842",AMUKTA HOSPITAL GWALIOR,1,-1,2,"Bahodapur, Bohdapur, Gwalior, Madhya Pradesh 474008, India",1619927043000,Private
+364,Gwalior,-1,474009,Gwalior,7773008103,0,0,DR DEEPANKAR LAHARIYA,7,10,0751 246 0742,SHUBHAM HOSPITAL GWALIOR,0,-1,4,"Opp Prem Motors, Basant Vihar Colony, Lashkar, Gwalior, Madhya Pradesh 474009, India",1619935927000,Private
+365,Gwalior,-1,474004,Gwalior,8889437489,12,0,BRAJESH RAJPUT,7,11,"8889437489, 8889437489",BRAHMANI HOSPITAL GWALIOR,0,-1,0,"Shivnagar, Ajay Colony, Gadhaipura, Gwalior, Madhya Pradesh 474004, India",1619923722000,Private
+366,Gwalior,-1,474008,Gwalior,8269640505,5,1,DR AMIT KATARE,8,6,", ",KMJ ANSH HOSPITAL GWALIOR,4,-1,2,"Bahodapur, Bohdapur, Gwalior, Madhya Pradesh 474008, India",1619928344000,Private
+367,Gwalior,-1,474001,Gwalior,8461881201,10,1,DR D S PARIHAR,8,2,092022 27645,MUSKAN MULTISPECIALITY HOSPITAL GWALIOR,1,-1,0,"Anand Metro Mart, Hujrat Pull Chauraha, Near Roxy Pull, Jinsi Rd Number 3, Roxy Pul, Chitnis Ki Goth, Lohiya Bazaar, Gwalior, Madhya Pradesh 474001, India",1619921975000,Private
+368,Gwalior,-1,474002,Gwalior,8602444091,20,20,DR AMIT NIGAM,9,21,0751 355 6342,KAYA HOSPITAL GWALIOR,5,-1,13,"PIN :, 30/15, Mela Rd, Kesar Bagh, LNUPE Campus, Kampoo, Gwalior, Madhya Pradesh 474002, India",1619930310000,Private
+369,Gwalior,-1,474006,Gwalior,9425122821,4,0,BHOOPENDRA SHRIVASTAV,4,2,"9425122821, 9425122821",SK MEMORIAL MULTISPECIALITY HOSPITAL GWALIOR,1,-1,1,"Unnamed Road, Arya Nagar, Morar, Gwalior, Madhya Pradesh 474006, India",1619930808000,Private
+370,Gwalior,-1,475001,Gwalior,7985966686,80,78,DR NIDHI SENGAR,0,20,"9589545930, 9479592142",ITM Hospital,0,-1,15,"Gwalior, Madhya Pradesh 475001, India",1619928223000,Government
+371,Gwalior,-1,474006,Gwalior,9425110905,0,0,DR SANJEEV GUPTA,0,5,", ",GUPTA NURSING AND METERNITY HOME GWALIOR,0,-1,0,"near Gupta nursing home, Nagar Nigam Colony, Morar, Gwalior, Madhya Pradesh 474006, India",1619922897000,Private
+372,Gwalior,-1,474002,Gwalior,9425778601,0,0,Dr Ripudaman,8,12,"9425778601, 9425778601",KUSHAL HOSPITAL,0,-1,0,"110, 474003, Kanti Nagar, Durgapuri, Gwalior, Madhya Pradesh 474002, India",1619896504000,Private
+373,Gwalior,-1,474001,Gwalior,9425186701,0,0,Dr. O. P. Jatav,195,350,0751 492 6600,"GMC-Gwalior - DCHJAH Super Specialty Hospital,",9,-1,44,"Kampoo Rd, Idgah, Lashkar, Gwalior, Madhya Pradesh 474001, India",1619925200000,Government
+374,Gwalior,-1,474009,Gwalior,9009540022,0,0,DR. HITKISHOR SINGH,30,10,088716 28250,VAIDANSH MULTI SPECAILITY HOSPITAL,0,-1,4,"14, Hospital Rd, near Chandak Hospital, Lalitpur Colony, Lashkar, Gwalior, Madhya Pradesh 474009, India",1619927044000,Private
+375,Gwalior,-1,474001,Gwalior,9479808880,0,0,DR RAJEEV SAGARIYA,5,10,"9479808880, 9479808880",SIDDHANT HOSPITAL GWALIOR,1,-1,1,"Naka Chandra Wadani, Lashkar, Gwalior, Madhya Pradesh 474001, India",1619923633000,Private
+376,Gwalior,-1,474002,Gwalior,7000203889,20,20,DR SANTOSH SINGHAL,25,15,084484 40991,CHS APPLE HOSPITAL GWALIOR,0,-1,0,"18, Road Kila Gate Road, near Sai Baba Mandir, Vikas Nagar, Dwarkapuri, Lashkar, Gwalior, Madhya Pradesh 474002, India",1619927455000,Private
+377,Gwalior,-1,474005,Gwalior,8959906418,100,65,DR AKSHAY CHAUHAN,0,0,0751 240 5617,SARVADHARAM HOSPITAL GWALIOR,0,-1,0,"Surya Mandir Rd, Residency Rd, Mahaveer, Morar, Gwalior, Madhya Pradesh 474005, India",1619928210000,Government
+378,Gwalior,-1,474006,Gwalior,8770606850,0,0,Dr Tapas,0,15,"8770606850, 8770606850",Shri Krishna Hospital Gwalior,0,-1,4,"Unnamed Road, Pawansut Colony, Morar, Gwalior, Madhya Pradesh 474006, India",1619927887000,Private
+379,Gwalior,-1,474009,Gwalior,9560033023,0,0,Dr Prashant Agrwal,15,40,"9560033023, 9560033023",HOTEL THE GOLDAN VILLEGE ( LOTAS HOSPITAL ),5,-1,13,"Lalitpur Colony, Lashkar, Gwalior, Madhya Pradesh 474009, India",1619929357000,Private
+380,Gwalior,-1,474009,Gwalior,7354005080,6,0,DR BHOOPENDRA RAJAWAT,6,3,", ",SHREE MULTI SPECIALITY HOSPITAL GWALIOR,0,-1,0,"J. A. Hospital Campus, Lashkar, Gwalior, Madhya Pradesh 474009, India",1619926297000,Private
+381,Gwalior,-1,474007,Gwalior,8077558821,0,0,DR NAVIN SHUKLA,4,14,0751 400 8070,VAIBHAV MEMORIAL HOSPITAL,4,-1,6,"D-20, Vijay Nagar Extension, Basant Vihar Colony, Lashkar, Gwalior, Madhya Pradesh 474007, India",1619927161000,Private
+382,Gwalior,-1,474001,Gwalior,7974355636,2,0,DR MUKESH TOMAR,5,0,098260 86697,LEELA HOSPITAL GWALIOR,5,-1,0,"Gwalior, Janak Ganj, Jiyaji Chowk, Gwalior, Madhya Pradesh 474001, India",1619921775000,Private
+383,Gwalior,-1,474002,Gwalior,7000155651,21,14,Dr. Chandra Shekhar Jaiswal,0,19,"7000155651, 7000155651",ESI Hospital Gwalior - DCHC,0,-1,13,"Railway Colony, Gwalior, Madhya Pradesh 474002, India",1619927458000,Government
+384,Gwalior,-1,474001,Gwalior,9339523533,0,0,Dr Bhupendra jatav,42,18,0751 292 0333,Link Hospital,0,-1,0,"PLOT NO.1 ,Green South Avenue ShivpriLink Road, opposite Sumedha Nissan Showroom, Gwalior, Madhya Pradesh 474001, India",1619928421000,Private
+385,Gwalior,-1,474011,Gwalior,9039939007,0,0,DR ROHIT TOMAR,10,0,"9039939007, 9039939007",PANACEA HOSPITAL GWALIOR,6,-1,0,"near SBI chauraha, Industrial Area, Hazira, Tansen Nagar, Gwalior, Madhya Pradesh 474011, India",1619896557000,Private
+386,Gwalior,-1,474002,Gwalior,9827285001,25,0,DR ALOK PANDEY,19,7,0751 402 4081,NAVJEEVAN HOSPITAL GWALIOR,0,-1,0,"Moti Mahal Rd, opp. Scindia Kanya Vidyalay, Basant Vihar Colony, Lashkar, Gwalior, Madhya Pradesh 474002, India",1619917449000,Private
+387,Gwalior,-1,474011,Gwalior,8959487837,4,3,DR YOGENDRA POUNIKAR,6,9,091745 19698,AYUSH MULTISPECIALITY HOSPITAL GWALIOR,4,-1,0,"245, Kailash Vihar Main Rd, City Center, Tulsi Vihar Colony, Gwalior, Madhya Pradesh 474011, India",1619927404000,Private
+388,Gwalior,-1,474011,Gwalior,7566232242,0,0,Dr Padamnabh Sharma,8,2,0751 234 0739,Chandra Hospital & Nursning Home Gwalior,0,-1,0,"Mayur Market, मयूर नगर, थाटीपुर, ग्‍वालियर, मध्य प्रदेश 474011, India",1619922721000,Private
+389,Gwalior,-1,474002,Gwalior,7773008103,5,4,DR DEEPANKAR LAHARIYA,17,10,"7773008103, 7773008103",GALAV HOSPITAL GWALIOR,14,-1,6,"Basant Vihar Colony, Lashkar, Gwalior, Madhya Pradesh 474002, India",1619934994000,Private
+390,Gwalior,-1,474002,Gwalior,8269570000,0,0,DR R PRASAD,0,4,"8269570000, 8369570000",PRASAD NURSING HOME HAZIRA GWALIOR,0,-1,0,"2, Tansen Rd, Gouspura, Tansen Nagar, Gwalior, Madhya Pradesh 474002, India",1619929000000,Private
+391,Gwalior,-1,474009,Gwalior,9425756244,0,0,KAUSHLENDRA SINGH TOMAR,10,15,094257 56244,SUPER AYUSHMAN HOSPITAL,1,-1,8,"Jhansi Rd, in front of Police Station, Naka Chandrvadni, Vijaynagar, Gwalior, Madhya Pradesh 474009, India",1619926096000,Private
+392,Gwalior,-1,474001,Gwalior,7748979179,0,0,DR ANIL SINGH,7,8,"7748979179, 7748979179",OM MULTISPECIALITY HOSPITAL GWALIOR,0,-1,2,"jyoti nagar near dwarikadhish mandir and ajk thana kumharpura, Rajeev Nagar, Gwalior, Madhya Pradesh 474001, India",1619928742000,Private
+393,Gwalior,-1,474011,Gwalior,9685542224,5,0,KAYAM SINGH BAGHEL,7,3,094795 85434,BHARAT HOSPITAL GWALIOR,1,-1,1,"Viveknand Chowk, behind Punjab National Bank, Chambal Colony, Thatipur, Gwalior, Madhya Pradesh 474011, India",1619929743000,Private
+394,Gwalior,-1,474011,Gwalior,9425755528,9,1,Dr Manish Shrivastav,4,11,0751 408 1504,SOHAM HOSPITAL AND RESEARCH CENTRE GWALIOR,0,-1,0,"Unnamed Road, Mayur Market, Mayur Nagar, Thatipur, Gwalior, Madhya Pradesh 474011, India",1619927536000,Private
+395,Harda,-1,,Harda,9926419922,10,4,DR. M K CHOURE,0,10,"9503902291, 9826477447",GOVT. EXCELLENCE BOYS HOSTEL TIMARNI,0,-1,3,,1619924688000,Government
+396,Harda,-1,461331,Harda,9911421449,6,0,DR VISHAL SINGH BAGHEL,0,30,083050 02054,"BAGHEL HOSPITAL AND RESEARCH CENTER , SHIVAM VATIKA ,HARDA",0,-1,0,"Shivam vatika, near collector office, Harda, Madhya Pradesh 461331, India",1619927482000,Private
+397,Harda,-1,,Harda,9425044117,0,0,DR. KIRTI KUMAR PATNI,0,30,"8827780781, 9926501414",VEDARTH HOSPITAL INDORE ROAD HARDA,0,-1,0,,1619927571000,Private
+398,Harda,-1,,Harda,7000536327,20,15,DR. TARUN CHOUDHARY,0,4,"9340984937, 9753445455",BALIKA CHHATRAVAS HANDIA,0,-1,0,,1619924595000,Government
+399,Harda,-1,,Harda,9111012159,10,10,DR. HARSH PATEL,0,3,"6263271182, 9926362631",L.N. PALIWAL HIGHER SECONDRY SCHOOL,0,-1,0,,1619924816000,Government
+400,Harda,-1,461331,Harda,9826065788,6,0,DR R B PATEL,0,35,"9926501414, 9826286399",BHAGVATI NURSING HOME INDORE ROAD HARDA,0,-1,0,"Tanki Road Sardar Vallabh Bhai, Patel Ward, Golapura, Harda, Madhya Pradesh 461331, India",1619927625000,Private
+401,Harda,-1,461331,Harda,9098562377,50,35,DR. Sahid khan,0,0,"9826477447, 6261662082",KACHKADWA PATIDAR SAMAJ COVID CARE CENTER HARDA,0,-1,0,"Harda, Madhya Pradesh 461331, India",1619924770000,Government
+402,Harda,-1,,Harda,9977360483,10,5,DR. ARJUN JAT,0,4,"9711129419, 9669595952",AADIVASHI CHHATRAVAS SIRALI,0,-1,0,,1619924451000,Government
+403,Harda,-1,461331,Harda,9826477447,20,10,Dr. MANISH SHARMA,10,120,075772 25006,DH HARDA - DCHC,0,-1,1,"Chipaner Rd, Harda, Madhya Pradesh 461331, India",1619927536000,Government
+404,Harda,-1,,Harda,7828796494,15,13,DR. NAVEEN CHOUDHARY,0,10,"8120208340, 8871885784","SENIOR GIRLS AADIWASI HOSTEL, ANAND NAGAR KHIRIKIYA",0,-1,1,,1619924870000,Government
+405,Hoshangabad,-1,,Hoshangabad,9827243020,0,0,Dr Atul Setha,0,10,"9713210060, 9713210060",KESHAV HOSPITAL HOSHANGABAD (DCHC),0,-1,0,,1619920550000,Private
+406,Hoshangabad,-1,,Hoshangabad,9425408757,0,0,Dr Rajesh Meena,0,105,"9827042655, 7694913634",CHC Pipariya (CCC),0,-1,24,,1619917555000,Government
+407,Hoshangabad,-1,,Hoshangabad,8226093731,100,67,Dr Akshay Rraghuwanshi,0,0,"8770127840, 8770127840",Pawarkheda (CCC),0,-1,0,,1619917686000,Government
+408,Hoshangabad,-1,,Hoshangabad,9479648662,0,0,Ranjeeta Malviya,0,24,"7223904330, 9691160521",DAYAL HOSPITAL ITARSI (DCHC),0,-1,2,,1619916953000,Private
+409,Hoshangabad,-1,,Hoshangabad,7987381516,4,0,Dr Ravindra Gupta,3,4,", ",Vatsalya Hospital Itarsi (DCHC),0,-1,0,,1619926856000,Private
+410,Hoshangabad,-1,,Hoshangabad,9539347263,0,0,Dr Apoorva Pandey,15,15,"9584308241, 9826730605",New Pandey Hospital Hoshangabad (DCHC),0,-1,0,,1619917481000,Private
+411,Hoshangabad,-1,,Hoshangabad,9770736150,5,4,Dr. Bindhu Joseph,10,0,"9131917904, 9425041498",St. Joseph Hospital Hoshangabad (DCHC),0,-1,0,,1619923750000,Private
+412,Hoshangabad,-1,,Hoshangabad,9479381799,6,1,Dr AS Sen CMO,0,6,"7033094959, 7649800039",Ordnance Factory Hospital Itarsi (DCHC),0,-1,0,,1619922458000,Government
+413,Hoshangabad,-1,,Hoshangabad,9131582082,19,0,Dr Rohit,0,7,"9098483279, 9993633189",CHC Babai (CCC),0,-1,0,,1619929092000,Government
+414,Hoshangabad,-1,,Hoshangabad,9827060696,0,0,Dr Sapan Goyal,0,10,", ",CHC Sukhtawa  (CCC),0,-1,10,,1619917634000,Government
+415,Hoshangabad,-1,,Hoshangabad,9893864788,20,13,Dr Jagbandhan Parihar,0,20,"7415695688, 9009836303",CHC Bankhedi (CCC),0,-1,2,,1619917530000,Government
+416,Hoshangabad,-1,,Hoshangabad,9827212116,6,0,Dr Shravan Kumar Malvi,8,41,"7879843508, 7879843501",Kamla Bai Prem Narayan Malvi Hospital Hoshangabad (DCHC),0,-1,0,,1619927048000,Private
+417,Hoshangabad,-1,,Hoshangabad,8226093731,20,0,Dr. Dinesh Dehalwar,10,110,"9009124938, 9074459043",DH Hoshangabad  (DCHC),0,-1,17,,1619936153000,Government
+418,Hoshangabad,-1,,Hoshangabad,9424017288,0,0,Dr. RK Choudhary,0,78,"9425077045, 8319692772",Dr. SPM CIVIL HOSPITAL  Itarsi (DCHC),0,-1,0,,1619919326000,Government
+419,Hoshangabad,-1,,Hoshangabad,8718081083,0,0,Dr Jitendra Malviya,0,2,"8718081083, 8718081083",Security Paper mill hospital Hoshangabad (DCHC),0,-1,2,,1619927054000,Government
+420,Hoshangabad,-1,,Hoshangabad,9827042655,10,7,Dr Rajesh Meena,0,0,"9407299639, 9407299639",PHC Dolaria Hoshangabad (CCC),0,-1,0,,1619928003000,Government
+421,Hoshangabad,-1,,Hoshangabad,9300289177,0,0,Dr Rajesh Sharma,18,82,"9425666148, 9770284139","Narmada Apna Hospital, Hoshangabad (DCHC)",0,-1,7,,1619945360000,Private
+422,Hoshangabad,-1,,Hoshangabad,9407383538,5,0,Manas Vyas,0,10,"9827015935, 7282067087",AMRIT HEART CARE Hoshangabad (DCHC),0,-1,0,,1619923091000,Private
+423,Hoshangabad,-1,,Hoshangabad,9826263607,40,2,Dr Kanti Batam,0,35,"9754632173, 9425476029",CHC Seonimalwa (CCC),0,-1,14,,1619917577000,Government
+424,Hoshangabad,-1,,Hoshangabad,9752416510,4,0,Dr Shivam Kulshrestha,0,4,"9752416510, 9752416510",Sub Divisional Railway Hospital Itarsi (DCHC),0,-1,0,,1619924659000,Government
+425,Hoshangabad,-1,,Hoshangabad,7354924105,20,11,Dr Rekha Singh Gour,0,15,"9752657785, 9424731542",CHC Sohagpur (CCC),0,-1,0,,1619917602000,Government
+426,Hoshangabad,-1,,Hoshangabad,7354284436,45,28,Dr Akshay Raghuwanshi,0,5,"9131939973, 9301888238","Gyanodaya (BTI), hoshangabad (CCC)",0,-1,0,,1619917713000,Government
+427,Indore,-1,452018,Indore,7313538655,0,0,NA,10,5,099819 97097,SHRI GANESH HOSPITAL,0,-1,0,"304-305, The Mark, 20-A, Old Palasia, Saket Square, Ashirwad SBI Colony, Old Palasia, Indore, Madhya Pradesh 452018, India",1619942780000,Private
+428,Indore,-1,,Indore,7415415358,0,0,NA,13,7,", ",C3 multi speciality hospital,0,-1,0,,1619942649000,Private
+429,Indore,-1,452001,Indore,7312493911,0,0,DR. MANOJ KUMAR,6,58,0731 249 3911,"Suyash Hospital, Indore - DCHC",0,-1,0,"5, 1, AB Rd, opposite MGM Medical College, South Tukoganj, Indore, Madhya Pradesh 452001, India",1619941907000,Private
+430,Indore,-1,452008,Indore,9893352411,26,0,MANOJ CHOUDHARY,19,15,0731 244 3400,DNS HOSPITAL,0,-1,0,"14, Anoop Nagar, LIG Square, AB Rd, Anoop Nagar, Indore, Madhya Pradesh 452008, India",1619944897000,Private
+431,Jabalpur,-1,482002,Jabalpur,7049918767,0,0,DR. RITU NIKITA,30,110,095758 01200,SHALBY HOSPITAL,0,-1,0,"Plot No-5, Street No-5, Ahinsa Chowk, Kanchan Vihar, Vijay Nagar, Jabalpur, Madhya Pradesh 482002, India",1619941432000,Private
+432,Indore,-1,452006,Indore,8827514522,12,2,NA,8,5,", ",FEEL HOSPITAL,0,-1,0,"NH47, Noorani Nagar, Indore, Madhya Pradesh 452006, India",1619942716000,Private
+433,Indore,-1,453661,Indore,8109079346,29,12,NA,0,11,"8109079346, 8109079346",MANPUR HOSPITAL,0,-1,0,"Manpur, Madhya Pradesh 453661, India",1619946298000,Private
+434,Indore,-1,452016,Indore,9993990028,8,0,Dr RIZWAN,5,27,099939 90026,PATEL HOSPITAL,0,-1,0,"328/2/4/1, dargah bypass link road, Pragati Vihar, Indore, Madhya Pradesh 452016, India",1619946190000,Private
+435,Indore,-1,453771,Indore,8871111166,0,0,NA,10,10,093007 20720,SUNRISE HOSPITAL TALAWALI CHANDA,0,-1,0,"54, Panchvati Colony, Indore, Madhya Pradesh 453771, India",1619942032000,Private
+436,Indore,-1,452010,Indore,9826095677,4,0,SHAURABH TIWARI,5,11,0731 244 4444,TIWARI HOSPITAL,0,-1,0,"Scheme No 78 part 2 Life Care Hospital Parisar, Scheme Number 78, Part II, Vijay Nagar, Indore, Madhya Pradesh 452010, India",1619945620000,Private
+437,Indore,-1,452001,Indore,9826969099,0,0,Dr. Shailendra Jain,48,52,0731 252 7383,MRTB (DCH)  (GMC ),0,-1,0,"AB Rd, CRP Line, Indore, Madhya Pradesh 452001, India",1619939749000,Government
+438,Indore,-1,452020,Indore,8817791966,8,0,SISTER MONIKA,12,30,075666 65297,St. FRANCIS HOSPITAL,0,-1,0,"Municipal area on By-pass Road, Near, Dev Guradia Rd, Pathar Mundla, Indore, Madhya Pradesh 452020, India",1619943664000,Private
+439,Indore,-1,452002,Indore,9200157595,2,0,Dr AZHAR,0,8,0731 245 1020,ALNOOR HOSPITAL,0,-1,0,"320, Jawahar Marg, Nihalpura, Bartan Bazar, Indore, Madhya Pradesh 452002, India",1619945234000,Private
+440,Indore,-1,452010,Indore,7223999635,10,0,Dr ARVIND,10,30,"7223999635, 7223999635",R K HOSPITAL,0,-1,0,"1 PRAKASH NAGAR SQUARE, Nemawar Rd, Navlakha, Prakash Nagar, Indore, Madhya Pradesh 452010, India",1619942398000,Private
+441,Indore,-1,452010,Indore,9826057666,0,0,Dr BAPAT,10,2,098260 55666,BAPAT HOSPITAL,0,-1,0,"Bapat Square, Pandit Dindayal Upadhyay Nagar, Pandit Din Dayal Upadhyay Nagar, Sukhlia, Indore, Madhya Pradesh 452010, India",1619946247000,Private
+442,Indore,-1,452010,Indore,7312444444,10,0,ASIM RAGINI MATHUR,8,18,094248 25000,LIFECARE HOSPITAL,0,-1,0,"Plot No.2, Scheme No 78 - II, Scheme Number 78, Part II, Vijay Nagar, Indore, Madhya Pradesh 452010, India",1619943585000,Private
+443,Indore,-1,452012,Indore,9826598089,3,0,DR AJAY CHOUDHARY,4,8,0731 406 0704,INDRA MEMORIAL HOSPITAL,0,-1,0,"59-B, Rajendra Nagar Main Rd, near Railway Station, Rajendra Nagar, Indore, Madhya Pradesh 452012, India",1619945796000,Private
+444,Indore,-1,452001,Indore,8871116078,7,0,NA,3,15,0731 249 4786,MAYANK HOSPITAL,0,-1,0,"11/1, Manorama Ganj, Indore, Madhya Pradesh 452001, India",1619940117000,Private
+445,Indore,-1,452016,Indore,9826646461,11,0,Dr H K BIRLA,15,33,"9826646461, 9826646461",PHOENIX HOSPITAL,0,-1,0,"1A, 2A, Bicholi Hapsi Rd, near Jain Tample, Shukh Shanti Nagar, Indore, Madhya Pradesh 452016, India",1619945288000,Private
+446,Indore,-1,452010,Indore,9893303929,7,0,NA,3,10,0731 257 0271,NAHAR HOSPITAL,0,-1,0,"M-35, Vijay Nagar Main Road, Pandit Dindayal Upadhyay Nagar, Sukhliya, Sector A, Chouraha, Indore, Madhya Pradesh 452010, India",1619943267000,Private
+447,Indore,-1,452007,Indore,7312920757,15,15,Dr.ANUPAMA DAVE,322,38,"7312920757, 7312920757",MTH (DCH) (GMC),0,-1,20,"Mahatma Gandhi Rd, Siyaganj, Indore, Madhya Pradesh 452007, India",1619940840000,Government
+448,Indore,-1,,Indore,9893466395,15,11,NA,0,8,", ",METRO HOSPITAL,0,-1,4,,1619942888000,Private
+449,Indore,-1,452006,Indore,9977030333,5,0,DR ANSHUL,5,15,"9669680007, 8839582105",BANTHIYA HOSPITAL,0,-1,0,"10, Airport Rd, Ganga Colony, Tirupati Nagar, Indore, Madhya Pradesh 452006, India",1619942456000,Private
+450,Jabalpur,-1,482002,Jabalpur,9425059496,20,0,Dr MUNDRA,7,15,"7314271600, 9425059496",MEDICARE HOSPITAL,0,-1,0,"Shatabdipuram Phase 1, Jabalpur, Madhya Pradesh 482002, India",1619943449000,Private
+451,Indore,-1,452003,Indore,9425065865,1,0,SANJAY DHANUKA,25,14,"9425065865, 9425065865",EMINENT HOSPITAL,0,-1,0,"Opp.Badwani Plaza, Manoramaganj, Near Eureka Hospital, old palasiya, Ravindra Nagar, Indore, Madhya Pradesh 452003, India",1619944795000,Private
+452,Indore,-1,452008,Indore,8395088183,0,0,Dr Vivek Dubey,21,25,0731 243 2719,"Getwell Hospital, Indore - DCHC",0,-1,0,"679/9, Nehru Nagar, Nehru Nagar, Near MIG Thana, Atal Dwar, Nehru Nagar, Indore, Madhya Pradesh 452008, India",1619943852000,Private
+453,Indore,-1,452002,Indore,9425969553,12,0,NA,8,10,0731 261 8000,CHIRAU HOSPITAL,0,-1,0,"Janta, Sitaram Park Colony, Janta Colony, Sitaram Park Colony, Indore, Madhya Pradesh 452002, India",1619946735000,Private
+454,Indore,-1,452013,Indore,7312380081,6,0,NA,8,22,0731 262 6700,MAHAVEER HOSPITAL,0,-1,0,"Dwarkapuri, Indore, Madhya Pradesh 452013, India",1619940510000,Private
+455,Indore,-1,452010,Indore,9229265630,0,0,Dr  KUMAR,5,7,092292 65630,ASTHA HOSPITAL,0,-1,0,"Main Rd, Rajiv Awas Vihar, Part I, Scheme No 114, Indore, Madhya Pradesh 452010, India",1619942228000,Private
+456,Indore,-1,452001,Indore,7312529000,0,0,DR. SUMIT SHUKLA,303,74,"7312529000, 7312529000",SUPERSPECIALITY  HOSPITAL ( GMC),0,-1,0,"ढक्कन वाला कुआ, Samvad Nagar, Indore, Madhya Pradesh 452001, India",1619940983000,Government
+457,Indore,-1,452009,Indore,7312785172,8,0,Dr. Prakash Bangani,4,32,0731 278 5172,"Shri Arihant Hospital, Indore - DCHC",0,-1,0,"283- a, Gumasta Nagar, Scheme 71, Indore, Madhya Pradesh 452009, India",1619943986000,Private
+458,Indore,-1,452003,Indore,7987249190,0,0,Dr ANKUSH,5,10,"7999193038, 7389893672",CHARAK HOSPITAL,0,-1,0,"Film Bhawan Rani Sati Gate, Yeshwant Niwas Rd, Shivaji Nagar, Indore, Madhya Pradesh 452003, India",1619945671000,Private
+459,Indore,-1,452008,Indore,9893122274,15,0,DR. M K SHARMA,8,62,0731 476 9999,APPLE HOSPITAL,0,-1,0,"15/1, Bhawarkua Main Rd, Transport Nagar, Indore, Madhya Pradesh 452008, India",1619941072000,Private
+460,Indore,-1,452010,Indore,8965892204,23,0,DR.AMIT JOSHI,22,60,0731 255 8866,Bombay Hospital,0,-1,0,"IDA Scheme, No.94, 95, Eastern Ring Rd, Tulsi Nagar, Vijay Nagar, Indore, Madhya Pradesh 452010, India",1619941342000,Private
+461,Indore,-1,452001,Indore,9644433342,0,0,SHUKDEV,10,38,0731 243 4445,CURE WELL HOSPITAL,0,-1,0,"19/1-C, Lala Banarasilal Dawar Marg, New Palasia, Indore, Madhya Pradesh 452001, India",1619941825000,Private
+462,Indore,-1,453555,Indore,7314231293,45,45,Rajeev Singh,331,624,0731 423 1622,Aurobindo Medical College  (PVT),0,-1,12,"Indore - Ujjain State Highway, near MR 10, Crossing, Indore, Madhya Pradesh 453555, India",1619943482000,Private
+463,Indore,-1,452008,Indore,9589977277,20,14,NA,0,0,0731 666 3333,GINGER HOTEL (APOLLO HOSPITAL),0,-1,0,"AB Rd, near Shaniwar Darpan, Choti Khajrani, Indore, Madhya Pradesh 452008, India",1619940200000,Private
+464,Indore,-1,452001,Indore,9826020383,7,4,NA,8,17,0731 240 1388,SHUKLA HOSPITAL,0,-1,0,"1-A, Nemawar Road, Navlakha Rd, chourha, Sajan Nagar, Indore, Madhya Pradesh 452001, India",1619943230000,Private
+465,Indore,-1,452001,Indore,8989462375,2,0,Dr HEMANT KANSAL,5,3,"8989462375, 8989462375",KARUNA NURSING HOME,0,-1,0,"32, MY Hospital Rd, Opposite M.Y.Hospital, Near Pooja Dairy, Ushaganj, Murai Mohalla, Indore, Madhya Pradesh 452001, India",1619941391000,Private
+466,Indore,-1,452006,Indore,9753555022,6,1,na,3,6,", ",ANMOL HOSPITAL,0,-1,0,"Plot No.151-152 , Scheme No. 155, Main Rd, Tigaria Badshah, Indore, Madhya Pradesh 452006, India",1619917800000,Private
+467,Indore,-1,452009,Indore,7315485462,2,0,NA,7,9,"7315485462, 7315485462",RIYA HOSPITAL,0,-1,0,"2500E, E Sector, Sector E, Sudama Nagar, Indore, Madhya Pradesh 452009, India",1619946787000,Private
+468,Indore,-1,452020,Indore,9826229322,0,0,DR. SUNITA,11,53,0731 471 8111,VISHESH JUPITER  HOSPITAL,0,-1,0,"Palda, Indore, Madhya Pradesh 452020, India",1619941789000,Private
+469,Indore,-1,,Indore,9827561919,4,0,NA,6,4,", ",SANGAM HOSPITAL,0,-1,0,,1619941984000,Private
+470,Indore,-1,452020,Indore,9644000022,0,0,DR.PARAMPREET SAINI,10,44,0731 287 7399,GAURAV HOSPITAL,0,-1,0,"2-A, Ranibagh, Sector-A, Khandwa Road, Khandwa Naka, Limbodi, Sector A, Rani Bagh Main, Indore, Madhya Pradesh 452020, India",1619943898000,Private
+471,Indore,-1,453331,Indore,9826390138,3,0,NA,2,5,081094 25288,SANJIVANI HOSPITAL,0,-1,0,"Ram Rahim Colony, Indore, Madhya Pradesh 453331, India",1619940629000,Private
+472,Indore,-1,452014,Indore,9425060134,5,0,Dr ANIL BAHETI,15,15,0731 247 2880,SUYOG HOSPITAL,0,-1,0,"195, Bhanwar Kunwa Road, Near Railway Cross, Mechanic Nagar, Mechanic Nagar, Bairathi Colony Number 2, Indore, Madhya Pradesh 452014, India",1619945866000,Private
+473,Indore,-1,453771,Indore,9977113341,7,0,Dr KRISHNKANT JOSHI,3,10,099771 13341,VARNIT HOSPITAL,0,-1,0,"no 114, Khalsa Chowk, MR 11, Part I, Niranjanpur, Indore, Madhya Pradesh 453771, India",1619917998000,Private
+474,Indore,-1,452010,Indore,9425145386,2,0,NA,8,10,082698 73300,GBL HOSPITAL,0,-1,0,"AH/31, Senior HIG, Pandit Dindayal Upadhyay Nagar, Pandit Din Dayal Upadhyay Nagar, Sukhlia, Indore, Madhya Pradesh 452010, India",1619942115000,Private
+475,Jabalpur,-1,482002,Jabalpur,7747007001,15,0,Dr GUNJAN,10,16,0761 421 8312,ADITYA HOSPITAL,0,-1,0,"Napier Town, opposite little kingdom School, near to home Science College road, Napier Town, Jabalpur, Madhya Pradesh 482002, India",1619918542000,Private
+476,Indore,-1,452001,Indore,9039058883,0,0,Ashok Thakur,50,50,083198 75931,NEW CHEST WARD ( GMC),0,-1,0,"New Chest Ward , Back of main MY building, CRP Line, Indore, Madhya Pradesh 452001, India",1619946511000,Government
+477,Indore,-1,452016,Indore,7389087163,13,0,Nisha,12,32,0731 478 6600,"Mayur Hospital and Research Centre , Indore - DCHC",0,-1,0,"Scheme No-94, Plot No- 304, Ring Road near Bengali Chouraha And Khajrana Chouraha, Service Rd, Mangalmurti Krishnaji Nagar, Scheme 94 Sector WE, Indore, Madhya Pradesh 452016, India",1619943518000,Private
+478,Indore,-1,452012,Indore,9826063547,11,0,Dr SURENDRA SINGH,6,13,"9826063547, 9826063547",SUNRISE HOSPITAL RAJENDRA NAGAR,0,-1,0,"Nihalpur Mundi, Tulsi Parisar Phase 1, Indore, Madhya Pradesh 452012, India",1619942312000,Private
+479,Indore,-1,452010,Indore,9300068400,26,0,Dr SUMIT SHUKLA,6,10,"9300068400, 9300068400",UNIVERSAL HOSPITAL,0,-1,0,"WB, 22, Bombay Hospital Service Rd, near Green Field School, Vijay Nagar, Part II, Scheme No 54, Indore, Madhya Pradesh 452010, India",1619942267000,Private
+480,Indore,-1,452008,Indore,9826861361,5,0,DR. PARIHAR,50,65,0731 477 4444,CHL HOSPITAL,0,-1,0,"AB Rd, near L.I.G Square, Rss Nagar, Indore, Madhya Pradesh 452008, India",1619944145000,Private
+481,Indore,-1,452002,Indore,9826078056,0,0,NA,10,11,0731 241 8083,BAFNA HOSPITAL,0,-1,0,"18, 1, Jawahar Marg, opp. Vaishnav High School, North Rajmohalla, Raj Mohalla, Indore, Madhya Pradesh 452002, India",1619918392000,Private
+482,Indore,-1,452005,Indore,9111115020,8,0,Dr BAGESH,6,6,0731 262 3288,GURUKRIPA HOSPITAL,0,-1,0,"157/2 shikshak nagar Near allahabad bank kalani nagar square, Airport Rd, Parihar Market, Shikshak Nagar, Indore, Madhya Pradesh 452005, India",1619945523000,Private
+483,Indore,-1,452001,Indore,7049993303,6,0,DR. R K GOUR,5,20,0731 400 3315,GEETA BHAWAN HOSPITAL,0,-1,0,"No. 13C, Geeta Bhawan Main Road, Near Geeta Bhawan Mandir, Kailash Park, Manoramaganj, Kailash Park Colony, Indore, Madhya Pradesh 452001, India",1619915868000,Private
+484,Indore,-1,452001,Indore,8319500661,19,4,DR. ASHISH AGRAWAL,4,5,0731 424 1011,VADANT HOSPITAL,0,-1,0,"1, Bhawarkua Main Rd, Sindhu Nagar, Khatiwala Tank, Indore, Madhya Pradesh 452001, India",1619944715000,Private
+485,Indore,-1,452001,Indore,9826463370,0,0,Dr ARVIND SHUKLA,16,6,091111 21100,MASC HOSPITAL,0,-1,0,"335 BC IDA Scheme No 140 Pipliyahana Square, Near Agarwal Public School, Scheme No 140, Indore, Madhya Pradesh 452001, India",1619940423000,Private
+486,Indore,-1,453441,Indore,9977273709,11,0,Dr HANSHRAJ VARMA,21,14,"9977273709, 9977273709",CIVIL HOSPITAL MHOW,0,-1,0,"Indore Dhar Railway Line, Dharnaka, Indore, Madhya Pradesh 453441, India",1619943622000,Government
+487,Indore,-1,452001,Indore,9424584450,20,5,NA,0,0,0124 393 6765,HOTEL CENSUS (MEDANTA),0,-1,0,"Plot No.58, Scheme No. 53, near Medanta Hospital, Vijay Nagar, Indore, Madhya Pradesh 452001, India",1619918171000,Private
+488,Indore,-1,452009,Indore,7879445300,8,0,NA,2,5,0731 248 0351,KHANDELWAL HOASPITAL,0,-1,0,"plot no. 14, Annapurna Rd, Sector B, Sudama Nagar, Indore, Madhya Pradesh 452009, India",1619917982000,Private
+489,Indore,-1,453331,Indore,9713917441,5,0,HIMANSHU BHARGAV,5,10,0731 420 1300,NEW MINESH HOSPITAL RAU,0,-1,0,"2, Rau Station Rd, Near Railway Station, KB Colony, Rau, Indore, Madhya Pradesh 453331, India",1619945343000,Private
+490,Indore,-1,452002,Indore,7000912260,0,0,DR. AMIT SHARMA,14,46,090981 15189,VERMA UNION HOSPITAL,0,-1,0,"120, Dhar Rd, Gurunanak Timber Market, Indore, Madhya Pradesh 452002, India",1619944029000,Private
+491,Indore,-1,452018,Indore,9425050838,0,0,MANISH JAIN,13,7,0731 406 3095,SNS HOSPITAL,0,-1,0,"32, Khajrana Main Rd, Shree Nagar Ext, Shanti Nagar, Indore, Madhya Pradesh 452018, India",1619945930000,Private
+492,Indore,-1,452001,Indore,7999382007,50,50,NA,0,0,078790 43566,CCC,0,-1,0,"219 ALANKAR POINT, Gita Bhawan Rd, Rajgarh Kothi, SQUARE, Indore, Madhya Pradesh 452001, India",1619940752000,Government
+493,Indore,-1,453331,Indore,9826390138,13,0,NA,0,0,081094 25288,SANJEEVANI HOSPITAL RANGWASA,0,-1,0,"Ram Rahim Colony, Indore, Madhya Pradesh 453331, India",1619940593000,Private
+494,Indore,-1,452001,Indore,9993172869,15,0,MR. RAJKUMAR,10,25,731409545859,GURJAR HOSPITAL,0,-1,0,"2-3, Scheme No. 44, Bhawarkua Square, AB Rd, Vishnu Puri Colony, Indore, Madhya Pradesh 452001, India",1619941298000,Private
+495,Indore,-1,,Indore,7314205999,3,2,NA,12,12,"7000269154, 7000269154",PULSE HOSPITAL,0,-1,3,,1619944240000,Private
+496,Indore,-1,452001,Indore,9691449791,14,0,VIPIN KHANDWAL,33,15,0731 421 9191,SNG HOSPITAL,0,-1,0,"16/1, South Tukoganj, Kanchan Bag Main Rd, near Jain Temple, South Tukoganj, Indore, Madhya Pradesh 452001, India",1619941715000,Private
+497,Indore,-1,452001,Indore,9754366114,5,0,DR ANIRUDH,10,29,0731 422 2214,DASMESH HOSPITAL,0,-1,0,"36, 6, 1, Bholaram Ustad Marg, Bhawarkua, Brahmapuri Colony, Shivampuri Colony, Indore, Madhya Pradesh 452001, India",1619941523000,Private
+498,Indore,-1,452001,Indore,9425065523,0,0,DR. SANJAY GOKULDAS,25,78,0731 251 9212,"Gokuldas Hospital, Indore - DCHC",3,-1,0,"11 , DR SARJU PRASAD MARG 11, DR SARJU, Jagannath Verma Marg, Sriram Nagar, South Tukoganj, Indore, Madhya Pradesh 452001, India",1619941030000,Private
+499,Indore,-1,452009,Indore,9977849200,21,0,Dr RAJEEV KUMAR,7,0,"9977849200, 9977849200",SEHAT HOSPITAL,0,-1,0,"13-A, Ranjeet Hanuman Road, Usha Nagar Extension, Sudama Nagar, Usha Nagar, Indore, Madhya Pradesh 452009, India",1619942355000,Private
+500,Indore,-1,452005,Indore,7898015110,12,0,NA,6,6,0731 305 7373,CITIZEN HOSPITAL,0,-1,0,"No.1, Airport Road, Oppsite B.S.F, Kanyakubj Nagar, near Vidhya Dham, Kanyakubj Nagar, Indore, Madhya Pradesh 452005, India",1619946854000,Private
+501,Indore,-1,452010,Indore,9039558222,16,0,Dr SISODIYA,5,10,0731 255 8222,V CARE HOSPITAL,0,-1,0,"163, AF, Scheme No 74, Scheme No 54, Indore, Madhya Pradesh 452010, India",1619945749000,Private
+502,Indore,-1,452001,Indore,7999594228,18,0,NIKHAR AGRAWAL,8,10,"7999594228, 7999594228",MALWA NURSING HOME,0,-1,0,"9/2, Malwa Mill Rd, Malwa Mill, Indore, Madhya Pradesh 452001, India",1619944957000,Private
+503,Indore,-1,452001,Indore,9685828097,800,44,Sudhir Moury,150,50,0731 252 7383,"Index Medical College and Hospital, Indore - DCH- (Contract)",0,-1,0,"AB Rd, CRP Line, Indore, Madhya Pradesh 452001, India",1619943410000,Government
+504,Indore,-1,452010,Indore,9826730066,44,0,DR. SUBODH JAIN,25,10,0731 255 0400,SYNERGY HOSPITAL,0,-1,0,"Plot No-2, Post Office Road, Sector B - 6 Rd, Bhanvarkuan, Scheme No 74C, Vijay Nagar, Indore, Madhya Pradesh 452010, India",1619944111000,Private
+505,Indore,-1,452015,Indore,9926422802,10,0,Dr RAM PATIDAR,20,25,089892 50011,TRUE CARE HOSPITAL,0,-1,0,"Kushwah Nagar Main Rd, Durga Nagar, Raja Bagh Colony, Indore, Madhya Pradesh 452015, India",1619918149000,Private
+506,Indore,-1,,Indore,9826727923,35,0,NA,5,10,", ",PARMILA HOSPITAL,0,-1,0,,1619917224000,Private
+507,Indore,-1,,Indore,7316618900,300,289,Dr ISHTIYAQ,0,0,"7316618902, 8517996644",SEVAKUNJ HOSPITAL,0,-1,0,,1619940305000,Private
+508,Indore,-1,452018,Indore,9993577068,19,0,DR. VINOD SHARMA,10,26,0731 470 3811,EUREKA HOSPITAL,0,-1,0,"347 Mahatma Gandhi Road, near पत्रकार कॉलोनी चौराहा, Saket Nagar, Indore, Madhya Pradesh 452018, India",1619941943000,Private
+509,Indore,-1,452001,Indore,7314224018,8,0,NA,10,8,0731 422 4018,MEDISQUARE HOSPITAL,0,-1,0,"9, Vishnupuri, Bhanwarkua Square, AB Rd, Vishnupuri, Indore, Madhya Pradesh 452001, India",1619946687000,Private
+510,Indore,-1,452001,Indore,9893131315,0,0,ANIL PANDIT,10,10,082692 60260,TULSI VARDAN HOSPITAL,0,-1,0,"SH-20, Bhagat Singh Parisar, AB Rd, opposite Mangal city, Hig, Vijay Nagar, Indore, Madhya Pradesh 452001, India",1619942185000,Private
+511,Indore,-1,452002,Indore,9993702920,5,0,NA,5,10,", ",UNIQUE HOSPITAL JAWAHAR MARG,0,-1,0,"335, Jawahar Marg, Santha Bazar, Bartan Bazar, Indore, Madhya Pradesh 452002, India",1619940252000,Private
+512,Indore,-1,452007,Indore,7000471476,12,0,Dr PROMOD SHUKLA,8,30,"7000471476, 7000471476",SAI HOSPITAL,0,-1,0,"7, Rajaswgram Colony, Chhatribagh, Indore, Madhya Pradesh 452007, India",1619940794000,Private
+513,Indore,-1,452005,Indore,9449979334,22,0,DR.VISHAL ARYA,2,6,"9449979334, 9449979334",SK HOSPITAL,0,-1,0,"60 Feet Airport Rd, Ambikapuri Extension, Ambikapuri Main, Indore, Madhya Pradesh 452005, India",1619941672000,Private
+514,Indore,-1,452001,Indore,6263793002,4,0,Sister Minet,1,1,0731 249 2051,Robert Nursing Home,0,-1,0,"Old Sehore Road, Residency Area, near Red Church, Red Church Colony, Residency Area, Indore, Madhya Pradesh 452001, India",1619943942000,Private
+515,Indore,-1,453331,Indore,9755521555,4,0,NA,0,6,097555 21555,MULTANI HOSPITAL,0,-1,0,"Kamal Nagar, Square, Rau, Indore, Madhya Pradesh 453331, India",1619940465000,Private
+516,Indore,-1,452002,Indore,9926611405,40,0,DR. RAVI PUNJABI,6,10,0731 238 0845,CLOTH MARKET HOSPITAL,0,-1,0,"Labriyabheru, Near, Dhar Rd, Gangwall Bus Stand, MOG Lines, Scheme 71, Indore, Madhya Pradesh 452002, India",1619944069000,Private
+517,Indore,-1,452006,Indore,9755400832,5,0,DR GOKUL DYAL,0,2,098270 10439,G D HOSPITAL,0,-1,0,"Mahavir Bagh, Indore, Madhya Pradesh 452006, India",1619941753000,Private
+518,Indore,-1,452016,Indore,9826064425,32,0,DR. RAVI VERMA,30,24,0731 286 3200,SMS ENERGY HOSPITAL,0,-1,0,"Parwati Parisar ' SMS - Energy Hospital , Dudhia |, Nemawar Rd, Devguradia, Indore, Madhya Pradesh 452016, India",1619943752000,Private
+519,Indore,-1,452014,Indore,9425065523,0,0,DR. SURESH KALTAN,40,117,0731 236 2491,CHOITHRAM HOSPITAL,0,-1,0,"14, Manik Bagh Road, Choitram compound, Indore, Madhya Pradesh 452014, India",1619941862000,Private
+520,Indore,-1,452005,Indore,9039247248,16,7,NA,2,7,"9039247248, 9039247248",MAHARANA PRATAP HOSPITAL,0,-1,0,"16, Kila Maidan Rd, Khasgi Ka Bagicha, Nanda Nagar, Govind Colony, Indore, Madhya Pradesh 452005, Kila Maidan Rd, Khasgi Ka Bagicha, Nanda Nagar, Govind Colony, Indore, Madhya Pradesh 452005, India",1619940550000,Private
+521,Indore,-1,452001,Indore,9424577069,22,0,Dr SHARAD,15,15,"9424577069, 9424577069",LAKSHMI MEMORIAL HOSPITAL,0,-1,0,"117, New Palasia, Indore, Madhya Pradesh 452001, India",1619946463000,Private
+522,Indore,-1,452001,Indore,7000399014,4,0,Dr RAJPUT,0,6,0731 270 6373,DHANVANTARI HOSPITAL,0,-1,0,"23, Raj Talkies Complex, Sanyogitaganj, Chhawani, Chhawani, Risi Nagar, Tilak Path, Indore, Madhya Pradesh 452001, India",1619945015000,Private
+523,Indore,-1,452010,Indore,9407546261,4,0,Dr D P AGRAWAL,4,12,0731 255 5888,MEDIPLUS HOSPITAL,0,-1,0,"166, Nyay Nagar Main Rd, Nyay Nagar, Sukhlia, Indore, Madhya Pradesh 452010, India",1619941481000,Private
+524,Indore,-1,453555,Indore,7314231293,0,0,Rajeev Singh,20,380,0731 423 1622,Aurobindo Medical College and Hospital (CONTRACT),0,-1,35,"Indore - Ujjain State Highway, near MR 10, Crossing, Indore, Madhya Pradesh 453555, India",1619941233000,Government
+525,Indore,-1,452010,Indore,9981028593,10,0,NA,2,2,", ",SAI KRIPA HOSPITAL,0,-1,0,"178, AB Rd, Part I, Scheme No 114, Indore, Madhya Pradesh 452010, India",1619917636000,Private
+526,Indore,-1,,Indore,9425022217,5,1,NA,0,5,", ",Arthros hospital,0,-1,3,,1619940015000,Private
+527,Indore,-1,452009,Indore,7828035253,17,0,DR. RAKESH PATIDAR,38,20,0731 279 9884,UNIQUE HOSPITAL,0,-1,0,"715-716, Vijay Syndicate, Annapurna Rd, Usha Nagar, Vijay Syndicate Colony, Indore, Madhya Pradesh 452009, India",1619941558000,Private
+528,Indore,-1,452001,Indore,7566626474,17,0,Dr RAHUL CHOUDHARY,7,18,"7566626474, 7566626474",INDORE TRAUMA CENTER,0,-1,0,"Dayal Bagh Colony, Khandwa Rd, near Holy Cross School, Limbodi, Indore, Madhya Pradesh 452001, India",1619942072000,Private
+529,Indore,-1,452010,Indore,8109216700,3,0,DR. SUSHIL JAIN,11,29,"9039080111, 9873053252",Apollo Hospital,0,-1,0,"Sector-D, Scheme No 74C, Vijay Nagar, Indore, Madhya Pradesh 452010, India",1619943715000,Private
+530,Indore,-1,452009,Indore,9926668776,3,0,NA,7,8,062665 27827,SEVALAY HOSPITAL,0,-1,0,"Shop No. 8 Kagdipura Road Narsing Bazar Square, Kagdipura, Indore, Madhya Pradesh 452009, India",1619940710000,Private
+531,Indore,-1,452011,Indore,9826317952,6,0,NA,6,30,"9826317952, 9826317952",ESIC HOSPITAL,0,-1,0,"1378/11, ITI College Main Road, Nanda Nagar, Indore, Madhya Pradesh 452011, India",1619940363000,Government
+532,Indore,-1,452010,Indore,7999761752,2,0,DR,6,12,"7999761752, 7999761752",BHARAT HOSPITAL,0,-1,0,"118, 01, Khatipura Main Rd, Shyam Nagar, Khatipura, Indore, Madhya Pradesh 452010, India",1619940665000,Private
+533,Indore,-1,452001,Indore,9826033538,13,0,PRAVEEN ACHARYA,12,17,0731 409 2120,ANAND HOSPITAL,0,-1,0,"Bhawarkua Main Rd, Sindhi Colony, Indore, Madhya Pradesh 452001, India",1619945065000,Private
+534,Jabalpur,-1,482001,Jabalpur,9893559584,0,0,Dr ANJU CHOUDHARY,19,49,076124 00258,BHANDARI HOSPITAL,0,-1,0,"RB-II 431/3, NH30, Howbag Railway Colony, Nehru Railway Colony, Gorakhpur, Jabalpur, Madhya Pradesh 482001, India",1619946572000,Private
+535,Indore,-1,452005,Indore,7000043329,12,0,DR. JAGDISH BIRLA,12,28,0731 241 4177,GEETANJALI HOSPITAL,0,-1,0,"4 Airport Road, Ramchandra Nagar Chouraha, opposite Police Petrol Pump, Vindhyanchal Nagar Colony, Ramachandra Nagar, Indore, Madhya Pradesh 452005, India",1619917105000,Private
+536,Indore,-1,453441,Indore,9827024802,0,0,DR. RAHUL MEWADA,20,30,077710 13158,MEWADA MEDICARE AND EYECARE HOSPITAL MHOW,0,-1,0,"102, Mewara Garden, Old AB Road Dist Indore, Kishanganj, Dr. Ambedkar Nagar, Madhya Pradesh 453441, India",1619940926000,Private
+537,Indore,-1,452016,Indore,9301814686,0,0,NA,2,11,093293 99456,SAMYAK HOSPITAL,0,-1,0,"1, Bicholi Hapsi Rd, Shiv Shakti Nagar, Vaibhav Nagar Sector A, Indore, Madhya Pradesh 452016, India",1619944198000,Private
+538,Indore,-1,452011,Indore,9826013666,4,0,Dr DEEPAK,8,4,"9826013666, 9826013666",ARYAN HOSPITAL,0,-1,0,"Shree Ram Square, HIG Main Rd, Atal Dwar, Near MIG Thana, Nehru Nagar, Indore, Madhya Pradesh 452011, India",1619919428000,Private
+539,Indore,-1,,Indore,7312583838,1100,708,NA,0,0,"7312583838, 7312583838",Maa Ahilya Covid Care Centre,0,-1,0,,1619943306000,Government
+540,Indore,-1,452001,Indore,9826776168,0,0,DR. SEEMA GUPTA,32,58,0731 663 3333,GREATER KAILASH HOSPITAL,0,-1,0,"Greater Kailash Road, New Palasia Extension, Indore, Madhya Pradesh 452001, India",1619943810000,Private
+541,Indore,-1,452016,Indore,9826046644,10,0,DR. SANJAY,26,56,0731 474 7000,MEDANTA HOSPITAL,0,-1,0,"Shanti Hospital, 5, Shagun Arcade, Opposite U- Turn, Vijay Nagar, Ratna Lok Colony, Indore, Madhya Pradesh 452016, India",1619941123000,Private
+542,Indore,-1,452010,Indore,9669827283,8,0,GOLU PATEL,0,7,091114 22208,BIRLA HOSPITAL,0,-1,0,"1118, 1120, New, Gori Nagar Main Rd, New Gouri Nagar, Sukhlia, Indore, Madhya Pradesh 452010, India",1619941602000,Private
+543,Indore,-1,452005,Indore,9039567978,8,0,NA,5,0,"9039567978, 9039567978",RAMKRISHNA HOSPITAL,0,-1,0,"Old Airport, Babu Murai Colony, Indore, Madhya Pradesh 452005, India",1619943349000,Private
+544,Indore,-1,452016,Indore,7869957097,5,0,Dr SATYENDRA,6,14,0731 403 6034,SHRI P D SIDDHI VINAYAK,0,-1,0,"EE-53, Eastern Ring Rd, Main Kharjana Square, Scheme No.94, Ridhi Sidhi, Utkarsh Vihar Colony, Indore, Madhya Pradesh 452016, India",1619945571000,Private
+545,Jabalpur,-1,482002,Jabalpur,9424624868,10,0,MR NAVEEN SHIVHARE,0,20,0761 444 4986,National Hospital,0,-1,0,"Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619923168000,Private
+546,Jabalpur,-1,,Jabalpur,9584047501,40,25,DR SHAILENDRA DIWAN,0,0,", ",ANUSUCHIT GIRL HOSTEL KUNDAM,0,-1,0,,1619926339000,Government
+547,Jabalpur,-1,482009,Jabalpur,9425150754,0,0,DR GREGORY,0,16,", ",VEHICLE FACTORY HOSPITAL,0,-1,16,"Vehicle Factory Estate, Shobhapur, Jabalpur, Madhya Pradesh 482009, India",1619926843000,Government
+548,Jabalpur,-1,482003,Jabalpur,7999602301,0,0,DR. AMIT KHARE,12,23,"7999602301, 7999602301",SMART CITY HOSPITAL,0,-1,0,"482003, Garha, Jabalpur, Madhya Pradesh 482003, India",1619922553000,Private
+549,Jabalpur,-1,482004,Jabalpur,9993966662,5,3,DR AMIT GOUR,19,16,099939 66662,Sanjeevan Hospital,1,-1,7,"628, Amkhera Rd, Ram Nagar, Bhumi Vikash Bank Colony, Adhartal, Jabalpur, Madhya Pradesh 482004, India",1619933197000,Private
+550,Jabalpur,-1,482002,Jabalpur,9302071919,7,4,DEEPAK SONI,10,11,"9302071919, 9302071919",MEDICARE HOSPITAL,0,-1,3,"Shatabdipuram Phase 1, Jabalpur, Madhya Pradesh 482002, India",1619924927000,Private
+551,Jabalpur,-1,482002,Jabalpur,9827226710,0,0,DR KOTHARI,10,20,098272 26710,KOTHARI HOSPITAL,0,-1,7,"Gate No. 4 Chauraha, Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619928116000,Private
+552,Jabalpur,-1,482002,Jabalpur,9685302128,10,2,Pankaj Pathak,7,12,076124 01637,ASHISH HOSPITAL,0,-1,0,"Home Science College Rd, Napier Town, Jabalpur, Madhya Pradesh 482002, India",1619921859000,Private
+553,Jabalpur,-1,482002,Jabalpur,9407349816,48,29,KAMLESHWAR MEHTO,8,40,0761 407 8520,CENTRAL INDIA KIDNEY HOSPITAL,1,-1,20,"Behind, Chanchala Bai College, Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619924099000,Private
+554,Jabalpur,-1,,Jabalpur,9893458022,20,16,DR SMITA GUPTA,0,0,", ",GOVT HOSPITAL BARGI NAGAR,0,-1,0,,1619926062000,Government
+555,Jabalpur,-1,,Jabalpur,9993615542,4,4,NITIN DUBEY,3,12,"9993615542, 9993615542",LAXMI NARYAN HOSPITAL,0,-1,6,,1619923235000,Private
+556,Jabalpur,-1,,Jabalpur,9131639541,70,60,DR ABHINAY SONI,0,10,"9131639541, 9131639541",SINDHI DHARAMSHALA GHANTAGHAR,0,-1,10,,1619925909000,Government
+557,Jabalpur,-1,482001,Jabalpur,9425865832,0,0,CHANDRAMANI GAUTAM,0,15,"9425865832, 9425865832",RADHE KRISHNA MULTISPECIALITY HOSPITAL,0,-1,14,"Station Rd, Shukla Nagar, Madan Mahal, Jabalpur, Madhya Pradesh 482001, India",1619920087000,Private
+558,Jabalpur,-1,482003,Jabalpur,7024166099,0,0,Dr khanna,40,260,076123 70951,Sukh sagar medical college,0,-1,184,"Tilwara Rd, Doctors Colony, Medical College Colony, Jabalpur, Madhya Pradesh 482003, India",1619941409000,Private
+559,Jabalpur,-1,482002,Jabalpur,7869500602,25,4,DR ATUL SINGH,54,21,095758 01200,SHALBY HOSPITAL,0,-1,0,"Plot No-5, Street No-5, Ahinsa Chowk, Kanchan Vihar, Vijay Nagar, Jabalpur, Madhya Pradesh 482002, India",1619927851000,Private
+560,Jabalpur,-1,,Jabalpur,7000347806,0,0,RAJESH PATEL,15,10,"7000347806, 7000347806",JOHARI HOSPITAL,4,-1,1,,1619919514000,Private
+561,Jabalpur,-1,482001,Jabalpur,9757288301,0,0,CHANCHAL KAUR,45,125,0761 492 5150,LIFE MEDICITY HOSPITAL,0,-1,0,"Aaga Chowk near baldeobagh (2.75 km) 482001, Sheetalpuri, Jabalpur, Madhya Pradesh 482001, India",1619922133000,Private
+562,Jabalpur,-1,,Jabalpur,9039273710,10,2,DR MAYUR VISHWAROOP,0,0,", ",ADIWASI BOYS HOSTEL MAJHOLI,0,-1,0,,1619926395000,Government
+563,Jabalpur,-1,482002,Jabalpur,9755611666,2,2,VISHWAS CHOUHAN,4,20,0761 403 1586,PG MULTISPECIALITY HOSPITAL,0,-1,0,"Near Prem Mandir 1933, Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619928320000,Private
+564,Jabalpur,-1,482002,Jabalpur,9329123479,0,0,MR AGESH TIWARI,42,14,"6261202288, 6261202288",MOHAN LAL HARGOVINDDAS HOSPITAL,0,-1,4,"Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619929541000,Private
+565,Jabalpur,-1,482001,Jabalpur,9752415507,10,5,Dr. Sandeep Chauhan,10,60,076126 29634,Central Railway Hospital,0,-1,5,"Railway Station Road, Indra Market, South Civil Lines, Jabalpur, Madhya Pradesh 482001, India",1619932322000,Government
+566,Jabalpur,-1,,Jabalpur,8319162457,20,13,DR RASHMI GUPTA,0,0,", ",ADIWASI BOYS HOSTEL BARGI,0,-1,0,,1619926123000,Government
+567,Jabalpur,-1,482003,Jabalpur,9584262358,81,31,DR SANJAY BHARTI,600,144,094793 04042,"GMC, Jabalpur - DCH",0,-1,0,"Netaji Subhash Chandra Bose Medical College, Doctors Colony, Medical College Colony, Jabalpur, Madhya Pradesh 482003, India",1619919304000,Government
+568,Jabalpur,-1,482004,Jabalpur,7987471929,3,1,Ajay vishwakarma,4,8,098937 36568,JEEVAN JYOTI HOSPITAL,1,-1,1,"Opp Dena Bank, Ashok Nagar, Anand Nagar, Adhartal, Jabalpur, Madhya Pradesh 482004, India",1619930049000,Private
+569,Jabalpur,-1,482002,Jabalpur,8770718631,0,0,DR ROHIT JAAT,10,15,"8770718631, 8770718631",SIDDHI VINAYAK HOSPITAL,10,-1,15,"cheritaal, Sarvodaya Nagar, Jabalpur, Madhya Pradesh 482002, India",1619932724000,Private
+570,Jabalpur,-1,482002,Jabalpur,7509984900,8,3,RANJEET THAKUR,12,4,"9926304755, 9826190544",SUDHA MULTISPECIALITY HOSPITAL & HIGH RISK PREGNANCY CENTRE,0,-1,0,"837, Gole Bazar, Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619930750000,Private
+571,Jabalpur,-1,,Jabalpur,7869890925,0,0,PREETI PANDEY,4,14,"7869890925, 7869890925",K J Memorial Hospital,4,-1,14,,1619928079000,Private
+572,Jabalpur,-1,482001,Jabalpur,9981503902,0,0,BRAJESH TIWARI,20,50,"9981503902, 9981503902",JABALPUR HOSPITAL,0,-1,0,"jabalpur hospital, Jabalpur Hospital to Shastri Bridge, Napier Town, Jabalpur, Madhya Pradesh 482001, India",1619934196000,Private
+573,Jabalpur,-1,,Jabalpur,7000334395,10,3,DR ISHWAR SINGH THAKUR,0,0,", ",GIRLS HOSTEL SHAHPURA,0,-1,0,,1619926446000,Government
+574,Jabalpur,-1,482002,Jabalpur,8770482116,15,0,AJAY PATEL,14,14,0761 402 6000,SMJ TRUST HOSPITAL JABALPUR MP,0,-1,0,"Maharshi Dayanand Saraswati Chowk, Napier Town, Jabalpur, Madhya Pradesh 482002, India",1619931345000,Private
+575,Jabalpur,-1,482002,Jabalpur,9826637759,0,0,KALPANA VERMA,4,51,0761 421 8312,ADITYA HOSPITAL,0,-1,3,"Napier Town, opposite little kingdom School, near to home Science College road, Napier Town, Jabalpur, Madhya Pradesh 482002, India",1619928598000,Private
+576,Jabalpur,-1,482011,Jabalpur,8332999335,0,0,DR VISHWAS KHAMARIYA,0,25,"8332999335, 8332999335",ORDNANCE FACTORY KHAMARIA DCHC,0,-1,4,"Unnamed Road,, Khamaria, O.F.Khamaria, Madhya Pradesh 482011, India",1619926761000,Government
+577,Jabalpur,-1,,Jabalpur,9131517757,2,1,Deepak,3,10,"9131517757, 9131517757",Dashmesh hospital MADAN MAHAL,3,-1,7,,1619922919000,Private
+578,Jabalpur,-1,482002,Jabalpur,9691222290,0,0,DR BABITA DAHIYA,10,22,098261 15687,GOLCHA HOSPITAL,0,-1,8,"56, Napier Town, opp. Bhanwartal Park, Marhatal, Jabalpur, Madhya Pradesh 482002, India",1619924218000,Private
+579,Jabalpur,-1,,Jabalpur,8319936109,0,0,SHAN,3,10,"8349844756, 8223874097",NAV ENT  & CANCER HOSPITAL JABALPUR,1,-1,4,,1619922982000,Private
+580,Jabalpur,-1,,Jabalpur,8962104593,0,0,DR SATISH PATEL,5,10,"8962104593, 8962104593",HARI OM MULTISPECIALITY HOSPITAL PURWA GARHA,5,-1,0,,1619927327000,Private
+581,Jabalpur,-1,,Jabalpur,7415829874,60,48,DR RAHUL JHARIYA,0,20,"7415829874, 7415829874",COMMUNITY HALL BARELA,0,-1,20,,1619926174000,Government
+582,Jabalpur,-1,482002,Jabalpur,9425387372,0,0,DR. S.P SINGH,0,80,"9425387372, 9425387372",MANMOHAN NAGAR HOSPITAL,0,-1,11,"Manmohan Nagar, Krishi Upaj Mandi, Trimurti Nagar, Jabalpur, Madhya Pradesh 482002, India",1619926701000,Government
+583,Jabalpur,-1,482003,Jabalpur,9630876068,6,0,AKASH NAMDEO,15,4,076124 23865,BUDHOLIA HOSPITAL,0,-1,0,"249, Main Road Sanjivni Nagar, Garha road, Sanjeevani Nagar, Jabalpur, Madhya Pradesh 482003, India",1619915729000,Private
+584,Jabalpur,-1,,Jabalpur,9424949973,0,0,MAYANK BARSAINYA,0,10,"9424949973, 9424949973",MEDIVO HOSPITAL MANMOHAN NAGAR,0,-1,0,,1619918868000,Private
+585,Jabalpur,-1,,Jabalpur,9329486447,0,0,MANEESH SHARMA,5,15,"9479450650, 9589101020",SHREE SHUBHAM HOSPITAL,0,-1,0,,1619928616000,Private
+586,Jabalpur,-1,482001,Jabalpur,9752413300,15,0,MR A CHAKRAVORTY,72,88,097555 49767,CITY HOSPITAL AND RESEARCH CENTER,0,-1,0,"South Civil Lines, Nagrath Chowk, South Civil Lines, Jabalpur, Madhya Pradesh 482001, India",1619920838000,Private
+587,Jabalpur,-1,482002,Jabalpur,9303099434,0,0,DR. MUKUL NEMA,20,45,1800 890 6909,ANANT HOSPITAL,0,-1,5,"Madan Mahal Railway Station Rd, Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619927894000,Private
+588,Jabalpur,-1,482001,Jabalpur,7000347820,13,13,MANOJ BHARADWAJ,5,11,"7000347820, 7000347820",REVANTA HOSPITAL,5,-1,1,"Main Rd, Transport Nagar, Suhagi, Madhya Pradesh 482001, India",1619925246000,Private
+589,Jabalpur,-1,482002,Jabalpur,9179232478,15,7,SUREKHA KORI,10,15,0761 407 2225,TRUECARE HOSPITAL,0,-1,8,"786 Abdul Hammed Chowk, Raddi choki, near patrol pump, Bhumi Vikash Bank Colony, Adhartal, Jabalpur, Madhya Pradesh 482002, India",1619918248000,Private
+590,Jabalpur,-1,,Jabalpur,9425787000,100,87,DR AASHISH,0,50,"9425787000, 9425787000",GYANODAYA  HOSTEL RANJHI,0,-1,26,,1619926583000,Government
+591,Jabalpur,-1,482002,Jabalpur,9631576656,0,0,DR KAVITA DUBEY,0,22,"9631576656, 9631576656",SAPTRISHI HOSPITAL,0,-1,4,"Manas bhavan road, near IDBI Bank Regional Office, Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619924969000,Private
+592,Jabalpur,-1,482001,Jabalpur,8349845828,5,5,Movin parera,12,48,076124 21312,BEST SUPER SPECIALTY HOSPITAL,0,-1,1,"1352, Home Science College Rd, near Ashish Hospital, Napier Town, Jabalpur, Madhya Pradesh 482001, India",1619927879000,Private
+593,Jabalpur,-1,482002,Jabalpur,9479450650,0,0,AJAY SONI,8,20,076126 23040,AKANSHA HOSPITAL GHAMAPUR,0,-1,0,"Raddi Chowk, Ghamapur, Jabalpur, Madhya Pradesh 482002, India",1619921062000,Private
+594,Jabalpur,-1,482002,Jabalpur,9669084809,11,0,MR. NARAYAN,4,25,076126 27833,PANDEY HOSPITAL,0,-1,0,"499, North, BeoharBagh, South Civil Lines, BeoharBagh, Jabalpur, Madhya Pradesh 482002, India",1619927594000,Private
+595,Jabalpur,-1,,Jabalpur,9407377891,15,9,DR HEMA BISEN,0,0,", ",ADIWASI BOYS HOSTEL SIHORA,0,-1,0,,1619926499000,Government
+596,Jabalpur,-1,482002,Jabalpur,6260697753,0,0,SAMEER PATHAK,6,46,098273 91166,BOMBAY HOSPITAL,1,-1,14,"behind Maharashtra High school, Gole Bazar, Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619930551000,Private
+597,Jabalpur,-1,482002,Jabalpur,8319502241,0,0,DR. SHAILENDRA MASIH,5,15,"8319502241, 8319502241",SHREE RAWATPURA HOSPITAL,5,-1,15,"250, MR-4 Rd, Vikas Nagar, Jabalpur, Madhya Pradesh 482002, India",1619928568000,Private
+598,Jabalpur,-1,482002,Jabalpur,9479450650,0,0,Ajay soni,10,15,093016 66655,NEW LIFE,0,-1,0,"Nagpur Rd, near Sharda Chowk, Maheshpur, Jabalpur, Madhya Pradesh 482002, India",1619920229000,Private
+599,Jabalpur,-1,482003,Jabalpur,6264936438,5,4,SANTOSH KUMAR,5,5,"9039057753, 9826157753",AROGYAM HOSPITAL,1,-1,5,"HD-13, Dhanwantary Nagar Main Rd, Near Union Bank, Dhanvantari Nagar, Jabalpur, Madhya Pradesh 482003, India",1619936540000,Private
+600,Jabalpur,-1,482003,Jabalpur,8435002300,0,0,ANIKET JAIN,34,36,0761 401 7010,GALAXY SS HOSPITAL,16,-1,36,"Ukhari tiraha Vijay Nagar, Shatabdipuram Phase 1, Jabalpur, Madhya Pradesh 482003, India",1619926797000,Private
+601,Jabalpur,-1,482002,Jabalpur,9826120326,24,6,DR. SUBODHA DARBARI,12,1,076126 88513,SHREE NARMADA HOSPITAL,1,-1,0,"A9, MR-4 Rd, Shatabdipuram Phase 2, New Adaresh Colony, Madhya Pradesh 482002, India",1619925216000,Private
+602,Jabalpur,-1,,Jabalpur,7586753082,12,5,DR ANURAG ATROLIYA,0,0,", ",ADIWASI  HOSTEL PATAN/ KATANGI,0,-1,0,,1619926226000,Government
+603,Jabalpur,-1,482002,Jabalpur,9179822605,6,2,KAMAL SINGH,6,4,0761 407 3501,STAR HOSPITAL,0,-1,0,"Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619931464000,Private
+604,Jabalpur,-1,482002,Jabalpur,8959318933,18,0,SANTOSH KATULKAR,24,30,076124 12333,JAMDAR HOSPITAL,0,-1,0,"816, jamdar hospital, Gole Bazar, Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619917847000,Private
+605,Jabalpur,-1,482002,Jabalpur,9575300103,0,0,MR SUNIL ASATI,60,13,095753 00110,METRO HOSPITAL JABALPUR,0,-1,0,"kuchaini parisar, Bus stand, Damoh Naka, Nr Kchetriya, Transport Nagar, Jabalpur, Madhya Pradesh 482002, India",1619930213000,Private
+606,Jabalpur,-1,482008,Jabalpur,8959934990,0,0,DR Jyoti thakur,0,9,"8959934990, 8959934990",GOVT.AYURVEDIC  HOSPITAL,0,-1,6,"Awadhpuri Colony, Gwarighat, Jabalpur, Madhya Pradesh 482008, India",1619926641000,Government
+607,Jabalpur,-1,482002,Jabalpur,9425863999,0,0,Dr.Sanjay Jain,13,227,"9425863999, 9425863999",DH Jabalpur - DCHC,0,-1,0,"Badi Omti, Ganjipura Rd, Ganjipura, Jabalpur, Madhya Pradesh 482002, India",1619927933000,Government
+608,Jabalpur,-1,,Jabalpur,8103538859,25,15,DR SWAPNIL JAIN,0,0,", ",SHREE PARSHAVNATH DIGAMBAR BADA JAIN MANDIR,0,-1,0,,1619925989000,Government
+609,Jabalpur,-1,482002,Jabalpur,7828533305,0,0,SANJEEV SHRIVASTAVA,5,45,076124 01909,MAHAKOSHAL HOSPITAL,0,-1,0,"Gate No. 3, Gau Mata Chowk Opp Nehru Stadium, Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619925858000,Private
+610,Jabalpur,-1,482004,Jabalpur,8226006076,6,6,SANJEEV SINGH,21,23,082230 00015,MEDAZ HOSPITAL JABALPUR,14,-1,19,"1054 Opp Kamala Bhandar, Main Rd, Jai Prakash Nagar, Adhartal, Jabalpur, Madhya Pradesh 482004, India",1619928195000,Private
+611,Jabalpur,-1,482002,Jabalpur,9713211666,2,0,Vishwas Chouhan,19,0,"8839636048, 7000361866",Life Care ICU,0,-1,0,"3rd Floor , PG Mukherjee's Hospital, 1933, Prem Mandir Rd, near Astha Medical, Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619928157000,Private
+612,Jabalpur,-1,482002,Jabalpur,9752234415,10,10,DHAWAL DEKHANE,10,60,084618 84444,SWASTIK HOSPITAL,0,-1,5,"opp. Interstate Bus Terminal, near Deen Dayal Chowk, Vijay Nagar, Jabalpur, Madhya Pradesh 482002, India",1619930232000,Private
+613,Jabalpur,-1,482002,Jabalpur,9926411330,0,0,Mr Manoj Mishra,16,30,"7000407454, 9893268123",Sanskardhani Hospital,0,-1,5,"Karmeta, Jabalpur, Madhya Pradesh 482002, India",1619928416000,Private
+614,Jabalpur,-1,482002,Jabalpur,9826153333,0,0,Dr Ahluwaliya,11,9,"9826153333, 9826153333",J.K HOSPITAL,0,-1,1,"2006, Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619932462000,Private
+615,Jabalpur,-1,,Jabalpur,9039025390,5,4,NITIN SHARMA,0,5,", ",CENTRAL HOSPITAL & RESERCH CENTRE LABOUR CHOWK,0,-1,2,,1619925424000,Private
+616,Jabalpur,-1,,Jabalpur,9685258079,10,4,DR NILESH SURYAVANSHI,0,0,", ",ADIWASI  HOSTEL  PANAGAR,0,-1,0,,1619926277000,Government
+617,Jabalpur,-1,482002,Jabalpur,8120512237,0,0,sangita yadav,24,15,076124 15200,SHITAL CHHAYA HOSPITAL,5,-1,5,"10, Malaviya Chowk, Wright Town, Jabalpur, Madhya Pradesh 482002, India",1619927685000,Private
+618,Jabalpur,-1,482001,Jabalpur,7477234268,0,0,MD KHURSEED,11,6,076124 00258,BHANDARI HOSPITAL,0,-1,0,"RB-II 431/3, NH30, Howbag Railway Colony, Nehru Railway Colony, Gorakhpur, Jabalpur, Madhya Pradesh 482001, India",1619935566000,Private
+619,Jabalpur,-1,,Jabalpur,8103538859,0,0,DR SWAPNIL JAIN,2,8,"8103538859, 8103538859",SHIV SAGAR HOSPITAL VIJAY NAGAR,0,-1,0,,1619937920000,Private
+620,Jabalpur,-1,482001,Jabalpur,9300110650,0,0,DR  SANJAY NAGRAJ,20,60,076124 50530,MARBLE CITY HOSPITAL,0,-1,0,"No. 321, Parsi Anjuman Complex, Bhanwartal Extension, Napier Town, near Museum, Napier Town, Jabalpur, Madhya Pradesh 482001, India",1619929145000,Private
+621,Jabalpur,-1,,Jabalpur,9522342424,20,20,Krishnakant Singh,7,33,"9522342424, 9522342424",Ayushman Hospital RUSSEL CHOWK,3,-1,28,,1619925668000,Private
+622,Jabalpur,-1,482002,Jabalpur,9826392278,0,0,MR ABDUL HANNAN,4,26,"9826392278, 9826392278",GLOBAL HOSPITAL,0,-1,1,"Plot No 7-8, Shatabdipuram, near Ukhari Crossing, Phase 1, Shatabdipuram Phase 1, Jabalpur, Madhya Pradesh 482002, India",1619926353000,Private
+623,Jabalpur,-1,482001,Jabalpur,9826316785,10,5,KHUSHI LAL AHIRWAR,12,18,"9109105012, 7415004175",SUVIDHA POLY CLINIC AND RESEARCH CENTRE PVT. LTD. MULTISPECIALTITY CARE CENTRE,3,-1,10,"230, Nagpur Rd, Madan Mahal, Jabalpur, Madhya Pradesh 482001, India",1619930953000,Private
+624,Jabalpur,-1,482002,Jabalpur,9302928962,0,0,SYED MERAJ AHMED,24,8,0761 402 6000,TAKIRAZA HEALTHCARE CENTRE,11,-1,6,"Maharshi Dayanand Saraswati Chowk, Napier Town, Jabalpur, Madhya Pradesh 482002, India",1619925677000,Private
+625,Jhabua,-1,457661,Jhabua,9425101288,0,0,Dr L S RATHORE,0,60,"9179119671, 9589399999",Others Private Hospital,0,-1,10,"Hospital colony, Jhabua, Madhya Pradesh 457661, India",1619924258000,Private
+626,Jhabua,-1,457773,Jhabua,9893678040,70,61,Dr M.L Chopra,0,10,096174 64758,CH- Petlawad,0,-1,1,"Block Colony, Petlawad, Madhya Pradesh 457773, India",1619924165000,Government
+627,Jhabua,-1,457661,Jhabua,8827744338,10,3,Dr. Yojesh Ajnar,16,50,"8827744338, 8827744338",DH - Jhabua,0,-1,7,"Jhabua, Madhya Pradesh 457661, India",1619924213000,Government
+628,Jhabua,-1,457777,Jhabua,9770388117,50,50,DR ANIL RATHORE,0,0,", ",CCC- ITI THANDLA,0,-1,0,"Khajuri, Thandla, Madhya Pradesh 457777, India",1619924122000,Government
+629,Jhabua,-1,457661,Jhabua,9893777416,100,94,DR SAWAN SINGH CHOUHAN,0,0,099936 83010,CCC- HAWAI PATTI,0,-1,0,"Jhabua Bus Stand, Bus Stand Sajan Road, NH 59, Jhabua, Madhya Pradesh 457661, India",1619924082000,Government
+630,Katni,-1,483504,Katni,9165051307,0,0,Mr Ajay Behrwani,5,42,076222 20620,Baba Madhavshah Chikitsalaya,0,-1,11,"Hospital Line, Madhav Nagar, Katni, Madhya Pradesh 483504, India",1619895372000,Private
+631,Katni,-1,483504,Katni,9926521620,100,51,Dr Rajendra Singh Thakur,0,100,076222 20620,District Hosital-2 Divyanchal,0,-1,51,"Hospital Line, Madhav Nagar, Katni, Madhya Pradesh 483504, India",1619895053000,Government
+632,Katni,-1,483501,Katni,8889642500,35,0,Dr Yeshwant verma,10,175,"8889642500, 8889642500",DH Katni - DCHC,0,-1,0,"Gole Bazar, Katni, Madhya Pradesh 483501, India",1619895581000,Government
+633,Katni,-1,483501,Katni,7999623121,6,3,Dr Dinkar Prakash,14,40,076224 05070,MGM,1,-1,2,"Infront of Forester Ground, Kachari, Chauraha, Katni, Madhya Pradesh 483501, India",1619895201000,Private
+634,Katni,-1,483775,Katni,9893197799,0,0,Dr Vinod Kumar,0,33,"9893197799, 9893197799",CH Vijayraghavgarh,0,-1,0,"Vijayraghavgarh, Madhya Pradesh 483775, India",1619895307000,Government
+635,Katni,-1,483501,Katni,9630995570,7,0,Dr Rajesh Battra,13,25,076224 05070,Dharmalok Private Hospital Katni - DCHC,0,-1,0,"Infront of Forester Ground, Kachari, Chauraha, Katni, Madhya Pradesh 483501, India",1619918500000,Private
+636,Katni,-1,483501,Katni,9425324188,10,0,Dr Manish Gattani,5,10,076222 22222,Chandak Hospital,0,-1,0,"Chandak Chowk Dalal Ghanta Ghar Road katni Chandak Chowk Dalal Ghanta Ghar, Road, Gandhi Ganj, Katni, Madhya Pradesh 483501, India",1619895408000,Private
+637,Katni,-1,483501,Katni,9727747114,5,0,Dr Naveen Karn,3,5,076222 29250,GG Nursing Home,0,-1,0,"National Highway 44, MP SH 10, Anand Vihar, Katni, Madhya Pradesh 483501, India",1619895084000,Private
+638,Katni,-1,483501,Katni,7509943905,50,44,Rajendra Singh Thakur,0,10,"7509943905, 7509943905",JAIN DHARAMSHALA,0,-1,4,"Raghunath Ganj, Gandhi Ganj, Katni, Madhya Pradesh 483501, India",1619895478000,Government
+639,Katni,-1,483501,Katni,7772957975,16,11,Dr Virend Khampariya,0,14,"9727747114, 7772957975",Maa Lakshmi,0,-1,0,"Jalpa Madiya Rd, Jalpa Ward, Gandhi Ganj, Katni, Madhya Pradesh 483501, India",1619895124000,Private
+640,Katni,-1,483504,Katni,7509943905,200,199,Rajendra Singh Thakur,0,0,"7509943905, 7509943905",SAINA HOSTEL CCC,0,-1,0,"Madhav Nagar, Katni, Madhya Pradesh 483504, India",1619895438000,Government
+641,Khandwa,-1,450001,Khandwa,8085864666,0,0,DR SURAJ JAIN,60,0,0733 224 5000,GMC - Khandwa - DCH,10,-1,0,"Khandwa - Mundi State Hwy, near Luv Kush Nagar, Love Kush Nagar, Khandwa, Madhya Pradesh 450001, India",1619936971000,Government
+642,Khandwa,-1,450001,Khandwa,8369722948,40,0,DR VIJAY PAWAR,0,10,"9179833345, 6266947729",KHANDWA URBEN-CCC,0,-1,10,"Khandwa Junction, Khandawa-Mundi State Hwy, Tin Puliya, Civil Line, Civil Line, Khandwa, Madhya Pradesh 450001, India",1619939478000,Government
+643,Khandwa,-1,450001,Khandwa,9617809731,40,33,DR RAMKRISHAN INGLA,0,10,"9827072734, 9981162344",MUNDI- CCC,0,-1,7,"Khandwa, Madhya Pradesh 450001, India",1619927799000,Government
+644,Khandwa,-1,450117,Khandwa,9425639723,40,38,DR SHILENDRA KATARIYA,0,10,"9926281530, 6263225679",HARSOOD- CCC,0,-1,10,"New Harsud, Harsud, Madhya Pradesh 450117, India",1619921460000,Government
+645,Khandwa,-1,450117,Khandwa,9425639723,40,37,DR SHILENDRA KATARIYA,0,10,076971 67658,KHALWA-CCC,0,-1,2,"Khalwa, Madhya Pradesh 450117, India",1619921212000,Government
+646,Khandwa,-1,450001,Khandwa,9893929271,0,0,DR SHILENDRA CHOUHAN,0,300,"9893929271, 7000173296",DH-KHANDWA GOVT DCHC,0,-1,204,"Khandwa, Madhya Pradesh 450001, India",1619937051000,Government
+647,Khandwa,-1,450001,Khandwa,7747919955,40,34,DR G.G TOMAR,0,10,094250 85742,PANDHANA- CCC,0,-1,9,"Pandhana - Khandwa Main Rd, Near aabna, river bridge, Khandwa, Madhya Pradesh 450001, India",1619927812000,Government
+648,Khargone,-1,451331,Khargone,7999623689,50,31,DR GOURISHANKAR TAWDE,0,10,"7067348179, 7999623689",CCC BHIKANGAON,0,-1,10,"Bhikangaon, Madhya Pradesh 451331, India",1619928691000,Government
+649,Khargone,-1,,Khargone,9926958001,2,0,KAMAL,4,10,", ",AGRAWAL HOSPITAL SANAWAD,2,-1,6,,1619932527000,Private
+650,Khargone,-1,,Khargone,9009827410,8,2,DR JITENDRA BADOLE,7,15,", ",RAMSHREE HOSPITAL,0,-1,5,,1619924465000,Private
+651,Khargone,-1,,Khargone,9009451900,16,16,DR PARTH RATNAPARKHI,0,4,", ",CCC GOGAWA,0,-1,4,,0,Government
+652,Khargone,-1,451001,Khargone,9039837881,15,0,DR SHAKIL KHAN,7,30,094068 16786,Subhishi Hospital,1,-1,0,"Gouridham, Gouridham Extension Colony, Khargone, Madhya Pradesh 451001, India",1619926194000,Private
+653,Khargone,-1,,Khargone,8959284698,30,29,JAYRAM JAMRE,0,5,"8959284698, 8959284698",CCC BHAGWANPURA,0,-1,5,,1619928660000,Government
+654,Khargone,-1,451224,Khargone,7067348179,90,47,Vimal vandavde,0,10,"7067348179, 7067348179",CCC Maheshwar,0,-1,3,"Khargone (West Nimar), SH-1, Mandleshwar Road, Khargone, Khargone, Madhya Pradesh 451224, India",1619928773000,Government
+655,Khargone,-1,451331,Khargone,9165391338,15,0,Roshni Malviya,10,15,"9165391338, 9165391338",Sai Samarth Hospital,10,-1,9,"Bhikangaon, Madhya Pradesh 451331, India",1619929240000,Private
+656,Khargone,-1,451115,Khargone,7999756922,10,2,ABHISHEK JAIN,7,13,070499 81155,Shri Dada Darbar Hospital Barwah,0,-1,2,"22, Maheshwar Road, Barwaha, Madhya Pradesh 451115, India",1619919334000,Private
+657,Khargone,-1,,Khargone,7987002635,10,10,DINESH MANDLOI,0,0,"7987002635, 7987002635",CCC  OON,0,-1,0,,0,Government
+658,Khargone,-1,,Khargone,9074771966,20,0,DR HEMANT SONI,4,6,", ",SHRI VISHNU SHRI HOSPITAL,1,-1,3,,1619925350000,Private
+659,Khargone,-1,451001,Khargone,9111470601,40,29,DR HANSHA PATIDAR,0,10,089294 88702,CCC SANAWAD,0,-1,10,"Jaitapur, Khargone, Madhya Pradesh 451001, India",1619928831000,Government
+660,Khargone,-1,451001,Khargone,9407494894,0,0,DR RAVISH SARAF,0,20,"9131593101, 9131593101",SONAA MAA NURSING HOME KHARGONE,0,-1,3,"Sanawad Rd, Saraswati Nagar, Khargone, Madhya Pradesh 451001, India",1619922998000,Private
+661,Khargone,-1,,Khargone,9165673789,45,45,DR AYUSHI PATIDAR,0,10,", ",CCC SARASVATI SCHOOL KGN,0,-1,10,,1619928865000,Government
+662,Khargone,-1,451111,Khargone,9685820097,8,0,Dr. Sudhir Mourya,0,15,093409 18142,Gurjar Shri Hospital Sanawad,0,-1,0,"522/140,Gurjar Shri Road, Jawahar Marg, Sanawad, Madhya Pradesh 451111, India",1619925060000,Private
+663,Khargone,-1,451228,Khargone,8208301224,10,0,DR PRADEEP VERMA,6,16,072852 31313,NAVJEEVAN HOSPITAL KASRAWAD,0,-1,1,"Manpur - Mandleshwar Rd, Kasrawad, Madhya Pradesh 451228, India",1619929018000,Private
+664,Khargone,-1,451001,Khargone,7974546105,35,12,AMIT,0,5,"9407174478, 9407174478",CCC RADHA KUNJ,0,-1,5,"35, Nutan Nagar Rd, near swastik hotel, Vishwasakha Colony, Lovkush Vihar, Industrial Area, Vishwa Sakha Nagar, Khargone, Madhya Pradesh 451001, India",1619928806000,Private
+665,Khargone,-1,451001,Khargone,8458986245,90,0,Dr Vidhi Tiwari,0,10,"9893642696, 9009982805","GOVT. GIRLS HOSTEL, UMARKHALI ROAD KHARGONE (CCC)",0,-1,4,"Government Girls College, BTI Rd, Anand Nagar, Khargone, Madhya Pradesh 451001, India",1619928890000,Government
+666,Khargone,-1,,Khargone,9893946367,30,30,DR ANUPAM ATRE,0,5,"9893946367, 9893946367",CCC KAUSHAL VIKAS KENDRA KGN,0,-1,5,,1619928745000,Government
+667,Khargone,-1,451228,Khargone,8319193500,30,15,DEEPAK NARIYA,0,20,"8319193500, 8319193500",CCC KASRAWAD,0,-1,1,"Kasrawad, Madhya Pradesh 451228, India",1619928720000,Government
+668,Khargone,-1,451111,Khargone,9425279142,8,0,Dr. Sonal Pagare,2,2,"9425279142, 9425279142","Late Shri Natthulalji Mori Memorial Hospital Pvt Ltd, Sanawad",0,-1,0,"Piranpir Road, near Gayatri Mandir, Sanawad, Madhya Pradesh 451111, India",1619924180000,Private
+669,Khargone,-1,,Khargone,9827722252,15,12,DR RAMACHAL YADAV,10,32,"9827722252, 9827722252",SUJAS HOSPITAL MANDLESHWAR,8,-1,27,,1619933140000,Private
+670,Khargone,-1,451111,Khargone,9826856222,14,0,Dr. Ajay Malviya,5,18,098268 56222,Shri Sai Hospital Sanawad,0,-1,0,"Sanawad, Madhya Pradesh 451111, India",1619919297000,Private
+671,Khargone,-1,451115,Khargone,9826482217,10,0,DR RAJESH PATIDAR,6,8,", ",GURJAR HOSPITAL BARWAH,0,-1,0,"17/2, Maheshwar Rd, near railway crossing, Kanwar Colony, Barwaha, Madhya Pradesh 451115, India",1619927859000,Private
+672,Khargone,-1,451111,Khargone,7049905639,11,0,Ajay jaiswal,4,4,"9575661307, 9575661307",RITWIK HOSPITAL & RESEARCH CENTRE SANAWAD,4,-1,1,"Solanki Colony, Sanawad, Madhya Pradesh 451111, India",1619920492000,Private
+673,Khargone,-1,,Khargone,7974860412,6,0,DR RAVI S MANIK,5,3,", ",RUDRANSH HOSPITAL & CRITICAL CARE,1,-1,3,,1619941382000,Private
+674,Khargone,-1,451001,Khargone,8770748306,200,125,DR DIVYESH VERMA,12,170,"9685122068, 9685122068",DH - khargone,0,-1,0,"Khargone, Madhya Pradesh 451001, India",1619926831000,Government
+675,Mandla,-1,,Mandla,7000540484,16,5,Dr Manoj Murali,10,80,"9926373966, 7987160925",DH Mandla - DCHC,10,-1,0,,1619929512000,Government
+676,Mandla,-1,481668,Mandla,9755904134,50,35,Mrs Meena Choudhary,0,0,"9755904134, 9755904134",GNM Training Center Mandla,0,-1,0,"Mandla Rd, Mandla, Madhya Pradesh 481668, India",1619929542000,Government
+677,Mandsaur,-1,458880,Mandsaur,9425976170,50,33,Dr VK Verma,0,0,"9993798563, 9713632991",Covid Care Centre Garoth,0,-1,0,"Garoth, Madhya Pradesh 458880, India",1619925189000,Government
+678,Mandsaur,-1,,Mandsaur,9424888300,30,30,Dilip Sharma,0,0,", ",Covid Care Centre Pipliyamandi,0,-1,0,,1619946471000,Government
+679,Mandsaur,-1,,Mandsaur,6263052410,15,0,Raju Kumawat,15,16,"7000640018, 9977771363",Shree Siddi Vinayak Multispecialty Hospital,0,-1,0,,1619930738000,Private
+680,Mandsaur,-1,,Mandsaur,8349207947,26,0,Nirmal Gangwani,0,8,"6263052410, 9301892221",SPA Private Covid  Health Centre Mandsaur,0,-1,0,,1619930567000,Private
+681,Mandsaur,-1,458001,Mandsaur,9752078241,8,0,Vandana Jain,0,12,07422 495 060,Ajay Hospital Mandsaur,0,-1,0,"Janta Colony, Mandsaur, Madhya Pradesh 458001, India",1619946564000,Private
+682,Mandsaur,-1,,Mandsaur,8085686942,212,10,Dr Nishant Sharma,12,95,"9644095039, 9098660530",DH Mandsaur - DCHC,0,-1,0,,1619946516000,Government
+683,Mandsaur,-1,,Mandsaur,9165012208,78,41,Sheetal Chohan,0,5,"9926387889, 9424077733",IMA Covid Care Centre,0,-1,0,,1619944708000,Private
+684,Mandsaur,-1,458339,Mandsaur,9993357287,22,14,Dr R.K. Khadyot,0,0,"9893193985, 7024346092",Covid Care Centre Malhargarh ( Girls Hostel ),0,-1,0,"Malhargarh, Madhya Pradesh 458339, India",1619930728000,Government
+685,Mandsaur,-1,,Mandsaur,9425123473,40,24,Om Prakash Lohar,0,0,", ",Covid Care Centre Narayangarh,0,-1,0,,1619930759000,Government
+686,Mandsaur,-1,458001,Mandsaur,9827723777,108,0,Dr Ikrar Mansuri,0,42,"9685818889, 8442044286",GNMTC  Covid Care Centre Mandsur,0,-1,10,"Mandsaur, Madhya Pradesh 458001, India",1619927394000,Government
+687,Mandsaur,-1,,Mandsaur,9827723777,52,52,Dr Ikrar Mansuri,0,0,"8770323945, 9754614270",Covid Care Centre Mandaur,0,-1,0,,1619930154000,Government
+688,Mandsaur,-1,,Mandsaur,7389801639,10,2,Mohit Mujawadiya,0,0,", ",Covid Care Centre Shamgarh,0,-1,0,,1619939492000,Government
+689,Mandsaur,-1,,Mandsaur,8959458462,34,34,Hemant Patidar,0,13,", ",Mirecle Covid Care Centre  Mandsaur,0,-1,13,,1619946447000,Private
+690,Mandsaur,-1,,Mandsaur,9893326660,48,46,Dr Snehil Jain,0,0,"9407436263, 9399412411",Covid Care Centre Suwasra,0,-1,0,,1619930242000,Government
+691,Mandsaur,-1,,Mandsaur,9827577441,155,104,Dr Pankaj Dabi,0,0,", ",Polytechnic  College Covid Care Centre,0,-1,0,,1619895529000,Government
+692,Morena,-1,,Morena,8319719848,50,27,Smt Pushpa Goyal,0,0,"9669893016, 7000793482",Trival  Gov. SC/ST Girls Post Metric Hostal VIP Road Morena,0,-1,0,,1619922048000,Government
+693,Morena,-1,476001,Morena,9425340049,25,0,Dr. A.K. Gupta,15,180,094697 02652,DH Morena - DCHC,0,-1,0,"Morena-Sheopur Road, Jiwaji Ganj, near city hospital, Jiwaji Ganj, Morena, Madhya Pradesh 476001, India",1619920757000,Government
+694,Morena,-1,476221,Morena,9340118240,16,15,Dr Kulendra Yadav,0,0,"9340118240, 9340118240",Girls Hostal Pahadgarh,0,-1,0,"Parsota, Madhya Pradesh 476221, India",1619925955000,Government
+695,Morena,-1,,Morena,9691716719,50,50,Smt Urmila Semil,0,0,"9691716719, 7000793482",Gov Kasturba Gandhi Balika Vidyalay Chhatrawas VIP Road Morena,0,-1,0,,1619933917000,Government
+696,Narsinghpur,-1,487661,Narsinghpur,9977577066,22,22,DR JAGDESH VARMA,0,0,077912 50320,NRLM BHAWAN CCC SAIKHEDA,0,-1,0,"MP SH 44, Saikheda, Madhya Pradesh 487661, India",1619920294000,Government
+697,Narsinghpur,-1,,Narsinghpur,9131993884,15,14,DR RISHI SAHU,0,10,", ",CHC KARELI,0,-1,0,,1619927149000,Government
+698,Narsinghpur,-1,487001,Narsinghpur,7947343343,14,2,DR S K AGRAWAL,0,16,096695 47922,AGRAWAL HOSPITAL CCC NARASINGHPUR,0,-1,4,"Bahri Road, Patel Ward, Kandeli, Madhya Pradesh 487001, India",1619930704000,Private
+699,Narsinghpur,-1,487001,Narsinghpur,9425169474,20,14,DR. N.K. MAHALWAR,0,0,094243 03723,ADIVASHI  GIRLS  HOSTEL KUMRAKHEDA BLOCK GOTEGAON CCC,0,-1,0,"Vipatpura, Housing board vipatpura, Narsinghpur, Madhya Pradesh 487001, India",1619929740000,Government
+700,Narsinghpur,-1,,Narsinghpur,9340255988,5,4,DR ADITYA RAGUVANSHI,0,5,"6267545005, 9179100411",CHC SAIKHEDA CCC,0,-1,0,,1619929280000,Government
+701,Narsinghpur,-1,487001,Narsinghpur,9755434786,30,24,DR  YASHEEN KHAN,0,0,"9516972656, 9826452150",GIRLS HOSTEL P.G.COLLEGE NARSINGHPUR,0,-1,0,"Girls College Rd, Narsinghpur, Madhya Pradesh 487001, India",1619927913000,Government
+702,Narsinghpur,-1,,Narsinghpur,9303717927,0,0,DR. ANITA AGRAWAL,12,163,"9977867151, 7067954010",DH Narsinghpur - DCHC,3,-1,0,,1619923940000,Government
+703,Narsinghpur,-1,,Narsinghpur,8319131512,10,10,DR S P AHIRWAR,0,10,"8319131512, 8319131512",CHC TENDUKHEDA CCC,0,-1,5,,1619927214000,Government
+704,Narsinghpur,-1,,Narsinghpur,9752717253,0,0,DR NISHA SAHU,0,10,"7566956096, 8989433467",CHC GOTEGAON CCC,0,-1,0,,1619926841000,Government
+705,Narsinghpur,-1,487001,Narsinghpur,9425168516,0,0,DR NEEKHRA,0,30,"7792232316, 9425168516",NEEKHRA HOSPITAL CCC NARSINGHPUR,0,-1,0,"Narsinghpur, Madhya Pradesh 487001, India",1619925204000,Private
+706,Narsinghpur,-1,,Narsinghpur,7987199805,0,0,DR SRIKANT PATEL,0,30,"7987199805, 9300135230",SHRIDHAM HOSPITAL DCHC GOTEGAON,0,-1,30,,0,Private
+707,Narsinghpur,-1,487001,Narsinghpur,9425168701,20,0,DR P PRAG PRADKAR,0,0,077922 35706,PARADKAR HOSPITAL  NARSINGHPUR,0,-1,0,"Kherinaka, Narsinghpur, Madhya Pradesh 487001, India",1619936482000,Private
+708,Narsinghpur,-1,487337,Narsinghpur,8319131512,30,30,DR S P AHIRWAR,0,0,"8319131512, 8319131512",SEN. ANUSUCHIT JATI CHTRAWASH TENDUKHEDA,0,-1,0,"Tendukheda, Madhya Pradesh 487337, India",1619924964000,Government
+709,Narsinghpur,-1,487551,Narsinghpur,7828252913,50,48,DR RAKESH BOHRE,0,50,"9691838502, 9039457265",CIVIL HOSPITAL GADARWARA,0,-1,0,"Bhabha Ward, Gadarwara, Madhya Pradesh 487551, India",1619923022000,Government
+710,Narsinghpur,-1,487551,Narsinghpur,8004941289,50,1,DR VIDYA SABDE,0,0,"9109194494, 9109194494",JIVAN JYOTI HOSPITAL NTPC GADARWARA,0,-1,0,"Gadarwara, Madhya Pradesh 487551, India",1619932839000,Government
+711,Neemuch,-1,458441,Neemuch,9425371000,0,0,DR. B.L. RAWAT CS,27,115,"9826455179, 9770789301",DH Neemuch - DCHC,0,-1,0,"Central Reserve Police Force, Neemuch, Madhya Pradesh 458441, India",1619927091000,Government
+712,Neemuch,-1,458441,Neemuch,9907773719,46,16,Dr. Ashish Jain,0,0,"7828937618, 8085131511","K.G.B. CHHATRAWAS, Neemuch",0,-1,0,"Central Reserve Police Force, Neemuch, Madhya Pradesh 458441, India",1619926878000,Government
+713,Neemuch,-1,458441,Neemuch,8839886604,30,24,ARPIT SAINI,0,0,"9575793508, 9399459832",VATSALYA BHAVAN,0,-1,0,"264, Gandhi Vatika Rd, Nagar Palika Colony, Neemuch Chawni, Neemuch, Madhya Pradesh 458441, India",1619925406000,Government
+714,Neemuch,-1,,Neemuch,9424530320,0,0,Dr J.S.Satsangi,0,24,"9630371144, 9406629502",OLD NETRALAY MANASA,0,-1,3,,1619926807000,Government
+715,Neemuch,-1,458441,Neemuch,9405517248,15,8,DR.NILESH PATIDAR,0,15,"9630208222, 9425974301",CARE WELL COVID CENTER,0,-1,6,"Bhageshwar Mandir Rd, Scheme No 3, Neemuch Chawni, Neemuch, Madhya Pradesh 458441, India",1619927546000,Private
+716,Neemuch,-1,458441,Neemuch,8600356732,40,36,Dr M.K. Sinha,2,10,"8949789765, 9755742852",CRPF Hospital,2,-1,8,"Central Reserve Police Force, Neemuch, Madhya Pradesh 458441, India",1619927345000,Government
+717,Neemuch,-1,458441,Neemuch,9424856022,0,0,DR. S.V CHORDIA,10,5,07423 220 739,CHORDIYA HOSPITAL,0,-1,0,"Alkoloid Colony, Neemuch Chawni, Neemuch, Madhya Pradesh 458441, India",1619927481000,Private
+718,Niwari,-1,472442,Niwari,7024643436,50,32,Dr Zoyeb khan,0,0,"8770660172, 7024059677","PG College, Niwari",0,-1,0,"Niwari Rd, Niwari, Madhya Pradesh 472442, India",1619927460000,Government
+719,Panna,-1,488001,Panna,9981531998,50,24,Dr G. p. arya,0,0,1800 11 2211,Sbi training centre bypass road panna,0,-1,0,"WARD NO 7, GOVIND CHOWK PANNA, Kishor Ganj, Bhopal, Madhya Pradesh 488001, India",1619925669000,Government
+720,Panna,-1,488001,Panna,7022592358,0,0,DR BABUS JOSH,0,30,"8989869441, 8394841020",DCHC -Mother Teresa Hospital Panna,0,-1,30,"Panna, Madhya Pradesh 488001, India",1619925809000,Private
+721,Panna,-1,,Panna,9981531998,50,50,Dr G P Arya,0,0,", ",CWSN Hostel bypass road Panna,0,-1,0,,1619925749000,Government
+722,Panna,-1,471101,Panna,9179228727,45,41,DR. PRADEEP DWIVEDI,10,75,070242 62624,DH Panna - DCHC,10,-1,10,"Ken river edge (kachar), raneh fall Rd, Near Panna Tiger Reserve Village Badata, Khajuraho, Basata, Madhya Pradesh 471101, India",1619925587000,Government
+723,Raisen,-1,464993,Raisen,8819865396,0,0,Sudheer Rangare,0,10,"8770250450, 9425028087",CHC OBEDULLAGANJ,0,-1,0,"Obaidullaganj, Madhya Pradesh 464993, India",1619922460000,Government
+724,Raisen,-1,462046,Raisen,9981992632,0,0,Dr.R.V.Singh,5,10,"8085864518, 9981997401",Ganga Multispeciality Hospital   Mandideeep Dist.Raisen,0,-1,1,"Plot No-19, Seth Phoolchand Nagar, Kaliasot Pul, Near Hoshangabad Road, Mahaveer Nagar, Mandideep, Bhopal, Madhya Pradesh 462046, India",1619925095000,Private
+725,Raisen,-1,,Raisen,7000391561,0,0,pursottum lodhi,0,10,"9425493774, 9425654502",CH Bareli,0,-1,4,,1619933957000,Government
+726,Raisen,-1,462046,Raisen,9111333122,0,0,M AAADIL BEG Nodal officer,8,0,07480 231 990,"ASHA HOSPITAL, MANDIDEEP",2,-1,0,"Ward No. 2, Near Krishi Upaj Mandi, Nh-12, Vidya Nagar, Mandideep, Madhya Pradesh 462046, India",1619927659000,Private
+727,Raisen,-1,464886,Raisen,7879184794,0,0,BHARAT SINGH GURJAR,0,10,07484 240 273,CHC SILWANI,0,-1,3,"Silwani, Madhya Pradesh 464886, India",1619928978000,Government
+728,Raisen,-1,462046,Raisen,7067232626,7,2,ABHILASH TRIPATHI  nodal officer,6,1,07480 401 524,AROGYA HOSPITAL MANDIDEEP,2,-1,1,"Nh-12, near Central Bank Of India, Vidya Nagar, Mandideep, Madhya Pradesh 462046, India",1619925743000,Private
+729,Raisen,-1,462046,Raisen,7987301139,8,5,DR ROHINI SHARMA	NODAL OFFICER,8,2,07480 401 006,"LALIT GEETANJALI MAKAN HOSPITAL , MANDIDEEP",0,-1,0,"Sector B, Ward Number 11, Mandideep, Bhopal, Madhya Pradesh 462046, India",1619927599000,Private
+730,Raisen,-1,462046,Raisen,9993007201,0,0,Indu Thakkar,0,10,"9806244456, 9425028087",CH Mandideep,0,-1,0,"Mandideep, Bhopal, Madhya Pradesh 462046, India",1619922740000,Government
+731,Raisen,-1,462046,Raisen,9589364230,0,0,Jitendra Singh Rathore,4,2,07480 405 050,Care and cure hospital mandideep,0,-1,0,"seth phool chand nagar, Mahaveer Nagar, Mandideep, Bhopal, Madhya Pradesh 462046, India",1619931146000,Private
+732,Raisen,-1,464881,Raisen,9340887070,0,0,Sharad Gurjar,0,10,"9424433020, 9826265771",Civil hospital begumganj,0,-1,0,"Begamganj, Raisen, NH-86, Gairatganj Road, Raisen, Raisen, Madhya Pradesh 464881, India",1619933978000,Government
+733,Raisen,-1,462046,Raisen,7000727271,6,4,DR MANISH MARAN,6,0,", ","JAIRAM HOSPITAL AND RESEARCH CENTER,MANDIDEEP",1,-1,0,"NH46, Vidya Nagar, Mandideep, Bhopal, Madhya Pradesh 462046, India",1619923268000,Private
+734,Raisen,-1,464770,Raisen,8878031152,0,0,ashish chourasia,0,10,"9893437975, 7987791339",CHC Udaipura,0,-1,6,"Udaipura, Madhya Pradesh 464770, India",1619925566000,Government
+735,Raisen,-1,464551,Raisen,9425050799,50,50,Dr M L Ahirwar,8,53,"7879995353, 9425492774","DH, Raisen - DCHC",0,-1,0,"Raisen, Madhya Pradesh 464551, India",1619928095000,Government
+736,Raisen,-1,462046,Raisen,8770250450,50,46,Dr Ram mohan Raghuwanshi,0,0,", ",Indra Gandhi Covid Care Center Mandideep,0,-1,0,"Mandideep, Bhopal, Madhya Pradesh 462046, India",1619922384000,Government
+737,Raisen,-1,464551,Raisen,7879995353,50,26,Dr. Vinod Parmar,0,0,07482 223 201,ANMTC CCC Raisen,0,-1,0,"MP SH 19, Raisen, Madhya Pradesh 464551, India",1619928484000,Government
+738,Rajgarh,-1,465697,Rajgarh,9424046041,50,42,DR Manish CHauhan,0,0,073712 22022,CCC Sarangpur,0,-1,0,"Padlaya Road Colony, Sarangpur, Madhya Pradesh 465697, India",1619925313000,Government
+739,Rajgarh,-1,465661,Rajgarh,8770673575,47,41,Dr Sudhir  kalawat,10,90,"9589054939, 7999406343",DH Rajgarh,0,-1,4,"Rajgarh, Madhya Pradesh 465661, India",1619926131000,Government
+740,Rajgarh,-1,465661,Rajgarh,9111112666,50,32,Dr Yogesh Dangi,0,0,073722 55042,GNMTC CCC Rajgarh,0,-1,0,"Kalakhet, Rajgarh, Madhya Pradesh 465661, India",1619925420000,Government
+741,Rajgarh,-1,465691,Rajgarh,9009406878,50,46,DR vivek Dubey,0,0,"9926391672, 9977152100",CCC Jeerapur,0,-1,0,"Jirapur, Madhya Pradesh 465691, India",1619946845000,Government
+742,Rajgarh,-1,465674,Rajgarh,9425068079,50,19,Dr Atul BHaradwaj,0,0,094250 21625,CCC Biaora,0,-1,0,"Bhopal Road, Kachnariya, Rajgarh, near Highway Treat, Biaora, Madhya Pradesh 465674, India",1619925383000,Government
+743,Rajgarh,-1,465669,Rajgarh,7354550869,50,47,Dr Gaurav Tripathi,0,0,"7987318040, 9926334386",CCC Narsinghgarh,0,-1,0,"Narsingh Garh, Rajgarh, NH-12, Narsingh Road, Rajgarh, Rajgarh, Madhya Pradesh 465669, India",1619925270000,Government
+744,Ratlam,-1,,Ratlam,9926840003,9,9,Dr Dipesh Nabar,3,3,"7999058641, 7999058641",ASHIRWAD HOSPITAL,1,-1,0,,1619846425000,Private
+745,Ratlam,-1,,Ratlam,9752343454,13,9,DR ABDUL QADRI,0,7,", ",BOYS HOSTEL ALOT,0,-1,0,,1619925880000,Government
+746,Ratlam,-1,,Ratlam,9425103957,24,0,DR DR NILESH WADHWANI,9,17,"9425103957, 9425103957",RATLAM HOSPITAL,0,-1,0,,1619941447000,Private
+747,Indore,-1,452006,Indore,9755238844,5,0,Nandkishore Patidar,7,13,098270 10439,G D HOSPITAL,0,-1,0,"Mahavir Bagh, Indore, Madhya Pradesh 452006, India",1619922988000,Private
+748,Ratlam,-1,,Ratlam,9827533123,0,0,RAJESH AGRAWAL,4,7,"9827533123, 9827533123",DR JEETMAL AGRAWAL HOSPITAL,0,-1,0,,1619933687000,Private
+749,Ratlam,-1,,Ratlam,9425354848,5,0,DR C S VERMA,0,9,"9425354848, 9425354848",MISHRI DEVI  HOSPITAL,0,-1,0,,1619943728000,Private
+750,Ratlam,-1,,Ratlam,9425078178,30,6,ARUN MITTAL,0,8,"9425078178, 9425078178",JANAK HOSPITAL,0,-1,3,,1619928569000,Private
+751,Ratlam,-1,,Ratlam,9424894249,0,0,DR RAJESH SHARMA,0,100,"6261328528, 7000591224",AYUSH HOSPITAL,0,-1,69,,1619921333000,Private
+752,Ratlam,-1,,Ratlam,9424003322,100,61,Dr DEVENDRA NARGAWE,18,82,"9424003322, 9424003322",GMC Ratlam - DCHC,0,-1,0,,1619921802000,Government
+753,Ratlam,-1,,Ratlam,7000288257,4,0,DR KIRTI SHAH,8,4,"9425104210, 9425104210",SHAH NURSING HOSPITAL,0,-1,0,,1619919412000,Private
+754,Ratlam,-1,,Ratlam,9425107969,5,1,Dr Mahesh Maurya,6,4,"9425107969, 9425107969",Vedant Hospital,0,-1,0,,1619942731000,Private
+755,Ratlam,-1,,Ratlam,7610698275,46,46,VENUS DEVID,0,4,"7610698275, 6060067423",ITI Bhavan Bajna,0,-1,1,,1619923170000,Government
+756,Ratlam,-1,457001,Ratlam,9752492509,34,28,Dr Avinash Chandra,0,40,"9407542335, 9407542334",RAILWAY HOSPITAL,0,-1,0,"M.P.E.B Colony, Ratlam, Madhya Pradesh 457001, India",1619916461000,Government
+757,Ratlam,-1,,Ratlam,9617771724,10,1,DR DEEPAK PALADIYA,0,60,"9617771724, 9617771724",JAORA CIVIL HOSPITAL,0,-1,0,,1619921622000,Government
+758,Ratlam,-1,457001,Ratlam,9827657015,0,0,SUSHIL UPADHYAY,2,40,07412 244 881,CHL Jain Diwakar Hospital,0,-1,4,"Sagod Rd, Mohan Nagar, Dongre Nagar, Ratlam, Madhya Pradesh 457001, India",1619927208000,Private
+759,Ratlam,-1,,Ratlam,8817769069,4,0,SURENDRA GOSWAMI,7,4,"8817769069, 8817769069",JEEVANSH HOSPITAL,0,-1,0,,1619942071000,Private
+760,Ratlam,-1,,Ratlam,9424003322,202,145,Dr DEVENDRA NARGAWE,228,120,"9424003322, 9424003322",GMC Ratlam - DCH,18,-1,82,,1619922072000,Government
+761,Jabalpur,-1,482003,Jabalpur,8989191919,0,0,GAURAV MOONAT,6,6,"8989191919, 8989191919",AROGYAM HOSPITAL,1,-1,1,"HD-13, Dhanwantary Nagar Main Rd, Near Union Bank, Dhanvantari Nagar, Jabalpur, Madhya Pradesh 482003, India",1619940608000,Private
+762,Ratlam,-1,,Ratlam,9425980755,0,0,DR YOGESH NIKHRA,40,23,"9425980755, 9425980755",CIVIL HOSPITAL RATLAM,8,-1,0,,1619945951000,Government
+763,Ratlam,-1,,Ratlam,9424048555,10,0,AMIT  NAGAR,0,10,"9424048555, 9424048555",MAA GAYATRI HOSPITAL,0,-1,10,,1619926953000,Private
+764,Ratlam,-1,456006,Ratlam,7869703100,50,22,DR RAIS KHAN,0,0,0734 255 5121,NAVEEN KANYA PARISAR,0,-1,0,"Shirsagar Neema Ki Dharamshala, Malipura, Ujjain, Madhya Pradesh 456006, India",1619913001000,Government
+765,Rewa,-1,,Rewa,7770940613,10,6,DR HARI SINGH,0,0,"7770940613, 7770940613",CHC CHAKGHAT,0,-1,0,,1619932859000,Government
+766,Rewa,-1,,Rewa,7049650314,10,8,NA,0,0,"7049650314, 7049650314",CHC RAIPUR KARCHULIYAN,0,-1,0,,1619933154000,Government
+767,Rewa,-1,,Rewa,8982315488,10,2,NA,0,0,"8982315488, 8982315488",CHC MAUGANJ,0,-1,0,,1619941511000,Government
+768,Rewa,-1,,Rewa,8839250760,10,10,NA,0,0,"8839250760, 8839250760",CHC SEMARIYA,0,-1,0,,1619933201000,Government
+769,Rewa,-1,,Rewa,9630849089,10,7,NA,0,0,"9630849089, 9630849089",CHC HANUMANA,0,-1,0,,1619931911000,Government
+770,Rewa,-1,,Rewa,7987068874,10,8,NA,0,0,"7987068874, 7987068874",CHC GURH,0,-1,0,,1619940445000,Government
+771,Rewa,-1,486001,Rewa,9174566996,0,0,Dr. Eishan Goyal,18,79,062608 07980,DH Rewa - DCHC,0,-1,63,"Ravindra Nagar, Rewa, Madhya Pradesh 486001, India",1619917584000,Government
+772,Rewa,-1,,Rewa,8878021052,10,1,DR K B PATEL,0,0,"8878021052, 8878021052",CH TEONTHAR,0,-1,0,,1619919479000,Government
+773,Rewa,-1,,Rewa,9589900458,10,10,DR R B SINGH,0,0,"9589900458, 9589900458",CH SIRMOUR,0,-1,0,,1619931103000,Government
+774,Rewa,-1,486001,Rewa,8221923870,0,0,Dr. Ashutosh Asati,188,350,094246 06677,GMC - Rewa - DCH - Shyam Shah Medical College,0,-1,42,"Hari Bhushan Nagar, Rewa, Madhya Pradesh 486001, India",1619931964000,Government
+775,Rewa,-1,,Rewa,9424354828,10,8,DR C M MISHRA,0,0,"9424354828, 9424354828",CHC GANGEO,0,-1,0,,1619940772000,Government
+776,Rewa,-1,,Rewa,7987394022,10,10,NA,0,0,"7987394022, 7987394022",CHC GOVINDGRH,0,-1,0,,1619931780000,Government
+777,Rewa,-1,486001,Rewa,9098360685,5,0,Dr. C. K. TRIPATHI,3,32,062608 07980,REWA HOSPITAL & RESEARCH CENTRE PVT LTE,0,-1,0,"Ravindra Nagar, Rewa, Madhya Pradesh 486001, India",1619927736000,Private
+778,Rewa,-1,486001,Rewa,9617316444,0,0,DR VINAY PANDEY,14,32,076624 06000,VINDHYA HOSPITAL & Research Centre rewa,0,-1,2,"Near Old Bus Stand, Bansh Ghat Jai Stambh Chowk, Kamal Colony, Rewa, Madhya Pradesh 486001, India",1619928610000,Private
+779,Rewa,-1,,Rewa,9200174256,10,7,DR R C PATEL,0,0,"9200174256, 9200174256",CHC NAIGADI,0,-1,0,,1619931279000,Government
+780,Rewa,-1,,Rewa,9993446285,40,40,K D MISHRA,0,0,"9993446285, 9993446285",SAUDAMINI HOSPITAL  REWA,0,-1,0,,1619917652000,Private
+781,Rewa,-1,,Rewa,6266257933,10,4,DR AGNIVESH MISHRA,0,0,"9324336978, 9324336978",CHC JAWA,0,-1,0,,1619940670000,Government
+782,Rewa,-1,486001,Rewa,9993030554,50,40,DR DINESH SINGH,0,0,098939 49099,GAYANODAY HOSTAL,0,-1,0,"11/346, Tilak Nagar, Rewa, Madhya Pradesh 486001, India",1619917314000,Government
+783,Sagar,-1,470001,Sagar,7987914119,45,19,DR N K SHAKYA,0,5,"8770788254, 8878086646",DH BIDI HOSPITAL,0,-1,0,"Arjani, Madhya Pradesh 470001, India",1619930224000,Government
+784,Sagar,-1,470004,Sagar,8889211192,20,0,DR SANTOSH RAI,6,24,"7987393601, 7225938521",DR. RAI HOSPITAL,0,-1,0,"10th Bataliyan Road, State Bank Colony, 10th Battalion SAF, Makroniya, Madhya Pradesh 470004, India",1619924639000,Private
+785,Sagar,-1,470228,Sagar,9009134714,10,2,Dr D K GOSWAMI,23,50,"8964840442, 9425154749",DH SAGAR DCHC,0,-1,0,"NH 26 Sironja, po, bikabhamhori, Madhya Pradesh 470228, India",1619929671000,Government
+786,Sagar,-1,,Sagar,7746973778,50,22,DR SHAILNI JAIN,0,11,"9713300713, 9713300713",CHC DEORI,0,-1,0,,1619939084000,Government
+787,Sagar,-1,470001,Sagar,7000883597,0,0,Dr RAMESH PANDEY,264,236,075822 36270,BMC - GMC Sagar - DCH,68,-1,60,"Shivaji Ward, Tili Rd, Vaishali Nagar, Sagar, Madhya Pradesh 470001, India",1619926674000,Government
+788,Sagar,-1,,Sagar,7697275072,40,7,DR. SHEKHAR SHRIVASTAV,20,25,"6264877189, 8319326142",CH KHURAI,10,-1,0,,1619932921000,Government
+789,Sagar,-1,470004,Sagar,6262033603,10,0,DR. PROMISE JAIN,20,50,062629 91234,SAGARSHREE HOSPITAL SAGAR,1,-1,0,"Sagar Rd, Shri Prabhakar Nagar, Makroniya, Madhya Pradesh 470004, India",1619927447000,Private
+790,Sagar,-1,470001,Sagar,9424488070,100,93,DR SUNEEL JAIN,0,0,083498 24154,SVN HOSPITAL,0,-1,0,"Civil Line, Gopal Ganj, Sagar, Madhya Pradesh 470001, India",1619929544000,Government
+791,Sagar,-1,,Sagar,8770618643,42,30,DR YOGESH SONI,0,12,"9179283943, 9753467066",CHC SHAHGARH,0,-1,3,,1619931693000,Government
+792,Sagar,-1,470001,Sagar,9893950543,5,0,Vivek Jain,8,12,"9630801626, 7024366024",SUKRIT HOSPITAL,0,-1,0,"Unnamed Road, Patkui, Madhya Pradesh 470001, India",1619924646000,Private
+793,Sagar,-1,470001,Sagar,9481770056,40,35,COL. ABHINAV ACHRYA,0,0,"9111295115, 6005181272",Military Hospital Sagar,0,-1,0,"Sagar Cantt., Sagar, Madhya Pradesh 470001, India",1619924084000,Government
+794,Sagar,-1,,Sagar,9981662680,94,78,DR RAVINDRA RAJPOOT,0,20,"9926585295, 9303215779",CH BINA,0,-1,14,,1619942324000,Government
+795,Sagar,-1,,Sagar,9131897624,29,20,DR KALYAN SINGH BENAL,0,11,"9907687455, 9685632331",CHC RAHATGARH,0,-1,3,,1619927868000,Government
+796,Sagar,-1,,Sagar,9406556336,42,22,GEETA PRAJAPATI,0,28,"9406556336, 9406556336",VRIDHASHRAM GARHAKOTA,0,-1,7,,1619946490000,Government
+797,Sagar,-1,,Sagar,9424452005,6,0,PRABHAT MISHRA,5,8,"9302911023, 9300493600",SURYA LIFECARE HOSPITAL,0,-1,0,,1619932228000,Private
+798,Sagar,-1,470001,Sagar,9179333245,20,0,CHAITANYA HOSPITAL,3,30,"9425193835, 9179333245",SHRI CHAITANYA MAHAPRABHU HOSPITAL,0,-1,0,"Tilli Rd, Sri Ram Nagar, Gopal Ganj, Sagar, Madhya Pradesh 470001, India",1619928313000,Private
+799,Sagar,-1,,Sagar,9977182617,44,36,JALAM AHIRWAR,0,6,", ",GYANVEER COLLEGE JAISINAGAR,0,-1,6,,1619929647000,Government
+800,Sagar,-1,,Sagar,9981448363,10,9,Dr. Kavita Gahlot,0,4,"8602866171, 9713177882",AYUSHMAN HOSPITAL,0,-1,0,,1619928197000,Private
+801,Sagar,-1,,Sagar,7509743222,100,45,DR RAVI MISHRA,0,0,"7509743222, 7509743222",GYANODAYA BOYS HOSTEL SAGAR,0,-1,0,,1619942547000,Government
+802,Sagar,-1,,Sagar,7974193414,37,1,ASHISH SWAMI,0,13,"8827187928, 8959648407",SUYASH HOSPITAL,0,-1,1,,1619928627000,Private
+803,Sagar,-1,470002,Sagar,9424427412,26,0,MR ANKUR SHRIVASTAVA,15,15,075822 66171,Bhagyodaya Hospital,0,-1,0,"Khurai Road, Achrya Vidhya Sagar Marg,, Shastri Nagar, Sagar, Madhya Pradesh 470002, India",1619932264000,Private
+804,Sagar,-1,470001,Sagar,9424422744,2,0,dr. sarvesh jain,6,12,075822 98964,Shri Balaji Hospital and Trauma Center,0,-1,0,"Tilli, Sagar, Madhya Pradesh 470001, India",1619924244000,Private
+805,Sagar,-1,470335,Sagar,9179668315,64,21,THIRTHESH JAIN,0,6,096177 02626,ITI COLLEGE KANTI BANDA,0,-1,0,"NH934, Banda, Madhya Pradesh 470335, India",1619924289000,Government
+806,Satna,-1,485001,Satna,8223078203,8,0,Jagruti Singh,0,2,076724 15122,Pathak Hospital,0,-1,0,"Chanakyapuri Rd, ChankyaPuri Colony, Satna, Madhya Pradesh 485001, India",1619931035000,Private
+807,Satna,-1,,Satna,9753750259,10,10,DR R K MISHRA,0,16,"8533033385, 7024358060",COVID CARE CENTER AMARPATAN,0,-1,7,,1619940929000,Government
+808,Satna,-1,485001,Satna,9109451785,12,0,SARTHAK HOSPITAL,6,6,"9425812531, 7000029349",SARTHAK HOSPITAL SATNA,0,-1,0,"NH 75, Panna Khajuraho Rd, Distt, SherGanj, Satna, Madhya Pradesh 485001, India",1619945352000,Private
+809,Satna,-1,485001,Satna,9589242131,0,0,DR PRABHAT SINGH,0,15,076724 94959,YASH HOSPITAL REWA ROAD SATNA,0,-1,0,"Laxminarayan estate Front of dominos Besides Punjab national bank, Maihar - Rewa Rd, Railway Colony, Satna, Madhya Pradesh 485001, India",1619920853000,Private
+810,Satna,-1,210204,Satna,9981156964,20,4,DR DEEPAK SHARMA,0,5,076702 65320,JANKIKUND HOSPITAL CHITRAKOOT,0,-1,0,"sadguru seva sangh trust, Janki Kund, Chitrakoot, Madhya Pradesh 210204, India",1619946812000,Private
+811,Satna,-1,,Satna,9098441788,3,3,DR SATENDRA NARAYAN PRASAD,0,7,", ",COVID CARE CENTER UNCHEHARA,0,-1,0,,1619934935000,Government
+812,Satna,-1,485001,Satna,7415150225,18,10,Dr  Yogendra Singh,18,21,074151 50225,Shreeji Kanha Hospital,0,-1,0,"In front of Shere Punjab Jewellers, Rewa Rd, near Circuit House, MP Nagar, Satna, Madhya Pradesh 485001, India",1619940973000,Private
+813,Satna,-1,485005,Satna,9827867607,2,0,Mr Harishankar MISHRA,11,7,095222 33700,M.P. BIRLA HOSPITAL SATNA,0,-1,0,"J.R Post Birla Vikas, Birla Rd, Birla Colony Campus, Satna, Madhya Pradesh 485005, India",1619941937000,Private
+814,Satna,-1,,Satna,9827684250,2,2,DR SURAJ KUMAR THAKURIYA,0,8,"9424607450, 9039668870",COVID CARE CENTER RAMPUR BAGHELAN,0,-1,8,,1619940883000,Government
+815,Satna,-1,485771,Satna,9300267473,50,20,Dr Pradeep Nigam,0,0,", ",Maihar CCC,0,-1,0,"Maihar, Maihar, Madhya Pradesh 485771, India",1619927059000,Government
+816,Satna,-1,485001,Satna,9827369170,8,8,DR RAJNEESH JAISWAL,0,4,"9827226846, 9074342410",AAYUSHMAN HOSPITAL PVT LTD SATNA,0,-1,0,"Circuit House Chowk, Railway Colony, Satna, Madhya Pradesh 485001, India",1619946446000,Private
+817,Satna,-1,485001,Satna,9589039233,3,0,DR NISHANT KUMBHARE,0,7,076724 22245,RAINBOW HOSPITAL BHARHUT NAGAR SATNA,0,-1,0,"Bharhut Nagar Rd, Navrang Park Colony, Bharhut Nagar, Satna, Madhya Pradesh 485001, India",1619932169000,Private
+818,Satna,-1,,Satna,9981663012,5,5,DR RAJEEV PANDEY,0,5,"9893218353, 9893218353",COVID CARE CENTER MAJHGAWA,0,-1,1,,1619941125000,Government
+819,Satna,-1,,Satna,7693030343,5,4,Dr Atul Agnihotri,0,5,", ",Sanjiwani Super Speciality Hospital Bus Stand Sayna,0,-1,0,,1619942132000,Private
+820,Satna,-1,485881,Satna,9770088085,10,10,DR PRADEEP PANDEY,0,8,"9589265662, 8989950819",CHC DEVRAJNAGAR,0,-1,3,"Chc devrajnagar block devrajnagar, Gidhaila, Madhya Pradesh 485881, India",1619930259000,Government
+821,Satna,-1,485001,Satna,9827062501,60,60,Dr. S.P. Tiwari,49,174,076722 23250,DH Satna - DCHC,0,-1,0,"Jagatdev Talab Rd, Pushpraj Colony, Jeevan Jyoti Colony, Satna, Madhya Pradesh 485001, India",1619939755000,Government
+822,Satna,-1,,Satna,8319165715,5,5,DR GYANDESH GAUTAM,15,40,"9425810962, 9000000010",CH MAIHAR,0,-1,10,,1619926221000,Government
+823,Satna,-1,,Satna,9424781662,100,40,MR BHUPENDRA SINGH,0,0,", ",CCC Tribal Hostal Adarsh Nagar Satna,0,-1,0,,1619933786000,Government
+824,Satna,-1,,Satna,9584114243,8,2,DR VINAY RAVI,0,7,"7000436476, 8989950819",COVID CARE CENTER RAMNAGAR,0,-1,5,,1619929977000,Government
+825,Satna,-1,,Satna,8109790004,4,0,Dr. Charulata Soi,2,4,"9827003494, 9425885479",Chitrakoot Chairitable Hospital Bus Stand Satna,0,-1,0,,1619937325000,Private
+826,Satna,-1,485001,Satna,9425173656,50,29,DR KL NAMDEO,0,40,094249 72001,GNM HOSTEL,0,-1,34,"Gram Bachbai Raigaon Road , Office Nishad Bhawan, Panna Road, Pater, Satna, Madhya Pradesh 485001, India",1619928457000,Government
+827,Satna,-1,,Satna,9893211913,10,9,DR RAKESH TRIPATHI,0,4,"9424763172, 9893860682",CHC KOTHI,0,-1,0,,1619932537000,Government
+828,Satna,-1,485446,Satna,8770452773,10,9,DR DEEPAK PANDEY,0,5,"9826925484, 9752280066",CHC NAGOD,0,-1,0,"MDR, Nagod, Madhya Pradesh 485446, India",1619932595000,Government
+829,Sehore,-1,,Sehore,9993151900,3,3,DR RAMNATH DHUSIA,0,12,"9174156474, 8819955844",CHC REHTI,0,-1,0,,1619927179000,Government
+830,Sehore,-1,466001,Sehore,7067405579,0,0,Dr R K VERMA,11,90,075622 27766,DH Sehore - DCHC,1,-1,8,"Sindhi Colony, Sehore, Madhya Pradesh 466001, India",1619931299000,Government
+831,Sehore,-1,466445,Sehore,9827377398,50,39,DR NARENDRA SONDHIYA,0,50,"9755560975, 9755671166","BUDHNI- GOVERMENT AADARSH EKLAVYA HOSTEL, VILLAGE - JOSHIPURA",0,-1,35,"Budhni, Madhya Pradesh 466445, India",1619920036000,Government
+832,Sehore,-1,466001,Sehore,9826090264,0,0,Dr. V.K.Chaturvedi,0,50,"7000097110, 7697404748",SEHORE - SHASKIYA AWASIYA KHELKUD SANSTHAN,0,-1,9,"Chanakyapuri, Sehore, Madhya Pradesh 466001, India",1619946294000,Government
+833,Sehore,-1,466331,Sehore,9826739321,0,0,DR MANISH SARASWAT,0,20,089823 55519,CIVIL HOSPITAL NASRULLAGANJ,0,-1,7,"Nasrullaganj, Madhya Pradesh 466331, India",1619928391000,Government
+834,Sehore,-1,466331,Sehore,7828532195,40,40,DR JITENDRA DAYMA,0,0,"7828731973, 9009685111","GOVERNMENT GIRLS SC HOSTEL SEMALPANI ROAD, NEAR ITI, NASRULLAGANJ",0,-1,0,"Nasrullaganj, Madhya Pradesh 466331, India",1619937439000,Government
+835,Sehore,-1,466445,Sehore,8349801444,5,0,Mr. Amit sharma,0,5,"7024267208, 7024267135",MADHUBAN HOSPITAL BUDHNI,0,-1,0,"Salkanpur Rd, Talpura, Madhya Pradesh 466445, India",1619931953000,Private
+836,Sehore,-1,466115,Sehore,9826430950,0,0,DR. B.B. SHARMA,0,10,"9826697005, 7000837941",CHC ICHHAWAR,0,-1,0,"Ichhawar, Madhya Pradesh 466115, India",1619945871000,Government
+837,Sehore,-1,466115,Sehore,9713125122,25,25,DR AMRITA SHRIVASTAVA,0,0,"8871728703, 8871728703","MODEL SCHOOL KHERI ROAD, ICCHAWAR",0,-1,0,"Kheri - Bhopal Rd, Ichhawar, Madhya Pradesh 466115, India",1619937649000,Government
+838,Sehore,-1,466001,Sehore,8433489869,16,16,DR GOPAL MODI,0,14,"8878712119, 9893233249",SUMAN RAJENDRA MODI MULTISPECIALITY HOSPITAL SEHORE,0,-1,8,"In front of Guru dewarra, Behind Red cross Hospital Gang ashram, Main Rd, Sindhi Colony, Sehore, Madhya Pradesh 466001, India",1619925181000,Private
+839,Sehore,-1,,Sehore,7000725068,25,25,DR ISHAAN SINGH UIKEY,0,0,", ",GOVT GIRLS HOSTAL REHTI,0,-1,0,,1619926985000,Government
+840,Sehore,-1,466001,Sehore,9926034963,50,48,DR AMIN KHAN,0,0,075622 24240,GOVT COLLEGE  CHANDRA SHEKHAR AZAD  ROAD ASHTA,0,-1,0,"358, NEW BUS STAND, Madhya Pradesh State Highway 18, Bhopal Naka, Sindhi Colony, Chanakyapuri, Sehore, Madhya Pradesh 466001, India",1619935094000,Government
+841,Sehore,-1,466116,Sehore,9893371698,0,0,DR PRAVEER GUPTA,0,20,"9826047253, 9926667367",CIVIL HOSPITAL ASHTA,0,-1,0,"civil hospital,, Sai Colony, Ashta, Madhya Pradesh 466116, India",1619922929000,Government
+842,Sehore,-1,466001,Sehore,9826293590,50,50,DR MUKESH TIWARI,0,50,075622 22482,SCHOOL OF MEDICAL SCIENCE SSSUTMS PRIVATE HOSPITAL SEHORE,0,-1,41,"SH-18, BHOPAL-INDORE ROAD ,OPP.OIL FED PLANT (M.P), Pachama, Madhya Pradesh 466001, India",1619923803000,Private
+843,Sehore,-1,466001,Sehore,9977201085,50,47,DR RAJKUMAR AHIRWAR,0,0,088210 13007,"SEHORE- GOVERNMENT GIRLS HOSTEL, NEAR IES SCHOOL",0,-1,0,"IES Campus Near, ITC Chaupal, Rafiqueganj, Madhya Pradesh 466001, India",1619926659000,Government
+844,Seoni,-1,480661,Seoni,7506093704,5,0,Dr Vinit Seth Dr S K Agrawal,2,13,062601 96758,Jindal Hospital,0,-1,0,"Bus Stand Road, Bhairoganj, Bhagat Singh Ward, Seoni, Madhya Pradesh 480661, India",1619926844000,Private
+845,Seoni,-1,480661,Seoni,9425174623,20,10,Dr P Surya,0,0,"9425174623, 9425174623",GNMTC,0,-1,0,"Old RTO Office Rd, Ekta Colony, Barapatthar, Seoni, Madhya Pradesh 480661, India",1619926815000,Government
+846,Seoni,-1,480886,Seoni,7000017466,70,26,Dr B S Solanki,0,0,"9479635771, 8989665500",Civil Hospital Lakhnadon,0,-1,0,"NH 44, Pathariya, Madhya Pradesh 480886, India",1619926791000,Government
+847,Seoni,-1,480661,Seoni,8319659700,5,0,Dr Saiyat Sanshul Hassan,0,20,076922 23681,Jathar Hospital,0,-1,0,"Barapatthar Rd, PWD Colony, Barapatthar, Seoni, Madhya Pradesh 480661, India",1619926829000,Private
+848,Seoni,-1,,Seoni,9981165181,10,1,Dr  Lakra,0,0,", ",Keolari Civil Hospital,0,-1,0,,1619926855000,Government
+849,Seoni,-1,480661,Seoni,9425174925,70,65,Dr Vinod K Navkar,14,150,"9425174925, 9425174925",DH Seoni - DCHC,6,-1,21,"Seoni, Madhya Pradesh 480661, India",1619926802000,Government
+850,Shahdol,-1,484001,Shahdol,7697822888,0,0,Dr VINAMRA JAIN,0,10,076978 22888,Amrita Hospital,0,-1,10,"Rewa Rd, Shahdol, Madhya Pradesh 484001, India",1619926459000,Private
+851,Shahdol,-1,,Shahdol,8120014435,30,18,DR NISHANT SINGH PARIHAR,0,0,"9424333130, 8120709966",CH BEOHARI,0,-1,0,,1619924243000,Government
+852,Shahdol,-1,484001,Shahdol,9407801779,0,0,RAJESH,14,11,07652 230 044,DEVANTA HOSPITAL,0,-1,1,"Gortara, Shahdol, Madhya Pradesh 484001, India",1619928275000,Private
+853,Shahdol,-1,484110,Shahdol,9867762839,30,5,Dr Deepak Paradkar,0,0,"7587390894, 9755283795",BUDHAR CENTRAL Hospital -(CCC- Other Institution),0,-1,0,"Dhanpuri, Madhya Pradesh 484110, India",1619924296000,Government
+854,Shahdol,-1,484001,Shahdol,9926409802,138,13,DR NAGENDRA SINGH,70,190,07652 243 000,GMC Shahdol - DCH,0,-1,2,"Kudri Road, near New Bus Stand, Shahdol, Madhya Pradesh 484001, India",1619919563000,Government
+855,Shahdol,-1,,Shahdol,9993260440,4,0,Dr Ganesh Tandiya,10,0,", ",DH Shahdol - DCHC,0,-1,0,,1619925881000,Government
+856,Shahdol,-1,484001,Shahdol,9425362902,5,2,DR ROHIT DUVEY,15,15,07652 248 248,SHRI RAM HOSPITAL,0,-1,0,"Pali Rd, Jaistham Chowk, Shahdol, Madhya Pradesh 484001, India",1619924180000,Private
+857,Shahdol,-1,,Shahdol,9713762869,5,3,NISHIKANT MISHRA,10,0,"7000480091, 9131103254",SHREE SHYAMCARE HOSPITAL,0,-1,0,,1619924547000,Private
+858,Shajapur,-1,465001,Shajapur,9425084156,23,13,Dr.Praveen singh,2,15,073642 28611,Gohil Sampoorn Hospital,0,-1,9,"Adarsh Colony Main Rd, Irrigation Colony, Shajapur, Madhya Pradesh 465001, India",1619921102000,Private
+859,Shajapur,-1,465001,Shajapur,9826060452,50,46,Dr. Alok Saxena,20,130,"9977551011, 9818781947",DH Shajapur - DCHC,0,-1,15,"Shajapur, Madhya Pradesh 465001, India",1619924123000,Government
+860,Shajapur,-1,,Shajapur,9425940454,120,67,Dr. K.K. Joshi,0,30,"9818781947, 8435955309",CCC Shujalpur,0,-1,10,,1619924273000,Government
+861,Shajapur,-1,465001,Shajapur,9425492610,5,0,Dr raj Kumar patidar,0,0,073642 27966,Patidar Nusing Home Shajapur,0,-1,0,"Mumbai - Agra National Hwy, near new bus stand, Patwari Colony, Lalpura, Shajapur, Madhya Pradesh 465001, India",1619929502000,Private
+862,Shajapur,-1,465333,Shajapur,8878289622,4,1,Jeewan Mewada,11,5,"7879824343, 8305885441",Sugan Devi Hospital Shujalpur,5,-1,2,"Sjp Mallu, Chitransh Nagar, Shujalpur, Madhya Pradesh 465333, India",1619925113000,Private
+863,Shajapur,-1,465001,Shajapur,9755395959,40,19,Dr. Apoorva Sharma,10,20,"9179132668, 9713286714",JASH Hospital and Research Centre,4,-1,5,"Shajapur - Dupada Rd, Vighneshwar Nagar, Shajapur, Madhya Pradesh 465001, India",1619926564000,Private
+864,Shajapur,-1,465001,Shajapur,9893889992,5,5,Dr. Sunil Sharma,10,5,"7000852442, 8839380600",Metro Hospital Shajapur,2,-1,3,"Shajapur - Dupada Rd, Vighneshwar Nagar, Shajapur, Madhya Pradesh 465001, India",1619924284000,Private
+865,Shajapur,-1,465333,Shajapur,9977826885,5,3,Ankit saxena,0,5,"9753687766, 9098190802",J.K. Hospital & Trauma Center Shujalpur,0,-1,0,"Akodiya, Sarangpur Rd, near Rathi Motors, Naka, Shujalpur, Madhya Pradesh 465333, India",1619920678000,Private
+866,Shajapur,-1,465333,Shajapur,9893458798,40,0,Dr. Nagendra Rajput,15,9,073602 45010,Aarogya Hospital Shujalpur,0,-1,0,"41, Mahatma Gandhi Marg, Shankar Nagar Colony, Shujalpur, Madhya Pradesh 465333, India",1619924760000,Private
+867,Shajapur,-1,465001,Shajapur,9425083030,8,0,Udit Bhatt,0,2,073642 27740,Vyas Nursing Home Shajapur,0,-1,0,"Vighneshwar Nagar, Shajapur, Madhya Pradesh 465001, India",1619924700000,Private
+868,Shajapur,-1,,Shajapur,9754143934,5,0,Dr  Vikas Singh,0,10,"8120205030, 9981236867",Vardan Fracture and general Hospital Shajapur,0,-1,0,,1619925453000,Private
+869,Shajapur,-1,465333,Shajapur,8989135765,20,10,Dr. R.K. Tiwari,0,30,"9752603067, 9977523395",CH Shujalpur City,0,-1,0,"-akodia, Shujalpur Rd, Shujalpur, Madhya Pradesh 465333, India",1619924188000,Government
+870,Shajapur,-1,465333,Shajapur,9752764760,5,5,Nirmal parmar,0,0,070499 02004,D.P. Care Hospital  Shujalpur,0,-1,0,"Ashta - Kannod Rd, Free Ganj, Shujalpur, Madhya Pradesh 465333, India",1619923797000,Private
+871,Shajapur,-1,465333,Shajapur,9977661099,0,0,Dr Mahendra Parmar,0,5,"9977661099, 9977661099",Sai Kripa Hospital & Emergency Care Shujalpur Mandi,0,-1,0,"Mahatma Gandhi Marg, Shujalpur, Madhya Pradesh 465333, India",1619926096000,Private
+872,Shajapur,-1,465001,Shajapur,8376999749,50,33,Dr. K.P Singh,0,0,"9399513762, 9977551011",Vridhashram Shajapur,0,-1,0,"Shajapur, PWD Colony, Gayatri Nagar, Shajapur, Madhya Pradesh 465001, India",1619927781000,Government
+873,Shajapur,-1,465001,Shajapur,8120266731,18,0,Dr Varun Kumar Bajaj,10,0,"9425034565, 9754705722",Shajapur City Hospital Shajapur,0,-1,0,"NH 3, Irrigation Colony, Shajapur, Madhya Pradesh 465001, India",1619924674000,Private
+874,Shajapur,-1,465001,Shajapur,9589657172,20,16,SUBODH MATHUR,10,0,"9893537845, 9993353579",Shree Balaji Hospital Kalapipal,5,-1,0,"Lalpura, Shajapur, Madhya Pradesh 465001, India",1619921736000,Private
+875,Sheopur,-1,476337,Sheopur,9425128462,257,242,Dr r b goyal,0,0,"9826242831, 9302654551",Dccc dhengda,0,-1,0,"GOVT. PG COLLAGE NEAR INFANT JESUS HIGH SCHOOL, Salapura, Madhya Pradesh 476337, India",1619928562000,Government
+876,Sheopur,-1,,Sheopur,8871506336,50,45,dr pradeep kumar,0,0,"9098567656, 7987633130",CCC Vijaypur,0,-1,0,,1619928507000,Government
+877,Sheopur,-1,476337,Sheopur,9589434828,70,54,Shayam sunder agarwal,0,0,"7000543776, 7247704518",ITI karahal,0,-1,0,"Sheopur, Madhya Pradesh 476337, India",1619928634000,Government
+878,Sheopur,-1,476337,Sheopur,8965077622,10,4,Dr R B Goyal,11,76,075302 20118,DH Sheopur,1,-1,26,"SH 6, beside DFO Office, Sheopur, Madhya Pradesh 476337, India",1619927620000,Government
+879,Shivpuri,-1,473551,Shivpuri,9752153200,0,0,DR ANIL GOSWAMI,7,6,"9329999093, 6261666970",PEOPLE CARE HOSPITAL,0,-1,0,"Unnamed Road, Govind Pura, Shivpuri, Madhya Pradesh 473551, India",1619922515000,Private
+880,Shivpuri,-1,473551,Shivpuri,9827726360,50,50,Dr.Mukesh mittal,0,0,093011 13907,MEDICAL COLLEGE INTERN HOSTEL,0,-1,0,"GOVERNMENT MEDICAL COLLEGE, near Kattha Mill, Shivpuri, Madhya Pradesh 473551, India",1619928589000,Government
+881,Shivpuri,-1,473551,Shivpuri,8269932412,10,10,DR NITESH GOSWAMI,10,10,093000 10670,M M HOSPITAL,10,-1,10,"Hathi Khana, Dakhar Mohalla, Shivpuri, Madhya Pradesh 473551, India",1619922505000,Private
+882,Shivpuri,-1,473551,Shivpuri,9425489416,15,15,DR.PD GUPTA,10,5,080 4805 3867,Siddhi Vinayak Multi Speciality Hospital,0,-1,0,"Dakhar Mohalla, Shivpuri, Madhya Pradesh 473551, India",1619922699000,Private
+883,Shivpuri,-1,473551,Shivpuri,7830298790,240,240,Dr KV Verma,85,145,093011 13907,GMC Shivpuri - DCH,22,-1,58,"GOVERNMENT MEDICAL COLLEGE, near Kattha Mill, Shivpuri, Madhya Pradesh 473551, India",1619931410000,Government
+884,Shivpuri,-1,473551,Shivpuri,9893231106,5,1,DR MAHENDRA VERMA,0,5,"6260980474, 8639344532",VARDHAN HOSPITAL,0,-1,0,"Govt Hospital Shivpuri, Mahal Colony, Shivpuri, Madhya Pradesh 473551, India",1619928632000,Private
+885,Shivpuri,-1,,Shivpuri,7354134959,110,57,Dr Dinesh Rajput,10,76,"9827562241, 8305210552",DH Shivpuri - DCHC,0,-1,0,,1619931454000,Government
+886,Shivpuri,-1,473551,Shivpuri,8839022630,5,0,DR arvind,0,5,070009 40312,NAVJEEVAN HOSPITAL,0,-1,2,"Near Ghoda Chouraha Pohri Road Shivpuri M.P, near Old Suzuki Showroom, Dakhar Mohalla, Shivpuri, Madhya Pradesh 473551, India",1619924233000,Private
+887,Shivpuri,-1,473551,Shivpuri,7389002743,0,0,DR DEEPAK GOUTAM,0,10,"9568470000, 7697668486",SUKHDEV HOSPITAL,0,-1,0,"Ground Floor,Kaushalya Tower,Siddh Vihar colony (Nai ki bagiya, Mahal Colony, Shivpuri, Madhya Pradesh 473551, India",1619923800000,Private
+888,Sidhi,-1,486661,Sidhi,7869247901,107,64,DR AVINASH JOHN,0,33,078222 50076,GNM TRAINING CENTER,0,-1,33,"Deen Dayal Colony, Collectorate Road, near Hospital Chowk, Sidhi, Madhya Pradesh 486661, India",1619927593000,Government
+889,Sidhi,-1,486661,Sidhi,9424689936,0,0,Dr DK Dwivedi,10,80,078222 52204,DH Sidhi - DCHC,0,-1,16,"NH75, Shashtrinagar, Sidhi, Madhya Pradesh 486661, India",1619928071000,Government
+890,Sidhi,-1,486661,Sidhi,8839545800,19,3,Dr Anoop mishra,2,16,078222 50076,Mishra nursing home,2,-1,7,"Deen Dayal Colony, Collectorate Road, near Hospital Chowk, Sidhi, Madhya Pradesh 486661, India",1619925093000,Private
+891,Sidhi,-1,486661,Sidhi,7247523562,100,98,DR M. P. SINGH,0,0,"9826242073, 9755020476",MADHURI BOYS HOSTEL,0,-1,0,"Demha, Madhya Pradesh 486661, India",1619925506000,Government
+892,Singrauli,-1,486890,Singrauli,9691067668,100,62,Dr. Pankaj Singh,0,0,"7049904040, 6261660356",Jayant Kalyan Mandap,0,-1,0,"JAYANT SECTOR 2, Sector 4, Jayant, Madhya Pradesh 486890, India",1619916405000,Government
+893,Singrauli,-1,,Singrauli,7489003052,50,40,Laxmi Narayan,0,0,"7489003052, 7489003052","Ambedkar Bhawan, Nigahi",0,-1,0,,1619916602000,Government
+894,Singrauli,-1,,Singrauli,9406966428,50,48,R P Chaudhary,0,0,", ","Worker's Club, Gorbi",0,-1,0,,1619919580000,Government
+895,Singrauli,-1,486888,Singrauli,9926201747,0,0,Dr Vinod,10,90,"9926201747, 9926201747","Nehru Shatabdi Chikitsalaya, Jayant, NCL",0,-1,4,"Nehru, Jayant, Madhya Pradesh 486888, India",1619916240000,Government
+896,Singrauli,-1,486890,Singrauli,9406711708,100,54,Rajesh Chaudhari,0,0,"9968159353, 9926201747",Amlohri Kalyan Mandap,0,-1,0,"JAYANT SECTOR 2, Sector 4, Jayant, Madhya Pradesh 486890, India",1619919816000,Government
+897,Singrauli,-1,486669,Singrauli,9669905421,50,50,Dr. C L Singh,0,0,076974 67228,"Post Metric Balak Adiwasi Chhatravas, Mahuagaon",0,-1,0,"Pondi, Madhya Pradesh 486669, India",1619919630000,Government
+898,Singrauli,-1,,Singrauli,7016332696,20,0,Dr. Rajesh Baish,0,25,"7016332696, 7016332696",Singrauli Hospital and Research Centre,0,-1,5,,1619917837000,Private
+899,Singrauli,-1,,Singrauli,9406711443,50,32,R K Rathore,0,0,", ","Worker's Cub, NCL HQ, Singrauli",0,-1,0,,1619919486000,Government
+900,Singrauli,-1,,Singrauli,8349004169,18,18,Dr. Bhupendra Singh,0,0,", ","Balika OBC Ashram, Sajhawa",0,-1,0,,1619918857000,Government
+901,Singrauli,-1,486889,Singrauli,9406711268,0,0,Dr Ak mishra,0,80,"9406711268, 9406711268",Vindhya Chikitsalay Ntpc Singrauli,0,-1,10,"Singrauli Market Rd, Bhagat Singh Colony, Singrauli, Madhya Pradesh 486889, India",1619916353000,Government
+902,Singrauli,-1,,Singrauli,9754933570,16,1,Dr. D K Mishra,6,14,"9754933570, 9754933570",Mishra Polyclinic and Nursing Home,0,-1,4,,1619918733000,Private
+903,Singrauli,-1,486886,Singrauli,8349004169,18,10,Dr. Bhupendra Singh,0,0,033 2552 3991,"Adiwasi Balak Ashram, Sajhawa",0,-1,0,"Sarai, Madhya Pradesh 486886, India",1619919142000,Government
+904,Singrauli,-1,,Singrauli,8120816217,0,0,Dr Santosh Kumar,0,67,"8120816217, 8120816217",DH Singrauli - DCHC,0,-1,26,,1619916469000,Government
+905,Singrauli,-1,,Singrauli,9406964307,50,23,Nagendra Tiwari,0,0,"9406711308, 9406711308","Jubilee Bhawan, Duddhichua",0,-1,0,,1619916869000,Government
+906,Singrauli,-1,,Singrauli,9450165188,50,44,Rajkumar,0,0,"9450165188, 9450165188","Worker's Club, CWS Colony, Jayant",0,-1,0,,1619919336000,Government
+907,Singrauli,-1,486886,Singrauli,7088180272,0,0,Dr. Ganga Vaishya,12,150,"8120816217, 8120816217",New District Hospital cum Trauma Centre,1,-1,33,"Bilounji, Waidhan, Madhya Pradesh 486886, India",1619916166000,Government
+908,Tikamgarh,-1,472001,Tikamgarh,9893499771,40,15,Dr. Sanjay Kushwaha,0,0,076832 42250,CCC Udan,0,-1,0,"Composite Collectorate Building, Jhansi Road, Mahavir Colony, Tikamgarh, Madhya Pradesh 472001, India",1619927522000,Government
+909,Tikamgarh,-1,472001,Tikamgarh,9425145957,20,18,DR AMIT CHOUDHARY,12,128,"9424432849, 9340794975",DH-TIkamgarh1,0,-1,102,"Near, New Bus Stand Rd, Tikamgarh, Madhya Pradesh 472001, India",1619927615000,Government
+910,Tikamgarh,-1,472118,Tikamgarh,9926863571,0,0,Dr. Rahul Jain,0,30,"9926863571, 7869111534",CHC Jatara,0,-1,19,"Jatara, Madhya Pradesh 472118, India",1619927550000,Government
+911,Tikamgarh,-1,,Tikamgarh,9340794975,30,17,Dr H B Badgiya,0,0,"9926863571, 9713324100",Ram Raja Hospital,0,-1,0,,1619927657000,Government
+912,Tikamgarh,-1,472001,Tikamgarh,8319926391,50,50,Dr Satendra Gupta,0,0,"9754721300, 8305927743","Pre Matric Kanya Chhatrawas, Dhonga",0,-1,0,"Unnamed Road, Dhonga, Tikamgarh, Madhya Pradesh 472001, India",1619927637000,Government
+913,Ujjain,-1,456001,Ujjain,9926006606,34,6,DR RAVI JAIN,16,30,"9669601987, 9974874536",UJJAIN CHARITABLE TRUST HOSPITAL UJJAIN,0,-1,0,"Budhwaria Rd, Nikas Chauraha, Ujjain, Madhya Pradesh 456001, India",1619924752000,Private
+914,Ujjain,-1,456010,Ujjain,9425092433,23,0,Dr.Harsh Mangal,8,23,094250 92433,Saharsh Hospital,0,-1,0,"Ring Rd, Mangal Colony, Sethi Nagar, Ujjain, Madhya Pradesh 456010, India",1619935440000,Private
+915,Ujjain,-1,456224,Ujjain,9713864099,0,0,DR RUHIDASH THAKUR,5,27,"9713864099, 9713864099",PADMAVATI HOSPITAL KHACHAROD,0,-1,9,"Near ICICI BANK Khachrod-Nagda, Khachrod - Barnagar Rd, Khachrod, Madhya Pradesh 456224, India",1619935357000,Private
+916,Ujjain,-1,,Ujjain,9425916867,4,0,DR. DINESH YADAV,0,6,"9425916867, 9826539009",CHC JHARDA,0,-1,0,,1619925344000,Government
+917,Ujjain,-1,456010,Ujjain,9617077077,27,0,PRABHAT SIRSAT,22,34,0734 251 3735,J K HOSPITAL,0,-1,0,"No4,5, Indore Road, Sant Nagar, Ujjain, Madhya Pradesh 456010, India",1619930741000,Private
+918,Ujjain,-1,456010,Ujjain,7697270358,42,0,ANOKHILAL PATIDAR,15,36,0734 477 1000,Patidar Hospital and research centre,0,-1,0,"Ghas Mandi Chouraha, 12, Kshapnak Marg, Ashok Nagar, Madhav Nagar, Ujjain, Madhya Pradesh 456010, India",1619928855000,Private
+919,Ujjain,-1,456665,Ujjain,9039900546,8,0,Dr. Anis Gori,0,17,073692 35301,CHC TARANA,0,-1,0,"Tarana, Madhya Pradesh 456665, India",1619925473000,Government
+920,Ujjain,-1,456001,Ujjain,8827913289,1,0,MR DEEPESH SHARMA,3,19,0734 253 4000,CHL MEDICAL CENTER,0,-1,0,"Hari Phatak, Bye-Pass Road, Nana Kheda, Shivalay Twp, Ujjain, Madhya Pradesh 456001, India",1619922908000,Private
+921,Ujjain,-1,456664,Ujjain,8989696899,50,23,Dr. Rajendra Uplavdiya,0,0,"8989696899, 8989696899",Police Training School,0,-1,0,"Ujjain, Madhya Pradesh 456664, India",1619924167000,Government
+922,Ujjain,-1,456001,Ujjain,7838478989,0,0,DR. BRAJENDRA KUMAR,0,50,0734 251 0726,SHREE G D BIRLA MEMORIAL HEALTH CENTRE,0,-1,0,"Birla Hospital Chouraha, Mahananda Nagar, Ujjain, Madhya Pradesh 456001, India",1619927814000,Private
+923,Ujjain,-1,456010,Ujjain,9827215447,7,0,Yogesh Upadhyay,2,28,0734 406 6177,Sanjeevani Hospital And Rearch Centre,0,-1,0,"Dashaahara Maidan Rd, Sethi Nagar, Ujjain, Madhya Pradesh 456010, India",1619922972000,Private
+924,Ujjain,-1,456001,Ujjain,9425332393,100,72,SUNITA PARMAR,0,0,"9425332393, 9425332393",Prashanti covid care center,0,-1,0,"45/1, Ujjain - Indore Rd, near Prashanti Dham, Motibagh Colony, Pawapuri Colony, Ujjain, Madhya Pradesh 456001, India",1619924313000,Government
+925,Ujjain,-1,456001,Ujjain,8359889621,2,0,MR.AMIT PRATAP SINGH,10,28,0734 251 5056,"S S HOSPITAL & RESEARCH CENTRE,UJJAIN",0,-1,0,"No-76 Vikram Marg Near Shaheed Park, Freeganj, Madhav Nagar, Ujjain, Madhya Pradesh 456001, India",1619924700000,Private
+926,Ujjain,-1,,Ujjain,9827551662,10,7,DR SWAMI,0,40,"9827551662, 9425495096",ATMNIRBHAR BADNAGAR CCC,0,-1,0,,1619924693000,Government
+927,Ujjain,-1,456010,Ujjain,9425195676,16,0,DR SHRIPAD DESHMUKH,9,23,0734 251 9091,DESHMUKH HOSPITAL AND RESEARCH CENTRE,0,-1,0,"14/16, Sanwer Rd, Ved Nagar, Shivalay Twp, Ujjain, Madhya Pradesh 456010, India",1619931656000,Private
+928,Ujjain,-1,456001,Ujjain,9826463689,0,0,SANJEEV KUMRAWAT,35,143,0734 255 1460,DH - Ujjain Civil Hospital Madhavnagar,0,-1,0,"Agar Road, Sindhi Colony, Ujjain, Madhya Pradesh 456001, India",1619928622000,Government
+929,Ujjain,-1,456010,Ujjain,7000062858,6,0,DR. Govind Parmar,12,44,"9589441545, 9893549955",Tejankar Healthcare & medical Research institute,0,-1,4,"Tejankar Hospital, Madhav Club Rd, Tinbatti Chouraha, Ujjain, Madhya Pradesh 456010, India",1619924871000,Private
+930,Ujjain,-1,,Ujjain,9827114364,2,2,DR KAMAL SOLANKY,7,18,"9827114364, 9827114364",NAGDA CH,2,-1,1,,1619924418000,Government
+931,Ujjain,-1,456010,Ujjain,9993951015,2,0,Dr. Sunil Sharma Nodal Officer,5,16,0734 251 9447,PUSHPA MISSION HOSPITAL,0,-1,0,"Maria nagar, Dewas Rd, Rishi Nagar, Ujjain, Madhya Pradesh 456010, India",1619929231000,Private
+932,Ujjain,-1,456006,Ujjain,9584005550,55,16,YOGESH SHAKYA,0,176,"7999426709, 9575415816",Charak Bhawan 5th Floor,0,-1,1,"Agar Rd, Nijatpura, Malipura, Ujjain, Madhya Pradesh 456006, India",1619928781000,Government
+933,Ujjain,-1,456010,Ujjain,9302302221,10,4,DR FARHAN,22,28,072259 28637,SHREE GURUNANAK HOSPITAL AND RESEARCH CENTER,0,-1,0,"18, Kshapank Marg, Freeganj, Madhav Nagar, Desai Nagar, Ujjain, Madhya Pradesh 456010, India",1619935142000,Private
+934,Ujjain,-1,456006,Ujjain,6265009552,120,91,Pankaj,137,243,073682 61235,RD Gardi Medical college (Contract),37,-1,141,"Neel Ganga Road, Madhya Pradesh State Highway 18, Sindhi Colony, Keshav Nagar, Ujjain, Madhya Pradesh 456006, India",1619926967000,Government
+935,Ujjain,-1,,Ujjain,9893834493,0,0,DR. RAMPURE,0,20,"9893834493, 9893834493",CH MAHIPDUR,0,-1,0,,1619929129000,Government
+936,Ujjain,-1,,Ujjain,9302594659,10,10,DR SANJAY PATEL,0,10,", ",CH KHACHAROD,0,-1,0,,1619924735000,Government
+937,Umaria,-1,484661,Umaria,9435344230,215,196,Dr Vinod Gupta,0,0,07653 222 600,MASTER CCC,0,-1,0,"Umaria, Madhya Pradesh 484661, India",1619922473000,Government
+938,Umaria,-1,484555,Umaria,9425533914,0,0,Dr Pratibha Pathak,0,20,"9425279878, 9425331379",Regional Hospital Narozabad,0,-1,13,"Nowrozabad, Madhya Pradesh 484555, India",1619922531000,Government
+939,Umaria,-1,484552,Umaria,9424727758,9,1,SHUBHAM RAIKWAR,0,10,"8889479060, 8989001359",MPEB HOSPITAL MANGHTAR PALI,0,-1,5,"Prakash Nagar, Pali Birsinghpur, Madhya Pradesh 484552, India",1619922499000,Government
+940,Umaria,-1,484661,Umaria,9685056301,20,0,Dr Pramod Dwivedi,10,20,"9424646217, 8770907221",DH Umaria - DCHC,0,-1,4,"Umaria, Madhya Pradesh 484661, India",1619922438000,Government
+941,Vidisha,-1,464001,Vidisha,7999206113,97,90,Dr Sheetal,100,143,093020 66808,GMC- Vidisha - DCH,30,-1,0,"NH-86, Sanchi Rd, in-front of Khel Parisar, Shastri Nagar, Vidisha, Madhya Pradesh 464001, India",1619925806000,Government
+942,Vidisha,-1,,Vidisha,7415379017,50,48,SMT NISHA CHOUDHRY,0,0,", ",CCC-SHASHABAD,0,-1,0,,1619932480000,Government
+943,Vidisha,-1,464001,Vidisha,8109880046,100,95,SHRI MEHTAB SINGH RAWAI,0,0,07592 250 297,CCC VIDISHA,0,-1,0,"Civil Lines, SATI Campus, Vidisha, Madhya Pradesh 464001, India",1619929484000,Government
+944,Vidisha,-1,,Vidisha,9827324094,50,46,DR ASHISH JAIN,0,0,", ",CCC-KURWAI,0,-1,0,,1619941855000,Government
+945,Vidisha,-1,,Vidisha,9131983017,50,49,DR LALIT RANJAN SHRIVASTAVA,0,0,"7828629622, 9752189288",CCC-LATERI,0,-1,0,,1619777859000,Government
+946,Vidisha,-1,464228,Vidisha,8770508313,50,43,DR ABHISHEK UPADHYAY,0,0,", ",CCC SIRONJ,0,-1,0,"Brij Colony, Vidisha District, near Bus Stand, Sironj, Madhya Pradesh 464228, India",1619926769000,Government
+947,Vidisha,-1,,Vidisha,9713488385,50,25,DR MANENDRA KATIYAAR,0,0,"9407273164, 9755406469",CCC GYARASPUR,0,-1,0,,1619935680000,Government
+948,Vidisha,-1,464001,Vidisha,9826310932,81,64,DR R.L SINGH,20,19,"7000176396, 9340024920",DH VIDISHA,2,-1,0,"DISTRICT HOSPITAL, Shastri Nagar, Vidisha, Madhya Pradesh 464001, India",1619925749000,Government
+949,Vidisha,-1,464221,Vidisha,9826821349,50,35,DR RAVINDRA CHIDAR,0,0,", ",CCC BASODA,0,-1,0,"Ganj Basoda, Ganj Basoda, Madhya Pradesh 464221, India",1619930070000,Government

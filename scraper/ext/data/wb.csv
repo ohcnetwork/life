@@ -1,0 +1,281 @@
+id,area,total_beds_allocated_to_covid,available_beds_allocated_to_covid,available_icu_beds_with_ventilator,pincode,district,total_beds_without_oxygen,bed_breakup,available_beds_without_oxygen,total_icu_beds_without_ventilator,total_beds_with_oxygen,hospital_phone,hospital_name,available_icu_beds_without_ventilator,total_icu_beds_with_ventilator,available_beds_with_oxygen,hospital_address,last_updated_on
+0,Alipurduar,15,13,0.0,736121,Alipurduar,0.0,,0.0,4.0,11.0,9677028903,DISTRICT HOSPITAL (Government Hospital),4.0,0.0,9.0,"Hospital Rd, Jalpaiguri, West Bengal 736121, India",1619934480000
+1,Alipurduar,50,50,0.0,735211,Alipurduar,40.0,,40.0,0.0,10.0,8420507892,FALAKATA SUPER SPECIALITY HOSPITAL (Government Hospital),0.0,0.0,10.0,"Falakata, West Bengal 735211, India",1619922600000
+2,Alipurduar,110,65,0.0,736133,Alipurduar,69.0,,46.0,10.0,24.0,9836055469,TOPSIKHATA COVID HOSPITAL (Government Hospital),7.0,7.0,12.0,"Tapsikhata, West Bengal 736133, India",1619935560000
+3,Alipurduar,40,38,0.0,735220,Alipurduar,38.0,,36.0,0.0,2.0,9002211270,"PATHER SATHI HOTEL, MADARIHAT (Safe Home)",0.0,0.0,2.0,"Jaldapara, Madhya Madarihat, West Bengal 735220, India",1619940000000
+4,ALIPURDUAR,80,70,0.0,,ALIPURDUAR,80.0,,70.0,0.0,0.0,7908448326,"PTTI SILTORSHA, ALIPURDUAR-I (Safe Home)",0.0,0.0,0.0,"VILL-SILBARIHAT, PO- SONAPUR, BLOCK-ALIPURDUAR-I , ALIPURDUAR",1619928480000
+5,Alipurduar,50,50,0.0,735211,Alipurduar,50.0,,50.0,0.0,0.0,9832652808,"SUN CITY RESORT, FALAKATA (Safe Home)",0.0,0.0,0.0,"Kunjanagar Rd, Falakata, West Bengal 735211, India",1619932980000
+6,Bankura,0,0,0.0,722122,Bankura,0.0,,0.0,0.0,0.0,8637836997,Bishnupur Super Speciality Hospital (Government Hospital),0.0,0.0,0.0,"Ahalla Bai Rd, Krishna Ganj, Bishnupur, West Bengal 722122, India",1619935860000
+7,Bankura,250,82,0.0,722144,Bankura,202.0,,82.0,40.0,0.0,8350057933,ONDA SUPER SPECIALITY HOSPITAL (Government Hospital),0.0,0.0,0.0,"Kushte, West Bengal 722144, India",1619938080000
+8,BANKURA,0,0,0.0,,BANKURA,0.0,,0.0,0.0,0.0,7797701790,BANKURA SEVA NIKETAN HOSPITAL (Private Hospital (Self Run)),0.0,0.0,0.0,"PATPUR, JAIL ROAD, BANKURA , BANKURA",1619939700000
+9,Bankura,4,0,0.0,722101,Bankura,0.0,,0.0,0.0,0.0,9732512000,CURE HOSPITAL (Private Hospital (Self Run)),0.0,0.0,0.0,"kenduadihi, Bankura, West Bengal 722101, India",1619924820000
+10,BANKURA,10,0,0.0,,BANKURA,6.0,,0.0,0.0,4.0,8373082080,HARDIK MEDICAL DIAGONOSTIC CENTRE PVT.LTD. (Private Hospital (Self Run)),0.0,0.0,0.0,"442/3, RABINDRA SARANI, BANKURA MNC , BANKURA",1619852340000
+11,Bankura,10,0,0.0,722101,Bankura,5.0,,0.0,0.0,2.0,8145757511/9735120173,MAA MAHAMAYA HOSPITAL (Private Hospital (Self Run)),0.0,2.0,0.0,"kenduadihi, Bankura, West Bengal 722101, India",1619936760000
+12,BANKURA,2,2,0.0,,BANKURA,0.0,,0.0,0.0,2.0,8373085100,SIBANI SEVA NIKETAN PVT LTD (Private Hospital (Self Run)),0.0,0.0,2.0,"KATJURI DANGA, KENDUADIHI, BANKURA , BANKURA",1619938680000
+13,BANKURA,27,27,0.0,,BANKURA,27.0,,27.0,0.0,0.0,7063017340,Bagdiha BJRCY Hostel (Safe Home),0.0,0.0,0.0,"Bagdiha, Indpur , BANKURA",1619941980000
+14,BANKURA,20,20,0.0,,BANKURA,16.0,,16.0,0.0,4.0,9749815197,Dhansimla Bidyabhaban Hostel (Safe Home),0.0,0.0,4.0,"Dhansimla, Sonamukhi , BANKURA",1619858100000
+15,BANKURA,50,50,0.0,,BANKURA,50.0,,50.0,0.0,0.0,8013470758,Dhenkikata Integrated Govt. School (Safe Home),0.0,0.0,0.0,"Dhenkikata, Mandalkuli GP , BANKURA",1619942760000
+16,BANKURA,40,0,0.0,,BANKURA,0.0,,0.0,0.0,31.0,8617560711,JEEBAN SURAKSHA HOSPITAL PVT.LTD (Private Hospital (Self Run)),0.0,3.0,0.0,"KATJURI DANGA, CHHATNA ROAD, BANKURA , BANKURA",1619937360000
+17,BANKURA,55,52,0.0,,BANKURA,44.0,,41.0,0.0,11.0,8370861243,Kuraria Karmatirtha (Safe Home),0.0,0.0,11.0,"Kuraria, Bikna, Bankura , BANKURA",1619865180000
+18,Birbhum,160,86,4.0,731224,Birbhum,148.0,,74.0,0.0,0.0,9330980945,RAMPURHAT GOVT MEDICAL COLLEGE AND HOSPITAL (Government Hospital),0.0,4.0,0.0,"Hospital More, Rampurhat, West Bengal 731224, India",1619857500000
+19,Birbhum,90,16,0.0,731204,Birbhum,35.0,,9.0,0.0,45.0,7063584842,GLOCAL HOSPITAL (Govt. Requisitioned Pvt. Hospital),0.0,10.0,7.0,"Nanoor Chandidas Rd, Khosh Kadambapur, West Bengal 731204, India",1619932740000
+20,BIRBHUM,100,98,0.0,,BIRBHUM,100.0,,98.0,0.0,0.0,8436548938,Ambua Govt. Model School (Safe Home),0.0,0.0,0.0,"Ambua,Murarai,Pin-731222 , BIRBHUM",1619926440000
+21,Birbhum,30,3,0.0,731101,Birbhum,30.0,,3.0,0.0,0.0,7363092304,CMOH OFFICE SAFE HOME (Safe Home),0.0,0.0,0.0,"West Bengal 731101, India",1619932380000
+22,Birbhum,100,55,0.0,731123,Birbhum,96.0,,54.0,0.0,4.0,7908081168,Niramoy TB Sanctorium Safe Home (Safe Home),0.0,0.0,1.0,"Chandrapur, West Bengal 731123, India",1619932800000
+23,Birbhum,50,49,0.0,731243,Birbhum,50.0,,49.0,0.0,0.0,9800584680,West Bengal Comprehensive Area Development Corporation -CDAC (Safe Home),0.0,0.0,0.0,"Nalhati, West Bengal 731243, India",1619509440000
+24,Coochbehar,20,18,0.0,736101,Coochbehar,20.0,,18.0,0.0,0.0,8670544844,COOCHBEHAR POLICE HOSPITAL (Government Hospital),0.0,0.0,0.0,"Vivekananda Rd, Khagrabari, Cooch Behar, West Bengal 736101, India",1619933640000
+25,Coochbehar,32,20,0.0,736135,Coochbehar,0.0,,0.0,12.0,20.0,8436789565,DINHATA SUB DIVISIONAL HOSPITAL (Government Hospital),12.0,0.0,8.0,"Hospital more, Main Road,, Ward Number 2, Dinhata, West Bengal 736135, India",1619932140000
+26,Coochbehar,110,83,14.0,736101,Coochbehar,55.0,,41.0,10.0,31.0,7044777701,MAHARAJA JITENDRA NARAYAN MEDICAL COLLEGE HOSPITAL (Government Hospital),6.0,14.0,22.0,"Silver Jubilee Rd, Cooch Behar, West Bengal 736101, India",1619934120000
+27,Coochbehar,29,28,0.0,736146,Coochbehar,29.0,,28.0,0.0,0.0,9641363961,MATHABHANGA SUB DIVISIONAL HOSPITAL (Government Hospital),0.0,0.0,0.0,"Hospital Rd, Deshbondhu Para, Subhash Pally, Chhat Khaterbari, West Bengal 736146, India",1619931120000
+28,Coochbehar,200,196,0.0,736159,Coochbehar,200.0,,196.0,0.0,0.0,9614142551,TUFANGANJ MENTAL HOSPITAL (Government Hospital),0.0,0.0,0.0,"Tufanganj, West Bengal 736159, India",1619933460000
+29,Coochbehar,56,56,0.0,736146,Coochbehar,56.0,,56.0,0.0,0.0,9933639827,Babu Jagjivanram Kendriya Chatri Niwas (Safe Home),0.0,0.0,0.0,"Mathabhanga, West Bengal 736146, India",1619935980000
+30,Coochbehar,20,20,0.0,736156,Coochbehar,0.0,,0.0,0.0,10.0,9832514641,Cooch behar Mission Hospital (Private Hospital (Self Run)),0.0,0.0,10.0,"Cooch Behar, NH 31, Chakchaka, West Bengal 736156, India",1619931960000
+31,Coochbehar,30,11,0.0,736101,Coochbehar,30.0,,11.0,0.0,0.0,9834144980,COOCHBEHAR NETAJI INDOOR STADIUM SAFE HOME (Safe Home),0.0,0.0,0.0,"Kesab Rd, Cooch Behar, West Bengal 736101, India",1619930040000
+32,Coochbehar,30,30,0.0,736135,Coochbehar,30.0,,30.0,0.0,0.0,8116641321,Karola Community Hall (Safe Home),0.0,0.0,0.0,"Dinhata, West Bengal 736135, India",1619933280000
+33,Coochbehar,30,13,0.0,735304,Coochbehar,30.0,,13.0,0.0,0.0,9830203174,Mekhliganj Bus Terminus Building (Safe Home),0.0,0.0,0.0,"Mekhliganj Bus Stand, Mekhliganj Main Road, Mekliganj, West Bengal 735304, India",1619930280000
+34,Coochbehar,50,0,0.0,736101,Coochbehar,0.0,,0.0,0.0,0.0,9932859265,P K SAHA NURSING HOME (Private Hospital (Self Run)),0.0,4.0,0.0,"Bairagi Dighi, Bylane, Cooch Behar, West Bengal 736101, India",1619939820000
+35,Coochbehar,20,20,0.0,736101,Coochbehar,0.0,,0.0,8.0,12.0,9832464642,Shubham Nursing Home (Private Hospital (Self Run)),8.0,0.0,12.0,"Nara Narayan Rd, Cooch Behar, West Bengal 736101, India",1619931960000
+36,Coochbehar,0,0,0.0,736159,Coochbehar,0.0,,0.0,0.0,0.0,8697403198,Tufanganj Polytechnic College (Safe Home),0.0,0.0,0.0,"Balabhut Road, Tufanganj, Chamta, West Bengal 736159, India",1619933580000
+37,Dakshin 24 Pargana,100,33,0.0,700144,Dakshin 24 Pargana,100.0,,33.0,0.0,0.0,9674381320,Baruipur COVID Hospital (Government Hospital),0.0,0.0,0.0,"Baruipur, West Bengal 700144, India",1619926500000
+38,Dakshin 24 Pargana,103,0,0.0,743329,Dakshin 24 Pargana,43.0,,0.0,0.0,55.0,7595926656,CANNING COVID HOSPITAL (Government Hospital),0.0,5.0,0.0,"Canning - Basanti Rd, Matla, West Bengal 743329, India",1619885460000
+39,Dakshin 24 Pargana,149,34,0.0,743331,Dakshin 24 Pargana,0.0,,0.0,9.0,134.0,7797118955,DIAMOND HARBOUR GOVERNMENT MEDICAL COLLEGE AND HOSPITAL (Government Hospital),0.0,5.0,34.0,"Diamond Harbour Rd, Harindanga, Diamond Harbour, West Bengal 743331, India",1619929740000
+40,Dakshin 24 Pargana,130,0,0.0,700032,Dakshin 24 Pargana,0.0,,0.0,0.0,130.0,9932909204,K. S. ROY T B HOSPITAL (Government Hospital),0.0,0.0,0.0,"No.1019 Dr Kumud Shankar Ray Rd K P C Medical College and Hospital Campus, Jadavpur, Kolkata, West Bengal 700032, India",1619937600000
+41,Dakshin 24 Pargana,20,9,0.0,743347,Dakshin 24 Pargana,0.0,,0.0,0.0,20.0,8348670855,KAKDWIP SUPERSPECIALITY HOSPITAL (Government Hospital),0.0,0.0,9.0,"Hospital road, Kakdwip, West Bengal 743347, India",1619939760000
+42,Dakshin Dinajpur,85,15,2.0,733101,Dakshin Dinajpur,53.0,,5.0,0.0,23.0,9064140556,Natya Utkarshya Kendra (Government Hospital),0.0,2.0,5.0,"Dakshin Dinajpur, Opp Court, Chakbhabani, Balurghat, West Bengal 733101, India",1619939160000
+43,Darjeeling,20,18,0.0,734101,Darjeeling,10.0,,8.0,0.0,10.0,0354225155,DARJEELING DISTRICT HOSPITAL (Government Hospital),0.0,0.0,10.0,"63a, HD Lama Rd, Chauk Bazaar, Darjeeling, West Bengal 734101, India",1619936700000
+44,Darjeeling,18,10,0.0,734203,Darjeeling,14.0,,6.0,0.0,4.0,9679742995,KURSEONG SUB DIVISIONAL HOSPITAL (Government Hospital),0.0,0.0,4.0,"Burdawan Rd, Kurseong, West Bengal 734203, India",1619918640000
+45,Hooghly,95,46,5.0,712601,Hooghly,30.0,,15.0,0.0,60.0,7605059328,Arambagh Sub-Divisional Hospital (Government Hospital),0.0,5.0,26.0,"Arambagh Station Road, Arambag, West Bengal 712601, India",1619936040000
+46,Hooghly,170,67,0.0,712136,Hooghly,100.0,,48.0,30.0,40.0,7605059328,Chandannagar Sub Divisional Hospital (Government Hospital),17.0,0.0,2.0,"Helapukur Rd, Last French Colony, Chandannagar, Sarishapara, Chinsurah, West Bengal 712136, India",1619935680000
+47,Hooghly,40,6,0.0,712102,Hooghly,0.0,,0.0,0.0,40.0,7605059328,"District Hospital, Hooghly (Government Hospital)",0.0,0.0,6.0,"Hospital Rd, Naihati, Chinsurah, West Bengal 712102, India",1619941560000
+48,Hooghly,130,32,1.0,712123,Hooghly,74.0,,21.0,0.0,28.0,7605059328,ESI Bandel (Government Hospital),0.0,24.0,8.0,"GF & 1st Floor, Grand Trunk Rd, opposite ESI Hospital, Olaichanditala, Bandel, West Bengal 712123, India",1619936160000
+49,Hooghly,50,1,0.0,712201,Hooghly,30.0,,1.0,0.0,20.0,7605059328,Serampore Sub-Divisional Hospital (Government Hospital),0.0,0.0,0.0,"22A, TC Goswami St, Serampore, West Bengal 712201, India",1619943840000
+50,Hooghly,70,19,0.0,712409,Hooghly,2.0,,2.0,0.0,58.0,7605059328,Singur TCF (Government Hospital),0.0,10.0,17.0,"Singur, Purusattampur, West Bengal 712409, India",1619934120000
+51,Hooghly,40,1,0.0,712258,Hooghly,0.0,,0.0,0.0,40.0,7605059328,Uttarpara State General Hospital (Government Hospital),0.0,0.0,1.0,"RPM Road, Uttarpara, Kotrung, Hooghly, West Bengal 712258, India",1619934780000
+52,Hooghly,34,23,0.0,712249,Hooghly,23.0,,12.0,0.0,11.0,7605059328,Golok Munshi Hospital (Safe Home),0.0,0.0,11.0,"Nabagram, Konnagar, West Bengal 712249, India",1619939520000
+53,Hooghly,44,35,0.0,712149,Hooghly,42.0,,33.0,0.0,2.0,7605059328,Pandua Karmatirtha (Safe Home),0.0,0.0,2.0,"SH 13, Pandua, West Bengal 712149, India",1619939100000
+54,HOOGHLY,36,36,0.0,,HOOGHLY,0.0,,0.0,0.0,36.0,7605059328,Rishra Seva Sadan (Safe Home),0.0,0.0,36.0,"1, Keshub Chandra Sen Rd, Rishra, Hooghly, West Bengal 712250 , HOOGHLY",1619933520000
+55,Hooghly,20,18,0.0,712136,Hooghly,15.0,,13.0,0.0,5.0,7605059328,Ruplal Nandy Memorial Cancer Research Centre (Safe Home),0.0,0.0,5.0,"Sarishapara, Chandannagar, West Bengal 712136, India",1619935620000
+56,Hooghly,70,70,0.0,712614,Hooghly,50.0,,50.0,0.0,20.0,7605059328,Vikdas Godown (Safe Home),0.0,0.0,20.0,"Arambagh-Kamarpukur Road, Goghat, West Bengal 712614, India",1619936940000
+57,Howrah,400,0,0.0,711403,Howrah,245.0,,0.0,26.0,105.0,"7439537845, 7439758535",Baltikuri ESI Covid Hospital (Government Hospital),0.0,24.0,0.0,"Baltikuri, P.O, Bankra, Howrah, West Bengal 711403, India",1619675880000
+58,Howrah,10,10,0.0,711310,Howrah,0.0,,0.0,0.0,10.0,"9474688332, 9433213370, 7003089471, 9831191683, 8584971102",Bauria SGH (Government Hospital),0.0,0.0,10.0,"Howrah, Raghudebbatti, Nalpur, Howrah, West Bengal 711310, India",1619931060000
+59,Howrah,20,20,0.0,711302,Howrah,0.0,,0.0,0.0,20.0,9874363312,Gabberia SGH (Government Hospital),0.0,0.0,20.0,"Amta-Ranihati Road, Shuvararah, West Bengal 711302, India",1619934540000
+60,Howrah,66,33,0.0,711101,Howrah,33.0,,22.0,0.0,33.0,9051550993,Howrah DH (Government Hospital),0.0,0.0,11.0,"10, 11 Biplabi haren, Pratap Ghosh Sarani, Howrah Railway Station, Howrah, West Bengal 711101, India",1619860680000
+61,Howrah,46,5,0.0,711204,Howrah,30.0,,0.0,0.0,16.0,9073770989,Satyabala IDH (Government Hospital),0.0,0.0,5.0,"233, Grand Trunk Rd, Surendranagar, Liluah, Howrah, West Bengal 711204, India",1619931180000
+62,Howrah,250,88,0.0,711107,Howrah,150.0,,88.0,0.0,100.0,6290449155,T L Jaiswal SGH (Government Hospital),0.0,0.0,0.0,"182, Naskar Para Road, Surendranagar, Ghusuri, Surendranagar, Liluah, Howrah, West Bengal 711107, India",1619931960000
+63,Howrah,20,10,0.0,711226,Howrah,0.0,,0.0,0.0,20.0,9733617391,Udaynarayanpur SGH (Government Hospital),0.0,0.0,10.0,"Udaynarayanpur-Jagatballabhpur 1, Udaynarayanpur, West Bengal 711226, India",1619933580000
+64,Howrah,70,6,0.0,711315,Howrah,0.0,,0.0,0.0,70.0,03326612945,Uluberia SDH SSH (Government Hospital),0.0,0.0,6.0,"Station Road, Bazarpara, Uluberia, Howrah, West Bengal 711315, India",1619933820000
+65,Howrah,58,57,5.0,711109,Howrah,0.0,,0.0,0.0,50.0,18602080208,Narayana Multi Speciality Hospital (Govt. Requisitioned Pvt. Hospital),0.0,5.0,50.0,"Andul Rd, near Chunabati, Podara, Mourigram, Howrah, West Bengal 711109, India",1619867460000
+66,Howrah,100,74,0.0,711316,Howrah,0.0,,0.0,0.0,100.0,"6290410760,9382046316",Sanjiban Hospital (Govt. Requisitioned Pvt. Hospital),0.0,0.0,74.0,"Boikunthopur Rd, Fuleswar, Uluberia, Howrah, West Bengal 711316, India",1619934120000
+67,Howrah,69,0,0.0,711101,Howrah,48.0,,0.0,0.0,0.0,40880000,ILS Hospital Golabari pvt beds (Private Hospital (Self Run)),0.0,21.0,0.0,"98, Dr Abani Dutta Rd, opposite Golabari, PS, Howrah, West Bengal 711101, India",1619934000000
+68,Howrah,30,19,2.0,711405,Howrah,0.0,,0.0,4.0,20.0,03326703504,IRIS Hospitex (Private Hospital (Self Run)),2.0,6.0,15.0,"Fokor Dokan, Baruipara, Domjur, Howrah, West Bengal 711405, India",1619935200000
+69,Howrah,67,19,0.0,711103,Howrah,0.0,,0.0,10.0,45.0,9830064488,Narayana Super Speciality Hospital (Private Hospital (Self Run)),3.0,5.0,16.0,"120, 1, Andul Rd, near নবান্ন, Shibpur, Howrah, West Bengal 711103, India",1619867400000
+70,Howrah,200,73,0.0,711316,Howrah,0.0,,0.0,0.0,125.0,"6290410760, 9382046316",Sanjiban Hospital - pvt beds (Private Hospital (Self Run)),0.0,75.0,73.0,"Boikunthopur Rd, Fuleswar, Uluberia, Howrah, West Bengal 711316, India",1619865600000
+71,Howrah,50,0,0.0,711102,Howrah,0.0,,0.0,0.0,40.0,8017517542,Sree Jain Hospital (Private Hospital (Self Run)),0.0,3.0,0.0,"493, B/12, Grand Trunk Rd, Choura Bustee, Shibpur, Kolkata, West Bengal 711102, India",1619935800000
+72,Jalpaiguri,343,145,20.0,735101,Jalpaiguri,250.0,,103.0,0.0,50.0,"8207283307, 8167880988,",Biswa Bangla Krirangan COVID Hospital (Government Hospital),0.0,20.0,18.0,"Jalpaiguri, West Bengal 735101, India",1619940660000
+73,Jalpaiguri,43,4,2.0,734001,Jalpaiguri,0.0,,0.0,0.0,26.0,"9749077467,8116603554,891869792",ANANDALOKE MEDICAL CENTRE PVT LTD (Private Hospital (Self Run)),0.0,17.0,2.0,"Paresh Nagar, Sevoke Rd, Ward 44, Dasrath Pally, 2nd Mile, Siliguri, West Bengal 734001, India",1619941080000
+74,Jalpaiguri,124,48,0.0,735102,Jalpaiguri,124.0,,48.0,0.0,0.0,9083354528,ITI COLLEGE MATIALI (Safe Home),0.0,0.0,0.0,"Mohit Nagar Rd, Jalpaiguri, West Bengal 735102, India",1619863860000
+75,JALPAIGURI,32,1,0.0,,JALPAIGURI,0.0,,0.0,17.0,15.0,7477789999,LIFE LINE MEDICAL RESEARCH AND CANCER INSTITUTE (Private Hospital (Self Run)),0.0,0.0,1.0,"NH 31 BYEPASS SEVOKE ROAD NEAR BHAKTINAGAR POLICE STATION, SILIGURI, JALPAIGURI , JALPAIGURI",1619928840000
+76,Jalpaiguri,50,0,0.0,734015,Jalpaiguri,0.0,,0.0,5.0,40.0,1800212111222,Maharaja Agrasen Hospital (Private Hospital (Self Run)),0.0,0.0,0.0,"Fulbari, Beside, Fulbari Truck Terminus, Dist, Siliguri, West Bengal 734015, India",1619781900000
+77,Jalpaiguri,18,5,0.0,734001,Jalpaiguri,0.0,,0.0,0.0,18.0,9434086154,MANOKAMNA HOSPITAL (Private Hospital (Self Run)),0.0,0.0,5.0,"ISKCON MANDIR ROAD,SEVOKE ROAD, Bidyapati Sarani, Ward 41, Bankim Nagar, Siliguri, West Bengal 734001, India",1619883060000
+78,JALPAIGURI,120,118,0.0,,JALPAIGURI,120.0,,118.0,0.0,0.0,7478020857,Maynaguri Polytechnic College Safe Home (Safe Home),0.0,0.0,0.0,"Barnes Ghat Road Kanthalbari Domohani Maynaguri 735302 , JALPAIGURI",1619861940000
+79,Jalpaiguri,51,45,0.0,735133,Jalpaiguri,51.0,,45.0,0.0,0.0,"9434006178, 9547299290",RANINAGAR DTC (Safe Home),0.0,0.0,0.0,"Raninagar Jalpaiguri Junction, Patkata Colony, Jalpaiguri, West Bengal 735133, India",1619939100000
+80,Jhargram,85,37,5.0,721507,Jhargram,0.0,,0.0,0.0,70.0,6297478368,"Covid Hospital, Night Shelter (Government Hospital)",0.0,5.0,32.0,"Main Road, Ghoradhara, Jhargram, West Bengal 721507, India",1619936400000
+81,JHARGRAM,30,25,0.0,,JHARGRAM,29.0,,24.0,0.0,1.0,03221 258258,Bargi Danga Flood shelter (Safe Home),0.0,0.0,1.0,"Gopiballavpur I, Jhargram , JHARGRAM",1619937540000
+82,JHARGRAM,75,75,0.0,,JHARGRAM,0.0,,0.0,0.0,75.0,8250995342,"Covid Hospital, Night Shelter - Covid Hospital, Working Womens Hostel (Satellite Hospital)",0.0,0.0,75.0,"Working Womens Hostel, Old Jhargram, 721507 , JHARGRAM",1619932020000
+83,JHARGRAM,20,20,0.0,,JHARGRAM,0.0,,0.0,0.0,20.0,03221 258258,Gangabandh Karmathirtha (Safe Home),0.0,0.0,20.0,"Gopiballavpur II, Jhargram , JHARGRAM",1619855820000
+84,JHARGRAM,60,44,0.0,,JHARGRAM,60.0,,44.0,0.0,0.0,03221 258258,Hostel Building of Manikpara New Int. Govt. School (Safe Home),0.0,0.0,0.0,"Manikpara, Jhargram , JHARGRAM",1619936820000
+85,JHARGRAM,0,0,0.0,,JHARGRAM,0.0,,0.0,0.0,0.0,03221 258258,Pathra Karmatirtha (Safe Home),0.0,0.0,0.0,"Sankrail, Jhargram , JHARGRAM",1619875560000
+86,JHARGRAM,16,16,0.0,,JHARGRAM,16.0,,16.0,0.0,0.0,03221 258258,Staff Qtr. of Manikpara New Int. Govt. School (Safe Home),0.0,0.0,0.0,"Manikpara,Jhargram , JHARGRAM",1619859420000
+87,KALIMPONG,150,65,0.0,,KALIMPONG,134.0,,63.0,10.0,0.0,9832748207,TRIVENI COVID HOSPITAL (Government Hospital),2.0,4.0,0.0,"Teesta Valley Forest, West Bengal, Pin-734317 , KALIMPONG",1619939280000
+88,Kalimpong,20,14,0.0,734301,Kalimpong,20.0,,14.0,0.0,0.0,9832748207,ARD Farmers Training Centre Pedong (Safe Home),0.0,0.0,0.0,"Lower, Rinkingpong Primary school ground, Chibbo Approach Rd, Kalimpong Khasmahal, Kalimpong, West Bengal 734301, India",1619939160000
+89,Kolkata Mc Area,777,147,0.0,700156,Kolkata Mc Area,400.0,,147.0,97.0,280.0,033 247655102/6289726011,CHITTARANJAN NATIONAL CANCER INSTITUTE-CNCI (Government Hospital),0.0,0.0,0.0,"700156, Street Number 299, DJ Block(Newtown), Action Area I, Newtown, New Town, West Bengal 700156, India",1619884020000
+90,Kolkata Mc Area,212,0,0.0,700058,Kolkata Mc Area,150.0,,0.0,50.0,0.0,033-25531316 /033-25239058,College of Medicine Sagore Dutta Hospital (Government Hospital),0.0,12.0,0.0,"Kamarhati, Kolkata, West Bengal 700058, India",1619929800000
+91,Kolkata Mc Area,293,85,0.0,700010,Kolkata Mc Area,210.0,,82.0,50.0,0.0,033 2303 2200,I.D. And B.G. Hospital (Government Hospital),3.0,33.0,0.0,"57, Beleghata Main Rd, Subhas Sarobar Park, Phool Bagan, Beleghata, Kolkata, West Bengal 700010, India",1619422440000
+92,Kolkata Mc Area,547,2,0.0,700033,Kolkata Mc Area,294.0,,2.0,145.0,0.0,088207 02070/88202 07070,M R Bangur Hospital (Government Hospital),0.0,108.0,0.0,"241, Deshpran Sasmal Rd, Netajinagar, Rajendra Prasad Colony, Tollygunge, Kolkata, West Bengal 700033, India",1619419440000
+93,Kolkata Mc Area,309,24,0.0,700073,Kolkata Mc Area,0.0,,0.0,45.0,194.0,033 22551614 /033 22551621,"Medical College and Hospital, Kolkata, (Government Hospital)",0.0,26.0,24.0,"88, College St, Calcutta Medical College, College Square, Kolkata, West Bengal 700073, India",1619936460000
+94,Kolkata Mc Area,156,0,0.0,700014,Kolkata Mc Area,0.0,,0.0,47.0,105.0,033 2286 0033 /033 2286-0103-08,Nil Ratan Sarkar Medical College and Hospital (Government Hospital),0.0,4.0,0.0,"138, Acharya Jagadish Chandra Bose Rd, Sealdah, Raja Bazar, Kolkata, West Bengal 700014, India",1619939340000
+95,Kolkata Mc Area,110,0,0.0,700004,Kolkata Mc Area,100.0,,0.0,10.0,0.0,033 2530 4557,R. G. Kar Medical College and Hospital (Government Hospital),0.0,0.0,0.0,"1, Khudiram Bose Sarani, Bidhan Sarani, Shyam Bazar, Kolkata, West Bengal 700004, India",1619922600000
+96,Kolkata Mc Area,90,7,0.0,700020,Kolkata Mc Area,15.0,,7.0,0.0,75.0,033 2302 2820,Sambhunath Pandit Hospital (Government Hospital),0.0,0.0,0.0,"11, Elgin Rd, Sreepally, Bhowanipore, Kolkata, West Bengal 700020, India",1619421000000
+97,KOLKATA MC AREA,11,4,0.0,,KOLKATA MC AREA,10.0,,4.0,1.0,0.0,033 4050 5555,Dafodil Nursing Home Govt. Requisitioned (Govt. Requisitioned Pvt. Hospital),0.0,0.0,0.0,"No. 276, Canal St, Sreebhumi, Lake Town, Kolkata, West Bengal 700048 , KOLKATA MC AREA",1619930520000
+98,Kolkata Mc Area,135,1,1.0,700107,Kolkata Mc Area,80.0,,0.0,0.0,0.0,090517 15171,DESUN Hospital Category Govt. Requisitioned Pvt. Hospital (Govt. Requisitioned Pvt. Hospital),0.0,27.0,0.0,"Desun More, 720, Eastern Metropolitan Bypass, Golpark, Sector I, Kasba, Kolkata, West Bengal 700107, India",1619939160000
+99,Kolkata Mc Area,30,0,0.0,700099,Kolkata Mc Area,0.0,,0.0,0.0,20.0,84200-00623,Rabindranath Tagore International Institute of Cardiac Sciences Category Private Hospital Govt. Requisitioned (Govt. Requisitioned Pvt. Hospital),0.0,5.0,0.0,"Premises No: 1489, Mukundapur Main Road, 124, Eastern Metropolitan Bypass, Mukundapur Market, Stadium Colony, Mukundapur, Kolkata, West Bengal 700099, India",1619856120000
+100,Kolkata Mc Area,25,3,2.0,700107,Kolkata Mc Area,0.0,,0.0,0.0,17.0,090517 15171,DESUN Hospital (Govt. Requisitioned Pvt. Hospital),0.0,5.0,0.0,"Desun More, 720, Eastern Metropolitan Bypass, Golpark, Sector I, Kasba, Kolkata, West Bengal 700107, India",1619937960000
+101,Kolkata Mc Area,102,0,0.0,700080,Kolkata Mc Area,0.0,,0.0,0.0,72.0,03340315041/42,"ILS Hospitals, Dumdum Govt. Requisitioned Pvt. Hospital (Govt. Requisitioned Pvt. Hospital)",0.0,8.0,0.0,"1, Mall Road, near Nager Bazar Flyover, Golpark, Dum Dum, Kolkata, West Bengal 700080, India",1619841060000
+102,Kolkata Mc Area,200,4,0.0,700032,Kolkata Mc Area,0.0,,0.0,6.0,181.0,03340449700 Extn117,K P C Medical College and Hospital Govt Requisitioned (Govt. Requisitioned Pvt. Hospital),0.0,3.0,4.0,"1F, Raja Subodh Chandra Mallick Rd, Jadavpur, Kolkata, West Bengal 700032, India",1619942220000
+103,Kolkata Mc Area,14,6,0.0,700056,Kolkata Mc Area,0.0,,0.0,0.0,10.0,9830887974,Zenith super specialist hospital Govt. Requisitioned Pvt. Hospital (Govt. Requisitioned Pvt. Hospital),0.0,0.0,5.0,"9, 3, Feeder Rd, Rathtala, Belghoria, Kolkata, West Bengal 700056, India",1619854800000
+104,Malda,75,75,0.0,732123,Malda,60.0,,60.0,0.0,15.0,9134203473,Chanchal SSH Malda (Government Hospital),0.0,0.0,15.0,"Chanchal Roy para near dishari, Malda Kaligram, Chanchal, West Bengal 732123, India",1619937780000
+105,Malda,150,18,2.0,732101,Malda,30.0,,6.0,0.0,100.0,9883233788,MALDA MEDICAL COLLEGE AND HOSPITAL (Government Hospital),0.0,20.0,10.0,"Singatala, Uma Roy Sarani, Malda, West Bengal 732101, India",1619936580000
+106,Malda,15,7,7.0,732142,Malda,0.0,,0.0,0.0,0.0,7586021575,Angel Nursing Home (Private Hospital (Self Run)),0.0,15.0,0.0,"Sadarghat Nageswarpur (Mangalbari) Bulbulchandi Road, Kachu Pukur, West Bengal 732142, India",1619937780000
+107,Malda,23,0,0.0,732103,Malda,0.0,,0.0,4.0,0.0,8116602176,DISAHRI HEALTH POINT PVT LTD (Private Hospital (Self Run)),0.0,6.0,0.0,"19, Bipin Ghosh Rd, Mokdumpur, Malda, West Bengal 732103, India",1619599440000
+108,MALDA,40,26,0.0,,MALDA,0.0,,0.0,10.0,30.0,9734344000,Glocal EHC HOSPITAL (Private Hospital (Self Run)),10.0,0.0,16.0,"Narayanpur, Bypass NH34, Malda 732141 , MALDA",1619860380000
+109,MALDA,30,0,0.0,,MALDA,0.0,,0.0,6.0,24.0,8327889902,Glow Nursing Home Pvt. Ltd. (Private Hospital (Self Run)),0.0,0.0,0.0,"North Singatala, Malda Medical College & Hospital Road, Malda , MALDA",1619872980000
+110,Malda,55,52,0.0,732101,Malda,45.0,,42.0,0.0,10.0,9748127162,MODEL MADRASA ENGLISH MEDIUM MALDA (Safe Home),0.0,0.0,10.0,"BT College Rd, Malda, West Bengal 732101, India",1619590320000
+111,Murshidabad,120,73,0.0,742122,Murshidabad,0.0,,0.0,0.0,120.0,"7477781494, 7477781484",CHRISTIYO SEVA SADAN LONDON MISSION COVID HOSPITAL (Government Hospital),0.0,0.0,73.0,"Jiaganj Station Rd, Baligram, Jiaganj, West Bengal 742122, India",1619934360000
+112,Murshidabad,24,23,0.0,742303,Murshidabad,8.0,,8.0,0.0,16.0,9064560653,DOMKAL SDH AND SSH (Government Hospital),0.0,0.0,15.0,"SH 11, Joyrampur, Domkal, West Bengal 742303, India",1619934840000
+113,Murshidabad,300,130,1.0,742101,Murshidabad,125.0,,109.0,24.0,137.0,8695900500,Old Matri Sadan Hospital (Government Hospital),3.0,7.0,16.0,"Khagra, Berhampore, West Bengal 742101, India",1619928300000
+114,MURSHIDABAD,50,49,0.0,,MURSHIDABAD,0.0,,0.0,0.0,50.0,9123345532,SAGARDIGHI SSH (Government Hospital),0.0,0.0,49.0,"SAGARDIGHI, MURSHIDABAD , MURSHIDABAD",1619934420000
+115,Murshidabad,15,13,1.0,742123,Murshidabad,0.0,,0.0,0.0,10.0,7980563744,Astha Healthcare (Private Hospital (Self Run)),0.0,1.0,10.0,"No:3, Bagdahar P.O, Jiaganj P.S., Berhampore-Lalgola Road, Jiaganj, West Bengal 742123, India",1619841120000
+116,Murshidabad,34,1,1.0,742235,Murshidabad,0.0,,0.0,7.0,21.0,7001049848,Basumati healthcare Pvt. Ltd. (Private Hospital (Self Run)),0.0,1.0,0.0,"Vill: Talai more, PO: Jarur, Near Umarpur, I PS, Raghunathganj, West Bengal 742235, India",1619931360000
+117,Murshidabad,32,30,2.0,742101,Murshidabad,15.0,,13.0,2.0,5.0,8372028127,"Beacon Islamia Hospital Research Centre Pvt. Ltd., (Private Hospital (Self Run))",2.0,2.0,5.0,"24/A/B/10 Kalikapore Road, Shilpa Taluk, Raninagar, Gora Bazar, Berhampore, West Bengal 742101, India",1619943840000
+118,Murshidabad,15,0,0.0,742187,Murshidabad,0.0,,0.0,0.0,15.0,9002592303,Gitaram Hospital Pvt. Ltd. (Private Hospital (Self Run)),0.0,0.0,0.0,"National Highway 34, Radharghat GitaRam More Berhampore, Murshidabad, West Bengal 742187, India",1619931180000
+119,Murshidabad,14,9,0.0,742213,Murshidabad,12.0,,7.0,0.0,2.0,8391023096,JANGIPUR SDH ZILLA PARISAD PATIENT PARTY REST SAID (Safe Home),0.0,0.0,2.0,"Jangipur Rd, Chhota kalia, Jangipur, West Bengal 742213, India",1619929980000
+120,Murshidabad,26,1,0.0,742101,Murshidabad,0.0,,0.0,5.0,18.0,8348790587,"Manmohini Healthcare Pvt. Ltd., (Private Hospital (Self Run))",1.0,3.0,0.0,"Berhampore, 24/A/B/15, Kalikapore Road, Station Road Shilpa Taluk, Raninagar, Gora Bazar, Berhampore, West Bengal 742101, India",1619842200000
+121,Murshidabad,5,0,0.0,742407,Murshidabad,5.0,,0.0,0.0,0.0,8373058420,Nidan Nursing Home (Private Hospital (Self Run)),0.0,0.0,0.0,"VILL- TALBAGANPARA, P.O.- CHALTIA, Raninagar, Bhakuri Village, Berhampore, West Bengal 742407, India",1619928180000
+122,Murshidabad,12,5,0.0,742101,Murshidabad,0.0,,0.0,0.0,12.0,8768862688,Rabindranath Tagore Diagnostic Medical care Research Centre (Private Hospital (Self Run)),0.0,0.0,5.0,"30, C. R. Das Rd, Raninagar, Gora Bazar, Berhampore, West Bengal 742101, India",1619930580000
+123,MURSHIDABAD,40,37,0.0,,MURSHIDABAD,39.0,,36.0,0.0,1.0,9679447641,RAGHUNATHGANJ I TALAI KRISAK MANDI (Safe Home),0.0,0.0,1.0,"RAGHUNATHGANJ I, JANGIPUR, MSD , MURSHIDABAD",1619924100000
+124,Murshidabad,40,39,0.0,742202,Murshidabad,40.0,,39.0,0.0,0.0,9733512862,SAMSERGANJ SAFE HOME (Safe Home),0.0,0.0,0.0,"Dhuliyan, West Bengal 742202, India",1619926920000
+125,Nadia,301,0,0.0,741251,Nadia,175.0,,0.0,26.0,84.0,7605036189,NETAJI SUBHASH SANATORIUM COVID HOSPITAL (Government Hospital),0.0,10.0,0.0,"T.B, Doctors Quarter, Block A, Kalyani, West Bengal 741251, India",1619939700000
+126,Nadia,121,43,0.0,741315,Nadia,41.0,,15.0,40.0,22.0,7548975285,SAKTINAGAR COVID HOSPITAL (Government Hospital),16.0,18.0,12.0,"Saktinagar, West Bengal 741315, India",1619930220000
+127,NADIA,88,81,0.0,,NADIA,88.0,,81.0,0.0,0.0,7605057766,BAHADURPUR SAFE HOME (Safe Home),0.0,0.0,0.0,"VILL.- BAHADURPUR, P.S.- DHUBULIA, NADIA, PIN.- 741125 , NADIA",1619937840000
+128,Nadia,50,48,0.0,741249,Nadia,50.0,,48.0,0.0,0.0,8697604632,HARINGHATA ITI COLLEGE (Safe Home),0.0,0.0,0.0,"Haringhata, West Bengal 741249, India",1619930640000
+129,Paschim Bardhaman,57,0,0.0,713301,Paschim Bardhaman,7.0,,0.0,0.0,50.0,0341-2304040,Asansol District Hospital (Government Hospital),0.0,0.0,0.0,"SB Gorai Rd, Hamid Nagar, Asansol, West Bengal 713301, India",1619934120000
+130,PASCHIM BARDHAMAN,50,45,0.0,,PASCHIM BARDHAMAN,50.0,,45.0,0.0,0.0,8597042976,Asansol District Hospital - BOKARO SAFE HOME (Satellite Govt. Building),0.0,0.0,0.0,"Hostel Avenue (DSP), Benachiti, Durgapur , PASCHIM BARDHAMAN",1619852580000
+131,PASCHIM BARDHAMAN,40,39,0.0,,PASCHIM BARDHAMAN,30.0,,29.0,0.0,10.0,8597042976,Asansol District Hospital - ESI SAFE HOME (Satellite Govt. Building),0.0,0.0,10.0,"ESI Nursing Training School, Kalyanpur, Asasnol , PASCHIM BARDHAMAN",1619852280000
+132,Paschim Bardhaman,120,10,0.0,713325,Paschim Bardhaman,60.0,,0.0,10.0,40.0,9434776841,Burnpur Hospital (Government Hospital),10.0,4.0,0.0,"Burnpur, Asansol, West Bengal 713325, India",1619928120000
+133,Paschim Bardhaman,30,4,0.0,713205,Paschim Bardhaman,30.0,,4.0,0.0,0.0,0343-2745198,Durgapur Steel Plant Hospital (Government Hospital),0.0,0.0,0.0,"Durgapur Steel Plant Hospital Rd, B-Zone, Durgapur, West Bengal 713205, India",1619930280000
+134,Paschim Bardhaman,25,0,0.0,713212,Paschim Bardhaman,0.0,,0.0,4.0,21.0,8900010989,Durgapur Sub-Disvisional Hospital (Government Hospital),0.0,0.0,0.0,"Bidhannagar, Durgapur, West Bengal 713212, India",1619941140000
+135,Paschim Bardhaman,90,8,0.0,713331,Paschim Bardhaman,20.0,,5.0,0.0,50.0,7047042222,Kasturba Gandhi Hospital (Government Hospital),0.0,6.0,2.0,"Hospital Road, Bhoanipur, Chittaranjan, West Bengal 713331, India",1619937780000
+136,Paschim Bardhaman,200,40,0.0,713212,Paschim Bardhaman,101.0,,40.0,0.0,24.0,9817877877,Shri Ramkrishna Institute of Medical Sciences and Sanaka Hospitals (Govt. Requisitioned Pvt. Hospital),0.0,20.0,0.0,"Kanksha, Durgapur, Malandighi, West Bengal 713212, India",1619928840000
+137,Paschim Bardhaman,35,0,0.0,713212,Paschim Bardhaman,0.0,,0.0,0.0,27.0,9064461129,Gouri Devi Hospital and Research Institute (Private Hospital (Self Run)),0.0,0.0,0.0,"GT Road, National Highway 2, Rajbandh, Durgapur, West Bengal 713212, India",1619934660000
+138,Paschim Bardhaman,76,0,0.0,713216,Paschim Bardhaman,12.0,,0.0,0.0,30.0,8170052869,Health World Hospital (Private Hospital (Self Run)),0.0,12.0,0.0,"City Center, C-49, Mahatma Gandhi Rd, opp. ESIC Sub-Regional Office, Gandhi More, Commercial Area, Durgapur, West Bengal 713216, India",1619940120000
+139,Paschim Bardhaman,29,0,0.0,713216,Paschim Bardhaman,16.0,,0.0,0.0,13.0,8170052632,Health World Hospital - City International (Satellite Hotel),0.0,0.0,0.0,"City Center, C-49, Mahatma Gandhi Rd, opp. ESIC Sub-Regional Office, Gandhi More, Commercial Area, Durgapur, West Bengal 713216, India",1619940120000
+140,Paschim Bardhaman,30,0,0.0,713304,Paschim Bardhaman,24.0,,0.0,0.0,6.0,8348689036,HLG Memorial Hospital Pvt. Ltd. (Private Hospital (Self Run)),0.0,0.0,0.0,"Sen Raliegh Road, Asansol, Kalyanpur, Burdwan, West Bengal 713304, India",1619936580000
+141,Paschim Bardhaman,100,0,0.0,713206,Paschim Bardhaman,30.0,,0.0,0.0,48.0,8170009566,IQ City Medical College Hospital (Private Hospital (Self Run)),0.0,12.0,0.0,"B-Zone, Durgapur, West Bengal 713206, India",1619940000000
+142,Paschim Bardhaman,16,0,0.0,713304,Paschim Bardhaman,0.0,,0.0,0.0,11.0,9883356623,Sterling Hospital (Private Hospital (Self Run)),0.0,2.0,0.0,"Burnpur Road, Near Court More, Asansol Court Area, Asansol, West Bengal 713304, India",1619941440000
+143,Paschim Bardhaman,80,0,0.0,713212,Paschim Bardhaman,0.0,,0.0,0.0,50.0,9800881677,"The Mission Hospital, Durgapur (Private Hospital (Self Run))",0.0,30.0,0.0,"Immon Kalyan, Saptarshi Sarani, Sector IIC, Bidhannagar, Durgapur, West Bengal 713212, India",1619845860000
+144,Paschim Bardhaman,123,0,0.0,713212,Paschim Bardhaman,30.0,,0.0,0.0,50.0,7908396179,The Nation Hospital (Private Hospital (Self Run)),0.0,13.0,0.0,"Arrah Kalinagar, Durgapur, West Bengal 713212, India",1619931600000
+145,Paschim Bardhaman,30,0,0.0,713216,Paschim Bardhaman,30.0,,0.0,0.0,0.0,7908396179,The Nation Hospital - HOTEL PARK SUITES (Satellite Hotel),0.0,0.0,0.0,"Nazrul Sarani, City Center, Durgapur, West Bengal 713216, India",1619931600000
+146,Paschim Bardhaman,35,0,0.0,713206,Paschim Bardhaman,0.0,,0.0,5.0,24.0,7872868686,Vivekananda Hospital (Private Hospital (Self Run)),0.0,6.0,0.0,"Dr Zakir Hussain Ave, Bidhannagar, Durgapur, West Bengal 713206, India",1619942640000
+147,Paschim Medinipur,80,12,0.0,721101,Paschim Medinipur,64.0,,3.0,0.0,16.0,9635803484,Ghatal Sub Divisional Hospita cum SSH (Government Hospital),0.0,0.0,9.0,"63 Raja bazar, Raja Bazar, Midnapore, West Bengal 721101, India",1619938140000
+148,Paschim Medinipur,50,8,0.0,721301,Paschim Medinipur,40.0,,5.0,0.0,10.0,9531758407,Kharagpur Sub Divisional Hospital (Government Hospital),0.0,0.0,3.0,"Keshiary Rd, Near IIT Institute, Chota Tengra, Kharagpur, West Bengal 721301, India",1619932320000
+149,Paschim Medinipur,36,8,0.0,721101,Paschim Medinipur,0.0,,0.0,26.0,10.0,03222222454,Midnapore Medical Collge Hospital (Government Hospital),2.0,0.0,6.0,"Vidyasagar Rd, Midnapore, West Bengal 721101, India",1619933220000
+150,PASCHIM MEDINIPUR,200,103,5.0,,PASCHIM MEDINIPUR,0.0,,0.0,40.0,150.0,9883133020,Salboni SSH Covid Hospital (Government Hospital),2.0,5.0,96.0,"Salboni, Paschim Medinipur , PASCHIM MEDINIPUR",1619936040000
+151,Purba Bardhhaman,216,62,0.0,713104,Purba Bardhhaman,110.0,,0.0,0.0,96.0,6290588988,Burdwan Medical College and Hospital (Government Hospital),0.0,5.0,61.0,"opp. Shyam Sayer, Khosbagan, Bardhaman, West Bengal 713104, India",1619872260000
+152,Purba Bardhhaman,46,23,3.0,713409,Purba Bardhhaman,0.0,,0.0,0.0,40.0,9614482764,Kalna Sub-Divisional Hospital (Government Hospital),0.0,3.0,17.0,"Kalna Rd, Uttar Goara, West Bengal 713409, India",1619935380000
+153,Purba Bardhhaman,20,18,0.0,713130,Purba Bardhhaman,0.0,,0.0,0.0,20.0,"9832059038, 03453-255060",Katwa Sub-Divisional Hospital (Government Hospital),0.0,0.0,18.0,"Katwa, West Bengal 713130, India",1619944980000
+154,Purba Bardhhaman,200,110,0.0,713103,Purba Bardhhaman,130.0,,51.0,40.0,30.0,9883532450,Krishi Bhawan (Government Hospital),40.0,0.0,19.0,"Burdwan District Court Compound, Kachhari Road, Badamtala, Kalibazar, Bardhaman, West Bengal 713103, India",1619934780000
+155,Purba Medinipur,100,69,0.0,721429,Purba Medinipur,0.0,,0.0,0.0,100.0,7364045140,EGRA SUB DIVISIONAL AND SUPER SPECIALITY HOSPITAL (Government Hospital),0.0,0.0,69.0,"Buran, Egra, West Bengal 721429, India",1619940660000
+156,Purba Medinipur,50,33,0.0,721602,Purba Medinipur,30.0,,21.0,0.0,20.0,7364045140,HALDIA SUB DIVISIONAL HOSPITAL (Government Hospital),0.0,0.0,12.0,"Haldia, West Bengal 721602, India",1619936280000
+157,PURBA MEDINIPUR,112,95,2.0,,PURBA MEDINIPUR,100.0,,83.0,0.0,0.0,9932393704,Nandigram SSH (Government Hospital),0.0,2.0,0.0,"PO Nandigram PIN 721631 , PURBA MEDINIPUR",1619936580000
+158,Purba Medinipur,300,190,11.0,721139,Purba Medinipur,0.0,,0.0,0.0,280.0,7364045140,PANSKURA SUPER SPECIALITY HOSPITAL (Government Hospital),0.0,20.0,179.0,"Banstala To Pitpur Bus Stand Rd, Mecho Gram, Purbba Pitpur, West Bengal 721139, India",1619932980000
+159,Purba Medinipur,90,87,0.0,721636,Purba Medinipur,50.0,,48.0,0.0,40.0,7364045140,TAMLUK DISTRICT HOSPITAL (Government Hospital),0.0,0.0,39.0,"Haldia - Tamluk - Mechada Rd, Sriram Pur, Tamluk, West Bengal 721636, India",1619935620000
+160,Purba Medinipur,123,44,0.0,721139,Purba Medinipur,0.0,,0.0,11.0,100.0,7364045140,BAROMAA MS HOSPITAL (Govt. Requisitioned Pvt. Hospital),0.0,12.0,44.0,"P.O. Uttar Mechogram, P.S. Panskura, Mecho Gram, Dakshin Mechgram, West Bengal 721139, India",1619936100000
+161,Purba Medinipur,160,14,1.0,721659,Purba Medinipur,50.0,,7.0,10.0,80.0,9083257406,Chandipur Multispeciality Hospital (Govt. Requisitioned Pvt. Hospital),1.0,8.0,4.0,"Math Chandipur, West Bengal 721659, India",1619936640000
+162,Purba Medinipur,100,68,0.0,721401,Purba Medinipur,100.0,,68.0,0.0,0.0,9932873556,"RAGHUNATH AYURVED COLLEGE, CONTAI SAFE HOME (Govt. Requisitioned Pvt. Hospital)",0.0,0.0,0.0,"Raghunath Sarani, Purba Medinipur, Dhandighi, Contai, West Bengal 721401, India",1619936820000
+163,Purba Medinipur,123,33,0.0,721139,Purba Medinipur,0.0,,0.0,11.0,100.0,7364045140,BAROMA MULTI SPECIALITY HOSPITAL (Private Hospital (Self Run)),0.0,0.0,32.0,"P.O. Uttar Mechogram, P.S. Panskura, Mecho Gram, Dakshin Mechgram, West Bengal 721139, India",1619936100000
+164,Purba Medinipur,100,96,0.0,721429,Purba Medinipur,100.0,,96.0,0.0,0.0,7364045140,EGRA SAFE HOME (Safe Home),0.0,0.0,0.0,"Egra, West Bengal 721429, India",1619936640000
+165,Purba Medinipur,100,97,0.0,721657,Purba Medinipur,100.0,,97.0,0.0,0.0,7364045140,HALDIA SAFE HOME (Safe Home),0.0,0.0,0.0,"City Centre, P.O, Debhog, Haldia, West Bengal 721657, India",1619936640000
+166,Purba Medinipur,46,19,0.0,721632,Purba Medinipur,46.0,,19.0,0.0,0.0,7364045140,NANDAKUMAR SAFE HOME (Safe Home),0.0,0.0,0.0,"Bhabanipur, Kalyanchak, Nandakumar, West Bengal 721632, India",1619936760000
+167,Purulia,125,37,0.0,723147,Purulia,51.0,,20.0,12.0,50.0,7583988101,Covid Hospital Deben Mahato Govt Medical College and Hospital (Government Hospital),0.0,2.0,17.0,"Hatuara, West Bengal 723147, India",1619941740000
+168,Purulia,30,17,0.0,591224,Purulia,28.0,,17.0,0.0,2.0,9635778829,Covid Hospital Deben Mahato Govt Medical College and Hospital - KALLOLI RURAL HOSPITAL (Satellite Govt. Building),0.0,0.0,0.0,"Kalloli, Karnataka 591224, India",1619936700000
+169,Purulia,30,30,0.0,723147,Purulia,30.0,,30.0,0.0,0.0,9635778829,Covid Hospital Deben Mahato Govt Medical College and Hospital - KARMATIRTHA (Satellite Govt. Building),0.0,0.0,0.0,"Hatuara, West Bengal 723147, India",1619846820000
+170,Purulia,50,31,0.0,723101,Purulia,48.0,,29.0,0.0,2.0,9635778829,Covid Hospital Deben Mahato Govt Medical College and Hospital - MOTHER TERESA LIONS HOSPITAL (Satellite Pvt. Building),0.0,0.0,2.0,"Bhutnath Mandir, Goshala More, Barakar Road, Ward No-1, Muchipara, Purulia, West Bengal 723101, India",1619936880000
+171,Purulia,40,35,0.0,723147,Purulia,30.0,,25.0,0.0,10.0,9635778829,Covid Hospital Deben Mahato Govt Medical College and Hospital - RAGHUNATHPUR GOVT. HOSPITAL (Satellite Hospital),0.0,0.0,10.0,"Hatuara, West Bengal 723147, India",1619936940000
+172,Purulia,28,0,0.0,723101,Purulia,0.0,,0.0,0.0,18.0,"8145900440,8145900447,8145900446",RAMESHWARLALL SINGHANIA SEVA PRATISTHAN (Private Hospital (Self Run)),0.0,3.0,0.0,"Purulia, West Bengal 723101, India",1619871960000
+173,Purulia,25,2,0.0,723101,Purulia,0.0,,0.0,0.0,20.0,7547999886,ROTARY CLUB OF PURULIA SERVICE CENTRE MULTI SPECIALITY HOSPITAL (Private Hospital (Self Run)),0.0,0.0,2.0,"W Lake Rd, Purulia, West Bengal 723101, India",1619941320000
+174,Uttar 24 Pargana,78,0,0.0,743222,Uttar 24 Pargana,49.0,,0.0,29.0,0.0,8145404375,Ashokenagar State General Hospital (Government Hospital),0.0,0.0,0.0,"Ashoknagar, West Bengal 743222, India",1619936040000
+175,UTTAR 24 PARGANA,40,4,0.0,,UTTAR 24 PARGANA,40.0,,4.0,0.0,0.0,7605057322,Baranagar State General Hospital (Government Hospital),0.0,0.0,0.0,"Baranagar, North 24 Parganas , UTTAR 24 PARGANA",1619936040000
+176,Uttar 24 Pargana,50,50,0.0,700124,Uttar 24 Pargana,50.0,,50.0,0.0,0.0,7605057313,Barasat District Hospital (Government Hospital),0.0,0.0,0.0,"Barasat, Kolkata, West Bengal 700124, India",1619936040000
+177,Uttar 24 Pargana,425,58,0.0,700156,Uttar 24 Pargana,325.0,,50.0,100.0,0.0,07605057325,CNCI (Government Hospital),8.0,0.0,0.0,"700156, Street Number 299, DJ Block(Newtown), Action Area I, Newtown, New Town, West Bengal 700156, India",1619936040000
+178,Uttar 24 Pargana,212,26,0.0,700058,Uttar 24 Pargana,150.0,,0.0,50.0,0.0,7980607616,College of Medicine and Sagore Dutta Hospital (Government Hospital),26.0,0.0,0.0,"578, Barrackpore Trunk Rd, Sinthi More, Kamarhati, Baranagar, Kolkata, West Bengal 700058, India",1619936040000
+179,Uttar 24 Pargana,50,1,0.0,743235,Uttar 24 Pargana,50.0,,1.0,0.0,0.0,7605057314,Dr JR Dhar Sub Divisional Hospital (Government Hospital),0.0,0.0,0.0,"Chakdah Rd, Bangaon, West Bengal 743235, India",1619943240000
+180,Uttar 24 Pargana,48,14,0.0,743252,Uttar 24 Pargana,29.0,,5.0,0.0,19.0,7605057323/ 7605057313/ 9804950032,Gobardanga COVID Hospital (Government Hospital),0.0,0.0,9.0,"Gobardanga, West Bengal 743252, India",1619936280000
+181,Uttar 24 Pargana,90,5,0.0,743165,Uttar 24 Pargana,50.0,,4.0,40.0,0.0,7439623721,Naihati State General Hospital (Government Hospital),1.0,0.0,0.0,"Naihati, Kolkata, West Bengal 743165, India",1619936100000
+182,Uttar 24 Pargana,42,3,0.0,700109,Uttar 24 Pargana,42.0,,3.0,0.0,0.0,7605057321,Panihati State General Hospital (Government Hospital),0.0,0.0,0.0,"Barasat Rd, Chanditala, Sodepur, Kolkata, West Bengal 700109, India",1619936100000
+183,Uttar 24 Pargana,110,18,0.0,700125,Uttar 24 Pargana,87.0,,18.0,9.0,0.0,"033-25847005, 033-25847006, 6291835619/ 9330900627",GNRC MEDICAL A unit of GNRC Community Hospitals Ltd. (Govt. Requisitioned Pvt. Hospital),0.0,11.0,0.0,"Kolkata - Basirhat Rd, Koyra, West Bengal 700125, India",1619936100000
+184,Uttar 24 Pargana,103,0,0.0,700120,Uttar 24 Pargana,0.0,,0.0,20.0,37.0,9073943774,Nehru Memorial Technoglobal Hospital (Govt. Requisitioned Pvt. Hospital),0.0,13.0,0.0,"6, Barasat road, Lalkuthi, Barrackpore, West Bengal 700120, India",1619936100000
+185,Uttar 24 Pargana,40,40,0.0,700050,Uttar 24 Pargana,40.0,,40.0,0.0,0.0,"03366016601, 9836411177",Binayak Multispeciality Hospital (Private Hospital (Self Run)),0.0,0.0,0.0,"Binayak Hospital, 59, KC Ghosh Rd, W-block, Binayak Enclave, PS:, Baranagar, Kolkata, West Bengal 700050, India",1619936040000
+186,Uttar 24 Pargana,100,4,0.0,700058,Uttar 24 Pargana,60.0,,4.0,40.0,0.0,7605036785,College of Medicine and Sagore Dutta Hospital - Sree Balaram Seba Mandir SGH (Satellite Hospital),0.0,0.0,0.0,"Kamarhati, Kolkata, West Bengal 700058, India",1619936220000
+187,Uttar 24 Pargana,40,40,0.0,700106,Uttar 24 Pargana,40.0,,40.0,0.0,0.0,9831209796,Parkview Super Speciality Hospital A Unit of Ankush Medicare Pvt Ltd (Private Hospital (Self Run)),0.0,0.0,0.0,"HB 36 –A / 4, HB Block, Sector III, Bidhannagar, Kolkata, West Bengal 700106, India",1619936100000
+188,Uttar 24 Pargana,67,5,0.0,700059,Uttar 24 Pargana,0.0,,0.0,0.0,39.0,03340045511,Spandan Hospital (Private Hospital (Self Run)),0.0,10.0,3.0,"17, 1, VIP Rd, opp. Big Bazar, Raghunathpur, Baguihati, Kolkata, West Bengal 700059, India",1619936100000
+189,Uttar 24 Pargana,114,4,0.0,700056,Uttar 24 Pargana,0.0,,0.0,0.0,72.0,9830887974,Zenith Super Specialist Hospital A Unit of JMD Hospital Pvt Ltd (Private Hospital (Self Run)),0.0,2.0,4.0,"9, 3, Feeder Rd, Rathtala, Belghoria, Kolkata, West Bengal 700056, India",1619936100000
+190,Uttar Dinajpur,56,6,0.0,733134,Uttar Dinajpur,0.0,,0.0,11.0,40.0,"8013732242, 7479000195",RAIGANJ GOVERNMENT MEDICAL COLLEGE AND HOSPITAL (Government Hospital),1.0,5.0,5.0,"Dr. B.C. Roy, Rabindra Sarani Rd, College Para, Raiganj, West Bengal 733134, India",1619936160000
+191,Uttar Dinajpur,100,77,0.0,733202,Uttar Dinajpur,55.0,,45.0,0.0,45.0,"8777092870, 9874828766",ISLAMPUR URDU ACADEMY (Govt. Requisitioned Pvt. Hospital),0.0,0.0,32.0,"NS Rd, Khudirampally, Islampur, West Bengal 733202, India",1619936100000
+192,Uttar Dinajpur,50,1,1.0,733134,Uttar Dinajpur,0.0,,0.0,0.0,44.0,"7063590299, 7063590298",MIKKYMEGHA HOSPITAL PVT. LIMITED (Govt. Requisitioned Pvt. Hospital),0.0,6.0,0.0,"Dr. B.C. Roy, Rabindra Sarani Rd, College Para, Raiganj, West Bengal 733134, India",1619931600000
+193,Uttar Dinajpur,130,84,0.0,733128,Uttar Dinajpur,125.0,,81.0,0.0,5.0,"9433400657,7063590299, 7063590298",SAFE HOME (Safe Home),0.0,0.0,3.0,"NH12, Itahar, West Bengal 733128, India",1619934660000
+194,Kolkata,25,0,,700098,Kolkata,,False,,,,,AMRI Salt Lake,,,,"16 17, JC Block Lane, Central Park Road Broadway Road, stadium gate number 3, opposite salt lake, JC Block, Sector III, Bidhannagar, Kolkata, West Bengal 700098, India",0
+195,Kolkata,50,0,,700014,Kolkata,,False,,,,,CNMCH,,,,"32, Gorachand Rd, Beniapukur, Kolkata, West Bengal 700014, India",0
+196,Kolkata,425,7,,700156,Kolkata,,False,,,,,CNCI,,,,"700156, Street Number 299, DJ Block(Newtown), Action Area I, Newtown, New Town, West Bengal 700156, India",0
+197,Kolkata,25,4,,700107,Kolkata,,False,,,,,"Desun Hospital, Kolkata",,,,"Desun More, 720, Eastern Metropolitan Bypass, Golpark, Sector I, Kasba, Kolkata, West Bengal 700107, India",0
+198,Kolkata,315,25,,700010,Kolkata,,False,,,,,ID BG,,,,"57, Beleghata Main Rd, Subhas Sarobar Park, Phool Bagan, Beleghata, Kolkata, West Bengal 700010, India",0
+199,Kolkata,130,28,,,Kolkata,,False,,,,,K. S. Roy TB Hospital,,,,,0
+200,Kolkata,305,21,,700073,Kolkata,,False,,,,,Kolkata Medical College,,,,"88, College St, Calcutta Medical College, College Square, Kolkata, West Bengal 700073, India",0
+201,Kolkata,200,17,,700032,Kolkata,,False,,,,,KPC Medical College,,,,"K P C Medical College and Hospital Campus, P/1-1, Jadavpur Station Rd, Jadavpur University Campus Area, Jadavpur, Kolkata, West Bengal 700032, India",0
+202,Kolkata,603,112,,700033,Kolkata,,False,,,,,M R Bangur DH & SSH,,,,"247, Deshpran Sasmal Rd, Rajendra Prasad Colony, Tollygunge, Kolkata, West Bengal 700033, India",0
+203,Kolkata,110,0,,,Kolkata,,False,,,,,N R S Medical College & Hospital,,,,,0
+204,Kolkata,110,0,,700004,Kolkata,,False,,,,,R G Kar MCH,,,,"1, Khudiram Bose Sarani, Bidhan Sarani, Shyam Bazar, Kolkata, West Bengal 700004, India",0
+205,Kolkata,90,9,,700020,Kolkata,,False,,,,,Shambhunath Pandit Hospital,,,,"Sambhunath Pandit Hospital Ln, Jadubabur Bazar, Bhowanipore, Kolkata, West Bengal 700020, India",0
+206,Alipurduar,15,15,,,Alipurduar,,False,,,,,Alipurduar DH,,,,,0
+207,Alipurduar,110,69,,736204,Alipurduar,,False,,,,,"Integrated Ayush (COVID 19) Hospital, Tapsikhata",,,,"Paschim Salbari, West Bengal 736204, India",0
+208,Bankura,100,58,,,Bankura,,False,,,,,Bankura SMCH,,,,,0
+209,Bankura,250,98,,722144,Bankura,,False,,,,,Onda SSH,,,,"Onda, West Bengal 722144, India",0
+210,Birbhum,87,87,,731224,Birbhum,,False,,,,,Adeen Healthcare Private Ltd.,,,,"New Hospital Road, Rampurhat, Birbhum, West Bengal 731224, India",0
+211,Birbhum,90,26,,731123,Birbhum,,False,,,,,"Glocal Hospital, Birbhum",,,,"NH 60, Power House, Dubrajpur, West Bengal 731123, India",0
+212,Birbhum,150,150,,731123,Birbhum,,False,,,,,Niramoy TB Sanitorium,,,,"Chandrapur, West Bengal 731123, India",0
+213,Birbhum,160,83,,731224,Birbhum,,False,,,,,Rampurhat Govt Medical College & Hospital,,,,"Hospital More, Rampurhat, West Bengal 731224, India",0
+214,Coochbehar,90,90,,736101,Coochbehar,,False,,,,,Cooch Behar MJN MCH,,,,"Silver Jubilee Rd, Cooch Behar, West Bengal 736101, India",0
+215,Coochbehar,32,22,,736101,Coochbehar,,False,,,,,Dinhata SDH,,,,"Cooch Behar, West Bengal 736101, India",0
+216,Dakshin Dinajpur,41,38,,733124,Dakshin Dinajpur,,False,,,,,Gangarampur SDH,,,,"Gangarampur, West Bengal 733124, India",0
+217,Dakshin Dinajpur,80,28,,733101,Dakshin Dinajpur,,False,,,,,Natya Utkarsha Kendra,,,,"Thana Mode, Shuvam Rd, Chakbhabani, Balurghat, West Bengal 733101, India",0
+218,Darjeeling,10,8,,,Darjeeling,,False,,,,,Darjeeling DH,,,,,0
+219,Darjeeling,18,15,,,Darjeeling,,False,,,,,Kurseong SDH,,,,,0
+220,Darjeeling,110,50,,734012,Darjeeling,,False,,,,,NBMCH 1,,,,"Medical Rd, Kawakhali, Sushrutanagar, Siliguri, West Bengal 734012, India",0
+221,Darjeeling,96,88,,,Darjeeling,,False,,,,,NBMCH 2,,,,,0
+222,Hooghly,96,39,,712601,Hooghly,,False,,,,,Arambagh SSH,,,,"Arambagh Station Road, Arambag, West Bengal 712601, India",0
+223,Hooghly,150,30,,,Hooghly,,False,,,,,"Chandannagar SDH, Covid Isolation Unit",,,,,0
+224,Hooghly,50,0,,712124,Hooghly,,False,,,,,ESI Gourhati,,,,"Grand Trunk Road Gourhati, near Champdani, Angus Line, Chinsurah, West Bengal 712124, India",0
+225,Hooghly,150,146,,712123,Hooghly,,False,,,,,"ESI Hospital, Bandel",,,,"GT Road, opposite Axis Bank, Old Kodalia, Bandel, West Bengal 712123, India",0
+226,Hooghly,151,119,,712103,Hooghly,,False,,,,,Imambara DH,,,,"Imambara road Hooghly, near D.M Banglw, Chowk Bazar, Olaichanditala, Chinsurah, West Bengal 712103, India",0
+227,Hooghly,100,51,,712409,Hooghly,,False,,,,,Singur Trauma Care Centre,,,,"Trauma Care Centre Rd, West Bengal 712409, India",0
+228,Hooghly,50,3,,712201,Hooghly,,False,,,,,Sreerampur Walsh Hospital,,,,"22A, TC Goswami St, Serampore, West Bengal 712201, India",0
+229,Hooghly,40,15,,712258,Hooghly,,False,,,,,Uttarpara SGH,,,,"RPM Road, Uttarpara, Kotrung, Hooghly, West Bengal 712258, India",0
+230,Howrah,400,228,,711403,Howrah,,False,,,,,"ESI Hospital, Baltikuri",,,,"Piyada para Rd, Bankra, Howrah, West Bengal 711403, India",0
+231,Howrah,25,0,,711107,Howrah,,False,,,,,Satyabala IDH,,,,"Satyabala, Grand Trunk Rd, Surendranagar, Ghusuri, Howrah, West Bengal 711107, India",0
+232,Howrah,250,115,,711107,Howrah,,False,,,,,TLJ Hospital,,,,"182, Naskar Para Road, Surendranagar, Ghusuri, Surendranagar, Liluah, Howrah, West Bengal 711107, India",0
+233,Jalpaiguri,300,108,,735102,Jalpaiguri,,False,,,,,Biswabangla Krirangan (Sports Complex),,,,"Unnamed Road, Jalpaiguri, West Bengal 735102, India",0
+234,Jhargram,75,75,,721514,Jhargram,,False,,,,,Jhargram Night Shelter,,,,"Tentultala More, Raghunathpur, Jhargram, West Bengal 721514, India",0
+235,Jhargram,75,75,,721507,Jhargram,,False,,,,,Jhargram Working Women Hostel,,,,"Jhargram Main Rd, Jhargram, West Bengal 721507, India",0
+236,Kalimpong,180,95,,734317,Kalimpong,,False,,,,,Triveni Hospital,,,,"Triveni Rd, Teesta Valley Forest, West Bengal 734317, India",0
+237,Malda,150,48,,,Malda,,False,,,,,Malda MCH Trauma Care Centre Covid I,,,,,0
+238,Murshidabad,20,20,,742149,Murshidabad,,False,,,,,Domkol SDH,,,,"Lalbagh, Murshidabad, West Bengal 742149, India",0
+239,Murshidabad,100,52,,742149,Murshidabad,,False,,,,,Khristio Seba Sadan,,,,"Murshidabad Station Rd, Lalbagh, Murshidabad, West Bengal 742149, India",0
+240,Murshidabad,300,137,,742101,Murshidabad,,False,,,,,Old Matri Sadan Hospital,,,,"Khagra, Berhampore, West Bengal 742101, India",0
+241,Nadia,10,10,,741102,Nadia,,False,,,,,"Glocal Hospital, Nadia",,,,"P. O. Bhatjangla, NH12, opp. HOTEL HAVELI, Krishnanagar, West Bengal 741102, India",0
+242,Nadia,80,80,,741235,Nadia,,False,,,,,JNM MCH,,,,"Kolkata JNM Hospital quarter E/88, Block A2, Kalyani, West Bengal 741235, India",0
+243,Nadia,300,22,,741251,Nadia,,False,,,,,"Netaji Subhas Sanitorium, Kalyani",,,,"Shankar Mandal Rd, Kulia, Block A, Kalyani, West Bengal 741251, India",0
+244,Nadia,60,18,,741302,Nadia,,False,,,,,"Shaktinagar Campus, Nadia DH",,,,"Pacca Tole, Road, Nabadwip, West Bengal 741302, India",0
+245,North 24 Pgs,10,10,,,North 24 Pgs,,False,,,,,Al Amin Gopalpur Nursing Home,,,,,0
+246,North 24 Pgs,35,0,,743412,North 24 Pgs,,False,,,,,Basirhat District Hospital,,,,"Rd,Badartala hospital more, Itinda, Basirhat, West Bengal 743412, India",0
+247,North 24 Pgs,80,2,,,North 24 Pgs,,False,,,,,Ashoknagar SGH,,,,,0
+248,North 24 Pgs,80,42,,700036,North 24 Pgs,,False,,,,,Baranagar SGH,,,,"CP Road, BT Road, Kutighat, Baranagar, Kolkata, West Bengal 700036, India",0
+249,North 24 Pgs,50,0,,743235,North 24 Pgs,,False,,,,,Bongaon SDH,,,,"Amlapara, Bangaon, West Bengal 743235, India",0
+250,North 24 Pgs,160,0,,700058,North 24 Pgs,,False,,,,,COM & Sagar Datta Hospital,,,,"578, Barrackpore Trunk Rd, Kamarhati, Baranagar, Kolkata, West Bengal 700058, India",0
+251,North 24 Pgs,33,0,,700124,North 24 Pgs,,False,,,,,GNRC,,,,"123, Taki Rd, Barasat, Kolkata, West Bengal 700124, India",0
+252,North 24 Pgs,50,23,,,North 24 Pgs,,False,,,,,Gobardanga RH Covid Hospital,,,,,0
+253,North 24 Pgs,90,1,,743165,North 24 Pgs,,False,,,,,Naihati SGH,,,,"Naihati, Kolkata, West Bengal 743165, India",0
+254,North 24 Pgs,50,0,,700120,North 24 Pgs,,False,,,,,Nehru Memorial Techno Global,,,,"6, Barasat road, Lalkuthi, Barrackpore, West Bengal 700120, India",0
+255,North 24 Pgs,150,113,,700109,North 24 Pgs,,False,,,,,Panihati SGH,,,,"Barasat Rd, Chanditala, Sodepur, Kolkata, West Bengal 700109, India",0
+256,North 24 Pgs,80,0,,700116,North 24 Pgs,,False,,,,,Sree Balaram Seva Mandir SGH,,,,"MS Mukherjee Rd, Kalyan Nagar Mathpara, Kulinpara, Khardaha, Kolkata, West Bengal 700116, India",0
+257,Paschim Bardhaman,90,41,,713305,Paschim Bardhaman,,False,,,,,Asansol DH,,,,"Kanyapur, Asansol, West Bengal 713305, India",0
+258,Paschim Bardhaman,20,0,,,Paschim Bardhaman,,False,,,,,Durgapur SDH,,,,,0
+259,Paschim Bardhaman,200,79,,713212,Paschim Bardhaman,,False,,,,,Sanaka Hospital,,,,"Kanksha, Durgapur, Malandighi, West Bengal 713212, India",0
+260,Paschim Medinipur,100,100,,,Paschim Medinipur,,False,,,,,"AYUSH Corona Hospital, Paschim Medinipore",,,,,0
+261,Paschim Medinipur,100,100,,,Paschim Medinipur,,False,,,,,AYUSH Satellite Hospital,,,,,0
+262,Paschim Medinipur,40,40,,,Paschim Medinipur,,False,,,,,Debra RH Covid Hospital,,,,,0
+263,Paschim Medinipur,80,15,,721212,Paschim Medinipur,,False,,,,,Ghatal SDH Covid Hospital,,,,"Ghatal, West Bengal 721212, India",0
+264,Paschim Medinipur,50,7,,,Paschim Medinipur,,False,,,,,Kharagpur SDH Corona Hospital,,,,,0
+265,Paschim Medinipur,30,9,,721101,Paschim Medinipur,,False,,,,,Midnapore Medical College Hospital,,,,"Vidyasagar Rd, Midnapore, West Bengal 721101, India",0
+266,Paschim Medinipur,200,123,,,Paschim Medinipur,,False,,,,,Salboni SSH,,,,,0
+267,Purba Burdwan,67,0,,713104,Purba Burdwan,,False,,,,,Bardhaman Medical College & Hospital,,,,"Bardhaman University, Bardhaman, West Bengal 713104, India",0
+268,Purba Burdwan,46,29,,713103,Purba Burdwan,,False,,,,,Kalna SDH,,,,"Burdwan District Court Compound, Kachhari Road, Badamtala, Kalibazar, Bardhaman, West Bengal 713103, India",0
+269,Purba Burdwan,100,11,,713104,Purba Burdwan,,False,,,,,Krishi Bhavan Covid Hospital,,,,"Purba, Bardhaman, West Bengal 713104, India",0
+270,Purba Medinipore,136,0,,721659,Purba Medinipore,,False,,,,,Chandipur Multi Speciality Hospital,,,,"Digha Road, Chandipur, West Bengal 721659, India",0
+271,Purba Medinipore,40,22,,,Purba Medinipore,,False,,,,,Nandigram SSH,,,,,0
+272,Purulia,93,0,,,Purulia,,False,,,,,Hatuara SSH,,,,,0
+273,South 24 Parganas,158,35,,743331,South 24 Parganas,,False,,,,,Diamond Harbour GMCH,,,,"Diamond Harbour Rd, Harindanga, Diamond Harbour, West Bengal 743331, India",0
+274,South 24 Parganas,90,88,,700104,South 24 Parganas,,False,,,,,ESIC Medical College,,,,"Diamond Harbour Rd, Bratachari Gram, Joka, Kolkata, West Bengal 700104, India",0
+275,South 24 Parganas,100,40,,700144,South 24 Parganas,,False,,,,,Baruipur SDH,,,,"Baruipur, West Bengal 700144, India",0
+276,South 24 Parganas,55,2,,,South 24 Parganas,,False,,,,,Canning Covid Hospital (Stadium),,,,,0
+277,Uttar Dinajpur,100,74,,733202,Uttar Dinajpur,,False,,,,,Islampur Urdu Academy,,,,"NS Rd, Khudirampally, Islampur, West Bengal 733202, India",0
+278,Uttar Dinajpur,50,2,,733134,Uttar Dinajpur,,False,,,,,Mikki Megha Hospital,,,,"Chhota Parua, West Bengal 733134, India",0
+279,Uttar Dinajpur,23,0,,733134,Uttar Dinajpur,,False,,,,,Raiganj Govt MCH,,,,"Dr. B.C. Roy, Rabindra Sarani Rd, College Para, Raiganj, West Bengal 733134, India",0
