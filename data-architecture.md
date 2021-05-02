@@ -1,15 +1,15 @@
 ## Life Data Architecture
 
 The data served in Life is generated through a network of volunteers from various organizations working round the clock,  
-The data flow has been build to ensure seamless integration with existing data collection platforms and to ensure Quick Updates/Sync
+The data flow has been build to ensure seamless integration with existing data collection platforms and to ensure Quick Updates/Sync.
 
 Here are the various steps the data goes through before deployed in our main application.
 
-1) **Data Cleaning and Pre processing**  
-Our Volunteers assist in converting the data collected by organizations into a standard format so as to ensure that all existing services using our API's wont have to rebuild their logic each time. The data is also sanitised to integrate with the existing data. Once the data is cleaned it is published as CSV Files and are sent to the backend for processing.
+1) **Data Cleaning and Preprocessing**  
+Our Volunteers assist in converting the data collected by organizations into a standard format to ensure that all existing services using our APIs won't have to rebuild their logic each time. The data is also sanitized to integrate with the existing data. Once the data is cleaned it is published as CSV Files and is sent to the backend for processing.
 
 2) **Backend ( Python3/Django/Celery )** 
-This is the where the actual integration takes place. The backend takes a list of files, the periodicity of the sync ( update the data every X mins or so ) and the data's owners details. This data can be updated without any downtime. The Backedn syncs each file at the given periodicity and lets the owner know about the induvidual rows that failed validation so the owner can either delete the data or correct the validation error. The Backend also performs de duplication based on the fields that are required, Once the data is fetched it dumps the entire data category wise as a JSON and a CSV file for consumption.  
+This is where the actual integration takes place. The backend takes a list of files, the periodicity of the sync ( update the data every X mins or so ), and the data's owner's details. This data can be updated without any downtime. The Backend syncs each file at the given periodicity and lets the owner know about the individual rows that failed validation so the owner can either delete the data or correct the validation error. The Backend also performs deduplication based on the fields that are required, Once the data is fetched it dumps the entire data category-wise as a JSON and a CSV file for consumption.  
 _These files can be directly consumed by an external organization trying to fetch data from us._
 
 3) **Github Pipelines ( Python3 )**  
