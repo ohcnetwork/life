@@ -14,9 +14,6 @@ export const getStaticProps = async () => {
 };
 
 const Video = ({ videoData }) => {
-    const [selected, setSelected] = useState([]);
-    const [data, setData] = useState(videoData);
-
     const options = [
         { label: "Prevention & Safety", value: "Prevention & Safety" },
         { label: "Saathealth", value: "Saathealth" },
@@ -31,6 +28,9 @@ const Video = ({ videoData }) => {
         { label: "CDC", value: "CDC" },
     ];
 
+    const [selected, setSelected] = useState(options);
+    const [data, setData] = useState(videoData);
+
     useEffect(() => {
         const values = selected.map(s => s.value.toLowerCase())
 
@@ -41,6 +41,7 @@ const Video = ({ videoData }) => {
         setData(d)
     }, [selected])
 
+    console.log(data)
     return (
         <section className="max-w-5xl mx-auto px-2">
             <Breadcumb list={[{ href: null, name: 'Videos' }]} />
@@ -55,9 +56,16 @@ const Video = ({ videoData }) => {
             />
 
             <div className="flex flex-col mx-2 md:mx-6 pt-2 pl-4">
-                {data.map((el) => (
-                    <VideoCard key={el.id} dt={el} />
-                ))}
+                {data.length > 0 ?
+                    (data.map((el) => (
+                        <VideoCard key={el.id} dt={el} />
+                    )))
+                    :
+                    <div className="flex flex-col items-center justify-center mt-6 dark:text-gray-300">
+                        <img src="/icons/noResults.svg" className="w-1/4 md:w-1/6 my-2" alt="No Data Found!" />
+                        <span>No video Found</span>
+                    </div>
+                }
             </div>
         </section>
     );
