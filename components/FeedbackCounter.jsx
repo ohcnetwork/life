@@ -15,11 +15,28 @@ const FeedbackCounter = ({ externalId, upvotes, downvotes }) => {
         console.log(externalId);
     }, []);
 
-    const handleUpvote = () => {
+    const handleUpvote = async () => {
         if (!checkIfPresentInLocalStorage('upvoted')) {
             // TODO: Fetch Call Here
+            try {
+                const res = await fetch(
+                    `https://careapi.coronasafe.in/api/v1/life/data/${externalId}/upvote/`,
+                    {
+                        method: 'POST'
+                    }
+                );
+                if (res.ok) {
+                    localStorage.setItem('upvoted', true);
+                    setUpvoteCount((prev) => prev + 1);
+                } else {
+                    throw new Error('Did not work');
+                }
+            } catch (err) {
+                console.log(err);
+            }
+        } else {
+            console.log('did');
         }
-        setUpvoteCount((prev) => prev + 1);
     };
 
     const handleDownvote = () => {
