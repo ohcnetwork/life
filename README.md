@@ -1,6 +1,6 @@
 # Life | Coronasafe Network
 
-![Life Logo](./public/static/banner.png)
+<img src="./public/static/banner.png" width="500">
 
 A database and API for life-fe
 
@@ -43,6 +43,10 @@ A database and API for life-fe
 | Medicine availability (verified)  | <https://life-api.coronasafe.network/data/medicine_verified.json>               |
 | Oxygen availability               | <https://life-api.coronasafe.network/data/oxygen.json>                          |
 | Oxygen availability (verified)    | <https://life-api.coronasafe.network/data/oxygen_verified.json>                 |
+
+## For Non-Developers
+ You can make use of this Master Google Sheet: https://docs.google.com/spreadsheets/d/1Oyuf3LOjBr_ubJOJCTlBk6ODg3jXiSlLMW9g4-m5SHU/edit?usp=sharing
+
 
 ## Want to help with coding?
 
