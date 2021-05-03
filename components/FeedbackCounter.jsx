@@ -1,7 +1,7 @@
 import { faThumbsDown, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
-import { useGoogleReCaptcha, GoogleReCaptcha } from 'react-google-recaptcha-v3';
+import ReCaptcha from 'react-google-recaptcha';
 
 const checkIfPresentInLocalStorage = (key) => {
     return localStorage.getItem(key) !== null;
