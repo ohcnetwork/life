@@ -41,6 +41,11 @@ const FeedbackCounter = ({ externalId, upvotes, downvotes }) => {
 
     const handleDownvote = () => {
         if (!checkIfPresentInLocalStorage('upvoted')) {
+            const res = await fetch(
+                `https://careapi.coronasafe.in/api/v1/life/data/${externalId}/upvote/`,
+                {
+                    method: 'POST'
+                })
         }
         setDownvoteCount((prev) => prev + 1);
     };
