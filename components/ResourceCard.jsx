@@ -123,7 +123,7 @@ const ResourceCard = ({ data, type: filterType }) => {
                         }
                     </div>
                 </div>
-                <div className="flex flex-row flex-wrap xs:flex-col xs:items-end justify-around flex-1 font-semibold text-lg dark:text-gray-100">
+                <div className="flex flex-row flex-wrap xs:flex-col xs:items-end justify-start flex-1 font-semibold text-lg dark:text-gray-100">
                     {
                         phone_1 &&
                         <div className="flex items-center justify-start mt-1 w-1/2 xs:w-auto">
