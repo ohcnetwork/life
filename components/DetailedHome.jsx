@@ -23,6 +23,7 @@ import HomeSelector from '@components/HomeSelector';
 import HomeTabs from '@components/HomeTabs';
 import { useRouter } from 'next/router';
 import { isVerified } from '../lib/utils';
+import MapContainer from './MapContainer';
 
 export default function DetailedHome({ state, district, type }) {
     const { locale } = useLocaleContext();
@@ -163,6 +164,9 @@ export default function DetailedHome({ state, district, type }) {
                             )}
                             {tabVal === 'twitter' && (
                                 <TwitterContainer searchStr={mapDistrictToCity(districtChoosen)} />
+                            )}
+                            {tabVal === 'maps' && (
+                                <MapContainer resources={resources[resourceChoosen]} />
                             )}
                             {tabVal === 'twitter_on_no_data' && (
                                 <TwitterContainer noRes noResText={districtChoosen} searchStr={mapDistrictToCity(districtChoosen)} />
