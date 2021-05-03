@@ -39,6 +39,15 @@ const moduleExports = withPWA({
         }
 
         return config;
+    },
+    async redirects() {
+        return [
+            {
+                source: '/videos',
+                destination: 'https://cutt.ly/covid19comms',
+                permanent: true
+            }
+        ];
     }
 });
 
