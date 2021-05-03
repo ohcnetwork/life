@@ -910,6 +910,32 @@
             "verifiedBy": "Varun Kumar"
         },
         {
+            "availability": "Available",
+            "comment": null,
+            "createdTime": "2021-05-03T13:16:23.000Z",
+            "district": "Gonda",
+            "email1": null,
+            "email2": null,
+            "id": "recHD1gLHDFRWzwin",
+            "lastVerifiedOn": "2021-05-03T13:16:23.000Z",
+            "name": "City Hospital Maternity and Trauma centre",
+            "phone1": 7897232147,
+            "phone2": null,
+            "pointOfContact": "Dr Zia Ul Haq (PT)",
+            "state": "Uttar Pradesh",
+            "subCategory": null,
+            "totalBedsAvailable": null,
+            "typeOfBedAvailable": [
+                "Bed without oxygen",
+                "Bed with oxygen"
+            ],
+            "typeOfHospital": null,
+            "verificationStatus": "Available and verified",
+            "verifiedBy": [
+                {}
+            ]
+        },
+        {
             "availability": null,
             "comment": "All beds full\nReluctant on giving more info about the beds without patient details \n",
             "createdTime": "2021-04-19T07:48:08.000Z",
