@@ -40,14 +40,26 @@ const FeedbackCounter = ({ externalId, upvotes, downvotes }) => {
     };
 
     const handleDownvote = () => {
-        if (!checkIfPresentInLocalStorage('upvoted')) {
-            const res = await fetch(
-                `https://careapi.coronasafe.in/api/v1/life/data/${externalId}/upvote/`,
-                {
-                    method: 'POST'
-                })
+        if (!checkIfPresentInLocalStorage('downvoted')) {
+            try {
+                const res = await fetch(
+                    `https://careapi.coronasafe.in/api/v1/life/data/${externalId}/downvote/`,
+                    {
+                        method: 'POST'
+                    }
+                );
+                if (res.ok) {
+                    localStorage.setItem('downvoted', true);
+                    setDownvoteCount((prev) => prev + 1);
+                } else {
+                    throw new Error('Did not work');
+                }
+            } catch (err) {
+                console.log(err);
+            }
+        } else {
+            console.log('did');
         }
-        setDownvoteCount((prev) => prev + 1);
     };
 
     return (
