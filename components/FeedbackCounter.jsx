@@ -40,7 +40,8 @@ const FeedbackCounter = ({ externalId, upvotes, downvotes }) => {
     };
 
     const handleDownvote = () => {
-        console.log(checkIfPresentInLocalStorage('downvoted'));
+        if (!checkIfPresentInLocalStorage('upvoted')) {
+        }
         setDownvoteCount((prev) => prev + 1);
     };
 
