@@ -14,9 +14,9 @@ jobs:
       - name: Create local changes
         run: |
           pip3 install -r scraper/requirements.txt 
-          python3 scraper/src/scraper.py
           python3 scraper/src/v2_json_downloader.py
           # python3 scraper/src/sheets_scraper.py
+#          python3 scraper/src/scraper.py
         env:
           AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
       - name: Commit files
