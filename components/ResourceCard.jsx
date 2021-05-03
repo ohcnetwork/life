@@ -18,7 +18,6 @@ import Badge from './Badge';
 import Description from './Description';
 import TimeAgo from 'timeago-react';
 import FeedbackCounter from './FeedbackCounter';
-import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
 
 const ResourceCard = ({ data, type: filterType }) => {
     // General Data
@@ -26,9 +25,6 @@ const ResourceCard = ({ data, type: filterType }) => {
     const { comment, description, address } = data;
     const { phone_1, phone_2, email } = data;
     const { type, resource_type, source_link } = data;
-
-    // public key!
-    const captchaKey = '6LdvxuQUAAAAADDWVflgBqyHGfq-xmvNJaToM0pN';
 
     // Metadata
     const { external_id: id, last_verified_on, verification_status } = data;
@@ -214,11 +210,7 @@ const ResourceCard = ({ data, type: filterType }) => {
                     </span>
                 </span>
                 <div className="flex items-center mx-1 mt-2 xs:my-0 xs:space-x-2">
-                    <GoogleReCaptchaProvider
-                        scriptProps={{ async: true, defer: true, appendTo: 'body' }}
-                        reCaptchaKey={captchaKey}>
-                        <FeedbackCounter externalId={id} upvotes={upvotes} downvotes={downvotes} />
-                    </GoogleReCaptchaProvider>
+                    <FeedbackCounter externalId={id} upvotes={upvotes} downvotes={downvotes} />
                 </div>
             </div>
         </div>
