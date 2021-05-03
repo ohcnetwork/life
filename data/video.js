@@ -1,7 +1,7 @@
 export const videoData = [
     {
         Title: 'Corona Virus- जानकारी',
-        'Material Category': 'Prevention&Safety',
+        'Material Category': 'Prevention & Safety',
         'Source of content': 'Saathealth',
         'Key Message': 'Top 5 prevention measures',
         'Language Versions': 'Hindi',
@@ -10,7 +10,7 @@ export const videoData = [
     },
     {
         Title: '5 कदम-छींकने या खांसने के बाद...',
-        'Material Category': 'Prevention&Safety',
+        'Material Category': 'Prevention & Safety',
         'Source of content': 'Tata Trust',
         'Key Message': 'Respiratory Etiquette',
         'Language Versions': 'Hindi',
@@ -39,7 +39,7 @@ export const videoData = [
     },
     {
         Title: 'Do Your Part. Wear a Mask.',
-        'Material Category': 'Prevention&Safety',
+        'Material Category': 'Prevention & Safety',
         'Source of content': 'CDC',
         'Key Message': '',
         'Language Versions': '',
@@ -76,7 +76,7 @@ export const videoData = [
     },
     {
         Title: 'Supporting your elders amidst a crisis',
-        'Material Category': 'Mental Health&Wellbeing',
+        'Material Category': 'Mental Health & Wellbeing',
         'Source of content': 'Inner Hour',
         'Key Message': 'How to make elders understand the crisis and ways to help them',
         'Language Versions': 'English',
@@ -94,7 +94,7 @@ export const videoData = [
     },
     {
         Title: 'What you can do to overcome loneliness',
-        'Material Category': 'Mental Health&Wellbeing',
+        'Material Category': 'Mental Health & Wellbeing',
         'Source of content': 'Inner Hour',
         'Key Message': 'Impacts of loneliness and tips to overcome it',
         'Language Versions': 'English',
@@ -121,7 +121,7 @@ export const videoData = [
     },
     {
         Title: 'Managing your anxiety during a crisis',
-        'Material Category': 'Mental Health&Wellbeing',
+        'Material Category': 'Mental Health & Wellbeing',
         'Source of content': 'Inner Hour',
         'Key Message':
             'Acknowledge your anxiety, stay informed and updated up to certain point, focus on things you can control',
@@ -131,7 +131,7 @@ export const videoData = [
     },
     {
         Title: 'Caring for the sick',
-        'Material Category': 'Treatment &Recovery',
+        'Material Category': 'Treatment & Recovery',
         'Source of content': 'Noora Health',
         'Key Message': 'Recovering from COVID19',
         'Language Versions': 'Hindi, Bengali, Kannada, Marathi, Oriya, Tamil, Punjabi',
@@ -141,7 +141,7 @@ export const videoData = [
     },
     {
         Title: 'How is a mask useful',
-        'Material Category': 'Prevention&Safety',
+        'Material Category': 'Prevention & Safety',
         'Source of content': 'Noora Health',
         'Key Message': 'Mask Tips',
         'Language Versions': 'Hindi, Kannada, Malayalam, Marathi, Oriya, Tamil, Punjabi, Urdu',
@@ -151,7 +151,7 @@ export const videoData = [
     },
     {
         Title: 'Social media and mental health',
-        'Material Category': 'Mental Health&Wellbeing',
+        'Material Category': 'Mental Health & Wellbeing',
         'Source of content': 'Inner Hour',
         'Key Message': '',
         'Language Versions': 'English',
