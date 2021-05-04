@@ -105,6 +105,7 @@ export default function DetailedHome({ state, district, type }) {
     };
 
     const handleChooseState = ({ target: { value } }) => {
+        changTabs('result');
         setStateChoosen(value);
         const newDistrict = statesWithDistricts[value][0];
         setDistrictChoosen(newDistrict);
@@ -114,6 +115,7 @@ export default function DetailedHome({ state, district, type }) {
     };
 
     const handleDistrictChange = ({ target: { value } }) => {
+        changeTabs('result');
         setDistrictChoosen(value);
         router.push(
             `/${parametreize(stateChoosen)}/${parametreize(value)}/${resourceChoosen.toLowerCase()}`
@@ -121,6 +123,7 @@ export default function DetailedHome({ state, district, type }) {
     };
 
     const handleResourceChange = ({ target: { value } }) => {
+        changeTabs('result');
         setResourceChoosen(value);
         router.push(
             `/${parametreize(stateChoosen)}/${parametreize(districtChoosen)}/${value.toLowerCase()}`
@@ -179,7 +182,7 @@ export default function DetailedHome({ state, district, type }) {
                                     searchStr={mapDistrictToCity(districtChoosen)}
                                     resources={resources[resourceChoosen]}
                                 />
-                            )}
+                           )}
                             {tabVal === 'twitter' && (
                                 <TwitterContainer searchStr={mapDistrictToCity(districtChoosen)} />
                             )}

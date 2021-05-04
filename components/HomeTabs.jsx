@@ -8,7 +8,7 @@ const HomeTabs = ({ tabVal, onChange }) => {
     return (
         <div className="dark:text-gray-200 mx-auto max-w-xs text-base flex font-bold justify-around my-6 cursor-pointer">
             <div
-                className={`w-3/6 flex justify-center items-center pb-2  ${(tabVal === 'result' || tabVal === "twitter_on_no_data") ? `border-b-2 border-gray-900 dark:border-gray-300` : ``
+                className={`w-3/6 flex justify-center items-center pb-2  ${(tabVal === 'result' ) ? `border-b-2 border-gray-900 dark:border-gray-300` : ``
                     }`}
                 onClick={() => onChange('result')}>
                 <FontAwesomeIcon
@@ -19,7 +19,7 @@ const HomeTabs = ({ tabVal, onChange }) => {
                 Results
             </div>
             <div
-                className={`w-3/6 flex justify-center items-center pb-2  ${tabVal === 'twitter' ? `border-b-2 border-gray-900 dark:border-gray-300` : ``
+                className={`w-3/6 flex justify-center items-center pb-2  ${(tabVal === 'twitter' || tabVal === "twitter_on_no_data") ? `border-b-2 border-gray-900 dark:border-gray-300` : ``
                     }`}
                 onClick={() => onChange('twitter')}>
                 <FontAwesomeIcon
