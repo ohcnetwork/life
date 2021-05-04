@@ -13,6 +13,7 @@ import hospitalCareCenterData from '@data/hospital_clinic_centre.json';
 import ambulanceData from '@data/ambulance.json';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
+import SearchField from '@components/search/SearchField';
 
 let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 
@@ -31,18 +32,24 @@ export default function Home() {
             name: t[tab.name.toLowerCase()]
         });
     });
+    const [isToShowSuggestion, setIsToShowSuggestion] = useState(false);
 
     const [selectedFilter, setSelectedFilter] = useState('all');
     return (
         <div>
             <section className="flex max-w-5xl mx-auto flex-col items-center mt-12">
-                <Logo width={100} />
-                <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">
-                    {t.title}
-                </h1>
-                <h2 className="mt-4 font-semibold text-xl text-gray-900 dark:text-gray-100 text-center">
-                    {t.description}
-                </h2>
+                {
+                    !isToShowSuggestion &&
+                    <>
+                        <Logo width={100} />
+                        <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">
+                            {t.title}
+                        </h1>
+                        <h2 className="mt-4 font-semibold text-xl text-gray-900 dark:text-gray-100 text-center">
+                            {t.description}
+                        </h2>
+                    </>
+                }
                 <div className="mt-4 ">
                     <Tabs
                         tabsInfo={tabsInfoNew}
@@ -51,12 +58,7 @@ export default function Home() {
                     />
                 </div>
                 <div className="w-full md:w-3/4 px-2">
-                    <Selector
-                        localeState={t.state}
-                        localeDistrict={t.district}
-                        placeholder={t.searchPlaceholder}
-                        page={selectedFilter}
-                    />
+                    <SearchField isFocus={isToShowSuggestion} onFocus={setIsToShowSuggestion} />
                 </div>
                 <div className="flex flex-wrap items-center  justify-evenly mt-6 ">
                     {selectedFilter === 'vaccine' ? (
@@ -138,7 +140,7 @@ export default function Home() {
                             hospitalCareCenterData.data.filter((value) =>
                                 value.verificationStatus
                                     ? value.verificationStatus.toLocaleLowerCase() ===
-                                      'available and verified'
+                                    'available and verified'
                                     : ''
                             ).length
                         }
@@ -148,8 +150,8 @@ export default function Home() {
                             ambulanceData.data.filter((value) =>
                                 value.verificationStatus
                                     ? value.verificationStatus
-                                          .toLocaleLowerCase()
-                                          .includes('verified')
+                                        .toLocaleLowerCase()
+                                        .includes('verified')
                                     : ''
                             ).length
                         }
