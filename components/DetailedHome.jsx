@@ -22,6 +22,7 @@ import districtMapCity from '@data/map_dis_to_city';
 import HomeSelector from '@components/HomeSelector';
 import HomeTabs from '@components/HomeTabs';
 import { useRouter } from 'next/router';
+import { isVerified } from '../lib/utils';
 
 export default function DetailedHome({ state, district, type }) {
     const { locale } = useLocaleContext();
@@ -60,7 +61,9 @@ export default function DetailedHome({ state, district, type }) {
                 .concat(this.Hospital)
                 .concat(this.Ambulance)
                 .concat(this.Helpline)
-                .concat(this.Vaccine);
+                .concat(this.Vaccine)
+                .sort(record => isVerified(record.verificationStatus) ? -1 : 1)
+                    
         },
         Oxygen: getOxygen(parametreize(stateChoosen), parametreize(districtChoosen), true),
         Medicine: medicineByDistrict(
@@ -160,6 +163,9 @@ export default function DetailedHome({ state, district, type }) {
                             )}
                             {tabVal === 'twitter' && (
                                 <TwitterContainer searchStr={mapDistrictToCity(districtChoosen)} />
+                            )}
+                            {tabVal === 'twitter_on_no_data' && (
+                                <TwitterContainer noRes noResText={districtChoosen} searchStr={mapDistrictToCity(districtChoosen)} />
                             )}
                         </div>
                     </>

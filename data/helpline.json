@@ -11770,6 +11770,25 @@
             "verifiedBy": "Covid FYI"
         },
         {
+            "category": [
+                "Covid19 Helpline"
+            ],
+            "comment": null,
+            "createdTime": "2021-05-02T12:23:22.000Z",
+            "description": "I verified it a 3PM today.",
+            "district": "Khordha",
+            "id": "recfF8K5k808rGyCl",
+            "lastVerifiedOn": null,
+            "name": "SUM Dedicated Hospital ",
+            "phone1": 8260500931,
+            "phone2": null,
+            "source": "Bhubaneswar greater municipality twitter handle",
+            "sourceUrl": null,
+            "state": "Odisha",
+            "verificationStatus": "Unresponsive",
+            "verifiedBy": null
+        },
+        {
             "category": null,
             "comment": null,
             "createdTime": "2021-04-19T07:48:08.000Z",
