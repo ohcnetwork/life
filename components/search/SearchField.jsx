@@ -1,0 +1,99 @@
+import React, { useState, createRef, useEffect } from "react";
+import { getSuggestedWord, getSuggestedList, isTrendingPlace } from "@lib/search";
+import TrendingIcon from "@components/icons/TrendingIcon";
+import { useRouter } from "next/router";
+import { parametreize } from "@lib/utils";
+
+const SearchField = ({ isFocus, onFocus }) => {
+    const [searchText, setSearchText] = useState("");
+    const searchFieldRef = createRef();
+    const suggestionText = getSuggestedWord(searchText);
+    const suggestedResults = getSuggestedList(searchText);
+    const [currentResult, setCurrentResult] = useState(-1);
+    const pageRouter = useRouter();
+
+
+    const handleSearchKeyDown = e => {
+        if (e.key === "Tab") {
+            e.preventDefault();
+            if (suggestionText.name) {
+                setSearchText(suggestionText.name);
+            }
+        } else if (e.key === "Escape") {
+            e.preventDefault();
+            searchFieldRef.current?.blur();
+        } else if (e.key === "Enter" && suggestionText) {
+            handleGotoResource(suggestionText)
+        }
+    };
+
+    const handleGotoResource = (result) => {
+        
+        const { name, type, state } = result;
+        if (type === "District") {
+            pageRouter.push(`/${parametreize(state)}/${parametreize(name)}`)
+        }
+        else if (type === "State") {
+            pageRouter.push(`/${parametreize(name)}/`)
+        }
+
+    }
+
+
+
+    return (
+        <div className="m-5">
+            <div className="my-2 relative w-full">
+                <input
+                    type="text"
+                    readOnly={true}
+                    className="p-4 pl-6 text-base md:text-xl placeholder-gray-400 rounded-xl outline-none w-full z-0"
+                    placeholder={suggestionText.displayText}
+                />
+                <input
+                    ref={searchFieldRef}
+                    onKeyDown={handleSearchKeyDown}
+                    onFocus={_ => onFocus(true)}
+                    onChange={({ target: { value } }) => setSearchText(value)}
+                    onBlur={_ => {
+                        setTimeout(() => {
+                            onFocus(false);
+                        }, 200)
+                    }}
+                    value={searchText}
+                    type="search"
+                    className="p-4 pl-6 text-base md:text-xl transition-shadow duration-300 ease-in-out shadow-sm hover:shadow-md focus:shadow-xl rounded-xl z-10 outline-none w-full absolute top-0 left-0 bg-transparent"
+                    placeholder="Search for Resources in States or Districts"
+                />
+            </div>
+            {isFocus && (
+                <div className="mt-8 px-2">
+                    <h2 className="text-gray-600 text-sm">
+                        {!suggestedResults.length
+                            ? "We couldn't find suggestions for you.. 💤"
+                            : "Suggestions ⚡"}
+                    </h2>
+                    <ul
+                        className="grid grid-cols-1 sm:grid-cols-2 justify-center pt-5">
+                        {suggestedResults.map(result => (
+                            <li onClick={(_) => handleGotoResource(result)} className="py-2 px-1 flex mt-1 bg-gray-50 hover:bg-gray-200 cursor-pointer rounded-lg items-center justify-between">
+                                <div className="flex items-center text-gray-500">
+                                    {isTrendingPlace(result.name) && (
+                                        <TrendingIcon className="h-5 w-5 text-red-600" />
+                                    )}
+                                    <span className="font-normal text-lg ml-1 text-gray-600">
+                                        {result.name}
+                                    </span>
+                                </div>
+                                <span className="font-semibold text-xs py-1 px-3 h-min rounded-full bg-gray-200 text-red-800">
+                                    {result.state || result.type}
+                                </span>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            )}
+        </div>
+    );
+};
+export default SearchField;
