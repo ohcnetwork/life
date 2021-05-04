@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import { Map, GoogleApiWrapper, InfoWindow, Marker } from "google-maps-react";
+import { fetchLocation } from '../lib/external';
 
+const defaultLocation = {
+  lat: "20.593684",
+  lng: "78.96288",
+}
+const defaultZoom = 5;
 
 export class MapContainer extends Component {
   state = {
@@ -9,21 +15,25 @@ export class MapContainer extends Component {
     activeMarker: {},
     selectedPlace: {},
     currentLocation: null,
+    zoom: defaultZoom,
   };
 
   componentDidMount() {
-    if ("geolocation" in navigator) {
-      const that = this;
-      navigator.geolocation.getCurrentPosition(function (position) {
-        that.setState({
-          currentLocation: {
-            lat: position.coords.latitude,
-            lng: position.coords.longitude,
-          },
+    if (this.props.district || this.props.state) {
+      fetchLocation(`${this.props.district} ${this.props.state}`).then((response) => {
+        if (response.data.results && response.data.results.length > 0) {
+          const result = response.data.results[0];
+          this.setState({
+            currentLocation: result.geometry.location || defaultLocation,
+            zoom: result.geometry.location ? 14 : defaultZoom
+          });
+        }
+      }).catch(() => {
+        this.setState({
+          currentLocation: defaultLocation,
+          zoom: defaultZoom
         });
-      });
-    } else {
-      console.log("Not Available");
+      })
     }
   }
 
@@ -49,7 +59,7 @@ export class MapContainer extends Component {
       this.state.currentLocation && (
         <Map
           google={this.props.google}
-          zoom={14}
+          zoom={this.state.zoom}
           style={{width: "100%", height: "80%"}}
           initialCenter={this.state.currentLocation}
         >
@@ -88,6 +98,8 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper((props) => ({
-  apiKey: "GOOGLE_API_KEY",
+  apiKey: process.env.NEXT_PUBLIC_GOOGLE_API_KEY,
   resources: props.resources,
+  districtChoosen: props.districtChoosen,
+  stateChoosen: props.stateChoosen,
 }))(MapContainer);
