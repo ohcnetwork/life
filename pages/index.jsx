@@ -1,13 +1,11 @@
 import Link from 'next/link';
 import { useState } from 'react';
-import { getStates } from '@lib/api';
-import { humanize, parametreize } from '@lib/utils';
+import { getAmbulances, getStates, hospitalByDistrict } from '@lib/api';
+import { humanize, isVerified, parametreize } from '@lib/utils';
 import Logo from '@components/Logo';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar, faMedkit, faBuilding } from '@fortawesome/free-solid-svg-icons';
-import hospitalCareCenterData from '@data/hospital_clinic_centre.json';
-import ambulanceData from '@data/ambulance.json';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 import SearchField from '@components/search/SearchField';
@@ -49,7 +47,7 @@ export default function Home() {
                         })
                     }
                 </div>
-                <div className="flex space-x-3">
+                <div className="flex flex-wrap justify-around space-x-3">
                     <a href="https://www.covid19india.org/">
                         <button
                             type="button"
@@ -94,28 +92,10 @@ export default function Home() {
                             title="Covid 19 Statistics"
                             icon={faMedkit}
                         />
-                        {t.totalHospitals} : {Object.keys(hospitalCareCenterData.data).length} ({' '}
-                        {t.verified} :
-                        {
-                            hospitalCareCenterData.data.filter((value) =>
-                                value.verificationStatus
-                                    ? value.verificationStatus.toLocaleLowerCase() ===
-                                    'available and verified'
-                                    : ''
-                            ).length
-                        }
-                        ) | {t.totalAmbulace} : {Object.keys(ambulanceData.data).length} ({' '}
-                        {t.verified} :
-                        {
-                            ambulanceData.data.filter((value) =>
-                                value.verificationStatus
-                                    ? value.verificationStatus
-                                        .toLocaleLowerCase()
-                                        .includes('verified')
-                                    : ''
-                            ).length
-                        }
-                        )
+                        <span>{t.totalHospitals} : {hospitalByDistrict().length}</span>
+                        <span className="mx-1"> ({t.verified}: {hospitalByDistrict().filter(e => isVerified(e.verification_status)).length}) </span>
+                        <span>| {t.totalAmbulace} : {getAmbulances().length}</span>
+                        <span className="mx-1"> ({t.verified}: {getAmbulances().filter(e => isVerified(e.verification_status)).length}) </span>
                     </div>
                 </div>
             </section>
