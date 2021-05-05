@@ -75,11 +75,11 @@ export default function Home() {
                         })
                     )}
                 </div>
-                <div className="flex space-x-3">
+                <div className="flex flex-col sm:flex-row items-center space-x-3 mt-6 mx-2">
                     <a href="https://www.covid19india.org/">
                         <button
                             type="button"
-                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-3">
                             <FontAwesomeIcon
                                 className="text-white-400 w-4 mr-4"
                                 title="Covid 19 Statistics"
@@ -91,7 +91,7 @@ export default function Home() {
                     <a href="https://charts.mongodb.com/charts-swasth-deman-data-aobsf/public/dashboards/608a951e-5a65-4419-843d-d193674b3673">
                         <button
                             type="button"
-                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-3">
                             <FontAwesomeIcon
                                 className="text-white-400 w-4 mr-4"
                                 title="Covid 19 Statistics"
@@ -103,7 +103,7 @@ export default function Home() {
                     <a href="https://docs.google.com/spreadsheets/d/1BEXdf68gxsYsp3Hsc0gUEPbH_wx0kSbu/edit#gid=438108583">
                         <button
                             type="button"
-                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
+                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-3">
                             <FontAwesomeIcon
                                 className="text-white-400 w-4 mr-4"
                                 title="FDA Officers Contact"
@@ -125,7 +125,7 @@ export default function Home() {
                         </button>
                     </a> */}
                 </div>
-                <div className="flex space-x-3">
+                <div className="mx-3 flex space-x-3">
                     <div className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white  mt-6">
                         <FontAwesomeIcon
                             className="text-white-400 w-4 mr-4"
@@ -138,7 +138,7 @@ export default function Home() {
                             hospitalCareCenterData.data.filter((value) =>
                                 value.verificationStatus
                                     ? value.verificationStatus.toLocaleLowerCase() ===
-                                      'available and verified'
+                                    'available and verified'
                                     : ''
                             ).length
                         }
@@ -148,8 +148,8 @@ export default function Home() {
                             ambulanceData.data.filter((value) =>
                                 value.verificationStatus
                                     ? value.verificationStatus
-                                          .toLocaleLowerCase()
-                                          .includes('verified')
+                                        .toLocaleLowerCase()
+                                        .includes('verified')
                                     : ''
                             ).length
                         }
