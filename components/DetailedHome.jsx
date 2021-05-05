@@ -86,7 +86,7 @@ export default function DetailedHome({ state, district, type }) {
     };
 
     const handleChooseState = ({ target: { value } }) => {
-        changTabs('result');
+        changeTabs('result');
         setStateChoosen(value);
         const newDistrict = statesWithDistricts[value][0];
         setDistrictChoosen(newDistrict);
