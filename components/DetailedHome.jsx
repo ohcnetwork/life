@@ -171,7 +171,11 @@ export default function DetailedHome({ state, district, type }) {
                 </section>
                 {resourceChoosen ? (
                     <>
-                        <HomeTabs tabVal={tabVal} onChange={changeTabs} />
+                        <HomeTabs
+                            resources={resources[resourceChoosen]}
+                            tabVal={tabVal}
+                            onChange={changeTabs}
+                        />
                         <div style={{ minHeight: '315px' }}>
                             {tabVal === 'result' && (
                                 <SearchResult
@@ -182,7 +186,7 @@ export default function DetailedHome({ state, district, type }) {
                                     searchStr={mapDistrictToCity(districtChoosen)}
                                     resources={resources[resourceChoosen]}
                                 />
-                           )}
+                            )}
                             {tabVal === 'twitter' && (
                                 <TwitterContainer searchStr={mapDistrictToCity(districtChoosen)} />
                             )}
