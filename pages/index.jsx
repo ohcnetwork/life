@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useState } from 'react';
-import { getStates } from '@lib/api';
+import { getStates, totalResources } from '@lib/api';
 import { humanize, parametreize } from '@lib/utils';
 import Tabs from '@components/Tabs';
 import Logo from '@components/Logo';
@@ -37,10 +37,10 @@ export default function Home() {
     const [selectedFilter, setSelectedFilter] = useState('all');
     return (
         <div>
-            <section className="flex max-w-5xl mx-auto flex-col items-center mt-12">
+            <section className="flex max-w-5xl mx-auto flex-col items-center mt-5">
                 {
                     !isToShowSuggestion &&
-                    <>
+                    <div className="mt-5 flex flex-col items-center">
                         <Logo width={100} />
                         <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">
                             {t.title}
@@ -48,14 +48,14 @@ export default function Home() {
                         <h2 className="mt-4 font-semibold text-xl text-gray-900 dark:text-gray-100 text-center">
                             {t.description}
                         </h2>
-                    </>
+                    </div>
                 }
                 <div className="mt-4 ">
-                    <Tabs
-                        tabsInfo={tabsInfoNew}
-                        selectedFilter={selectedFilter}
-                        updateFilterCB={(e) => updateFilter(setSelectedFilter, e)}
-                    />
+                    <span className="font-semibold">
+                        <span>Search over </span>
+                        {totalResources()}
+                        <span>+ resources!</span>
+                    </span>
                 </div>
                 <div className="w-full md:w-3/4 px-2">
                     <SearchField isFocus={isToShowSuggestion} onFocus={setIsToShowSuggestion} />

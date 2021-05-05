@@ -28,7 +28,7 @@ const SearchField = ({ isFocus, onFocus }) => {
     };
 
     const handleGotoResource = (result) => {
-        
+        setSearchText(result.name);
         const { name, type, state } = result;
         if (type === "District") {
             pageRouter.push(`/${parametreize(state)}/${parametreize(name)}`)
@@ -74,9 +74,11 @@ const SearchField = ({ isFocus, onFocus }) => {
                             : "Suggestions ⚡"}
                     </h2>
                     <ul
-                        className="grid grid-cols-1 sm:grid-cols-2 justify-center pt-5">
+                        className="grid grid-cols-1 gap-x-5 sm:grid-cols-2 justify-center pt-5">
                         {suggestedResults.map(result => (
-                            <li onClick={(_) => handleGotoResource(result)} className="py-2 px-1 flex mt-1 bg-gray-50 hover:bg-gray-200 cursor-pointer rounded-lg items-center justify-between">
+                            <li
+                                onClick={(_) => handleGotoResource(result)}
+                                className="py-2 px-1 flex mt-1 bg-gray-50 hover:bg-gray-200 cursor-pointer rounded-lg items-center justify-between">
                                 <div className="flex items-center text-gray-500">
                                     {isTrendingPlace(result.name) && (
                                         <TrendingIcon className="h-5 w-5 text-red-600" />
