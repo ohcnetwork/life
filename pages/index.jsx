@@ -1,12 +1,9 @@
 import Link from 'next/link';
 import { useState } from 'react';
-import { getStates, totalResources } from '@lib/api';
+import { getStates } from '@lib/api';
 import { humanize, parametreize } from '@lib/utils';
-import Tabs from '@components/Tabs';
 import Logo from '@components/Logo';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import Selector from '@components/Selector';
-import { tabsInfo } from '@lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar, faMedkit, faBuilding } from '@fortawesome/free-solid-svg-icons';
 import hospitalCareCenterData from '@data/hospital_clinic_centre.json';
@@ -16,26 +13,11 @@ import { useLocaleContext } from '@hooks/use-locale-context';
 import SearchField from '@components/search/SearchField';
 import SearchIntro from '@components/search/SearchIntro';
 
-let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
-
 export default function Home() {
     const { locale } = useLocaleContext();
     const t = useLocale(locale, 'home');
-
-    let tabsInfoNew = [];
-    tabsInfo.forEach((tab) => {
-        const { icon, link, color, value } = tab;
-        tabsInfoNew.push({
-            color,
-            link,
-            value,
-            icon,
-            name: t[tab.name.toLowerCase()]
-        });
-    });
     const [isToShowSuggestion, setIsToShowSuggestion] = useState(false);
 
-    const [selectedFilter, setSelectedFilter] = useState('all');
     return (
         <div>
             <section className="flex max-w-5xl mx-auto flex-col items-center mt-5">
@@ -55,12 +37,8 @@ export default function Home() {
                     <SearchField isFocus={isToShowSuggestion} onFocus={setIsToShowSuggestion} />
                 </div>
                 <div className="flex flex-wrap items-center  justify-evenly mt-6 ">
-                    {selectedFilter === 'vaccine' ? (
-                        <div className="inline-flex items-center px-4 py-3 border border-transparent shadow-sm text-lg leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white mb-4">
-                            Coming Soon!
-                        </div>
-                    ) : (
-                        getStates(selectedFilter).map((s) => {
+                    {
+                        getStates().map((s) => {
                             return (
                                 <Link key={s} href={`[state]`} as={`${parametreize(s)}`}>
                                     <span className="p-2 text-sm md:text-md font-normal cursor-pointer hover:text-gray-900 text-gray-600 dark:hover:text-gray-50 h-10">
@@ -69,7 +47,7 @@ export default function Home() {
                                 </Link>
                             );
                         })
-                    )}
+                    }
                 </div>
                 <div className="flex space-x-3">
                     <a href="https://www.covid19india.org/">
@@ -108,18 +86,6 @@ export default function Home() {
                             {t.fdaOfficerContact}
                         </button>
                     </a>
-                    {/* <a href="/oxygen_requirements">
-                        <button
-                            type="button"
-                            className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none mt-6">
-                            <FontAwesomeIcon
-                                className="text-white-400 w-4 mr-4"
-                                title="Covid 19 Statistics"
-                                icon={faMedkit}
-                            />
-                            {t.oxygenRequirements}
-                        </button>
-                    </a> */}
                 </div>
                 <div className="flex space-x-3">
                     <div className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white  mt-6">

@@ -1,4 +1,4 @@
-import React, { useState, createRef, useEffect } from "react";
+import React, { useState, createRef } from "react";
 import { getSuggestedWord, getSuggestedList, isTrendingPlace } from "@lib/search";
 import TrendingIcon from "@components/icons/TrendingIcon";
 import { useRouter } from "next/router";
@@ -10,7 +10,6 @@ const SearchField = ({ isFocus, onFocus }) => {
     const [searchText, setSearchText] = useState("");
     const suggestionText = getSuggestedWord(searchText);
     const suggestedResults = getSuggestedList(searchText);
-    const [currentResult, setCurrentResult] = useState(-1);
     const [isLoading, setIsLoading] = useState(false);
     const searchFieldRef = createRef();
     const pageRouter = useRouter();
