@@ -11,6 +11,9 @@ module.exports = {
     darkMode: 'class',
     theme: {
         extend: {
+            transitionProperty: {
+                'height': 'height'
+            },
             screens: {
                 xs: '520px',
                 ...defaultTheme.screens
