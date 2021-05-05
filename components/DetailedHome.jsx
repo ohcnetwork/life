@@ -39,13 +39,25 @@ export default function DetailedHome({ state, district, type }) {
 
     const [stateChoosen, setStateChoosen] = useState(state || states[0]);
 
-    const districts = statesWithDistricts[stateChoosen];
+    const districts = ["All"].concat(statesWithDistricts[stateChoosen]);
     district = districts.find((e) => e.toLowerCase() === district?.toLowerCase()) || '';
 
-    const [districtChoosen, setDistrictChoosen] = useState(district || districts[0]);
+    const [districtChoosen, setDistrictChoosen] = useState(district || "All");
 
-    const generatePageURL = (_state, _district, _resource) =>
-        `/${parametreize(_state)}/${parametreize(_district)}/${parametreize(_resource)}`;
+    const generatePageURL = (_state, _district, _resource) => {
+        if (_district === "All") {
+            return `/${parametreize(_state)}`
+        }
+        if (_resource === "All")
+            return `/${parametreize(_state)}/${parametreize(_district)}`;
+
+        return `/${parametreize(_state)}/${parametreize(_district)}/${parametreize(_resource)}`;
+    }
+
+    const getStateIfDistrictAll = (_state, _district) => {
+        if (_district === "All") return _state;
+        return _district
+    }
 
     const mapDistrictToCity = (s) => {
         // checks if it exists maps "North Delhi" -> "Delhi"
@@ -84,33 +96,45 @@ export default function DetailedHome({ state, district, type }) {
                 .concat(this.Vaccine)
                 .sort((record) => (isVerified(record.verification_status) ? -1 : 1));
         },
-        Oxygen: getOxygen(parametreize(stateChoosen), parametreize(districtChoosen), true),
+        Oxygen: getOxygen(
+            parametreize(state),
+            parametreize(district),
+            true
+        ),
         Medicine: medicineByDistrict(
-            parametreize(stateChoosen),
-            parametreize(districtChoosen),
+            parametreize(state),
+            parametreize(district),
             true
         ),
         Hospital: hospitalByDistrict(
-            parametreize(stateChoosen),
-            parametreize(districtChoosen),
+            parametreize(state),
+            parametreize(district),
             true
         ),
-        Ambulance: getAmbulances(parametreize(stateChoosen), parametreize(districtChoosen), true),
+        Ambulance: getAmbulances(
+            parametreize(state),
+            parametreize(district),
+            true
+        ),
         Helpline: helplineByDistrict(
-            parametreize(stateChoosen),
-            parametreize(districtChoosen),
+            parametreize(state),
+            parametreize(district),
             true
         ),
-        Vaccine: getVaccine(parametreize(stateChoosen), parametreize(districtChoosen), true)
+        Vaccine: getVaccine(
+            parametreize(state),
+            parametreize(district),
+            true
+        )
     };
 
     const handleChooseState = ({ target: { value } }) => {
         changeTabs('result');
         setStateChoosen(value);
-        const newDistrict = statesWithDistricts[value][0];
+        const newDistrict = "All";
         setDistrictChoosen(newDistrict);
         router.push(
-            `/${parametreize(value)}/${parametreize(newDistrict)}/${resourceChoosen.toLowerCase()}`
+            generatePageURL(value, newDistrict, resourceChoosen)
         );
     };
 
@@ -118,7 +142,7 @@ export default function DetailedHome({ state, district, type }) {
         changeTabs('result');
         setDistrictChoosen(value);
         router.push(
-            `/${parametreize(stateChoosen)}/${parametreize(value)}/${resourceChoosen.toLowerCase()}`
+            generatePageURL(stateChoosen, value, resourceChoosen)
         );
     };
 
@@ -126,7 +150,7 @@ export default function DetailedHome({ state, district, type }) {
         changeTabs('result');
         setResourceChoosen(value);
         router.push(
-            `/${parametreize(stateChoosen)}/${parametreize(districtChoosen)}/${value.toLowerCase()}`
+            generatePageURL(stateChoosen, districtChoosen, value)
         );
     };
 
@@ -171,33 +195,34 @@ export default function DetailedHome({ state, district, type }) {
                 </section>
                 {resourceChoosen ? (
                     <>
-                        <HomeTabs tabVal={tabVal} onChange={changeTabs} />
+                        <HomeTabs tabVal={tabVal} onChange={changeTabs} resources={resources[resourceChoosen]} />
                         <div style={{ minHeight: '315px' }}>
                             {tabVal === 'result' && (
                                 <SearchResult
                                     changeTabs={changeTabs}
                                     type={resourceChoosen}
                                     district={districtChoosen}
-                                    state={stateChoosen}
-                                    searchStr={mapDistrictToCity(districtChoosen)}
                                     resources={resources[resourceChoosen]}
                                 />
-                           )}
+                            )}
                             {tabVal === 'twitter' && (
-                                <TwitterContainer searchStr={mapDistrictToCity(districtChoosen)} />
+                                <TwitterContainer
+                                    searchStr={mapDistrictToCity(getStateIfDistrictAll(stateChoosen, districtChoosen))}
+                                />
                             )}
                             {tabVal === 'maps' && (
                                 <MapContainer
+                                    resourceChoosen={resourceChoosen}
                                     resources={locationResources[resourceChoosen]}
-                                    district={districtChoosen}
+                                    district={getStateIfDistrictAll(stateChoosen, districtChoosen)}
                                     state={stateChoosen}
                                 />
                             )}
                             {tabVal === 'twitter_on_no_data' && (
                                 <TwitterContainer
                                     noRes
-                                    noResText={districtChoosen}
-                                    searchStr={mapDistrictToCity(districtChoosen)}
+                                    noResText={getStateIfDistrictAll(stateChoosen, districtChoosen)}
+                                    searchStr={mapDistrictToCity(getStateIfDistrictAll(stateChoosen, districtChoosen))}
                                 />
                             )}
                         </div>
