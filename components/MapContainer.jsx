@@ -112,7 +112,7 @@ export class MapContainer extends Component {
           <Marker
             position={this.state.centerLocation}
             onClick={this.onMarkerClick}
-            name={'Current Location'}
+            name={'Searched Location'}
             currentLocation={true}
           />
           {this.props.resources.map((resource) => {
@@ -175,11 +175,11 @@ export class MapContainer extends Component {
                       icon={faDirections}
                       className="w-2 h-2 dark:text-primary-500"
                     />
-                    <span className="text-xs ml-2">Open in Map</span>
+                    <span className="text-xs ml-2">Directions</span>
                   </button>
                   {this.state.selectedPlace.distance && (
                     <p>
-                      Approx. Distance: +-{this.state.selectedPlace.distance}
+                      Approx. Distance: {this.state.selectedPlace.distance}
                       Kms from your location
                     </p>
                   )}
