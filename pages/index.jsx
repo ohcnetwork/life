@@ -38,22 +38,21 @@ export default function Home() {
     return (
         <div>
             <section className="flex max-w-5xl mx-auto flex-col items-center mt-5">
-                {
-                    !isToShowSuggestion &&
-                    <div className="mt-5 flex flex-col items-center">
-                        <Logo width={100} />
-                        <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">
-                            {t.title}
-                        </h1>
-                        <h2 className="mt-4 font-semibold text-xl text-gray-900 dark:text-gray-100 text-center">
-                            {t.description}
-                        </h2>
-                    </div>
-                }
-                <div className="mt-4 ">
-                    <span className="font-semibold">
+                <div className={"mt-5 flex flex-col items-center transition-height duration-300 " + (isToShowSuggestion ? "h-0 w-0 overflow-hidden" : "h-40")}>
+                    <Logo width={100} />
+                    <h1 className="mt-1 font-black text-6xl text-gray-900 dark:text-gray-100">
+                        {t.title}
+                    </h1>
+                    <h2 className="mt-4 font-semibold text-xl text-gray-900 dark:text-gray-100 text-center">
+                        {t.description}
+                    </h2>
+                </div>
+                <div className="mt-4">
+                    <span className="font-semibold dark:text-gray-300">
                         <span>Search over </span>
-                        {totalResources()}
+                        <span className="font-bold">
+                            {totalResources()}
+                        </span>
                         <span>+ resources!</span>
                     </span>
                 </div>

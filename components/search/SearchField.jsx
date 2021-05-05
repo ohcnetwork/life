@@ -3,13 +3,16 @@ import { getSuggestedWord, getSuggestedList, isTrendingPlace } from "@lib/search
 import TrendingIcon from "@components/icons/TrendingIcon";
 import { useRouter } from "next/router";
 import { parametreize } from "@lib/utils";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCog, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 const SearchField = ({ isFocus, onFocus }) => {
     const [searchText, setSearchText] = useState("");
-    const searchFieldRef = createRef();
     const suggestionText = getSuggestedWord(searchText);
     const suggestedResults = getSuggestedList(searchText);
     const [currentResult, setCurrentResult] = useState(-1);
+    const [isLoading, setIsLoading] = useState(false);
+    const searchFieldRef = createRef();
     const pageRouter = useRouter();
 
 
@@ -28,6 +31,7 @@ const SearchField = ({ isFocus, onFocus }) => {
     };
 
     const handleGotoResource = (result) => {
+        setIsLoading(true);
         setSearchText(result.name);
         const { name, type, state } = result;
         if (type === "District") {
@@ -43,14 +47,15 @@ const SearchField = ({ isFocus, onFocus }) => {
 
     return (
         <div className="m-5">
-            <div className="my-2 relative w-full">
+            <div className={"my-2 relative w-full " + (isLoading && "animate-pulse")} >
                 <input
                     type="text"
                     readOnly={true}
-                    className="p-4 pl-6 text-base md:text-xl placeholder-gray-400 rounded-xl outline-none w-full z-0"
+                    className="p-4 pl-6 text-base bg-white dark:bg-gray-1000 md:text-xl placeholder-gray-600 rounded-xl outline-none w-full z-0"
                     placeholder={suggestionText.displayText}
                 />
                 <input
+                    disabled={isLoading}
                     ref={searchFieldRef}
                     onKeyDown={handleSearchKeyDown}
                     onFocus={_ => onFocus(true)}
@@ -61,10 +66,24 @@ const SearchField = ({ isFocus, onFocus }) => {
                         }, 200)
                     }}
                     value={searchText}
-                    type="search"
-                    className="p-4 pl-6 text-base md:text-xl transition-shadow duration-300 ease-in-out shadow-sm hover:shadow-md focus:shadow-xl rounded-xl z-10 outline-none w-full absolute top-0 left-0 bg-transparent"
+                    type="text"
+                    className="p-4 pl-6 text-base md:text-xl transition-shadow duration-300 ease-in-out shadow-md hover:shadow-lg focus:shadow-xl placeholder-gray-600 dark:text-white rounded-xl z-10 outline-none w-full absolute top-0 left-0 bg-transparent"
                     placeholder="Search for Resources in States or Districts"
                 />
+                {/* I am using Custom Close Icon instead of input[type='search'] to use dark style */}
+                {
+                    (searchText && !isLoading) &&
+                    <span className="absolute top-0 right-0 z-20 m-4 md:m-5" onClick={(_) => setSearchText("")}>
+                        <FontAwesomeIcon icon={faTimes} className="w-3 h-3 dark:text-primary-400 text-secondary-600" />
+                    </span>
+                }
+                {/* Loading Icon when the user makes use of suggestions */}
+                {
+                    isLoading &&
+                    <span className="absolute top-0 right-0 z-20 m-4 md:m-5" onClick={(_) => setSearchText("")}>
+                        <FontAwesomeIcon icon={faCog} className="w-3 h-3 dark:text-primary-400 text-secondary-600" spin />
+                    </span>
+                }
             </div>
             {isFocus && (
                 <div className="mt-8 px-2">
@@ -74,20 +93,21 @@ const SearchField = ({ isFocus, onFocus }) => {
                             : "Suggestions ⚡"}
                     </h2>
                     <ul
-                        className="grid grid-cols-1 gap-x-5 sm:grid-cols-2 justify-center pt-5">
-                        {suggestedResults.map(result => (
+                        className="grid grid-cols-1 gap-1 sm:grid-cols-2 justify-center pt-5">
+                        {suggestedResults.map((result, id) => (
                             <li
+                                key={`${result.name}${id}`}
                                 onClick={(_) => handleGotoResource(result)}
-                                className="py-2 px-1 flex mt-1 bg-gray-50 hover:bg-gray-200 cursor-pointer rounded-lg items-center justify-between">
+                                className="py-2 px-1 flex mt-1 bg-gray-50 dark:bg-gray-1200 hover:bg-gray-200 dark:hover:bg-gray-1000 cursor-pointer rounded-lg items-center justify-between">
                                 <div className="flex items-center text-gray-500">
                                     {isTrendingPlace(result.name) && (
                                         <TrendingIcon className="h-5 w-5 text-red-600" />
                                     )}
-                                    <span className="font-normal text-lg ml-1 text-gray-600">
+                                    <span className="font-normal text-lg ml-1 text-gray-600 dark:text-gray-400">
                                         {result.name}
                                     </span>
                                 </div>
-                                <span className="font-semibold text-xs py-1 px-3 h-min rounded-full bg-gray-200 text-red-800">
+                                <span className="font-semibold text-xs py-1 px-3 h-min rounded-full bg-gray-200 dark:bg-gray-1000 text-red-800 dark:text-red-300">
                                     {result.state || result.type}
                                 </span>
                             </li>
