@@ -171,7 +171,7 @@ export default function DetailedHome({ state, district, type }) {
                 </section>
                 {resourceChoosen ? (
                     <>
-                        <HomeTabs tabVal={tabVal} onChange={changeTabs} />
+                        <HomeTabs tabVal={tabVal} onChange={changeTabs} resources={resources[resourceChoosen]} />
                         <div style={{ minHeight: '315px' }}>
                             {tabVal === 'result' && (
                                 <SearchResult
