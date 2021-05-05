@@ -162,10 +162,10 @@ export default function DetailedHome({ state, district, type }) {
                                 />
                             )}
                             {tabVal === 'twitter' && (
-                                <TwitterContainer searchStr={mapDistrictToCity(districtChoosen)} />
+                                <TwitterContainer searchStr={mapDistrictToCity(districtChoosen)} resourceType={resourceChoosen} />
                             )}
                             {tabVal === 'twitter_on_no_data' && (
-                                <TwitterContainer noRes noResText={districtChoosen} searchStr={mapDistrictToCity(districtChoosen)} />
+                                <TwitterContainer noRes noResText={districtChoosen} searchStr={mapDistrictToCity(districtChoosen)} resourceType={resourceChoosen} />
                             )}
                         </div>
                     </>

@@ -1,9 +1,9 @@
 import React from 'react';
 import TwitterResultCard from '@components/TwitterResult';
-import { useFetch } from '@components/Selector'
+import useFetch from '@hooks/use-fetch';
 
-const Selector = ({ searchStr, noRes, noResText }) => {
-    const [covidConnectResults, loading] = useFetch(searchStr);
+const Selector = ({ searchStr, resourceType, noRes, noResText }) => {
+    const [covidConnectResults, loading] = useFetch({ city: searchStr, materialType: resourceType });
 
     return (
         <div className="mb-2 h-full shadow-lg max-w-3xl mx-auto">
