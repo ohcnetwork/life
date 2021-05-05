@@ -75,7 +75,7 @@ const SearchField = ({ isFocus, onFocus }) => {
                 {
                     !searchText &&
                     <div className="text-xs ml-1 mt-2 text-gray-500 dark:text-gray-600 flex items-center">
-                        <PulseIcon width={15} height={15} stroke="indigo" />
+                        <PulseIcon width={15} height={15} className="stroke-current text-indigo-700 dark:text-gray-300" />
                         <span className="ml-2">Type a city name to see Real Time Tweets Below </span>
                     </div>
                 }
