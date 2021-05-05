@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SocialSharing from '@components/SocialSharing';
 import {
@@ -49,6 +49,12 @@ const ResourceCard = ({ data, type: filterType }) => {
     );
 
     const category = `${type}` + (resource_type ? ` - ${resource_type}` : '');
+
+    const [showCaptcha, setShow] = useState(false);
+
+    const displayCaptcha = (val) => {
+        setShow(val);
+    };
 
     return (
         <div
@@ -210,7 +216,13 @@ const ResourceCard = ({ data, type: filterType }) => {
                     </span>
                 </span>
                 <div className="flex items-center mx-1 mt-2 xs:my-0 xs:space-x-2">
-                    <FeedbackCounter externalId={id} upvotes={upvotes} downvotes={downvotes} />
+                    <FeedbackCounter
+                        externalId={id}
+                        upvotes={upvotes}
+                        downvotes={downvotes}
+                        showCaptcha={showCaptcha}
+                        displayCaptcha={(val) => displayCaptcha(val)}
+                    />
                 </div>
             </div>
         </div>

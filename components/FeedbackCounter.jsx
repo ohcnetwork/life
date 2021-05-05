@@ -7,26 +7,18 @@ const checkIfPresentInLocalStorage = (key) => {
     return localStorage.getItem(key) !== null;
 };
 
-const FeedbackCounter = ({ externalId, upvotes, downvotes }) => {
+const FeedbackCounter = ({ externalId, upvotes, downvotes, showCaptcha, displayCaptcha }) => {
     const [upvoteCount, setUpvoteCount] = useState(upvotes);
     const [downvoteCount, setDownvoteCount] = useState(downvotes);
-    const [isCaptchaEnabled, setCaptcha] = useState(false);
-    const [showCaptcha, setShow] = useState(false);
-    const [token, setToken] = useState('');
 
     // public key!
     const captchaKey = '6LdvxuQUAAAAADDWVflgBqyHGfq-xmvNJaToM0pN';
 
-    useEffect(async () => {
-        console.log(token);
-        // TODO: Local Storage Check Here
-    }, [token]);
-
     const handleChange = async (vote) => {
-        if (!isCaptchaEnabled) {
-            setShow(true);
+        if (!checkIfPresentInLocalStorage('gre-captcha')) {
+            displayCaptcha(true);
         }
-        if (!checkIfPresentInLocalStorage(`${vote}`)) {
+        if (!checkIfPresentInLocalStorage(`${externalId}`)) {
             // TODO: Fetch Call Here
             try {
                 const res = await fetch(
@@ -36,29 +28,29 @@ const FeedbackCounter = ({ externalId, upvotes, downvotes }) => {
                         headers: {
                             'Content-Type': 'application/json'
                         },
-                        body: JSON.stringify(token)
+                        body: JSON.stringify({
+                            'g-recaptcha-response': localStorage.getItem('gre-captcha')
+                        })
                     }
                 );
                 if (res.ok) {
-                    localStorage.setItem(`${vote}`, true);
+                    localStorage.setItem(`${externalId}`, true);
                     vote === 'upvote'
                         ? setUpvoteCount((prev) => prev + 1)
                         : setDownvoteCount((prev) => prev + 1);
                 }
             } catch (err) {
-                console.error(err);
+                displayCaptcha(true);
             }
         } else {
-            console.log('did');
+            alert('You Already voted');
         }
     };
 
     const onCaptchaChange = (value) => {
-        setCaptcha(true);
-        setShow(false);
-        setToken({
-            'g-recaptcha-response': value
-        });
+        localStorage.setItem('captcha', true);
+        localStorage.setItem('gre-captcha', value);
+        displayCaptcha(false);
     };
 
     return (
