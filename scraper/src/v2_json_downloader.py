@@ -52,6 +52,8 @@ list_of_life_files = {
     "medicine": {"url": "https://life_data.coronasafe.network/medicine.json"},
     "helpline": {"url": "https://life_data.coronasafe.network/helpline.json"},
     "ambulance": {"url": "https://life_data.coronasafe.network/ambulance.json"},
+    "food": {"url": "https://life_data.coronasafe.network/food.json"},
+
 }
 
 for life_file_key in list_of_life_files:
