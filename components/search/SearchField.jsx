@@ -1,10 +1,13 @@
 import React, { useState, createRef } from "react";
 import { getSuggestedWord, getSuggestedList, isTrendingPlace } from "@lib/search";
+import TwitterContainer from '@components/TwitterContainer';
 import TrendingIcon from "@components/icons/TrendingIcon";
+import PulseIcon from "@components/icons/PulseIcon";
 import { useRouter } from "next/router";
 import { parametreize } from "@lib/utils";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCog, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const SearchField = ({ isFocus, onFocus }) => {
     const [searchText, setSearchText] = useState("");
@@ -69,6 +72,13 @@ const SearchField = ({ isFocus, onFocus }) => {
                     className="p-4 pl-6 text-base md:text-xl transition-shadow duration-300 ease-in-out shadow-md hover:shadow-lg focus:shadow-xl placeholder-gray-600 dark:text-white rounded-xl z-10 outline-none w-full absolute top-0 left-0 bg-transparent"
                     placeholder="Search for Resources in States or Districts"
                 />
+                {
+                    !searchText &&
+                    <div className="text-xs ml-1 mt-2 text-gray-500 dark:text-gray-600 flex items-center">
+                        <PulseIcon width={15} height={15} stroke="indigo" />
+                        <span className="ml-2">Type a city name to see Real Time Tweets Below </span>
+                    </div>
+                }
                 {/* I am using Custom Close Icon instead of input[type='search'] to use dark style */}
                 {
                     (searchText && !isLoading) &&
@@ -92,7 +102,7 @@ const SearchField = ({ isFocus, onFocus }) => {
                             : "Suggestions ⚡"}
                     </h2>
                     <ul
-                        className="grid grid-cols-1 gap-1 sm:grid-cols-2 justify-center pt-5">
+                        className="grid grid-cols-1 gap-1 sm:grid-cols-2 justify-center pt-3">
                         {suggestedResults.map((result, id) => (
                             <li
                                 key={`${result.name}${id}`}
@@ -112,6 +122,19 @@ const SearchField = ({ isFocus, onFocus }) => {
                             </li>
                         ))}
                     </ul>
+                    {
+                        searchText && (
+                            <div className="mt-5">
+                                <h2 className="text-gray-600 text-sm mb-3">
+                                    <span>Showing some results from </span>
+                                    <FontAwesomeIcon icon={faTwitter} className="w-3 mr-1 text-secondary-600 dark:text-secondary-200" />
+                                    <span className="text-secondary-600 dark:text-secondary-200">Twitter</span>
+                                </h2>
+                                <TwitterContainer searchStr={searchText} />
+                            </div>
+                        )
+                    }
+
                 </div>
             )}
         </div>
