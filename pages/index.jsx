@@ -9,8 +9,10 @@ import Selector from '@components/Selector';
 import { tabsInfo } from '@lib/tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar, faMedkit, faBuilding } from '@fortawesome/free-solid-svg-icons';
-import hospitalCareCenterData from '@data/hospital_clinic_centre.json';
-import ambulanceData from '@data/ambulance.json';
+import hospitalCareCenterData from '@data/hospital_v2.json';
+import verifiedHospitalCareCenterData from '@data/hospital_clinic_centre_verified.json';
+import ambulanceData from '@data/ambulance_v2.json';
+import verifiedAmbulanceData from '@data/ambulance_verified.json';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 
@@ -132,28 +134,10 @@ export default function Home() {
                             title="Covid 19 Statistics"
                             icon={faMedkit}
                         />
-                        {t.totalHospitals} : {Object.keys(hospitalCareCenterData.data).length} ({' '}
-                        {t.verified} :
-                        {
-                            hospitalCareCenterData.data.filter((value) =>
-                                value.verificationStatus
-                                    ? value.verificationStatus.toLocaleLowerCase() ===
-                                    'available and verified'
-                                    : ''
-                            ).length
-                        }
-                        ) | {t.totalAmbulace} : {Object.keys(ambulanceData.data).length} ({' '}
-                        {t.verified} :
-                        {
-                            ambulanceData.data.filter((value) =>
-                                value.verificationStatus
-                                    ? value.verificationStatus
-                                        .toLocaleLowerCase()
-                                        .includes('verified')
-                                    : ''
-                            ).length
-                        }
-                        )
+                        {t.totalHospitals} : {hospitalCareCenterData.data.length} ( {t.verified} :
+                        {verifiedHospitalCareCenterData.data.length}) | {t.totalAmbulace} :{' '}
+                        {ambulanceData.data.length} ( {t.verified} :
+                        {verifiedAmbulanceData.data.length})
                     </div>
                 </div>
             </section>
