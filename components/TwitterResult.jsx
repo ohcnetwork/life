@@ -1,5 +1,5 @@
 import TimeAgo from 'timeago-react';
-import PulseIcon from '@components/PulseSvg';
+import PulseIcon from '@components/icons/PulseIcon';
 import NoResultFound from './NoResultFound';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

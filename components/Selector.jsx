@@ -8,7 +8,7 @@ import TwitterResultCard from '@components/TwitterResult';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import PulseSvg from '@components/PulseSvg';
+import PulseSvg from '@components/icons/PulseIcon';
 
 function useFetch(searchStr, resourceType = 'supply', maxResults = 25) {
     const url = `https://covidconnect.vercel.app/api/1.1/data?city=${searchStr}&resource_type=${resourceType}&max_results=${maxResults}`;
