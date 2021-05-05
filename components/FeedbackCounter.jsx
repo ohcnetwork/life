@@ -10,7 +10,8 @@ const checkIfPresentInLocalStorage = (key) => {
 const FeedbackCounter = ({ externalId, upvotes, downvotes }) => {
     const [upvoteCount, setUpvoteCount] = useState(upvotes);
     const [downvoteCount, setDownvoteCount] = useState(downvotes);
-    const [isCaptchaEnabled, setCaptcha] = useState(true);
+    const [isCaptchaEnabled, setCaptcha] = useState(false);
+    const [showCaptcha, setShow] = useState(false);
     const [token, setToken] = useState('');
 
     // public key!
@@ -22,6 +23,9 @@ const FeedbackCounter = ({ externalId, upvotes, downvotes }) => {
     }, [token]);
 
     const handleChange = async (vote) => {
+        if (!isCaptchaEnabled) {
+            setShow(true);
+        }
         if (!checkIfPresentInLocalStorage(`${vote}`)) {
             // TODO: Fetch Call Here
             try {
@@ -50,6 +54,8 @@ const FeedbackCounter = ({ externalId, upvotes, downvotes }) => {
     };
 
     const onCaptchaChange = (value) => {
+        setCaptcha(true);
+        setShow(false);
         setToken({
             'g-recaptcha-response': value
         });
@@ -57,19 +63,19 @@ const FeedbackCounter = ({ externalId, upvotes, downvotes }) => {
 
     return (
         <>
-            {isCaptchaEnabled && (
+            {showCaptcha && (
                 <div>
                     <ReCaptcha sitekey={captchaKey} onChange={onCaptchaChange} />
                 </div>
             )}
             <button
-                onClick={handleChange('upvote')}
+                onClick={() => handleChange('upvote')}
                 className="px-2 py-1 md:px-3 md:py-2 mr-2 rounded-full cursor-pointer flex items-center bg-gray-100 dark:bg-gray-900 dark:text-gray-200">
                 <FontAwesomeIcon icon={faThumbsUp} className="w-2 h-2 dark:text-primary-500" />
                 <span className="text-xs ml-2">{upvoteCount}</span>
             </button>
             <button
-                onClick={handleChange('downvote')}
+                onClick={() => handleChange('downvote')}
                 className="px-2 py-1 md:px-3 md:py-2 rounded-full cursor-pointer flex items-center bg-gray-100 dark:bg-gray-900 dark:text-gray-200">
                 <FontAwesomeIcon icon={faThumbsDown} className="w-2 h-2 dark:text-primary-500" />
                 <span className="text-xs ml-2">{downvoteCount}</span>
