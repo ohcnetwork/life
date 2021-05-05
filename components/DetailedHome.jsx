@@ -188,6 +188,7 @@ export default function DetailedHome({ state, district, type }) {
                             )}
                             {tabVal === 'maps' && (
                                 <MapContainer
+                                    resourceChoosen={resourceChoosen}
                                     resources={locationResources[resourceChoosen]}
                                     district={districtChoosen}
                                     state={stateChoosen}
