@@ -27,7 +27,7 @@ const SearchField = ({ isFocus, onFocus }) => {
         } else if (e.key === "Escape") {
             e.preventDefault();
             searchFieldRef.current?.blur();
-        } else if (e.key === "Enter" && suggestionText) {
+        } else if (e.key === "Enter" && suggestionText?.name) {
             handleGotoResource(suggestionText)
         }
     };
