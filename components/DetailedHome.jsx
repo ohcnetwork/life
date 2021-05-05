@@ -23,6 +23,7 @@ import HomeSelector from '@components/HomeSelector';
 import HomeTabs from '@components/HomeTabs';
 import { useRouter } from 'next/router';
 import { isVerified } from '../lib/utils';
+import MapContainer from './MapContainer';
 
 export default function DetailedHome({ state, district, type }) {
     const { locale } = useLocaleContext();
@@ -53,6 +54,25 @@ export default function DetailedHome({ state, district, type }) {
 
     const [resourceChoosen, setResourceChoosen] = useState(type || 'All');
 
+    const locationResources = {
+        get All() {
+            return []
+                .concat(this.Oxygen)
+                .concat(this.Medicine)
+                .concat(this.Hospital)
+                .concat(this.Ambulance)
+                .concat(this.Helpline)
+                .concat(this.Vaccine)
+                .sort((record) => (isVerified(record.verification_status) ? -1 : 1));
+        },
+        Oxygen: getOxygen(null, null, true, true),
+        Medicine: medicineByDistrict(null, null, true, true),
+        Hospital: hospitalByDistrict(null, null, true, true),
+        Ambulance: getAmbulances(null, null, true, true),
+        Helpline: helplineByDistrict(null, null, true, true),
+        Vaccine: getVaccine(null, null, true, true)
+    };
+
     const resources = {
         get All() {
             return []
@@ -62,8 +82,7 @@ export default function DetailedHome({ state, district, type }) {
                 .concat(this.Ambulance)
                 .concat(this.Helpline)
                 .concat(this.Vaccine)
-                .sort(record => isVerified(record.verificationStatus) ? -1 : 1)
-                    
+                .sort((record) => (isVerified(record.verification_status) ? -1 : 1));
         },
         Oxygen: getOxygen(parametreize(stateChoosen), parametreize(districtChoosen), true),
         Medicine: medicineByDistrict(
@@ -86,6 +105,7 @@ export default function DetailedHome({ state, district, type }) {
     };
 
     const handleChooseState = ({ target: { value } }) => {
+        changTabs('result');
         setStateChoosen(value);
         const newDistrict = statesWithDistricts[value][0];
         setDistrictChoosen(newDistrict);
@@ -95,6 +115,7 @@ export default function DetailedHome({ state, district, type }) {
     };
 
     const handleDistrictChange = ({ target: { value } }) => {
+        changeTabs('result');
         setDistrictChoosen(value);
         router.push(
             `/${parametreize(stateChoosen)}/${parametreize(value)}/${resourceChoosen.toLowerCase()}`
@@ -102,6 +123,7 @@ export default function DetailedHome({ state, district, type }) {
     };
 
     const handleResourceChange = ({ target: { value } }) => {
+        changeTabs('result');
         setResourceChoosen(value);
         router.push(
             `/${parametreize(stateChoosen)}/${parametreize(districtChoosen)}/${value.toLowerCase()}`
@@ -160,12 +182,24 @@ export default function DetailedHome({ state, district, type }) {
                                     searchStr={mapDistrictToCity(districtChoosen)}
                                     resources={resources[resourceChoosen]}
                                 />
-                            )}
+                           )}
                             {tabVal === 'twitter' && (
                                 <TwitterContainer searchStr={mapDistrictToCity(districtChoosen)} resourceType={resourceChoosen} />
                             )}
+                            {tabVal === 'maps' && (
+                                <MapContainer
+                                    resources={locationResources[resourceChoosen]}
+                                    district={districtChoosen}
+                                    state={stateChoosen}
+                                />
+                            )}
                             {tabVal === 'twitter_on_no_data' && (
-                                <TwitterContainer noRes noResText={districtChoosen} searchStr={mapDistrictToCity(districtChoosen)} resourceType={resourceChoosen} />
+                                <TwitterContainer
+                                    noRes
+                                    noResText={districtChoosen}
+                                    searchStr={mapDistrictToCity(districtChoosen)}
+                                    resourceType={resourceChoosen}
+                                />
                             )}
                         </div>
                     </>

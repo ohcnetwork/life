@@ -1,8 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SocialSharing from '@components/SocialSharing';
-import { faBed, faEnvelope, faHeartbeat, faLink, faMapMarkerAlt, faMedkit, faMobileAlt, faPhoneAlt, faProcedures } from '@fortawesome/free-solid-svg-icons';
-import { copyTextGenerator } from '@lib/utils';
+import { faBed, faEnvelope, faHeartbeat, faLink, faMapMarkerAlt, faDirections, faMedkit, faMobileAlt, faPhoneAlt, faProcedures } from '@fortawesome/free-solid-svg-icons';
+import { copyTextGenerator, getGoogleMapsDirectionLink } from '@lib/utils';
 import { useRouter } from 'next/router';
 import Badge from './Badge';
 import Description from './Description';
@@ -24,6 +24,9 @@ const ResourceCard = ({ data, type: filterType }) => {
     // Oxygen Related Data
     const { quantity_available, price } = data;
 
+    // coordinates Data
+    const { latitude, longitude } = data;
+
     // Hospital Related Data
     const {
         hospital_available_normal_beds,
@@ -37,6 +40,8 @@ const ResourceCard = ({ data, type: filterType }) => {
     const copyText = copyTextGenerator({ name: title, id, phone: (phone_1 || phone_2 || "No Phone"), type: type }, pageUrl);
 
     const category = `${type}` + (resource_type ? ` - ${resource_type}` : '')
+
+    const directions = getGoogleMapsDirectionLink(latitude,longitude);
 
     return (
         <div id={id} className="max-w-3xl bg-white hover:bg-gray-100 dark:hover:bg-gray-1000 dark:bg-gray-1200 dark:text-gray-300 shadow-md rounded-md mx-2 md:mx-auto my-5 px-3 py-4">
@@ -57,6 +62,20 @@ const ResourceCard = ({ data, type: filterType }) => {
                     <div className="flex items-center dark:text-gray-500">
                         <FontAwesomeIcon icon={faMapMarkerAlt} className="w-5" />
                         <span className="ml-2 text-base xs:text-lg font-semibold">{district}</span>
+                        { directions.length > 0 &&
+                            <a className="ml-2" target="_blank" href={directions}>
+                                <button
+                                    type="button"
+                                    className="ml-2 inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md dark:text-white text-black dark:bg-gray-1000 bg-white hover:opacity-60 focus:outline-none">
+                                    <FontAwesomeIcon
+                                        className="text-white-400 w-4 mr-4"
+                                        title="Get directions"
+                                        icon={faDirections}
+                                    />
+                                    Get Directions
+                                </button>
+                            </a>
+                        }
                     </div>
                     <div className="flex flex-col items-start justify-center my-2 text-sm xs:text-base space-y-1">
                         <span className="text-sm xs:text-base font-normal capitalize">{(address && address.toLowerCase()) || comment}</span>
