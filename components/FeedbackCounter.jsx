@@ -26,17 +26,20 @@ const FeedbackCounter = ({ externalId, upvotes, downvotes }) => {
             // TODO: Fetch Call Here
             try {
                 const res = await fetch(
-                    `https://careapi.coronasafe.in/api/v1/life/data/${externalId}/upvote/`,
+                    `https://careapi.coronasafe.network/api/v1/life/data/${externalId}/upvote/`,
                     {
-                        method: 'POST'
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(token)
                     }
                 );
                 if (res.ok) {
                     localStorage.setItem('upvoted', true);
                     setUpvoteCount((prev) => prev + 1);
-                } else {
-                    throw new Error('Did not work');
                 }
+                console.log('Res is ', res);
             } catch (err) {
                 console.error(err);
             }
@@ -49,17 +52,20 @@ const FeedbackCounter = ({ externalId, upvotes, downvotes }) => {
         if (!checkIfPresentInLocalStorage('downvoted')) {
             try {
                 const res = await fetch(
-                    `https://careapi.coronasafe.in/api/v1/life/data/${externalId}/downvote/`,
+                    `https://careapi.coronasafe.network/api/v1/life/data/${externalId}/downvote/`,
                     {
-                        method: 'POST'
+                        method: 'post',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(token)
                     }
                 );
                 if (res.ok) {
                     localStorage.setItem('downvoted', true);
                     setDownvoteCount((prev) => prev + 1);
-                } else {
-                    throw new Error('Did not work');
                 }
+                console.log('Res is ', res);
             } catch (err) {
                 console.error(err);
             }
@@ -69,7 +75,10 @@ const FeedbackCounter = ({ externalId, upvotes, downvotes }) => {
     };
 
     const onCaptchaChange = (value) => {
-        console.log(value);
+        console.log('Value is ', value);
+        setToken({
+            'g-recaptcha-response': value
+        });
     };
 
     return (
