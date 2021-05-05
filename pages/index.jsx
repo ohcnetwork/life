@@ -14,6 +14,7 @@ import ambulanceData from '@data/ambulance.json';
 import useLocale from '@hooks/use-locale';
 import { useLocaleContext } from '@hooks/use-locale-context';
 import SearchField from '@components/search/SearchField';
+import SearchIntro from '@components/search/SearchIntro';
 
 let updateFilter = (setSelectedFilter, selection) => setSelectedFilter(selection);
 
@@ -48,13 +49,7 @@ export default function Home() {
                     </h2>
                 </div>
                 <div className="mt-4">
-                    <span className="font-semibold dark:text-gray-300">
-                        <span>Search over </span>
-                        <span className="font-bold">
-                            {totalResources()}
-                        </span>
-                        <span>+ resources!</span>
-                    </span>
+                    <SearchIntro />
                 </div>
                 <div className="w-full md:w-3/4 px-2">
                     <SearchField isFocus={isToShowSuggestion} onFocus={setIsToShowSuggestion} />
