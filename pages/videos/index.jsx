@@ -41,7 +41,6 @@ const Video = ({ videoData }) => {
         setData(d)
     }, [selected])
 
-    console.log(data)
     return (
         <section className="max-w-5xl mx-auto px-2">
             <Breadcumb list={[{ href: null, name: 'Videos' }]} />
