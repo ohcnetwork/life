@@ -5,6 +5,7 @@ import { districtWithState } from '@lib/api';
 import { parametreize, humanize, activeStates } from '@lib/utils';
 import TwitterResultCard from '@components/TwitterResult';
 
+import PulseSvg from '@components/icons/PulseIcon';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

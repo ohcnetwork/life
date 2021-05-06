@@ -6,7 +6,7 @@ const Selector = ({ searchStr, resourceType, noRes, noResText }) => {
     const [covidConnectResults, loading] = useFetch({ city: searchStr, materialType: resourceType });
 
     return (
-        <div className="mb-2 h-full shadow-lg max-w-3xl mx-auto">
+        <div className="mb-2 h-full max-w-3xl mx-auto">
             {noRes && (
                 <div className="my-6 pl-4 dark:text-gray-600 font-medium">
                     <p>No Results Found For "{noResText}"</p>
