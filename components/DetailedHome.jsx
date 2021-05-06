@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useLocaleContext } from '@hooks/use-locale-context';
 import {
     getAmbulances,
+    getFood,
     getOxygen,
     getVaccine,
     helplineByDistrict,
@@ -122,6 +123,11 @@ export default function DetailedHome({ state, district, type }) {
             true
         ),
         Vaccine: getVaccine(
+            parametreize(state),
+            parametreize(district),
+            true
+        ),
+        Food: getFood(
             parametreize(state),
             parametreize(district),
             true
