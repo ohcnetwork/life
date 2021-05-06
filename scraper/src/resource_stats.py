@@ -6,7 +6,7 @@ STATES_WITH_DISTRICTS = requests.get(
     "https://life-api.coronasafe.network/data/states.json").json()
 STATES = STATES_WITH_DISTRICTS.keys()
 
-root_dir = "."
+root_dir = "data"
 
 
 def get_records(url):
