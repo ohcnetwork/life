@@ -76,6 +76,7 @@ export default function DetailedHome({ state, district, type }) {
                 .concat(this.Ambulance)
                 .concat(this.Helpline)
                 .concat(this.Vaccine)
+                .concat(this.Food)
                 .sort((record) => (isVerified(record.verification_status) ? -1 : 1));
         },
         Oxygen: getOxygen(null, null, true, true),
