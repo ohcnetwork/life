@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useLocaleContext } from '@hooks/use-locale-context';
 import {
     getAmbulances,
+    getFood,
     getOxygen,
     getVaccine,
     helplineByDistrict,
@@ -75,6 +76,7 @@ export default function DetailedHome({ state, district, type }) {
                 .concat(this.Ambulance)
                 .concat(this.Helpline)
                 .concat(this.Vaccine)
+                .concat(this.Food)
                 .sort((record) => (isVerified(record.verification_status) ? -1 : 1));
         },
         Oxygen: getOxygen(null, null, true, true),
@@ -82,7 +84,8 @@ export default function DetailedHome({ state, district, type }) {
         Hospital: hospitalByDistrict(null, null, true, true),
         Ambulance: getAmbulances(null, null, true, true),
         Helpline: helplineByDistrict(null, null, true, true),
-        Vaccine: getVaccine(null, null, true, true)
+        Vaccine: getVaccine(null, null, true, true),
+        Food: getFood(null, null, true, true)
     };
 
     const resources = {
@@ -122,6 +125,11 @@ export default function DetailedHome({ state, district, type }) {
             true
         ),
         Vaccine: getVaccine(
+            parametreize(state),
+            parametreize(district),
+            true
+        ),
+        Food: getFood(
             parametreize(state),
             parametreize(district),
             true

@@ -3,6 +3,7 @@ import { totalResources } from '@lib/api';
 import {
     faAmbulance,
     faCapsules,
+    faCarrot,
     faHospital,
     faLungsVirus,
     faPhoneAlt
@@ -14,7 +15,8 @@ const resources = [
     { name: 'Medicine', icon: faCapsules },
     { name: 'Hospital', icon: faHospital },
     { name: 'Ambulance', icon: faAmbulance },
-    { name: 'Helpline', icon: faPhoneAlt }
+    { name: 'Helpline', icon: faPhoneAlt },
+    { name: 'Food', icon: faCarrot }
 ]
 
 const SearchIntro = () => {
