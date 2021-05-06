@@ -1,31 +1,31 @@
-name: Update JSON 
+name: Update JSON
 on:
-  schedule:
-    - cron:  '0 * * * *'
-  workflow_dispatch:
+    schedule:
+        - cron: '0 * * * *'
+    workflow_dispatch:
 
 jobs:
-  update:
-      runs-on: ubuntu-latest
-      steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: main
-      - name: Create local changes
-        run: |
-          pip3 install -r scraper/requirements.txt 
-          python3 scraper/src/v2_json_downloader.py
-          python3 scraper/src/resource_stats.py
-        env:
-          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
-      - name: Commit files
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add .
-          git diff --staged --quiet || git commit -am "Update JSON Data - $(date +'%Y-%m-%dT%H:%M:%S')"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+    update:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+              with:
+                  ref: main
+            - name: Create local changes
+              run: |
+                  pip3 install -r scraper/requirements.txt 
+                  python3 scraper/src/v2_json_downloader.py
+                  python3 scraper/src/resource_stats.py
+              env:
+                  AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+            - name: Commit files
+              run: |
+                  git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                  git config --local user.name "github-actions[bot]"
+                  git add .
+                  git diff --staged --quiet || git commit -am "Update JSON - $(date +'%d %b %Y %I:%M %p')"
+            - name: Push changes
+              uses: ad-m/github-push-action@master
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  branch: main
