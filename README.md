@@ -45,7 +45,7 @@ A database and API for life-fe
 | Oxygen availability (verified)    | <https://life-api.coronasafe.network/data/oxygen_verified.json>                 |
 
 ## For Non-Developers
- You can make use of this Master Google Sheet: https://docs.google.com/spreadsheets/d/1Oyuf3LOjBr_ubJOJCTlBk6ODg3jXiSlLMW9g4-m5SHU/edit?usp=sharing
+ You can make use of this Master Google Sheet: <https://docs.google.com/spreadsheets/d/1Oyuf3LOjBr_ubJOJCTlBk6ODg3jXiSlLMW9g4-m5SHU/edit?usp=sharing>
 
 
 ## Want to help with coding?
