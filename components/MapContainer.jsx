@@ -195,7 +195,7 @@ export class MapContainer extends Component {
 
 export default GoogleApiWrapper((props) => ({
   apiKey: process.env.NEXT_PUBLIC_GOOGLE_API_KEY,
-  resourceChoosen: props.resourceChoosen,
+  resourceChoosen: props.resourceChosen,
   resources: props.resources,
   districtChoosen: props.districtChoosen,
   stateChoosen: props.stateChoosen
