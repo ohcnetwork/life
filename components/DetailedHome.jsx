@@ -83,7 +83,8 @@ export default function DetailedHome({ state, district, type }) {
         Hospital: hospitalByDistrict(null, null, true, true),
         Ambulance: getAmbulances(null, null, true, true),
         Helpline: helplineByDistrict(null, null, true, true),
-        Vaccine: getVaccine(null, null, true, true)
+        Vaccine: getVaccine(null, null, true, true),
+        Food: getFood(null, null, true, true)
     };
 
     const resources = {
