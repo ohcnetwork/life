@@ -72,9 +72,9 @@ const NavBar = () => {
                         </div>
                     )}
                 </div>
-                <a href="/" className="flex items-center m-3">
+                <a href="/" className="flex items-center my-2 mx-1 xs:m-3">
                     <Logo height={40} />
-                    <h1 className="ml-1 uppercase font-black text-3xl text-gray-900 dark:text-gray-100">
+                    <h1 className="ml-1 uppercase font-black text-3xl text-gray-900 dark:text-gray-100 hidden xs:block">
                         {t.title}
                     </h1>
                 </a>
