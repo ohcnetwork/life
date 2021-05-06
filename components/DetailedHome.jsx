@@ -37,12 +37,12 @@ export default function DetailedHome({ state, district, type }) {
     const states = Object.keys(statesWithDistricts);
     state = states.find((e) => e.toLowerCase() === state?.toLowerCase()) || '';
 
-    const [stateChosen, setstateChosen] = useState(state || states[0]);
+    const [stateChosen, setStateChosen] = useState(state || states[0]);
 
     const districts = ["All"].concat(statesWithDistricts[stateChosen]);
     district = districts.find((e) => e.toLowerCase() === district?.toLowerCase()) || '';
 
-    const [districtChosen, setdistrictChosen] = useState(district || "All");
+    const [districtChosen, setDistrictChosen] = useState(district || "All");
 
     const generatePageURL = (_state, _district, _resource) => {
         if (_district === "All") {
@@ -130,9 +130,9 @@ export default function DetailedHome({ state, district, type }) {
 
     const handleChooseState = ({ target: { value } }) => {
         changeTabs('result');
-        setstateChosen(value);
+        setStateChosen(value);
         const newDistrict = "All";
-        setdistrictChosen(newDistrict);
+        setDistrictChosen(newDistrict);
         router.push(
             generatePageURL(value, newDistrict, resourceChosen)
         );
@@ -140,7 +140,7 @@ export default function DetailedHome({ state, district, type }) {
 
     const handleDistrictChange = ({ target: { value } }) => {
         changeTabs('result');
-        setdistrictChosen(value);
+        setDistrictChosen(value);
         router.push(
             generatePageURL(stateChosen, value, resourceChosen)
         );
