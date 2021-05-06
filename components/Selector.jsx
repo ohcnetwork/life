@@ -5,49 +5,17 @@ import { districtWithState } from '@lib/api';
 import { parametreize, humanize, activeStates } from '@lib/utils';
 import TwitterResultCard from '@components/TwitterResult';
 
+import PulseSvg from '@components/icons/PulseIcon';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import PulseSvg from '@components/icons/PulseIcon';
-
-function useFetch(searchStr, resourceType = 'supply', maxResults = 25) {
-    const url = `https://covidconnect.vercel.app/api/1.1/data?city=${searchStr}&resource_type=${resourceType}&max_results=${maxResults}`;
-    const [data, setData] = useState([]);
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        async function fetchUrl() {
-            if (!searchStr.length) {
-                return;
-            }
-            const response = await fetch(url);
-            const temp = await response.json();
-            const json = {
-                res: temp
-            };
-            if (
-                !json ||
-                !json.res ||
-                !json.res.response ||
-                !json.res.response.api_response ||
-                !json.res.response.api_response.statuses
-            ) {
-                setData([]);
-            } else {
-                setData(json.res.response.api_response.statuses);
-            }
-            setLoading(false);
-        }
-        fetchUrl();
-    }, [url]);
-    return [data, loading];
-}
-export { useFetch };
+import PulseSvg from '@components/PulseSvg';
+import useFetch from '@hooks/use-fetch';
 
 const Selector = ({ data, page, placeholder, localeState, localeDistrict }) => {
     const [searchStr, setSearchStr] = useState('');
     const [editing, setEditing] = useState(false);
-    const [covidConnectResults, loading] = useFetch(searchStr);
+    const [covidConnectResults, loading] = useFetch({ city: searchStr });
 
     const filterTests = (_data, field = null) => {
         return _data
