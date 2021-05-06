@@ -4,6 +4,7 @@ import { fetchLocation } from '../lib/external';
 import { faDirections } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { tabsInfo } from '@lib/tabs';
+import { getHaversineDistance } from '@lib/utils';
 import MapInfoWindow from './MapInfoWindow';
 import Badge from './Badge';
 
@@ -20,20 +21,10 @@ export class MapContainer extends Component {
     activeMarker: {},
     selectedPlace: {},
     centerLocation: null,
-    currentLocation: null,
     zoom: defaultZoom
   };
 
   componentDidMount() {
-    const that = this;
-    navigator.geolocation.getCurrentPosition(function (position) {
-      that.setState({
-        currentLocation: {
-          lat: position.coords.latitude,
-          lng: position.coords.longitude
-        }
-      });
-    });
     if (this.props.district || this.props.state) {
       fetchLocation(`${this.props.district} ${this.props.state}`)
         .then((response) => {
@@ -45,7 +36,8 @@ export class MapContainer extends Component {
             });
           }
         })
-        .catch(() => {
+        .catch((err) => {
+          console.log('Error while fetching searched location\'s lattitude and longitude: ', err);
           this.setState({
             centerLocation: defaultLocation,
             zoom: defaultZoom
@@ -69,22 +61,6 @@ export class MapContainer extends Component {
         activeMarker: null
       });
     }
-  };
-
-  getHaversineDistance = (firstLocation, secondLocation) => {
-    if (!firstLocation) return null;
-    const earthRadius = 6371; // km
-    const diffLat = ((secondLocation.lat - firstLocation.lat) * Math.PI) / 180;
-    const diffLng = ((secondLocation.lng - firstLocation.lng) * Math.PI) / 180;
-    const arc =
-      Math.cos((firstLocation.lat * Math.PI) / 180) *
-        Math.cos((secondLocation.lat * Math.PI) / 180) *
-        Math.sin(diffLng / 2) *
-        Math.sin(diffLng / 2) +
-      Math.sin(diffLat / 2) * Math.sin(diffLat / 2);
-    const line = 2 * Math.atan2(Math.sqrt(arc), Math.sqrt(1 - arc));
-    const distance = earthRadius * line;
-    return distance.toFixed();
   };
 
   openInGoogleMap = () => {
@@ -113,7 +89,7 @@ export class MapContainer extends Component {
             position={this.state.centerLocation}
             onClick={this.onMarkerClick}
             name={'Searched Location'}
-            currentLocation={true}
+            isCurrentLocation={true}
           />
           {this.props.resources.map((resource) => {
             return (
@@ -123,7 +99,7 @@ export class MapContainer extends Component {
                 key={resource.external_id}
                 name={resource.title}
                 info={resource}
-                distance={this.getHaversineDistance(this.state.currentLocation, {
+                distance={getHaversineDistance(this.props.currentLocation, {
                   lat: resource.latitude,
                   lng: resource.longitude
                 })}
@@ -138,9 +114,11 @@ export class MapContainer extends Component {
               <h1 class="text-black-800">
                 <strong>{this.state.selectedPlace.info?.title ||
                   this.state.selectedPlace.name}</strong>
-                <Badge status={this.state.selectedPlace.info?.verification_status} />
+                {!this.state.selectedPlace?.isCurrentLocation && (
+                  <Badge status={this.state.selectedPlace.info?.verification_status} />
+                )}
               </h1>
-              {!this.state.selectedPlace?.currentLocation && (
+              {!this.state.selectedPlace?.isCurrentLocation && (
                 <>
                   {this.state.selectedPlace.info?.phone_1 && (
                     <strong className="text-purple-500">
@@ -175,7 +153,7 @@ export class MapContainer extends Component {
                       icon={faDirections}
                       className="w-2 h-2 dark:text-primary-500"
                     />
-                    <span className="text-xs ml-2">Directions</span>
+                    <span className="text-xs ml-2">Get Directions</span>
                   </button>
                   {this.state.selectedPlace.distance && (
                     <p>
@@ -198,5 +176,6 @@ export default GoogleApiWrapper((props) => ({
   resourceChoosen: props.resourceChosen,
   resources: props.resources,
   districtChoosen: props.districtChoosen,
-  stateChoosen: props.stateChoosen
+  stateChoosen: props.stateChoosen,
+  currentLocation: props.currentLocation
 }))(MapContainer);
