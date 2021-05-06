@@ -25,9 +25,11 @@ import HomeTabs from '@components/HomeTabs';
 import { useRouter } from 'next/router';
 import { isVerified } from '../lib/utils';
 import MapContainer from './MapContainer';
+import useCurrentLocation from '@hooks/useCurrentLocation';
 
 export default function DetailedHome({ state, district, type }) {
     const { locale } = useLocaleContext();
+    const { location: currentLocation, error } = useCurrentLocation();
     const t = useLocale(locale, 'home');
     const router = useRouter();
 
@@ -209,6 +211,7 @@ export default function DetailedHome({ state, district, type }) {
                             {tabVal === 'result' && (
                                 <SearchResult
                                     changeTabs={changeTabs}
+                                    currentLocation={currentLocation}
                                     type={resourceChosen}
                                     district={districtChosen}
                                     resources={resources[resourceChosen]}
@@ -223,6 +226,7 @@ export default function DetailedHome({ state, district, type }) {
                             {tabVal === 'maps' && (
                                 <MapContainer
                                     resourceChosen={resourceChosen}
+                                    currentLocation={currentLocation}
                                     resources={locationResources[resourceChosen]}
                                     district={getStateIfDistrictAll(stateChosen, districtChosen)}
                                     state={stateChosen}

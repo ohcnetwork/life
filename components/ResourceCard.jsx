@@ -1,15 +1,17 @@
 import React from 'react';
+import TimeAgo from 'timeago-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SocialSharing from '@components/SocialSharing';
 import { faBed, faEnvelope, faHeartbeat, faLink, faMapMarkerAlt, faDirections, faMedkit, faMobileAlt, faPhoneAlt, faProcedures } from '@fortawesome/free-solid-svg-icons';
 import { copyTextGenerator, getGoogleMapsDirectionLink } from '@lib/utils';
 import { useRouter } from 'next/router';
+import { getHaversineDistance } from '@lib/utils';
 import Badge from './Badge';
 import Description from './Description';
-import TimeAgo from 'timeago-react';
+
 import FeedbackCounter from './FeedbackCounter';
 
-const ResourceCard = ({ data, type: filterType }) => {
+const ResourceCard = ({ data, type: filterType, currentLocation }) => {
 
     // General Data
     const { title, district } = data;
@@ -187,6 +189,20 @@ const ResourceCard = ({ data, type: filterType }) => {
                 <div className="flex items-center mx-1 mt-2 xs:my-0 xs:space-x-2">
                     {/* TODO: Waiting for Endpoint from Backend */}
                     {/* <FeedbackCounter upvotes={upvotes} downvotes={downvotes} /> */}
+                </div>
+                <div className="flex items-center mx-1 mt-2 xs:my-0 xs:space-x-2">
+                { currentLocation && latitude && longitude && (
+                    <span className="text-xs mt-2 xs:my-0">
+                        <span className="text-secondary-400 dark:text-primary-300">Approximately</span>
+                        <span className="font-bold">
+                            &nbsp;{getHaversineDistance(currentLocation, {
+                                lat: latitude,
+                                lng: longitude
+                            })} Kms
+                        </span>
+                        <span className="text-secondary-400 dark:text-primary-300">&nbsp;from your location</span>
+                    </span>
+                )}
                 </div>
             </div>
         </div>

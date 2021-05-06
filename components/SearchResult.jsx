@@ -2,7 +2,7 @@ import { filterResourcesBy } from '@lib/utils';
 import React, { useState } from 'react';
 import ResourceCard from './ResourceCard';
 import NoResultFound from './NoResultFound';
-const SearchResult = ({ resources, type, district, changeTabs }) => {
+const SearchResult = ({ resources, type, district, changeTabs, currentLocation }) => {
     const [selectedFilter, setSelectedFilter] = useState('show_all');
     const resourcesListing = filterResourcesBy(resources, selectedFilter);
     const noData = resourcesListing.length === 0 && selectedFilter === 'show_all';
@@ -64,7 +64,7 @@ const SearchResult = ({ resources, type, district, changeTabs }) => {
                 {resourcesListing.length > 0 ? (
                     resourcesListing.map((resource) => {
                         return (
-                            <ResourceCard key={resource.external_id} type={type} data={resource} />
+                            <ResourceCard key={resource.external_id} type={type} data={resource} currentLocation={currentLocation} />
                         );
                     })
                 ) : (
