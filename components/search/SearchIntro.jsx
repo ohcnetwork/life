@@ -10,7 +10,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const resources = [
+export const resources = [
     { name: 'Oxygen', icon: faLungsVirus },
     { name: 'Medicine', icon: faCapsules },
     { name: 'Hospital', icon: faHospital },
