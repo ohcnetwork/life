@@ -2,6 +2,7 @@ import React from 'react';
 import { parametreize, statesStaticPaths, humanize } from '@lib/utils';
 import { NextSeo } from 'next-seo';
 import DetailedHome from '@components/DetailedHome';
+import { useRouter } from 'next/router';
 
 export default function State({ state }) {
     const SEO = {
@@ -20,10 +21,14 @@ export default function State({ state }) {
             }
         ]
     };
+
+    const { query } = useRouter();
+    const resourceType = query.resource;
+
     return (
         <>
             <NextSeo {...SEO} />
-            <DetailedHome state={humanize(state)} />
+            <DetailedHome state={humanize(state)} type={resourceType} />
         </>
 
     );
