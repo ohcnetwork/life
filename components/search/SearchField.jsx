@@ -135,7 +135,7 @@ const SearchField = ({ isFocus, onFocus }) => {
                             <li
                                 key={`${result.name}${id}`}
                                 onClick={(_) => handleGotoResource(result)}
-                                className="py-2 px-1 flex mt-1 bg-gray-50 dark:bg-gray-1200 hover:bg-gray-200 dark:hover:bg-gray-1000 cursor-pointer rounded-lg items-center justify-between">
+                                className="py-2 px-1 flex mt-1 bg-gray-200 dark:bg-gray-1200 hover:bg-gray-300 dark:hover:bg-gray-1000 cursor-pointer rounded-lg items-center justify-between">
                                 <div className="flex items-center text-gray-500">
                                     {isTrendingPlace(result.name) && (
                                         <TrendingIcon className="h-5 w-5 text-red-600" />
