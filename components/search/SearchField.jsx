@@ -8,12 +8,14 @@ import { parametreize } from "@lib/utils";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCog, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { resources } from "./SearchIntro";
 
 const SearchField = ({ isFocus, onFocus }) => {
     const [searchText, setSearchText] = useState("");
+    const [isLoading, setIsLoading] = useState(false);
+    const [selectedResource, setSelectedResource] = useState("Oxygen");
     const suggestionText = getSuggestedWord(searchText);
     const suggestedResults = getSuggestedList(searchText);
-    const [isLoading, setIsLoading] = useState(false);
     const searchFieldRef = createRef();
     const pageRouter = useRouter();
 
@@ -37,7 +39,9 @@ const SearchField = ({ isFocus, onFocus }) => {
         setSearchText(result.name);
         const { name, type, state } = result;
         if (type === "District") {
-            pageRouter.push(`/${parametreize(state)}/${parametreize(name)}`)
+            pageRouter.push(
+                `/${parametreize(state)}/${parametreize(name)}/${parametreize(selectedResource)}`
+            )
         }
         else if (type === "State") {
             pageRouter.push(`/${parametreize(name)}/`)
@@ -45,10 +49,26 @@ const SearchField = ({ isFocus, onFocus }) => {
 
     }
 
-
+    const handleTabChange = (name) => {
+        setSelectedResource(name)
+        setTimeout(() => {
+            document.getElementById("searchField")?.focus();
+        }, 500)
+    }
 
     return (
         <div className="m-5">
+            <div className="flex items-center justify-around flex-wrap my-2 font-semibold">
+                {resources.map(({ name, icon }) =>
+                    <div
+                        onClick={(_) => handleTabChange(name)}
+                        className={"cursor-pointer dark:text-gray-500 px-2 pt-1 border-primary-600 pb-1 text-center" + (name === selectedResource ? " border-b-2 dark:text-primary-500 text-indigo-800" : "")}
+                        key={name}>
+                        <FontAwesomeIcon icon={icon} className="w-2 mr-1" />
+                        <span>{name}</span>
+                    </div>
+                )}
+            </div>
             <div className={"my-2 relative w-full " + (isLoading && "animate-pulse")} >
                 <input
                     type="text"
@@ -57,8 +77,10 @@ const SearchField = ({ isFocus, onFocus }) => {
                     placeholder={suggestionText.displayText}
                 />
                 <input
+                    id="searchField"
                     disabled={isLoading}
                     ref={searchFieldRef}
+                    autoComplete="off"
                     onKeyDown={handleSearchKeyDown}
                     onFocus={_ => onFocus(true)}
                     onChange={({ target: { value } }) => setSearchText(value)}
@@ -70,13 +92,19 @@ const SearchField = ({ isFocus, onFocus }) => {
                     value={searchText}
                     type="text"
                     className="p-4 pl-6 text-base md:text-xl transition-shadow duration-300 ease-in-out shadow-md hover:shadow-lg focus:shadow-xl placeholder-gray-600 dark:text-white rounded-xl z-10 outline-none w-full absolute top-0 left-0 bg-transparent"
-                    placeholder="Search for Resources in States or Districts"
+                    placeholder={`Search for ${selectedResource} in States or Districts`}
                 />
                 {
                     !searchText &&
-                    <div className="text-xs ml-1 mt-2 text-gray-500 dark:text-gray-600 flex items-center">
-                        <PulseIcon width={15} height={15} className="stroke-current text-indigo-700 dark:text-gray-300" />
-                        <span className="ml-2">Type a city name to see Real Time Tweets Below </span>
+                    <div className="text-xs ml-1 mt-2 text-gray-500 dark:text-gray-600 flex items-center justify-between">
+                        <span className="flex items-center">
+                            <PulseIcon width={15} height={15} className="stroke-current text-indigo-700 dark:text-gray-300" />
+                            <span className="ml-2">Type a city name to see Real Time Tweets Below </span>
+                        </span>
+                        {
+                            isFocus &&
+                            <span className="mr-2">in {selectedResource}</span>
+                        }
                     </div>
                 }
                 {/* I am using Custom Close Icon instead of input[type='search'] to use dark style */}
