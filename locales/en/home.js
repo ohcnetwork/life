@@ -27,6 +27,7 @@ export default {
     poweredBy: 'Powered By',
     github: 'Github',
     database: 'Database',
+    api: 'API',
     about: 'About',
     select: 'Select',
     selectResource: 'Select Resource',

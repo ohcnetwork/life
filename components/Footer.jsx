@@ -11,8 +11,8 @@ const Footer = () => {
             link: 'https://github.com/coronasafe/life'
         },
         {
-            text: `${t.database}`,
-            link: 'https://github.com/coronasafe/life'
+            text: `${t.api}`,
+            link: 'https://life-api.coronasafe.network/'
         },
         {
             text: `${t.about}`,
