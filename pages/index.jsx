@@ -14,6 +14,8 @@ import SearchIntro from '@components/search/SearchIntro';
 export default function Home() {
     const { locale } = useLocaleContext();
     const t = useLocale(locale, 'home');
+
+    const [resource, setResource] = useState("Oxygen");
     const [isToShowSuggestion, setIsToShowSuggestion] = useState(false);
 
     return (
@@ -32,13 +34,18 @@ export default function Home() {
                     <SearchIntro />
                 </div>
                 <div className="w-full md:w-3/4 px-2">
-                    <SearchField isFocus={isToShowSuggestion} onFocus={setIsToShowSuggestion} />
+                    <SearchField
+                        resource={resource}
+                        setResource={setResource}
+                        isFocus={isToShowSuggestion}
+                        onFocus={setIsToShowSuggestion}
+                    />
                 </div>
-                <div className="flex flex-wrap items-center  justify-evenly mt-6 ">
+                <div className="flex flex-wrap items-center justify-evenly mt-6 ">
                     {
                         getStates().map((s) => {
                             return (
-                                <Link key={s} href={`[state]`} as={`${parametreize(s)}`}>
+                                <Link key={s} href={`/${parametreize(s)}?resource=${resource}`}>
                                     <span className="p-2 text-sm md:text-md font-normal cursor-pointer hover:text-gray-900 text-gray-600 dark:hover:text-gray-50 h-10">
                                         {humanize(s)}
                                     </span>

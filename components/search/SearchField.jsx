@@ -10,10 +10,9 @@ import { faCog, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { resources } from "./SearchIntro";
 
-const SearchField = ({ isFocus, onFocus }) => {
+const SearchField = ({ isFocus, onFocus, resource, setResource }) => {
     const [searchText, setSearchText] = useState("");
     const [isLoading, setIsLoading] = useState(false);
-    const [selectedResource, setSelectedResource] = useState("Oxygen");
     const suggestionText = getSuggestedWord(searchText);
     const suggestedResults = getSuggestedList(searchText);
     const searchFieldRef = createRef();
@@ -40,7 +39,7 @@ const SearchField = ({ isFocus, onFocus }) => {
         const { name, type, state } = result;
         if (type === "District") {
             pageRouter.push(
-                `/${parametreize(state)}/${parametreize(name)}/${parametreize(selectedResource)}`
+                `/${parametreize(state)}/${parametreize(name)}/${parametreize(resource)}`
             )
         }
         else if (type === "State") {
@@ -50,7 +49,7 @@ const SearchField = ({ isFocus, onFocus }) => {
     }
 
     const handleTabChange = (name) => {
-        setSelectedResource(name)
+        setResource(name)
         setTimeout(() => {
             document.getElementById("searchField")?.focus();
         }, 500)
@@ -62,7 +61,7 @@ const SearchField = ({ isFocus, onFocus }) => {
                 {resources.map(({ name, icon }) =>
                     <div
                         onClick={(_) => handleTabChange(name)}
-                        className={"cursor-pointer dark:text-gray-500 px-2 pt-1 border-primary-600 pb-1 text-center" + (name === selectedResource ? " border-b-2 dark:text-primary-500 text-indigo-800" : "")}
+                        className={"cursor-pointer dark:text-gray-500 px-2 pt-1 border-primary-600 pb-1 text-center" + (name === resource ? " border-b-2 dark:text-primary-500 text-indigo-800" : "")}
                         key={name}>
                         <FontAwesomeIcon icon={icon} className="w-2 mr-1" />
                         <span>{name}</span>
@@ -92,7 +91,7 @@ const SearchField = ({ isFocus, onFocus }) => {
                     value={searchText}
                     type="text"
                     className="p-4 pl-6 text-base md:text-xl transition-shadow duration-300 ease-in-out shadow-md hover:shadow-lg focus:shadow-xl placeholder-gray-600 dark:text-white rounded-xl z-10 outline-none w-full absolute top-0 left-0 bg-transparent"
-                    placeholder={`Search for ${selectedResource} in States or Districts`}
+                    placeholder={`Search for ${resource} in States or Districts`}
                 />
                 {
                     !searchText &&
@@ -103,7 +102,7 @@ const SearchField = ({ isFocus, onFocus }) => {
                         </span>
                         {
                             isFocus &&
-                            <span className="mr-2">in {selectedResource}</span>
+                            <span className="mr-2">in {resource}</span>
                         }
                     </div>
                 }
