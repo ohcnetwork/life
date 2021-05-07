@@ -56,7 +56,7 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
                     <h1 className="font-bold text-lg md:text-xl capitalize text-center">{(title && title.toLowerCase()) || type}</h1>
                 </div>
                 <div className="my-2 md:my-0 md:ml-auto">
-                    <SocialSharing copyText={copyText} />
+                    <SocialSharing copyText={copyText} url={pageUrl} />
                 </div>
             </div>
             <div className="flex items-stretch flex-col xs:flex-row justify-between px-2 py-2 dark:text-gray-200">
