@@ -6,11 +6,14 @@ const SearchResult = ({ resources, type, district, changeTabs, currentLocation }
     const [selectedFilter, setSelectedFilter] = useState('show_all');
     const resourcesListing = filterResourcesBy(resources, selectedFilter);
     const noData = resourcesListing.length === 0 && selectedFilter === 'show_all';
+    if (noData) {
+        changeTabs('twitter_on_no_data');
+    }
 
     return (
         <section>
             <div className="mt-8 px-5 flex flex-wrap justify-around items-center dark:text-gray-300">
-                {(noData && changeTabs('twitter_on_no_data')) || (
+                {!noData && (
                     <>
                         <h1 className="font-semibold">
                             Search Results:{' '}
@@ -64,7 +67,12 @@ const SearchResult = ({ resources, type, district, changeTabs, currentLocation }
                 {resourcesListing.length > 0 ? (
                     resourcesListing.map((resource) => {
                         return (
-                            <ResourceCard key={resource.external_id} type={type} data={resource} currentLocation={currentLocation} />
+                            <ResourceCard
+                                key={resource.external_id}
+                                type={type}
+                                data={resource}
+                                currentLocation={currentLocation}
+                            />
                         );
                     })
                 ) : (

@@ -9,9 +9,7 @@ export default function State({ state, district }) {
         description: `Covid19 Resources for ${humanize(district)} , ${humanize(state)} `,
         openGraph: {
             title: `${humanize(district)} , ${humanize(state)} | Coronasafe network`,
-            description: `Covid19 Resources for ${humanize(district)} , ${humanize(
-                state
-            )} `
+            description: `Covid19 Resources for ${humanize(district)} , ${humanize(state)} `
         },
         additionalMetaTags: [
             {
@@ -25,7 +23,11 @@ export default function State({ state, district }) {
     return (
         <>
             <NextSeo {...SEO} />
-            <DetailedHome state={humanize(state)} district={humanize(district)} />
+            <DetailedHome
+                key={state + district}
+                state={humanize(state)}
+                district={humanize(district)}
+            />
         </>
     );
 }
