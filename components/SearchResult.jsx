@@ -2,7 +2,7 @@ import { filterResourcesBy } from '@lib/utils';
 import React, { useState } from 'react';
 import ResourceCard from './ResourceCard';
 import NoResultFound from './NoResultFound';
-const SearchResult = ({ resources, type, district, changeTabs, currentLocation }) => {
+const SearchResult = ({ resources, type, district, changeTabs, currentLocation, totalResources }) => {
     const [selectedFilter, setSelectedFilter] = useState('show_all');
     const resourcesListing = filterResourcesBy(resources, selectedFilter);
     const noData = resourcesListing.length === 0 && selectedFilter === 'show_all';
@@ -14,7 +14,7 @@ const SearchResult = ({ resources, type, district, changeTabs, currentLocation }
                     <>
                         <h1 className="font-semibold">
                             Search Results:{' '}
-                            <span className="font-normal">{resourcesListing?.length}</span>
+                            <span className="font-normal">{totalResources || resourcesListing?.length}</span>
                         </h1>
                         <div className="flex items-center space-x-5 md:space-x-8">
                             <div className="flex items-center">

@@ -34,6 +34,7 @@ export default function DetailedHome({ state, district, type }) {
     const t = useLocale(locale, 'home');
     const router = useRouter();
 
+    const itemsPerPage = 25;
     const [currentPage, setCurrentPage] = useState(1);
 
     const statesWithDistricts = statesAndDistrict();
@@ -218,12 +219,13 @@ export default function DetailedHome({ state, district, type }) {
                                         currentLocation={currentLocation}
                                         type={resourceChosen}
                                         district={districtChosen}
-                                        resources={resources[resourceChosen]}
+                                        totalResources={resources[resourceChosen].length}
+                                        resources={resources[resourceChosen].slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)}
                                     />
 
                                     <Pagination
                                         activePage={currentPage}
-                                        itemsCountPerPage={75}
+                                        itemsCountPerPage={itemsPerPage}
                                         totalItemsCount={resources[resourceChosen].length}
                                         pageRangeDisplayed={5}
                                         onChange={(pageNumber) => setCurrentPage(pageNumber)}
