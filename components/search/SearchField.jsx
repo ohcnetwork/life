@@ -43,7 +43,7 @@ const SearchField = ({ isFocus, onFocus, resource, setResource }) => {
             )
         }
         else if (type === "State") {
-            pageRouter.push(`/${parametreize(name)}/`)
+            pageRouter.push(`/${parametreize(name)}/?resource=${resource}`)
         }
 
     }
