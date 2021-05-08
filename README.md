@@ -14,6 +14,7 @@ A database and API for life-fe
 | Hospitals and Beds                | <https://life-api.coronasafe.network/data/hospital_v2.json>          |
 | Medicine availability             | <https://life-api.coronasafe.network/data/medicine_v2.json>                        |
 | Oxygen availability               | <https://life-api.coronasafe.network/data/oxygen_v2.json>                          |
+| Food availability               | <https://life-api.coronasafe.network/data/food_v2.json>                          |
 
 ## API V2 CSV 
  
@@ -24,6 +25,7 @@ A database and API for life-fe
 | Hospitals and Beds                | <https://life_data.coronasafe.network/hospital.csv>          |
 | Medicine availability             | <https://life_data.coronasafe.network/medicine.csv>                        |
 | Oxygen availability               | <https://life_data.coronasafe.network/oxygen.csv>                         |
+| Food availability                 | <https://life_data.coronasafe.network/food.csv>                         |
 
 
 
