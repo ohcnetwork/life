@@ -15,7 +15,7 @@ export default function Home() {
     const { locale } = useLocaleContext();
     const t = useLocale(locale, 'home');
 
-    const [resource, setResource] = useState("Oxygen");
+    const [resource, setResource] = useState("All");
     const [isToShowSuggestion, setIsToShowSuggestion] = useState(false);
 
     return (
