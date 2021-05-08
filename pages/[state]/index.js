@@ -1,8 +1,8 @@
 import React from 'react';
 import { parametreize, statesStaticPaths, humanize } from '@lib/utils';
 import { NextSeo } from 'next-seo';
-import DetailedHome from '@components/DetailedHome';
 import { useRouter } from 'next/router';
+import StateHome from '@components/StateHome';
 
 export default function State({ state }) {
     const SEO = {
@@ -28,7 +28,7 @@ export default function State({ state }) {
     return (
         <>
             <NextSeo {...SEO} />
-            <DetailedHome key={state} state={humanize(state)} type={resourceType} />
+            <StateHome state={humanize(state)} type={resourceType} />
         </>
     );
 }
