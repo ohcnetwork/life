@@ -26,12 +26,15 @@ import { useRouter } from 'next/router';
 import { isVerified } from '../lib/utils';
 import MapContainer from './MapContainer';
 import useCurrentLocation from '@hooks/useCurrentLocation';
+import Pagination from "react-js-pagination";
 
 export default function DetailedHome({ state, district, type }) {
     const { locale } = useLocaleContext();
     const { location: currentLocation, error } = useCurrentLocation();
     const t = useLocale(locale, 'home');
     const router = useRouter();
+
+    const [currentPage, setCurrentPage] = useState(1);
 
     const statesWithDistricts = statesAndDistrict();
     const [tabVal, setTabVal] = useState('result');
@@ -209,13 +212,29 @@ export default function DetailedHome({ state, district, type }) {
                         <HomeTabs tabVal={tabVal} onChange={changeTabs} resources={resources[resourceChosen]} />
                         <div style={{ minHeight: '315px' }}>
                             {tabVal === 'result' && (
-                                <SearchResult
-                                    changeTabs={changeTabs}
-                                    currentLocation={currentLocation}
-                                    type={resourceChosen}
-                                    district={districtChosen}
-                                    resources={resources[resourceChosen]}
-                                />
+                                <div className="flex flex-col items-center justify-center">
+                                    <SearchResult
+                                        changeTabs={changeTabs}
+                                        currentLocation={currentLocation}
+                                        type={resourceChosen}
+                                        district={districtChosen}
+                                        resources={resources[resourceChosen]}
+                                    />
+
+                                    <Pagination
+                                        activePage={currentPage}
+                                        itemsCountPerPage={75}
+                                        totalItemsCount={resources[resourceChosen].length}
+                                        pageRangeDisplayed={5}
+                                        onChange={(pageNumber) => setCurrentPage(pageNumber)}
+                                        className="bg-red"
+                                        innerClass="relative z-0 inline-flex rounded-md shadow-sm -space-x-px"
+                                        itemClass="relative inline-flex items-center px-4 py-2 border border-gray-400 bg-white text-sm font-medium text-gray-700 hover:bg-gray-400"
+                                        activeClass="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-gray-400 text-sm font-extrabold text-black"
+                                        itemClassFirst="relative inline-flex items-center px-4 py-2 border border-gray-400 bg-white text-sm font-medium text-gray-700 hover:bg-gray-400 rounded-l"
+                                        itemClassLast="relative inline-flex items-center px-4 py-2 border border-gray-400 bg-white text-sm font-medium text-gray-700 hover:bg-gray-400 rounded-r"
+                                    />
+                                </div>
                             )}
                             {tabVal === 'twitter' && (
                                 <TwitterContainer
