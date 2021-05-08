@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import useLocale from '@hooks/use-locale';
@@ -33,9 +33,6 @@ export default function DetailedHome({ state, district, type }) {
     const { location: currentLocation, error } = useCurrentLocation();
     const t = useLocale(locale, 'home');
     const router = useRouter();
-
-    const itemsPerPage = 25;
-    const [currentPage, setCurrentPage] = useState(1);
 
     const statesWithDistricts = statesAndDistrict();
     const [tabVal, setTabVal] = useState('result');
@@ -168,6 +165,10 @@ export default function DetailedHome({ state, district, type }) {
             generatePageURL(stateChosen, districtChosen, value)
         );
     };
+
+    const itemsPerPage = 25;
+    const [currentPage, setCurrentPage] = useState(1);
+    useEffect(() => setCurrentPage(1), [stateChosen, districtChosen, resourceChosen])
 
     return (
         <section className="w-full">
