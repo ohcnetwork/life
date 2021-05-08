@@ -8,6 +8,6 @@ const NoResultFound = ({ type, text }) => {
             <span className="font-semibold">{text}</span>
         </div>
     );
-}
+};
 
 export default NoResultFound;
