@@ -18,9 +18,11 @@ const SearchResult = ({ resources, type, district, changeTabs, currentLocation }
             <div className="mt-8 px-5 flex flex-wrap justify-around items-center dark:text-gray-300">
                 {(noData && changeTabs('twitter_on_no_data')) || (
                     <>
-                        <h1 className="font-semibold">
-                            Search Results:{' '}
-                            <span className="font-normal">{resourcesListing?.length}</span>
+                        <h1 className="font-semibold pr-6">
+                            <p className="text-sm text-gray-700">
+                                Showing <span className="font-medium">{((currentPage-1)*itemsPerPage)+1}</span> to <span className="font-medium">{currentPage*itemsPerPage < resourcesListing.length ? currentPage*itemsPerPage : resourcesListing.length}</span> of{' '}
+                                <span className="font-medium">{resourcesListing.length}</span> results
+                            </p>
                         </h1>
                         <div className="flex items-center space-x-5 md:space-x-8">
                             <div className="flex items-center">
