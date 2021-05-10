@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import useLocale from '@hooks/use-locale';
@@ -26,7 +26,6 @@ import { useRouter } from 'next/router';
 import { isVerified } from '../lib/utils';
 import MapContainer from './MapContainer';
 import useCurrentLocation from '@hooks/useCurrentLocation';
-import Pagination from "react-js-pagination";
 
 export default function DetailedHome({ state, district, type }) {
     const { locale } = useLocaleContext();
@@ -166,10 +165,6 @@ export default function DetailedHome({ state, district, type }) {
         );
     };
 
-    const itemsPerPage = 25;
-    const [currentPage, setCurrentPage] = useState(1);
-    useEffect(() => setCurrentPage(1), [stateChosen, districtChosen, resourceChosen])
-
     return (
         <section className="w-full">
             <div className="bg-gray-200 dark:bg-gray-1200 text-center pt-5 pb-20">
@@ -220,22 +215,7 @@ export default function DetailedHome({ state, district, type }) {
                                         currentLocation={currentLocation}
                                         type={resourceChosen}
                                         district={districtChosen}
-                                        totalResources={resources[resourceChosen].length}
-                                        resources={resources[resourceChosen].slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)}
-                                    />
-
-                                    <Pagination
-                                        activePage={currentPage}
-                                        itemsCountPerPage={itemsPerPage}
-                                        totalItemsCount={resources[resourceChosen].length}
-                                        pageRangeDisplayed={5}
-                                        onChange={(pageNumber) => setCurrentPage(pageNumber)}
-                                        className="bg-red"
-                                        innerClass="relative z-0 inline-flex rounded-md shadow-sm -space-x-px"
-                                        itemClass="relative inline-flex items-center px-4 py-2 border border-gray-400 bg-white text-sm font-medium text-gray-700 hover:bg-gray-400"
-                                        activeClass="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-gray-400 text-sm font-extrabold text-black"
-                                        itemClassFirst="relative inline-flex items-center px-4 py-2 border border-gray-400 bg-white text-sm font-medium text-gray-700 hover:bg-gray-400 rounded-l"
-                                        itemClassLast="relative inline-flex items-center px-4 py-2 border border-gray-400 bg-white text-sm font-medium text-gray-700 hover:bg-gray-400 rounded-r"
+                                        resources={resources[resourceChosen]}
                                     />
                                 </div>
                             )}
