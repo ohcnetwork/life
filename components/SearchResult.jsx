@@ -8,6 +8,9 @@ const SearchResult = ({ resources, type, district, changeTabs, currentLocation }
     const [selectedFilter, setSelectedFilter] = useState('show_all');
     const resourcesListing = filterResourcesBy(resources, selectedFilter);
     const noData = resourcesListing.length === 0 && selectedFilter === 'show_all';
+    if (noData) {
+        changeTabs('twitter_on_no_data');
+    }
 
     const itemsPerPage = 5;
     const [currentPage, setCurrentPage] = useState(1);
@@ -16,7 +19,7 @@ const SearchResult = ({ resources, type, district, changeTabs, currentLocation }
     return (
         <section>
             <div className="mt-8 px-5 flex flex-wrap justify-around items-center dark:text-gray-300">
-                {(noData && changeTabs('twitter_on_no_data')) || (
+                {!noData && (
                     <>
                         <h1 className="font-semibold pr-6">
                             <p className="text-sm text-gray-700">

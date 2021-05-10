@@ -35,32 +35,33 @@ export default function DetailedHome({ state, district, type }) {
 
     const statesWithDistricts = statesAndDistrict();
     const [tabVal, setTabVal] = useState('result');
-    const changeTabs = (v) => setTabVal(v);
+    const changeTabs = (v) => {
+        setTabVal(v);
+    };
 
     const states = Object.keys(statesWithDistricts);
     state = states.find((e) => e.toLowerCase() === state?.toLowerCase()) || '';
 
     const [stateChosen, setStateChosen] = useState(state || states[0]);
 
-    const districts = ["All"].concat(statesWithDistricts[stateChosen]);
+    const districts = ['All'].concat(statesWithDistricts[stateChosen]);
     district = districts.find((e) => e.toLowerCase() === district?.toLowerCase()) || '';
 
-    const [districtChosen, setDistrictChosen] = useState(district || "All");
+    const [districtChosen, setDistrictChosen] = useState(district || 'All');
 
     const generatePageURL = (_state, _district, _resource) => {
-        if (_district === "All") {
-            return `/${parametreize(_state)}`
+        if (_district === 'All') {
+            return `/${parametreize(_state)}`;
         }
-        if (_resource === "All")
-            return `/${parametreize(_state)}/${parametreize(_district)}`;
+        if (_resource === 'All') return `/${parametreize(_state)}/${parametreize(_district)}`;
 
         return `/${parametreize(_state)}/${parametreize(_district)}/${parametreize(_resource)}`;
-    }
+    };
 
     const getStateIfDistrictAll = (_state, _district) => {
-        if (_district === "All") return _state;
-        return _district
-    }
+        if (_district === 'All') return _state;
+        return _district;
+    };
 
     const mapDistrictToCity = (s) => {
         // checks if it exists maps "North Delhi" -> "Delhi"
@@ -102,67 +103,33 @@ export default function DetailedHome({ state, district, type }) {
                 .concat(this.Food)
                 .sort((record) => (isVerified(record.verification_status) ? -1 : 1));
         },
-        Oxygen: getOxygen(
-            parametreize(state),
-            parametreize(district),
-            true
-        ),
-        Medicine: medicineByDistrict(
-            parametreize(state),
-            parametreize(district),
-            true
-        ),
-        Hospital: hospitalByDistrict(
-            parametreize(state),
-            parametreize(district),
-            true
-        ),
-        Ambulance: getAmbulances(
-            parametreize(state),
-            parametreize(district),
-            true
-        ),
-        Helpline: helplineByDistrict(
-            parametreize(state),
-            parametreize(district),
-            true
-        ),
-        Vaccine: getVaccine(
-            parametreize(state),
-            parametreize(district),
-            true
-        ),
-        Food: getFood(
-            parametreize(state),
-            parametreize(district),
-            true
-        )
+        Oxygen: getOxygen(parametreize(state), parametreize(district), true),
+        Medicine: medicineByDistrict(parametreize(state), parametreize(district), true),
+        Hospital: hospitalByDistrict(parametreize(state), parametreize(district), true),
+        Ambulance: getAmbulances(parametreize(state), parametreize(district), true),
+        Helpline: helplineByDistrict(parametreize(state), parametreize(district), true),
+        Vaccine: getVaccine(parametreize(state), parametreize(district), true),
+        Food: getFood(parametreize(state), parametreize(district), true)
     };
 
     const handleChooseState = ({ target: { value } }) => {
         changeTabs('result');
         setStateChosen(value);
-        const newDistrict = "All";
+        const newDistrict = 'All';
         setDistrictChosen(newDistrict);
-        router.push(
-            generatePageURL(value, newDistrict, resourceChosen)
-        );
+        router.push(generatePageURL(value, newDistrict, resourceChosen));
     };
 
     const handleDistrictChange = ({ target: { value } }) => {
         changeTabs('result');
         setDistrictChosen(value);
-        router.push(
-            generatePageURL(stateChosen, value, resourceChosen)
-        );
+        router.push(generatePageURL(stateChosen, value, resourceChosen));
     };
 
     const handleResourceChange = ({ target: { value } }) => {
         changeTabs('result');
         setresourceChosen(value);
-        router.push(
-            generatePageURL(stateChosen, districtChosen, value)
-        );
+        router.push(generatePageURL(stateChosen, districtChosen, value));
     };
 
     return (
@@ -193,8 +160,7 @@ export default function DetailedHome({ state, district, type }) {
                         label={t.selectResource}
                     />
                     <div className="flex flex-col ml-0 md:ml-6 w-full md:w-min">
-                        <Link
-                            href={generatePageURL(stateChosen, districtChosen, resourceChosen)}>
+                        <Link href={generatePageURL(stateChosen, districtChosen, resourceChosen)}>
                             <button className="bg-indigo-600 hover:bg-indigo-700 w-full md:w-14 h-16 rounded-md cursor-pointer text-gray-200 flex justify-center items-center">
                                 <span>
                                     <FontAwesomeIcon icon={faSearch} className="w-5" />
@@ -206,7 +172,11 @@ export default function DetailedHome({ state, district, type }) {
                 </section>
                 {resourceChosen ? (
                     <>
-                        <HomeTabs tabVal={tabVal} onChange={changeTabs} resources={resources[resourceChosen]} />
+                        <HomeTabs
+                            tabVal={tabVal}
+                            onChange={changeTabs}
+                            resources={resources[resourceChosen]}
+                        />
                         <div style={{ minHeight: '315px' }}>
                             {tabVal === 'result' && (
                                 <div className="flex flex-col items-center justify-center">
@@ -221,7 +191,9 @@ export default function DetailedHome({ state, district, type }) {
                             )}
                             {tabVal === 'twitter' && (
                                 <TwitterContainer
-                                    searchStr={mapDistrictToCity(getStateIfDistrictAll(stateChosen, districtChosen))}
+                                    searchStr={mapDistrictToCity(
+                                        getStateIfDistrictAll(stateChosen, districtChosen)
+                                    )}
                                     resourceType={resourceChosen}
                                 />
                             )}
@@ -238,7 +210,9 @@ export default function DetailedHome({ state, district, type }) {
                                 <TwitterContainer
                                     noRes
                                     noResText={getStateIfDistrictAll(stateChosen, districtChosen)}
-                                    searchStr={mapDistrictToCity(getStateIfDistrictAll(stateChosen, districtChosen))}
+                                    searchStr={mapDistrictToCity(
+                                        getStateIfDistrictAll(stateChosen, districtChosen)
+                                    )}
                                     resourceType={resourceChosen}
                                 />
                             )}

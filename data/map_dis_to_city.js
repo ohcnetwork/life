@@ -31,6 +31,7 @@ export default {
     'Kabirdham (Kawardha)': 'Kabirdham',
     'Kanker (North Bastar)': 'Kanker',
     'Korea (Koriya)': 'Koriya',
+    'Delhi (NCT)': 'Delhi',
     'Central Delhi': 'Delhi',
     'East Delhi': 'Delhi',
     'New Delhi': 'Delhi',

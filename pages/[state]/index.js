@@ -28,9 +28,8 @@ export default function State({ state }) {
     return (
         <>
             <NextSeo {...SEO} />
-            <DetailedHome state={humanize(state)} type={resourceType} />
+            <DetailedHome key={state} state={humanize(state)} type={resourceType} />
         </>
-
     );
 }
 
