@@ -179,13 +179,15 @@ export default function DetailedHome({ state, district, type }) {
                         />
                         <div style={{ minHeight: '315px' }}>
                             {tabVal === 'result' && (
-                                <SearchResult
-                                    changeTabs={changeTabs}
-                                    currentLocation={currentLocation}
-                                    type={resourceChosen}
-                                    district={districtChosen}
-                                    resources={resources[resourceChosen]}
-                                />
+                                <div className="flex flex-col items-center justify-center">
+                                    <SearchResult
+                                        changeTabs={changeTabs}
+                                        currentLocation={currentLocation}
+                                        type={resourceChosen}
+                                        district={districtChosen}
+                                        resources={resources[resourceChosen]}
+                                    />
+                                </div>
                             )}
                             {tabVal === 'twitter' && (
                                 <TwitterContainer
