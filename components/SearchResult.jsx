@@ -12,7 +12,7 @@ const SearchResult = ({ resources, type, district, changeTabs, currentLocation }
         changeTabs('twitter_on_no_data');
     }
 
-    const itemsPerPage = 5;
+    const itemsPerPage = 25;
     const [currentPage, setCurrentPage] = useState(1);
     useEffect(() => setCurrentPage(1), [selectedFilter])
 
