@@ -90,9 +90,9 @@ const SearchResult = ({ resources, type, district, changeTabs, currentLocation }
                                 className="bg-red"
                                 innerClass="relative z-0 inline-flex rounded-md shadow-sm -space-x-px"
                                 itemClass="relative inline-flex items-center px-4 py-2 border border-gray-600 bg-white text-sm font-medium text-gray-900 hover:bg-gray-400"
-                                activeClass="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-gray-400 text-sm font-extrabold text-black"
-                                itemClassFirst="relative inline-flex items-center px-4 py-2 border border-gray-400 bg-white text-sm font-medium text-gray-700 hover:bg-gray-400 rounded-l"
-                                itemClassLast="relative inline-flex items-center px-4 py-2 border border-gray-400 bg-white text-sm font-medium text-gray-700 hover:bg-gray-400 rounded-r"
+                                activeClass="relative inline-flex items-center px-4 py-2 border border-gray-600 bg-gray-400 text-sm font-extrabold text-black"
+                                itemClassFirst="relative inline-flex items-center px-4 py-2 border border-gray-600 bg-white text-sm font-medium text-gray-700 hover:bg-gray-400 rounded-l"
+                                itemClassLast="relative inline-flex items-center px-4 py-2 border border-gray-600 bg-white text-sm font-medium text-gray-700 hover:bg-gray-400 rounded-r"
                             />
                         </div>
                     </>
