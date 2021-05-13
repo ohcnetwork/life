@@ -8,7 +8,6 @@ import { useRouter } from 'next/router';
 import { getHaversineDistance } from '@lib/utils';
 import Badge from './Badge';
 import Description from './Description';
-
 import FeedbackCounter from './FeedbackCounter';
 
 const ResourceCard = ({ data, type: filterType, currentLocation }) => {
@@ -21,7 +20,7 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
 
     // Metadata
     const { external_id: id, last_verified_on, verification_status } = data;
-    const { upvotes, downvotes } = data;
+    const { upvotes, downvotes, data_name } = data;
 
     // Oxygen Related Data
     const { quantity_available, price } = data;
@@ -43,7 +42,7 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
 
     const category = `${type}` + (resource_type ? ` - ${resource_type}` : '')
 
-    const directions = getGoogleMapsDirectionLink(latitude,longitude);
+    const directions = getGoogleMapsDirectionLink(latitude, longitude);
 
     return (
         <div id={id} className="max-w-3xl bg-white hover:bg-gray-100 dark:hover:bg-gray-1000 dark:bg-gray-1200 dark:text-gray-300 shadow-md rounded-md mx-2 md:mx-auto my-5 px-3 py-4">
@@ -64,7 +63,7 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
                     <div className="flex items-center dark:text-gray-500">
                         <FontAwesomeIcon icon={faMapMarkerAlt} className="w-5" />
                         <span className="ml-2 text-base xs:text-lg font-semibold">{district}</span>
-                        { directions.length > 0 &&
+                        {directions.length > 0 &&
                             <a className="ml-2" target="_blank" href={directions}>
                                 <button
                                     type="button"
@@ -167,10 +166,13 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
                         </div>
                     }
                     {
-                        source_link &&
-                        <div className="flex items-center justify-end mt-1 w-1/2 xs:w-auto">
+                        <div className="flex items-center justify-end text-right mt-1 w-1/2 xs:w-auto">
                             <FontAwesomeIcon icon={faLink} className="w-5" />
-                            <a href={source_link} className="ml-1 text-base xs:text-lg">Source</a>
+                            {
+                                source_link ?
+                                    <a href={source_link} className="ml-1 text-base xs:text-md">{data_name}</a>
+                                    : <span className="ml-1 text-base xs:text-md">{data_name}</span>
+                            }
                         </div>
                     }
                 </div>
@@ -191,18 +193,18 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
                     {/* <FeedbackCounter upvotes={upvotes} downvotes={downvotes} /> */}
                 </div>
                 <div className="flex items-center mx-1 mt-2 xs:my-0 xs:space-x-2">
-                { currentLocation && latitude && longitude && (
-                    <span className="text-xs mt-2 xs:my-0">
-                        <span className="text-secondary-400 dark:text-primary-300">Approximately</span>
-                        <span className="font-bold">
-                            &nbsp;{getHaversineDistance(currentLocation, {
-                                lat: latitude,
-                                lng: longitude
-                            })} Kms
+                    {currentLocation && latitude && longitude && (
+                        <span className="text-xs mt-2 xs:my-0">
+                            <span className="text-secondary-400 dark:text-primary-300">Approximately</span>
+                            <span className="font-bold">
+                                &nbsp;{getHaversineDistance(currentLocation, {
+                                    lat: latitude,
+                                    lng: longitude
+                                })} Kms
+                            </span>
+                            <span className="text-secondary-400 dark:text-primary-300">&nbsp;from your location</span>
                         </span>
-                        <span className="text-secondary-400 dark:text-primary-300">&nbsp;from your location</span>
-                    </span>
-                )}
+                    )}
                 </div>
             </div>
         </div>
