@@ -8,7 +8,6 @@ import { useRouter } from 'next/router';
 import { getHaversineDistance } from '@lib/utils';
 import Badge from './Badge';
 import Description from './Description';
-
 import FeedbackCounter from './FeedbackCounter';
 
 const ResourceCard = ({ data, type: filterType, currentLocation }) => {
@@ -21,7 +20,7 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
 
     // Metadata
     const { external_id: id, last_verified_on, verification_status } = data;
-    const { upvotes, downvotes } = data;
+    const { upvotes, downvotes, data_name } = data;
 
     // Oxygen Related Data
     const { quantity_available, price } = data;
@@ -167,10 +166,13 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
                         </div>
                     }
                     {
-                        source_link &&
-                        <div className="flex items-center justify-end mt-1 w-1/2 xs:w-auto">
+                        <div className="flex items-center justify-end text-right mt-1 w-1/2 xs:w-auto">
                             <FontAwesomeIcon icon={faLink} className="w-5" />
-                            <a href={source_link} className="ml-1 text-base xs:text-lg">Source</a>
+                            {
+                                source_link ?
+                                    <a href={source_link} className="ml-1 text-base xs:text-md">{data_name || "Source"}</a>
+                                    : <span className="ml-1 text-base xs:text-md">{data_name || "Source"}</span>
+                            }
                         </div>
                     }
                 </div>
@@ -198,10 +200,10 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
                             <span className="text-secondary-400 dark:text-primary-300">Approximately</span>
                             <span className="font-bold">
                                 &nbsp;{getHaversineDistance(currentLocation, {
-                                lat: latitude,
-                                lng: longitude
-                            })} Kms
-                        </span>
+                                    lat: latitude,
+                                    lng: longitude
+                                })} Kms
+                            </span>
                             <span className="text-secondary-400 dark:text-primary-300">&nbsp;from your location</span>
                         </span>
                     )}
