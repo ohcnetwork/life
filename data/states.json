@@ -1,9 +1,4 @@
 {
-    "Andaman and Nicobar Islands (UT)": [
-        "Nicobar",
-        "North and Middle Andaman",
-        "South Andaman"
-    ],
     "Andhra Pradesh": [
         "Anantapur",
         "Chittoor",
@@ -40,10 +35,10 @@
         "Namsai",
         "Changlang",
         "Tirap",
-        "Longding",
-        "Baksa"
+        "Longding"
     ],
     "Assam": [
+        "Baksa",
         "Barpeta",
         "Biswanath",
         "Bongaigaon",
@@ -146,11 +141,13 @@
         "Raipur",
         "Rajnandgaon",
         "Sukma",
-        "Surajpur ",
+        "Surajpur  ",
         "Surguja"
     ],
-    "Dadra and Nagar Haveli and Daman & Diu (UT)": [
-        "Dadra & Nagar Haveli",
+    "Dadra and Nagar Haveli (UT)": [
+        "Dadra & Nagar Haveli"
+    ],
+    "Daman and Diu (UT)": [
         "Daman",
         "Diu"
     ],
@@ -159,12 +156,12 @@
         "East Delhi",
         "New Delhi",
         "North Delhi",
-        "North East Delhi",
-        "North West Delhi",
+        "North East  Delhi",
+        "North West  Delhi",
         "Shahdara",
         "South Delhi",
         "South East Delhi",
-        "South West Delhi",
+        "South West  Delhi",
         "West Delhi"
     ],
     "Goa": [
@@ -244,7 +241,7 @@
         "Solan",
         "Una"
     ],
-    "Jammu & Kashmir (UT)": [
+    "Jammu and Kashmir": [
         "Anantnag",
         "Bandipore",
         "Baramulla",
@@ -252,10 +249,12 @@
         "Doda",
         "Ganderbal",
         "Jammu",
+        "Kargil",
         "Kathua",
         "Kishtwar",
         "Kulgam",
         "Kupwara",
+        "Leh",
         "Poonch",
         "Pulwama",
         "Rajouri",
@@ -339,10 +338,6 @@
         "Thiruvananthapuram",
         "Thrissur",
         "Wayanad"
-    ],
-    "Ladakh (UT)": [
-        "Leh",
-        "Kargil"
     ],
     "Lakshadweep (UT)": [
         "Agatti",
@@ -606,12 +601,14 @@
     ],
     "Tamil Nadu": [
         "Ariyalur",
+        "Chengalpattu",
         "Chennai",
         "Coimbatore",
         "Cuddalore",
         "Dharmapuri",
         "Dindigul",
         "Erode",
+        "Kallakurichi",
         "Kanchipuram",
         "Kanyakumari",
         "Karur",
@@ -625,11 +622,13 @@
         "Ramanathapuram",
         "Salem",
         "Sivaganga",
+        "Tenkasi",
         "Thanjavur",
         "Theni",
         "Thoothukudi (Tuticorin)",
         "Tiruchirappalli",
         "Tirunelveli",
+        "Tirupathur",
         "Tiruppur",
         "Tiruvallur",
         "Tiruvannamalai",
@@ -680,6 +679,21 @@
         "South Tripura",
         "Unakoti",
         "West Tripura"
+    ],
+    "Uttarakhand": [
+        "Almora",
+        "Bageshwar",
+        "Chamoli",
+        "Champawat",
+        "Dehradun",
+        "Haridwar",
+        "Nainital",
+        "Pauri Garhwal",
+        "Pithoragarh",
+        "Rudraprayag",
+        "Tehri Garhwal",
+        "Udham Singh Nagar",
+        "Uttarkashi"
     ],
     "Uttar Pradesh": [
         "Agra",
@@ -758,21 +772,6 @@
         "Unnao",
         "Varanasi"
     ],
-    "Uttarakhand": [
-        "Almora",
-        "Bageshwar",
-        "Chamoli",
-        "Champawat",
-        "Dehradun",
-        "Haridwar",
-        "Nainital",
-        "Pauri Garhwal",
-        "Pithoragarh",
-        "Rudraprayag",
-        "Tehri Garhwal",
-        "Udham Singh Nagar",
-        "Uttarkashi"
-    ],
     "West Bengal": [
         "Alipurduar",
         "Bankura",
@@ -784,13 +783,16 @@
         "Hooghly",
         "Howrah",
         "Jalpaiguri",
+        "Jhargram",
         "Kalimpong",
         "Kolkata",
         "Malda",
         "Murshidabad",
         "Nadia",
         "North 24 Parganas",
+        "Paschim Burdwan (West Bardhaman)",
         "Paschim Medinipur (West Medinipur)",
+        "Purba Burdwan (Bardhaman)",
         "Purba Medinipur (East Medinipur)",
         "Purulia",
         "South 24 Parganas",
