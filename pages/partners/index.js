@@ -48,7 +48,32 @@ const partners = [
         name: 'The Product Folks',
         logoURL: '/static/partners/the_product_folks.webp',
         url: 'https://www.theproductfolks.com/'
+    },
+    {
+        id: '8',
+        name: 'INDIA Vs COVID',
+        logoURL: '/static/partners/india_vs_covid.png',
+        url: '#!'
+    },
+    {
+        id: '8',
+        name: 'Covid Asha',
+        logoURL: '/static/partners/covid_asha.png',
+        url: '#!'
+    },
+    {
+        id: '8',
+        name: 'West Bengal Covid Aid Network',
+        logoURL: '/static/partners/wb_can.jpg',
+        url: 'https://www.wbcan.org/'
+    },
+    {
+        id: '8',
+        name: 'Child Rights and You',
+        logoURL: '/static/partners/child_rights_and_you.png',
+        url: 'https://www.cry.org/'
     }
+
 ];
 
 const Partners = () => {
