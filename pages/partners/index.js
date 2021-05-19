@@ -56,22 +56,28 @@ const partners = [
         url: '#!'
     },
     {
-        id: '8',
+        id: '9',
         name: 'Covid Asha',
         logoURL: '/static/partners/covid_asha.png',
-        url: '#!'
+        url: 'https://www.covidasha.org/'
     },
     {
-        id: '8',
+        id: '10',
         name: 'West Bengal Covid Aid Network',
         logoURL: '/static/partners/wb_can.jpg',
         url: 'https://www.wbcan.org/'
     },
     {
-        id: '8',
+        id: '11',
         name: 'Child Rights and You',
         logoURL: '/static/partners/child_rights_and_you.png',
         url: 'https://www.cry.org/'
+    },
+    {
+        id: '12',
+        name: 'The Skill Bridge',
+        logoURL: '/static/partners/the_skill_bridge.png',
+        url: 'https://www.theskillbridge.org/'
     }
 
 ];
