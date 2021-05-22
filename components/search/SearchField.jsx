@@ -49,10 +49,7 @@ const SearchField = ({ isFocus, onFocus, resource, setResource }) => {
     }
 
     const handleTabChange = (name) => {
-        setResource(name)
-        setTimeout(() => {
-            document.getElementById("searchField")?.focus();
-        }, 500)
+        setResource(name);
     }
 
     return (
