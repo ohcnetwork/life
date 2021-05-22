@@ -78,6 +78,12 @@ const partners = [
         name: 'The Skill Bridge',
         logoURL: '/static/partners/the_skill_bridge.png',
         url: 'https://www.theskillbridge.org/'
+    },
+    {
+        id: '13',
+        name: 'Chikitsa',
+        logoURL: '/static/partners/chikitsa.png',
+        url: 'https://chikitsatrust.org/'
     }
 
 ];
