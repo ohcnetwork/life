@@ -14,7 +14,7 @@ const Feedback = () => {
             {close => (
                 <div className = "max-w-3xl bg-white hover:bg-gray-100 relative dark:hover:bg-gray-1000 dark:bg-gray-1200 dark:text-gray-300 shadow-md rounded-md md:mx-auto px-3 py-4">
                     <div>
-                        <button className = "cursor-pointer block py-2 px-5 absolute right-0 top-0" onClick={close}>&times;</button>
+                        <button className = "cursor-pointer block py-2 px-5 absolute -right-10 -top-10 text-lg" onClick={close}>&times;</button>
                     </div>
                 </div>
             )}
