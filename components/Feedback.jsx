@@ -1,6 +1,6 @@
 import axios from 'axios';
-import React, { useState, useEffect } from 'react';
-import { GoogleReCaptcha, GoogleReCaptchaProvider } from 'react-google-recaptcha-v3'
+import React, { useState } from 'react'
+import { useGoogleReCaptcha } from 'react-google-recaptcha-v3'
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -17,13 +17,13 @@ const choices = [
 const Feedback = ({ external_id }) => {
     const [loading, setLoading] = useState(false)
     const [showFeedback, setShowFeedback] = useState(false)
-    const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_KEY
+    const { executeRecaptcha } = useGoogleReCaptcha()
 
-    const FeedbackButton = ({ onClick }) => {
+    const FeedbackButton = () => {
         return (
             <button
                 className="mx-1 my-2 bg-indigo-600 hover:bg-indigo-700 w-full h-10 rounded-md cursor-pointer text-gray-200"
-                onClick={onClick}
+                onClick={() => setShowFeedback(!showFeedback)}
             >
                 {showFeedback ? 'Close' : 'Give feedback'}
             </button>
@@ -34,7 +34,7 @@ const Feedback = ({ external_id }) => {
         return choices.map((choice, i) => (
             <button
                 className="py-2 border-gray-100 border-2 mx-2"
-                onClick={e => handleCaptcha(e, choice.value)}
+                onClick={e => handleChoiceSubmission(e, choice.value)}
                 key={i}
             >
                 {!loading ? choice.name : (
@@ -44,44 +44,17 @@ const Feedback = ({ external_id }) => {
         ))
     }
 
-    useEffect(() => {
-        const loadScriptByURL = (id, url, callback) => {
-            const isScriptExist = document.getElementById(id);
-
-            if (!isScriptExist) {
-                var script = document.createElement("script");
-                script.type = "text/javascript";
-                script.src = url;
-                script.id = id;
-                script.onload = function () {
-                    if (callback) callback();
-                };
-                document.body.appendChild(script);
-            }
-
-            if (isScriptExist && callback) callback();
-        }
-
-        loadScriptByURL("recaptcha-key", `https://www.google.com/recaptcha/api.js?render=${SITE_KEY}`, function () {
-            console.log("Script loaded!");
-        });
-    }, [SITE_KEY]);
-
-    const handleCaptcha = (e, feedback) => {
+    const handleChoiceSubmission = async (e, feedback) => {
         e.preventDefault()
-        window.grecaptcha.execute(SITE_KEY, { action: 'submit' }).then(token => {
-            console.log(token)
-            handleSubmit(token, feedback)
-        })
-    }
-
-    const handleSubmit = async (token, feedback) => {
         setLoading(true)
+
+        const token = await executeRecaptcha('choice')
         const res = await axios.post(process.env.NEXT_PUBLIC_FEEDBACK_API, {
             feedback,
             external_id,
             "g-recaptcha-response": token
         })
+
         setLoading(false)
         setShowFeedback(false)
 
@@ -102,21 +75,13 @@ const Feedback = ({ external_id }) => {
 
     return (
         <div>
-            {!showFeedback && (
-                <FeedbackButton onClick={() => setShowFeedback(true)} />
-            )}
-
-            {
-                showFeedback && (
-                    <div className="grid grid-flow-col grid-cols-2 grid-flow-row auto-rows-max gap-4 px-1 py-2">
-                        <ChoicesButton />
-                    </div>
-                )
-            }
-
             {showFeedback && (
-                <FeedbackButton onClick={() => setShowFeedback(false)} />
+                <div className="grid grid-flow-col grid-cols-2 grid-flow-row auto-rows-max gap-4 px-1 py-2">
+                    <ChoicesButton />
+                </div>
             )}
+
+            <FeedbackButton />
         </div>
     )
 }

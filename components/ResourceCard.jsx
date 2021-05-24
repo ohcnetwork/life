@@ -10,6 +10,7 @@ import Badge from './Badge';
 import Description from './Description';
 import FeedbackCounter from './FeedbackCounter';
 import Feedback from './Feedback'
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3'
 
 const ResourceCard = ({ data, type: filterType, currentLocation }) => {
 
@@ -28,7 +29,6 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
 
     // coordinates Data
     const { latitude, longitude } = data;
-    const { SITE_KEY } = process.env
 
     // Hospital Related Data
     const {
@@ -41,6 +41,7 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
     const { asPath } = useRouter();
     const pageUrl = `https://liferesources.in${asPath}`;
     const copyText = copyTextGenerator({ name: title, id, phone: (phone_1 || phone_2 || "No Phone"), type: type }, pageUrl);
+    const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_KEY
 
     const category = `${type}` + (resource_type ? ` - ${resource_type}` : '')
 
@@ -212,7 +213,9 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
                 </div>
             </div>
 
-            <Feedback external_id={id} />
+            <GoogleReCaptchaProvider reCaptchaKey={SITE_KEY} scriptProps={{ async: true, defer: true }}>
+                <Feedback external_id={id} />
+            </GoogleReCaptchaProvider>
 
         </div>
     );
