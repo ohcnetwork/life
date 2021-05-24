@@ -7,6 +7,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSpinner } from '@fortawesome/free-solid-svg-icons'
 
 const MySwal = withReactContent(Swal)
+const choices = [
+    { name: 'Upvote', value: 0 },
+    { name: 'Downvote', value: 1 },
+    { name: 'Verified And Available', value: 2 },
+    { name: 'Verified And Unavailable', value: 3 }
+]
 
 const Feedback = ({ external_id }) => {
     const [loading, setLoading] = useState(false)
@@ -22,6 +28,20 @@ const Feedback = ({ external_id }) => {
                 {showFeedback ? 'Close' : 'Give feedback'}
             </button>
         )
+    }
+
+    const ChoicesButton = () => {
+        return choices.map((choice, i) => (
+            <button
+                className="py-2 border-gray-100 border-2 mx-2"
+                onClick={e => handleCaptcha(e, choice.value)}
+                key={i}
+            >
+                {!loading ? choice.name : (
+                    <FontAwesomeIcon icon={faSpinner} spin />
+                )}
+            </button>
+        ))
     }
 
     useEffect(() => {
@@ -88,46 +108,8 @@ const Feedback = ({ external_id }) => {
 
             {
                 showFeedback && (
-                    <div>
-                        <div className="w-full flex flex-wrap">
-                            <button
-                                className="flex-1 sm:block py-2 border-gray-100 border-2 mx-2"
-                                onClick={(e) => handleCaptcha(e, 2)}
-                            >
-                                {!loading &&
-                                    <span> Verified and Available </span>
-                                }
-                                {
-                                    loading && (
-                                        <FontAwesomeIcon
-                                            icon={faSpinner}
-                                            spin
-                                        />
-                                    )
-                                }
-                            </button>
-                            <button
-                                className="flex-1 py-2 border-gray-100 border-2 mx-2"
-                                onClick={(e) => handleCaptcha(e, 3)}
-                            >
-                                Verified and Unavailable
-                            </button>
-                        </div>
-
-                        <div className="w-full flex py-2">
-                            <button
-                                className="flex-1 py-2 border-gray-100 border-2 mx-2"
-                                onClick={(e) => handleCaptcha(e, 0)}
-                            >
-                                Upvote
-                            </button>
-                            <button
-                                className="flex-1 py-2 border-gray-100 border-2 mx-2"
-                                onClick={(e) => handleCaptcha(e, 1)}
-                            >
-                                Downvote
-                            </button>
-                        </div>
+                    <div className="grid grid-flow-col grid-cols-2 grid-flow-row auto-rows-max gap-4 px-1 py-2">
+                        <ChoicesButton />
                     </div>
                 )
             }
