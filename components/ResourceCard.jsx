@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 import { getHaversineDistance } from '@lib/utils';
 import Badge from './Badge';
 import Description from './Description';
-import FeedbackCounter from './FeedbackCounter';
+import Feedback from './Feedback'
 
 const ResourceCard = ({ data, type: filterType, currentLocation }) => {
 
@@ -209,6 +209,8 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
                     )}
                 </div>
             </div>
+
+            <Feedback external_id={id} />
         </div>
     );
 }
