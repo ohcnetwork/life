@@ -1,7 +1,6 @@
+import axios from 'axios';
 import React, { useState, useEffect } from 'react';
-import ReCAPTCHA from 'react-google-recaptcha'
 import { GoogleReCaptcha, GoogleReCaptchaProvider } from 'react-google-recaptcha-v3'
-import 'reactjs-popup/dist/index.css';
 
 const Feedback = ({ external_id }) => {
     const [showFeedback, setShowFeedback] = useState(false)
@@ -38,20 +37,19 @@ const Feedback = ({ external_id }) => {
         })
     }
 
-    const handleSubmit = (token, feedback) => {
-        fetch(process.env.NEXT_PUBLIC_FEEDBACK_API, {
-            method: 'POST',
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                "feedback": feedback,
-                "external_id": external_id,
-                "g-recaptcha-response": token
-            })
-        }).then(res => {
-            console.log(res)
-        });
+    const handleSubmit = async (token, feedback) => {
+        const res = await axios.post(process.env.NEXT_PUBLIC_FEEDBACK_API, {
+            feedback,
+            external_id,
+            "g-recaptcha-response": token
+        })
+
+        if (res.status !== 200) {
+            // report error
+        } else {
+            // report success
+            console.log(res.data)
+        }
     }
 
     return (
