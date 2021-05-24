@@ -1,6 +1,10 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import { GoogleReCaptcha, GoogleReCaptchaProvider } from 'react-google-recaptcha-v3'
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
+const MySwal = withReactContent(Swal)
 
 const Feedback = ({ external_id }) => {
     const [showFeedback, setShowFeedback] = useState(false)
@@ -45,11 +49,18 @@ const Feedback = ({ external_id }) => {
         })
 
         if (res.status !== 200) {
-            // report error
-        } else {
-            // report success
-            console.log(res.data)
+            return MySwal.fire({
+                icon: 'error',
+                titleText: res?.data?.type || 'Error',
+                text: res?.data?.message || 'We could not submit feedback'
+            })
         }
+
+        MySwal.fire({
+            icon: 'success',
+            titleText: res.data.type,
+            text: res.data.message
+        })
     }
 
     return (
