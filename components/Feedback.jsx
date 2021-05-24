@@ -13,6 +13,17 @@ const Feedback = ({ external_id }) => {
     const [showFeedback, setShowFeedback] = useState(false)
     const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_KEY
 
+    const FeedbackButton = ({ onClick }) => {
+        return (
+            <button
+                className="mx-1 my-2 bg-indigo-600 hover:bg-indigo-700 w-full h-10 rounded-md cursor-pointer text-gray-200"
+                onClick={onClick}
+            >
+                {showFeedback ? 'Close' : 'Give feedback'}
+            </button>
+        )
+    }
+
     useEffect(() => {
         const loadScriptByURL = (id, url, callback) => {
             const isScriptExist = document.getElementById(id);
@@ -72,12 +83,7 @@ const Feedback = ({ external_id }) => {
     return (
         <div>
             {!showFeedback && (
-                <button
-                    className="mx-1 my-2 bg-indigo-600 hover:bg-indigo-700 w-full h-10 rounded-md cursor-pointer text-gray-200"
-                    onClick={() => setShowFeedback(true)}
-                >
-                    Give feedback
-                </button>
+                <FeedbackButton onClick={() => setShowFeedback(true)} />
             )}
 
             {
@@ -127,12 +133,7 @@ const Feedback = ({ external_id }) => {
             }
 
             {showFeedback && (
-                <button
-                    className="mx-1 my-2 bg-indigo-600 hover:bg-indigo-700 w-full h-10 rounded-md cursor-pointer text-gray-200"
-                    onClick={() => setShowFeedback(false)}
-                >
-                    Cancel
-                </button>
+                <FeedbackButton onClick={() => setShowFeedback(false)} />
             )}
         </div>
     )

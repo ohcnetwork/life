@@ -2132,6 +2132,11 @@ domain-browser@^1.1.1:
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.2.0.tgz#3d31f50191a6749dd1375a7f522e823d42e54eda"
   integrity sha512-jnjyiM6eRyZl2H+W8Q/zLMA481hzi0eszAaBUzIVnmYVDBbnLxVNnfu1HgEBvCbL+71FrxMl3E6lpKH7Ge3OXA==
 
+dotenv@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
+  integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
+
 ejs@^2.6.1:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.7.4.tgz#48661287573dcc53e366c7a1ae52c3a120eec9ba"
@@ -2567,7 +2572,7 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.3.2:
+hoist-non-react-statics@3.3.2, hoist-non-react-statics@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
@@ -3845,6 +3850,13 @@ react-dom@17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
+react-google-recaptcha-v3@^1.9.4:
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/react-google-recaptcha-v3/-/react-google-recaptcha-v3-1.9.4.tgz#9121d8cda048ae6f6014d198c3f7f39d3295ea90"
+  integrity sha512-WfDzE6WxhM6N2hEGUvPsRPvnxE/fLLEER4g8GAdqExW+MI7MCEjDIpsVkQtNvYo6H2/XRvUjcHStEp9sk0trVg==
+  dependencies:
+    hoist-non-react-statics "3.3.2"
+
 react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -4426,6 +4438,16 @@ supports-color@^8.0.0:
   integrity sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==
   dependencies:
     has-flag "^4.0.0"
+
+sweetalert2-react-content@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/sweetalert2-react-content/-/sweetalert2-react-content-4.0.1.tgz#fdbbc0010095ec9aaccb5549a8f9f57500aa477e"
+  integrity sha512-vS7/k1BplmX72O0lFp2eG7+FsCvrZ9VOgKNHE2wUx1tbeKx+DLEPgAHnQ19DNhbdleRTW8o998atBmYjCkdg7Q==
+
+sweetalert2@^11.0.11:
+  version "11.0.11"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.0.11.tgz#13bc8312244c94894ec0bb2b80670e1b0f1c17e2"
+  integrity sha512-3xO4NI9mfO/9UImBu0Kym4tHEPQClxucLzBl9R8PPphNrdpen0TyWWBggz/EKCnidQfXYmt9R3pOr6CK4EQMwQ==
 
 tailwindcss@^2.1.1:
   version "2.1.2"
