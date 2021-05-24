@@ -21,7 +21,6 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
     // Metadata
     const { external_id: id, last_verified_on, verification_status } = data;
     const { upvotes, downvotes, data_name } = data;
-    console.log(data)
 
     // Oxygen Related Data
     const { quantity_available, price } = data;
