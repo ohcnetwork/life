@@ -1,11 +1,12 @@
-import axios from 'axios';
-import React, { useState } from 'react'
-import { useGoogleReCaptcha } from 'react-google-recaptcha-v3'
+import axios from 'axios'
 import Swal from 'sweetalert2'
+import React, { useState } from 'react'
 import withReactContent from 'sweetalert2-react-content'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSpinner } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { useGoogleReCaptcha, GoogleReCaptchaProvider } from 'react-google-recaptcha-v3'
 
+const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_KEY
 const MySwal = withReactContent(Swal)
 const choices = [
     { name: 'Upvote', value: 0 },
@@ -86,4 +87,12 @@ const Feedback = ({ external_id }) => {
     )
 }
 
-export default Feedback;
+const FeedbackWrapper = ({ external_id }) => {
+    return (
+        <GoogleReCaptchaProvider reCaptchaKey={SITE_KEY} scriptProps={{ async: true, defer: true }}>
+            <Feedback external_id={external_id} />
+        </GoogleReCaptchaProvider>
+    )
+}
+
+export default FeedbackWrapper
