@@ -1,14 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Popup from 'reactjs-popup';
 import ReCAPTCHA from 'react-google-recaptcha'
 import { GoogleReCaptcha, GoogleReCaptchaProvider } from 'react-google-recaptcha-v3'
 import 'reactjs-popup/dist/index.css';
-
-const FeedbackButton = React.forwardRef(({ open, ...props }, ref) => (
-    <button className="mx-1 my-2 bg-indigo-600 hover:bg-indigo-700 w-full h-10 rounded-md cursor-pointer text-gray-200" ref={ref} {...props}>
-        Give feedback
-    </button>
-))
 
 const Feedback = ({ external_id }) => {
     const [showFeedback, setShowFeedback] = useState(false)
@@ -37,11 +30,6 @@ const Feedback = ({ external_id }) => {
         });
     }, [SITE_KEY]);
 
-    const handleClick = (f) => {
-        setFeedback(f)
-        setShowRecaptcha(true)
-    }
-
     const handleCaptcha = (e, feedback) => {
         e.preventDefault()
         window.grecaptcha.execute(SITE_KEY, { action: 'submit' }).then(token => {
@@ -67,38 +55,6 @@ const Feedback = ({ external_id }) => {
     }
 
     return (
-        // <Popup trigger={open => <FeedbackButton open={open} />} position="right center" modal={true} nested>
-        //     {close => (
-        //         <div className = "max-w-3xl bg-white hover:bg-gray-100 relative dark:hover:bg-gray-1000 dark:bg-gray-1200 dark:text-gray-300 shadow-md rounded-md md:mx-auto px-3 py-4">
-        //             <div>
-        //                 <button
-        //                     className="cursor-pointer block py-2 px-5 absolute -right-10 -top-10 text-2xl rounded-full"
-        //                     onClick={close}>
-        //                     &times;
-        //                 </button>
-        //             </div>
-
-        //             <div>
-        //                 <button onClick={(e) => handleCaptcha(e, 2)}>Verified and Available</button>
-        //             </div>
-
-        //             <div>
-        //                 <button onClick={() => handleClick(3)}>Verified and Unavailable</button>
-        //             </div>
-
-        //             {
-        //                 // showRecaptcha && (
-        //                 //     <div>
-        //                 //         {/* <ReCAPTCHA sitekey="6LfdIMcaAAAAAMDJOQu8HBAAAnag6uuct7vkbSIK" onChange={handleCaptcha} /> */}
-        //                 //         <GoogleReCaptchaProvider reCaptchaKey="6LfdIMcaAAAAAMDJOQu8HBAAAnag6uuct7vkbSIK">
-        //                 //             <GoogleReCaptcha onVerify={handleCaptcha} />
-        //                 //         </GoogleReCaptchaProvider>
-        //                 //     </div>
-        //                 // )
-        //             }
-        //         </div>
-        //     )}
-        // </Popup>
         <div>
             {!showFeedback && (
                 <button
