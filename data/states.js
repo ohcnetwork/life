@@ -35,7 +35,9 @@ export const stateJsonData = {
         'Namsai',
         'Changlang',
         'Tirap',
-        'Longding'
+        'Longding',
+        'Pakke-Kessang',
+        'Shi Yomi'
     ],
     Assam: [
         'Baksa',
@@ -70,7 +72,9 @@ export const stateJsonData = {
         'South Salmara-Mankachar',
         'Tinsukia',
         'Udalguri',
-        'West Karbi Anglong'
+        'West Karbi Anglong',
+        'Biswanath ',
+        'Bajali'
     ],
     Bihar: [
         'Araria',
@@ -448,7 +452,8 @@ export const stateJsonData = {
         'Tamenglong',
         'Tengnoupal',
         'Thoubal',
-        'Ukhrul'
+        'Ukhrul',
+        'Kangpokpi (Sadar Hills)'
     ],
     Meghalaya: [
         'East Garo Hills',
@@ -471,7 +476,10 @@ export const stateJsonData = {
         'Lunglei',
         'Mamit',
         'Saiha',
-        'Serchhip'
+        'Serchhip',
+        'Hnahthial',
+        'Khawzawl',
+        'Saitual'
     ],
     Nagaland: [
         'Dimapur',
@@ -484,7 +492,8 @@ export const stateJsonData = {
         'Phek',
         'Tuensang',
         'Wokha',
-        'Zunheboto'
+        'Zunheboto',
+        'Noklak'
     ],
     Odisha: [
         'Angul',

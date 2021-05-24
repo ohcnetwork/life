@@ -35,7 +35,9 @@
         "Namsai",
         "Changlang",
         "Tirap",
-        "Longding"
+        "Longding",
+        "Pakke-Kessang",
+        "Shi Yomi"
     ],
     "Assam": [
         "Baksa",
@@ -70,7 +72,9 @@
         "South Salmara-Mankachar",
         "Tinsukia",
         "Udalguri",
-        "West Karbi Anglong"
+        "West Karbi Anglong",
+        "Biswanath ",
+        "Bajali"
     ],
     "Bihar": [
         "Araria",
@@ -458,7 +462,8 @@
         "Tamenglong",
         "Tengnoupal",
         "Thoubal",
-        "Ukhrul"
+        "Ukhrul",
+        "Kangpokpi (Sadar Hills)"
     ],
     "Meghalaya": [
         "East Garo Hills",
@@ -481,7 +486,10 @@
         "Lunglei",
         "Mamit",
         "Saiha",
-        "Serchhip"
+        "Serchhip",
+        "Hnahthial",
+        "Khawzawl",
+        "Saitual"
     ],
     "Nagaland": [
         "Dimapur",
@@ -494,7 +502,8 @@
         "Phek",
         "Tuensang",
         "Wokha",
-        "Zunheboto"
+        "Zunheboto",
+        "Noklak"
     ],
     "Odisha": [
         "Angul",
