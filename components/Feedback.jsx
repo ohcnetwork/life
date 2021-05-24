@@ -3,10 +3,13 @@ import React, { useState, useEffect } from 'react';
 import { GoogleReCaptcha, GoogleReCaptchaProvider } from 'react-google-recaptcha-v3'
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSpinner } from '@fortawesome/free-solid-svg-icons'
 
 const MySwal = withReactContent(Swal)
 
 const Feedback = ({ external_id }) => {
+    const [loading, setLoading] = useState(false)
     const [showFeedback, setShowFeedback] = useState(false)
     const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_KEY
 
@@ -42,11 +45,14 @@ const Feedback = ({ external_id }) => {
     }
 
     const handleSubmit = async (token, feedback) => {
+        setLoading(true)
         const res = await axios.post(process.env.NEXT_PUBLIC_FEEDBACK_API, {
             feedback,
             external_id,
             "g-recaptcha-response": token
         })
+        setLoading(false)
+        setShowFeedback(false)
 
         if (res.status !== 200) {
             return MySwal.fire({
@@ -82,7 +88,17 @@ const Feedback = ({ external_id }) => {
                                 className="flex-1 sm:block py-2 border-gray-100 border-2 mx-2"
                                 onClick={(e) => handleCaptcha(e, 2)}
                             >
-                                Verified and Available
+                                {!loading &&
+                                    <span> Verified and Available </span>
+                                }
+                                {
+                                    loading && (
+                                        <FontAwesomeIcon
+                                            icon={faSpinner}
+                                            spin
+                                        />
+                                    )
+                                }
                             </button>
                             <button
                                 className="flex-1 py-2 border-gray-100 border-2 mx-2"
