@@ -28,6 +28,7 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
 
     // coordinates Data
     const { latitude, longitude } = data;
+    const { SITE_KEY } = process.env
 
     // Hospital Related Data
     const {
@@ -211,7 +212,7 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
                 </div>
             </div>
 
-            <Feedback />
+            <Feedback external_id={id} />
 
         </div>
     );
