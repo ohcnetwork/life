@@ -12,7 +12,7 @@ const FeedbackButton = React.forwardRef(({ open, ...props }, ref) => (
 
 const Feedback = ({ external_id }) => {
     const [showFeedback, setShowFeedback] = useState(false)
-    const SITE_KEY = "6LfdIMcaAAAAAMDJOQu8HBAAAnag6uuct7vkbSIK"
+    const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_KEY
 
     useEffect(() => {
         const loadScriptByURL = (id, url, callback) => {
@@ -51,7 +51,7 @@ const Feedback = ({ external_id }) => {
     }
 
     const handleSubmit = (token, feedback) => {
-        fetch('https://life-pipeline.coronasafe.network/api/feedback', {
+        fetch(process.env.NEXT_PUBLIC_FEEDBACK_API, {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
