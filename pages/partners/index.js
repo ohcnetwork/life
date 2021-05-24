@@ -84,6 +84,18 @@ const partners = [
         name: 'Chikitsa',
         logoURL: '/static/partners/chikitsa.png',
         url: 'https://chikitsatrust.org/'
+    },
+    {
+        id: '14',
+        name: 'Fact Checker',
+        logoURL: '/static/partners/fact_checker.png',
+        url: 'https://www.factchecker.in/'
+    },
+    {
+        id: '15',
+        name: 'Medneed',
+        logoURL: '/static/partners/medneed.jpeg',
+        url: 'https://www.instagram.com/medneed_india'
     }
 
 ];
