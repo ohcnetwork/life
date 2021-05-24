@@ -96,6 +96,19 @@ const partners = [
         name: 'Medneed',
         logoURL: '/static/partners/medneed.jpeg',
         url: 'https://www.instagram.com/medneed_india'
+    },
+    {
+        id: '16',
+        name: 'Myntra',
+        logoURL: '/static/partners/myntra.png',
+        url: 'https://www.myntra.com/'
+    }
+    ,
+    {
+        id: '17',
+        name: 'Ashoka University',
+        logoURL: '/static/partners/ashoka_university.jpg',
+        url: 'https://www.ashoka.edu.in/'
     }
 
 ];
