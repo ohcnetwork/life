@@ -744,6 +744,7 @@ export const stateJsonData = {
         'Mirzapur',
         'Moradabad',
         'Muzaffarnagar',
+        'Noida',
         'Pilibhit',
         'Pratapgarh',
         'RaeBareli',
