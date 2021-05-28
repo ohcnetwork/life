@@ -1,6 +1,6 @@
 import { faThumbsDown, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios'
 import { useGoogleReCaptcha, GoogleReCaptchaProvider } from 'react-google-recaptcha-v3'
 
@@ -8,25 +8,31 @@ const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_KEY
 
 const FeedbackCounter = ({ external_id, upvotes, downvotes }) => {
 
-    // This state is just used for re-rendering the component
-    const [_, setReload] = useState(false);
+    const [isUpvote, setIsUpvote] = useState(false);
+    const [isDownvote, setIsDownvote] = useState(false);
     const { executeRecaptcha } = useGoogleReCaptcha()
 
-    const isUpvote = (() => {
-        if (typeof window !== 'undefined') {
-            const allUpvotes = JSON.parse(localStorage.getItem("upvotes") || "{}");
-            return external_id in allUpvotes;
-        }
-        return false;
-    })()
+    useEffect(() => {
+        if (typeof executeRecaptcha !== 'undefined') {
+            const isUpvoted = (() => {
+                if (typeof window !== 'undefined') {
+                    const allUpvotes = JSON.parse(localStorage.getItem("upvotes") || "{}");
+                    return external_id in allUpvotes;
+                }
+                return false;
+            })()
 
-    const isDownvote = (() => {
-        if (typeof window !== 'undefined') {
-            const allDownvotes = JSON.parse(localStorage.getItem("downvotes") || "{}");
-            return external_id in allDownvotes;
+            const isDownvoted = (() => {
+                if (typeof window !== 'undefined') {
+                    const allDownvotes = JSON.parse(localStorage.getItem("downvotes") || "{}");
+                    return external_id in allDownvotes;
+                }
+                return false;
+            })()
+            setIsUpvote(isUpvoted);
+            setIsDownvote(isDownvoted);
         }
-        return false;
-    })()
+    }, [executeRecaptcha])
 
     const handleUpvote = () => {
         if (typeof window !== 'undefined') {
@@ -34,8 +40,8 @@ const FeedbackCounter = ({ external_id, upvotes, downvotes }) => {
             allUpvotes[external_id] = true
             localStorage.setItem("upvotes", JSON.stringify(allUpvotes))
         }
-        // handleChoiceSubmission(0)
-        setReload(prev => !prev);
+        try { handleChoiceSubmission(0) } catch (_) { }
+        setIsUpvote(true);
     }
 
     const handleDownvote = () => {
@@ -44,8 +50,8 @@ const FeedbackCounter = ({ external_id, upvotes, downvotes }) => {
             allDownvotes[external_id] = true
             localStorage.setItem("downvotes", JSON.stringify(allDownvotes))
         }
-        // handleChoiceSubmission(1)
-        setReload(prev => !prev);
+        try { handleChoiceSubmission(1) } catch (_) { }
+        setIsDownvote(true);
     }
 
     const handleChoiceSubmission = async (feedback) => {
@@ -58,24 +64,21 @@ const FeedbackCounter = ({ external_id, upvotes, downvotes }) => {
         })
     }
 
-    // For Disabling the button
-    // Refer: https://stackoverflow.com/a/29103727/11566161
-
     return (
         <React.Fragment>
             <button
                 onClick={handleUpvote}
-                {...{ disabled: isUpvote }}
+                disabled={isUpvote}
                 className={"px-2 py-1 md:px-3 md:py-2 mr-2 rounded-full flex items-center bg-gray-100 dark:bg-gray-900 dark:text-gray-200 cursor-pointer dark:disabled:bg-gray-300 dark:disabled:text-gray-900 disabled:cursor-not-allowed"}>
                 <FontAwesomeIcon icon={faThumbsUp} className="w-2 h-2 dark:text-primary-500" />
-                <span className="text-xs ml-2">{upvotes + Number(isUpvote)}</span>
+                <span className="text-xs ml-2">{Number(upvotes) + Number(isUpvote)}</span>
             </button>
             <button
                 onClick={handleDownvote}
-                {...{ disabled: isDownvote }}
+                disabled={isDownvote}
                 className={"px-2 py-1 md:px-3 md:py-2 rounded-full flex items-center bg-gray-100 dark:bg-gray-900 dark:text-gray-200 cursor-pointer dark:disabled:bg-gray-300 dark:disabled:text-gray-900 disabled:cursor-not-allowed"}>
                 <FontAwesomeIcon icon={faThumbsDown} className="w-2 h-2 dark:text-primary-500" />
-                <span className="text-xs ml-2">{downvotes + Number(isDownvote)}</span>
+                <span className="text-xs ml-2">{Number(downvotes) + Number(isDownvote)}</span>
             </button>
         </React.Fragment>
     );
