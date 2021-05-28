@@ -81,9 +81,9 @@ const partners = [
     },
     {
         id: '13',
-        name: 'Chikitsa',
-        logoURL: '/static/partners/chikitsa.png',
-        url: 'https://chikitsatrust.org/'
+        name: 'Rapid Leads',
+        logoURL: '/static/partners/rapid_leads.jpeg',
+        url: 'https://rapidleads.glideapp.io/'
     },
     {
         id: '14',
@@ -102,13 +102,25 @@ const partners = [
         name: 'Myntra',
         logoURL: '/static/partners/myntra.png',
         url: 'https://www.myntra.com/'
-    }
-    ,
+    },
     {
         id: '17',
         name: 'Ashoka University',
         logoURL: '/static/partners/ashoka_university.jpg',
         url: 'https://www.ashoka.edu.in/'
+    },
+    {
+        id: '18',
+        name: 'Global Volunteers Action Network',
+        logoURL: '/static/partners/gvan.png',
+        url: 'https://globalvolunteersactionnetwork.in'
+    },
+    {
+        id: '19',
+        name: 'Verified Leads',
+        logoURL: '/static/partners/verified_leads.png',
+        url: 'https://verifiedcovidleads.com/'
+        
     }
 
 ];
