@@ -34,8 +34,8 @@ const FeedbackCounter = ({ external_id, upvotes, downvotes }) => {
             allUpvotes[external_id] = true
             localStorage.setItem("upvotes", JSON.stringify(allUpvotes))
         }
-        handleChoiceSubmission(0)
-        setReload()
+        // handleChoiceSubmission(0)
+        setReload(prev => !prev);
     }
 
     const handleDownvote = () => {
@@ -44,8 +44,8 @@ const FeedbackCounter = ({ external_id, upvotes, downvotes }) => {
             allDownvotes[external_id] = true
             localStorage.setItem("downvotes", JSON.stringify(allDownvotes))
         }
-        handleChoiceSubmission(1)
-        setReload()
+        // handleChoiceSubmission(1)
+        setReload(prev => !prev);
     }
 
     const handleChoiceSubmission = async (feedback) => {
@@ -58,19 +58,22 @@ const FeedbackCounter = ({ external_id, upvotes, downvotes }) => {
         })
     }
 
+    // For Disabling the button
+    // Refer: https://stackoverflow.com/a/29103727/11566161
+
     return (
         <React.Fragment>
             <button
                 onClick={handleUpvote}
-                disabled={isUpvote}
-                className={"px-2 py-1 md:px-3 md:py-2 mr-2 rounded-full flex items-center bg-gray-100 " + (isUpvote ? "dark:bg-gray-300 dark:text-gray-900 cursor-not-allowed" : "dark:bg-gray-900 dark:text-gray-200 cursor-pointer")}>
+                {...{ disabled: isUpvote }}
+                className={"px-2 py-1 md:px-3 md:py-2 mr-2 rounded-full flex items-center bg-gray-100 dark:bg-gray-900 dark:text-gray-200 cursor-pointer dark:disabled:bg-gray-300 dark:disabled:text-gray-900 disabled:cursor-not-allowed"}>
                 <FontAwesomeIcon icon={faThumbsUp} className="w-2 h-2 dark:text-primary-500" />
                 <span className="text-xs ml-2">{upvotes + Number(isUpvote)}</span>
             </button>
             <button
-                disabled={isDownvote}
                 onClick={handleDownvote}
-                className={"px-2 py-1 md:px-3 md:py-2 rounded-full flex items-center bg-gray-100 " + (isDownvote ? "dark:bg-gray-300 dark:text-gray-900 cursor-not-allowed" : "dark:bg-gray-900 dark:text-gray-200 cursor-pointer")}>
+                {...{ disabled: isDownvote }}
+                className={"px-2 py-1 md:px-3 md:py-2 rounded-full flex items-center bg-gray-100 dark:bg-gray-900 dark:text-gray-200 cursor-pointer dark:disabled:bg-gray-300 dark:disabled:text-gray-900 disabled:cursor-not-allowed"}>
                 <FontAwesomeIcon icon={faThumbsDown} className="w-2 h-2 dark:text-primary-500" />
                 <span className="text-xs ml-2">{downvotes + Number(isDownvote)}</span>
             </button>
