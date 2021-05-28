@@ -69,14 +69,14 @@ const FeedbackCounter = ({ external_id, upvotes, downvotes }) => {
             <button
                 onClick={handleUpvote}
                 disabled={isUpvote}
-                className={"px-2 py-1 md:px-3 md:py-2 mr-2 rounded-full flex items-center bg-gray-100 dark:bg-gray-900 dark:text-gray-200 cursor-pointer dark:disabled:bg-gray-300 dark:disabled:text-gray-900 disabled:cursor-not-allowed"}>
+                className={"px-2 py-1 md:px-3 md:py-2 mr-2 rounded-full flex items-center bg-gray-100 disabled:bg-gray-400 dark:bg-gray-900 dark:text-gray-200 cursor-pointer dark:disabled:bg-gray-300 dark:disabled:text-gray-900 disabled:cursor-not-allowed"}>
                 <FontAwesomeIcon icon={faThumbsUp} className="w-2 h-2 dark:text-primary-500" />
                 <span className="text-xs ml-2">{Number(upvotes) + Number(isUpvote)}</span>
             </button>
             <button
                 onClick={handleDownvote}
                 disabled={isDownvote}
-                className={"px-2 py-1 md:px-3 md:py-2 rounded-full flex items-center bg-gray-100 dark:bg-gray-900 dark:text-gray-200 cursor-pointer dark:disabled:bg-gray-300 dark:disabled:text-gray-900 disabled:cursor-not-allowed"}>
+                className={"px-2 py-1 md:px-3 md:py-2 rounded-full flex items-center bg-gray-100 disabled:bg-gray-400 dark:bg-gray-900 dark:text-gray-200 cursor-pointer dark:disabled:bg-gray-300 dark:disabled:text-gray-900 disabled:cursor-not-allowed"}>
                 <FontAwesomeIcon icon={faThumbsDown} className="w-2 h-2 dark:text-primary-500" />
                 <span className="text-xs ml-2">{Number(downvotes) + Number(isDownvote)}</span>
             </button>
