@@ -1,13 +1,10 @@
 import { faThumbsDown, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios'
-import Swal from 'sweetalert2'
-import withReactContent from 'sweetalert2-react-content'
 import { useGoogleReCaptcha, GoogleReCaptchaProvider } from 'react-google-recaptcha-v3'
 
 const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_KEY
-const MySwal = withReactContent(Swal)
 
 const FeedbackCounter = ({ external_id, upvotes, downvotes }) => {
 
@@ -54,24 +51,10 @@ const FeedbackCounter = ({ external_id, upvotes, downvotes }) => {
     const handleChoiceSubmission = async (feedback) => {
 
         const token = await executeRecaptcha('choice')
-        const res = await axios.post(process.env.NEXT_PUBLIC_FEEDBACK_API, {
+        axios.post(process.env.NEXT_PUBLIC_FEEDBACK_API, {
             feedback,
             external_id,
             "g-recaptcha-response": token
-        })
-
-        if (res.status !== 200) {
-            return MySwal.fire({
-                icon: 'error',
-                titleText: res?.data?.type || 'Error',
-                text: res?.data?.message || 'We could not submit feedback'
-            })
-        }
-
-        MySwal.fire({
-            icon: 'success',
-            titleText: res.data.type,
-            text: res.data.message
         })
     }
 
