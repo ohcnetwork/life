@@ -77,7 +77,7 @@ const Feedback = ({ external_id }) => {
     return (
         <div>
             {showFeedback && (
-                <div className="grid grid-flow-col grid-cols-2 grid-flow-row auto-rows-max gap-4 px-1 py-2">
+                <div className="grid grid-cols-2 grid-flow-row auto-rows-max gap-4 px-1 py-2">
                     <ChoicesButton />
                 </div>
             )}
