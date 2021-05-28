@@ -9,8 +9,6 @@ import { useGoogleReCaptcha, GoogleReCaptchaProvider } from 'react-google-recapt
 const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_KEY
 const MySwal = withReactContent(Swal)
 const choices = [
-    { name: 'Upvote', value: 0 },
-    { name: 'Downvote', value: 1 },
     { name: 'Verified And Available', value: 2 },
     { name: 'Verified And Unavailable', value: 3 }
 ]
@@ -81,7 +79,6 @@ const Feedback = ({ external_id }) => {
                     <ChoicesButton />
                 </div>
             )}
-
             <FeedbackButton />
         </div>
     )
