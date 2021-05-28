@@ -9,6 +9,7 @@ import { getHaversineDistance } from '@lib/utils';
 import Badge from './Badge';
 import Description from './Description';
 import Feedback from './Feedback'
+import FeedbackCounter from './FeedbackCounter';
 
 const ResourceCard = ({ data, type: filterType, currentLocation }) => {
 
@@ -191,11 +192,10 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
                     </span>
                 )}
                 <div className="flex items-center mx-1 mt-2 xs:my-0 xs:space-x-2">
-                    {/* TODO: Waiting for Endpoint from Backend */}
-                    {/* <FeedbackCounter upvotes={upvotes} downvotes={downvotes} /> */}
+                    <FeedbackCounter external_id={id} upvotes={upvotes} downvotes={downvotes} />
                 </div>
-                <div className="flex items-center mx-1 mt-2 xs:my-0 xs:space-x-2">
-                    {currentLocation && latitude && longitude && (
+                {currentLocation && latitude && longitude && (
+                    <div className="flex items-center mx-1 mt-2 xs:my-0 xs:space-x-2">
                         <span className="text-xs mt-2 xs:my-0">
                             <span className="text-secondary-400 dark:text-primary-300">Approximately</span>
                             <span className="font-bold">
@@ -206,10 +206,9 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
                             </span>
                             <span className="text-secondary-400 dark:text-primary-300">&nbsp;from your location</span>
                         </span>
-                    )}
-                </div>
+                    </div>
+                )}
             </div>
-
             <Feedback external_id={id} />
         </div>
     );
