@@ -9,8 +9,8 @@ import { useGoogleReCaptcha, GoogleReCaptchaProvider } from 'react-google-recapt
 const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_KEY
 const MySwal = withReactContent(Swal)
 const choices = [
-    { name: 'Verified And Available', value: 2 },
-    { name: 'Verified And Unavailable', value: 3 }
+    { name: 'Verified and Available', value: 2 },
+    { name: 'Verified and Unavailable', value: 3 }
 ]
 
 const Feedback = ({ external_id }) => {
@@ -24,7 +24,7 @@ const Feedback = ({ external_id }) => {
                 className="mx-1 my-2 bg-indigo-600 hover:bg-indigo-700 w-full h-10 rounded-md cursor-pointer text-gray-200"
                 onClick={() => setShowFeedback(!showFeedback)}
             >
-                {showFeedback ? 'Close' : 'Give feedback'}
+                {showFeedback ? 'Close' : 'Give Feedback'}
             </button>
         )
     }
@@ -32,6 +32,7 @@ const Feedback = ({ external_id }) => {
     const ChoicesButton = () => {
         return choices.map((choice, i) => (
             <button
+                disabled={loading}
                 className="py-2 border-gray-100 border-2 mx-2"
                 onClick={e => handleChoiceSubmission(e, choice.value)}
                 key={i}
