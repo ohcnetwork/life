@@ -179,18 +179,20 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
                 </div>
             </div>
             <div className="flex items-center justify-between py-1 px-3 flex-wrap text-secondary-500 dark:text-primary-500">
-                {last_verified_on && (
-                    <span className="text-xs mt-2 xs:my-0">
-                        <span className="text-secondary-400 dark:text-primary-300">Checked on: </span>
-                        <span className="font-bold">
-                            {
-                                Date.parse(last_verified_on) ?
-                                    <TimeAgo datetime={(new Date(last_verified_on))} />
-                                    : last_verified_on
-                            }
-                        </span>
-                    </span>
-                )}
+                <span className="text-xs mt-2 xs:my-0">
+                    {last_verified_on && (
+                        <>
+                            <span className="text-secondary-400 dark:text-primary-300">Checked on: </span>
+                            <span className="font-bold">
+                                {
+                                    Date.parse(last_verified_on) ?
+                                        <TimeAgo datetime={(new Date(last_verified_on))} />
+                                        : last_verified_on
+                                }
+                            </span>
+                        </>
+                    )}
+                </span>
                 <div className="flex items-center mx-1 mt-2 xs:my-0 xs:space-x-2">
                     <FeedbackCounter external_id={id} upvotes={upvotes} downvotes={downvotes} />
                 </div>
