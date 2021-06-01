@@ -115,7 +115,11 @@ module.exports = {
         }
     },
     variants: {
-        extend: {}
+        extend: {
+            backgroundColor: ['disabled'],
+            cursor: ['disabled'],
+            textColor: ['disabled']
+        }
     },
     plugins: [require('@tailwindcss/typography')()]
 };
