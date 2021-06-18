@@ -120,7 +120,21 @@ const partners = [
         name: 'Verified Leads',
         logoURL: '/static/partners/verified_leads.png',
         url: 'https://verifiedcovidleads.com/'
-        
+
+    },
+    {
+        id: '20',
+        name: 'DigiSwasthya Foundation',
+        logoURL: '/static/partners/digiswasthya.png',
+        url: 'https://digiswasthya.org/'
+
+    },
+    {
+        id: '21',
+        name: 'India Observatory',
+        logoURL: '/static/partners/indiaobservatory.png',
+        url: 'https://www.indiaobservatory.org.in/'
+
     }
 
 ];
