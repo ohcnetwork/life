@@ -85,7 +85,7 @@ const ResourceCard = ({ data, type: filterType, currentLocation }) => {
                             description && <Description text={description} />
                         }
                         {
-                            type === "Oxygen" &&
+                            (type === "Oxygen" || type === "Medicine") &&
                             <div className="flex flex-col">
                                 <div>
                                     <div className="text-sm xs:text-base font-medium flex items-center">
