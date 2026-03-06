@@ -42,5 +42,13 @@ export default [
     {
         name: 'اردو',
         code: 'UR'
+    },
+    {
+        name: 'ଓଡ଼ିଆ',
+        code: 'OR'
+    },
+    {
+        name: 'অসমীয়া',
+        code: 'AS'
     }
 ];
